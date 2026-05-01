@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A minimal demo of eslint-plugin-compat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "eslint-plugin-compat-demo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "eslint-plugin-compat-demo"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "aat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "abridged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "absorption"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compat",
+      "sense_id": "compat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compat",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compat",
+  "observation_id": "8560b9968b69b23d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "compat",
+  "source_context_snippet": "eslint-plugin-compat-demo",
+  "source_file": null,
+  "source_repo": "amilajack/eslint-plugin-compat-demo",
+  "source_repo_description": "A minimal demo of eslint-plugin-compat"
+}

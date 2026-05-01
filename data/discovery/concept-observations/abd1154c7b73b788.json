@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Home of the Prism Docs Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19696387,
+      "status": "candidate",
+      "text": "maui island"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19696386,
+      "status": "candidate",
+      "text": "shelter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19562536,
+      "status": "candidate",
+      "text": "mua"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19506902,
+      "status": "candidate",
+      "text": "moi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19168456,
+      "status": "candidate",
+      "text": "taha"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maui",
+      "sense_id": "maui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "maui island"
+    }
+  ],
+  "concept_id": "maui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maui",
+  "observation_id": "abd1154c7b73b788",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "maui",
+  "source_context_snippet": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/).",
+  "source_file": null,
+  "source_repo": "PrismLibrary/Prism-Documentation",
+  "source_repo_description": "Home of the Prism Docs Website"
+}

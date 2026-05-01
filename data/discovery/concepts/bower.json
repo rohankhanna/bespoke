@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "bower"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bower/bower",
+      "status": "candidate-context",
+      "text": "A package manager for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bower/bower",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/bower/bower/workflows/build/badge.svg)](https://github.com/bower/bower/actions?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bower/bower",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/bower/bower/workflows/build/badge.svg)](https://github.com/bower/bower/actions?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952759,
+      "status": "candidate",
+      "text": "arbour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951302,
+      "status": "candidate",
+      "text": "embower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951091,
+      "status": "candidate",
+      "text": "arbor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39874051,
+      "status": "candidate",
+      "text": "pergola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920208,
+      "status": "candidate",
+      "text": "nott"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19047,
+      "status": "candidate",
+      "text": "arbor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5027,
+      "status": "candidate",
+      "text": "arbour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4025,
+      "status": "candidate",
+      "text": "embower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "pergola"
+    }
+  ],
+  "canonical_name": "bower",
+  "concept_id": "bower",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bower/bower"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bower",
+      "sense_id": "bower#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,17 @@
+{
+  "component": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml",
+      "source_repo": "ClementTsang/bottom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ClementTsang/bottom"
+    }
+  ]
+}

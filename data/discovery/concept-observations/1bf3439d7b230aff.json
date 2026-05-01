@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Framework for transforming  Cascading Style Sheets (CSS) from Left-To-Right (LTR) to Right-To-Left (RTL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cascading-style-sheets",
+      "sense_id": "cascading-style-sheets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cascading-style-sheets",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cascading-style-sheets",
+  "observation_id": "1bf3439d7b230aff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "cascading-style-sheets",
+  "source_context_snippet": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)",
+  "source_file": null,
+  "source_repo": "MohammadYounes/rtlcss",
+  "source_repo_description": "Framework for transforming  Cascading Style Sheets (CSS) from Left-To-Right (LTR) to Right-To-Left (RTL)"
+}

@@ -175,6 +175,18 @@
       "source_repo": "openframeworks/openFrameworks",
       "status": "candidate-context",
       "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate-context",
+      "text": "Sampler, Sequencer, Multi-engine synth and effects - in a box! [WIP]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "openframeworks/openFrameworks",
       "status": "candidate",
       "text": "[openFrameworks](http://openframeworks.cc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +376,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "openframeworks/openFrameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bitfieldaudio/OTTO"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

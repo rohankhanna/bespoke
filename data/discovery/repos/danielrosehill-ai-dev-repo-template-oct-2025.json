@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "target": "ai-code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "target": "code-gen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "target": "scaffold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:31.096171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6359
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Updated AI assisted dev repo template (swap preferred CLI!)",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+    "html_url": "https://github.com/danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+    "language": null,
+    "pushed_at": "2025-10-29T13:26:48Z",
+    "stargazers_count": 1,
+    "topics": [
+      "ai-code-generation",
+      "code-gen",
+      "scaffold",
+      "template"
+    ],
+    "updated_at": "2025-12-16T21:56:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Version**: October 2025",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-code-generation"
+    },
+    {
+      "context_snippet": "**Version**: October 2025",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-gen"
+    },
+    {
+      "context_snippet": "**Version**: October 2025",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaffold"
+    },
+    {
+      "context_snippet": "**Version**: October 2025",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

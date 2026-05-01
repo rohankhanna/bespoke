@@ -91,6 +91,18 @@
       "source_repo": "galaxyproteomics/tools-galaxyp",
       "status": "candidate-context",
       "text": "Slash Command Dispatch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taichi-dev/taichi",
+      "status": "candidate-context",
+      "text": "Productive, portable, and performant GPU programming in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/taichi",
+      "status": "candidate-context",
+      "text": "Slash Command Dispatch"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "galaxyproteomics/tools-galaxyp",
+      "status": "candidate",
+      "text": "Slash Command Dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/taichi",
       "status": "candidate",
       "text": "Slash Command Dispatch"
     }
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/slash.yaml",
       "source_repo": "galaxyproteomics/tools-galaxyp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "taichi-dev/taichi"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

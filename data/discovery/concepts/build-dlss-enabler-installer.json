@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build DLSS-Enabler Installer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "status": "candidate-context",
+      "text": "Simulate DLSS Upscaler and DLSS-G Frame Generation features on any DirectX 12 compatible GPU in any DirectX 12 game that supports DLSS2 and DLSS3 natively."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "status": "candidate-context",
+      "text": "Build DLSS-Enabler Installer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "status": "candidate",
+      "text": "Build DLSS-Enabler Installer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12139,
+      "status": "candidate",
+      "text": "install"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12139,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12139,
+      "status": "candidate",
+      "text": "setup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11908,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11908,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build DLSS-Enabler Installer",
+  "concept_id": "build-dlss-enabler-installer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build DLSS-Enabler Installer",
+      "sense_id": "build-dlss-enabler-installer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

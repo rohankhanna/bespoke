@@ -84,7 +84,7 @@
   "normalized_form": "server-integration-tests",
   "observation_id": "3b56cab820779ebc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Server Integration Tests",
   "source_context_snippet": "Server Integration Tests",
   "source_file": ".github/workflows/server_integration_tests.yaml",

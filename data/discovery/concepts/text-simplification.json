@@ -19,6 +19,18 @@
       "source_repo": "grammarly/gector",
       "status": "candidate-context",
       "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feralvam/easse",
+      "status": "candidate-context",
+      "text": "Easier Automatic Sentence Simplification Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feralvam/easse",
+      "status": "candidate-context",
+      "text": "[**EASSE**](https://www.aclweb.org/anthology/D19-3009/) (**E**asier **A**utomatic **S**entence **S**implification **E**valuation) is a Python 3 package aiming to facilitate and standardise automatic evaluation and comparison of Sentence Simplification systems. ([*What is Sentenc\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "grammarly/gector",
       "status": "candidate",
       "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feralvam/easse",
+      "status": "candidate",
+      "text": "[**EASSE**](https://www.aclweb.org/anthology/D19-3009/) (**E**asier **A**utomatic **S**entence **S**implification **E**valuation) is a Python 3 package aiming to facilitate and standardise automatic evaluation and comparison of Sentence Simplification systems. ([*What is Sentenc\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "grammarly/gector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "feralvam/easse"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

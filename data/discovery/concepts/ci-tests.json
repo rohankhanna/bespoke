@@ -224,6 +224,12 @@
       "source_repo": "datalab-to/marker",
       "status": "candidate-context",
       "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chipsalliance/fpga-interchange-schema",
+      "status": "candidate-context",
+      "text": "CI tests"
     }
   ],
   "candidate_glosses": [
@@ -332,6 +338,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "datalab-to/marker",
+      "status": "candidate",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chipsalliance/fpga-interchange-schema",
       "status": "candidate",
       "text": "CI tests"
     }
@@ -533,11 +545,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/commonmark.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/fpga-interchange-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/marker"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

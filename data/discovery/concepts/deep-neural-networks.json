@@ -343,6 +343,30 @@
       "source_repo": "patrick-kidger/signatory",
       "status": "candidate-context",
       "text": "|Signatory|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "Improved Residual Networks (https://arxiv.org/pdf/2004.04989.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +537,18 @@
       "source_repo": "patrick-kidger/signatory",
       "status": "candidate",
       "text": "|Signatory|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -796,11 +832,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "iduta/iresnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

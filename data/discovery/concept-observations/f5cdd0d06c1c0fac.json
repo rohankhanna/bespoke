@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "If only std::set was a DBMS: collection of templated ACID in-memory exception-free thread-safe and concurrent containers in a header-only library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945468,
+      "status": "candidate",
+      "text": "bitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945461,
+      "status": "candidate",
+      "text": "acerb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945286,
+      "status": "candidate",
+      "text": "acerbic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945092,
+      "status": "candidate",
+      "text": "acrid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892602,
+      "status": "candidate",
+      "text": "caustic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "acid",
+      "sense_id": "acid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61029,
+      "status": "candidate",
+      "text": "acerbic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57054,
+      "status": "candidate",
+      "text": "caustic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48042,
+      "status": "candidate",
+      "text": "virulent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42044,
+      "status": "candidate",
+      "text": "acrid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40034,
+      "status": "candidate",
+      "text": "vitriolic"
+    }
+  ],
+  "concept_id": "acid",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "acid",
+  "observation_id": "f5cdd0d06c1c0fac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "acid",
+  "source_context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+  "source_file": null,
+  "source_repo": "ashvardanian/SmashTable",
+  "source_repo_description": "If only std::set was a DBMS: collection of templated ACID in-memory exception-free thread-safe and concurrent containers in a header-only library"
+}

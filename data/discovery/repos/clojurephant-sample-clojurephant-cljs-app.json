@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "target": "clojurephant/clojurephant-tooling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "target": "clojurephant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "target": "gradle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:24:13.121421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Sample project using clojurephant to build a ClojureScript app.",
+    "fork": false,
+    "full_name": "clojurephant/sample-clojurephant-cljs-app",
+    "html_url": "https://github.com/clojurephant/sample-clojurephant-cljs-app",
+    "language": "Clojure",
+    "pushed_at": "2025-04-14T00:11:28Z",
+    "stargazers_count": 0,
+    "topics": [
+      "clojurephant",
+      "clojurescript",
+      "gradle"
+    ],
+    "updated_at": "2025-11-06T23:11:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojurephant/clojurephant-tooling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurephant"
+    },
+    {
+      "context_snippet": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    }
+  ]
+}

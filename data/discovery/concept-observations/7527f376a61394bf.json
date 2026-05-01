@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minor mode for Emacs to improve English writing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Minor mode for Emacs to improve English writing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Minor mode for Emacs to improve English writing"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emacs-mode",
+      "sense_id": "emacs-mode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emacs-mode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emacs-mode",
+  "observation_id": "7527f376a61394bf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "emacs-mode",
+  "source_context_snippet": "Minor mode for Emacs to improve English writing",
+  "source_file": null,
+  "source_repo": "bnbeckwith/writegood-mode",
+  "source_repo_description": "Minor mode for Emacs to improve English writing"
+}

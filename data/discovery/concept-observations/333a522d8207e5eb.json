@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simplifies getting the right configuration options for a request using loaded configurations from files to manage options for experiments or flights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051478,
+      "status": "candidate",
+      "text": "choice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042458,
+      "status": "candidate",
+      "text": "alternative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "abilities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "actions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "alternatives"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "options",
+      "sense_id": "options#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "options",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "options",
+  "observation_id": "333a522d8207e5eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "options",
+  "source_context_snippet": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect.",
+  "source_file": null,
+  "source_repo": "juharris/dotnet-OptionsProvider",
+  "source_repo_description": "Simplifies getting the right configuration options for a request using loaded configurations from files to manage options for experiments or flights."
+}

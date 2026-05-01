@@ -259,6 +259,42 @@
       "source_repo": "jaredwray/keyv",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "The easiest, and most secure way to access and protect all of your infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate-context",
+      "text": "Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "jaredwray/keyv",
       "status": "candidate",
       "text": "<h1 align=\"center\"><img width=\"250\" src=\"https://jaredwray.com/images/keyv.svg\" alt=\"keyv\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
     }
   ],
   "candidate_related_terms": [
@@ -562,11 +616,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "jaredwray/keyv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ts-safeql/safeql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

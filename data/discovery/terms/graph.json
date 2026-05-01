@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -116,6 +116,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/Graphormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
     }
   ],
   "term": "graph"

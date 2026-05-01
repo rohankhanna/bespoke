@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AKS Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and publish to MCR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and publish to MCR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14320,
+      "status": "candidate",
+      "text": "deaconess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14320,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "absorbance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "density"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10320,
+      "status": "candidate",
+      "text": "flux"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish to MCR",
+      "sense_id": "build-and-publish-to-mcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-publish-to-mcr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-publish-to-mcr",
+  "observation_id": "5964326acd176728",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Build and publish to MCR",
+  "source_context_snippet": "Build and publish to MCR",
+  "source_file": ".github/workflows/build-publish-mcr.yml",
+  "source_repo": "Azure/karpenter-provider-azure",
+  "source_repo_description": "AKS Karpenter Provider"
+}

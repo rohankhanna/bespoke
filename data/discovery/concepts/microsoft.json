@@ -235,6 +235,30 @@
       "source_repo": "dotnet-architecture/eShopOnWeb",
       "status": "candidate-context",
       "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate-context",
+      "text": "This repo is used for servicing PR's for .NET Core 2.1 and 3.1. Please visit us at https://github.com/dotnet/runtime "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate-context",
+      "text": "Going forward, the .NET team is using https://github.com/dotnet/runtime to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate-context",
+      "text": "The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate-context",
+      "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +375,18 @@
       "source_repo": "dotnet-architecture/eShopOnWeb",
       "status": "candidate",
       "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate",
+      "text": "Going forward, the .NET team is using https://github.com/dotnet/runtime to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate",
+      "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -585,11 +621,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/corefx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

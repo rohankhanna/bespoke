@@ -559,6 +559,60 @@
       "source_repo": "intel/pcm",
       "status": "candidate-context",
       "text": "--------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate-context",
+      "text": "Collect and aggregate Telemetry events over time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus",
+      "status": "candidate-context",
+      "text": "Complete Telemetry.Metrics Reporter solution for Prometheus "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master.svg?style=svg)](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master) [![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus/branch/mast\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "Yet another cross-platform graphical process/system monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate-context",
+      "text": "monitoring"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core",
+      "status": "candidate-context",
+      "text": "Core Prometheus Telemetry.Metrics Reporter package for telemetry_metrics_prometheus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core/branch/master/graph/badge.svg?token=ZukGAUDLwH)](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core) [![Hex](https://img.shields.io/hexpm/v/telemetry_metrics_prometheus_core.sv\u2026"
     }
   ],
   "candidate_glosses": [
@@ -837,6 +891,36 @@
       "source_repo": "intel/pcm",
       "status": "candidate",
       "text": "--------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master.svg?style=svg)](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master) [![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus/branch/mast\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core/branch/master/graph/badge.svg?token=ZukGAUDLwH)](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core) [![Hex](https://img.shields.io/hexpm/v/telemetry_metrics_prometheus_core.sv\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1246,11 +1330,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry_metrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ClementTsang/bottom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "openlit/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "prasmussen/google-apis-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_linux.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "Build and upload release (linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_macos.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_macos.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_macos.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "Build and upload release (macos)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_windows.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_windows.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_windows.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "Build and upload release (windows)",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "glotlabs/gdrive"
+}

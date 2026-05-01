@@ -43,6 +43,18 @@
       "source_repo": "sindrets/diffview.nvim",
       "status": "candidate-context",
       "text": "Single tabpage interface for easily cycling through diffs for all modified files"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "Git integration for buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/lewis6991/gitsigns.nvim/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lewis6991/gitsigns.nvim/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "sindrets/diffview.nvim",
       "status": "candidate",
       "text": "Single tabpage interface for easily cycling through diffs for all modified files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/lewis6991/gitsigns.nvim/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lewis6991/gitsigns.nvim/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "sindrets/diffview.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/gitsigns.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

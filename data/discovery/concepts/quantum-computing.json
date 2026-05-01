@@ -19,12 +19,48 @@
       "source_repo": "Infleqtion/client-superstaq",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/Grassmann.jl",
+      "status": "candidate-context",
+      "text": "\u27e8Grassmann-Clifford-Hodge\u27e9 differential geometric algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Grassmann.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Infleqtion/client-superstaq",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Grassmann.jl",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Infleqtion/client-superstaq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgnostiqHQ/covalent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/Grassmann.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

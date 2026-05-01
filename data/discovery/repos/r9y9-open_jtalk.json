@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yaml"
+    },
+    {
+      "component": "haya14busa/action-cond@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yaml",
+      "source_repo": "r9y9/open_jtalk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yaml",
+      "source_repo": "r9y9/open_jtalk",
+      "target": "haya14busa/action-cond@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:28:31.882838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/ccpp.yaml",
+      "size": 2047
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "1.11",
+    "description": "A fork of open_jtalk",
+    "fork": false,
+    "full_name": "r9y9/open_jtalk",
+    "html_url": "https://github.com/r9y9/open_jtalk",
+    "language": "C++",
+    "pushed_at": "2025-03-31T15:03:05Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-04-06T09:20:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

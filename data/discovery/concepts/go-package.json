@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "go-package"
+    "go-package",
+    "Go package"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "1set/cronrange",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitly/go-simplejson",
+      "status": "candidate-context",
+      "text": "a Go package to interact with arbitrary JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitly/go-simplejson",
+      "status": "candidate-context",
+      "text": "Go package"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "1set/cronrange",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitly/go-simplejson",
+      "status": "candidate",
+      "text": "Go package"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13081,
+      "status": "candidate",
+      "text": "all"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13081,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13081,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13081,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13081,
+      "status": "candidate",
+      "text": "come"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "go-package",
   "concept_id": "go-package",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "1set/cronrange"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bitly/go-simplejson"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

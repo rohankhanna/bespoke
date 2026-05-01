@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "zzh-tju/diou-darknet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "zzh-tju/diou",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "charlesshang/dcnv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "dbolya/yolact",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "ciou",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "cluster-nms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "diou",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zzh-tju/CIoU",
+      "target": "yolact",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:04:45.058502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression (AAAI 2020)",
+    "fork": false,
+    "full_name": "Zzh-tju/CIoU",
+    "html_url": "https://github.com/Zzh-tju/CIoU",
+    "language": "Python",
+    "pushed_at": "2023-12-31T07:52:26Z",
+    "stargazers_count": 336,
+    "topics": [
+      "ciou",
+      "cluster-nms",
+      "diou",
+      "instance-segmentation",
+      "object-detection",
+      "yolact"
+    ],
+    "updated_at": "2025-12-01T08:58:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlesshang/dcnv2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dbolya/yolact",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zzh-tju/diou",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zzh-tju/diou-darknet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"CIoU.png\" width=\"800px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ciou"
+    },
+    {
+      "context_snippet": "<img src=\"CIoU.png\" width=\"800px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cluster-nms"
+    },
+    {
+      "context_snippet": "<img src=\"CIoU.png\" width=\"800px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diou"
+    },
+    {
+      "context_snippet": "<img src=\"CIoU.png\" width=\"800px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "<img src=\"CIoU.png\" width=\"800px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<img src=\"CIoU.png\" width=\"800px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolact"
+    }
+  ]
+}

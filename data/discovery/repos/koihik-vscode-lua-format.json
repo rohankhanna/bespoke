@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/vscode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Koihik/vscode-lua-format",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Koihik/vscode-lua-format",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Koihik/vscode-lua-format",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Koihik/vscode-lua-format",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Koihik/vscode-lua-format",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Koihik/vscode-lua-format",
+      "target": "@types/vscode",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:28:14.331052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 400
+    },
+    {
+      "path": "package.json",
+      "size": 1850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reformats your Lua source code",
+    "fork": false,
+    "full_name": "Koihik/vscode-lua-format",
+    "html_url": "https://github.com/Koihik/vscode-lua-format",
+    "language": "TypeScript",
+    "pushed_at": "2022-04-09T19:44:33Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2025-06-22T14:13:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

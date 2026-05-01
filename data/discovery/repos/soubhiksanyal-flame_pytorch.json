@@ -1,0 +1,350 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "rubikplayer/flame-fitting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "timobolkart/bfm_to_flame",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "anuragranj/coma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "parthaeth/gif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "3d-landmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "3d-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "3d-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "dynamic-conture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "face-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "face-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "fitting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "flame-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "morphable-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "pose-dependent-conture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "target": "statistical-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:05:49.132716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4875
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is a implementation of the 3D FLAME model in PyTorch",
+    "fork": false,
+    "full_name": "soubhiksanyal/FLAME_PyTorch",
+    "html_url": "https://github.com/soubhiksanyal/FLAME_PyTorch",
+    "language": "Python",
+    "pushed_at": "2023-05-23T17:18:48Z",
+    "stargazers_count": 799,
+    "topics": [
+      "3d",
+      "3d-graphics",
+      "3d-landmarks",
+      "3d-mesh",
+      "3d-models",
+      "3d-reconstruction",
+      "computer-graphics",
+      "computer-vision",
+      "dynamic-conture",
+      "face",
+      "face-model",
+      "face-reconstruction",
+      "fitting",
+      "flame",
+      "flame-model",
+      "morphable-model",
+      "pose-dependent-conture",
+      "python3",
+      "pytorch",
+      "statistical-models"
+    ],
+    "updated_at": "2026-04-25T18:52:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anuragranj/coma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parthaeth/gif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubikplayer/flame-fitting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timobolkart/bfm_to_flame",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-landmarks"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-mesh"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-models"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-conture"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-model"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-reconstruction"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fitting"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-model"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "morphable-model"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-dependent-conture"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistical-models"
+    }
+  ]
+}

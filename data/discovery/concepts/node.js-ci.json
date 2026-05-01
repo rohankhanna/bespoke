@@ -757,6 +757,66 @@
       "source_repo": "aksakalli/gtop",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyjansson/postcss-functions",
+      "status": "candidate-context",
+      "text": "PostCSS plugin for exposing JavaScript functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyjansson/postcss-functions",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Freed-Wu/coc-write-good",
+      "status": "candidate-context",
+      "text": "Port vscode-write-good to coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Freed-Wu/coc-write-good",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-css-languageservice",
+      "status": "candidate-context",
+      "text": "CSS, LESS & SCSS language service extracted from VSCode to be reused, e.g in the Monaco editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-css-languageservice",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andylockran/spectral-aws-apigateway-ruleset",
+      "status": "candidate-context",
+      "text": "Spectral Ruleset for AWS API Gateway important notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andylockran/spectral-aws-apigateway-ruleset",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gcanti/fp-ts",
+      "status": "candidate-context",
+      "text": "Functional programming in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gcanti/fp-ts",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -1129,6 +1189,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aksakalli/gtop",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyjansson/postcss-functions",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Freed-Wu/coc-write-good",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-css-languageservice",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andylockran/spectral-aws-apigateway-ruleset",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gcanti/fp-ts",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -1756,11 +1846,71 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "andyjansson/postcss-functions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Freed-Wu/coc-write-good"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "microsoft/vscode-css-languageservice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "andylockran/spectral-aws-apigateway-ruleset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gcanti/fp-ts"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

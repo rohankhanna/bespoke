@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "monad"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seangwright/typescript-functional-extensions",
+      "status": "candidate-context",
+      "text": "A TypeScript implementation of the C# library CSharpFunctionalExtensions, including synchronous and asynchronous Maybe and Result monads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seangwright/typescript-functional-extensions",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/typescript-functional-extensions.png)](https://nodei.co/npm/typescript-functional-extensions/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seangwright/typescript-functional-extensions",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/typescript-functional-extensions.png)](https://nodei.co/npm/typescript-functional-extensions/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021350,
+      "status": "candidate",
+      "text": "monas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999284,
+      "status": "candidate",
+      "text": "demiurgic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990590,
+      "status": "candidate",
+      "text": "leibnitzian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984897,
+      "status": "candidate",
+      "text": "leibnizian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29960013,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "monas"
+    }
+  ],
+  "canonical_name": "monad",
+  "concept_id": "monad",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "seangwright/typescript-functional-extensions"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monad",
+      "sense_id": "monad#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

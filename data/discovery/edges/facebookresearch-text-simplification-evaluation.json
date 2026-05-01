@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/text-simplification-evaluation",
+      "target": "ghpaetzold/questplusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/text-simplification-evaluation",
+      "target": "snover/terp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "facebookresearch/text-simplification-evaluation",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "facebookresearch/text-simplification-evaluation"
+}

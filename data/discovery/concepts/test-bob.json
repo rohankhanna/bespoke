@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "test-bob"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/bob",
+      "status": "candidate-context",
+      "text": "(Deprecated) Builder of Bits, powered MDN's interactive examples 2018\u20132025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/bob",
+      "status": "candidate-context",
+      "text": "test-bob"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/bob",
+      "status": "candidate",
+      "text": "test-bob"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "test-bob",
+  "concept_id": "test-bob",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mdn/bob"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-bob",
+      "sense_id": "test-bob#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

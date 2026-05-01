@@ -91,6 +91,30 @@
       "source_repo": "alloc/vite-plugin-compress",
       "status": "candidate-context",
       "text": "[![npm](https://img.shields.io/npm/v/vite-plugin-compress.svg)](https://www.npmjs.com/package/vite-plugin-compress)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "Generate favicons for your project with caching for blazing fast rebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate-context",
+      "text": "A plugin for injecting <link rel='preload'> for ViteJS, HTMLWebpackPlugin and HTMLRspackPlugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate-context",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "alloc/vite-plugin-compress",
       "status": "candidate",
       "text": "[![npm](https://img.shields.io/npm/v/vite-plugin-compress.svg)](https://www.npmjs.com/package/vite-plugin-compress)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +226,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "alloc/vite-plugin-compress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Applelo/unplugin-inject-preload"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

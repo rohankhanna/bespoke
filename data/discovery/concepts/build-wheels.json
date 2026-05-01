@@ -483,6 +483,42 @@
       "source_repo": "LuisaGroup/LuisaCompute",
       "status": "candidate-context",
       "text": "build-wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate-context",
+      "text": "A JSON5 serializer and parser library for Python 3 written in Cython."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate-context",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjlin1/liblinear",
+      "status": "candidate-context",
+      "text": "LIBLINEAR -- A Library for Large Linear Classification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjlin1/liblinear",
+      "status": "candidate-context",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjlin1/libsvm",
+      "status": "candidate-context",
+      "text": "LIBSVM -- A Library for Support Vector Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjlin1/libsvm",
+      "status": "candidate-context",
+      "text": "Build wheels"
     }
   ],
   "candidate_glosses": [
@@ -725,6 +761,24 @@
       "source_repo": "LuisaGroup/LuisaCompute",
       "status": "candidate",
       "text": "build-wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjlin1/liblinear",
+      "status": "candidate",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjlin1/libsvm",
+      "status": "candidate",
+      "text": "Build wheels"
     }
   ],
   "candidate_related_terms": [
@@ -1068,11 +1122,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/build-wheels.yml",
       "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "Kijewski/pyjson5"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/liblinear"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/libsvm"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

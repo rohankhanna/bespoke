@@ -79,6 +79,18 @@
       "source_repo": "ardalis/Result",
       "status": "candidate-context",
       "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate-context",
+      "text": "A functional-first toolkit for building brilliant ASP.NET Core applications using F#."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate-context",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.svg)](https://www.nuget.org/packages/Falco)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ardalis/Result",
       "status": "candidate",
       "text": "[![Ardalis.Result - NuGet](https://img.shields.io/nuget/v/Ardalis.Result.svg?label=Ardalis.Result%20-%20nuget)](https://www.nuget.org/packages/Ardalis.Result) [![NuGet](https://img.shields.io/nuget/dt/Ardalis.Result.svg)](https://www.nuget.org/packages/Ardalis.Result) [![Build S\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.svg)](https://www.nuget.org/packages/Falco)"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +256,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ardalis/Result"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hinshun/vt10x",
+      "target": "ansi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hinshun/vt10x",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hinshun/vt10x",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hinshun/vt10x",
+      "target": "terminal-emulators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hinshun/vt10x",
+      "target": "vt100",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:03.703019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 451
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package vt10x is a vt10x terminal emulation backend.",
+    "fork": true,
+    "full_name": "hinshun/vt10x",
+    "html_url": "https://github.com/hinshun/vt10x",
+    "language": "Go",
+    "pushed_at": "2023-12-06T07:22:07Z",
+    "stargazers_count": 47,
+    "topics": [
+      "ansi",
+      "golang",
+      "terminal",
+      "terminal-emulators",
+      "vt100"
+    ],
+    "updated_at": "2026-04-03T19:54:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulators"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vt100"
+    }
+  ]
+}

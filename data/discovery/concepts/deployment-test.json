@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deployment Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate-context",
+      "text": "Declarative UI toolkit for modern C++20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate-context",
+      "text": "Deployment Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate",
+      "text": "Deployment Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12326,
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12326,
+      "status": "candidate",
+      "text": "equipment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12326,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12326,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11305,
+      "status": "candidate",
+      "text": "allocation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deployment Test",
+  "concept_id": "deployment-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/deployment-test.yml",
+      "source_repo": "aui-framework/aui"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deployment Test",
+      "sense_id": "deployment-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

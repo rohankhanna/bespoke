@@ -31,6 +31,18 @@
       "source_repo": "WeikaiTan/Toronto-3D",
       "status": "candidate-context",
       "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/bevfusion",
+      "status": "candidate-context",
+      "text": "[ICRA'23] BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/bevfusion",
+      "status": "candidate-context",
+      "text": "![demo](assets/demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "WeikaiTan/Toronto-3D",
       "status": "candidate",
       "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/bevfusion",
+      "status": "candidate",
+      "text": "![demo](assets/demo.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "WeikaiTan/Toronto-3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D-ML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/bevfusion"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

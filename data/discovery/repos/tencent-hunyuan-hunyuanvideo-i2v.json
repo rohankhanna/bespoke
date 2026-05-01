@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V",
+      "target": "image-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V",
+      "target": "image-to-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V",
+      "target": "videogeneration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:27:28.872588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25459
+    },
+    {
+      "path": "requirements.txt",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HunyuanVideo-I2V: A Customizable Image-to-Video Model based on HunyuanVideo",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanVideo-I2V",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V",
+    "language": "Python",
+    "pushed_at": "2026-04-07T06:13:09Z",
+    "stargazers_count": 1812,
+    "topics": [
+      "diffusion-models",
+      "image-to-video",
+      "image-to-video-generation",
+      "videogeneration"
+    ],
+    "updated_at": "2026-04-29T12:26:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- ## **HunyuanVideo** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanVideo** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanVideo** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video-generation"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanVideo** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videogeneration"
+    }
+  ]
+}

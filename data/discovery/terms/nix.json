@@ -1,7 +1,7 @@
 {
   "discovered_via": "github-hosted-files",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -63,6 +63,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "90-008/nix-cargo-integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ocaml/merlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ocaml/ocaml-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ocamllabs/vscode-ocaml-platform"
     }
   ],
   "term": "Nix"

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "scene-classification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "status": "candidate-context",
+      "text": "The official repo for [IJCAI'24] \"LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "scene-classification",
+  "concept_id": "scene-classification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scene-classification",
+      "sense_id": "scene-classification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

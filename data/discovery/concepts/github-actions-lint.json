@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "GitHub Actions lint"
+    "GitHub Actions lint",
+    "GitHub Actions Lint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ChainSafe/forest",
       "status": "candidate-context",
       "text": "GitHub Actions lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate-context",
+      "text": "The administration framework for Ruby on Rails applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate-context",
+      "text": "GitHub Actions Lint"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ChainSafe/forest",
       "status": "candidate",
       "text": "GitHub Actions lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate",
+      "text": "GitHub Actions Lint"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/actions-lint.yml",
       "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/activeadmin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

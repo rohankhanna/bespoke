@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/pymicrodata",
+      "target": "rdflib/pyrdfa3.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:13:44.985521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3269
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This a module to extract RDF from an HTML5 page annotated with microdata. The module implements the algorithm defined and published by the W3C Semantic Web Interest Group task force, in March 2012. The module can be used to produce serialized versions of the extracted graph, or simply an RDFLib Graph Object.",
+    "fork": false,
+    "full_name": "RDFLib/pymicrodata",
+    "html_url": "https://github.com/RDFLib/pymicrodata",
+    "language": "HTML",
+    "pushed_at": "2022-06-21T04:15:50Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-01-19T22:00:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdflib/pyrdfa3.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

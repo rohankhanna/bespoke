@@ -22,20 +22,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/lab",
-      "target": "ttimo/bspc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/lab",
-      "target": "ttimo/gtkradiant",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/precommit.yml",
       "source_repo": "google-deepmind/lab",
@@ -78,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T20:00:16.897235+00:00",
+  "fetched_at": "2026-05-01T09:15:17.979073+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -117,16 +103,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "deepmind/lab",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ttimo/bspc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ttimo/gtkradiant",
       "source_file": "README.md"
     }
   ],

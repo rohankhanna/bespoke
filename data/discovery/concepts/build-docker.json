@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build Docker",
-    "build-docker"
+    "build-docker",
+    "build docker"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "VOICEVOX/voicevox_engine",
       "status": "candidate-context",
       "text": "build-docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate-context",
+      "text": "Abstractions to probably serialize and deserialize things properly without forgetting or doubling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate-context",
+      "text": "build docker"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "VOICEVOX/voicevox_engine",
       "status": "candidate",
       "text": "build-docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate",
+      "text": "build docker"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +144,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-engine-container.yml",
       "source_repo": "VOICEVOX/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "holochain/holochain-serialization"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -229,6 +229,18 @@
       "source_repo": "hyperbrew/bolt-cep",
       "status": "candidate-context",
       "text": "<img src=\"src/js/assets/bolt-cep.svg\" alt=\"Bolt CEP\" title=\"Bolt CEP\" width=\"400\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/sass-loader",
+      "status": "candidate-context",
+      "text": "Compiles Sass to CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/sass-loader",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +357,12 @@
       "source_repo": "hyperbrew/bolt-cep",
       "status": "candidate",
       "text": "<img src=\"src/js/assets/bolt-cep.svg\" alt=\"Bolt CEP\" title=\"Bolt CEP\" width=\"400\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/sass-loader",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -531,11 +549,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hyperbrew/bolt-cep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpack/sass-loader"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

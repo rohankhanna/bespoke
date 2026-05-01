@@ -106,7 +106,7 @@
   "normalized_form": "binary",
   "observation_id": "59207d2047dfb3d5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Binary",
   "source_context_snippet": "Binary",
   "source_file": ".github/workflows/binary.yml",

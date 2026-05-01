@@ -127,6 +127,18 @@
       "source_repo": "llnl/RAJA",
       "status": "candidate-context",
       "text": "[comment]: # (#################################################################)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "A flyweight in situ visualization and analysis runtime for multi-physics HPC simulations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "Ascent"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "llnl/RAJA",
       "status": "candidate",
       "text": "[comment]: # (#################################################################)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate",
+      "text": "Ascent"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

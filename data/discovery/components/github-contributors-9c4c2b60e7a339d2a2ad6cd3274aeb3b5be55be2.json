@@ -1,0 +1,12 @@
+{
+  "component": "github/contributors@9c4c2b60e7a339d2a2ad6cd3274aeb3b5be55be2",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "mdn/mdn-community"
+    }
+  ]
+}

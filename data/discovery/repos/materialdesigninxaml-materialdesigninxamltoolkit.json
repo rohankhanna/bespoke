@@ -1,0 +1,605 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/control_styles.yml"
+    },
+    {
+      "component": "docker://decathlon/wiki-page-creator-action:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/control_styles.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "Keboo/GitHubHelper@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_contributors.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/icon_update.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_release.yml"
+    },
+    {
+      "component": "fastify/github-action-merge-dependabot@v3.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_verification.yml"
+    },
+    {
+      "component": "Keboo/GitHubHelper@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "mahapps/mahapps.metro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "keboo/materialdesigninxaml.examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "controlzex/controlzex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "ignacemaes/materialskin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_artifacts.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_artifacts.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Build Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/control_styles.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/control_styles.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "docker://decathlon/wiki-page-creator-action:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/control_styles.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Wiki - Update Control Styles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_contributors.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Keboo/GitHubHelper@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_contributors.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Generate Milestone Contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get_versions.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Setup Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/icon_update.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/icon_update.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Icon Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_release.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_release.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Nightly Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_verification.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "fastify/github-action-merge-dependabot@v3.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_verification.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Pull Request Verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Keboo/GitHubHelper@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "Production Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "dragablz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "hacktoberfest2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "material",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "target": "xaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:04:07.236922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14151
+    },
+    {
+      "path": ".github/workflows/build_artifacts.yml",
+      "size": 2420
+    },
+    {
+      "path": ".github/workflows/control_styles.yml",
+      "size": 881
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 899
+    },
+    {
+      "path": ".github/workflows/generate_contributors.yml",
+      "size": 857
+    },
+    {
+      "path": ".github/workflows/get_versions.yml",
+      "size": 2117
+    },
+    {
+      "path": ".github/workflows/icon_update.yml",
+      "size": 1483
+    },
+    {
+      "path": ".github/workflows/nightly_release.yml",
+      "size": 2292
+    },
+    {
+      "path": ".github/workflows/pr_verification.yml",
+      "size": 565
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 11086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Google's Material Design in XAML & WPF, for C# & VB.Net. ",
+    "fork": false,
+    "full_name": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+    "html_url": "https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+    "language": "C#",
+    "pushed_at": "2026-05-01T07:31:54Z",
+    "stargazers_count": 16128,
+    "topics": [
+      "c-sharp",
+      "design",
+      "dragablz",
+      "hacktoberfest",
+      "hacktoberfest2020",
+      "material",
+      "material-design",
+      "theme",
+      "wpf",
+      "xaml"
+    ],
+    "updated_at": "2026-05-01T07:43:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "controlzex/controlzex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ignacemaes/materialskin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keboo/materialdesigninxaml.examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahapps/mahapps.metro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_artifacts.yml",
+      "term": "Build Artifacts"
+    },
+    {
+      "context_snippet": "Wiki - Update Control Styles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/control_styles.yml",
+      "term": "Wiki - Update Control Styles"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Generate Milestone Contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_contributors.yml",
+      "term": "Generate Milestone Contributors"
+    },
+    {
+      "context_snippet": "Setup Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get_versions.yml",
+      "term": "Setup Versions"
+    },
+    {
+      "context_snippet": "Icon Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/icon_update.yml",
+      "term": "Icon Update"
+    },
+    {
+      "context_snippet": "Nightly Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_release.yml",
+      "term": "Nightly Release"
+    },
+    {
+      "context_snippet": "Pull Request Verification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_verification.yml",
+      "term": "Pull Request Verification"
+    },
+    {
+      "context_snippet": "Production Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Production Release"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dragablz"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2020"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xaml"
+    }
+  ]
+}

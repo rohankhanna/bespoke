@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:35:37.641037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 353
+    },
+    {
+      "path": "package.json",
+      "size": 2970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "alpha",
+    "description": null,
+    "fork": false,
+    "full_name": "dcloudio/hello-uvue",
+    "html_url": "https://github.com/dcloudio/hello-uvue",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-04T08:33:47Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-03-16T03:34:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

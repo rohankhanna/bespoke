@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "w3c/distributed-tracing-wg",
+      "target": "distributed-tracing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:14:28.304856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Distributed Tracing Working Group",
+    "fork": false,
+    "full_name": "w3c/distributed-tracing-wg",
+    "html_url": "https://github.com/w3c/distributed-tracing-wg",
+    "language": null,
+    "pushed_at": "2024-02-27T22:38:50Z",
+    "stargazers_count": 44,
+    "topics": [
+      "distributed-tracing",
+      "w3c"
+    ],
+    "updated_at": "2026-02-20T13:38:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is associated with the [Distributed Tracing Working",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-tracing"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rjpcomputing/luaforwindows",
+      "target": "ittner/lua-gd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rjpcomputing/luaforwindows",
+      "target": "fab13n/metalua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rjpcomputing/luaforwindows",
+      "target": "jmaygarden/gzio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rjpcomputing/luaforwindows",
+      "target": "harningt/luajson",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "rjpcomputing/luaforwindows"
+}

@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/memcheck.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/memcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "kei500/liblinear-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "tomz/liblinear-ruby-swig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "red-data-tools/red-datasets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "cjlin1/liblinear",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/memcheck.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/memcheck.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/memcheck.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "memcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "rubocop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "liblinear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-liblinear",
+      "target": "rubyml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:27:05.793650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6046
+    },
+    {
+      "path": "package.json",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/memcheck.yml",
+      "size": 540
+    },
+    {
+      "path": ".github/workflows/rubocop.yml",
+      "size": 392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Numo::Liblinear is a Ruby gem binding to the LIBLINEAR",
+    "fork": false,
+    "full_name": "yoshoku/numo-liblinear",
+    "html_url": "https://github.com/yoshoku/numo-liblinear",
+    "language": "C++",
+    "pushed_at": "2026-03-02T14:04:56Z",
+    "stargazers_count": 0,
+    "topics": [
+      "liblinear",
+      "machine-learning",
+      "ml",
+      "ruby",
+      "rubyml",
+      "svm"
+    ],
+    "updated_at": "2026-03-02T14:05:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjlin1/liblinear",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kei500/liblinear-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "red-data-tools/red-datasets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomz/liblinear-ruby-swig",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "memcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/memcheck.yml",
+      "term": "memcheck"
+    },
+    {
+      "context_snippet": "rubocop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "term": "rubocop"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liblinear"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubyml"
+    }
+  ]
+}

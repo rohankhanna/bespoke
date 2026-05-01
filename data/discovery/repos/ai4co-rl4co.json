@@ -1,0 +1,453 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4co/rl4co",
+      "target": "pytorch/rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4co/rl4co",
+      "target": "pytorch-labs/tensordict",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4co/rl4co",
+      "target": "lightning-ai/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "source_repo": "ai4co/rl4co",
+      "target": "Deploy MkDocs to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ai4co/rl4co",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ai4co/rl4co",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ai4co/rl4co",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ai4co/rl4co",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "attention-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "combinatorial-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "cvrp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "electronic-design-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "hydra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "neural-combinatorial-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "operations-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "scheduling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "tensordict",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "torchrl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co",
+      "target": "vehicle-routing-problem",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:25:03.227726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10017
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3943
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yaml",
+      "size": 539
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1090
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch library for all things Reinforcement Learning (RL) for Combinatorial Optimization (CO)",
+    "fork": false,
+    "full_name": "ai4co/rl4co",
+    "html_url": "https://github.com/ai4co/rl4co",
+    "language": "Python",
+    "pushed_at": "2026-01-22T15:38:53Z",
+    "stargazers_count": 866,
+    "topics": [
+      "attention",
+      "attention-model",
+      "benchmark",
+      "combinatorial-optimization",
+      "cvrp",
+      "electronic-design-automation",
+      "hydra",
+      "neural-combinatorial-optimization",
+      "operations-research",
+      "pytorch-lightning",
+      "reinforcement-learning",
+      "scheduling",
+      "tensordict",
+      "torchrl",
+      "tsp",
+      "vehicle-routing-problem"
+    ],
+    "updated_at": "2026-04-26T15:00:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch-labs/tensordict",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy MkDocs to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yaml",
+      "term": "Deploy MkDocs to GitHub Pages"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-model"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "combinatorial-optimization"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvrp"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electronic-design-automation"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hydra"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-combinatorial-optimization"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operations-research"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduling"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensordict"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchrl"
+    },
+    {
+      "context_snippet": "</br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vehicle-routing-problem"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kem"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate-context",
+      "text": "Collection of cryptography-related traits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate-context",
+      "text": "kem"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate",
+      "text": "kem"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28384106,
+      "status": "candidate",
+      "text": "kim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26628289,
+      "status": "candidate",
+      "text": "kern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18495214,
+      "status": "candidate",
+      "text": "kempe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18495213,
+      "status": "candidate",
+      "text": "kemery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18495212,
+      "status": "candidate",
+      "text": "kemble"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kem",
+  "concept_id": "kem",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/kem.yml",
+      "source_repo": "RustCrypto/traits"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "kem",
+      "sense_id": "kem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

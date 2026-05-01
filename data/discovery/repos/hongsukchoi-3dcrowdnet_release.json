@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "jeff-sjtu/crowdpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "hrnet/higherhrnet-human-pose-estimation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "hongsukchoi/tcmr_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "mks0601/neuralannot_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "3d-human-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "3d-human-shape-and-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "crowded-scenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "monocular-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "target": "pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:11:36.517393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Pytorch implementation of \"Learning to Estimate Robust 3D Human Mesh from In-the-Wild Crowded Scenes\", CVPR 2022",
+    "fork": false,
+    "full_name": "hongsukchoi/3DCrowdNet_RELEASE",
+    "html_url": "https://github.com/hongsukchoi/3DCrowdNet_RELEASE",
+    "language": "Python",
+    "pushed_at": "2024-07-08T07:08:49Z",
+    "stargazers_count": 161,
+    "topics": [
+      "3d-human-mesh",
+      "3d-human-shape-and-pose-estimation",
+      "crowded-scenes",
+      "cvpr2022",
+      "monocular-images",
+      "pose-estimation"
+    ],
+    "updated_at": "2026-03-24T09:27:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hongsukchoi/tcmr_release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/higherhrnet-human-pose-estimation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeff-sjtu/crowdpose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mks0601/neuralannot_release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![front_figur](./assets/front_figure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-mesh"
+    },
+    {
+      "context_snippet": "![front_figur](./assets/front_figure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-shape-and-pose-estimation"
+    },
+    {
+      "context_snippet": "![front_figur](./assets/front_figure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crowded-scenes"
+    },
+    {
+      "context_snippet": "![front_figur](./assets/front_figure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "![front_figur](./assets/front_figure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-images"
+    },
+    {
+      "context_snippet": "![front_figur](./assets/front_figure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    }
+  ]
+}

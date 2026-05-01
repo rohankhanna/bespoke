@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Arduino core for the ESP32"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Boards Test - Remote trigger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Boards Test - Remote trigger"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27913,
+      "status": "candidate",
+      "text": "plank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27873,
+      "status": "candidate",
+      "text": "fear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27873,
+      "status": "candidate",
+      "text": "fired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27856,
+      "status": "candidate",
+      "text": "den"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27856,
+      "status": "candidate",
+      "text": "drn"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Boards Test - Remote trigger",
+      "sense_id": "boards-test---remote-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "boards-test---remote-trigger",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "boards-test---remote-trigger",
+  "observation_id": "0c9d0449a863b02a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Boards Test - Remote trigger",
+  "source_context_snippet": "Boards Test - Remote trigger",
+  "source_file": ".github/workflows/allboards.yml",
+  "source_repo": "espressif/arduino-esp32",
+  "source_repo_description": "Arduino core for the ESP32"
+}

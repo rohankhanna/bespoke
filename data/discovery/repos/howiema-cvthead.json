@@ -1,0 +1,182 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HowieMa/CVTHead",
+      "target": "aliaksandrsiarohin/video-preprocessing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HowieMa/CVTHead",
+      "target": "samsunglabs/rome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HowieMa/CVTHead",
+      "target": "sw-gong/spiralnet_plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HowieMa/CVTHead",
+      "target": "visionsystemsinc/face-parsing.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HowieMa/CVTHead",
+      "target": "face-reenactment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HowieMa/CVTHead",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HowieMa/CVTHead",
+      "target": "head-avatar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HowieMa/CVTHead",
+      "target": "neural-point-based-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HowieMa/CVTHead",
+      "target": "talking-face-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HowieMa/CVTHead",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HowieMa/CVTHead",
+      "target": "voxceleb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:10.213623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5390
+    },
+    {
+      "path": "requirements.txt",
+      "size": 428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[WACV 2024] \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\"",
+    "fork": false,
+    "full_name": "HowieMa/CVTHead",
+    "html_url": "https://github.com/HowieMa/CVTHead",
+    "language": "Python",
+    "pushed_at": "2024-02-16T22:39:21Z",
+    "stargazers_count": 129,
+    "topics": [
+      "face-reenactment",
+      "gan",
+      "generative-adversarial-network",
+      "head-avatar",
+      "neural-point-based-rendering",
+      "talking-face-generation",
+      "transformer",
+      "voxceleb"
+    ],
+    "updated_at": "2026-03-15T07:28:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliaksandrsiarohin/video-preprocessing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samsunglabs/rome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sw-gong/spiralnet_plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "visionsystemsinc/face-parsing.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-reenactment"
+    },
+    {
+      "context_snippet": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "head-avatar"
+    },
+    {
+      "context_snippet": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-point-based-rendering"
+    },
+    {
+      "context_snippet": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talking-face-generation"
+    },
+    {
+      "context_snippet": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voxceleb"
+    }
+  ]
+}

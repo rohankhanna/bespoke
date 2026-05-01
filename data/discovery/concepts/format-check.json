@@ -99,6 +99,30 @@
       "source_repo": "codymikol/neotest-kotlin",
       "status": "candidate-context",
       "text": "Format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "Distributed High-Performance Symbolic Regression in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "An offline deep reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "format check"
     }
   ],
   "candidate_glosses": [
@@ -149,6 +173,18 @@
       "source_repo": "codymikol/neotest-kotlin",
       "status": "candidate",
       "text": "Format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate",
+      "text": "format check"
     }
   ],
   "candidate_related_terms": [
@@ -240,11 +276,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "takuseno/d3rlpy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

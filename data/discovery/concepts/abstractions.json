@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "abstractions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/contracts",
+      "status": "candidate-context",
+      "text": "A set of abstractions extracted out of the Symfony components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/contracts",
+      "status": "candidate-context",
+      "text": "Symfony Contracts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/contracts",
+      "status": "candidate",
+      "text": "Symfony Contracts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10006482,
+      "status": "candidate",
+      "text": "extraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9971535,
+      "status": "candidate",
+      "text": "generalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9960679,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9959961,
+      "status": "candidate",
+      "text": "abstractedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "notions"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "abstractions",
+  "concept_id": "abstractions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "symfony/contracts"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abstractions",
+      "sense_id": "abstractions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -151,6 +151,66 @@
       "source_repo": "crossbario/autobahn-java",
       "status": "candidate-context",
       "text": "Client library providing [WAMP](http://wamp-proto.org/) on Java 8 ([Netty](https://netty.io/)) and Android, plus (secure) WebSocket for Android."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar",
+      "status": "candidate-context",
+      "text": "Apache Pulsar - distributed pub-sub messaging system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate-context",
+      "text": "Apache Pulsar Adapters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate-context",
+      "text": "Apache Pulsar C++ client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate-context",
+      "text": "Apache Pulsar Go Client Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "Apache Pulsar NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +285,36 @@
       "source_repo": "crossbario/autobahn-java",
       "status": "candidate",
       "text": "Client library providing [WAMP](http://wamp-proto.org/) on Java 8 ([Netty](https://netty.io/)) and Android, plus (secure) WebSocket for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +436,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-node"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

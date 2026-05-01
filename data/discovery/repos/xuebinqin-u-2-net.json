@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xuebinqin/U-2-Net",
-      "target": "norod/u-2-net-styletransfer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xuebinqin/U-2-Net",
       "target": "nathanua/u-2-net",
       "target_type": "repository"
     },
@@ -20,6 +13,13 @@
       "source_file": "README.md",
       "source_repo": "xuebinqin/U-2-Net",
       "target": "dennisbappert/u-2-net-portrait",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuebinqin/U-2-Net",
+      "target": "peko/nn-lineart",
       "target_type": "repository"
     },
     {
@@ -79,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:15:40.344113+00:00",
+  "fetched_at": "2026-05-01T10:33:54.791446+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -100,7 +100,7 @@
     "html_url": "https://github.com/xuebinqin/U-2-Net",
     "language": "Python",
     "pushed_at": "2024-06-26T04:16:45Z",
-    "stargazers_count": 9725,
+    "stargazers_count": 9724,
     "topics": [
       "computer-vision",
       "deep-learning",
@@ -110,7 +110,7 @@
       "u-2-net",
       "u2net"
     ],
-    "updated_at": "2026-04-30T10:49:32Z"
+    "updated_at": "2026-05-01T02:01:32Z"
   },
   "repo_links": [
     {
@@ -130,7 +130,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "norod/u-2-net-styletransfer",
+      "full_name": "peko/nn-lineart",
       "source_file": "README.md"
     }
   ],

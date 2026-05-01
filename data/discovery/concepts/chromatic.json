@@ -43,6 +43,30 @@
       "source_repo": "Arize-ai/phoenix",
       "status": "candidate-context",
       "text": "\"Chromatic\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/voicevox",
+      "status": "candidate-context",
+      "text": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u30a8\u30c7\u30a3\u30bf\u30fc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/voicevox",
+      "status": "candidate-context",
+      "text": "\"Chromatic\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate-context",
+      "text": "\ud83e\udd49 useful helpers for react-three-fiber"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate-context",
+      "text": "'Chromatic'"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "Arize-ai/phoenix",
       "status": "candidate",
       "text": "\"Chromatic\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/voicevox",
+      "status": "candidate",
+      "text": "\"Chromatic\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate",
+      "text": "'Chromatic'"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/chromatic.yml",
       "source_repo": "Arize-ai/phoenix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "VOICEVOX/voicevox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "pmndrs/drei"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

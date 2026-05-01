@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "target": "cloudfoundry-incubator/credhub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "target": "cloudfoundry-incubator/credhub-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "target": "pivotal-cf/credhub-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "target": "cloudfoundry-incubator/credhub-acceptance-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "target": "bosh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "target": "cloudfoundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "target": "credential-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "target": "credhub",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:27:02.978268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1864
+    },
+    {
+      "path": "go.mod",
+      "size": 1056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo provides acceptance tests for CredHub",
+    "fork": false,
+    "full_name": "cloudfoundry/credhub-acceptance-tests",
+    "html_url": "https://github.com/cloudfoundry/credhub-acceptance-tests",
+    "language": "Go",
+    "pushed_at": "2026-04-27T13:01:43Z",
+    "stargazers_count": 2,
+    "topics": [
+      "bosh",
+      "cloudfoundry",
+      "credential-manager",
+      "credhub"
+    ],
+    "updated_at": "2026-04-27T13:01:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub-acceptance-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pivotal-cf/credhub-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CredHub manages credentials like passwords, certificates, ssh keys, rsa keys, strings (arbitrary values) and CAs. CredHub provides a CLI and API to get, set, generate and securely store such credentials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh"
+    },
+    {
+      "context_snippet": "CredHub manages credentials like passwords, certificates, ssh keys, rsa keys, strings (arbitrary values) and CAs. CredHub provides a CLI and API to get, set, generate and securely store such credentials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudfoundry"
+    },
+    {
+      "context_snippet": "CredHub manages credentials like passwords, certificates, ssh keys, rsa keys, strings (arbitrary values) and CAs. CredHub provides a CLI and API to get, set, generate and securely store such credentials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credential-manager"
+    },
+    {
+      "context_snippet": "CredHub manages credentials like passwords, certificates, ssh keys, rsa keys, strings (arbitrary values) and CAs. CredHub provides a CLI and API to get, set, generate and securely store such credentials.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credhub"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-ecto/myxql",
+      "target": "ericmj/decimal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/myxql",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/myxql",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/myxql",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-ecto/myxql",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-ecto/myxql",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-ecto/myxql",
+      "target": "mysql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:19:17.089968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6671
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MySQL 5.5+ driver for Elixir",
+    "fork": false,
+    "full_name": "elixir-ecto/myxql",
+    "html_url": "https://github.com/elixir-ecto/myxql",
+    "language": "Elixir",
+    "pushed_at": "2026-03-11T15:50:24Z",
+    "stargazers_count": 295,
+    "topics": [
+      "database",
+      "elixir",
+      "mysql"
+    ],
+    "updated_at": "2026-04-26T15:56:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericmj/decimal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/elixir-ecto/myxql/workflows/CI/badge.svg)](https://github.com/elixir-ecto/myxql/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/elixir-ecto/myxql/workflows/CI/badge.svg)](https://github.com/elixir-ecto/myxql/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/elixir-ecto/myxql/workflows/CI/badge.svg)](https://github.com/elixir-ecto/myxql/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    }
+  ]
+}

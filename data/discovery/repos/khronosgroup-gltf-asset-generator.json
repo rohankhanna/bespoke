@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "target": "validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:13:47.049579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tool for generating various glTF assets for importer validation",
+    "fork": false,
+    "full_name": "KhronosGroup/glTF-Asset-Generator",
+    "html_url": "https://github.com/KhronosGroup/glTF-Asset-Generator",
+    "language": "C#",
+    "pushed_at": "2024-02-01T16:44:56Z",
+    "stargazers_count": 176,
+    "topics": [
+      "gltf",
+      "test",
+      "validation"
+    ],
+    "updated_at": "2026-04-20T05:19:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a C# Visual Studio project for generating various glTF 2.0 assets for validating glTF 2.0 importers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf"
+    },
+    {
+      "context_snippet": "This is a C# Visual Studio project for generating various glTF 2.0 assets for validating glTF 2.0 importers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test"
+    },
+    {
+      "context_snippet": "This is a C# Visual Studio project for generating various glTF 2.0 assets for validating glTF 2.0 importers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    }
+  ]
+}

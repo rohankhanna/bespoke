@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/SkyReels-A2",
+      "target": "yuan-manx/comfyui-skyreels-a2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/SkyReels-A2",
+      "target": "a-r-r-o-w/finetrainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/SkyReels-A2",
+      "target": "controllable-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/SkyReels-A2",
+      "target": "image2video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/SkyReels-A2",
+      "target": "video-diffusion-transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:08.290316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7925
+    },
+    {
+      "path": "requirements.txt",
+      "size": 300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SkyReels-A2: Compose anything in video diffusion transformers",
+    "fork": false,
+    "full_name": "SkyworkAI/SkyReels-A2",
+    "html_url": "https://github.com/SkyworkAI/SkyReels-A2",
+    "language": "Python",
+    "pushed_at": "2025-06-03T06:15:58Z",
+    "stargazers_count": 711,
+    "topics": [
+      "controllable-generation",
+      "image2video",
+      "video-diffusion-transformers"
+    ],
+    "updated_at": "2026-04-21T08:59:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-r-r-o-w/finetrainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuan-manx/comfyui-skyreels-a2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controllable-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image2video"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-diffusion-transformers"
+    }
+  ]
+}

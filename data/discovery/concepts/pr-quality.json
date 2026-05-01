@@ -19,12 +19,30 @@
       "source_repo": "webpack/webpack",
       "status": "candidate-context",
       "text": "PR Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "Repository for webpack documentation and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "PR Quality"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "webpack/webpack",
+      "status": "candidate",
+      "text": "PR Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
       "status": "candidate",
       "text": "PR Quality"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pr-quality.yml",
       "source_repo": "webpack/webpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr-quality.yml",
+      "source_repo": "webpack/webpack.js.org"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

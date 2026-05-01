@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Knowledge to OpenWebUI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+      "status": "candidate-context",
+      "text": "Model data pipeline from a Github repository to Open Web UI knowledge using actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+      "status": "candidate-context",
+      "text": "Sync Knowledge to OpenWebUI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+      "status": "candidate",
+      "text": "Sync Knowledge to OpenWebUI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "kiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "discovery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "mysticism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Knowledge to OpenWebUI",
+  "concept_id": "sync-knowledge-to-openwebui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/sync-knowledge.yml",
+      "source_repo": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Knowledge to OpenWebUI",
+      "sense_id": "sync-knowledge-to-openwebui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

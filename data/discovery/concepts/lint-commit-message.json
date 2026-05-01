@@ -19,12 +19,30 @@
       "source_repo": "achannarasappa/ticker",
       "status": "candidate-context",
       "text": "lint-commit-message"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "lint-commit-message"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "achannarasappa/ticker",
+      "status": "candidate",
+      "text": "lint-commit-message"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
       "status": "candidate",
       "text": "lint-commit-message"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/lint-commit.yml",
       "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/commit-msg.yml",
+      "source_repo": "apache/incubator-devlake"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

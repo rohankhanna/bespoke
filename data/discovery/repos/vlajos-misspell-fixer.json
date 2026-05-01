@@ -30,13 +30,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vlajos/misspell-fixer",
-      "target": "sobolevn/misspell-fixer-action",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-docker-image.yml",
       "source_repo": "vlajos/misspell-fixer",
@@ -149,7 +142,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:23:23.940229+00:00",
+  "fetched_at": "2026-05-01T09:12:14.563047+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -194,11 +187,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "neleai/stylepp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sobolevn/misspell-fixer-action",
       "source_file": "README.md"
     }
   ],

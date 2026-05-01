@@ -19,6 +19,18 @@
       "source_repo": "filip26/titanium-rdf-n-quads",
       "status": "candidate-context",
       "text": "A Java implementation of a streaming RDF N-Quads reader and writer, optimized for efficient parsing, serialization, and handling of large RDF datasets. It enables scalable processing of RDF statements in a memory-efficient, streaming fashion."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "![](docs/_static/RDFlib.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "filip26/titanium-rdf-n-quads",
       "status": "candidate",
       "text": "A Java implementation of a streaming RDF N-Quads reader and writer, optimized for efficient parsing, serialization, and handling of large RDF datasets. It enables scalable processing of RDF statements in a memory-efficient, streaming fashion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate",
+      "text": "![](docs/_static/RDFlib.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "filip26/titanium-rdf-n-quads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

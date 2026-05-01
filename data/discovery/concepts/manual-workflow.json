@@ -19,12 +19,48 @@
       "source_repo": "OpenNMT/OpenNMT-py",
       "status": "candidate-context",
       "text": "Manual workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate-context",
+      "text": "Build your repo automatically."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate-context",
+      "text": "Manual workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "status": "candidate-context",
+      "text": "Extract lyrics data from karaoke midi files for karaoke applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "status": "candidate-context",
+      "text": "Manual workflow"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate",
+      "text": "Manual workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate",
+      "text": "Manual workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
       "status": "candidate",
       "text": "Manual workflow"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/deploy_docs.yml",
       "source_repo": "OpenNMT/OpenNMT-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/monitor-versions.yaml",
+      "source_repo": "microsoft/Oryx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

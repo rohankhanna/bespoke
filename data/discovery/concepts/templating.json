@@ -67,6 +67,18 @@
       "source_repo": "askama-rs/askama-old",
       "status": "candidate-context",
       "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "Haskell Dockerfile parser, pretty-printer and EDSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "[![Build Status][actions-img]][actions]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "askama-rs/askama-old",
       "status": "candidate",
       "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate",
+      "text": "[![Build Status][actions-img]][actions]"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "askama-rs/askama-old"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

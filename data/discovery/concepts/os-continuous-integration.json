@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "OS Continuous Integration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jk-jeon/dragonbox",
+      "status": "candidate-context",
+      "text": "Reference implementation of Dragonbox in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jk-jeon/dragonbox",
+      "status": "candidate-context",
+      "text": "OS Continuous Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jk-jeon/dragonbox",
+      "status": "candidate",
+      "text": "OS Continuous Integration"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18760,
+      "status": "candidate",
+      "text": "bones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18760,
+      "status": "candidate",
+      "text": "calcium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18760,
+      "status": "candidate",
+      "text": "eminence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18760,
+      "status": "candidate",
+      "text": "hiatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18760,
+      "status": "candidate",
+      "text": "keel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "OS Continuous Integration",
+  "concept_id": "os-continuous-integration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/os.yml",
+      "source_repo": "jk-jeon/dragonbox"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "OS Continuous Integration",
+      "sense_id": "os-continuous-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

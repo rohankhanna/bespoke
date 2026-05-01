@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check CLA"
+    "Check CLA",
+    "check-cla"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "wa-lang/wa",
       "status": "candidate-context",
       "text": "Check CLA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate-context",
+      "text": "An open-source JavaScript library for world-class 3D globes and maps :earth_americas:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate-context",
+      "text": "check-cla"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "wa-lang/wa",
       "status": "candidate",
       "text": "Check CLA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate",
+      "text": "check-cla"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "wa-lang/wa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "CesiumGS/cesium"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

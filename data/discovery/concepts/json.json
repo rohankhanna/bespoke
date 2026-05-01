@@ -1159,6 +1159,42 @@
       "source_repo": "jcrist/msgspec",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reproto/reproto",
+      "status": "candidate-context",
+      "text": "Rethinking Protocols"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reproto/reproto",
+      "status": "candidate-context",
+      "text": "[![Build Status][github-badge]][github-action]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate-context",
+      "text": "A JSON5 serializer and parser library for Python 3 written in Cython."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate-context",
+      "text": "PyJSON5"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate-context",
+      "text": "For parsing, creating and editing unknown or dynamic JSON in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate-context",
+      "text": "![Gabs](gabs_logo.png \"Gabs\")"
     }
   ],
   "candidate_glosses": [
@@ -1737,6 +1773,24 @@
       "source_repo": "jcrist/msgspec",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reproto/reproto",
+      "status": "candidate",
+      "text": "[![Build Status][github-badge]][github-action]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate",
+      "text": "PyJSON5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate",
+      "text": "![Gabs](gabs_logo.png \"Gabs\")"
     }
   ],
   "candidate_related_terms": [
@@ -2469,11 +2523,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "jcrist/msgspec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "reproto/reproto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Kijewski/pyjson5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Jeffail/gabs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

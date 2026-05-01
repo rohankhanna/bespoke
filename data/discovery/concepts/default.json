@@ -68,6 +68,18 @@
       "source_repo": "jose-elias-alvarez/null-ls.nvim",
       "status": "candidate-context",
       "text": "default"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "status": "candidate-context",
+      "text": "Create temporary playground files effortlessly. Find them later without worrying about filenames or locations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "status": "candidate-context",
+      "text": "default"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +110,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "status": "candidate",
+      "text": "default"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/scratch.nvim",
       "status": "candidate",
       "text": "default"
     }
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/default.yml",
       "source_repo": "jose-elias-alvarez/null-ls.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "LintaoAmons/scratch.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "formigarafa/zxcvbn-rb.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "password-strength",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "password-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "zxcvbn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "zxcvbn-ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "target": "zxcvbn-sandbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:23:15.574997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5783
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Low-Budget Password Strength Estimation written in Ruby",
+    "fork": false,
+    "full_name": "formigarafa/zxcvbn-rb",
+    "html_url": "https://github.com/formigarafa/zxcvbn-rb",
+    "language": "Ruby",
+    "pushed_at": "2025-12-06T22:04:52Z",
+    "stargazers_count": 38,
+    "topics": [
+      "password-strength",
+      "password-validator",
+      "ruby",
+      "zxcvbn",
+      "zxcvbn-ruby",
+      "zxcvbn-sandbox"
+    ],
+    "updated_at": "2026-03-19T15:37:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "formigarafa/zxcvbn-rb.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/zxcvbn.svg)](https://badge.fury.io/rb/zxcvbn)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password-strength"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/zxcvbn.svg)](https://badge.fury.io/rb/zxcvbn)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password-validator"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/zxcvbn.svg)](https://badge.fury.io/rb/zxcvbn)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/zxcvbn.svg)](https://badge.fury.io/rb/zxcvbn)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zxcvbn"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/zxcvbn.svg)](https://badge.fury.io/rb/zxcvbn)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zxcvbn-ruby"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/zxcvbn.svg)](https://badge.fury.io/rb/zxcvbn)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zxcvbn-sandbox"
+    }
+  ]
+}

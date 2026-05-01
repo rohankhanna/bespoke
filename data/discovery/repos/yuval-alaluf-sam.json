@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuval-alaluf/SAM",
+      "target": "italojs/facial-landmarks-recognition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuval-alaluf/SAM",
+      "target": "s-aiueo32/lpips-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuval-alaluf/SAM",
+      "target": "interdigitalinc/hrfae",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/SAM",
+      "target": "age-transformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/SAM",
+      "target": "aging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/SAM",
+      "target": "generative-adversarial-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/SAM",
+      "target": "stylegan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:06.046241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Implementation for \"Only a Matter of Style: Age Transformation Using a Style-Based Regression Model\" (SIGGRAPH 2021) https://arxiv.org/abs/2102.02754",
+    "fork": false,
+    "full_name": "yuval-alaluf/SAM",
+    "html_url": "https://github.com/yuval-alaluf/SAM",
+    "language": "Python",
+    "pushed_at": "2024-01-07T11:50:20Z",
+    "stargazers_count": 721,
+    "topics": [
+      "age-transformation",
+      "aging",
+      "generative-adversarial-networks",
+      "stylegan"
+    ],
+    "updated_at": "2026-04-29T03:32:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interdigitalinc/hrfae",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "italojs/facial-landmarks-recognition",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s-aiueo32/lpips-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> The task of age transformation illustrates the change of an individual's appearance over time. Accurately modeling this complex transformation over an input facial image is extremely challenging as it requires making convincing and possibly large changes to facial features and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "age-transformation"
+    },
+    {
+      "context_snippet": "> The task of age transformation illustrates the change of an individual's appearance over time. Accurately modeling this complex transformation over an input facial image is extremely challenging as it requires making convincing and possibly large changes to facial features and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aging"
+    },
+    {
+      "context_snippet": "> The task of age transformation illustrates the change of an individual's appearance over time. Accurately modeling this complex transformation over an input facial image is extremely challenging as it requires making convincing and possibly large changes to facial features and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-networks"
+    },
+    {
+      "context_snippet": "> The task of age transformation illustrates the change of an individual's appearance over time. Accurately modeling this complex transformation over an input facial image is extremely challenging as it requires making convincing and possibly large changes to facial features and\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan"
+    }
+  ]
+}

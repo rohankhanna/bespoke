@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "squirreling-gis-demo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/demos",
+      "status": "candidate-context",
+      "text": "Hyperparam Open Source Demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/demos",
+      "status": "candidate-context",
+      "text": "squirreling-gis-demo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/demos",
+      "status": "candidate",
+      "text": "squirreling-gis-demo"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "squirreling-gis-demo",
+  "concept_id": "squirreling-gis-demo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci_squirreling_gis_demo.yml",
+      "source_repo": "hyparam/demos"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "squirreling-gis-demo",
+      "sense_id": "squirreling-gis-demo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

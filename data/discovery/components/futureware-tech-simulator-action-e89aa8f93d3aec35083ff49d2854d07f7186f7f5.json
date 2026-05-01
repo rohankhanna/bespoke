@@ -1,12 +1,27 @@
 {
   "component": "futureware-tech/simulator-action@e89aa8f93d3aec35083ff49d2854d07f7186f7f5",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cupertino.yml",
       "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml",
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ios.yaml",
+      "source_repo": "firebase/flutterfire"
     }
   ]
 }

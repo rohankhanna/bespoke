@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "burke/zeus",
+      "target": "sporkrb/spork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "burke/zeus",
+      "target": "rails/commands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "burke/zeus",
+      "target": "tyler-smith/zeus-rails23",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:19:12.017193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4361
+    },
+    {
+      "path": "go.mod",
+      "size": 351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Boot any rails app in under a second.",
+    "fork": false,
+    "full_name": "burke/zeus",
+    "html_url": "https://github.com/burke/zeus",
+    "language": "Go",
+    "pushed_at": "2026-04-03T21:13:20Z",
+    "stargazers_count": 3318,
+    "topics": [],
+    "updated_at": "2026-04-24T17:19:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/commands",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sporkrb/spork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tyler-smith/zeus-rails23",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -79,6 +79,42 @@
       "source_repo": "hadronized/glsl",
       "status": "candidate-context",
       "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DadSchoorse/vkBasalt",
+      "status": "candidate-context",
+      "text": "a vulkan post processing layer for linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DadSchoorse/vkBasalt",
+      "status": "candidate-context",
+      "text": "vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the shaderc library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate-context",
+      "text": "shaderc-rs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "A toy physically based GPU path tracer (C++/OpenGL/GLSL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "hadronized/glsl",
       "status": "candidate",
       "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DadSchoorse/vkBasalt",
+      "status": "candidate",
+      "text": "vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate",
+      "text": "shaderc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +220,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hadronized/glsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DadSchoorse/vkBasalt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/shaderc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

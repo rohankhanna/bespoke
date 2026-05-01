@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python"
+    }
+  ],
+  "term": "Template Validation"
+}

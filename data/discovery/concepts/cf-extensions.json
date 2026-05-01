@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "cf-extensions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate-context",
+      "text": "CredHub centralizes and secures credential generation, storage, lifecycle management, and access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate-context",
+      "text": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "status": "candidate-context",
+      "text": "CredHub CLI provides a command line interface to interact with CredHub servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "status": "candidate-context",
+      "text": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate",
+      "text": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "status": "candidate",
+      "text": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cf-extensions",
+  "concept_id": "cf-extensions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-cli"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cf-extensions",
+      "sense_id": "cf-extensions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,37 @@
+{
+  "component": "apache/pulsar-test-infra/paths-filter@master",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-go-functions.yaml",
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pulsar-ci-flaky.yaml",
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pulsar-ci.yaml",
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml",
+      "source_repo": "apache/pulsar-adapters"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "apache/pulsar-adapters"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "source_repo": "apache/pulsar-adapters"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Framework for transforming  Cascading Style Sheets (CSS) from Left-To-Right (LTR) to Right-To-Left (RTL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046358,
+      "status": "candidate",
+      "text": "reflected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046357,
+      "status": "candidate",
+      "text": "reflector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046129,
+      "status": "candidate",
+      "text": "lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045602,
+      "status": "candidate",
+      "text": "reflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045438,
+      "status": "candidate",
+      "text": "reflect"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirror",
+      "sense_id": "mirror#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirror",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirror",
+  "observation_id": "f5c97d21f7f3c74d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "mirror",
+  "source_context_snippet": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)",
+  "source_file": null,
+  "source_repo": "MohammadYounes/rtlcss",
+  "source_repo_description": "Framework for transforming  Cascading Style Sheets (CSS) from Left-To-Right (LTR) to Right-To-Left (RTL)"
+}

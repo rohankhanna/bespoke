@@ -304,6 +304,42 @@
       "source_repo": "litex-hub/pythondata-cpu-vexriscv",
       "status": "candidate-context",
       "text": "PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "![](docs/_static/RDFlib.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "Deezer source separation library including pretrained models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate-context",
+      "text": "An OWL ontology documentation tool using Python and templating, based on LODE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate-context",
+      "text": "pypi"
     }
   ],
   "candidate_glosses": [
@@ -456,6 +492,24 @@
       "source_repo": "litex-hub/pythondata-cpu-vexriscv",
       "status": "candidate",
       "text": "PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate",
+      "text": "![](docs/_static/RDFlib.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate",
+      "text": "pypi"
     }
   ],
   "candidate_related_terms": [],
@@ -787,11 +841,77 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pypi/warehouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "deezer/spleeter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/distrax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "RDFLib/pyLODE"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

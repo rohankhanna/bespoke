@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "drums"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "Deezer source separation library including pretrained models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051454,
+      "status": "candidate",
+      "text": "membranophone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9954880,
+      "status": "candidate",
+      "text": "tympan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9941169,
+      "status": "candidate",
+      "text": "swot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9937432,
+      "status": "candidate",
+      "text": "bone up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936186,
+      "status": "candidate",
+      "text": "mug up"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "drums",
+  "concept_id": "drums",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "deezer/spleeter"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drums",
+      "sense_id": "drums#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

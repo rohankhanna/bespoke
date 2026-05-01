@@ -91,6 +91,12 @@
       "source_repo": "multiformats/github-mgmt",
       "status": "candidate-context",
       "text": "Fix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/github-mgmt",
+      "status": "candidate-context",
+      "text": "Fix"
     }
   ],
   "candidate_glosses": [
@@ -157,6 +163,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "multiformats/github-mgmt",
+      "status": "candidate",
+      "text": "Fix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/github-mgmt",
       "status": "candidate",
       "text": "Fix"
     }
@@ -316,11 +328,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/fix.yml",
       "source_repo": "multiformats/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "probe-lab/github-mgmt"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

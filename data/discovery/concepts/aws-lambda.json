@@ -247,6 +247,30 @@
       "source_repo": "cargo-lambda/cargo-lambda",
       "status": "candidate-context",
       "text": "cargo-lambda is a [Cargo](https://doc.rust-lang.org/cargo/) subcommand to help you work with AWS Lambda."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate-context",
+      "text": " Tibanna helps you run your genomic pipelines on Amazon cloud (AWS). It is used by the 4DN DCIC (4D Nucleome Data Coordination and Integration Center) to process data. Tibanna supports CWL/WDL (w/ docker), Snakemake (w/ conda) and custom Docker/shell command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate-context",
+      "text": "[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![Build Status](https://travis-ci.org/4dn-dcic/tibanna.svg?branch=master)](https://travis-ci.org/4dn-dcic/tibanna) [![Code Quality](https://api.codacy.com/pro\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-pandas",
+      "status": "candidate-context",
+      "text": "pandas on AWS - Easy integration with Athena, Glue, Redshift, Timestream, Neptune, OpenSearch, QuickSight, Chime, CloudWatchLogs, DynamoDB, EMR, SecretManager, PostgreSQL, MySQL, SQLServer and S3 (Parquet, CSV, JSON and EXCEL)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-pandas",
+      "status": "candidate-context",
+      "text": "*Pandas on AWS*"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "cargo-lambda/cargo-lambda",
       "status": "candidate",
       "text": "cargo-lambda is a [Cargo](https://doc.rust-lang.org/cargo/) subcommand to help you work with AWS Lambda."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate",
+      "text": "[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![Build Status](https://travis-ci.org/4dn-dcic/tibanna.svg?branch=master)](https://travis-ci.org/4dn-dcic/tibanna) [![Code Quality](https://api.codacy.com/pro\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-pandas",
+      "status": "candidate",
+      "text": "*Pandas on AWS*"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +556,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "cargo-lambda/cargo-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "4dn-dcic/tibanna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

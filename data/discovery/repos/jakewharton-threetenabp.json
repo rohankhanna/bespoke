@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "dlew/joda-time-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "threeten/threetenbp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "actions/setup-java@v3.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upgrade.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "target": "upgrade",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:27.379849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3174
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 680
+    },
+    {
+      "path": ".github/workflows/upgrade.yaml",
+      "size": 530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "trunk",
+    "description": "An adaptation of the JSR-310 backport for Android.",
+    "fork": false,
+    "full_name": "JakeWharton/ThreeTenABP",
+    "html_url": "https://github.com/JakeWharton/ThreeTenABP",
+    "language": "Java",
+    "pushed_at": "2025-08-22T03:29:53Z",
+    "stargazers_count": 3558,
+    "topics": [],
+    "updated_at": "2026-04-30T14:59:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dlew/joda-time-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "threeten/threetenbp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "upgrade",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upgrade.yaml",
+      "term": "upgrade"
+    }
+  ]
+}

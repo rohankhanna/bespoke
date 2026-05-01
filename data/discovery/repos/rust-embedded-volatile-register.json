@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-embedded/volatile-register",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-embedded/volatile-register",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/volatile-register",
+      "target": "microcontroller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/volatile-register",
+      "target": "no-std",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded/volatile-register",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:26:08.263349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 991
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 820
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Volatile access to memory mapped hardware registers",
+    "fork": false,
+    "full_name": "rust-embedded/volatile-register",
+    "html_url": "https://github.com/rust-embedded/volatile-register",
+    "language": "Rust",
+    "pushed_at": "2023-11-08T00:22:22Z",
+    "stargazers_count": 42,
+    "topics": [
+      "microcontroller",
+      "no-std",
+      "rust"
+    ],
+    "updated_at": "2026-03-20T10:54:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microcontroller"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-std"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

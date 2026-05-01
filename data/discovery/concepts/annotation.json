@@ -43,6 +43,18 @@
       "source_repo": "HumanSignal/label-studio",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate-context",
+      "text": "ERRor ANnotation Toolkit: Automatically extract and classify grammatical errors in parallel original and corrected sentences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate-context",
+      "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "HumanSignal/label-studio",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate",
+      "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
     }
   ],
   "candidate_related_terms": [
@@ -152,11 +170,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chrisjbryant/errant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

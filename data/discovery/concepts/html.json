@@ -607,6 +607,54 @@
       "source_repo": "novnc/noVNC",
       "status": "candidate-context",
       "text": "[![Test Status](https://github.com/novnc/noVNC/workflows/Test/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate-context",
+      "text": "Draw pretty micro benchmarking charts in HTML and allow to export them as png for benchee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate-context",
+      "text": "Formatter for [benchee](//github.com/PragTob/benchee) to produce some standalone HTML with nice graphs, a data table etc. from your benchee benchmarking results :) Also allows you to export PNG images, the graphs are also somewhat explorable thanks to [plotly.js](https://plot.ly\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate-context",
+      "text": "CLI for document conversion for scientific documents, powered by Mathpix OCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate-context",
+      "text": "Document conversion for scientific documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falcoframework/Falco.Markup",
+      "status": "candidate-context",
+      "text": "An F# DSL for efficient markup generation, including HTML, SVG and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco.Markup",
+      "status": "candidate-context",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.Markup.svg)](https://www.nuget.org/packages/Falco.Markup)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/content",
+      "status": "candidate-context",
+      "text": "The official source for MDN Web Docs content. Home to over 14,000 pages of documentation about HTML, CSS, JS, HTTP, Web APIs, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/content",
+      "status": "candidate-context",
+      "text": "![github-profile](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)"
     }
   ],
   "candidate_glosses": [
@@ -909,6 +957,30 @@
       "source_repo": "novnc/noVNC",
       "status": "candidate",
       "text": "[![Test Status](https://github.com/novnc/noVNC/workflows/Test/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate",
+      "text": "Formatter for [benchee](//github.com/PragTob/benchee) to produce some standalone HTML with nice graphs, a data table etc. from your benchee benchmarking results :) Also allows you to export PNG images, the graphs are also somewhat explorable thanks to [plotly.js](https://plot.ly\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate",
+      "text": "Document conversion for scientific documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco.Markup",
+      "status": "candidate",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.Markup.svg)](https://www.nuget.org/packages/Falco.Markup)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/content",
+      "status": "candidate",
+      "text": "![github-profile](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1326,11 +1398,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "novnc/noVNC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Mathpix/mpx-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdn/content"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

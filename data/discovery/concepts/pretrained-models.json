@@ -403,6 +403,30 @@
       "source_repo": "NVIDIA-AI-IOT/trt_pose",
       "status": "candidate-context",
       "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "All-in-one training for vision models (YOLO, ViTs, RT-DETR, DINOv3): pretraining, fine-tuning, distillation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "Deezer source separation library including pretrained models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +627,18 @@
       "source_repo": "NVIDIA-AI-IOT/trt_pose",
       "status": "candidate",
       "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -958,11 +994,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly-train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "deezer/spleeter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D-ML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

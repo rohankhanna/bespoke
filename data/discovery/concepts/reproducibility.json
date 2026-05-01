@@ -127,6 +127,18 @@
       "source_repo": "treeverse/dvc",
       "status": "candidate-context",
       "text": "|Banner|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "Simplified nix packaging for various programming language ecosystems [maintainer=@DavHau]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "treeverse/dvc",
       "status": "candidate",
       "text": "|Banner|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -300,11 +318,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "treeverse/dvc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/dream2nix"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

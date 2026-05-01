@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/wee_alloc",
+      "target": "allocator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/wee_alloc",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/wee_alloc",
+      "target": "rust-wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/wee_alloc",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:19:06.592434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9845
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "The Wasm-Enabled, Elfin Allocator",
+    "fork": false,
+    "full_name": "rustwasm/wee_alloc",
+    "html_url": "https://github.com/rustwasm/wee_alloc",
+    "language": "Rust",
+    "pushed_at": "2023-02-28T17:54:02Z",
+    "stargazers_count": 711,
+    "topics": [
+      "allocator",
+      "rust",
+      "rust-wasm",
+      "wasm"
+    ],
+    "updated_at": "2026-03-26T17:59:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allocator"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-wasm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:15:22.532595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7034
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A comprehensive Vector Map Tile Renderer for .Net/C#",
+    "fork": false,
+    "full_name": "AliFlux/VectorTileRenderer",
+    "html_url": "https://github.com/AliFlux/VectorTileRenderer",
+    "language": "C#",
+    "pushed_at": "2022-06-22T16:12:00Z",
+    "stargazers_count": 203,
+    "topics": [],
+    "updated_at": "2026-04-17T14:07:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

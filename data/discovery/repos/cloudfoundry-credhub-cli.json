@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "target": "cloudfoundry-incubator/credhub-acceptance-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "target": "pivotal-cf/credhub-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "target": "cloudfoundry-incubator/credhub-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-cli",
+      "target": "bosh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-cli",
+      "target": "cf-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-cli",
+      "target": "cloudfoundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-cli",
+      "target": "credential-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-cli",
+      "target": "credhub",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:27:04.721405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2439
+    },
+    {
+      "path": "go.mod",
+      "size": 1372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CredHub CLI provides a command line interface to interact with CredHub servers",
+    "fork": false,
+    "full_name": "cloudfoundry/credhub-cli",
+    "html_url": "https://github.com/cloudfoundry/credhub-cli",
+    "language": "Go",
+    "pushed_at": "2026-04-27T13:08:50Z",
+    "stargazers_count": 43,
+    "topics": [
+      "bosh",
+      "cf-extensions",
+      "cloudfoundry",
+      "credential-manager",
+      "credhub"
+    ],
+    "updated_at": "2026-04-27T13:08:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub-acceptance-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pivotal-cf/credhub-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cf-extensions"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudfoundry"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credential-manager"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credhub"
+    }
+  ]
+}

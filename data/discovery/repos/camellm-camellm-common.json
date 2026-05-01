@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM-Common",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:07.100510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Shared supporting code useful for CameLLM plugins",
+    "fork": false,
+    "full_name": "CameLLM/CameLLM-Common",
+    "html_url": "https://github.com/CameLLM/CameLLM-Common",
+    "language": "Objective-C++",
+    "pushed_at": "2023-06-08T22:46:41Z",
+    "stargazers_count": 2,
+    "topics": [
+      "swift"
+    ],
+    "updated_at": "2023-10-09T17:04:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is under development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

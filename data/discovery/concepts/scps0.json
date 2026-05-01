@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "scps0"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "status": "candidate-context",
+      "text": "A standard for straightforward integration and compilation of C projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "status": "candidate-context",
+      "text": "This document outlines a project structure for C(++) programs and libraries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "status": "candidate",
+      "text": "This document outlines a project structure for C(++) programs and libraries"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "scps0",
+  "concept_id": "scps0",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scps0",
+      "sense_id": "scps0#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

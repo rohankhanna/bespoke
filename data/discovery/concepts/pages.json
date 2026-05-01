@@ -94,6 +94,30 @@
       "source_repo": "xzfc/cached-nix-shell",
       "status": "candidate-context",
       "text": "Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate-context",
+      "text": "A functional-first toolkit for building brilliant ASP.NET Core applications using F#."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate-context",
+      "text": "pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "red-data-tools/red-datasets",
+      "status": "candidate-context",
+      "text": "A RubyGem that provides common datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "red-data-tools/red-datasets",
+      "status": "candidate-context",
+      "text": "Pages"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +160,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xzfc/cached-nix-shell",
+      "status": "candidate",
+      "text": "Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate",
+      "text": "pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "red-data-tools/red-datasets",
       "status": "candidate",
       "text": "Pages"
     }
@@ -223,11 +259,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "xzfc/cached-nix-shell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "falcoframework/Falco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "red-data-tools/red-datasets"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

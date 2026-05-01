@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "html-lexer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LostRuins/lite.koboldai.net",
+      "target": "html-lexer",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:00.323235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2257
+    },
+    {
+      "path": "package.json",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A zero dependency web UI for any LLM backend, including KoboldCpp, OpenAI and AI Horde",
+    "fork": false,
+    "full_name": "LostRuins/lite.koboldai.net",
+    "html_url": "https://github.com/LostRuins/lite.koboldai.net",
+    "language": "HTML",
+    "pushed_at": "2026-04-29T15:20:13Z",
+    "stargazers_count": 174,
+    "topics": [],
+    "updated_at": "2026-04-29T15:21:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

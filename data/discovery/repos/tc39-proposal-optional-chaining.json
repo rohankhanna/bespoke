@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@alrra/travis-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-optional-chaining",
+      "target": "claudepache/es-optional-chaining",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-optional-chaining",
+      "target": "davidyaha/ecmascript-optionals-proposal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-optional-chaining",
+      "target": "babel/babylon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-optional-chaining",
+      "target": "facebook/flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-optional-chaining",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-optional-chaining",
+      "target": "@alrra/travis-scripts",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:23.302393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20346
+    },
+    {
+      "path": "package.json",
+      "size": 1155
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tc39/proposal-optional-chaining",
+    "html_url": "https://github.com/tc39/proposal-optional-chaining",
+    "language": "HTML",
+    "pushed_at": "2022-01-24T21:12:16Z",
+    "stargazers_count": 4916,
+    "topics": [],
+    "updated_at": "2026-04-21T13:02:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babel/babylon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "claudepache/es-optional-chaining",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidyaha/ecmascript-optionals-proposal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/flow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

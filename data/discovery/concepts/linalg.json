@@ -19,6 +19,18 @@
       "source_repo": "tracel-ai/cubecl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate-context",
+      "text": "Linear Algebra Library for Ruby/Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate-context",
+      "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tracel-ai/cubecl",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate",
+      "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/cubecl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-linalg"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

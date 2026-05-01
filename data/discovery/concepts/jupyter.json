@@ -367,6 +367,30 @@
       "source_repo": "almond-sh/almond",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/extension-examples",
+      "status": "candidate-context",
+      "text": "JupyterLab Extensions by Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-examples",
+      "status": "candidate-context",
+      "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-examples/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-examples/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letmaik/rawpy-notebooks",
+      "status": "candidate-context",
+      "text": "A collection of Jupyter notebooks using rawpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letmaik/rawpy-notebooks",
+      "status": "candidate-context",
+      "text": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy)."
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "almond-sh/almond",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-examples",
+      "status": "candidate",
+      "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-examples/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-examples/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letmaik/rawpy-notebooks",
+      "status": "candidate",
+      "text": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy)."
     }
   ],
   "candidate_related_terms": [],
@@ -814,11 +850,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "almond-sh/almond"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "letmaik/rawpy-notebooks"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

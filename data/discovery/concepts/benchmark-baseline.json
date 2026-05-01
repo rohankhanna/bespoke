@@ -19,12 +19,30 @@
       "source_repo": "clap-rs/clap",
       "status": "candidate-context",
       "text": "Benchmark Baseline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/fern",
+      "status": "candidate-context",
+      "text": "Input OpenAPI. Output SDKs and Docs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/fern",
+      "status": "candidate-context",
+      "text": "Benchmark Baseline"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "clap-rs/clap",
+      "status": "candidate",
+      "text": "Benchmark Baseline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/fern",
       "status": "candidate",
       "text": "Benchmark Baseline"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/bench-baseline.yml",
       "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark-baseline.yml",
+      "source_repo": "fern-api/fern"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -211,6 +211,18 @@
       "source_repo": "modelscope/FunCodec",
       "status": "candidate-context",
       "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate-context",
+      "text": "A PyTorch-based Speech Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "modelscope/FunCodec",
       "status": "candidate",
       "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -496,11 +514,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "speechbrain/speechbrain"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

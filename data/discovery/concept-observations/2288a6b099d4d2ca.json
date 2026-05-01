@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Car Rental Platform with Mobile App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "containerize"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "containerize"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944820,
+      "status": "candidate",
+      "text": "box up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944819,
+      "status": "candidate",
+      "text": "stuff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944818,
+      "status": "candidate",
+      "text": "copackage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944817,
+      "status": "candidate",
+      "text": "canisterize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944816,
+      "status": "candidate",
+      "text": "canister"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "containerize",
+      "sense_id": "containerize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "containerize",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "containerize",
+  "observation_id": "2288a6b099d4d2ca",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "containerize",
+  "source_context_snippet": "containerize",
+  "source_file": ".github/workflows/containerize.yml",
+  "source_repo": "aelassas/bookcars",
+  "source_repo_description": "Car Rental Platform with Mobile App"
+}

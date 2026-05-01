@@ -247,6 +247,42 @@
       "source_repo": "twri/sdxl_prompt_styler",
       "status": "candidate-context",
       "text": "![SDXL Prompt Styler Screenshot](examples/sdxl_prompt_styler.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "siliconflow/onediff",
+      "status": "candidate-context",
+      "text": "OneDiff: An out-of-the-box acceleration library for diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "siliconflow/onediff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZHO-ZHO-ZHO/ComfyUI-InstantID",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of InstantID for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZHO-ZHO-ZHO/ComfyUI-InstantID",
+      "status": "candidate-context",
+      "text": "![ISID_](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID/assets/140084057/01393483-3145-4691-9daa-7ce9035c9bd0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MinusZoneAI/ComfyUI-FluxExt-MZ",
+      "status": "candidate-context",
+      "text": "Tool nodes related to flux1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MinusZoneAI/ComfyUI-FluxExt-MZ",
+      "status": "candidate-context",
+      "text": "![image](https://github.com/user-attachments/assets/237b5fd8-d5ab-47bf-8fd8-0f0f09b0dbde)"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "twri/sdxl_prompt_styler",
       "status": "candidate",
       "text": "![SDXL Prompt Styler Screenshot](examples/sdxl_prompt_styler.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "siliconflow/onediff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZHO-ZHO-ZHO/ComfyUI-InstantID",
+      "status": "candidate",
+      "text": "![ISID_](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID/assets/140084057/01393483-3145-4691-9daa-7ce9035c9bd0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MinusZoneAI/ComfyUI-FluxExt-MZ",
+      "status": "candidate",
+      "text": "![image](https://github.com/user-attachments/assets/237b5fd8-d5ab-47bf-8fd8-0f0f09b0dbde)"
     }
   ],
   "candidate_related_terms": [],
@@ -616,11 +670,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "siliconflow/onediff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ZHO-ZHO-ZHO/ComfyUI-InstantID"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MinusZoneAI/ComfyUI-FluxExt-MZ"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

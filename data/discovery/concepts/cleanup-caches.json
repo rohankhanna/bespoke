@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Cleanup caches"
+    "Cleanup caches",
+    "Cleanup Caches"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "discordjs/discord.js",
       "status": "candidate-context",
       "text": "Cleanup caches"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate-context",
+      "text": "VOICEVOX\u306e\u30d7\u30ec\u30d3\u30e5\u30fc\u7528\u30da\u30fc\u30b8\u3092\u30c7\u30d7\u30ed\u30a4\u3059\u308b\u30ea\u30dd\u30b8\u30c8\u30ea\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate-context",
+      "text": "\"Cleanup Caches\""
     }
   ],
   "candidate_glosses": [
@@ -81,6 +94,12 @@
       "source_repo": "discordjs/discord.js",
       "status": "candidate",
       "text": "Cleanup caches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate",
+      "text": "\"Cleanup Caches\""
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +167,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/cleanup-cache.yml",
       "source_repo": "discordjs/discord.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "source_repo": "VOICEVOX/preview-pages"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rjpcomputing/luaforwindows",
+      "target": "ittner/lua-gd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rjpcomputing/luaforwindows",
+      "target": "fab13n/metalua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rjpcomputing/luaforwindows",
+      "target": "jmaygarden/gzio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rjpcomputing/luaforwindows",
+      "target": "harningt/luajson",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:30:03.237622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lua for Windows is a 'batteries included environment' for the Lua scripting language on Windows. NOTICE: Looking for maintainer.",
+    "fork": false,
+    "full_name": "rjpcomputing/luaforwindows",
+    "html_url": "https://github.com/rjpcomputing/luaforwindows",
+    "language": "HTML",
+    "pushed_at": "2026-03-17T20:29:28Z",
+    "stargazers_count": 3209,
+    "topics": [],
+    "updated_at": "2026-05-01T06:58:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fab13n/metalua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harningt/luajson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ittner/lua-gd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmaygarden/gzio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

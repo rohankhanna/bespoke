@@ -1657,6 +1657,270 @@
       "source_repo": "microsoft/CameraTraps",
       "status": "candidate-context",
       "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "All-in-one training for vision models (YOLO, ViTs, RT-DETR, DINOv3): pretraining, fine-tuning, distillation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is a implementation of the 3D FLAME model in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate-context",
+      "text": "This is the official repository for evaluation on the NoW Benchmark Dataset. The goal of the NoW benchmark is to introduce a standard evaluation metric to measure the accuracy and robustness of 3D face reconstruction methods from a single image under variations in viewing angle, lighting, and common occlusions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate-context",
+      "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SasageyoOrg/voca-blender",
+      "status": "candidate-context",
+      "text": "Blender add-on to implement VOCA neural network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SasageyoOrg/voca-blender",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "Tensorflow framework for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 2D or 3D keypoints, and how to generate textured head meshes from Images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/glue-factory",
+      "status": "candidate-context",
+      "text": "Training library for local feature detection and matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/glue-factory",
+      "status": "candidate-context",
+      "text": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate-context",
+      "text": "Wrapper for 10+ VPR models. Use any SOTA VPR model just by changing one parameter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate-context",
+      "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate-context",
+      "text": "Cool vision, learning, and graphics papers on Cats!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate-context",
+      "text": "As reported by Cisco, 90% of net traffic will be visual, and indeed, most of the visual data are cat photos and videos. Thus, understanding, modeling, and synthesizing our feline friends becomes a more and more critical research problem these days, especially for our cat lovers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TRI-ML/dd3d",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of DD3D: Is Pseudo-Lidar needed for Monocular 3D Object detection? (ICCV 2021), Dennis Park*, Rares Ambrus*, Vitor Guizilini, Jie Li, and Adrien Gaidon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dd3d",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.tri.global/\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate-context",
+      "text": "PaQ2PiQ in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate-context",
+      "text": "Code for FreeTraj, a tuning-free method for trajectory-controllable video generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate-context",
+      "text": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "Improved Residual Networks (https://arxiv.org/pdf/2004.04989.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "status": "candidate-context",
+      "text": "CVPR2023-Occupancy-Prediction-Challenge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate-context",
+      "text": "A collection of original, innovative ideas and algorithms towards Advanced Literate Machinery. This project is maintained by the OCR Team in the Language Technology Lab, Tongyi Lab, Alibaba Group."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate-context",
+      "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "Turn any computer or edge device into a command center for your computer vision projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "C++ implementation of Lie Groups using Eigen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate-context",
+      "text": "RealSense SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate-context",
+      "text": "build_lrs_ROS2_package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly-studio",
+      "status": "candidate-context",
+      "text": "Curate, Annotate, and Manage Your Data in LightlyStudio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-studio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "Example code for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 3D keypoints and 3D scans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "status": "candidate-context",
+      "text": "Convert from Basel Face Model (BFM) to the FLAME head model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "status": "candidate-context",
+      "text": "This repository demonstrates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate-context",
+      "text": "Photometric optimization code for creating the FLAME texture space and other applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate-context",
+      "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
     }
   ],
   "candidate_glosses": [
@@ -2487,6 +2751,138 @@
       "source_repo": "microsoft/CameraTraps",
       "status": "candidate",
       "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate",
+      "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SasageyoOrg/voca-blender",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/glue-factory",
+      "status": "candidate",
+      "text": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate",
+      "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate",
+      "text": "As reported by Cisco, 90% of net traffic will be visual, and indeed, most of the visual data are cat photos and videos. Thus, understanding, modeling, and synthesizing our feline friends becomes a more and more critical research problem these days, especially for our cat lovers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dd3d",
+      "status": "candidate",
+      "text": "<a href=\"https://www.tri.global/\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate",
+      "text": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate",
+      "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate",
+      "text": "build_lrs_ROS2_package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-studio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "status": "candidate",
+      "text": "This repository demonstrates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate",
+      "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -3592,11 +3988,215 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "microsoft/CameraTraps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly-train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SasageyoOrg/voca-blender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/TF_FLAME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cvg/glue-factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/CatPapers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TRI-ML/dd3d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "baidut/paq2piq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "arthur-qiu/FreeTraj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "iduta/iresnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "strasdat/Sophus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HavenFeng/photometric_optimization"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

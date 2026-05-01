@@ -56,6 +56,18 @@
       "source_repo": "anza-xyz/curve25519-dalek",
       "status": "candidate-context",
       "text": "Cross"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-lc-rs",
+      "status": "candidate-context",
+      "text": "aws-lc-rs is a cryptographic library using AWS-LC for its cryptographic operations. The library strives to be API-compatible with the popular Rust library named ring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-lc-rs",
+      "status": "candidate-context",
+      "text": "cross"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "anza-xyz/curve25519-dalek",
       "status": "candidate",
       "text": "Cross"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-lc-rs",
+      "status": "candidate",
+      "text": "cross"
     }
   ],
   "candidate_related_terms": [
@@ -209,11 +227,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/cross.yml",
       "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "aws/aws-lc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

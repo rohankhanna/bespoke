@@ -1,0 +1,406 @@
+{
+  "components": [
+    {
+      "component": "@github/copilot-sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "openai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "IEvangelist/profanity-filter@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profanity.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml"
+    },
+    {
+      "component": "rojopolis/spellcheck-github-actions@0.47.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation.yml"
+    },
+    {
+      "component": "pelikhan/action-continuous-translation@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "microsoft/security-101",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "microsoft/xr-development-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "microsoft/mastering-github-copilot-for-paired-programming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "@github/copilot-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "peter-evans/create-issue-from-file@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profanity.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "IEvangelist/profanity-filter@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profanity.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "Profanity filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "rojopolis/spellcheck-github-actions@0.47.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "Spellcheck Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "pelikhan/action-continuous-translation@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translation.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "Continuous Translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "target": "training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:35.951884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12902
+    },
+    {
+      "path": "package.json",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 467
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/profanity.yml",
+      "size": 873
+    },
+    {
+      "path": ".github/workflows/spelling.yml",
+      "size": 599
+    },
+    {
+      "path": ".github/workflows/translation.yml",
+      "size": 1026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Join a time-traveling adventure where you meet history\u2019s legends while learning Generative AI technologies! \u2728",
+    "fork": false,
+    "full_name": "microsoft/generative-ai-with-javascript",
+    "html_url": "https://github.com/microsoft/generative-ai-with-javascript",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-19T10:27:16Z",
+    "stargazers_count": 1194,
+    "topics": [
+      "ai",
+      "generative-ai",
+      "javascript",
+      "llm",
+      "samples",
+      "training"
+    ],
+    "updated_at": "2026-04-30T21:59:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mastering-github-copilot-for-paired-programming",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/security-101",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/xr-development-for-beginners",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "term": "Links"
+    },
+    {
+      "context_snippet": "Profanity filter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profanity.yml",
+      "term": "Profanity filter"
+    },
+    {
+      "context_snippet": "Spellcheck Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "term": "Spellcheck Action"
+    },
+    {
+      "context_snippet": "Continuous Translation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translation.yml",
+      "term": "Continuous Translation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    }
+  ]
+}

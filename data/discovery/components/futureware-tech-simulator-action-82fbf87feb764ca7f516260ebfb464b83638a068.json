@@ -1,0 +1,12 @@
+{
+  "component": "futureware-tech/simulator-action@82fbf87feb764ca7f516260ebfb464b83638a068",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "firebase/FirebaseUI-Flutter"
+    }
+  ]
+}

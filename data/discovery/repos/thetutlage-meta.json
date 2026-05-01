@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:35:43.022938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 79
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documenting my workflows publicly and having discussions around them.",
+    "fork": false,
+    "full_name": "thetutlage/meta",
+    "html_url": "https://github.com/thetutlage/meta",
+    "language": null,
+    "pushed_at": "2022-03-30T06:32:09Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-09-16T12:29:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

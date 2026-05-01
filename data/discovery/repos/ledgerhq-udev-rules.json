@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LedgerHQ/udev-rules",
+      "target": "do-not-archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LedgerHQ/udev-rules",
+      "target": "infraprj-4968",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:22:39.390500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "udev rules to support Ledger devices on Linux",
+    "fork": false,
+    "full_name": "LedgerHQ/udev-rules",
+    "html_url": "https://github.com/LedgerHQ/udev-rules",
+    "language": "Shell",
+    "pushed_at": "2024-07-30T22:10:05Z",
+    "stargazers_count": 144,
+    "topics": [
+      "do-not-archive",
+      "infraprj-4968"
+    ],
+    "updated_at": "2026-04-07T15:47:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "udev rules to support Ledger devices on Linux",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "do-not-archive"
+    },
+    {
+      "context_snippet": "udev rules to support Ledger devices on Linux",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infraprj-4968"
+    }
+  ]
+}

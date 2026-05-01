@@ -256,6 +256,18 @@
       "source_repo": "rgbkrk/chatlab",
       "status": "candidate-context",
       "text": "Ruff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "OpenTinker is an RL-as-a-Service infrastructure for foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "ruff"
     }
   ],
   "candidate_glosses": [
@@ -384,6 +396,12 @@
       "source_repo": "rgbkrk/chatlab",
       "status": "candidate",
       "text": "Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate",
+      "text": "ruff"
     }
   ],
   "candidate_related_terms": [
@@ -679,11 +697,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/ruff.yml",
       "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "open-tinker/OpenTinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "567-labs/instructor"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_Patches_ll",
+      "target": "chengzeyi/comfy-wavespeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_Patches_ll",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_Patches_ll",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_Patches_ll",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:27:30.923819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2867
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 446
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 647
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "lldacing/ComfyUI_Patches_ll",
+    "html_url": "https://github.com/lldacing/ComfyUI_Patches_ll",
+    "language": "Python",
+    "pushed_at": "2026-01-12T04:51:44Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-03-22T04:52:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chengzeyi/comfy-wavespeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

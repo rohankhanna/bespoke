@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "pipecat-ai/pipecat-esp32",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "pipecat-ai/pipecat-esp32",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "pipecat-ai/pipecat-esp32",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "pipecat-ai/pipecat-esp32",
+      "target": "jidicula/clang-format-action@v4.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "pipecat-ai/pipecat-esp32",
+      "target": "clang-format Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:36:42.048363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2474
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 589
+    },
+    {
+      "path": ".github/workflows/clang-format-check.yml",
+      "size": 365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pipecat ESP32 Client SDK",
+    "fork": false,
+    "full_name": "pipecat-ai/pipecat-esp32",
+    "html_url": "https://github.com/pipecat-ai/pipecat-esp32",
+    "language": "C++",
+    "pushed_at": "2025-10-06T03:28:41Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-04-29T22:47:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "clang-format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "term": "clang-format Check"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenNLPLab/im",
+      "target": "doraemonzzz/hgru2-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:30:21.770194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release_version",
+    "description": null,
+    "fork": false,
+    "full_name": "OpenNLPLab/im",
+    "html_url": "https://github.com/OpenNLPLab/im",
+    "language": "Python",
+    "pushed_at": "2024-04-11T09:32:14Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-04-29T07:37:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doraemonzzz/hgru2-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

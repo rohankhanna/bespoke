@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "target": "fsprojects/fsharp.data.graphql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "target": "sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "target": "sample-app",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:24:50.216651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Falco GraphQL Sample \ud83d\udc23\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a",
+    "fork": false,
+    "full_name": "adelarsq/falco_graphql_sample",
+    "html_url": "https://github.com/adelarsq/falco_graphql_sample",
+    "language": "F#",
+    "pushed_at": "2024-04-07T20:37:39Z",
+    "stargazers_count": 19,
+    "topics": [
+      "api",
+      "dotnet",
+      "fsharp",
+      "graphql",
+      "sample",
+      "sample-app"
+    ],
+    "updated_at": "2025-08-15T15:51:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fsprojects/fsharp.data.graphql",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    },
+    {
+      "context_snippet": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sample"
+    },
+    {
+      "context_snippet": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sample-app"
+    }
+  ]
+}

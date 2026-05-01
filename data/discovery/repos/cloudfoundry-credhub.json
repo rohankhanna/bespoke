@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub",
+      "target": "cloudfoundry-incubator/credhub-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub",
+      "target": "cloudfoundry-incubator/credhub-acceptance-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub",
+      "target": "cloudfoundry/bosh-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/credhub",
+      "target": "cloudfoundry/uaa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub",
+      "target": "unit-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub",
+      "target": "bosh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub",
+      "target": "cf-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub",
+      "target": "cloudfoundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub",
+      "target": "credential-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub",
+      "target": "credhub",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:27:00.551724+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11420
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1076
+    },
+    {
+      "path": ".github/workflows/unit-test.yml",
+      "size": 394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CredHub centralizes and secures credential generation, storage, lifecycle management, and access",
+    "fork": false,
+    "full_name": "cloudfoundry/credhub",
+    "html_url": "https://github.com/cloudfoundry/credhub",
+    "language": "Java",
+    "pushed_at": "2026-05-01T01:16:06Z",
+    "stargazers_count": 249,
+    "topics": [
+      "bosh",
+      "cf-extensions",
+      "cloudfoundry",
+      "credential-manager",
+      "credhub"
+    ],
+    "updated_at": "2026-04-29T22:55:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub-acceptance-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/credhub-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/uaa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "unit-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "term": "unit-test"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cf-extensions"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudfoundry"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credential-manager"
+    },
+    {
+      "context_snippet": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credhub"
+    }
+  ]
+}

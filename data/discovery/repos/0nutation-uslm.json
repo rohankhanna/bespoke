@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0nutation/USLM",
+      "target": "lhotse-speech/lhotse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0nutation/USLM",
+      "target": "lifeiteng/vall-e",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:27:34.777332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4348
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unified Speech Language Model for paper \"SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models\"(ICLR 2024)",
+    "fork": false,
+    "full_name": "0nutation/USLM",
+    "html_url": "https://github.com/0nutation/USLM",
+    "language": "Python",
+    "pushed_at": "2023-09-14T03:49:35Z",
+    "stargazers_count": 151,
+    "topics": [],
+    "updated_at": "2026-04-01T06:53:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lhotse-speech/lhotse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifeiteng/vall-e",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

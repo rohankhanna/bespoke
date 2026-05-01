@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4pga/prjxray-db",
+      "target": "symbiflow/prjxray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "f4pga/prjxray-db",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "f4pga/prjxray-db",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "f4pga/prjxray-db",
+      "target": "Build GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "artix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "artix7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "bitset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "kintex7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "prjxray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "symbiflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "toolchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "xilinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db",
+      "target": "xilinx-fpga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:06:20.590532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1469
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project X-Ray Database: XC7 Series",
+    "fork": false,
+    "full_name": "f4pga/prjxray-db",
+    "html_url": "https://github.com/f4pga/prjxray-db",
+    "language": "Shell",
+    "pushed_at": "2021-12-14T21:34:10Z",
+    "stargazers_count": 74,
+    "topics": [
+      "artix",
+      "artix7",
+      "bitset",
+      "database",
+      "fpga",
+      "kintex7",
+      "prjxray",
+      "symbiflow",
+      "toolchain",
+      "tools",
+      "xilinx",
+      "xilinx-fpga"
+    ],
+    "updated_at": "2026-01-15T14:59:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "symbiflow/prjxray",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Build GitHub Pages"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artix"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artix7"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitset"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kintex7"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prjxray"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symbiflow"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolchain"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xilinx"
+    },
+    {
+      "context_snippet": "[TOC]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xilinx-fpga"
+    }
+  ]
+}

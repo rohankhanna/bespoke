@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@main",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -482,6 +482,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/localization.yml",
       "source_repo": "IEvangelist/blazor-azure-openai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.template.bicep.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.template.terraform.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scenario1.bicep.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scenario1.terraform.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "webpro-nl/knip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stefanlogue/scoops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "stefanlogue/scoops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "stefanlogue/scoops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "stefanlogue/scoops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "stefanlogue/scoops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/airflow-client-python"
     }
   ]
 }

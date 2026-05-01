@@ -539,6 +539,18 @@
       "source_repo": "rdimitrov/go-tuf-metadata",
       "status": "candidate-context",
       "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/hip",
+      "status": "candidate-context",
+      "text": "HIP: C++ Heterogeneous-Compute Interface for Portability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hip",
+      "status": "candidate-context",
+      "text": "Linting"
     }
   ],
   "candidate_glosses": [
@@ -809,6 +821,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rdimitrov/go-tuf-metadata",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hip",
       "status": "candidate",
       "text": "Linting"
     }
@@ -1285,11 +1303,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/hip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/ROCm"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

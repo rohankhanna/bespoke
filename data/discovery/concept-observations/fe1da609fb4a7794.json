@@ -84,7 +84,7 @@
   "normalized_form": "build-test",
   "observation_id": "fe1da609fb4a7794",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Build Test",
   "source_context_snippet": "Build Test",
   "source_file": ".github/workflows/build-test.yml",

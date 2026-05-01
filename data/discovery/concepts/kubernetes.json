@@ -2086,6 +2086,114 @@
       "source_repo": "gorilla-llm/gorilla-cli",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "Configure and deploy complete EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "Welcome to Amazon EKS Blueprints for Terraform!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate-context",
+      "text": "Archived: GitOps config repo for an Apollo GraphQL federated graph with a supergraph router and subgraph services deployed to Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate-context",
+      "text": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "The easiest, and most secure way to access and protect all of your infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beclab/Olares",
+      "status": "candidate-context",
+      "text": "Olares: An Open-Source Personal Cloud to Reclaim Your Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beclab/Olares",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/jobset",
+      "status": "candidate-context",
+      "text": "JobSet: a k8s native API for distributed ML training and HPC workloads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/jobset",
+      "status": "candidate-context",
+      "text": "[![GoReport Widget]][GoReport Status]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate-context",
+      "text": "Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases. Generate all-in-one manifests for use with ArgoCD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "Terraform module which provisions addons on Amazon EKS clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "Terraform module to deploy Kubernetes addons on Amazon EKS clusters."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate-context",
+      "text": "Configure and deploy Team based multi-tenant EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate-context",
+      "text": "Terraform module which creates multi-tenancy resources on Amazon EKS."
     }
   ],
   "candidate_glosses": [
@@ -3126,6 +3234,60 @@
       "source_repo": "gorilla-llm/gorilla-cli",
       "status": "candidate",
       "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate",
+      "text": "Welcome to Amazon EKS Blueprints for Terraform!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate",
+      "text": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beclab/Olares",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/jobset",
+      "status": "candidate",
+      "text": "[![GoReport Widget]][GoReport Status]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate",
+      "text": "Terraform module to deploy Kubernetes addons on Amazon EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate",
+      "text": "Terraform module which creates multi-tenancy resources on Amazon EKS."
     }
   ],
   "candidate_related_terms": [
@@ -4567,11 +4729,113 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "gorilla-llm/gorilla-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beclab/Olares"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/jobset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "helmfile/helmfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

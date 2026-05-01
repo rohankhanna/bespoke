@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:14:48.545791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agent Skills to empower developers building AI applications with Weaviate.",
+    "fork": false,
+    "full_name": "weaviate/agent-skills",
+    "html_url": "https://github.com/weaviate/agent-skills",
+    "language": "Python",
+    "pushed_at": "2026-04-02T13:30:07Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-04-22T09:49:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

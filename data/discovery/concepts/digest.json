@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,18 @@
       "source_repo": "stainless-steel/md5",
       "status": "candidate-context",
       "text": "The package provides the [MD5] hash function."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate-context",
+      "text": "Collection of cryptography-related traits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate-context",
+      "text": "digest"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +59,12 @@
       "source_repo": "stainless-steel/md5",
       "status": "candidate",
       "text": "The package provides the [MD5] hash function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate",
+      "text": "digest"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +128,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "stainless-steel/md5"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/digest.yml",
+      "source_repo": "RustCrypto/traits"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

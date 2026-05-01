@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:07:12.025365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spring AI workshop content",
+    "fork": false,
+    "full_name": "asaikali/spring-ai-zero-to-hero",
+    "html_url": "https://github.com/asaikali/spring-ai-zero-to-hero",
+    "language": "Java",
+    "pushed_at": "2025-10-06T19:37:00Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-04-28T11:08:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

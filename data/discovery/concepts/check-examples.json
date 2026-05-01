@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check Examples"
+    "Check Examples",
+    "check examples"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "go-rod/rod",
       "status": "candidate-context",
       "text": "Check Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/docsite",
+      "status": "candidate-context",
+      "text": "Dioxuslabs.com documentation site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/docsite",
+      "status": "candidate-context",
+      "text": "check examples"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "go-rod/rod",
       "status": "candidate",
       "text": "Check Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/docsite",
+      "status": "candidate",
+      "text": "check examples"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/check-examples.yml",
       "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "DioxusLabs/docsite"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

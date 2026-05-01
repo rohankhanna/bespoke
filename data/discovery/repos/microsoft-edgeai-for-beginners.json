@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-cli-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-cli-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/edgeai-for-beginners",
+      "target": "azure/co-op-translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/edgeai-for-beginners",
+      "target": "microsoft/generative-ai-for-beginners-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/edgeai-for-beginners",
+      "target": "microsoft/generative-ai-for-beginners-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/edgeai-for-beginners",
+      "target": "microsoft/generative-ai-with-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-cli-lint.yml",
+      "source_repo": "microsoft/edgeai-for-beginners",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-cli-lint.yml",
+      "source_repo": "microsoft/edgeai-for-beginners",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:51.411721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23284
+    },
+    {
+      "path": ".github/workflows/markdown-cli-lint.yml",
+      "size": 468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This course is designed to guide beginners through the exciting world of Edge AI, covering fundamental concepts, popular models, inference techniques, device-specific applications, model optimization, and the development of intelligent Edge AI agents.",
+    "fork": false,
+    "full_name": "microsoft/edgeai-for-beginners",
+    "html_url": "https://github.com/microsoft/edgeai-for-beginners",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-20T15:24:16Z",
+    "stargazers_count": 1427,
+    "topics": [],
+    "updated_at": "2026-04-30T05:42:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/co-op-translator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-for-beginners-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-for-beginners-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-with-javascript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

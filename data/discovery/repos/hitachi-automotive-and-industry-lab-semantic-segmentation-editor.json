@@ -1,0 +1,571 @@
+{
+  "components": [
+    {
+      "component": "@babel/runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@material-ui/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tweenjs/tween.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "acorn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "body-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "canvas-filters",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "color",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "color-scheme",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "core-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "download",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fastintcompression",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "file-saver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "filesize",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hull.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "indexof",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jquery",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lineclip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mdi-material-ui",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mousetrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "paper",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "point-in-polygon-extended",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "polybooljs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rc-slider",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-router",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-router-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serve-static",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shelljs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simplify-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "three",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tippy.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "underscore",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "url",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "dmandrioli/sse-extra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "@babel/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "@material-ui/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "@tweenjs/tween.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "acorn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "body-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "canvas-filters",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "color",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "color-scheme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "core-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "download",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "fastintcompression",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "file-saver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "filesize",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "hull.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "indexof",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "jquery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "lineclip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "mdi-material-ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "mousetrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "paper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "point-in-polygon-extended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "polybooljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "postal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "rc-slider",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "react-router",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "react-router-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "serve-static",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "shelljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "simplify-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "three",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "tippy.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "underscore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "url",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "image-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "image-labeling-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "labeling-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "manual-annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:26:29.143911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8519
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1175
+    },
+    {
+      "path": "package.json",
+      "size": 1762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Web labeling tool for bitmap images and point clouds",
+    "fork": false,
+    "full_name": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+    "html_url": "https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+    "language": "JavaScript",
+    "pushed_at": "2024-09-18T15:04:01Z",
+    "stargazers_count": 1952,
+    "topics": [
+      "image-labeling",
+      "image-labeling-tool",
+      "labeling-tool",
+      "machine-learning",
+      "manual-annotations",
+      "pcd",
+      "pointcloud",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-04-29T09:21:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmandrioli/sse-extra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A web based labeling tool for creating AI training data sets (2D and 3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-labeling"
+    },
+    {
+      "context_snippet": "A web based labeling tool for creating AI training data sets (2D and 3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-labeling-tool"
+    },
+    {
+      "context_snippet": "A web based labeling tool for creating AI training data sets (2D and 3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labeling-tool"
+    },
+    {
+      "context_snippet": "A web based labeling tool for creating AI training data sets (2D and 3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "A web based labeling tool for creating AI training data sets (2D and 3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manual-annotations"
+    },
+    {
+      "context_snippet": "A web based labeling tool for creating AI training data sets (2D and 3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    },
+    {
+      "context_snippet": "A web based labeling tool for creating AI training data sets (2D and 3D).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

@@ -2129,6 +2129,204 @@
       "source_repo": "testcontainers/testcontainers-rs",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectordotdev/heim",
+      "status": "candidate-context",
+      "text": "Cross-platform async library for system information fetching \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/heim",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate-context",
+      "text": "Jenkins automation server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate-context",
+      "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/range-checked",
+      "status": "candidate-context",
+      "text": "Range checked types leveraging Rust's type system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/range-checked",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guoqingbao/candle",
+      "status": "candidate-context",
+      "text": "Minimalist ML framework for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guoqingbao/candle",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kherud/java-llama.cpp",
+      "status": "candidate-context",
+      "text": "Java Bindings for llama.cpp - A Port of Facebook's LLaMA model in C/C++ "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kherud/java-llama.cpp",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "To manage Docker Content Trust and Notary certificates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate-context",
+      "text": "Community maintained modules for Testcontainers for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate-context",
+      "text": "Preact adapter for the Enzyme UI testing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaahc/displaydoc",
+      "status": "candidate-context",
+      "text": "A derive macro for implementing the display Trait via a doc comment and string interpolation "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaahc/displaydoc",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdownlint/markdownlint",
+      "status": "candidate-context",
+      "text": "Markdown lint tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdownlint/markdownlint",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evcxr/evcxr",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate-context",
+      "text": "Next generation GUIDs. Collision-resistant ids optimized for horizontal scaling and performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jk-jeon/dragonbox",
+      "status": "candidate-context",
+      "text": "Reference implementation of Dragonbox in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jk-jeon/dragonbox",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate-context",
+      "text": "open Multi-View Stereo reconstruction library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmbo/questionary",
+      "status": "candidate-context",
+      "text": "Python library to build pretty command line user prompts \u2728Easy to use multi-select lists, confirmations, free text prompts ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmbo/questionary",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate-context",
+      "text": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate-context",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-makeup/makeup_diff",
+      "status": "candidate-context",
+      "text": "Diff lexer for Makeup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-makeup/makeup_diff",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -3191,6 +3389,108 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "testcontainers/testcontainers-rs",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/heim",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate",
+      "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/range-checked",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guoqingbao/candle",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kherud/java-llama.cpp",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaahc/displaydoc",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdownlint/markdownlint",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evcxr/evcxr",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jk-jeon/dragonbox",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmbo/questionary",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-makeup/makeup_diff",
       "status": "candidate",
       "text": "Continuous Integration"
     }
@@ -4640,11 +4940,179 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/continuous-integration.yml",
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vectordotdev/heim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jenkins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EricLBuehler/range-checked"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "guoqingbao/candle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kherud/java-llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "philips-labs/dct-notary-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yaahc/displaydoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "evcxr/evcxr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "gordon-code/cuid2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jk-jeon/dragonbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "tmbo/questionary"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/opensim-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_diff"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

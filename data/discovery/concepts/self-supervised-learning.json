@@ -187,6 +187,42 @@
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
       "status": "candidate-context",
       "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "All-in-one training for vision models (YOLO, ViTs, RT-DETR, DINOv3): pretraining, fine-tuning, distillation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate-context",
+      "text": "Code for ICLR 2020 paper \"VL-BERT: Pre-training of Generic Visual-Linguistic Representations\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate-context",
+      "text": "By"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
       "status": "candidate",
       "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate",
+      "text": "By"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +472,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly-train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

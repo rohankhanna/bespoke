@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Quality Checks",
-    "quality-checks"
+    "quality-checks",
+    "Quality checks \ud83d\udc4c\ud83e\uddea"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,18 @@
       "source_repo": "actor-framework/actor-framework",
       "status": "candidate-context",
       "text": "quality-checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate-context",
+      "text": "The Free Software Media System - Official Web Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate-context",
+      "text": "Quality checks \ud83d\udc4c\ud83e\uddea"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +131,12 @@
       "source_repo": "actor-framework/actor-framework",
       "status": "candidate",
       "text": "quality-checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate",
+      "text": "Quality checks \ud83d\udc4c\ud83e\uddea"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +216,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/quality-checks.yml",
       "source_repo": "actor-framework/actor-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/__quality_checks.yml",
+      "source_repo": "jellyfin/jellyfin-web"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

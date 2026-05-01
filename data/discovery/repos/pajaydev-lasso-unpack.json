@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "acorn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "acorn-walk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "brotli-size",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gzip-size",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lasso",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-ajay",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "ajay2507/lasso-unpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "ajay2507/lasso-unpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "acorn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "acorn-walk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "brotli-size",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "gzip-size",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "lasso",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "eslint-config-ajay",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "bundle-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "lasso",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "lasso-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-unpack",
+      "target": "unpack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:22:45.272761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1948
+    },
+    {
+      "path": "package.json",
+      "size": 736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "pajaydev/lasso-unpack",
+    "html_url": "https://github.com/pajaydev/lasso-unpack",
+    "language": "JavaScript",
+    "pushed_at": "2022-03-26T17:11:46Z",
+    "stargazers_count": 2,
+    "topics": [
+      "build-tool",
+      "bundle-analyzer",
+      "lasso",
+      "lasso-plugin",
+      "unpack"
+    ],
+    "updated_at": "2023-03-04T05:22:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajay2507/lasso-unpack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajay2507/lasso-unpack",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bundle-analyzer"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lasso"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lasso-plugin"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unpack"
+    }
+  ]
+}

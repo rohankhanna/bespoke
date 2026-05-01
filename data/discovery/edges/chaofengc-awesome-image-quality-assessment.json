@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "amap-ml/q-hawkeye",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "amap-ml/realqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "abhijay9/shifttolerant-lpips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "aimerykong/deepimageaestheticsanalysis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "blind-image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "iqa-dataset",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "chaofengc/Awesome-Image-Quality-Assessment"
+}

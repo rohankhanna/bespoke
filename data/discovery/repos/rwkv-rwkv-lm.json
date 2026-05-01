@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV/RWKV-LM",
+      "target": "blinkdl/nanorwkv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV/RWKV-LM",
+      "target": "blinkdl/rwkv-v2-rnn-pile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV/RWKV-LM",
+      "target": "blinkdl/smallinitemb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV/RWKV-LM",
+      "target": "blinkdl/mingpt-tuned",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:30:20.537745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RWKV is an RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer - great performance, fast inference, saves VRAM, fast training, \"infinite\" ctx_len, and free sentence embedding.",
+    "fork": true,
+    "full_name": "RWKV/RWKV-LM",
+    "html_url": "https://github.com/RWKV/RWKV-LM",
+    "language": "Python",
+    "pushed_at": "2025-03-17T02:29:37Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-04-26T04:39:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinkdl/mingpt-tuned",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinkdl/nanorwkv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinkdl/rwkv-v2-rnn-pile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinkdl/smallinitemb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

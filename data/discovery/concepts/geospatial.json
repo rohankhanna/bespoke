@@ -175,6 +175,18 @@
       "source_repo": "georust/wkt",
       "status": "candidate-context",
       "text": "wkt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate-context",
+      "text": "An open-source JavaScript library for world-class 3D globes and maps :earth_americas:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/CesiumGS/cesium/actions/workflows/dev.yml/badge.svg)](https://github.com/CesiumGS/cesium/actions/workflows/dev.yml)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "georust/wkt",
       "status": "candidate",
       "text": "wkt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/CesiumGS/cesium/actions/workflows/dev.yml/badge.svg)](https://github.com/CesiumGS/cesium/actions/workflows/dev.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -394,11 +412,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "georust/wkt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CesiumGS/cesium"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

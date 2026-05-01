@@ -153,6 +153,30 @@
       "source_repo": "webgpu/webgpu-samples",
       "status": "candidate-context",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate-context",
+      "text": "(yet another) static site generator. Simple, customisable, fast, maths with KaTeX, code evaluation, optional pre-rendering, in Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "status": "candidate-context",
+      "text": "Sample microservices solution using Azure Container Apps, Dapr, Cosmos DB, and Azure API Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "webgpu/webgpu-samples",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
       "status": "candidate",
       "text": "Build and Deploy"
     }
@@ -378,11 +414,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

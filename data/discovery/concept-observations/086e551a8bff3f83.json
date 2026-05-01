@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "open Multi-View Stereo reconstruction library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964692,
+      "status": "candidate",
+      "text": "refining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951580,
+      "status": "candidate",
+      "text": "shade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39928212,
+      "status": "candidate",
+      "text": "breeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927547,
+      "status": "candidate",
+      "text": "elaboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925833,
+      "status": "candidate",
+      "text": "nuance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "refinement",
+      "sense_id": "refinement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29038,
+      "status": "candidate",
+      "text": "nuance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20031,
+      "status": "candidate",
+      "text": "subtlety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12030,
+      "status": "candidate",
+      "text": "gentility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10046,
+      "status": "candidate",
+      "text": "polish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10033,
+      "status": "candidate",
+      "text": "elaboration"
+    }
+  ],
+  "concept_id": "refinement",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "refinement",
+  "observation_id": "086e551a8bff3f83",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "refinement",
+  "source_context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+  "source_file": null,
+  "source_repo": "cdcseacave/openMVS",
+  "source_repo_description": "open Multi-View Stereo reconstruction library"
+}

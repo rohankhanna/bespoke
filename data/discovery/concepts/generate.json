@@ -130,6 +130,30 @@
       "source_repo": "goreleaser/nfpm",
       "status": "candidate-context",
       "text": "generate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate-context",
+      "text": "\ud83d\ude38 Soothing pastel theme for the high-spirited!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate-context",
+      "text": "generate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "Generate favicons for your project with caching for blazing fast rebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +216,18 @@
       "source_repo": "goreleaser/nfpm",
       "status": "candidate",
       "text": "generate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate",
+      "text": "generate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -349,11 +385,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/generate.yml",
       "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "catppuccin/catppuccin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "anolilab/unplugin-favicons"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

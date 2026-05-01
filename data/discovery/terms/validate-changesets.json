@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/validate_changesets.yaml",
+      "source_repo": "appsignal/appsignal-elixir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/validate_changesets.yml",
+      "source_repo": "appsignal/appsignal-elixir-phoenix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/validate_changesets.yml",
+      "source_repo": "appsignal/appsignal-elixir-plug"
+    }
+  ],
+  "term": "Validate changesets"
+}

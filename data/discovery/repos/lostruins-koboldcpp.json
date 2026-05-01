@@ -1,0 +1,597 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.35",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.35",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-autoguess.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-autoguess.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "korewachino/koboldcppdocker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "noneabove1182/koboldcpp-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "mmwillet/tts.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "lostruins/lite.koboldai.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Linux OldPC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "KoboldCpp Linux ROCm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Jimver/cuda-toolkit@v0.2.35",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Windows OldPC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Jimver/cuda-toolkit@v0.2.35",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-autoguess.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-autoguess.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-autoguess.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "AutoGuess Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Linux ARM64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "gemma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "ggml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "koboldai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "koboldcpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "mistral",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:25:41.400926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22250
+    },
+    {
+      "path": "requirements.txt",
+      "size": 150
+    },
+    {
+      "path": ".github/workflows/kcpp-build-release-linux-oldpc.yaml",
+      "size": 2705
+    },
+    {
+      "path": ".github/workflows/kcpp-build-release-linux-rocm.yaml",
+      "size": 2611
+    },
+    {
+      "path": ".github/workflows/kcpp-build-release-linux.yaml",
+      "size": 2786
+    },
+    {
+      "path": ".github/workflows/kcpp-build-release-macos.yaml",
+      "size": 2076
+    },
+    {
+      "path": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "size": 5139
+    },
+    {
+      "path": ".github/workflows/kcpp-build-release-win.yaml",
+      "size": 7143
+    },
+    {
+      "path": ".github/workflows/test-autoguess.yaml",
+      "size": 753
+    },
+    {
+      "path": ".github/workflows/test-unofficial-arm64.yaml",
+      "size": 3375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "concedo",
+    "description": "Run GGUF models easily with a KoboldAI UI. One File. Zero Install.",
+    "fork": true,
+    "full_name": "LostRuins/koboldcpp",
+    "html_url": "https://github.com/LostRuins/koboldcpp",
+    "language": "C++",
+    "pushed_at": "2026-04-30T16:07:49Z",
+    "stargazers_count": 10361,
+    "topics": [
+      "gemma",
+      "ggml",
+      "gguf",
+      "koboldai",
+      "koboldcpp",
+      "language-model",
+      "llama",
+      "llamacpp",
+      "llm",
+      "mistral"
+    ],
+    "updated_at": "2026-05-01T06:42:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "korewachino/koboldcppdocker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lostruins/lite.koboldai.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmwillet/tts.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noneabove1182/koboldcpp-docker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Koboldcpp Linux OldPC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml",
+      "term": "Koboldcpp Linux OldPC"
+    },
+    {
+      "context_snippet": "KoboldCpp Linux ROCm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml",
+      "term": "KoboldCpp Linux ROCm"
+    },
+    {
+      "context_snippet": "Koboldcpp Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml",
+      "term": "Koboldcpp Linux"
+    },
+    {
+      "context_snippet": "Koboldcpp Mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml",
+      "term": "Koboldcpp Mac"
+    },
+    {
+      "context_snippet": "Koboldcpp Windows OldPC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "term": "Koboldcpp Windows OldPC"
+    },
+    {
+      "context_snippet": "Koboldcpp Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "term": "Koboldcpp Windows"
+    },
+    {
+      "context_snippet": "AutoGuess Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-autoguess.yaml",
+      "term": "AutoGuess Tests"
+    },
+    {
+      "context_snippet": "Koboldcpp Linux ARM64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml",
+      "term": "Koboldcpp Linux ARM64"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemma"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggml"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "koboldai"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "koboldcpp"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    }
+  ]
+}

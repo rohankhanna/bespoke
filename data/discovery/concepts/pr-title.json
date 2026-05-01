@@ -221,6 +221,66 @@
       "source_repo": "amannn/action-semantic-pull-request",
       "status": "candidate-context",
       "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "Configure and deploy complete EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "'PR title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate-context",
+      "text": "Terraform AWS module which provisions ACK addons on EKS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate-context",
+      "text": "'PR title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate-context",
+      "text": "Terraform AWS module which creates an EKS addon (helm release + IRSA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate-context",
+      "text": "'PR title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "Terraform module which provisions addons on Amazon EKS clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "'PR title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate-context",
+      "text": "Configure and deploy Team based multi-tenant EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate-context",
+      "text": "'PR title'"
     }
   ],
   "candidate_glosses": [
@@ -331,6 +391,36 @@
       "source_repo": "amannn/action-semantic-pull-request",
       "status": "candidate",
       "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate",
+      "text": "'PR title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate",
+      "text": "'PR title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate",
+      "text": "'PR title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate",
+      "text": "'PR title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate",
+      "text": "'PR title'"
     }
   ],
   "candidate_related_terms": [
@@ -488,11 +578,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "amannn/action-semantic-pull-request"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

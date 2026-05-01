@@ -31,6 +31,18 @@
       "source_repo": "decibri/decibri",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate-context",
+      "text": "Open Source framework for voice and multimodal conversational AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate-context",
+      "text": "<h1><div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "decibri/decibri",
       "status": "candidate",
       "text": "<!-- markdownlint-disable MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate",
+      "text": "<h1><div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "decibri/decibri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pipecat-ai/pipecat"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

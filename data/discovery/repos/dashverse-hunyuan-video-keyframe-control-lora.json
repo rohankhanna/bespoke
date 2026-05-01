@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dashverse/hunyuan-video-keyframe-control-lora",
+      "target": "dashtoon/hunyuan-video-keyframe-control-lora",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:27:15.410024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11448
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HunyuanVideo Keyframe Control Lora is an adapter for HunyuanVideo T2V model for keyframe-based video generation",
+    "fork": false,
+    "full_name": "Dashverse/hunyuan-video-keyframe-control-lora",
+    "html_url": "https://github.com/Dashverse/hunyuan-video-keyframe-control-lora",
+    "language": "Python",
+    "pushed_at": "2025-03-25T12:23:11Z",
+    "stargazers_count": 176,
+    "topics": [],
+    "updated_at": "2026-04-25T03:28:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashtoon/hunyuan-video-keyframe-control-lora",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

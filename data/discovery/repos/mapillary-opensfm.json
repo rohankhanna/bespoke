@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ubuntu20.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ubuntu24.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "mapillary/OpenSfM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "mapillary/OpenSfM",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "mapillary/OpenSfM",
+      "target": "Conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ubuntu20.yml",
+      "source_repo": "mapillary/OpenSfM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_ubuntu24.yml",
+      "source_repo": "mapillary/OpenSfM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapillary/OpenSfM",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapillary/OpenSfM",
+      "target": "opencv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:30:57.359770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2054
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2908
+    },
+    {
+      "path": ".github/workflows/conda.yml",
+      "size": 756
+    },
+    {
+      "path": ".github/workflows/docker_ubuntu20.yml",
+      "size": 621
+    },
+    {
+      "path": ".github/workflows/docker_ubuntu24.yml",
+      "size": 645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open source Structure-from-Motion pipeline",
+    "fork": false,
+    "full_name": "mapillary/OpenSfM",
+    "html_url": "https://github.com/mapillary/OpenSfM",
+    "language": "Python",
+    "pushed_at": "2026-04-30T11:08:32Z",
+    "stargazers_count": 3755,
+    "topics": [
+      "3d-reconstruction",
+      "opencv",
+      "python",
+      "sfm"
+    ],
+    "updated_at": "2026-04-30T22:09:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Conda",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yml",
+      "term": "Conda"
+    },
+    {
+      "context_snippet": "OpenSfM",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "OpenSfM",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    }
+  ]
+}

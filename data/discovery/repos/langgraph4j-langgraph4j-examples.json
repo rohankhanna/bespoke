@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j-examples",
+      "target": "bsorrentino/langgraph4j",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:16:10.802845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "langgraph4j examples",
+    "fork": false,
+    "full_name": "langgraph4j/langgraph4j-examples",
+    "html_url": "https://github.com/langgraph4j/langgraph4j-examples",
+    "language": "Java",
+    "pushed_at": "2026-01-27T11:38:55Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-04-28T08:50:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bsorrentino/langgraph4j",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

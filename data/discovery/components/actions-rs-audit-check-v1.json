@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/audit-check@v1",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/security-audit.yml",
       "source_repo": "sp1-patches/RustCrypto-bigint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vectordotdev/heim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "rozbb/rust-hpke"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rosetta-rs/argparse-rosetta-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mplanchard/cuid-rust"
     }
   ]
 }

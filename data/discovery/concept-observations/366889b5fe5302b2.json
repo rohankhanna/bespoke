@@ -48,7 +48,7 @@
   "normalized_form": "prompt-injection",
   "observation_id": "366889b5fe5302b2",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "prompt-injection",
   "source_context_snippet": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)",
   "source_file": null,

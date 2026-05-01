@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:33:34.683942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Jupyter notebook tutorials for MMOCR",
+    "fork": true,
+    "full_name": "Mountchicken/MMOCR_tutorials",
+    "html_url": "https://github.com/Mountchicken/MMOCR_tutorials",
+    "language": null,
+    "pushed_at": "2022-03-18T08:28:53Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-03-18T08:38:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

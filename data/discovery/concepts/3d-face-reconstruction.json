@@ -31,6 +31,18 @@
       "source_repo": "soubhiksanyal/RingNet",
       "status": "candidate-context",
       "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate-context",
+      "text": "Photometric optimization code for creating the FLAME texture space and other applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate-context",
+      "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "soubhiksanyal/RingNet",
       "status": "candidate",
       "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate",
+      "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "soubhiksanyal/RingNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HavenFeng/photometric_optimization"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

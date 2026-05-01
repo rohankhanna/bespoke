@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "object-orientation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate-context",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate-context",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "object-oriented programming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "object-oriented design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "object-oriented operating system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "object-oriented language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "object-based programming"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "object-orientation",
+  "concept_id": "object-orientation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "BrutPitt/imGuIZMO.quat"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "object-orientation",
+      "sense_id": "object-orientation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

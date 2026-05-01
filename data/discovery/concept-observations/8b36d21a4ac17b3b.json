@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Liquid Fill Chart for Apache ECharts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Liquid Fill Chart plugin for [Apache ECharts](https://github.com/apache/echarts), which is usually used to represent data in percentage."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Liquid Fill Chart plugin for [Apache ECharts](https://github.com/apache/echarts), which is usually used to represent data in percentage."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "liquid-fill-charts",
+      "sense_id": "liquid-fill-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "liquid-fill-charts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "liquid-fill-charts",
+  "observation_id": "8b36d21a4ac17b3b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "liquid-fill-charts",
+  "source_context_snippet": "Liquid Fill Chart plugin for [Apache ECharts](https://github.com/apache/echarts), which is usually used to represent data in percentage.",
+  "source_file": null,
+  "source_repo": "ecomfe/echarts-liquidfill",
+  "source_repo_description": "Liquid Fill Chart for Apache ECharts"
+}

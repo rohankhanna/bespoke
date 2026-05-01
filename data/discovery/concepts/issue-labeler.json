@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Issue Labeler"
+    "Issue Labeler",
+    "Issue labeler"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -157,6 +158,30 @@
       "source_repo": "Alexays/Waybar",
       "status": "candidate-context",
       "text": "\"Issue Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/voicevox",
+      "status": "candidate-context",
+      "text": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u30a8\u30c7\u30a3\u30bf\u30fc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/voicevox",
+      "status": "candidate-context",
+      "text": "Issue Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Extremely fast Query Engine for DataFrames, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Issue labeler"
     }
   ],
   "candidate_glosses": [
@@ -237,6 +262,18 @@
       "source_repo": "Alexays/Waybar",
       "status": "candidate",
       "text": "\"Issue Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/voicevox",
+      "status": "candidate",
+      "text": "Issue Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate",
+      "text": "Issue labeler"
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +407,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "Alexays/Waybar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "VOICEVOX/voicevox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/issue-labeler.yml",
+      "source_repo": "pola-rs/polars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

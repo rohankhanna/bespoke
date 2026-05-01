@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "azure-ai-vision"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate",
+      "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "azure-ai-vision",
+  "concept_id": "azure-ai-vision",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "azure-ai-vision",
+      "sense_id": "azure-ai-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

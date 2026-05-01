@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Milestone Contributors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "Google's Material Design in XAML & WPF, for C# & VB.Net. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "Generate Milestone Contributors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate",
+      "text": "Generate Milestone Contributors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "flip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "flipping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "hoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "horseshoe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18111,
+      "status": "candidate",
+      "text": "horseshoes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Milestone Contributors",
+  "concept_id": "generate-milestone-contributors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/generate_contributors.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Milestone Contributors",
+      "sense_id": "generate-milestone-contributors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

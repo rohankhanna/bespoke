@@ -1,0 +1,12 @@
+{
+  "component": "ask-bonk/ask-bonk/github@c39e982defd0114385df54e72012a3fc4333c4d4",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bonk.yml",
+      "source_repo": "cloudflare/workers-sdk"
+    }
+  ]
+}

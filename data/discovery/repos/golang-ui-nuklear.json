@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang-ui/nuklear",
+      "target": "vurtun/nuklear",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang-ui/nuklear",
+      "target": "veandco/go-sdl2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang-ui/nuklear",
+      "target": "xlab/libvpx-go",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:38.612862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This project provides Go bindings for nuklear.h \u2014 a small ANSI C GUI library.",
+    "fork": false,
+    "full_name": "golang-ui/nuklear",
+    "html_url": "https://github.com/golang-ui/nuklear",
+    "language": "C",
+    "pushed_at": "2025-12-29T09:12:46Z",
+    "stargazers_count": 1604,
+    "topics": [],
+    "updated_at": "2026-04-29T04:43:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "veandco/go-sdl2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vurtun/nuklear",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xlab/libvpx-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1636,6 +1636,150 @@
       "source_repo": "scicode-bench/SciCode",
       "status": "candidate-context",
       "text": "[**Homepage**](https://scicode-bench.github.io/) | [**Paper**](https://arxiv.org/abs/2407.13168)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Extremely fast Query Engine for DataFrames, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate-context",
+      "text": "Wrapper for 10+ VPR models. Use any SOTA VPR model just by changing one parameter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate-context",
+      "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate-context",
+      "text": "Wide NoSQL benchmark for RocksDB, LevelDB, Redis, WiredTiger and MongoDB extending the Yahoo Cloud Serving Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Unbranded Cloud Serving Benchmark</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Create ridiculously fast Lexers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate-context",
+      "text": "Instant-loading web apps, without effort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxc-project/oxc-resolver",
+      "status": "candidate-context",
+      "text": "Rust version of webpack/enhanced-resolve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc-resolver",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxc-project/oxc-sourcemap",
+      "status": "candidate-context",
+      "text": "Forked version of rust-sourcemap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc-sourcemap",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate-context",
+      "text": "Simple, fast, accurate single-header microbenchmarking functionality for C++11/14/17/20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate-context",
+      "text": "A PyTorch library for all things Reinforcement Learning (RL) for Combinatorial Optimization (CO)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate-context",
+      "text": "</br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sheredom/ubench.h",
+      "status": "candidate-context",
+      "text": "\u23f1\ufe0f single header benchmark framework for C and C++ "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheredom/ubench.h",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/sheredom/ubench.h/workflows/CMake/badge.svg)](https://github.com/sheredom/ubench.h/actions)"
     }
   ],
   "candidate_glosses": [
@@ -2454,6 +2598,78 @@
       "source_repo": "scicode-bench/SciCode",
       "status": "candidate",
       "text": "[**Homepage**](https://scicode-bench.github.io/) | [**Paper**](https://arxiv.org/abs/2407.13168)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate",
+      "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Unbranded Cloud Serving Benchmark</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc-resolver",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxc-project/oxc-sourcemap",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate",
+      "text": "</br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheredom/ubench.h",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/sheredom/ubench.h/workflows/CMake/badge.svg)](https://github.com/sheredom/ubench.h/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -3705,11 +3921,143 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "scicode-bench/SciCode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "AgnostiqHQ/covalent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "pola-rs/polars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/ucsb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rustbench.yml",
+      "source_repo": "maciejhirsz/logos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "QwikDev/qwik"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "oxc-project/oxc-resolver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "oxc-project/oxc-sourcemap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby/ruby-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "martinus/nanobench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "prisma/prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "sheredom/ubench.h"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

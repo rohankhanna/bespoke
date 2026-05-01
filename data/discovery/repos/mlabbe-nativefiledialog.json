@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabbe/nativefiledialog",
+      "target": "dialog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabbe/nativefiledialog",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabbe/nativefiledialog",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabbe/nativefiledialog",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:19.396629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tiny, neat C library that portably invokes native file open and save dialogs.",
+    "fork": false,
+    "full_name": "mlabbe/nativefiledialog",
+    "html_url": "https://github.com/mlabbe/nativefiledialog",
+    "language": "Makefile",
+    "pushed_at": "2024-08-10T15:29:36Z",
+    "stargazers_count": 1976,
+    "topics": [
+      "c",
+      "dialog",
+      "gui",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "updated_at": "2026-05-01T08:05:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialog"
+    },
+    {
+      "context_snippet": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

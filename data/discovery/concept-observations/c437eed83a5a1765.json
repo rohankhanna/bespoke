@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code for FreeTraj, a tuning-free method for trajectory-controllable video generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trajectory-control",
+      "sense_id": "trajectory-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trajectory-control",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trajectory-control",
+  "observation_id": "c437eed83a5a1765",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "trajectory-control",
+  "source_context_snippet": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+  "source_file": null,
+  "source_repo": "arthur-qiu/FreeTraj",
+  "source_repo_description": "Code for FreeTraj, a tuning-free method for trajectory-controllable video generation"
+}

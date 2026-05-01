@@ -187,6 +187,42 @@
       "source_repo": "kacperkan/conerf",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/hypernerf",
+      "status": "candidate-context",
+      "text": "Code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/hypernerf",
+      "status": "candidate-context",
+      "text": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/nerfies",
+      "status": "candidate-context",
+      "text": "This is the code for Deformable Neural Radiance Fields, a.k.a. Nerfies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/nerfies",
+      "status": "candidate-context",
+      "text": "This is the code for Nerfies: Deformable Neural Radiance Fields."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate-context",
+      "text": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate-context",
+      "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "kacperkan/conerf",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/hypernerf",
+      "status": "candidate",
+      "text": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/nerfies",
+      "status": "candidate",
+      "text": "This is the code for Nerfies: Deformable Neural Radiance Fields."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate",
+      "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +472,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/hypernerf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/nerfies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

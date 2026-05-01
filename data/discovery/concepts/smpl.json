@@ -31,6 +31,18 @@
       "source_repo": "vchoutas/expose",
       "status": "candidate-context",
       "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate-context",
+      "text": "NumPy, TensorFlow and PyTorch implementation of human body SMPL model and infant body SMIL model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate-context",
+      "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "vchoutas/expose",
       "status": "candidate",
       "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate",
+      "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CalciferZh/SMPL"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

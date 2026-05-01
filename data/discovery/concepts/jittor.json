@@ -43,6 +43,30 @@
       "source_repo": "GewelsJI/SINet-V2",
       "status": "candidate-context",
       "text": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jittor/JDet",
+      "status": "candidate-context",
+      "text": "JDet is an object detection benchmark based on Jittor. Mainly focus on aerial image object detection (oriented object detection)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jittor/JDet",
+      "status": "candidate-context",
+      "text": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GewelsJI/VPS",
+      "status": "candidate-context",
+      "text": "Official website for \"Video Polyp Segmentation: A Deep Learning Perspective (MIR 2022)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/VPS",
+      "status": "candidate-context",
+      "text": "[![license: mit](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "GewelsJI/SINet-V2",
       "status": "candidate",
       "text": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jittor/JDet",
+      "status": "candidate",
+      "text": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/VPS",
+      "status": "candidate",
+      "text": "[![license: mit](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "GewelsJI/SINet-V2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Jittor/JDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "GewelsJI/VPS"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

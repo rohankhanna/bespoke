@@ -1,0 +1,12 @@
+{
+  "component": "Homebrew/actions/setup-homebrew@996ddca5fc18b6bef4882270edbe9ef95bfffd87",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg"
+    }
+  ]
+}

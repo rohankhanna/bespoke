@@ -31,6 +31,30 @@
       "source_repo": "tdewolff/canvas",
       "status": "candidate-context",
       "text": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "A toy physically based GPU path tracer (C++/OpenGL/GLSL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "tdewolff/canvas",
       "status": "candidate",
       "text": "![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "tdewolff/canvas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

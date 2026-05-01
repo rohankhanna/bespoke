@@ -712,6 +712,30 @@
       "source_repo": "LuisaGroup/LuisaCompute",
       "status": "candidate-context",
       "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate-context",
+      "text": "A cross-platform framework using Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate-context",
+      "text": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "Yet another cross-platform graphical process/system monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1068,6 +1092,18 @@
       "source_repo": "LuisaGroup/LuisaCompute",
       "status": "candidate",
       "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate",
+      "text": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1656,11 +1692,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ClementTsang/bottom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

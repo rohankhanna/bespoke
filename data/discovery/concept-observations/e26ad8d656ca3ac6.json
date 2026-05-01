@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A creative writing multi-agent solution to help users write articles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Template Validation Sample Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Template Validation Sample Workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32811,
+      "status": "candidate",
+      "text": "prototype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32811,
+      "status": "candidate",
+      "text": "prototyped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32811,
+      "status": "candidate",
+      "text": "prototyping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32739,
+      "status": "candidate",
+      "text": "mock-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31924,
+      "status": "candidate",
+      "text": "prove"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template Validation Sample Workflow",
+      "sense_id": "template-validation-sample-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "template-validation-sample-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "template-validation-sample-workflow",
+  "observation_id": "e26ad8d656ca3ac6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Template Validation Sample Workflow",
+  "source_context_snippet": "Template Validation Sample Workflow",
+  "source_file": ".github/workflows/template-validation.yaml",
+  "source_repo": "Azure-Samples/contoso-creative-writer",
+  "source_repo_description": "A creative writing multi-agent solution to help users write articles."
+}

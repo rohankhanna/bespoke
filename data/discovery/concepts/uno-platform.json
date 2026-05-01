@@ -19,6 +19,18 @@
       "source_repo": "CommunityToolkit/Windows",
       "status": "candidate-context",
       "text": "**/CommunityToolkit.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate-context",
+      "text": "Home of the Prism Docs Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate-context",
+      "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CommunityToolkit/Windows",
       "status": "candidate",
       "text": "**/CommunityToolkit.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate",
+      "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "CommunityToolkit/Windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Documentation"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

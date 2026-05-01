@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "leandrocp/github-actions/.github/workflows/elixir-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "leandrocp/github-actions/.github/workflows/elixir-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "leandrocp/github-actions/.github/workflows/hex-publish.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-providers.yml"
+    },
+    {
+      "component": "taiki-e/install-action@just",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-providers.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-providers.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "leandrocp/github-actions/.github/workflows/elixir-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "leandrocp/github-actions/.github/workflows/elixir-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "Elixir CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "leandrocp/github-actions/.github/workflows/hex-publish.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-providers.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-providers.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "taiki-e/install-action@just",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-providers.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-providers.yml",
+      "source_repo": "leandrocp/req_embed",
+      "target": "Update Providers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:14:54.221025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4030
+    },
+    {
+      "path": ".github/workflows/elixir.yml",
+      "size": 260
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 262
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 327
+    },
+    {
+      "path": ".github/workflows/update-providers.yml",
+      "size": 1040
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Req plugin to fetch oEmbed resources and a Phoenix Component to embed rich content.",
+    "fork": false,
+    "full_name": "leandrocp/req_embed",
+    "html_url": "https://github.com/leandrocp/req_embed",
+    "language": "Elixir",
+    "pushed_at": "2026-04-27T21:35:28Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-03-30T22:03:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Elixir CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elixir.yml",
+      "term": "Elixir CI"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release Please"
+    },
+    {
+      "context_snippet": "Update Providers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-providers.yml",
+      "term": "Update Providers"
+    }
+  ]
+}

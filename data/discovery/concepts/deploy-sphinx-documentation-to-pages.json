@@ -37,6 +37,30 @@
       "source_repo": "hshi74/toddlerbot",
       "status": "candidate-context",
       "text": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate-context",
+      "text": "AgentScope: Agent-Oriented Programming for Building LLM Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate-context",
+      "text": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate-context",
+      "text": "Build and run agents you can see, understand and trust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate-context",
+      "text": "Deploy Sphinx documentation to Pages"
     }
   ],
   "candidate_glosses": [
@@ -55,6 +79,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hshi74/toddlerbot",
+      "status": "candidate",
+      "text": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate",
+      "text": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope",
       "status": "candidate",
       "text": "Deploy Sphinx documentation to Pages"
     }
@@ -118,11 +154,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/deploy_page.yml",
       "source_repo": "hshi74/toddlerbot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/sphinx_docs.yml",
+      "source_repo": "af-74413592/agentscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/sphinx_docs.yml",
+      "source_repo": "agentscope-ai/agentscope"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

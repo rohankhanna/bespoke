@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Version Plugin Reference"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash-docs",
+      "status": "candidate-context",
+      "text": "Version Plugin Reference"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash-docs",
+      "status": "candidate",
+      "text": "Version Plugin Reference"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "agglutination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "allies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "allu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "ally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "annex"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Version Plugin Reference",
+  "concept_id": "version-plugin-reference",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/vpr.yml",
+      "source_repo": "elastic/logstash-docs"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version Plugin Reference",
+      "sense_id": "version-plugin-reference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

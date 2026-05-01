@@ -31,6 +31,18 @@
       "source_repo": "enola-dev/enola",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "![](docs/_static/RDFlib.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "enola-dev/enola",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate",
+      "text": "![](docs/_static/RDFlib.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "enola-dev/enola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

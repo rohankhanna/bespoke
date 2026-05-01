@@ -1427,6 +1427,114 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "Configure and deploy complete EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate-context",
+      "text": "Named Tensors for Legible Deep Learning in JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate-context",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "OpenTinker is an RL-as-a-Service infrastructure for foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate-context",
+      "text": "AgentScope: Agent-Oriented Programming for Building LLM Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate-context",
+      "text": "Build and run agents you can see, understand and trust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate-context",
+      "text": "Terraform AWS module which provisions ACK addons on EKS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate-context",
+      "text": "Terraform AWS module which creates an EKS addon (helm release + IRSA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "Terraform module which provisions addons on Amazon EKS clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate-context",
+      "text": "Configure and deploy Team based multi-tenant EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -2147,6 +2255,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate",
+      "text": "Pre-Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -3188,11 +3350,101 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "Farama-Foundation/Minari"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "open-tinker/OpenTinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "af-74413592/agentscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentscope-ai/agentscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

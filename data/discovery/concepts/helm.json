@@ -298,6 +298,18 @@
       "source_repo": "apache/apisix-helm-chart",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate-context",
+      "text": "Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases. Generate all-in-one manifests for use with ArgoCD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
     }
   ],
   "candidate_glosses": [
@@ -444,6 +456,12 @@
       "source_repo": "apache/apisix-helm-chart",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
     }
   ],
   "candidate_related_terms": [
@@ -649,11 +667,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "helmfile/helmfile"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

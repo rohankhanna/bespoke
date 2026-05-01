@@ -91,6 +91,42 @@
       "source_repo": "bshall/hifigan",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2111.02392)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/AuxiliaryASR",
+      "status": "candidate-context",
+      "text": "Joint CTC-S2S Phoneme-level ASR for Voice Conversion and TTS (Text-Mel Alignment)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/AuxiliaryASR",
+      "status": "candidate-context",
+      "text": "This repo contains the training code for Phoneme-level ASR for Voice Conversion (VC) and TTS (Text-Mel Alignment) used in [StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) and [StyleTTS](https://github.com/yl4579/StyleTTS)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/PitchExtractor",
+      "status": "candidate-context",
+      "text": "Deep Neural Pitch Extractor for Voice Conversion and TTS Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/PitchExtractor",
+      "status": "candidate-context",
+      "text": "This repo contains the training code for deep neural pitch extractor for Voice Conversion (VC) and TTS used in [StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) and [StyleTTS](https://github.com/yl4579/StyleTTS). This is the F0 network in StarGANv2-VC and pitch extractor in\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate-context",
+      "text": "StarGANv2-VC: A Diverse, Unsupervised, Non-parallel Framework for Natural-Sounding Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate-context",
+      "text": "> We present an unsupervised non-parallel many-to-many voice conversion (VC) method using a generative adversarial network (GAN) called StarGAN v2. Using a combination of adversarial source classifier loss and perceptual loss, our model significantly outperforms previous VC mode\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "bshall/hifigan",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2111.02392)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/AuxiliaryASR",
+      "status": "candidate",
+      "text": "This repo contains the training code for Phoneme-level ASR for Voice Conversion (VC) and TTS (Text-Mel Alignment) used in [StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) and [StyleTTS](https://github.com/yl4579/StyleTTS)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/PitchExtractor",
+      "status": "candidate",
+      "text": "This repo contains the training code for deep neural pitch extractor for Voice Conversion (VC) and TTS used in [StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) and [StyleTTS](https://github.com/yl4579/StyleTTS). This is the F0 network in StarGANv2-VC and pitch extractor in\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate",
+      "text": "> We present an unsupervised non-parallel many-to-many voice conversion (VC) method using a generative adversarial network (GAN) called StarGAN v2. Using a combination of adversarial source classifier loss and perceptual loss, our model significantly outperforms previous VC mode\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bshall/hifigan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/AuxiliaryASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/PitchExtractor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StarGANv2-VC"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

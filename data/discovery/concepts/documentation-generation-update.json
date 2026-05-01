@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Documentation generation & update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/blue-loader-python",
+      "status": "candidate-context",
+      "text": "Python Loader for all Ledger devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/blue-loader-python",
+      "status": "candidate-context",
+      "text": "Documentation generation & update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate-context",
+      "text": "Device app kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate-context",
+      "text": "Documentation generation & update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/blue-loader-python",
+      "status": "candidate",
+      "text": "Documentation generation & update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate",
+      "text": "Documentation generation & update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18013,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17980,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17980,
+      "status": "candidate",
+      "text": "backgrounder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17980,
+      "status": "candidate",
+      "text": "description"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17980,
+      "status": "candidate",
+      "text": "material"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documentation generation & update",
+  "concept_id": "documentation-generation-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/blue-loader-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation generation & update",
+      "sense_id": "documentation-generation-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

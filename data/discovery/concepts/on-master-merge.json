@@ -19,12 +19,30 @@
       "source_repo": "gerrymanoim/libpy_simdjson",
       "status": "candidate-context",
       "text": "On Master Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quantopian/libpy",
+      "status": "candidate-context",
+      "text": "Utilities for writing C++ extension modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quantopian/libpy",
+      "status": "candidate-context",
+      "text": "On Master Merge"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "gerrymanoim/libpy_simdjson",
+      "status": "candidate",
+      "text": "On Master Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quantopian/libpy",
       "status": "candidate",
       "text": "On Master Merge"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/master-merge.yml",
       "source_repo": "gerrymanoim/libpy_simdjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/master-merge.yml",
+      "source_repo": "quantopian/libpy"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

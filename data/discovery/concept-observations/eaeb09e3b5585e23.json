@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PaQ2PiQ in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-quality-assessment",
+      "sense_id": "image-quality-assessment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-quality-assessment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-quality-assessment",
+  "observation_id": "eaeb09e3b5585e23",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "image-quality-assessment",
+  "source_context_snippet": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)",
+  "source_file": null,
+  "source_repo": "baidut/paq2piq",
+  "source_repo_description": "PaQ2PiQ in PyTorch"
+}

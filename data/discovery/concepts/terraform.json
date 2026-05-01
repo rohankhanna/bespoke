@@ -463,6 +463,66 @@
       "source_repo": "vectordotdev/vector-test-harness",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "The Azure App Service landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure App Service at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "This repository provides both enterprise architecture guidelines and a reference implementation for deploying Azure App Service solutions in multi-tenant and App Service Environment scenarios. It includes best practices, considerations, and deployable artifacts for implementing \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "Configure and deploy complete EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "Welcome to Amazon EKS Blueprints for Terraform!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "Terraform module which provisions addons on Amazon EKS clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "Terraform module to deploy Kubernetes addons on Amazon EKS clusters."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate-context",
+      "text": "Configure and deploy Team based multi-tenant EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate-context",
+      "text": "Terraform module which creates multi-tenancy resources on Amazon EKS."
     }
   ],
   "candidate_glosses": [
@@ -693,6 +753,36 @@
       "source_repo": "vectordotdev/vector-test-harness",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate",
+      "text": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate",
+      "text": "This repository provides both enterprise architecture guidelines and a reference implementation for deploying Azure App Service solutions in multi-tenant and App Service Environment scenarios. It includes best practices, considerations, and deployable artifacts for implementing \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate",
+      "text": "Welcome to Amazon EKS Blueprints for Terraform!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate",
+      "text": "Terraform module to deploy Kubernetes addons on Amazon EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate",
+      "text": "Terraform module which creates multi-tenancy resources on Amazon EKS."
     }
   ],
   "candidate_related_terms": [
@@ -964,11 +1054,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "vectordotdev/vector-test-harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

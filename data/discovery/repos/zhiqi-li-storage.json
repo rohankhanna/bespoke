@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:27:11.660772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "save model weights and logs",
+    "fork": false,
+    "full_name": "zhiqi-li/storage",
+    "html_url": "https://github.com/zhiqi-li/storage",
+    "language": null,
+    "pushed_at": "2022-06-12T07:53:26Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-06-09T07:26:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Curate data & Prepare package PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/webref",
+      "status": "candidate-context",
+      "text": "Machine-readable references of terms defined in web browser specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webref",
+      "status": "candidate-context",
+      "text": "Curate data & Prepare package PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webref",
+      "status": "candidate",
+      "text": "Curate data & Prepare package PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30925,
+      "status": "candidate",
+      "text": "patron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30840,
+      "status": "candidate",
+      "text": "baldwin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30840,
+      "status": "candidate",
+      "text": "canon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30840,
+      "status": "candidate",
+      "text": "ministering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30827,
+      "status": "candidate",
+      "text": "rounds"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Curate data & Prepare package PRs",
+  "concept_id": "curate-data-prepare-package-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/curate.yml",
+      "source_repo": "w3c/webref"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Curate data & Prepare package PRs",
+      "sense_id": "curate-data-prepare-package-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

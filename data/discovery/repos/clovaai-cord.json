@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:31:49.208811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10971
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CORD: A Consolidated Receipt Dataset for Post-OCR Parsing",
+    "fork": false,
+    "full_name": "clovaai/cord",
+    "html_url": "https://github.com/clovaai/cord",
+    "language": null,
+    "pushed_at": "2022-07-20T05:34:29Z",
+    "stargazers_count": 477,
+    "topics": [],
+    "updated_at": "2026-04-30T14:05:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

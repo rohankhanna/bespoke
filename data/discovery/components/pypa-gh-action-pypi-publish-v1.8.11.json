@@ -1,0 +1,12 @@
+{
+  "component": "pypa/gh-action-pypi-publish@v1.8.11",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "libsvm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate-context",
+      "text": "Numo::Libsvm is a Ruby gem binding to the LIBSVM "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-libsvm/workflows/build/badge.svg)](https://github.com/yoshoku/numo-libsvm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "Ruby language bindings for LIBSVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-libsvm/workflows/build/badge.svg)](https://github.com/yoshoku/numo-libsvm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "libsvm",
+  "concept_id": "libsvm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-libsvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "libsvm",
+      "sense_id": "libsvm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

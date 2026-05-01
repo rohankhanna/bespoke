@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Fern Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "status": "candidate-context",
+      "text": "'Fern Check'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "status": "candidate",
+      "text": "'Fern Check'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11696,
+      "status": "candidate",
+      "text": "brake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10722,
+      "status": "candidate",
+      "text": "bracken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10722,
+      "status": "candidate",
+      "text": "caudex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10670,
+      "status": "candidate",
+      "text": "foot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10670,
+      "status": "candidate",
+      "text": "walking fern"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fern Check",
+  "concept_id": "fern-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/fern_check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fern Check",
+      "sense_id": "fern-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

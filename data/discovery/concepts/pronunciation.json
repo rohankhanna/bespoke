@@ -19,6 +19,18 @@
       "source_repo": "dnvt/burn-speech-training",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/g2p",
+      "status": "candidate-context",
+      "text": "g2p: English Grapheme To Phoneme Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/g2p",
+      "status": "candidate-context",
+      "text": "[![image](https://img.shields.io/pypi/v/g2p-en.svg)](https://pypi.org/project/g2p-en/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dnvt/burn-speech-training",
       "status": "candidate",
       "text": "[![CI](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml/badge.svg)](https://github.com/dnvt/burn-speech-training/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/g2p",
+      "status": "candidate",
+      "text": "[![image](https://img.shields.io/pypi/v/g2p-en.svg)](https://pypi.org/project/g2p-en/)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "dnvt/burn-speech-training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/g2p"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

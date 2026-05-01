@@ -367,6 +367,42 @@
       "source_repo": "AILab-CVC/FreeNoise",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/FreeScale",
+      "status": "candidate-context",
+      "text": "[ICCV 2025] Code for FreeScale, a tuning-free method for higher-resolution visual generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/FreeScale",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate-context",
+      "text": "Code for FreeTraj, a tuning-free method for trajectory-controllable video generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate-context",
+      "text": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate-context",
+      "text": "Official implementation for \"RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers\" (ICML 2025) , UltraViCo (ICLR 2026) and UltraImage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate-context",
+      "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +585,24 @@
       "source_repo": "AILab-CVC/FreeNoise",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/FreeScale",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate",
+      "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -846,11 +900,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "AILab-CVC/FreeNoise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/FreeScale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "arthur-qiu/FreeTraj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

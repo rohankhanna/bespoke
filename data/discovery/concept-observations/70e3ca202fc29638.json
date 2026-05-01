@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using \u26a1 Pytorch Lightning and \ud83e\udd17 Transformers. For access to our API, please email us at contact@unitary.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39478177,
+      "status": "candidate",
+      "text": "perniciousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708719,
+      "status": "candidate",
+      "text": "toxicological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708711,
+      "status": "candidate",
+      "text": "toxicant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708335,
+      "status": "candidate",
+      "text": "cytotoxicity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707677,
+      "status": "candidate",
+      "text": "poisonous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "toxicity",
+      "sense_id": "toxicity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "perniciousness"
+    }
+  ],
+  "concept_id": "toxicity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "toxicity",
+  "observation_id": "70e3ca202fc29638",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "toxicity",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "unitaryai/detoxify",
+  "source_repo_description": "Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using \u26a1 Pytorch Lightning and \ud83e\udd17 Transformers. For access to our API, please email us at contact@unitary.ai."
+}

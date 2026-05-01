@@ -1,0 +1,12 @@
+{
+  "component": "cypress-io/github-action@c495c3ddffba403ba11be95fffb67e25203b3799",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "webpack/webpack.js.org"
+    }
+  ]
+}

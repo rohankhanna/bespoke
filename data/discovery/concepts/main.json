@@ -1028,6 +1028,66 @@
       "source_repo": "apple/swift-nio-ssl",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate-context",
+      "text": "A secure webpack plugin that supports dotenv and other environment variables and only exposes what you choose and use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma",
+      "status": "candidate-context",
+      "text": "Prettier plugin for Prisma"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kddnewton/prettier-plugin-ini",
+      "status": "candidate-context",
+      "text": "A prettier plugin for INI files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kddnewton/prettier-plugin-ini",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/envy",
+      "status": "candidate-context",
+      "text": "deserialize env vars into typesafe structs with rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/olmocr",
+      "status": "candidate-context",
+      "text": "Toolkit for linearizing PDFs for LLM datasets/training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/olmocr",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -1544,6 +1604,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apple/swift-nio-ssl",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kddnewton/prettier-plugin-ini",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/olmocr",
       "status": "candidate",
       "text": "Main"
     }
@@ -2207,11 +2297,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "apple/swift-nio-ssl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mrsteele/dotenv-webpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kddnewton/prettier-plugin-ini"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "softprops/envy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/olmocr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

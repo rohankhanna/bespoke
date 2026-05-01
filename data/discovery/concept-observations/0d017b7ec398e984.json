@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udda9 Tools for Go projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039586,
+      "status": "candidate",
+      "text": "awe-inspiring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036005,
+      "status": "candidate",
+      "text": "amazing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029066,
+      "status": "candidate",
+      "text": "awful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007991,
+      "status": "candidate",
+      "text": "impressive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39781051,
+      "status": "candidate",
+      "text": "awing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "awesome",
+      "sense_id": "awesome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35031,
+      "status": "candidate",
+      "text": "impressive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24039,
+      "status": "candidate",
+      "text": "awful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14030,
+      "status": "candidate",
+      "text": "amazing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10021,
+      "status": "candidate",
+      "text": "awe-inspiring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4021,
+      "status": "candidate",
+      "text": "awing"
+    }
+  ],
+  "concept_id": "awesome",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "awesome",
+  "observation_id": "0d017b7ec398e984",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "awesome",
+  "source_context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+  "source_file": null,
+  "source_repo": "nikolaydubina/go-recipes",
+  "source_repo_description": "\ud83e\udda9 Tools for Go projects"
+}

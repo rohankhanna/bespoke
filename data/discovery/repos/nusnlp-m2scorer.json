@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:12:28.650756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MaxMatch (M^2) Scorer - Evaluation program for grammatical error correction systems. ",
+    "fork": false,
+    "full_name": "nusnlp/m2scorer",
+    "html_url": "https://github.com/nusnlp/m2scorer",
+    "language": "Python",
+    "pushed_at": "2022-09-27T11:59:19Z",
+    "stargazers_count": 158,
+    "topics": [],
+    "updated_at": "2026-03-06T09:31:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "abey79/vpype",
       "status": "candidate-context",
       "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate-context",
+      "text": "Convert images to plotter-friendly hatched patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate-context",
+      "text": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "abey79/vpype",
       "status": "candidate",
       "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate",
+      "text": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "abey79/vpype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "plottertools/hatched"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "benchmarks-on-prs-amd64",
   "observation_id": "ef0eae62e024618e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Benchmarks on PRs (AMD64)",
   "source_context_snippet": "Benchmarks on PRs (AMD64)",
   "source_file": ".github/workflows/benchmark-pr.yaml",

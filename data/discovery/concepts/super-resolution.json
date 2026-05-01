@@ -379,6 +379,54 @@
       "source_repo": "JingyunLiang/RVRT",
       "status": "candidate-context",
       "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreas128/SRFlow",
+      "status": "candidate-context",
+      "text": "Official SRFlow training code: Super-Resolution using Normalizing Flow in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreas128/SRFlow",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/VRT",
+      "status": "candidate-context",
+      "text": "VRT: A Video Restoration Transformer (official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/VRT",
+      "status": "candidate-context",
+      "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yuchen Fan](https://ychfan.github.io/), [Kai Zhang](https://cszn.github.io/), Rakesh Ranjan, [Yawei Li](https://ofsoundof.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/Real-ESRGAN-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "NCNN implementation of Real-ESRGAN. Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/Real-ESRGAN-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate-context",
+      "text": "neosr is an open-source framework for training super-resolution models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate-context",
+      "text": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +615,30 @@
       "source_repo": "JingyunLiang/RVRT",
       "status": "candidate",
       "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreas128/SRFlow",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/VRT",
+      "status": "candidate",
+      "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yuchen Fan](https://ychfan.github.io/), [Kai Zhang](https://cszn.github.io/), Rakesh Ranjan, [Yawei Li](https://ofsoundof.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/Real-ESRGAN-ncnn-vulkan",
+      "status": "candidate",
+      "text": "![CI](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate",
+      "text": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -844,11 +916,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cszn/BSRGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "andreas128/SRFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/VRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xinntao/Real-ESRGAN-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "neosr-project/neosr"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

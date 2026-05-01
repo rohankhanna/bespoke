@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwinTransformer/MIM-Depth-Estimation",
+      "target": "vinvino02/glpdepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwinTransformer/MIM-Depth-Estimation",
+      "target": "microsoft/human-pose-estimation.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:58.333810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6496
+    },
+    {
+      "path": "requirements.txt",
+      "size": 137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is an official implementation of our CVPR 2023 paper \"Revealing the Dark Secrets of Masked Image Modeling\" on Depth Estimation.",
+    "fork": false,
+    "full_name": "SwinTransformer/MIM-Depth-Estimation",
+    "html_url": "https://github.com/SwinTransformer/MIM-Depth-Estimation",
+    "language": "Python",
+    "pushed_at": "2023-03-27T05:03:49Z",
+    "stargazers_count": 175,
+    "topics": [],
+    "updated_at": "2026-04-05T11:53:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/human-pose-estimation.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vinvino02/glpdepth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

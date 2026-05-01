@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Slack pull request open notification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/dev-config",
+      "status": "candidate-context",
+      "text": "Slack pull request open notification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/dev-config",
+      "status": "candidate",
+      "text": "Slack pull request open notification"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42741,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42449,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42412,
+      "status": "candidate",
+      "text": "hold out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42231,
+      "status": "candidate",
+      "text": "stakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42184,
+      "status": "candidate",
+      "text": "hold"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Slack pull request open notification",
+  "concept_id": "slack-pull-request-open-notification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/slackprnotification.yml",
+      "source_repo": "forcedotcom/dev-config"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slack pull request open notification",
+      "sense_id": "slack-pull-request-open-notification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "target": "nicolast/reedsolomon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "target": "darrenldl/reed-solomon-erasure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "target": "darrenldl/reed-solomon-erasure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "target": "erasure-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "target": "reed-solomon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:58.428310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7472
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[Looking for new owners/maintainers, see #88] Rust implementation of Reed-Solomon erasure coding",
+    "fork": false,
+    "full_name": "rust-rse/reed-solomon-erasure",
+    "html_url": "https://github.com/rust-rse/reed-solomon-erasure",
+    "language": "Rust",
+    "pushed_at": "2023-08-30T10:35:50Z",
+    "stargazers_count": 212,
+    "topics": [
+      "erasure-coding",
+      "reed-solomon",
+      "rust"
+    ],
+    "updated_at": "2026-04-12T12:51:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darrenldl/reed-solomon-erasure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicolast/reedsolomon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darrenldl/reed-solomon-erasure",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/darrenldl/reed-solomon-erasure.svg?branch=master)](https://travis-ci.org/darrenldl/reed-solomon-erasure)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "erasure-coding"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/darrenldl/reed-solomon-erasure.svg?branch=master)](https://travis-ci.org/darrenldl/reed-solomon-erasure)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reed-solomon"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/darrenldl/reed-solomon-erasure.svg?branch=master)](https://travis-ci.org/darrenldl/reed-solomon-erasure)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

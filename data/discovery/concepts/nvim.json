@@ -715,6 +715,90 @@
       "source_repo": "ellisonleao/nvim-plugin-template",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "Lualine component for cmake4vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "cmake4vim integration for telescope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "Git integration for buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/lewis6991/gitsigns.nvim/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lewis6991/gitsigns.nvim/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate-context",
+      "text": "Improve startup time for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate-context",
+      "text": "As of Neovim 0.9, this plugin is no longer required. Instead run:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "IDE-like breadcrumbs, out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marilari88/neotest-vitest",
+      "status": "candidate-context",
+      "text": "Vitest adapter for Neovim Neotest plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marilari88/neotest-vitest",
+      "status": "candidate-context",
+      "text": "This plugin provides a [Vitest](https://vitest.dev/) adapter for the [Neotest](https://github.com/rcarriga/neotest) framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for silicon in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1077,6 +1161,48 @@
       "source_repo": "ellisonleao/nvim-plugin-template",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "status": "candidate",
+      "text": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate",
+      "text": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/lewis6991/gitsigns.nvim/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lewis6991/gitsigns.nvim/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate",
+      "text": "As of Neovim 0.9, this plugin is no longer required. Instead run:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate",
+      "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marilari88/neotest-vitest",
+      "status": "candidate",
+      "text": "This plugin provides a [Vitest](https://vitest.dev/) adapter for the [Neotest](https://github.com/rcarriga/neotest) framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1564,11 +1690,89 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/gitsigns.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/impatient.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Bekaboo/dropbar.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "marilari88/neotest-vitest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "krivahtoo/silicon.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

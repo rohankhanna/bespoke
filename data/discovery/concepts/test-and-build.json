@@ -80,6 +80,18 @@
       "source_repo": "gajus/slonik",
       "status": "candidate-context",
       "text": "Test and build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gajus/eslint-plugin-slonik",
+      "status": "candidate-context",
+      "text": "Provides compile-time SQL query validation by checking your raw SQL strings against your actual database schema, catching errors before runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/eslint-plugin-slonik",
+      "status": "candidate-context",
+      "text": "Test and build"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +128,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gajus/slonik",
+      "status": "candidate",
+      "text": "Test and build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/eslint-plugin-slonik",
       "status": "candidate",
       "text": "Test and build"
     }
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/feature.yaml",
       "source_repo": "gajus/slonik"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "gajus/eslint-plugin-slonik"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

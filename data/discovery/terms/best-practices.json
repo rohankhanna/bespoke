@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -71,6 +71,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "SciML/ColPrac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanmcdermott/clean-code-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "trylovetom/clean-code-javascript"
     }
   ],
   "term": "best-practices"

@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Backblaze/JavaReedSolomon",
+      "target": "non-production",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:56.518908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Backblaze Reed-Solomon Implementation in Java",
+    "fork": false,
+    "full_name": "Backblaze/JavaReedSolomon",
+    "html_url": "https://github.com/Backblaze/JavaReedSolomon",
+    "language": "Java",
+    "pushed_at": "2025-04-10T16:21:58Z",
+    "stargazers_count": 823,
+    "topics": [
+      "non-production"
+    ],
+    "updated_at": "2026-04-29T00:03:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a simple and efficient Reed-Solomon implementation in Java,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-production"
+    }
+  ]
+}

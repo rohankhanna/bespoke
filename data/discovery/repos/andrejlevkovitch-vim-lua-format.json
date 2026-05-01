@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andrejlevkovitch/vim-lua-format",
+      "target": "jefersonf/vim-lua-format",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:28:12.949910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "andrejlevkovitch/vim-lua-format",
+    "html_url": "https://github.com/andrejlevkovitch/vim-lua-format",
+    "language": "Vim Script",
+    "pushed_at": "2022-12-09T08:40:37Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-01-13T05:15:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jefersonf/vim-lua-format",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

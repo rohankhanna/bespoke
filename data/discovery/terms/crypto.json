@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -71,6 +71,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jedisct1/minisign"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ranisalt/node-argon2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/crypto.yml",
+      "source_repo": "RustCrypto/traits"
     }
   ],
   "term": "crypto"

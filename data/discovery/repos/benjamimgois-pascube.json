@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:29:08.539662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple opengl spinning cube in pascal",
+    "fork": false,
+    "full_name": "benjamimgois/pascube",
+    "html_url": "https://github.com/benjamimgois/pascube",
+    "language": "Pascal",
+    "pushed_at": "2026-04-29T23:42:53Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-29T23:42:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

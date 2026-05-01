@@ -2,7 +2,7 @@
   "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -314,6 +314,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "qdrant/fastembed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AcademySoftwareFoundation/openfx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-sdks.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-dev-release.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-run-test.yml",
+      "source_repo": "pulumi/pulumi"
     }
   ]
 }

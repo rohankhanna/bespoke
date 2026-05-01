@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:14:33.574836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin for Git version control, GitHub repository management, and collaborative development workflows.",
+    "fork": false,
+    "full_name": "danielrosehill/git-github-plugin",
+    "html_url": "https://github.com/danielrosehill/git-github-plugin",
+    "language": null,
+    "pushed_at": "2025-12-16T16:47:22Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-16T16:47:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

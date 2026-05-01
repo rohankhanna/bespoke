@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:12:03.652455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8685
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the paper: CNN-generated images are surprisingly easy to spot... for now https://peterwang512.github.io/CNNDetection/",
+    "fork": false,
+    "full_name": "PeterWang512/CNNDetection",
+    "html_url": "https://github.com/PeterWang512/CNNDetection",
+    "language": "Python",
+    "pushed_at": "2024-07-26T20:59:16Z",
+    "stargazers_count": 990,
+    "topics": [],
+    "updated_at": "2026-04-29T02:42:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2024] BAdam: A Memory Efficient Full Parameter Optimization Method for Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[build-system] requires = ['setuptools>=42'] build-backend = 'setuptools.build_meta'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[build-system] requires = ['setuptools>=42'] build-backend = 'setuptools.build_meta'"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "large-language-model",
+      "sense_id": "large-language-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "large-language-model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "large-language-model",
+  "observation_id": "ff76024d5b17debc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "large-language-model",
+  "source_context_snippet": "[build-system] requires = ['setuptools>=42'] build-backend = 'setuptools.build_meta'",
+  "source_file": null,
+  "source_repo": "Ledzy/BAdam",
+  "source_repo_description": "[NeurIPS 2024] BAdam: A Memory Efficient Full Parameter Optimization Method for Large Language Models"
+}

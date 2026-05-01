@@ -811,6 +811,54 @@
       "source_repo": "stanfordnlp/stanza",
       "status": "candidate-context",
       "text": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate-context",
+      "text": "Fast + Non-Autoregressive Grammatical Error Correction using BERT. Code and Pre-trained models for paper \"Parallel Iterative Edit Models for Local Sequence Transduction\": www.aclweb.org/anthology/D19-1435.pdf (EMNLP-IJCNLP 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate-context",
+      "text": "Fast Grammatical Error Correction using BERT"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feralvam/easse",
+      "status": "candidate-context",
+      "text": "Easier Automatic Sentence Simplification Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feralvam/easse",
+      "status": "candidate-context",
+      "text": "[**EASSE**](https://www.aclweb.org/anthology/D19-3009/) (**E**asier **A**utomatic **S**entence **S**implification **E**valuation) is a Python 3 package aiming to facilitate and standardise automatic evaluation and comparison of Sentence Simplification systems. ([*What is Sentenc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate-context",
+      "text": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension  (CMRC 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate-context",
+      "text": "A Sentence Cloze Dataset for Chinese Machine Reading Comprehension (CMRC 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1215,6 +1263,30 @@
       "source_repo": "stanfordnlp/stanza",
       "status": "candidate",
       "text": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate",
+      "text": "Fast Grammatical Error Correction using BERT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feralvam/easse",
+      "status": "candidate",
+      "text": "[**EASSE**](https://www.aclweb.org/anthology/D19-3009/) (**E**asier **A**utomatic **S**entence **S**implification **E**valuation) is a Python 3 package aiming to facilitate and standardise automatic evaluation and comparison of Sentence Simplification systems. ([*What is Sentenc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1750,11 +1822,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "feralvam/easse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2018"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2019"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

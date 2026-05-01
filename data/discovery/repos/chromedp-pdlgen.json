@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromedp/pdlgen",
+      "target": "chromedp/cdproto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromedp/pdlgen",
+      "target": "valyala/quicktemplate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:05:50.858486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9991
+    },
+    {
+      "path": "go.mod",
+      "size": 600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generates templated code using Chrome DevTools PDL definitions.",
+    "fork": false,
+    "full_name": "chromedp/pdlgen",
+    "html_url": "https://github.com/chromedp/pdlgen",
+    "language": "Go",
+    "pushed_at": "2026-03-21T00:40:56Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2025-11-06T14:31:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromedp/cdproto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valyala/quicktemplate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

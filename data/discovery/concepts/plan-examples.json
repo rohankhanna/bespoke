@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "plan-examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "Configure and deploy complete EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate-context",
+      "text": "plan-examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "status": "candidate",
+      "text": "plan-examples"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "plan-examples",
+  "concept_id": "plan-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/plan-examples.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "plan-examples",
+      "sense_id": "plan-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

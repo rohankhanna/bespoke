@@ -1,0 +1,632 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-linux-template.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-linux-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-linux-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-linux-template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-windows-template.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-windows-template.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-windows-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-windows-template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@01dd5d3ca463c7f10f7f4f7b4f177225ac661ee4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-prisma-schema-wasm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prisma/prisma-engines",
+      "target": "prisma/engines-wrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prisma/prisma-engines",
+      "target": "prisma/ecosystem-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "prisma/barrel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "prisma/cuid-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "Build Engines for Apple Intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "Build Engines for Apple Silicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-linux-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-linux-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-linux-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines-linux-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "Build Engines for Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-windows-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-windows-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-windows-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines-windows-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines-windows-template.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "Build Engines for Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "crazy-max/ghaction-import-gpg@01dd5d3ca463c7f10f7f4f7b4f177225ac661ee4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engines.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "Build Engines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-prisma-schema-wasm.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-prisma-schema-wasm.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "Prisma Schema (Wasm)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "CodSpeedHQ/action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "QC: Codespeed benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "prisma/prisma-engines",
+      "target": "All crates: linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prisma/prisma-engines",
+      "target": "loggy-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prisma/prisma-engines",
+      "target": "loggy-terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prisma/prisma-engines",
+      "target": "prisma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prisma/prisma-engines",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:13:22.217192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14984
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 6758
+    },
+    {
+      "path": ".github/workflows/build-engines-apple-intel-template.yml",
+      "size": 1296
+    },
+    {
+      "path": ".github/workflows/build-engines-apple-silicon-template.yml",
+      "size": 1339
+    },
+    {
+      "path": ".github/workflows/build-engines-linux-template.yml",
+      "size": 6540
+    },
+    {
+      "path": ".github/workflows/build-engines-windows-template.yml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/build-engines.yml",
+      "size": 12431
+    },
+    {
+      "path": ".github/workflows/build-prisma-schema-wasm.yml",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/codspeed.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/formatting.yml",
+      "size": 1022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude82 Engine components of Prisma ORM",
+    "fork": false,
+    "full_name": "prisma/prisma-engines",
+    "html_url": "https://github.com/prisma/prisma-engines",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T14:24:52Z",
+    "stargazers_count": 1330,
+    "topics": [
+      "loggy-core",
+      "loggy-terminal",
+      "prisma",
+      "rust"
+    ],
+    "updated_at": "2026-04-30T03:43:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prisma/ecosystem-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prisma/engines-wrapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prisma/barrel",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prisma/cuid-rust",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Engines for Apple Intel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines-apple-intel-template.yml",
+      "term": "Build Engines for Apple Intel"
+    },
+    {
+      "context_snippet": "Build Engines for Apple Silicon",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines-apple-silicon-template.yml",
+      "term": "Build Engines for Apple Silicon"
+    },
+    {
+      "context_snippet": "Build Engines for Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines-linux-template.yml",
+      "term": "Build Engines for Linux"
+    },
+    {
+      "context_snippet": "Build Engines for Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines-windows-template.yml",
+      "term": "Build Engines for Windows"
+    },
+    {
+      "context_snippet": "Build Engines",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engines.yml",
+      "term": "Build Engines"
+    },
+    {
+      "context_snippet": "Prisma Schema (Wasm)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-prisma-schema-wasm.yml",
+      "term": "Prisma Schema (Wasm)"
+    },
+    {
+      "context_snippet": "'QC: Codespeed benchmarks'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "term": "QC: Codespeed benchmarks"
+    },
+    {
+      "context_snippet": "'All crates: linting'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "term": "All crates: linting"
+    },
+    {
+      "context_snippet": "[![Schema Engine + sql_schema_describer](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml/badge.svg)](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loggy-core"
+    },
+    {
+      "context_snippet": "[![Schema Engine + sql_schema_describer](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml/badge.svg)](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loggy-terminal"
+    },
+    {
+      "context_snippet": "[![Schema Engine + sql_schema_describer](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml/badge.svg)](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prisma"
+    },
+    {
+      "context_snippet": "[![Schema Engine + sql_schema_describer](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml/badge.svg)](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

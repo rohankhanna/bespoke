@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Graph algorithms written in GraphBLAS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graph-algorithms",
+      "sense_id": "graph-algorithms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graph-algorithms",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graph-algorithms",
+  "observation_id": "50ddce9784294ff0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "graph-algorithms",
+  "source_context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+  "source_file": null,
+  "source_repo": "python-graphblas/graphblas-algorithms",
+  "source_repo_description": "Graph algorithms written in GraphBLAS"
+}

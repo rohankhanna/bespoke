@@ -1,0 +1,12 @@
+{
+  "component": "typesafegithub/github-actions-typing@9ddf35b71a482be7d8922b28e8d00df16b77e315",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-validate-typings.yml",
+      "source_repo": "gradle/actions"
+    }
+  ]
+}

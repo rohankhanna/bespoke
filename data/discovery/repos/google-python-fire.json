@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/python-fire",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/python-fire",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:11:24.094951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4049
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1862
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.",
+    "fork": false,
+    "full_name": "google/python-fire",
+    "html_url": "https://github.com/google/python-fire",
+    "language": "Python",
+    "pushed_at": "2026-04-01T09:05:35Z",
+    "stargazers_count": 28185,
+    "topics": [
+      "cli",
+      "python"
+    ],
+    "updated_at": "2026-05-01T05:20:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

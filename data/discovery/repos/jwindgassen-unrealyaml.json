@@ -1,0 +1,158 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "ue5-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "unreal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "unreal-engine-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "unreal-engine-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "unreal-engine-cpp-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "unreal-engine-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "unrealengine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML",
+      "target": "yaml-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:33:40.124244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An UnrealEngine Plugin for parsing YAML Files",
+    "fork": false,
+    "full_name": "jwindgassen/UnrealYAML",
+    "html_url": "https://github.com/jwindgassen/UnrealYAML",
+    "language": "C++",
+    "pushed_at": "2026-04-30T11:40:26Z",
+    "stargazers_count": 35,
+    "topics": [
+      "ue4",
+      "ue5",
+      "ue5-plugin",
+      "unreal",
+      "unreal-engine-4",
+      "unreal-engine-5",
+      "unreal-engine-cpp-plugin",
+      "unreal-engine-plugin",
+      "unrealengine",
+      "yaml",
+      "yaml-parser"
+    ],
+    "updated_at": "2026-04-30T11:40:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ue5-plugin"
+    },
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal"
+    },
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine-4"
+    },
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine-5"
+    },
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine-cpp-plugin"
+    },
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine-plugin"
+    },
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unrealengine"
+    },
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    },
+    {
+      "context_snippet": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml-parser"
+    }
+  ]
+}

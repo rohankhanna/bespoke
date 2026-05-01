@@ -111,12 +111,12 @@
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "release-drafter/release-drafter@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "component": "release-drafter/release-drafter@563bf132657a13ded0b01fcb723c5a58cdd824e2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml"
     },
     {
-      "component": "release-drafter/release-drafter/autolabeler@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "component": "release-drafter/release-drafter/autolabeler@563bf132657a13ded0b01fcb723c5a58cdd824e2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml"
     },
@@ -296,14 +296,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "release-drafter/release-drafter@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "target": "release-drafter/release-drafter@563bf132657a13ded0b01fcb723c5a58cdd824e2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "release-drafter/release-drafter/autolabeler@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "target": "release-drafter/release-drafter/autolabeler@563bf132657a13ded0b01fcb723c5a58cdd824e2",
       "target_type": "component"
     },
     {
@@ -398,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:39:36.137088+00:00",
+  "fetched_at": "2026-05-01T08:09:54.179554+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -450,7 +450,7 @@
     "full_name": "ultrajson/ultrajson",
     "html_url": "https://github.com/ultrajson/ultrajson",
     "language": "C++",
-    "pushed_at": "2026-04-26T13:27:19Z",
+    "pushed_at": "2026-05-01T04:23:10Z",
     "stargazers_count": 4482,
     "topics": [
       "c",
@@ -461,7 +461,7 @@
       "ujson",
       "ultrajson"
     ],
-    "updated_at": "2026-04-26T13:27:26Z"
+    "updated_at": "2026-05-01T04:23:12Z"
   },
   "repo_links": [],
   "terms": [

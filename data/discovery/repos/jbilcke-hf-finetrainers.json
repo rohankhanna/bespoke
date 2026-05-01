@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "target": "a-r-r-o-w/finetrainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "target": "skyworkai/skyreels-a1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "target": "openrobotlab/aether",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "target": "quanhaol/magicmotion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "target": "Fast tests for PRs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:33.684358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8979
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 722
+    },
+    {
+      "path": "requirements.txt",
+      "size": 304
+    },
+    {
+      "path": ".github/workflows/pr_tests.yml",
+      "size": 836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Memory-optimized training library for diffusion models",
+    "fork": true,
+    "full_name": "jbilcke-hf/finetrainers",
+    "html_url": "https://github.com/jbilcke-hf/finetrainers",
+    "language": "Python",
+    "pushed_at": "2025-09-05T12:40:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-05T12:43:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-r-r-o-w/finetrainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openrobotlab/aether",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quanhaol/magicmotion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/skyreels-a1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Fast tests for PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "term": "Fast tests for PRs"
+    }
+  ]
+}

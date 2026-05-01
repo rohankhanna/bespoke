@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "d3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-stringify-pretty-compact",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.isequal",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.sortby",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svgo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "dmfrancisco/browserslist-ga",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "ai/browserslist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "kilian/electron-to-chromium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "json-stringify-pretty-compact",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "lodash.isequal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "lodash.sortby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "svgo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "browserslist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "caniuse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome",
+      "target": "chromium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:23:00.996916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2816
+    },
+    {
+      "path": "package.json",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Map versions of Chromium-based browsers to their equivalent Chrome versions.",
+    "fork": false,
+    "full_name": "browserslist/map-to-chrome",
+    "html_url": "https://github.com/browserslist/map-to-chrome",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-14T11:41:59Z",
+    "stargazers_count": 23,
+    "topics": [
+      "browserslist",
+      "caniuse",
+      "chrome",
+      "chromium"
+    ],
+    "updated_at": "2025-11-11T13:19:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai/browserslist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmfrancisco/browserslist-ga",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kilian/electron-to-chromium",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browserslist"
+    },
+    {
+      "context_snippet": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caniuse"
+    },
+    {
+      "context_snippet": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    }
+  ]
+}

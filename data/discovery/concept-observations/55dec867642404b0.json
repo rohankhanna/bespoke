@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A networkx backend that uses joblib to run graph algorithms in parallel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Milestone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Milestone"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013109,
+      "status": "candidate",
+      "text": "milepost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013007,
+      "status": "candidate",
+      "text": "crossroads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012895,
+      "status": "candidate",
+      "text": "juncture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009261,
+      "status": "candidate",
+      "text": "mileage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007303,
+      "status": "candidate",
+      "text": "signpost"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Milestone",
+      "sense_id": "milestone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29,
+      "status": "candidate",
+      "text": "milepost"
+    }
+  ],
+  "concept_id": "milestone",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "milestone",
+  "observation_id": "55dec867642404b0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Milestone",
+  "source_context_snippet": "Milestone",
+  "source_file": ".github/workflows/milestone-merged-prs.yaml",
+  "source_repo": "networkx/nx-parallel",
+  "source_repo_description": "A networkx backend that uses joblib to run graph algorithms in parallel."
+}

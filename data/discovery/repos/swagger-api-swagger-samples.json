@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples",
+      "target": "openapi-specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples",
+      "target": "samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples",
+      "target": "scala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples",
+      "target": "swagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples",
+      "target": "swagger-oss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:00.822933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Samples for the various Swagger projects under swagger-api",
+    "fork": false,
+    "full_name": "swagger-api/swagger-samples",
+    "html_url": "https://github.com/swagger-api/swagger-samples",
+    "language": "JavaScript",
+    "pushed_at": "2023-10-30T10:46:04Z",
+    "stargazers_count": 543,
+    "topics": [
+      "java",
+      "open-source",
+      "openapi-specification",
+      "samples",
+      "scala",
+      "swagger",
+      "swagger-oss"
+    ],
+    "updated_at": "2026-04-20T12:49:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-specification"
+    },
+    {
+      "context_snippet": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    },
+    {
+      "context_snippet": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    },
+    {
+      "context_snippet": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    },
+    {
+      "context_snippet": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-oss"
+    }
+  ]
+}

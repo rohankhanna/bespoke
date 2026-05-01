@@ -1,0 +1,12 @@
+{
+  "component": "webpack/.github/.github/workflows/pr-quality.yml@a03552c758d8c244b3cfc2985aff7020469e0473",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality.yml",
+      "source_repo": "webpack/webpack.js.org"
+    }
+  ]
+}

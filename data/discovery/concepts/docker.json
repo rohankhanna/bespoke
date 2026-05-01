@@ -2986,6 +2986,186 @@
       "source_repo": "ilyabrilev/biosim4",
       "status": "candidate-context",
       "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate-context",
+      "text": " Tibanna helps you run your genomic pipelines on Amazon cloud (AWS). It is used by the 4DN DCIC (4D Nucleome Data Coordination and Integration Center) to process data. Tibanna supports CWL/WDL (w/ docker), Snakemake (w/ conda) and custom Docker/shell command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate-context",
+      "text": "[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![Build Status](https://travis-ci.org/4dn-dcic/tibanna.svg?branch=master)](https://travis-ci.org/4dn-dcic/tibanna) [![Code Quality](https://api.codacy.com/pro\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate-context",
+      "text": "Edit, preview and share mermaid charts/diagrams. New implementation of the live editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "Deezer source separation library including pretrained models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "To manage Docker Content Trust and Notary certificates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Dockerfile for LanguageTool server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Erikvl87/docker-languagetool/workflows/Build/badge.svg)](https://github.com/Erikvl87/docker-languagetool) [![Tests Status](https://github.com/Erikvl87/docker-languagetool/workflows/Tests/badge.svg)](https://github.com/Erikvl87/docker-languaget\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Dockerfile for LanguageTool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate-context",
+      "text": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/bsc",
+      "status": "candidate-context",
+      "text": "A BNB Smart Chain client based on the go-ethereum fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/bsc",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "Haskell Dockerfile parser, pretty-printer and EDSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "[![Build Status][actions-img]][actions]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate-context",
+      "text": "A desktop application for managing Docker database containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate-context",
+      "text": "TUI tool to manage your docker images, containers and volumes \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate-context",
+      "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexaandrov/stitchocker",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08 Stitchoker its a lightweight and fast command line utility utility for conveniently grouping your docker-compose multiple container services as a single application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexaandrov/stitchocker",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/alexaandrov/stitchocker/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "status": "candidate-context",
+      "text": "NodeJS images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running NodeJS applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "status": "candidate-context",
+      "text": "NodeJS container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "Turn any computer or edge device into a command center for your computer vision projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate-context",
+      "text": "A Docker credential helper for GCR users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate-context",
+      "text": "<a href=\"https://gcr.io\"><img src=\"https://avatars2.githubusercontent.com/u/21046548?s=400&v=4\" height=\"120\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
     }
   ],
   "candidate_glosses": [
@@ -4488,6 +4668,96 @@
       "source_repo": "ilyabrilev/biosim4",
       "status": "candidate",
       "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate",
+      "text": "[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![Build Status](https://travis-ci.org/4dn-dcic/tibanna.svg?branch=master)](https://travis-ci.org/4dn-dcic/tibanna) [![Code Quality](https://api.codacy.com/pro\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Erikvl87/docker-languagetool/workflows/Build/badge.svg)](https://github.com/Erikvl87/docker-languagetool) [![Tests Status](https://github.com/Erikvl87/docker-languagetool/workflows/Tests/badge.svg)](https://github.com/Erikvl87/docker-languaget\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate",
+      "text": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/bsc",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate",
+      "text": "[![Build Status][actions-img]][actions]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate",
+      "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexaandrov/stitchocker",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/alexaandrov/stitchocker/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "status": "candidate",
+      "text": "NodeJS container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate",
+      "text": "<a href=\"https://gcr.io\"><img src=\"https://avatars2.githubusercontent.com/u/21046548?s=400&v=4\" height=\"120\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
     }
   ],
   "candidate_related_terms": [
@@ -6841,11 +7111,209 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ilyabrilev/biosim4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "4dn-dcic/tibanna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "mermaid-js/mermaid-live-editor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotnet-architecture/eShopOnContainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "deezer/spleeter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "philips-labs/dct-notary-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Erikvl87/docker-languagetool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "silvio/docker-languagetool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "bnb-chain/bsc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AbianS/docker-db-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ajayd-san/gomanagedocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "alexaandrov/stitchocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/appwrite"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

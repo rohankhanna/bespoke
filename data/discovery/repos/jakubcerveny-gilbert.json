@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakubcerveny/gilbert",
+      "target": "arbitrary-sizes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakubcerveny/gilbert",
+      "target": "hilbert-curve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakubcerveny/gilbert",
+      "target": "space-filling-curves",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:27:27.345896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Space-filling curve for rectangular domains or arbitrary size.",
+    "fork": false,
+    "full_name": "jakubcerveny/gilbert",
+    "html_url": "https://github.com/jakubcerveny/gilbert",
+    "language": "Python",
+    "pushed_at": "2025-05-18T11:10:19Z",
+    "stargazers_count": 196,
+    "topics": [
+      "arbitrary-sizes",
+      "hilbert-curve",
+      "space-filling-curves"
+    ],
+    "updated_at": "2026-04-28T07:12:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generalized Hilbert (\"gilbert\") space-filling curve for rectangular domains of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbitrary-sizes"
+    },
+    {
+      "context_snippet": "Generalized Hilbert (\"gilbert\") space-filling curve for rectangular domains of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hilbert-curve"
+    },
+    {
+      "context_snippet": "Generalized Hilbert (\"gilbert\") space-filling curve for rectangular domains of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-filling-curves"
+    }
+  ]
+}

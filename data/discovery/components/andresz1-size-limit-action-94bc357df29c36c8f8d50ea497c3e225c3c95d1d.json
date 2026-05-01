@@ -1,12 +1,22 @@
 {
   "component": "andresz1/size-limit-action@94bc357df29c36c8f8d50ea497c3e225c3c95d1d",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/query"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yml",
+      "source_repo": "un-ts/prettier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yml",
+      "source_repo": "un-ts/synckit"
     }
   ]
 }

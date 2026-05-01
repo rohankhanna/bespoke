@@ -787,6 +787,54 @@
       "source_repo": "bloomberg/clang-p2996",
       "status": "candidate-context",
       "text": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate-context",
+      "text": "Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate-context",
+      "text": "<!-- SPDX-License-Identifier: CC-BY-4.0 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate-context",
+      "text": "Declarative UI toolkit for modern C++20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate-context",
+      "text": "![build badge](https://github.com/aui-framework/aui/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate-context",
+      "text": "The Serenity Operating System \ud83d\udc1e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate-context",
+      "text": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "C++ implementation of Lie Groups using Eigen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1179,6 +1227,30 @@
       "source_repo": "bloomberg/clang-p2996",
       "status": "candidate",
       "text": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate",
+      "text": "<!-- SPDX-License-Identifier: CC-BY-4.0 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate",
+      "text": "![build badge](https://github.com/aui-framework/aui/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate",
+      "text": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1750,11 +1822,77 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aui-framework/aui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "strasdat/Sophus"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

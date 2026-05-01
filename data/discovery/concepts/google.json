@@ -247,6 +247,30 @@
       "source_repo": "google/dopamine",
       "status": "candidate-context",
       "text": "[Getting Started](#getting-started) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate-context",
+      "text": "A Google Protobuf implementation with enif (Erlang nif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml/badge.svg)](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A collection of Firebase plugins for Flutter apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "google/dopamine",
       "status": "candidate",
       "text": "[Getting Started](#getting-started) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml/badge.svg)](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -544,11 +580,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "google/dopamine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jinganix/enif_protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

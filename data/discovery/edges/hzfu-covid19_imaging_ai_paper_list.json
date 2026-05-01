@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
+      "target": "ieee8023/covid-chestxray-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
+      "target": "jannisborn/covid19_pocus_ultrasound",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
+      "target": "hkbu-hpml/covidnet3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
+      "target": "cabani/maskedface-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
+      "target": "covid-19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
+      "target": "medical-image-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
+      "target": "paper-list",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "HzFu/COVID19_imaging_AI_paper_list"
+}

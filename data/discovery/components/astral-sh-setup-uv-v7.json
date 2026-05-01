@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v7",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1572,6 +1572,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-pypi.yml",
       "source_repo": "ttktjmt/mjswan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "coin-or/pulp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "coin-or/pulp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "source_repo": "aws/aws-sdk-pandas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/minimal-tests.yml",
+      "source_repo": "aws/aws-sdk-pandas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yml",
+      "source_repo": "AgileRL/AgileRL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-tests.yml",
+      "source_repo": "AgileRL/AgileRL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yml",
+      "source_repo": "AgileRL/AgileRL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "evansd/whitenoise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "Pylons/pyramid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "RDFLib/pyLODE"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aiidateam/plumpy"
     }
   ]
 }

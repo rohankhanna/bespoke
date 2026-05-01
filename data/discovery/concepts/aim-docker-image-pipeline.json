@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "aim docker image pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate-context",
+      "text": "Aim \ud83d\udcab \u2014 An easy-to-use & supercharged open-source experiment tracker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate-context",
+      "text": "aim docker image pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate",
+      "text": "aim docker image pipeline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18559,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18458,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18365,
+      "status": "candidate",
+      "text": "way"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18036,
+      "status": "candidate",
+      "text": "aiming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18036,
+      "status": "candidate",
+      "text": "directness"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "aim docker image pipeline",
+  "concept_id": "aim-docker-image-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-docker-image.yml",
+      "source_repo": "aimhubio/aim"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "aim docker image pipeline",
+      "sense_id": "aim-docker-image-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

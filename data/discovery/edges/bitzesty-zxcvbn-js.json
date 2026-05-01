@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitzesty/zxcvbn-js",
+      "target": "formigarafa/zxcvbn-rb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitzesty/zxcvbn-js",
+      "target": "envato/zxcvbn-ruby",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "bitzesty/zxcvbn-js"
+}

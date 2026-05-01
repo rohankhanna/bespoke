@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The administration framework for Ruby on Rails applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gherkin Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gherkin Lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10746,
+      "status": "candidate",
+      "text": "green olive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10746,
+      "status": "candidate",
+      "text": "mango"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "okra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "olive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "pimiento"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gherkin Lint",
+      "sense_id": "gherkin-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gherkin-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gherkin-lint",
+  "observation_id": "909fed5277e988a1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Gherkin Lint",
+  "source_context_snippet": "Gherkin Lint",
+  "source_file": ".github/workflows/gherkin-lint.yml",
+  "source_repo": "activeadmin/activeadmin",
+  "source_repo_description": "The administration framework for Ruby on Rails applications."
+}

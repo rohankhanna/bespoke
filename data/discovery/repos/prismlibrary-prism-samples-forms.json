@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "target": "Sample CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "target": "samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "target": "xamarin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "target": "xamarin-forms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:24:34.007403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7194
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Samples that demonstrate how to use various Prism features with Xamarin.Forms",
+    "fork": false,
+    "full_name": "PrismLibrary/Prism-Samples-Forms",
+    "html_url": "https://github.com/PrismLibrary/Prism-Samples-Forms",
+    "language": "C#",
+    "pushed_at": "2024-09-23T14:32:40Z",
+    "stargazers_count": 386,
+    "topics": [
+      "prism",
+      "samples",
+      "xamarin",
+      "xamarin-forms"
+    ],
+    "updated_at": "2026-02-28T09:08:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Sample CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Sample CI"
+    },
+    {
+      "context_snippet": "Samples that demonstrate how to use various Prism features with Xamarin.Forms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism"
+    },
+    {
+      "context_snippet": "Samples that demonstrate how to use various Prism features with Xamarin.Forms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    },
+    {
+      "context_snippet": "Samples that demonstrate how to use various Prism features with Xamarin.Forms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin"
+    },
+    {
+      "context_snippet": "Samples that demonstrate how to use various Prism features with Xamarin.Forms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin-forms"
+    }
+  ]
+}

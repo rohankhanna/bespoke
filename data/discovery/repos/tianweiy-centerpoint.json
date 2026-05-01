@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianweiy/CenterPoint",
+      "target": "abraham423/centerpointtensorrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianweiy/CenterPoint",
+      "target": "carkusl/centerpoint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianweiy/CenterPoint",
+      "target": "pointscoder/once_benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianweiy/CenterPoint",
+      "target": "poodarchu/det3d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:26:41.346052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7998
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tianweiy/CenterPoint",
+    "html_url": "https://github.com/tianweiy/CenterPoint",
+    "language": "Python",
+    "pushed_at": "2024-05-16T04:14:31Z",
+    "stargazers_count": 2149,
+    "topics": [],
+    "updated_at": "2026-04-29T00:50:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abraham423/centerpointtensorrt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carkusl/centerpoint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pointscoder/once_benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "poodarchu/det3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

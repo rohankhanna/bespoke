@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/diffusion-pipe-ui",
+      "target": "tdrussell/diffusion-pipe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/diffusion-pipe-ui",
+      "target": "kohya-ss/musubi-tuner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/diffusion-pipe-ui",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/diffusion-pipe-ui",
+      "target": "tdrussell/qlora-pipe",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "alisson-anjos/diffusion-pipe-ui"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "RPM build in Fedora Copr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devexp-db/distgen",
+      "status": "candidate-context",
+      "text": "Distribution oriented templating system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devexp-db/distgen",
+      "status": "candidate-context",
+      "text": "RPM build in Fedora Copr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devexp-db/distgen",
+      "status": "candidate",
+      "text": "RPM build in Fedora Copr"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18519,
+      "status": "candidate",
+      "text": "cap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11812,
+      "status": "candidate",
+      "text": "rev"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11769,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11769,
+      "status": "candidate",
+      "text": "speed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11769,
+      "status": "candidate",
+      "text": "tach"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "RPM build in Fedora Copr",
+  "concept_id": "rpm-build-in-fedora-copr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/push-copr-build.yml",
+      "source_repo": "devexp-db/distgen"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "RPM build in Fedora Copr",
+      "sense_id": "rpm-build-in-fedora-copr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -55,6 +55,18 @@
       "source_repo": "fredrikekre/Literate.jl",
       "status": "candidate-context",
       "text": "[![Documentation](https://img.shields.io/badge/docs-latest%20release-blue.svg)](https://fredrikekre.github.io/Literate.jl/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate-context",
+      "text": "Scientific reports/literate programming for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/JunoLab/Weave.jl/workflows/CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "fredrikekre/Literate.jl",
       "status": "candidate",
       "text": "[![Documentation](https://img.shields.io/badge/docs-latest%20release-blue.svg)](https://fredrikekre.github.io/Literate.jl/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate",
+      "text": "![CI](https://github.com/JunoLab/Weave.jl/workflows/CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "fredrikekre/Literate.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JunoLab/Weave.jl"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -841,6 +841,120 @@
       "source_repo": "arturbac/simple_enum",
       "status": "candidate-context",
       "text": "![BSL](https://img.shields.io/badge/license-BSL1.0-blue.svg) [![CI](https://github.com/arturbac/simple_enum/actions/workflows/ci.yml/badge.svg)](https://github.com/arturbac/simple_enum/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate-context",
+      "text": "Samples for the various Swagger projects under swagger-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate-context",
+      "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "Aggregates compute from spare GPU capacity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "A framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate-context",
+      "text": "Cocos simplifies game creation and distribution with Cocos Creator, a free, open-source, cross-platform game engine. Empowering millions of developers to create high-performance, engaging 2D/3D games and instant web entertainment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate-context",
+      "text": "An OpenJDK release maintained and supported by SAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?label=Downloads%20of%20Latest%20Release)](https://sapmachine.io/#download) [![DockerPulls](https://img.shields.io/docker/pulls/_/sapmachine?label=Docker%20Pulls)](https://hub.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "status": "candidate-context",
+      "text": "Public DNS resolver that protects you from ad trackers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate-context",
+      "text": "open-source"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "Shared Controlz for WPF and ... more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "\ufeff<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1245,6 +1359,66 @@
       "source_repo": "arturbac/simple_enum",
       "status": "candidate",
       "text": "![BSL](https://img.shields.io/badge/license-BSL1.0-blue.svg) [![CI](https://github.com/arturbac/simple_enum/actions/workflows/ci.yml/badge.svg)](https://github.com/arturbac/simple_enum/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate",
+      "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?label=Downloads%20of%20Latest%20Release)](https://sapmachine.io/#download) [![DockerPulls](https://img.shields.io/docker/pulls/_/sapmachine?label=Docker%20Pulls)](https://hub.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate",
+      "text": "open-source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate",
+      "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate",
+      "text": "\ufeff<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1966,11 +2140,113 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "arturbac/simple_enum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kalavai-net/kalavai-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SAP/SapMachine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-devlake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "openlit/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ControlzEx/ControlzEx"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

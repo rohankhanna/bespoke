@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "loc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate-context",
+      "text": "Car Rental Platform with Mobile App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate-context",
+      "text": "loc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate",
+      "text": "loc"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984508,
+      "status": "candidate",
+      "text": "stv"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984177,
+      "status": "candidate",
+      "text": "usgs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981802,
+      "status": "candidate",
+      "text": "rdc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29921428,
+      "status": "candidate",
+      "text": "takeover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29918355,
+      "status": "candidate",
+      "text": "commentary"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "loc",
+  "concept_id": "loc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/loc.yml",
+      "source_repo": "aelassas/bookcars"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "loc",
+      "sense_id": "loc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

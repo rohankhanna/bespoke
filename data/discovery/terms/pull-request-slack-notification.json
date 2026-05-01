@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
       "source_repo": "salesforcecli/status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "forcedotcom/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "forcedotcom/change-case-management"
     }
   ],
   "term": "Pull Request Slack Notification"

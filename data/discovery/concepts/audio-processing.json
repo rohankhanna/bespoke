@@ -115,6 +115,54 @@
       "source_repo": "unevens/avec",
       "status": "candidate-context",
       "text": "*avec* is a little library for using SIMD instructions on both x86 and ARM."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "Deezer source separation library including pretrained models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate-context",
+      "text": "Sampler, Sequencer, Multi-engine synth and effects - in a box! [WIP]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate-context",
+      "text": "Implementation of the Wave-U-Net for audio source separation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate-context",
+      "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate-context",
+      "text": "A PyTorch-based Speech Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "unevens/avec",
       "status": "candidate",
       "text": "*avec* is a little library for using SIMD instructions on both x86 and ARM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate",
+      "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +328,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "unevens/avec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "deezer/spleeter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bitfieldaudio/OTTO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "f90/Wave-U-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "speechbrain/speechbrain"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

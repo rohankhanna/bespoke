@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83c\udfd7\ufe0f Build jellyfin-ffmpeg"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "status": "candidate-context",
+      "text": "FFmpeg for Jellyfin with custom extensions and enhancements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "status": "candidate-context",
+      "text": "'\ud83c\udfd7\ufe0f Build jellyfin-ffmpeg'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "status": "candidate",
+      "text": "'\ud83c\udfd7\ufe0f Build jellyfin-ffmpeg'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83c\udfd7\ufe0f Build jellyfin-ffmpeg",
+  "concept_id": "build-jellyfin-ffmpeg",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83c\udfd7\ufe0f Build jellyfin-ffmpeg",
+      "sense_id": "build-jellyfin-ffmpeg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

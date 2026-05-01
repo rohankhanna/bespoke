@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ledzy/BAdam",
+      "target": "large-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ledzy/BAdam",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:32:16.106458+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 84
+    },
+    {
+      "path": "requirements.txt",
+      "size": 303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2024] BAdam: A Memory Efficient Full Parameter Optimization Method for Large Language Models",
+    "fork": false,
+    "full_name": "Ledzy/BAdam",
+    "html_url": "https://github.com/Ledzy/BAdam",
+    "language": "Python",
+    "pushed_at": "2025-03-15T09:31:45Z",
+    "stargazers_count": 286,
+    "topics": [
+      "large-language-model",
+      "optimization"
+    ],
+    "updated_at": "2026-04-30T08:32:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[build-system] requires = ['setuptools>=42'] build-backend = 'setuptools.build_meta'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-model"
+    },
+    {
+      "context_snippet": "[build-system] requires = ['setuptools>=42'] build-backend = 'setuptools.build_meta'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    }
+  ]
+}

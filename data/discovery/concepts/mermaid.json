@@ -43,6 +43,30 @@
       "source_repo": "mermaidjs/mermaid.cli",
       "status": "candidate-context",
       "text": "> **Warning**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate-context",
+      "text": "Edit, preview and share mermaid charts/diagrams. New implementation of the live editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate-context",
+      "text": "[![Join our Discord!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=discord&label=discord)](https://discord.gg/sKeNQX4Wtj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate-context",
+      "text": "Go implementation of a HTTP server to allow remote generation of mermaid-js diagrams without any pre-requisites installed locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate-context",
+      "text": "Use mermaid-js to generate diagrams in a HTTP endpoint."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "mermaidjs/mermaid.cli",
       "status": "candidate",
       "text": "> **Warning**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate",
+      "text": "[![Join our Discord!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=discord&label=discord)](https://discord.gg/sKeNQX4Wtj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate",
+      "text": "Use mermaid-js to generate diagrams in a HTTP endpoint."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mermaidjs/mermaid.cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mermaid-js/mermaid-live-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

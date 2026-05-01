@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@v6.1.1",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-pr-title.yaml",
       "source_repo": "kubeflow/sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-check.yml",
+      "source_repo": "agentscope-ai/agentscope"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update TR report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/webref",
+      "status": "candidate-context",
+      "text": "Machine-readable references of terms defined in web browser specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webref",
+      "status": "candidate-context",
+      "text": "Update TR report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webref",
+      "status": "candidate",
+      "text": "Update TR report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18576,
+      "status": "candidate",
+      "text": "redo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18324,
+      "status": "candidate",
+      "text": "notify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18291,
+      "status": "candidate",
+      "text": "busy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18291,
+      "status": "candidate",
+      "text": "cue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18291,
+      "status": "candidate",
+      "text": "declassify"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update TR report",
+  "concept_id": "update-tr-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update-tr.yml",
+      "source_repo": "w3c/webref"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update TR report",
+      "sense_id": "update-tr-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

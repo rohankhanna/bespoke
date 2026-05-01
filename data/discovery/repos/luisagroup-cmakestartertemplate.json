@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:10:01.931129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A starter template for using LuisaCompute as a submodule with the CMake build system.",
+    "fork": false,
+    "full_name": "LuisaGroup/CMakeStarterTemplate",
+    "html_url": "https://github.com/LuisaGroup/CMakeStarterTemplate",
+    "language": "C++",
+    "pushed_at": "2024-10-22T13:18:16Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-19T10:36:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

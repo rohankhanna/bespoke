@@ -1,0 +1,17 @@
+{
+  "component": "oxc-project/release-plz@e2b12f55ad64a22af8e93634b94439c42913afca",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/oxc-index-vec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/oxc-sourcemap"
+    }
+  ]
+}

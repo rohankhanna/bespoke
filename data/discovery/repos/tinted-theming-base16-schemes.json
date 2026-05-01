@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:17:55.584835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "All the color schemes for use in base16 packages",
+    "fork": false,
+    "full_name": "tinted-theming/base16-schemes",
+    "html_url": "https://github.com/tinted-theming/base16-schemes",
+    "language": null,
+    "pushed_at": "2023-12-16T09:30:01Z",
+    "stargazers_count": 117,
+    "topics": [],
+    "updated_at": "2026-03-15T04:30:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

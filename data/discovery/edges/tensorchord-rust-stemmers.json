@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorchord/rust-stemmers",
+      "target": "snowballstem/snowball",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorchord/rust-stemmers",
+      "target": "lise-henry/stemmer-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "tensorchord/rust-stemmers",
+      "target": "currysoftware/rust-stemmers",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "tensorchord/rust-stemmers"
+}

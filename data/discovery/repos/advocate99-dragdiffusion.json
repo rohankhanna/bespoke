@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Advocate99/DragDiffusion",
+      "target": "xingangpan/draggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Advocate99/DragDiffusion",
+      "target": "tsingularity/dift",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:35.259701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial implementation of DragDiffusion",
+    "fork": false,
+    "full_name": "Advocate99/DragDiffusion",
+    "html_url": "https://github.com/Advocate99/DragDiffusion",
+    "language": "Python",
+    "pushed_at": "2023-07-07T13:44:17Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2024-11-28T01:50:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsingularity/dift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingangpan/draggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

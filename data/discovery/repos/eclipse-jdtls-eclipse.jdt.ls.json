@@ -67,7 +67,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
-      "target": "neoclide/coc-java",
+      "target": "onivim/oni",
       "target_type": "repository"
     },
     {
@@ -176,7 +176,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:05:14.112136+00:00",
+  "fetched_at": "2026-05-01T08:27:42.328228+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -208,14 +208,14 @@
     "full_name": "eclipse-jdtls/eclipse.jdt.ls",
     "html_url": "https://github.com/eclipse-jdtls/eclipse.jdt.ls",
     "language": "Java",
-    "pushed_at": "2026-04-29T08:41:24Z",
-    "stargazers_count": 2319,
+    "pushed_at": "2026-04-30T22:50:23Z",
+    "stargazers_count": 2320,
     "topics": [
       "eclipse",
       "java",
       "language-server-protocol"
     ],
-    "updated_at": "2026-04-30T03:13:07Z"
+    "updated_at": "2026-04-30T22:50:27Z"
   },
   "repo_links": [
     {
@@ -235,7 +235,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "neoclide/coc-java",
+      "full_name": "onivim/oni",
       "source_file": "README.md"
     }
   ],

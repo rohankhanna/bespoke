@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-ja",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-ja",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-ja",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-ja",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-ja",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrate.yaml",
+      "source_repo": "php/doc-ja",
+      "target": "Integrate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:09:54.271508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1564
+    },
+    {
+      "path": ".github/workflows/integrate.yaml",
+      "size": 2432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Japanese translation of the PHP documentation",
+    "fork": false,
+    "full_name": "php/doc-ja",
+    "html_url": "https://github.com/php/doc-ja",
+    "language": "XML",
+    "pushed_at": "2026-04-26T12:55:42Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-04-26T12:55:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Integrate\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrate.yaml",
+      "term": "Integrate"
+    }
+  ]
+}

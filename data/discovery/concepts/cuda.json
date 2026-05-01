@@ -1051,6 +1051,102 @@
       "source_repo": "LuisaGroup/LuisaRender",
       "status": "candidate-context",
       "text": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llnl/blt",
+      "status": "candidate-context",
+      "text": "A streamlined CMake build system foundation for developing HPC software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/blt",
+      "status": "candidate-context",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/hip",
+      "status": "candidate-context",
+      "text": "HIP: C++ Heterogeneous-Compute Interface for Portability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hip",
+      "status": "candidate-context",
+      "text": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate-context",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed as modified LSM-Tree for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate-context",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "siliconflow/onediff",
+      "status": "candidate-context",
+      "text": "OneDiff: An out-of-the-box acceleration library for diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "siliconflow/onediff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate-context",
+      "text": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate-context",
+      "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "A flyweight in situ visualization and analysis runtime for multi-physics HPC simulations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "Ascent"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "Install PyTorch distributions with computation backend auto-detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "[![BSD-3-Clause License](https://img.shields.io/github/license/Slicer/light-the-torch)](https://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_glosses": [
@@ -1575,6 +1671,54 @@
       "source_repo": "LuisaGroup/LuisaRender",
       "status": "candidate",
       "text": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/blt",
+      "status": "candidate",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hip",
+      "status": "candidate",
+      "text": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "siliconflow/onediff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate",
+      "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate",
+      "text": "Ascent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate",
+      "text": "[![BSD-3-Clause License](https://img.shields.io/github/license/Slicer/light-the-torch)](https://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_related_terms": [
@@ -2332,11 +2476,95 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "LuisaGroup/LuisaRender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llnl/blt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "siliconflow/onediff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Slicer/light-the-torch"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

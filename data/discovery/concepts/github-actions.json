@@ -839,6 +839,42 @@
       "source_repo": "akiomik/mado",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/akiomik/mado/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/mado/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradle/actions",
+      "status": "candidate-context",
+      "text": "A collection of GitHub Actions to accelerate your Gradle Builds on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/actions",
+      "status": "candidate-context",
+      "text": "This repository contains a set of GitHub Actions that are useful for building Gradle projects on GitHub."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-repo-automator",
+      "status": "candidate-context",
+      "text": "GitHub Action to automate common repo operations like validate PR description, changelog, and credits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-repo-automator",
+      "status": "candidate-context",
+      "text": "> GitHub Action that automates some common repository operations like validating PR description, changelog and credits."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate-context",
+      "text": "pinact is a CLI to edit GitHub Workflow and Composite action files and pin versions of Actions and Reusable Workflows. pinact can also update their versions and verify version annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact)"
     }
   ],
   "candidate_glosses": [
@@ -1261,6 +1297,24 @@
       "source_repo": "akiomik/mado",
       "status": "candidate",
       "text": "[![CI](https://github.com/akiomik/mado/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/mado/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/actions",
+      "status": "candidate",
+      "text": "This repository contains a set of GitHub Actions that are useful for building Gradle projects on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-repo-automator",
+      "status": "candidate",
+      "text": "> GitHub Action that automates some common repository operations like validating PR description, changelog and credits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact)"
     }
   ],
   "candidate_related_terms": [
@@ -1814,11 +1868,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gradle/actions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "10up/action-repo-automator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/pinact"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

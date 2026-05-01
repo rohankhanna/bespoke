@@ -187,6 +187,42 @@
       "source_repo": "thaolmk54/hcrn-videoqa",
       "status": "candidate-context",
       "text": "We introduce a general-purpose reusable neural unit called Conditional Relation Network (CRN) that encapsulates and transforms an array of tensorial objects into a new array of the same kind, conditioned on a contextual feature. The flexibility of CRN units is then examined in s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpha-Innovator/DocGenome",
+      "status": "candidate-context",
+      "text": "DocGenome: An Open Large-scale Scientific Document Benchmark for Training and Testing Multi-modal Large Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-Innovator/DocGenome",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate-context",
+      "text": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension  (CMRC 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate-context",
+      "text": "A Sentence Cloze Dataset for Chinese Machine Reading Comprehension (CMRC 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "thaolmk54/hcrn-videoqa",
       "status": "candidate",
       "text": "We introduce a general-purpose reusable neural unit called Conditional Relation Network (CRN) that encapsulates and transforms an array of tensorial objects into a new array of the same kind, conditioned on a contextual feature. The flexibility of CRN units is then examined in s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-Innovator/DocGenome",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +442,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Alpha-Innovator/DocGenome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2018"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2019"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

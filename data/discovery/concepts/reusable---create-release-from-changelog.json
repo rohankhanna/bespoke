@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable - Create Release from Changelog"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate-context",
+      "text": "Official C# support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate-context",
+      "text": "Reusable - Create Release from Changelog"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate",
+      "text": "Reusable - Create Release from Changelog"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35295,
+      "status": "candidate",
+      "text": "oost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35295,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35295,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35295,
+      "status": "candidate",
+      "text": "rake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33495,
+      "status": "candidate",
+      "text": "recycle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable - Create Release from Changelog",
+  "concept_id": "reusable---create-release-from-changelog",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-reusable.yml",
+      "source_repo": "dotnet/vscode-csharp"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable - Create Release from Changelog",
+      "sense_id": "reusable---create-release-from-changelog#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

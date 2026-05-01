@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml"
+    },
+    {
+      "component": "redhat-actions/push-to-registry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml",
+      "source_repo": "itroyano/ustore-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml",
+      "source_repo": "itroyano/ustore-operator",
+      "target": "redhat-actions/push-to-registry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-main.yml",
+      "source_repo": "itroyano/ustore-operator",
+      "target": "Build Main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:25:25.732896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2333
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1142
+    },
+    {
+      "path": "go.mod",
+      "size": 3113
+    },
+    {
+      "path": ".github/workflows/build-main.yml",
+      "size": 698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Go Operator for creating and managing instances of Unum UKV",
+    "fork": true,
+    "full_name": "itroyano/ustore-operator",
+    "html_url": "https://github.com/itroyano/ustore-operator",
+    "language": "Go",
+    "pushed_at": "2024-10-20T12:03:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-10-20T12:03:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-main.yml",
+      "term": "Build Main"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oxc-project/release-plz@e2b12f55ad64a22af8e93634b94439c42913afca",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oxc-project/security-action@f14eeb22b9ee0f7d3b242e5017ed0fdfada66f74",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "thomcc/index_vec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "oxc-project/release-plz@e2b12f55ad64a22af8e93634b94439c42913afca",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "oxc-project/security-action@f14eeb22b9ee0f7d3b242e5017ed0fdfada66f74",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "oxc-project/oxc-index-vec",
+      "target": "Security Analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:07:03.761312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4127
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1858
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1553
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Forked version of index_vec",
+    "fork": false,
+    "full_name": "oxc-project/oxc-index-vec",
+    "html_url": "https://github.com/oxc-project/oxc-index-vec",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T19:03:09Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-27T19:02:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thomcc/index_vec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Security Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "term": "Security Analysis"
+    }
+  ]
+}

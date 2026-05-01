@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "PR label"
+    "PR label",
+    "PR Label"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -115,6 +116,18 @@
       "source_repo": "apple/swift-nio-ssl",
       "status": "candidate-context",
       "text": "PR label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "PR Label"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +184,12 @@
       "source_repo": "apple/swift-nio-ssl",
       "status": "candidate",
       "text": "PR label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate",
+      "text": "PR Label"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +287,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/pull_request_label.yml",
       "source_repo": "apple/swift-nio-ssl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-tag.yml",
+      "source_repo": "pytorch/rl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

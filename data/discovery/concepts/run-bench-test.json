@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Bench Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate-context",
+      "text": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate-context",
+      "text": "\"Run Bench Test\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate",
+      "text": "\"Run Bench Test\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35532,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26084,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26053,
+      "status": "candidate",
+      "text": "flyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25987,
+      "status": "candidate",
+      "text": "feeler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25987,
+      "status": "candidate",
+      "text": "flagpole"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Bench Test",
+  "concept_id": "run-bench-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/run-bench-test.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Bench Test",
+      "sense_id": "run-bench-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

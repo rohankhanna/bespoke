@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "party-parrot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate-context",
+      "text": "PARTY OR DIE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main.svg?style=shield)](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main.svg?style=shield)](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "party-parrot",
+  "concept_id": "party-parrot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jmhobbs/cultofthepartyparrot.com"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "party-parrot",
+      "sense_id": "party-parrot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

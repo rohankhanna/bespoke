@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OscarXZQ/weight-selection",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OscarXZQ/weight-selection",
+      "target": "facebookresearch/dropout",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:29:12.990806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4493
+    },
+    {
+      "path": "requirements.txt",
+      "size": 89
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "OscarXZQ/weight-selection",
+    "html_url": "https://github.com/OscarXZQ/weight-selection",
+    "language": "Python",
+    "pushed_at": "2024-09-26T17:19:08Z",
+    "stargazers_count": 192,
+    "topics": [],
+    "updated_at": "2026-03-09T09:25:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/dropout",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Home Assistant dashboard for emergency alerts (Tzeva Adom) in Israel with and without live news"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project provides a Home Assistant dashboard for monitoring real-time rocket alerts in Israel. It builds upon Amit Fin's [oref_alert](https://github.com/amitfin/oref_alert) integration, offering a visual monitoring solution for multiple alert zones."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project provides a Home Assistant dashboard for monitoring real-time rocket alerts in Israel. It builds upon Amit Fin's [oref_alert](https://github.com/amitfin/oref_alert) integration, offering a visual monitoring solution for multiple alert zones."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963637,
+      "status": "candidate",
+      "text": "readiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963650,
+      "status": "candidate",
+      "text": "prepared"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963546,
+      "status": "candidate",
+      "text": "prepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963444,
+      "status": "candidate",
+      "text": "ready"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963311,
+      "status": "candidate",
+      "text": "procinct"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preparedness",
+      "sense_id": "preparedness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6034,
+      "status": "candidate",
+      "text": "readiness"
+    }
+  ],
+  "concept_id": "preparedness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preparedness",
+  "observation_id": "64d5be228f14cc2f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "preparedness",
+  "source_context_snippet": "This project provides a Home Assistant dashboard for monitoring real-time rocket alerts in Israel. It builds upon Amit Fin's [oref_alert](https://github.com/amitfin/oref_alert) integration, offering a visual monitoring solution for multiple alert zones.",
+  "source_file": null,
+  "source_repo": "danielrosehill/HA-Red-Alert-News-Dash",
+  "source_repo_description": "A Home Assistant dashboard for emergency alerts (Tzeva Adom) in Israel with and without live news"
+}

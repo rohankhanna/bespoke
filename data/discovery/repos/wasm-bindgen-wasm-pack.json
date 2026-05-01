@@ -315,7 +315,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:02:24.674690+00:00",
+  "fetched_at": "2026-05-01T09:19:03.822897+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -352,7 +352,7 @@
     "html_url": "https://github.com/wasm-bindgen/wasm-pack",
     "language": "Rust",
     "pushed_at": "2026-04-28T17:43:28Z",
-    "stargazers_count": 7155,
+    "stargazers_count": 7156,
     "topics": [
       "cli",
       "npm",
@@ -362,7 +362,7 @@
       "rust-wasm",
       "wasm"
     ],
-    "updated_at": "2026-04-29T21:56:29Z"
+    "updated_at": "2026-04-30T13:05:49Z"
   },
   "repo_links": [],
   "terms": [

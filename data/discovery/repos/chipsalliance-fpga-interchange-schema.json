@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "SymbiFlow/actions/checks@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chipsalliance/fpga-interchange-schema",
+      "target": "xilinx/rapidwright",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chipsalliance/fpga-interchange-schema",
+      "target": "chipsalliance/python-fpga-interchange",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/fpga-interchange-schema",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/fpga-interchange-schema",
+      "target": "SymbiFlow/actions/checks@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/fpga-interchange-schema",
+      "target": "CI tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chipsalliance/fpga-interchange-schema",
+      "target": "f4pga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:06:30.562593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "chipsalliance/fpga-interchange-schema",
+    "html_url": "https://github.com/chipsalliance/fpga-interchange-schema",
+    "language": "Cap'n Proto",
+    "pushed_at": "2022-07-04T09:10:21Z",
+    "stargazers_count": 60,
+    "topics": [
+      "f4pga"
+    ],
+    "updated_at": "2026-03-19T13:05:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chipsalliance/python-fpga-interchange",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xilinx/rapidwright",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI tests"
+    },
+    {
+      "context_snippet": "This repository contains the capnp schema for the FPGA interchange.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "f4pga"
+    }
+  ]
+}

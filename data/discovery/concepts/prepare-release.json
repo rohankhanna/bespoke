@@ -207,6 +207,18 @@
       "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate-context",
       "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invertase/melos",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0b  A tool for managing Dart projects with multiple packages. With IntelliJ and Vscode IDE support. Supports automated versioning, changelogs & publishing via Conventional Commits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invertase/melos",
+      "status": "candidate-context",
+      "text": "Prepare release"
     }
   ],
   "candidate_glosses": [
@@ -311,6 +323,12 @@
       "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate",
       "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invertase/melos",
+      "status": "candidate",
+      "text": "Prepare release"
     }
   ],
   "candidate_related_terms": [
@@ -462,11 +480,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "invertase/melos"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -91,6 +91,54 @@
       "source_repo": "NVlabs/PS3",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate-context",
+      "text": "Code for ICLR 2020 paper \"VL-BERT: Pre-training of Generic Visual-Linguistic Representations\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate-context",
+      "text": "By"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Oscar",
+      "status": "candidate-context",
+      "text": "Oscar and VinVL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oscar",
+      "status": "candidate-context",
+      "text": "04/17/2023: Visual instruction tuning with GPT-4 is released! Please check out the multimodal model LLaVA: [[Project Page](https://llava-vl.github.io/)] [[Paper](https://arxiv.org/abs/2304.08485)] [[Demo](https://llava.hliu.cc/)] [[Data](https://huggingface.co/datasets/liuhaotia\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "NVlabs/PS3",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate",
+      "text": "By"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oscar",
+      "status": "candidate",
+      "text": "04/17/2023: Visual instruction tuning with GPT-4 is released! Please check out the multimodal model LLaVA: [[Project Page](https://llava-vl.github.io/)] [[Paper](https://arxiv.org/abs/2304.08485)] [[Demo](https://llava.hliu.cc/)] [[Data](https://huggingface.co/datasets/liuhaotia\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -206,11 +278,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "NVlabs/PS3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/MTP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/RSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Oscar"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

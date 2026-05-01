@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml"
+    },
+    {
+      "component": "milliewalky/setup-7-zip@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml"
+    },
+    {
+      "component": "Minionguyjpro/Inno-Setup-Action@v1.2.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "optiscaler/optiscaler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "milliewalky/setup-7-zip@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "Minionguyjpro/Inno-Setup-Action@v1.2.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "Build DLSS-Enabler Installer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:29:07.530289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2868
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 5974
+    },
+    {
+      "path": ".github/workflows/build-installer.yml",
+      "size": 29636
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simulate DLSS Upscaler and DLSS-G Frame Generation features on any DirectX 12 compatible GPU in any DirectX 12 game that supports DLSS2 and DLSS3 natively.",
+    "fork": false,
+    "full_name": "artur-graniszewski/DLSS-Enabler",
+    "html_url": "https://github.com/artur-graniszewski/DLSS-Enabler",
+    "language": "Rich Text Format",
+    "pushed_at": "2026-04-28T01:48:32Z",
+    "stargazers_count": 1154,
+    "topics": [],
+    "updated_at": "2026-05-01T00:43:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "optiscaler/optiscaler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build DLSS-Enabler Installer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-installer.yml",
+      "term": "Build DLSS-Enabler Installer"
+    }
+  ]
+}

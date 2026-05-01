@@ -121,6 +121,42 @@
       "source_repo": "TanStack/query",
       "status": "candidate-context",
       "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/form",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Headless, performant, and type-safe form state management for TS/JS, React, Vue, Angular, Solid, and Lit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/form",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate-context",
+      "text": "\ud83e\udd49 useful helpers for react-three-fiber"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate-context",
+      "text": "[![Storybook](https://img.shields.io/static/v1?message=Storybook&style=flat&colorA=000000&colorB=000000&label=&logo=storybook&logoColor=ffffff)](https://drei.pmnd.rs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "\ud83d\udc3b Bear necessities for state management in React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +219,24 @@
       "source_repo": "TanStack/query",
       "status": "candidate",
       "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/form",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate",
+      "text": "[![Storybook](https://img.shields.io/static/v1?message=Storybook&style=flat&colorA=000000&colorB=000000&label=&logo=storybook&logoColor=ffffff)](https://drei.pmnd.rs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +346,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "TanStack/query"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/drei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/zustand"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

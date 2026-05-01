@@ -19,6 +19,30 @@
       "source_repo": "ali-vilab/UniAnimate-DiT",
       "status": "candidate-context",
       "text": "An expanded version of [UniAnimate](https://arxiv.org/abs/2406.01188) based on [Wan2.1](https://github.com/Wan-Video/Wan2.1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "status": "candidate-context",
+      "text": "SkyReels-A1: Expressive Portrait Animation in Video Diffusion Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/SkyReels-A2",
+      "status": "candidate-context",
+      "text": "SkyReels-A2: Compose anything in video diffusion transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/SkyReels-A2",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ali-vilab/UniAnimate-DiT",
       "status": "candidate",
       "text": "An expanded version of [UniAnimate](https://arxiv.org/abs/2406.01188) based on [Wan2.1](https://github.com/Wan-Video/Wan2.1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/SkyReels-A2",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ali-vilab/UniAnimate-DiT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SkyworkAI/SkyReels-A1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SkyworkAI/SkyReels-A2"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

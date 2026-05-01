@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Nightly CI"
+    "Nightly CI",
+    "nightly-ci"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -121,6 +122,30 @@
       "source_repo": "JuliaLang/PackageCompiler.jl",
       "status": "candidate-context",
       "text": "Nightly CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A collection of Firebase plugins for Flutter apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate-context",
+      "text": "nightly-ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate-context",
+      "text": "The Serenity Operating System \ud83d\udc1e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate-context",
+      "text": "Nightly CI"
     }
   ],
   "candidate_glosses": [
@@ -181,6 +206,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate",
+      "text": "Nightly CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate",
+      "text": "nightly-ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SerenityOS/serenity",
       "status": "candidate",
       "text": "Nightly CI"
     }
@@ -286,11 +323,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci.nightly.yml",
       "source_repo": "JuliaLang/PackageCompiler.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "SerenityOS/serenity"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official implementation for \"RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers\" (ICML 2025) , UltraViCo (ICLR 2026) and UltraImage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043655,
+      "status": "candidate",
+      "text": "leash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047814,
+      "status": "candidate",
+      "text": "cord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047561,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047385,
+      "status": "candidate",
+      "text": "string"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046554,
+      "status": "candidate",
+      "text": "knot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rope",
+      "sense_id": "rope#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7041,
+      "status": "candidate",
+      "text": "leash"
+    }
+  ],
+  "concept_id": "rope",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rope",
+  "observation_id": "885e2341c4b167b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "rope",
+  "source_context_snippet": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026",
+  "source_file": null,
+  "source_repo": "thu-ml/DiT-Extrapolation",
+  "source_repo_description": "Official implementation for \"RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers\" (ICML 2025) , UltraViCo (ICLR 2026) and UltraImage"
+}

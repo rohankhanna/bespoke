@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/rocBLAS",
-      "target": "rocm/hip",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ROCm/rocBLAS",
@@ -23,7 +16,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:10:57.019551+00:00",
+  "fetched_at": "2026-05-01T10:17:27.286799+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -48,13 +41,7 @@
     ],
     "updated_at": "2026-04-27T03:29:08Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/hip",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "> [!CAUTION]",

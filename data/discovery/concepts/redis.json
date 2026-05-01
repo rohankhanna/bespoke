@@ -415,6 +415,30 @@
       "source_repo": "chenyahui/gin-cache",
       "status": "candidate-context",
       "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/docs",
+      "status": "candidate-context",
+      "text": "Documentation for Redis, Redis Cloud, and Redis Enterprise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/docs",
+      "status": "candidate-context",
+      "text": "> Note: if you are an AI agent, please see [AI_AGENT_DEVELOPER_GUIDE.md](AI_AGENT_DEVELOPER_GUIDE.md) for more information."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "a robust, scalable, and maintained set of caching packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "[<img align=\"center\" src=\"https://cacheable.org/logo.svg\" alt=\"Cacheable\" />](https://github.com/jaredwray/cacheable)"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +645,18 @@
       "source_repo": "chenyahui/gin-cache",
       "status": "candidate",
       "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/docs",
+      "status": "candidate",
+      "text": "> Note: if you are an AI agent, please see [AI_AGENT_DEVELOPER_GUIDE.md](AI_AGENT_DEVELOPER_GUIDE.md) for more information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate",
+      "text": "[<img align=\"center\" src=\"https://cacheable.org/logo.svg\" alt=\"Cacheable\" />](https://github.com/jaredwray/cacheable)"
     }
   ],
   "candidate_related_terms": [
@@ -1108,11 +1144,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jaredwray/cacheable"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

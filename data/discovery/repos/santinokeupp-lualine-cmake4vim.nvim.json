@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "target": "kyazdani42/nvim-web-devicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "target": "cmake4vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "target": "lualine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:23:45.550762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lualine component for cmake4vim",
+    "fork": false,
+    "full_name": "SantinoKeupp/lualine-cmake4vim.nvim",
+    "html_url": "https://github.com/SantinoKeupp/lualine-cmake4vim.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-05-22T22:23:51Z",
+    "stargazers_count": 0,
+    "topics": [
+      "cmake4vim",
+      "lua",
+      "lualine",
+      "neovim",
+      "nvim"
+    ],
+    "updated_at": "2023-05-15T19:40:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyazdani42/nvim-web-devicons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake4vim"
+    },
+    {
+      "context_snippet": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lualine"
+    },
+    {
+      "context_snippet": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

@@ -991,6 +991,54 @@
       "source_repo": "OpenGVLab/InternGPT",
       "status": "candidate-context",
       "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LostRuins/koboldcpp",
+      "status": "candidate-context",
+      "text": "Run GGUF models easily with a KoboldAI UI. One File. Zero Install."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LostRuins/koboldcpp",
+      "status": "candidate-context",
+      "text": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate-context",
+      "text": "LLama.cpp rust bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate-context",
+      "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CameLLM/CameLLM",
+      "status": "candidate-context",
+      "text": "Run your favourite LLMs locally on macOS from Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM",
+      "status": "candidate-context",
+      "text": "<img src=\"Resources/Banner-b47186.png\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "status": "candidate-context",
+      "text": "Plugin for CameLLM supporting the LLaMA family of models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "status": "candidate-context",
+      "text": "This repository is under development."
     }
   ],
   "candidate_glosses": [
@@ -1485,6 +1533,30 @@
       "source_repo": "OpenGVLab/InternGPT",
       "status": "candidate",
       "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LostRuins/koboldcpp",
+      "status": "candidate",
+      "text": "KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models, inspired by the original **KoboldAI**. It's a single self-contained distributable that builds off **llama.cpp** and adds many additional powerful features. [Download Releases Here](https://github.c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate",
+      "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM",
+      "status": "candidate",
+      "text": "<img src=\"Resources/Banner-b47186.png\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "status": "candidate",
+      "text": "This repository is under development."
     }
   ],
   "candidate_related_terms": [
@@ -2404,11 +2476,95 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdrokz/rust-llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM-Llama"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

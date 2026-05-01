@@ -4951,6 +4951,402 @@
       "source_repo": "qdrant/fastembed",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate-context",
+      "text": "The Free Software Media System - Server Backend & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsspec/universal_pathlib",
+      "status": "candidate-context",
+      "text": "pathlib api extended to use fsspec backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/universal_pathlib",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate-context",
+      "text": "Edit, preview and share mermaid charts/diagrams. New implementation of the live editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruntjs/grunt-cli",
+      "status": "candidate-context",
+      "text": "Grunt's command line interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-cli",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iohub/OpenCopilot",
+      "status": "candidate-context",
+      "text": "Copilot with deepseek and more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iohub/OpenCopilot",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/demo",
+      "status": "candidate-context",
+      "text": "Symfony Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/demo",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgeo/rgeo-activerecord",
+      "status": "candidate-context",
+      "text": "RGeo ActiveRecord extensions and tools for spatial connection adapters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/rgeo-activerecord",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate-context",
+      "text": "Open Source framework for voice and multimodal conversational AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adefossez/demucs",
+      "status": "candidate-context",
+      "text": "Code for the paper Hybrid Spectrogram and Waveform Source Separation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adefossez/demucs",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/chatdocs",
+      "status": "candidate-context",
+      "text": "Chat with your documents offline using AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/chatdocs",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate-context",
+      "text": "Orchestrate the execution of GrimoireLab tools to produce a dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "scripts to automate change case management in Salesforce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oblador/react-native-vector-icons",
+      "status": "candidate-context",
+      "text": "Customizable Icons for React Native with support for image source and full styling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-vector-icons",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gsingh93/trace",
+      "status": "candidate-context",
+      "text": "A Rust procedural macro for tracing function execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gsingh93/trace",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "status": "candidate-context",
+      "text": "A Delta Lake reader for Dask"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Dockerfile for LanguageTool server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/scoops",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "IDE-like breadcrumbs, out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golangci/go-printf-func-name",
+      "status": "candidate-context",
+      "text": "Linter checks that printf-like functions are named with `f` at the end."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/go-printf-func-name",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/lint_roller",
+      "status": "candidate-context",
+      "text": "A plugin specification for linter and formatter rulesets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/lint_roller",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard-custom",
+      "status": "candidate-context",
+      "text": "Plugin containing implementations of custom cops that are bundled as defaults in Standard Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-custom",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard-performance",
+      "status": "candidate-context",
+      "text": "Standard Ruby Plugin providing configuration for rubocop-performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-performance",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard-rails",
+      "status": "candidate-context",
+      "text": "A Standard Ruby plugin that configures rubocop-rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-rails",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "\ud83e\udda9 Tools for Go projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate-context",
+      "text": "A PyTorch library for all things Reinforcement Learning (RL) for Combinatorial Optimization (CO)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate-context",
+      "text": "A networkx backend that uses joblib to run graph algorithms in parallel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "status": "candidate-context",
+      "text": "Graph algorithms written in GraphBLAS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "a robust, scalable, and maintained set of caching packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "status": "candidate-context",
+      "text": "Low-Budget Password Strength Estimation written in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekalinin/nodeenv",
+      "status": "candidate-context",
+      "text": "Virtual environment for Node.js & integrator with virtualenv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/nodeenv",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ritchie46/simd-json",
+      "status": "candidate-context",
+      "text": "Rust port of simdjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ritchie46/simd-json",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "Install PyTorch distributions with computation backend auto-detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pipecat-ai/pipecat-cli",
+      "status": "candidate-context",
+      "text": "Official CLI for Pipecat development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat-cli",
+      "status": "candidate-context",
+      "text": "tests"
     }
   ],
   "candidate_glosses": [
@@ -7467,6 +7863,210 @@
       "source_repo": "qdrant/fastembed",
       "status": "candidate",
       "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/universal_pathlib",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-live-editor",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-cli",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iohub/OpenCopilot",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/demo",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgeo/rgeo-activerecord",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adefossez/demucs",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/chatdocs",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-vector-icons",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gsingh93/trace",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/scoops",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golangci/go-printf-func-name",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/lint_roller",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-custom",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-performance",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-rails",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/nodeenv",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ritchie46/simd-json",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat-cli",
+      "status": "candidate",
+      "text": "tests"
     }
   ],
   "candidate_related_terms": [
@@ -10761,11 +11361,359 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "qdrant/fastembed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "jellyfin/jellyfin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fsspec/universal_pathlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mermaid-js/mermaid-live-editor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gruntjs/grunt-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clean-css/clean-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rubyjs/mini_racer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iohub/OpenCopilot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "symfony/demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rgeo/rgeo-activerecord"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pipecat-ai/pipecat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "adefossez/demucs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "marella/chatdocs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-sirmordred"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "forcedotcom/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "forcedotcom/change-case-management"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "oblador/react-native-vector-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "gsingh93/trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dask-contrib/dask-deltatable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Erikvl87/docker-languagetool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stefanlogue/scoops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Bekaboo/dropbar.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "golangci/go-printf-func-name"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coasys/perspective-diff-sync"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/lint_roller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard-custom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard-performance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard-rails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "wardencommunity/warden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ai4co/rl4co"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/distrax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/testsuite.yml",
+      "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "networkx/nx-parallel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "jaredwray/cacheable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "formigarafa/zxcvbn-rb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ekalinin/nodeenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ritchie46/simd-json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Slicer/light-the-torch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pipecat-ai/pipecat-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

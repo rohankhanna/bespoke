@@ -1,0 +1,662 @@
+{
+  "components": [
+    {
+      "component": "@emnapi/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@emnapi/runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@napi-rs/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@napi-rs/wasm-runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "emnapi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plus",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "autofix-ci/action@c5b2d67aa2274e7b5a18224e8171550871fc7e4a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@658a901452bb54c799643e060733b7afe9121b8d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "EndBug/version-check@095362f3cd50f690c8fa0e6afeea81834bd8d320",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "Boshen/setup-ohos-sdk@edb865a89a712f1f15dbad932dfa9cfce849d95c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "goto-bus-stop/setup-zig@abea47f85e598557f500fa1fd2ab7464fcb39406",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@233156312992f3f169d8d0c633c21d12a5d30455",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "dherman/defense-of-dot-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "dividab/tsconfig-paths",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "dominikg/tsconfck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "dividab/tsconfig-paths-webpack-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "@emnapi/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "@emnapi/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "@napi-rs/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "@napi-rs/wasm-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "emnapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "vite-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "autofix-ci/action@c5b2d67aa2274e7b5a18224e8171550871fc7e4a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "CodSpeedHQ/action@658a901452bb54c799643e060733b7afe9121b8d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "oxc-project/setup-rust@23f38cfb0c04af97a055f76acee94d5be71c7c82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "Cargo Deny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "taiki-e/checkout-action@7d1e50e93dc4fb3bba58f85018fadf77898aee8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "EndBug/version-check@095362f3cd50f690c8fa0e6afeea81834bd8d320",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "Boshen/setup-ohos-sdk@edb865a89a712f1f15dbad932dfa9cfce849d95c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "goto-bus-stop/setup-zig@abea47f85e598557f500fa1fd2ab7464fcb39406",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "cross-platform-actions/action@233156312992f3f169d8d0c633c21d12a5d30455",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver",
+      "target": "Release NAPI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:07:06.773820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20450
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5252
+    },
+    {
+      "path": "package.json",
+      "size": 2030
+    },
+    {
+      "path": ".github/workflows/autofix.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1159
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4782
+    },
+    {
+      "path": ".github/workflows/codecov.yml",
+      "size": 2064
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1103
+    },
+    {
+      "path": ".github/workflows/deny.yml",
+      "size": 781
+    },
+    {
+      "path": ".github/workflows/release-napi.yml",
+      "size": 7811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust version of webpack/enhanced-resolve",
+    "fork": false,
+    "full_name": "oxc-project/oxc-resolver",
+    "html_url": "https://github.com/oxc-project/oxc-resolver",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T16:45:56Z",
+    "stargazers_count": 269,
+    "topics": [],
+    "updated_at": "2026-04-30T16:43:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dherman/defense-of-dot-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dividab/tsconfig-paths",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dividab/tsconfig-paths-webpack-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominikg/tsconfck",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Copilot Setup Steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Cargo Deny",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "term": "Cargo Deny"
+    },
+    {
+      "context_snippet": "Release NAPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-napi.yml",
+      "term": "Release NAPI"
+    }
+  ]
+}

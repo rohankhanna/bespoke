@@ -1,0 +1,211 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "timobolkart/flame-universe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "havenfeng/photometric_optimization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "3d-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "basel-face-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "bfm-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "face-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "face-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "flame-fitting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "flame-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "target": "flame-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:34:42.416610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert from Basel Face Model (BFM) to the FLAME head model",
+    "fork": false,
+    "full_name": "TimoBolkart/BFM_to_FLAME",
+    "html_url": "https://github.com/TimoBolkart/BFM_to_FLAME",
+    "language": "Python",
+    "pushed_at": "2023-02-05T10:35:32Z",
+    "stargazers_count": 467,
+    "topics": [
+      "3d-models",
+      "basel-face-model",
+      "bfm",
+      "bfm-model",
+      "computer-graphics",
+      "computer-vision",
+      "face-model",
+      "face-models",
+      "flame",
+      "flame-fitting",
+      "flame-mesh",
+      "flame-model",
+      "python"
+    ],
+    "updated_at": "2026-04-25T18:52:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "havenfeng/photometric_optimization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timobolkart/flame-universe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-models"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "basel-face-model"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bfm-model"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-model"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-models"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-fitting"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-mesh"
+    },
+    {
+      "context_snippet": "This repository demonstrates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-model"
+    }
+  ]
+}

@@ -79,6 +79,18 @@
       "source_repo": "langgraph4j/langgraph4j",
       "status": "candidate-context",
       "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "status": "candidate-context",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.   \u57fa\u4e8e Langgraph4j \u6846\u67b6\u7684\u6df1\u5ea6\u7814\u7a76\u52a9\u624b\uff0c\u5177\u5907\u8fed\u4ee3\u5f0f\u6df1\u5ea6\u7814\u7a76\u80fd\u529b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "status": "candidate-context",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "langgraph4j/langgraph4j",
       "status": "candidate",
       "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "status": "candidate",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "imfangs/langgraph4j-deep-researcher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

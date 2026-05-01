@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:30:58.591730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 108018
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Poisson Surface Reconstruction",
+    "fork": false,
+    "full_name": "mkazhdan/PoissonRecon",
+    "html_url": "https://github.com/mkazhdan/PoissonRecon",
+    "language": "C",
+    "pushed_at": "2026-04-29T15:37:58Z",
+    "stargazers_count": 1817,
+    "topics": [],
+    "updated_at": "2026-04-29T15:38:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

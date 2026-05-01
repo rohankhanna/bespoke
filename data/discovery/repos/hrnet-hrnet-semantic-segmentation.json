@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "paddlepaddle/paddleclas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "hrnet/hrnet-image-classification.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "hsfzxjy/models.storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "cityscapes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "high-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "high-resolution-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "hrnets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "pascal-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "segmentation-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:11:45.893569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19467
+    },
+    {
+      "path": "requirements.txt",
+      "size": 116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "HRNet-OCR",
+    "description": "The OCR approach is rephrased as Segmentation Transformer: https://arxiv.org/abs/1909.11065. This is an official implementation of semantic segmentation for HRNet. https://arxiv.org/abs/1908.07919",
+    "fork": false,
+    "full_name": "HRNet/HRNet-Semantic-Segmentation",
+    "html_url": "https://github.com/HRNet/HRNet-Semantic-Segmentation",
+    "language": "Python",
+    "pushed_at": "2022-11-17T13:07:10Z",
+    "stargazers_count": 3325,
+    "topics": [
+      "cityscapes",
+      "high-resolution",
+      "high-resolution-net",
+      "hrnets",
+      "lip",
+      "pascal-context",
+      "segmentation",
+      "segmentation-transformer",
+      "semantic-segmentation",
+      "transformer"
+    ],
+    "updated_at": "2026-04-30T12:14:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrnet-image-classification.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hsfzxjy/models.storage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddleclas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cityscapes"
+    },
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution"
+    },
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution-net"
+    },
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hrnets"
+    },
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal-context"
+    },
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation-transformer"
+    },
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "- This is the implementation for HRNet + OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "component": "trstringer/manual-approval@v1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/patch-release.yml",
       "source_repo": "TabbyML/pochi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "source_repo": "Azure/aca-landing-zone-accelerator"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcd6 Static Site Generator for component library development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM version](https://img.shields.io/npm/v/dumi)](https://npmjs.org/package/dumi) [![NPM downloads](https://img.shields.io/npm/dm/dumi)](https://npmjs.org/package/dumi) [![GitHub CI](https://github.com/umijs/dumi/workflows/CI/badge.svg)](https://github.com/umijs/dumi)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/dumi)](https://npmjs.org/package/dumi) [![NPM downloads](https://img.shields.io/npm/dm/dumi)](https://npmjs.org/package/dumi) [![GitHub CI](https://github.com/umijs/dumi/workflows/CI/badge.svg)](https://github.com/umijs/dumi)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "static-site-generator",
+      "sense_id": "static-site-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "static-site-generator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static-site-generator",
+  "observation_id": "7b858823b5a32587",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "static-site-generator",
+  "source_context_snippet": "[![NPM version](https://img.shields.io/npm/v/dumi)](https://npmjs.org/package/dumi) [![NPM downloads](https://img.shields.io/npm/dm/dumi)](https://npmjs.org/package/dumi) [![GitHub CI](https://github.com/umijs/dumi/workflows/CI/badge.svg)](https://github.com/umijs/dumi)",
+  "source_file": null,
+  "source_repo": "umijs/dumi",
+  "source_repo_description": "\ud83d\udcd6 Static Site Generator for component library development"
+}

@@ -103,6 +103,18 @@
       "source_repo": "OpenGVLab/DragGAN",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate-context",
+      "text": "[CVPR 2024] Official implementation of FreeDrag: Feature Dragging for Reliable Point-based Image Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "OpenGVLab/DragGAN",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +268,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LPengYang/FreeDrag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV/RWKV-LM",
+      "target": "blinkdl/nanorwkv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV/RWKV-LM",
+      "target": "blinkdl/rwkv-v2-rnn-pile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV/RWKV-LM",
+      "target": "blinkdl/smallinitemb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RWKV/RWKV-LM",
+      "target": "blinkdl/mingpt-tuned",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "RWKV/RWKV-LM"
+}

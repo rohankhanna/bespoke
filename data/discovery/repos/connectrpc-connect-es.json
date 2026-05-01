@@ -151,28 +151,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "connectrpc/connect-es",
-      "target": "bufbuild/protobuf-es",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "connectrpc/connect-es",
-      "target": "connectrpc/connect-playwright-es",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "connectrpc/connect-es",
-      "target": "connectrpc/connect-go",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "connectrpc/connect-es",
-      "target": "connectrpc/conformance",
+      "target": "connectrpc/examples-es",
       "target_type": "repository"
     },
     {
@@ -477,7 +456,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:39:46.167747+00:00",
+  "fetched_at": "2026-05-01T07:11:46.677275+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -529,8 +508,8 @@
     "full_name": "connectrpc/connect-es",
     "html_url": "https://github.com/connectrpc/connect-es",
     "language": "TypeScript",
-    "pushed_at": "2026-04-22T18:36:15Z",
-    "stargazers_count": 1731,
+    "pushed_at": "2026-04-30T20:24:10Z",
+    "stargazers_count": 1733,
     "topics": [
       "connectrpc",
       "express",
@@ -546,27 +525,12 @@
       "schema",
       "typescript"
     ],
-    "updated_at": "2026-04-22T18:33:37Z"
+    "updated_at": "2026-05-01T05:15:46Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bufbuild/protobuf-es",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "connectrpc/conformance",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "connectrpc/connect-go",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "connectrpc/connect-playwright-es",
+      "full_name": "connectrpc/examples-es",
       "source_file": "README.md"
     }
   ],

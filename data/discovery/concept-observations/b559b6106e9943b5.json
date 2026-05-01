@@ -84,7 +84,7 @@
   "normalized_form": "clean-gcloud-profiles",
   "observation_id": "b559b6106e9943b5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Clean GCloud Profiles",
   "source_context_snippet": "Clean GCloud Profiles",
   "source_file": ".github/workflows/clean-gcloud-profiles.yml",

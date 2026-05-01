@@ -1654,6 +1654,126 @@
       "source_repo": "JuliaFolds/BangBang.jl",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate-context",
+      "text": "MongoDB object modeling designed to work in an asynchronous environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "Repository for webpack documentation and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "Distributed High-Performance Symbolic Regression in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate-context",
+      "text": "Port of mustache.js to julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KVM-VMI/kvm-vmi",
+      "status": "candidate-context",
+      "text": "KVM-based Virtual Machine Introspection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KVM-VMI/kvm-vmi",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp8266/Arduino",
+      "status": "candidate-context",
+      "text": "ESP8266 core for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp8266/Arduino",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "\ud83e\udda9 Tools for Go projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate-context",
+      "text": "An OWL ontology documentation tool using Python and templating, based on LODE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate-context",
+      "text": "![pyLODE logo](https://raw.githubusercontent.com/RDFLib/pyLODE/master/img/pyLODE-250.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/content",
+      "status": "candidate-context",
+      "text": "The official source for MDN Web Docs content. Home to over 14,000 pages of documentation about HTML, CSS, JS, HTTP, Web APIs, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/content",
+      "status": "candidate-context",
+      "text": "![github-profile](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate-context",
+      "text": "7 community-maintained translations of MDN Web Docs in ES, FR, JA, KO, PT-BR, RU, and ZH, to learn and contribute in your native language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate-context",
+      "text": ":tada: First of all, thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)' translated content! :tada:"
     }
   ],
   "candidate_glosses": [
@@ -2502,6 +2622,66 @@
       "source_repo": "JuliaFolds/BangBang.jl",
       "status": "candidate",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KVM-VMI/kvm-vmi",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp8266/Arduino",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate",
+      "text": "![pyLODE logo](https://raw.githubusercontent.com/RDFLib/pyLODE/master/img/pyLODE-250.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/content",
+      "status": "candidate",
+      "text": "![github-profile](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate",
+      "text": ":tada: First of all, thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)' translated content! :tada:"
     }
   ],
   "candidate_related_terms": [
@@ -3648,11 +3828,137 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jsdoc/jsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack.js.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "jverzani/Mustache.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "KVM-VMI/kvm-vmi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "esp8266/Arduino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/pyLODE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdn/content"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdn/translated-content"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

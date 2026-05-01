@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:16:45.891887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "develop",
+    "description": null,
+    "fork": false,
+    "full_name": "Alpine-DAV/vtk-h",
+    "html_url": "https://github.com/Alpine-DAV/vtk-h",
+    "language": "C++",
+    "pushed_at": "2022-07-13T17:08:27Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2023-07-24T01:00:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

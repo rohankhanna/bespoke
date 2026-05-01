@@ -181,6 +181,18 @@
       "source_repo": "Quick/Quick",
       "status": "candidate-context",
       "text": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "specta/specta",
+      "status": "candidate-context",
+      "text": "A light-weight TDD / BDD framework for Objective-C & Cocoa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta/specta",
+      "status": "candidate-context",
+      "text": "A light-weight TDD / BDD framework for Objective-C."
     }
   ],
   "candidate_glosses": [
@@ -267,6 +279,12 @@
       "source_repo": "Quick/Quick",
       "status": "candidate",
       "text": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta/specta",
+      "status": "candidate",
+      "text": "A light-weight TDD / BDD framework for Objective-C."
     }
   ],
   "candidate_related_terms": [
@@ -406,11 +424,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "Quick/Quick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "specta/specta"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

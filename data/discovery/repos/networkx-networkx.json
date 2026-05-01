@@ -1,0 +1,524 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "scientific-python/attach-next-milestone-action@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-release-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-release-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "networkx/networkx",
+      "target": "prefix-dev/pixi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "networkx/networkx",
+      "target": "python-graphblas/graphblas-algorithms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "networkx/networkx",
+      "target": "networkx/nx-parallel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "networkx/networkx",
+      "target": "awslabs/nx-neptune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "networkx/networkx",
+      "target": "Benchmark PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "networkx/networkx",
+      "target": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "networkx/networkx",
+      "target": "circleci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "networkx/networkx",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "networkx/networkx",
+      "target": "webfactory/ssh-agent@v0.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "networkx/networkx",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "networkx/networkx",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-check.yml",
+      "source_repo": "networkx/networkx",
+      "target": "Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "networkx/networkx",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "networkx/networkx",
+      "target": "style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "networkx/networkx",
+      "target": "scientific-python/attach-next-milestone-action@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "networkx/networkx",
+      "target": "Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "networkx/networkx",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "networkx/networkx",
+      "target": "Mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-release-test.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-release-test.yml",
+      "source_repo": "networkx/networkx",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-release-test.yml",
+      "source_repo": "networkx/networkx",
+      "target": "Test with Nightly wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "networkx/networkx",
+      "target": "complex-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "networkx/networkx",
+      "target": "graph-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "networkx/networkx",
+      "target": "graph-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "networkx/networkx",
+      "target": "graph-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "networkx/networkx",
+      "target": "graph-theory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "networkx/networkx",
+      "target": "graph-visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:08:42.249622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2971
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 12004
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 4122
+    },
+    {
+      "path": ".github/workflows/circleci.yml",
+      "size": 1472
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1702
+    },
+    {
+      "path": ".github/workflows/label-check.yml",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/milestone-merged-prs.yaml",
+      "size": 377
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 405
+    },
+    {
+      "path": ".github/workflows/nightly-release-test.yml",
+      "size": 875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Network Analysis in Python",
+    "fork": false,
+    "full_name": "networkx/networkx",
+    "html_url": "https://github.com/networkx/networkx",
+    "language": "Python",
+    "pushed_at": "2026-04-30T02:16:03Z",
+    "stargazers_count": 16865,
+    "topics": [
+      "complex-networks",
+      "graph-algorithms",
+      "graph-analysis",
+      "graph-generation",
+      "graph-theory",
+      "graph-visualization",
+      "python"
+    ],
+    "updated_at": "2026-05-01T05:44:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/nx-neptune",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "networkx/nx-parallel",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prefix-dev/pixi",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-graphblas/graphblas-algorithms",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark PR"
+    },
+    {
+      "context_snippet": "circleci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/circleci.yml",
+      "term": "circleci"
+    },
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-check.yml",
+      "term": "Labels"
+    },
+    {
+      "context_snippet": "style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "style"
+    },
+    {
+      "context_snippet": "Milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "term": "Milestone"
+    },
+    {
+      "context_snippet": "Mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "Mypy"
+    },
+    {
+      "context_snippet": "Test with Nightly wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-release-test.yml",
+      "term": "Test with Nightly wheels"
+    },
+    {
+      "context_snippet": "NetworkX",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complex-networks"
+    },
+    {
+      "context_snippet": "NetworkX",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-algorithms"
+    },
+    {
+      "context_snippet": "NetworkX",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-analysis"
+    },
+    {
+      "context_snippet": "NetworkX",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-generation"
+    },
+    {
+      "context_snippet": "NetworkX",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-theory"
+    },
+    {
+      "context_snippet": "NetworkX",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-visualization"
+    }
+  ]
+}

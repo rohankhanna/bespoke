@@ -856,6 +856,102 @@
       "source_repo": "BobLd/camelot-sharp",
       "status": "candidate-context",
       "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate-context",
+      "text": "The Free Software Media System - Server Backend & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Jellyfin</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate-context",
+      "text": "This repo is used for servicing PR's for .NET Core 2.1 and 3.1. Please visit us at https://github.com/dotnet/runtime "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate-context",
+      "text": "Going forward, the .NET team is using https://github.com/dotnet/runtime to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "status": "candidate-context",
+      "text": "NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "status": "candidate-context",
+      "text": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate-context",
+      "text": "Official C# support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate-context",
+      "text": "A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode) that provides rich language support for C# and is shipped along with [C# Dev Kit][csdevkitextension]. Powered by a Language Server Protocol (LSP) server, this extensio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate-context",
+      "text": "The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate-context",
+      "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "Prism Avalonia UI framework. Super charge your cross-platform apps with IoC, navigation, and more! Sponsored by Suess Labs. Prism is based on Microsoft patterns and practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "> ## Announcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "status": "candidate-context",
+      "text": "Falco GraphQL Sample \ud83d\udc23\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "status": "candidate-context",
+      "text": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org)."
     }
   ],
   "candidate_glosses": [
@@ -1284,6 +1380,54 @@
       "source_repo": "BobLd/camelot-sharp",
       "status": "candidate",
       "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Jellyfin</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate",
+      "text": "Going forward, the .NET team is using https://github.com/dotnet/runtime to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "status": "candidate",
+      "text": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate",
+      "text": "A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode) that provides rich language support for C# and is shipped along with [C# Dev Kit][csdevkitextension]. Powered by a Language Server Protocol (LSP) server, this extensio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate",
+      "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate",
+      "text": "> ## Announcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "status": "candidate",
+      "text": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org)."
     }
   ],
   "candidate_related_terms": [],
@@ -1921,11 +2065,89 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "BobLd/camelot-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jellyfin/jellyfin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/corefx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hardcodet/wpf-notifyicon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/vscode-csharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/falco_graphql_sample"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

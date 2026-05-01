@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorchord/rust-stemmers",
+      "target": "snowballstem/snowball",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tensorchord/rust-stemmers",
+      "target": "lise-henry/stemmer-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "tensorchord/rust-stemmers",
+      "target": "currysoftware/rust-stemmers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:17:30.720016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 999
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A rust implementation of some popular snowball stemming algorithms",
+    "fork": true,
+    "full_name": "tensorchord/rust-stemmers",
+    "html_url": "https://github.com/tensorchord/rust-stemmers",
+    "language": "Rust",
+    "pushed_at": "2025-02-06T07:33:12Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-04-02T05:20:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lise-henry/stemmer-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snowballstem/snowball",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "currysoftware/rust-stemmers",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

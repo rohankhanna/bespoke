@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Instant-loading web apps, without effort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto-assign PRs to core team authors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto-assign PRs to core team authors"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31646,
+      "status": "candidate",
+      "text": "those"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31476,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27545,
+      "status": "candidate",
+      "text": "complainant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25873,
+      "status": "candidate",
+      "text": "cadre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22086,
+      "status": "candidate",
+      "text": "hugo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-assign PRs to core team authors",
+      "sense_id": "auto-assign-prs-to-core-team-authors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-assign-prs-to-core-team-authors",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-assign-prs-to-core-team-authors",
+  "observation_id": "20576e83b0141ee1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Auto-assign PRs to core team authors",
+  "source_context_snippet": "Auto-assign PRs to core team authors",
+  "source_file": ".github/workflows/auto-assign-core-team.yml",
+  "source_repo": "QwikDev/qwik",
+  "source_repo_description": "Instant-loading web apps, without effort"
+}

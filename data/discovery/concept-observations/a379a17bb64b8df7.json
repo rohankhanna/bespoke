@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Render preact components with access to the produced virtual dom for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "preact-render-spy is a package designed to cover many of the use cases for testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "preact-render-spy is a package designed to cover many of the use cases for testing"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996707,
+      "status": "candidate",
+      "text": "proact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996706,
+      "status": "candidate",
+      "text": "preenact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996705,
+      "status": "candidate",
+      "text": "preprepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996704,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996703,
+      "status": "candidate",
+      "text": "foreprepare"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preact",
+      "sense_id": "preact#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "preact",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preact",
+  "observation_id": "a379a17bb64b8df7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "preact",
+  "source_context_snippet": "preact-render-spy is a package designed to cover many of the use cases for testing",
+  "source_file": null,
+  "source_repo": "mzgoddard/preact-render-spy",
+  "source_repo_description": "Render preact components with access to the produced virtual dom for testing."
+}

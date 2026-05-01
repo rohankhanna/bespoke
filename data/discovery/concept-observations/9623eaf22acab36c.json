@@ -1,0 +1,94 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2025] \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29712280,
+      "status": "candidate",
+      "text": "gaea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19834845,
+      "status": "candidate",
+      "text": "gala"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19809164,
+      "status": "candidate",
+      "text": "gaja"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19695371,
+      "status": "candidate",
+      "text": "gaya"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gaia",
+      "sense_id": "gaia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "gaea"
+    }
+  ],
+  "concept_id": "gaia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gaia",
+  "observation_id": "9623eaf22acab36c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "gaia",
+  "source_context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+  "source_file": null,
+  "source_repo": "RUC-NLPIR/WebThinker",
+  "source_repo_description": "[NeurIPS 2025] \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability"
+}

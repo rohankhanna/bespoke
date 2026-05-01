@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "Update Documentation on PR Merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pipecat-ai/pipecat-cli",
+      "status": "candidate-context",
+      "text": "Official CLI for Pipecat development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat-cli",
+      "status": "candidate-context",
+      "text": "Update Documentation on PR Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat-cli",
+      "status": "candidate",
+      "text": "Update Documentation on PR Merge"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Documentation on PR Merge",
+  "concept_id": "update-documentation-on-pr-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "pipecat-ai/pipecat-cli"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Documentation on PR Merge",
+      "sense_id": "update-documentation-on-pr-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

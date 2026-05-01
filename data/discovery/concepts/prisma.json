@@ -19,6 +19,72 @@
       "source_repo": "blitz-js/blitz",
       "status": "candidate-context",
       "text": "[![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma",
+      "status": "candidate-context",
+      "text": "Prettier plugin for Prisma"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma",
+      "status": "candidate-context",
+      "text": "[![Main](https://github.com/umidbekk/prettier-plugin-prisma/actions/workflows/main.yml/badge.svg)](https://github.com/umidbekk/prettier-plugin-prisma/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate-context",
+      "text": "\ud83c\udfae  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate-context",
+      "text": "prisma"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate-context",
+      "text": "\ud83d\ude82 Engine components of Prisma ORM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate-context",
+      "text": "[![Schema Engine + sql_schema_describer](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml/badge.svg)](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate-context",
+      "text": "\ud83e\ude84 Generate Kysely types directly from your Prisma schema!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate-context",
+      "text": "![Prisma Kysely](assets/logo-hero.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +93,42 @@
       "source_repo": "blitz-js/blitz",
       "status": "candidate",
       "text": "[![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma",
+      "status": "candidate",
+      "text": "[![Main](https://github.com/umidbekk/prettier-plugin-prisma/actions/workflows/main.yml/badge.svg)](https://github.com/umidbekk/prettier-plugin-prisma/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate",
+      "text": "prisma"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate",
+      "text": "[![Schema Engine + sql_schema_describer](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml/badge.svg)](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate",
+      "text": "![Prisma Kysely](assets/logo-hero.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +178,47 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "blitz-js/blitz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "avocadowastaken/prettier-plugin-prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "openlit/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma-engines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "valtyr/prisma-kysely"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

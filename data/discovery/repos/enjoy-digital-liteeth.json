@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/liteeth",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/liteeth",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:32:34.307120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4449
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small footprint and configurable Ethernet core",
+    "fork": false,
+    "full_name": "enjoy-digital/liteeth",
+    "html_url": "https://github.com/enjoy-digital/liteeth",
+    "language": "Python",
+    "pushed_at": "2026-04-28T09:35:34Z",
+    "stargazers_count": 281,
+    "topics": [],
+    "updated_at": "2026-04-28T09:35:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

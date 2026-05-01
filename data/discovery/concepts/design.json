@@ -91,6 +91,30 @@
       "source_repo": "r-lyeh/gamebook",
       "status": "candidate-context",
       "text": "The Gamebook convention"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "Google's Material Design in XAML & WPF, for C# & VB.Net. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate-context",
+      "text": "Theming .NET WinForms, C# or VB.Net, to Google's Material Design Principles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate-context",
+      "text": "MaterialSkin for .NET WinForms"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "r-lyeh/gamebook",
       "status": "candidate",
       "text": "The Gamebook convention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate",
+      "text": "MaterialSkin for .NET WinForms"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +292,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "r-lyeh/gamebook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IgnaceMaes/MaterialSkin"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

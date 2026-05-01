@@ -1,0 +1,569 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@93bbfdc546455345ae00c6f4e100a37838b37bcf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@93bbfdc546455345ae00c6f4e100a37838b37bcf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-downloader.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-binstall",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-downloader.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-binstall",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-binstall",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release-target-tuples.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-shebangs-and-filemodes.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download_test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml"
+    },
+    {
+      "component": "dtolnay/install@cargo-docs-rs",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml"
+    },
+    {
+      "component": "mattnotmitt/doxygen-action@v1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "sevenc-nanashi/voicevox.rb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "windymelt/voicevoxcore4s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "char5742/voicevox_flutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "sh1ma/voicevoxcore.go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "moonrepo/setup-rust@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "CodSpeedHQ/action@93bbfdc546455345ae00c6f4e100a37838b37bcf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-downloader.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-downloader.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "taiki-e/install-action@cargo-binstall",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-downloader.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "build downloader workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "taiki-e/install-action@cargo-binstall",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "build workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release-target-tuples.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-release-target-tuples.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "Check release target tuples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-shebangs-and-filemodes.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-shebangs-and-filemodes.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "Check shebangs and filemodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download_test.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download_test.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "Download test workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "dtolnay/install@cargo-docs-rs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "mattnotmitt/doxygen-action@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "target": "generate API documents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:25:11.459760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3004
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3656
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 576
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 2837
+    },
+    {
+      "path": ".github/workflows/build-downloader.yml",
+      "size": 4145
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 21486
+    },
+    {
+      "path": ".github/workflows/check-release-target-tuples.yml",
+      "size": 1368
+    },
+    {
+      "path": ".github/workflows/check-shebangs-and-filemodes.yml",
+      "size": 1728
+    },
+    {
+      "path": ".github/workflows/download_test.yml",
+      "size": 8615
+    },
+    {
+      "path": ".github/workflows/generate_document.yml",
+      "size": 3583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u30b3\u30a2",
+    "fork": false,
+    "full_name": "VOICEVOX/voicevox_core",
+    "html_url": "https://github.com/VOICEVOX/voicevox_core",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T06:40:29Z",
+    "stargazers_count": 1097,
+    "topics": [],
+    "updated_at": "2026-04-30T09:36:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "char5742/voicevox_flutter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sevenc-nanashi/voicevox.rb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sh1ma/voicevoxcore.go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "windymelt/voicevoxcore4s",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "audit"
+    },
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks"
+    },
+    {
+      "context_snippet": "build downloader workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-downloader.yml",
+      "term": "build downloader workflow"
+    },
+    {
+      "context_snippet": "build workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build workflow"
+    },
+    {
+      "context_snippet": "Check release target tuples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-release-target-tuples.yml",
+      "term": "Check release target tuples"
+    },
+    {
+      "context_snippet": "Check shebangs and filemodes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-shebangs-and-filemodes.yml",
+      "term": "Check shebangs and filemodes"
+    },
+    {
+      "context_snippet": "Download test workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download_test.yml",
+      "term": "Download test workflow"
+    },
+    {
+      "context_snippet": "generate API documents",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_document.yml",
+      "term": "generate API documents"
+    }
+  ]
+}

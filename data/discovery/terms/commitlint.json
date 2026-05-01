@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/commitlint.yml",
       "source_repo": "yoshoku/numo-narray-alt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "yoshoku/numo-linalg-alt"
     }
   ],
   "term": "Commitlint"

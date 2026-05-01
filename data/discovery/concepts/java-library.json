@@ -43,6 +43,30 @@
       "source_repo": "burningwave/core",
       "status": "candidate-context",
       "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/beat-link",
+      "status": "candidate-context",
+      "text": "Java library for synchronizing and communicating with Pioneer DJ Link equipment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/beat-link",
+      "status": "candidate-context",
+      "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphw/byte-buddy",
+      "status": "candidate-context",
+      "text": "Runtime code generation for the Java virtual machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphw/byte-buddy",
+      "status": "candidate-context",
+      "text": "Byte Buddy"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "burningwave/core",
       "status": "candidate",
       "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/beat-link",
+      "status": "candidate",
+      "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphw/byte-buddy",
+      "status": "candidate",
+      "text": "Byte Buddy"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "burningwave/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "raphw/byte-buddy"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

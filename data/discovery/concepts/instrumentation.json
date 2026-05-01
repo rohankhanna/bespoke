@@ -55,6 +55,30 @@
       "source_repo": "beam-telemetry/telemetry",
       "status": "candidate-context",
       "text": "[![Codecov](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate-context",
+      "text": "Collect and aggregate Telemetry events over time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphw/byte-buddy",
+      "status": "candidate-context",
+      "text": "Runtime code generation for the Java virtual machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphw/byte-buddy",
+      "status": "candidate-context",
+      "text": "Byte Buddy"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "beam-telemetry/telemetry",
       "status": "candidate",
       "text": "[![Codecov](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphw/byte-buddy",
+      "status": "candidate",
+      "text": "Byte Buddy"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +192,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "beam-telemetry/telemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry_metrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "raphw/byte-buddy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

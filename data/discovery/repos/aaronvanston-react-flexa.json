@@ -1,0 +1,557 @@
+{
+  "components": [
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prop-types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@kadira/storybook-deployer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/addon-knobs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/addon-options",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-airbnb",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-stage-1",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "enzyme",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "enzyme-to-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-airbnb",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsx-a11y",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-styled-components",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom-global",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "raw-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-addons-test-utils",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-test-renderer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "storybook-readme",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "styled-components",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "styled-components",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "creationix/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "prop-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "@kadira/storybook-deployer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "@storybook/addon-knobs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "@storybook/addon-options",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "@storybook/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "babel-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "babel-preset-airbnb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "babel-preset-stage-1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "enzyme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "enzyme-to-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "eslint-config-airbnb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "eslint-plugin-jsx-a11y",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "jest-styled-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "jsdom-global",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "raw-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "react-addons-test-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "react-test-renderer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "storybook-readme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "styled-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "styled-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "breakpoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "flex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "flexa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "flexbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "grid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "responsive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa",
+      "target": "styled-components",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:35:46.910957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16435
+    },
+    {
+      "path": "package.json",
+      "size": 2149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Responsive React Flexbox (CSS Flexible Box Layout Module) grid system based heavily on the standard CSS API.",
+    "fork": false,
+    "full_name": "aaronvanston/react-flexa",
+    "html_url": "https://github.com/aaronvanston/react-flexa",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-07T01:01:15Z",
+    "stargazers_count": 132,
+    "topics": [
+      "breakpoint",
+      "css",
+      "flex",
+      "flexa",
+      "flexbox",
+      "grid",
+      "react",
+      "responsive",
+      "styled-components"
+    ],
+    "updated_at": "2025-09-02T16:10:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/nvm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "breakpoint"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flex"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flexa"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flexbox"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grid"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "responsive"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-components"
+    }
+  ]
+}

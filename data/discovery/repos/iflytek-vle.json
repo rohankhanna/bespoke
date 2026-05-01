@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/VLE",
+      "target": "ymcui/pert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/VLE",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/VLE",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/VLE",
+      "target": "vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:03:10.139419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VLE: Vision-Language Encoder (VLE: \u89c6\u89c9-\u8bed\u8a00\u591a\u6a21\u6001\u9884\u8bad\u7ec3\u6a21\u578b)",
+    "fork": false,
+    "full_name": "iflytek/VLE",
+    "html_url": "https://github.com/iflytek/VLE",
+    "language": "Python",
+    "pushed_at": "2023-03-13T15:45:54Z",
+    "stargazers_count": 196,
+    "topics": [
+      "cv",
+      "language",
+      "llm",
+      "multi-modal",
+      "nlp",
+      "vision",
+      "vle"
+    ],
+    "updated_at": "2026-04-14T01:15:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/pert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u4e2d\u6587**](README_ZH.md) | [**English**](https://github.com/iflytek/VLE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](README_ZH.md) | [**English**](https://github.com/iflytek/VLE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](README_ZH.md) | [**English**](https://github.com/iflytek/VLE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision"
+    }
+  ]
+}

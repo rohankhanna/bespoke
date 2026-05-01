@@ -499,6 +499,42 @@
       "source_repo": "getsavvyinc/savvy-cli",
       "status": "candidate-context",
       "text": "<h3 align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate-context",
+      "text": "Jenkins automation server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate-context",
+      "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate-context",
+      "text": "Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate-context",
+      "text": "[![Linux Security Expert badge](https://badges.linuxsecurity.expert/tools/ranking/lynis.svg)](https://linuxsecurity.expert/tools/lynis/)"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +783,24 @@
       "source_repo": "getsavvyinc/savvy-cli",
       "status": "candidate",
       "text": "<h3 align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate",
+      "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate",
+      "text": "[![Linux Security Expert badge](https://badges.linuxsecurity.expert/tools/ranking/lynis.svg)](https://linuxsecurity.expert/tools/lynis/)"
     }
   ],
   "candidate_related_terms": [
@@ -1089,11 +1143,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jenkins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-devlake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CISOfy/lynis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Secure Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch",
+      "status": "candidate-context",
+      "text": "Secure Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch",
+      "status": "candidate",
+      "text": "Secure Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26344,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18247,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18105,
+      "status": "candidate",
+      "text": "circumstantial evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18105,
+      "status": "candidate",
+      "text": "compensator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18105,
+      "status": "candidate",
+      "text": "conjecture"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Secure Integration Tests",
+  "concept_id": "secure-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/secure-integration-tests.yml",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Secure Integration Tests",
+      "sense_id": "secure-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

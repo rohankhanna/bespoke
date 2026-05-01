@@ -211,6 +211,18 @@
       "source_repo": "openlit/openlit",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "A toy physically based GPU path tracer (C++/OpenGL/GLSL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "openlit/openlit",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_related_terms": [
@@ -528,11 +546,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bpftrace/bpftrace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

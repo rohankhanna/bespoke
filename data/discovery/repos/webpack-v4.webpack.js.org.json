@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:31:04.341284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Hosting for old version of webpack documentation",
+    "fork": false,
+    "full_name": "webpack/v4.webpack.js.org",
+    "html_url": "https://github.com/webpack/v4.webpack.js.org",
+    "language": null,
+    "pushed_at": "2021-11-07T00:27:03Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-09-11T12:23:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

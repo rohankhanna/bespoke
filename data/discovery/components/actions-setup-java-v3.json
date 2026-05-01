@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -687,6 +687,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "tabulapdf/tabula-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kherud/java-llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smithy-dafny-conversion.yml",
+      "source_repo": "smithy-lang/smithy-dafny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smithy-polymorph.yml",
+      "source_repo": "smithy-lang/smithy-dafny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_models_dafny_verification.yml",
+      "source_repo": "smithy-lang/smithy-dafny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_models_go_tests.yml",
+      "source_repo": "smithy-lang/smithy-dafny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jdbc-driver.yaml",
+      "source_repo": "apache/age"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "windymelt/voicevoxcore4s"
     }
   ]
 }

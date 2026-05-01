@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ESP8266 core for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build IDE examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build IDE examples"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22579,
+      "status": "candidate",
+      "text": "refraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22536,
+      "status": "candidate",
+      "text": "copula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22536,
+      "status": "candidate",
+      "text": "copulative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22536,
+      "status": "candidate",
+      "text": "correlate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22536,
+      "status": "candidate",
+      "text": "criterion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build IDE examples",
+      "sense_id": "build-ide-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-ide-examples",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-ide-examples",
+  "observation_id": "3beec82b9fac2b4d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Build IDE examples",
+  "source_context_snippet": "Build IDE examples",
+  "source_file": ".github/workflows/build-ide.yml",
+  "source_repo": "esp8266/Arduino",
+  "source_repo_description": "ESP8266 core for Arduino"
+}

@@ -247,6 +247,18 @@
       "source_repo": "tabulapdf/tabula-java",
       "status": "candidate-context",
       "text": "Java CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/druid",
+      "status": "candidate-context",
+      "text": "\u963f\u91cc\u4e91\u8ba1\u7b97\u5e73\u53f0DataWorks(https://help.aliyun.com/document_detail/137663.html) \u56e2\u961f\u51fa\u54c1\uff0c\u4e3a\u76d1\u63a7\u800c\u751f\u7684\u6570\u636e\u5e93\u8fde\u63a5\u6c60"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/druid",
+      "status": "candidate-context",
+      "text": "Java CI"
     }
   ],
   "candidate_glosses": [
@@ -367,6 +379,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tabulapdf/tabula-java",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/druid",
       "status": "candidate",
       "text": "Java CI"
     }
@@ -532,11 +550,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "tabulapdf/tabula-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alibaba/druid"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

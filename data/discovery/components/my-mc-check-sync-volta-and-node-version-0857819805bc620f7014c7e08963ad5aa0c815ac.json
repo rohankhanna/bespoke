@@ -1,0 +1,12 @@
+{
+  "component": "My-MC/check-sync-volta-and-node-version@0857819805bc620f7014c7e08963ad5aa0c815ac",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_version.yml",
+      "source_repo": "VOICEVOX/voicevox"
+    }
+  ]
+}

@@ -43,7 +43,7 @@
   "normalized_form": "rustfmt",
   "observation_id": "3c3d0a0e059763e8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Rustfmt",
   "source_context_snippet": "Rustfmt",
   "source_file": ".github/workflows/cargo-fmt.yml",

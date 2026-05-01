@@ -19,6 +19,18 @@
       "source_repo": "ruby-processing/JRubyArt",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate-context",
+      "text": "Example sketches for JRubyArt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate-context",
+      "text": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ruby-processing/JRubyArt",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate",
+      "text": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ruby-processing/JRubyArt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Monthly issue metrics (Multi Repo)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/.github",
+      "status": "candidate-context",
+      "text": "10up's community files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/.github",
+      "status": "candidate-context",
+      "text": "Monthly issue metrics (Multi Repo)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/.github",
+      "status": "candidate",
+      "text": "Monthly issue metrics (Multi Repo)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22952,
+      "status": "candidate",
+      "text": "flash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22908,
+      "status": "candidate",
+      "text": "geoselenic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22908,
+      "status": "candidate",
+      "text": "lunisolar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22908,
+      "status": "candidate",
+      "text": "orbit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22438,
+      "status": "candidate",
+      "text": "inc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Monthly issue metrics (Multi Repo)",
+  "concept_id": "monthly-issue-metrics-multi-repo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/issue_metrics.yml",
+      "source_repo": "10up/.github"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Monthly issue metrics (Multi Repo)",
+      "sense_id": "monthly-issue-metrics-multi-repo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

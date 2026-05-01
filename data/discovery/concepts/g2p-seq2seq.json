@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "g2p-seq2seq"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/g2p",
+      "status": "candidate-context",
+      "text": "g2p: English Grapheme To Phoneme Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/g2p",
+      "status": "candidate-context",
+      "text": "[![image](https://img.shields.io/pypi/v/g2p-en.svg)](https://pypi.org/project/g2p-en/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/g2p",
+      "status": "candidate",
+      "text": "[![image](https://img.shields.io/pypi/v/g2p-en.svg)](https://pypi.org/project/g2p-en/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "g2p-seq2seq",
+  "concept_id": "g2p-seq2seq",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/g2p"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "g2p-seq2seq",
+      "sense_id": "g2p-seq2seq#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

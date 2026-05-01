@@ -139,6 +139,18 @@
       "source_repo": "qdrant/fastembed",
       "status": "candidate-context",
       "text": "FastEmbed is a lightweight, fast, Python library built for embedding generation. We [support popular text models](https://qdrant.github.io/fastembed/examples/Supported_Models/). Please [open a GitHub issue](https://github.com/qdrant/fastembed/issues/new) if you want us to add a \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Storage Provider Retrieval Checker as a Checker Subnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate-context",
+      "text": "SP Retrieval Checker Module"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "qdrant/fastembed",
       "status": "candidate",
       "text": "FastEmbed is a lightweight, fast, Python library built for embedding generation. We [support popular text models](https://qdrant.github.io/fastembed/examples/Supported_Models/). Please [open a GitHub issue](https://github.com/qdrant/fastembed/issues/new) if you want us to add a \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate",
+      "text": "SP Retrieval Checker Module"
     }
   ],
   "candidate_related_terms": [
@@ -324,11 +342,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "qdrant/fastembed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CheckerNetwork/spark-checker"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

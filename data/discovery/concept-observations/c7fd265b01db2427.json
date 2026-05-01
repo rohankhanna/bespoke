@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using \u26a1 Pytorch Lightning and \ud83e\udd17 Transformers. For access to our API, please email us at contact@unitary.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pyright Type Checking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pyright Type Checking"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15396,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15396,
+      "status": "candidate",
+      "text": "radar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15156,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15156,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14588,
+      "status": "candidate",
+      "text": "atm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pyright Type Checking",
+      "sense_id": "pyright-type-checking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pyright-type-checking",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyright-type-checking",
+  "observation_id": "c7fd265b01db2427",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Pyright Type Checking",
+  "source_context_snippet": "Pyright Type Checking",
+  "source_file": ".github/workflows/pyright.yml",
+  "source_repo": "unitaryai/detoxify",
+  "source_repo_description": "Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using \u26a1 Pytorch Lightning and \ud83e\udd17 Transformers. For access to our API, please email us at contact@unitary.ai."
+}

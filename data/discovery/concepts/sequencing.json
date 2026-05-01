@@ -19,6 +19,18 @@
       "source_repo": "galaxyproject/galaxy",
       "status": "candidate-context",
       "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate-context",
+      "text": "Sampler, Sequencer, Multi-engine synth and effects - in a box! [WIP]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "galaxyproject/galaxy",
       "status": "candidate",
       "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitfieldaudio/OTTO",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "galaxyproject/galaxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bitfieldaudio/OTTO"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -709,6 +709,30 @@
       "source_repo": "NVIDIA-AI-IOT/clip-distillation",
       "status": "candidate-context",
       "text": "<img src=\"assets/overview.png\" height=\"320\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "Turn any computer or edge device into a command center for your computer vision projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/OWL-RL",
+      "status": "candidate-context",
+      "text": "A simple implementation of the OWL2 RL Profile on top of RDFLib: it expands the graph with all possible triples that OWL RL defines. It can be used together with RDFLib to expand an RDFLib Graph object, or as a stand alone service with its own serialization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/OWL-RL",
+      "status": "candidate-context",
+      "text": "|Original Author DOI| |PyPI badge|"
     }
   ],
   "candidate_glosses": [
@@ -1065,6 +1089,18 @@
       "source_repo": "NVIDIA-AI-IOT/clip-distillation",
       "status": "candidate",
       "text": "<img src=\"assets/overview.png\" height=\"320\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/OWL-RL",
+      "status": "candidate",
+      "text": "|Original Author DOI| |PyPI badge|"
     }
   ],
   "candidate_related_terms": [
@@ -1698,11 +1734,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-AI-IOT/clip-distillation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/OWL-RL"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

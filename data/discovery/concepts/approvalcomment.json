@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "ApprovalComment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate-context",
+      "text": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate-context",
+      "text": "ApprovalComment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/karpenter-provider-aws",
+      "status": "candidate-context",
+      "text": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/karpenter-provider-aws",
+      "status": "candidate-context",
+      "text": "ApprovalComment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/karpenter-provider-azure",
+      "status": "candidate-context",
+      "text": "AKS Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/karpenter-provider-azure",
+      "status": "candidate-context",
+      "text": "ApprovalComment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate",
+      "text": "ApprovalComment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/karpenter-provider-aws",
+      "status": "candidate",
+      "text": "ApprovalComment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/karpenter-provider-azure",
+      "status": "candidate",
+      "text": "ApprovalComment"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ApprovalComment",
+  "concept_id": "approvalcomment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/approval-comment.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/approval-comment.yaml",
+      "source_repo": "aws/karpenter-provider-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/approval-comment.yaml",
+      "source_repo": "Azure/karpenter-provider-azure"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ApprovalComment",
+      "sense_id": "approvalcomment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

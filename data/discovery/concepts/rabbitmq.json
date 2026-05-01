@@ -79,6 +79,18 @@
       "source_repo": "macrozheng/mall",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiidateam/plumpy",
+      "status": "candidate-context",
+      "text": "A python workflows library that supports writing Processes with a well defined set of inputs and outputs that can be strung together."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiidateam/plumpy",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/aiidateam/plumpy/blob/master/docs/source/_static/logo.svg\" width=\"64px\" height=\"auto\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "macrozheng/mall",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiidateam/plumpy",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/aiidateam/plumpy/blob/master/docs/source/_static/logo.svg\" width=\"64px\" height=\"auto\">"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "macrozheng/mall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aiidateam/plumpy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

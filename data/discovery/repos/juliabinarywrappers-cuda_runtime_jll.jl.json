@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
+      "target": "juliabinarywrappers/cuda_driver_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:26:45.805931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-16T13:34:21Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-16T13:32:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/cuda_driver_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

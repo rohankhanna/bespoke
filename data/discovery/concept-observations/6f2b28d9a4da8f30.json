@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official Docker images for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mirror Stable Images to GHCR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mirror Stable Images to GHCR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34584,
+      "status": "candidate",
+      "text": "twins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34311,
+      "status": "candidate",
+      "text": "reflective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34278,
+      "status": "candidate",
+      "text": "actinomorphic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34278,
+      "status": "candidate",
+      "text": "twin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27489,
+      "status": "candidate",
+      "text": "enantiomorph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror Stable Images to GHCR",
+      "sense_id": "mirror-stable-images-to-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirror-stable-images-to-ghcr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirror-stable-images-to-ghcr",
+  "observation_id": "6f2b28d9a4da8f30",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Mirror Stable Images to GHCR",
+  "source_context_snippet": "Mirror Stable Images to GHCR",
+  "source_file": ".github/workflows/mirror_stable.yml",
+  "source_repo": "rust-lang/docker-rust",
+  "source_repo_description": "The official Docker images for Rust"
+}

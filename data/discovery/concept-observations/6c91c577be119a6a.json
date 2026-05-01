@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A plugin for injecting <link rel='preload'> for ViteJS, HTMLWebpackPlugin and HTMLRspackPlugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29702469,
+      "status": "candidate",
+      "text": "hook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932981,
+      "status": "candidate",
+      "text": "foreload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932980,
+      "status": "candidate",
+      "text": "preinstall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932979,
+      "status": "candidate",
+      "text": "precache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932978,
+      "status": "candidate",
+      "text": "prefetch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preload",
+      "sense_id": "preload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "preload",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preload",
+  "observation_id": "6c91c577be119a6a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "preload",
+  "source_context_snippet": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026",
+  "source_file": null,
+  "source_repo": "Applelo/unplugin-inject-preload",
+  "source_repo_description": "A plugin for injecting <link rel='preload'> for ViteJS, HTMLWebpackPlugin and HTMLRspackPlugin"
+}

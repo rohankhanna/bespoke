@@ -44,6 +44,18 @@
       "source_repo": "elastic/elasticsearch",
       "status": "candidate-context",
       "text": "docs-preview-cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/logstash",
+      "status": "candidate-context",
+      "text": "Logstash - transport and process your logs, events, or other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash",
+      "status": "candidate-context",
+      "text": "docs-preview-cleanup"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "elastic/elasticsearch",
+      "status": "candidate",
+      "text": "docs-preview-cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash",
       "status": "candidate",
       "text": "docs-preview-cleanup"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/docs-preview-cleanup.yml",
       "source_repo": "elastic/elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/logstash"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

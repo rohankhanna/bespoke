@@ -19,6 +19,18 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/phoenix",
+      "status": "candidate-context",
+      "text": "Apache Phoenix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/phoenix",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gchq/Gaffer",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/phoenix",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/phoenix"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,17 @@
+{
+  "component": "taiki-e/install-action@1ed3272338f573e042a2e6bca3893aa19f43b47a",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/fantoccini"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/fantoccini"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "ncipollo/release-action@3d2de22e3d0beab188d8129c27f103d8e91bf13a",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-prepare-release.yml",
+      "source_repo": "pulumi/pulumi"
+    }
+  ]
+}

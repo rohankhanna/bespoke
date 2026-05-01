@@ -325,6 +325,30 @@
       "source_repo": "ClickHouse/clickhouse-js",
       "status": "candidate-context",
       "text": "'E2E Tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate-context",
+      "text": "A cargo plugin to easily build Swift packages from Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate-context",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/db",
+      "status": "candidate-context",
+      "text": "The reactive client store for your API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/db",
+      "status": "candidate-context",
+      "text": "E2E Tests"
     }
   ],
   "candidate_glosses": [
@@ -483,6 +507,18 @@
       "source_repo": "ClickHouse/clickhouse-js",
       "status": "candidate",
       "text": "'E2E Tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/db",
+      "status": "candidate",
+      "text": "E2E Tests"
     }
   ],
   "candidate_related_terms": [
@@ -910,11 +946,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/e2e_tests.yml",
       "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/end-to-end.yml",
+      "source_repo": "antoniusnaumann/cargo-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "TanStack/db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/external-tests.yml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "guoqingbao/attention.rs",
+      "target": "guoqingbao/candle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "guoqingbao/attention.rs",
+      "target": "guoqingbao/flashattn.rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:24:30.861189+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 2235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLM Attentions for Rust",
+    "fork": false,
+    "full_name": "guoqingbao/attention.rs",
+    "html_url": "https://github.com/guoqingbao/attention.rs",
+    "language": "Cuda",
+    "pushed_at": "2026-04-26T03:50:25Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-28T22:26:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guoqingbao/candle",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guoqingbao/flashattn.rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

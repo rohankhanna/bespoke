@@ -523,6 +523,54 @@
       "source_repo": "surrealdb/surrealdb",
       "status": "candidate-context",
       "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/workers-sdk",
+      "status": "candidate-context",
+      "text": "\u26c5\ufe0f Home to Wrangler, the CLI for Cloudflare Workers\u00ae"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/workers-sdk",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Cloudflare Workers SDK</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "status": "candidate-context",
+      "text": "Sample microservices solution using Azure Container Apps, Dapr, Cosmos DB, and Azure API Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "status": "candidate-context",
+      "text": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +831,30 @@
       "source_repo": "surrealdb/surrealdb",
       "status": "candidate",
       "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/workers-sdk",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Cloudflare Workers SDK</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "status": "candidate",
+      "text": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
     }
   ],
   "candidate_related_terms": [
@@ -1168,11 +1240,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/workers-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/appwrite"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

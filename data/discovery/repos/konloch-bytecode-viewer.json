@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "Build BCV",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "baksmali",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "bytecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "bytecode-viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "decompiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "dex2jar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "fernflower",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "java-decompiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "krakatau",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "procyon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "recompiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "smali",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer",
+      "target": "static-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:05.216641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5940
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)",
+    "fork": false,
+    "full_name": "Konloch/bytecode-viewer",
+    "html_url": "https://github.com/Konloch/bytecode-viewer",
+    "language": "Java",
+    "pushed_at": "2026-04-02T20:22:54Z",
+    "stargazers_count": 15500,
+    "topics": [
+      "android",
+      "apk",
+      "baksmali",
+      "bytecode",
+      "bytecode-viewer",
+      "cfr",
+      "compiler",
+      "decompiler",
+      "dex2jar",
+      "fernflower",
+      "hacktoberfest",
+      "java",
+      "java-decompiler",
+      "jsp",
+      "krakatau",
+      "procyon",
+      "recompiler",
+      "smali",
+      "static-analysis",
+      "war"
+    ],
+    "updated_at": "2026-04-30T02:45:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build BCV",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Build BCV"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baksmali"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bytecode"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bytecode-viewer"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompiler"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dex2jar"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fernflower"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-decompiler"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "krakatau"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "procyon"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recompiler"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smali"
+    },
+    {
+      "context_snippet": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    }
+  ]
+}

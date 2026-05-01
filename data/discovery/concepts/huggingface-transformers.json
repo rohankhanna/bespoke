@@ -79,6 +79,18 @@
       "source_repo": "unum-cloud/UForm",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">UForm</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate-context",
+      "text": "Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using \u26a1 Pytorch Lightning and \ud83e\udd17 Transformers. For access to our API, please email us at contact@unitary.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "unum-cloud/UForm",
       "status": "candidate",
       "text": "<h1 align=\"center\">UForm</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +190,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unitaryai/detoxify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

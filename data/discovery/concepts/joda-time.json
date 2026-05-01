@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "joda-time"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JodaOrg/joda-time",
+      "status": "candidate-context",
+      "text": "Joda-Time is the widely used replacement for the Java date and time classes prior to Java SE 8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time",
+      "status": "candidate-context",
+      "text": "Joda-Time"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "status": "candidate-context",
+      "text": "Hibernate mapping for Joda-Time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "status": "candidate-context",
+      "text": "Joda-Time Contributions area - Hibernate support"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JodaOrg/joda-time-jsptags",
+      "status": "candidate-context",
+      "text": "JSP tag support for Joda-Time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time-jsptags",
+      "status": "candidate-context",
+      "text": "Joda-Time Contributions area - JSP tags"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time",
+      "status": "candidate",
+      "text": "Joda-Time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "status": "candidate",
+      "text": "Joda-Time Contributions area - Hibernate support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time-jsptags",
+      "status": "candidate",
+      "text": "Joda-Time Contributions area - JSP tags"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "joda-time",
+  "concept_id": "joda-time",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time-hibernate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time-jsptags"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "joda-time",
+      "sense_id": "joda-time#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

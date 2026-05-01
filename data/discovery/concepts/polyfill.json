@@ -103,6 +103,18 @@
       "source_repo": "w3c/trusted-types",
       "status": "candidate-context",
       "text": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/trusted-types.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate-context",
+      "text": "Check the browser compatibility of your code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "w3c/trusted-types",
       "status": "candidate",
       "text": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/trusted-types.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +328,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JakeChampion/fetch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

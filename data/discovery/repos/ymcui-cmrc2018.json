@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/cmrc2018",
+      "target": "huggingface/nlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2018",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2018",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2018",
+      "target": "question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2018",
+      "target": "reading-comprehension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:12:19.304113+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension  (CMRC 2018)",
+    "fork": false,
+    "full_name": "ymcui/cmrc2018",
+    "html_url": "https://github.com/ymcui/cmrc2018",
+    "language": "Python",
+    "pushed_at": "2022-06-15T01:04:26Z",
+    "stargazers_count": 453,
+    "topics": [
+      "bert",
+      "natural-language-processing",
+      "question-answering",
+      "reading-comprehension"
+    ],
+    "updated_at": "2026-04-06T06:56:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/nlp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reading-comprehension"
+    }
+  ]
+}

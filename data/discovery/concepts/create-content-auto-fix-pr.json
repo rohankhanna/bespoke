@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Create content auto-fix PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/content",
+      "status": "candidate-context",
+      "text": "The official source for MDN Web Docs content. Home to over 14,000 pages of documentation about HTML, CSS, JS, HTTP, Web APIs, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/content",
+      "status": "candidate-context",
+      "text": "Create content auto-fix PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate-context",
+      "text": "7 community-maintained translations of MDN Web Docs in ES, FR, JA, KO, PT-BR, RU, and ZH, to learn and contribute in your native language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate-context",
+      "text": "Create content auto-fix PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/content",
+      "status": "candidate",
+      "text": "Create content auto-fix PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate",
+      "text": "Create content auto-fix PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19997,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18946,
+      "status": "candidate",
+      "text": "summarize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18703,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18703,
+      "status": "candidate",
+      "text": "impress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18569,
+      "status": "candidate",
+      "text": "agent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create content auto-fix PR",
+  "concept_id": "create-content-auto-fix-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-cleanup-bot.yml",
+      "source_repo": "mdn/content"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-cleanup-bot.yml",
+      "source_repo": "mdn/translated-content"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create content auto-fix PR",
+      "sense_id": "create-content-auto-fix-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

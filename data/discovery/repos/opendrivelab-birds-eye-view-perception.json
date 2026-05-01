@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "megvii-research/petr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "megvii-basedetection/bevdepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "mit-han-lab/bevfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "adlab-autodrive/bevfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "birds-eye-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "camera-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "lidar-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
+      "target": "perception-algorithm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:08.145589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[IEEE T-PAMI 2023] Awesome BEV perception research and cookbook for all level audience in autonomous diriving",
+    "fork": false,
+    "full_name": "OpenDriveLab/Birds-eye-view-Perception",
+    "html_url": "https://github.com/OpenDriveLab/Birds-eye-view-Perception",
+    "language": "Python",
+    "pushed_at": "2025-07-21T02:34:06Z",
+    "stargazers_count": 1374,
+    "topics": [
+      "autonomous-driving",
+      "birds-eye-view",
+      "camera-detection",
+      "lidar-detection",
+      "perception-algorithm"
+    ],
+    "updated_at": "2026-04-25T10:02:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adlab-autodrive/bevfusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-basedetection/bevdepth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-research/petr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/bevfusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "birds-eye-view"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-detection"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-detection"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perception-algorithm"
+    }
+  ]
+}

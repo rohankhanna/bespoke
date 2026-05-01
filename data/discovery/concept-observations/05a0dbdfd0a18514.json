@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Finetuning and inference tools for the CogView4 and CogVideoX model series."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022299,
+      "status": "candidate",
+      "text": "fine tune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022298,
+      "status": "candidate",
+      "text": "fine-tune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022297,
+      "status": "candidate",
+      "text": "tweak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022296,
+      "status": "candidate",
+      "text": "autotune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022295,
+      "status": "candidate",
+      "text": "tune"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "finetune",
+      "sense_id": "finetune#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "finetune",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "finetune",
+  "observation_id": "05a0dbdfd0a18514",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "finetune",
+  "source_context_snippet": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026",
+  "source_file": null,
+  "source_repo": "THUDM/CogKit",
+  "source_repo_description": "Finetuning and inference tools for the CogView4 and CogVideoX model series."
+}

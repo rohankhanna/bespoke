@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval-comment.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval-comment.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dryrun-gen-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dryrun-gen.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dryrun-gen.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-cleanup.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-cleanup.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "aws/karpenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval-comment.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval-comment.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approval-comment.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "ApprovalComment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "CI-TEST",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "CodeGenCI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "github/codeql-action/autobuild@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "github/codeql-action/analyze@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dryrun-gen-pr.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dryrun-gen-pr.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "DryRunGenPR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dryrun-gen.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dryrun-gen.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dryrun-gen.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "DryRunGen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-cleanup.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-cleanup.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-cleanup.yaml",
+      "source_repo": "aws/karpenter-provider-aws",
+      "target": "E2ECleanup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:28:41.384568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2973
+    },
+    {
+      "path": "go.mod",
+      "size": 6908
+    },
+    {
+      "path": ".github/workflows/approval-comment.yaml",
+      "size": 1146
+    },
+    {
+      "path": ".github/workflows/ci-test.yaml",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/codegen.yaml",
+      "size": 2741
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yaml",
+      "size": 1687
+    },
+    {
+      "path": ".github/workflows/dryrun-gen-pr.yaml",
+      "size": 379
+    },
+    {
+      "path": ".github/workflows/dryrun-gen.yaml",
+      "size": 962
+    },
+    {
+      "path": ".github/workflows/e2e-cleanup.yaml",
+      "size": 1349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity.",
+    "fork": false,
+    "full_name": "aws/karpenter-provider-aws",
+    "html_url": "https://github.com/aws/karpenter-provider-aws",
+    "language": "Go",
+    "pushed_at": "2026-04-30T23:36:45Z",
+    "stargazers_count": 7622,
+    "topics": [],
+    "updated_at": "2026-04-30T21:25:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/karpenter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ApprovalComment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approval-comment.yaml",
+      "term": "ApprovalComment"
+    },
+    {
+      "context_snippet": "CI-TEST",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "term": "CI-TEST"
+    },
+    {
+      "context_snippet": "\"CodeGenCI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yaml",
+      "term": "CodeGenCI"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "DryRunGenPR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dryrun-gen-pr.yaml",
+      "term": "DryRunGenPR"
+    },
+    {
+      "context_snippet": "DryRunGen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dryrun-gen.yaml",
+      "term": "DryRunGen"
+    },
+    {
+      "context_snippet": "E2ECleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-cleanup.yaml",
+      "term": "E2ECleanup"
+    }
+  ]
+}

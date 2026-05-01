@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Extract Versions Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/launcher",
+      "status": "candidate-context",
+      "text": "Desktop launcher to install and use Holochain apps locally (Electron version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/launcher",
+      "status": "candidate-context",
+      "text": "Extract Versions Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/launcher",
+      "status": "candidate",
+      "text": "Extract Versions Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22677,
+      "status": "candidate",
+      "text": "effluence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22677,
+      "status": "candidate",
+      "text": "effluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22677,
+      "status": "candidate",
+      "text": "emanation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22677,
+      "status": "candidate",
+      "text": "stull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22531,
+      "status": "candidate",
+      "text": "draft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Extract Versions Workflow",
+  "concept_id": "extract-versions-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/get-versions.yaml",
+      "source_repo": "holochain/launcher"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Extract Versions Workflow",
+      "sense_id": "extract-versions-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

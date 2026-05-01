@@ -1,0 +1,161 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "dns-over-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "dns-over-quic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "dns-over-tls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "target": "privacy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:07:37.600901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3593
+    },
+    {
+      "path": "go.mod",
+      "size": 5905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Public DNS resolver that protects you from ad trackers",
+    "fork": false,
+    "full_name": "AdguardTeam/AdGuardDNS",
+    "html_url": "https://github.com/AdguardTeam/AdGuardDNS",
+    "language": "Go",
+    "pushed_at": "2026-04-17T11:03:01Z",
+    "stargazers_count": 924,
+    "topics": [
+      "adblock",
+      "adguard",
+      "dns",
+      "dns-over-https",
+      "dns-over-quic",
+      "dns-over-tls",
+      "dnscrypt",
+      "golang",
+      "open-source",
+      "privacy"
+    ],
+    "updated_at": "2026-04-29T13:38:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-https"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-quic"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-tls"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    }
+  ]
+}

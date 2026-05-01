@@ -1384,6 +1384,90 @@
       "source_repo": "securego/gosec",
       "status": "candidate-context",
       "text": "Inspects source code for security problems by scanning the Go AST"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate-context",
+      "text": "Free cross-platform password manager compatible with KeePass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "The easiest, and most secure way to access and protect all of your infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate-context",
+      "text": "umbrella project for emulation of smart card readers or smart cards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate-context",
+      "text": "Virtual Smart Card Architecture is an umbrella project for various"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkenfox/user.js",
+      "status": "candidate-context",
+      "text": "Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkenfox/user.js",
+      "status": "candidate-context",
+      "text": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate-context",
+      "text": "BusKill's main CLI/GUI app for arming/disarming/configuring the BusKill laptop kill cord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veorq/SipHash",
+      "status": "candidate-context",
+      "text": "High-speed secure pseudorandom function for short messages "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veorq/SipHash",
+      "status": "candidate-context",
+      "text": "[![License:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate-context",
+      "text": "pinact is a CLI to edit GitHub Workflow and Composite action files and pin versions of Actions and Reusable Workflows. pinact can also update their versions and verify version annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact)"
     }
   ],
   "candidate_glosses": [
@@ -2064,6 +2148,48 @@
       "source_repo": "securego/gosec",
       "status": "candidate",
       "text": "Inspects source code for security problems by scanning the Go AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate",
+      "text": "Virtual Smart Card Architecture is an umbrella project for various"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkenfox/user.js",
+      "status": "candidate",
+      "text": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate",
+      "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veorq/SipHash",
+      "status": "candidate",
+      "text": "[![License:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact)"
     }
   ],
   "candidate_related_terms": [
@@ -3001,11 +3127,101 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "securego/gosec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "keeweb/keeweb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "veorq/SipHash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/pinact"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

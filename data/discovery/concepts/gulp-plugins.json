@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "gulp-plugins"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alferov/awesome-gulp",
+      "status": "candidate-context",
+      "text": ":tropical_drink: A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow automation - http://alferov.github.io/awesome-gulp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alferov/awesome-gulp",
+      "status": "candidate-context",
+      "text": "awesome-gulp \u2014 A curated list of awesome Gulp resources, plugins and boilerplates for a better development workflow automation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alferov/awesome-gulp",
+      "status": "candidate",
+      "text": "awesome-gulp \u2014 A curated list of awesome Gulp resources, plugins and boilerplates for a better development workflow automation"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "gulp-plugins",
+  "concept_id": "gulp-plugins",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "alferov/awesome-gulp"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gulp-plugins",
+      "sense_id": "gulp-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

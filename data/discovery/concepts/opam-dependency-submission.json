@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Opam Dependency Submission"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate-context",
+      "text": "Opam Dependency Submission"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate",
+      "text": "Opam Dependency Submission"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "anguilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "dependence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "maintenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "rely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "subordinate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Opam Dependency Submission",
+  "concept_id": "opam-dependency-submission",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/opam-dependency-submission.yml",
+      "source_repo": "ocamllabs/vscode-ocaml-platform"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Opam Dependency Submission",
+      "sense_id": "opam-dependency-submission#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

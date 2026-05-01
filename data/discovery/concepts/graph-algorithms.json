@@ -31,6 +31,30 @@
       "source_repo": "igraph/rigraph",
       "status": "candidate-context",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "Network Analysis in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "NetworkX"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "status": "candidate-context",
+      "text": "Graph algorithms written in GraphBLAS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "status": "candidate-context",
+      "text": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "igraph/rigraph",
       "status": "candidate",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate",
+      "text": "NetworkX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "status": "candidate",
+      "text": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "igraph/rigraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "networkx/networkx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -46,6 +46,18 @@
       "source_repo": "j9t/htaccess-punk",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Storage Provider Retrieval Checker as a Checker Subnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate-context",
+      "text": "SP Retrieval Checker Module"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "j9t/htaccess-punk",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate",
+      "text": "SP Retrieval Checker Module"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "j9t/htaccess-punk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CheckerNetwork/spark-checker"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

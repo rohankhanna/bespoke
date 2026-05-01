@@ -84,7 +84,7 @@
   "normalized_form": "branch-synchronization",
   "observation_id": "f5e9646eb3fd5845",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Branch Synchronization",
   "source_context_snippet": "Branch Synchronization",
   "source_file": ".github/workflows/branch-sync.yml",

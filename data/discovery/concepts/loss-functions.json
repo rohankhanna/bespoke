@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "loss-functions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "status": "candidate-context",
+      "text": "Comparison of IQA models in Perceptual Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "status": "candidate-context",
+      "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "status": "candidate",
+      "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "loss-functions",
+  "concept_id": "loss-functions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loss-functions",
+      "sense_id": "loss-functions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

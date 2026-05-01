@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "headless-browsers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Headless browser for Go for TDD workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "headless-browsers",
+  "concept_id": "headless-browsers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gost-dom/browser"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "headless-browsers",
+      "sense_id": "headless-browsers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

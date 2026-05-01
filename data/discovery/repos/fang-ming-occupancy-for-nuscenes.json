@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FANG-MING/occupancy-for-nuscenes",
+      "target": "wzzheng/tpvformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:29:09.055810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "3D occupancy ",
+    "fork": false,
+    "full_name": "FANG-MING/occupancy-for-nuscenes",
+    "html_url": "https://github.com/FANG-MING/occupancy-for-nuscenes",
+    "language": "Python",
+    "pushed_at": "2023-03-01T07:25:54Z",
+    "stargazers_count": 402,
+    "topics": [],
+    "updated_at": "2026-04-22T17:35:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wzzheng/tpvformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

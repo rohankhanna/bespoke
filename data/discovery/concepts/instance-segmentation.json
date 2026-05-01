@@ -151,6 +151,42 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zzh-tju/CIoU",
+      "status": "candidate-context",
+      "text": "Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression (AAAI 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zzh-tju/CIoU",
+      "status": "candidate-context",
+      "text": "<img src=\"CIoU.png\" width=\"800px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "Turn any computer or edge device into a command center for your computer vision projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbolya/yolact",
+      "status": "candidate-context",
+      "text": "A simple, fully convolutional model for real-time instance segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbolya/yolact",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zzh-tju/CIoU",
+      "status": "candidate",
+      "text": "<img src=\"CIoU.png\" width=\"800px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbolya/yolact",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +370,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "roboflow/supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Zzh-tju/CIoU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dbolya/yolact"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

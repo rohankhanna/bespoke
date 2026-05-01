@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "lukka/run-vcpkg@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "microsoft/msvc-code-analysis-action@96315324a485db21449515180214ecb78c16a1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdcseacave/openMVS",
+      "target": "openmvg/openmvg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS",
+      "target": "lukka/run-vcpkg@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS",
+      "target": "microsoft/msvc-code-analysis-action@96315324a485db21449515180214ecb78c16a1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "dense-point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "dense-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "multi-view-stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "openmvs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "patch-match",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "refinement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "semi-global-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "stereo-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "stereo-reconstruction-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "stereo-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "surface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS",
+      "target": "texture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:30:52.279289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2099
+    },
+    {
+      "path": ".github/workflows/continuous_integration.yml",
+      "size": 13733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "open Multi-View Stereo reconstruction library",
+    "fork": false,
+    "full_name": "cdcseacave/openMVS",
+    "html_url": "https://github.com/cdcseacave/openMVS",
+    "language": "C++",
+    "pushed_at": "2026-05-01T09:01:02Z",
+    "stargazers_count": 3964,
+    "topics": [
+      "3d-reconstruction",
+      "dense-point-cloud",
+      "dense-reconstruction",
+      "mesh",
+      "multi-view-stereo",
+      "openmvs",
+      "patch-match",
+      "point-cloud",
+      "refinement",
+      "semi-global-matching",
+      "sgm",
+      "stereo",
+      "stereo-matching",
+      "stereo-reconstruction-library",
+      "stereo-vision",
+      "surface",
+      "texture"
+    ],
+    "updated_at": "2026-04-29T17:55:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openmvg/openmvg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dense-point-cloud"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dense-reconstruction"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-stereo"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmvs"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patch-match"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refinement"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-global-matching"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-matching"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-reconstruction-library"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-vision"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface"
+    },
+    {
+      "context_snippet": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture"
+    }
+  ]
+}

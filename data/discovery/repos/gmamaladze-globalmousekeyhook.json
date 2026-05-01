@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:23:04.038903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "vNext",
+    "description": "This library allows you to tap keyboard and mouse, detect and record their activity even when an application is inactive and runs in background.",
+    "fork": false,
+    "full_name": "gmamaladze/globalmousekeyhook",
+    "html_url": "https://github.com/gmamaladze/globalmousekeyhook",
+    "language": "C#",
+    "pushed_at": "2023-12-15T14:33:07Z",
+    "stargazers_count": 1092,
+    "topics": [],
+    "updated_at": "2026-04-28T22:52:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

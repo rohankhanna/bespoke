@@ -151,6 +151,42 @@
       "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
       "status": "candidate-context",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to integrate with Tailwind CSS V3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to integrate with [Tailwind CSS](https://tailwindcss.com/) V3."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "Generate favicons for your project with caching for blazing fast rebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate-context",
+      "text": "A plugin for injecting <link rel='preload'> for ViteJS, HTMLWebpackPlugin and HTMLRspackPlugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate-context",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
       "status": "candidate",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate",
+      "text": "An Rsbuild plugin to integrate with [Tailwind CSS](https://tailwindcss.com/) V3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -310,11 +364,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "rstackjs/awesome-rstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Applelo/unplugin-inject-preload"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

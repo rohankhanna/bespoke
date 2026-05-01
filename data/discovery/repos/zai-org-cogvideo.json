@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CogVideo",
+      "target": "thudm/cogkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVideo",
       "target": "a-r-r-o-w/cogvideox-factory",
       "target_type": "repository"
     },
@@ -12,21 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CogVideo",
+      "target": "thu-ml/riflex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVideo",
       "target": "aigc-apps/cogvideox-fun",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/CogVideo",
-      "target": "thedenk/cogvideox-controlnet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/CogVideo",
-      "target": "pku-yuangroup/consisid",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:09:57.024994+00:00",
+  "fetched_at": "2026-05-01T10:27:13.654228+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,7 +90,7 @@
     "html_url": "https://github.com/zai-org/CogVideo",
     "language": "Python",
     "pushed_at": "2025-11-04T11:19:04Z",
-    "stargazers_count": 12689,
+    "stargazers_count": 12690,
     "topics": [
       "cogvideox",
       "image-to-video",
@@ -99,7 +99,7 @@
       "text-to-video",
       "video-generation"
     ],
-    "updated_at": "2026-04-30T13:45:11Z"
+    "updated_at": "2026-04-30T18:59:46Z"
   },
   "repo_links": [
     {
@@ -114,12 +114,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pku-yuangroup/consisid",
+      "full_name": "thu-ml/riflex",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "thedenk/cogvideox-controlnet",
+      "full_name": "thudm/cogkit",
       "source_file": "README.md"
     }
   ],

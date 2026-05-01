@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ground Truth for French 20th century typewritten documents collected on Gallica and Europeana"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035280,
+      "status": "candidate",
+      "text": "gallic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037400,
+      "status": "candidate",
+      "text": "french people"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037400,
+      "status": "candidate",
+      "text": "the french"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037399,
+      "status": "candidate",
+      "text": "francophone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037321,
+      "status": "candidate",
+      "text": "francophonie"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "french",
+      "sense_id": "french#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "gallic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "french people"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "the french"
+    }
+  ],
+  "concept_id": "french",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "french",
+  "observation_id": "cf0ff628e45d9ee3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "french",
+  "source_context_snippet": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)",
+  "source_file": null,
+  "source_repo": "HTR-United/tapuscorpus",
+  "source_repo_description": "Ground Truth for French 20th century typewritten documents collected on Gallica and Europeana"
+}

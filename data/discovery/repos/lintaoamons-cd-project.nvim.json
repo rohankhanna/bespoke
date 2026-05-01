@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LintaoAmons/cd-project.nvim",
+      "target": "lintaoamons/vimeverywhere",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LintaoAmons/cd-project.nvim",
+      "target": "lintaoamons/scratch.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LintaoAmons/cd-project.nvim",
+      "target": "lintaoamons/context-menu.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LintaoAmons/cd-project.nvim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:27.883746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "I tried quite a lot `Project Management` plugins. In the end, I found all I need is just an easier way to `cd` to another project directory.",
+    "fork": false,
+    "full_name": "LintaoAmons/cd-project.nvim",
+    "html_url": "https://github.com/LintaoAmons/cd-project.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-01-12T01:39:18Z",
+    "stargazers_count": 129,
+    "topics": [
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-04-26T20:41:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintaoamons/context-menu.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintaoamons/scratch.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintaoamons/vimeverywhere",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "I tried quite a lot `Project Management` plugins.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

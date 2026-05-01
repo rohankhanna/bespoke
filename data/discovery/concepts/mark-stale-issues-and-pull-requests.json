@@ -493,6 +493,72 @@
       "source_repo": "kubeflow/community",
       "status": "candidate-context",
       "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/markup",
+      "status": "candidate-context",
+      "text": "Determines which markup library to use to render a content file (e.g. README) on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/markup",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/composition-api",
+      "status": "candidate-context",
+      "text": "Composition API plugin for Vue 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/composition-api",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate-context",
+      "text": "AgentScope: Agent-Oriented Programming for Building LLM Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate-context",
+      "text": "Build and run agents you can see, understand and trust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "status": "candidate-context",
+      "text": "A collection of useful CloudFormation templates "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/FirebaseUI-Flutter",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -739,6 +805,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kubeflow/community",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/markup",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/composition-api",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "af-74413592/agentscope",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/FirebaseUI-Flutter",
       "status": "candidate",
       "text": "Mark stale issues and pull requests"
     }
@@ -1114,11 +1216,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/github-stale.yaml",
       "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "github/markup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "vuejs/composition-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "af-74413592/agentscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "agentscope-ai/agentscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "firebase/FirebaseUI-Flutter"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

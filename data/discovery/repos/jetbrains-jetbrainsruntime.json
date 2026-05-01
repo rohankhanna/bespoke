@@ -1,0 +1,328 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-alpine-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "Build (alpine-linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "Build (cross-compile)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "Build (linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "Build (macos)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "Build (windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "OpenJDK GHA Sanity Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "Build OpenJDK on pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "intellij-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "target": "openjdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:41.174602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 562
+    },
+    {
+      "path": ".github/workflows/build-alpine-linux.yml",
+      "size": 3925
+    },
+    {
+      "path": ".github/workflows/build-cross-compile.yml",
+      "size": 7736
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 5957
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 4334
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 5408
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 16969
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 10841
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 9561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runtime environment based on OpenJDK for running IntelliJ Platform-based products on Windows, macOS, and Linux",
+    "fork": false,
+    "full_name": "JetBrains/JetBrainsRuntime",
+    "html_url": "https://github.com/JetBrains/JetBrainsRuntime",
+    "language": "Java",
+    "pushed_at": "2026-05-01T06:15:56Z",
+    "stargazers_count": 1876,
+    "topics": [
+      "intellij-platform",
+      "jdk",
+      "openjdk"
+    ],
+    "updated_at": "2026-04-30T13:03:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Build (alpine-linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "term": "Build (alpine-linux)"
+    },
+    {
+      "context_snippet": "'Build (cross-compile)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "term": "Build (cross-compile)"
+    },
+    {
+      "context_snippet": "'Build (linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build (linux)"
+    },
+    {
+      "context_snippet": "'Build (macos)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "Build (macos)"
+    },
+    {
+      "context_snippet": "'Build (windows)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Build (windows)"
+    },
+    {
+      "context_snippet": "'OpenJDK GHA Sanity Checks'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "OpenJDK GHA Sanity Checks"
+    },
+    {
+      "context_snippet": "'Build OpenJDK on pull request'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Build OpenJDK on pull request"
+    },
+    {
+      "context_snippet": "'Run tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-platform"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openjdk"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "celluloid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celluloid-player/celluloid",
+      "status": "candidate-context",
+      "text": "A simple GTK+ frontend for mpv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celluloid-player/celluloid",
+      "status": "candidate-context",
+      "text": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celluloid-player/celluloid",
+      "status": "candidate",
+      "text": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002379,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000330,
+      "status": "candidate",
+      "text": "synthetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998666,
+      "status": "candidate",
+      "text": "cinema"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892256,
+      "status": "candidate",
+      "text": "artificial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29781140,
+      "status": "candidate",
+      "text": "unreal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "unreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16043,
+      "status": "candidate",
+      "text": "artificial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13044,
+      "status": "candidate",
+      "text": "synthetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4052,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2036,
+      "status": "candidate",
+      "text": "cinema"
+    }
+  ],
+  "canonical_name": "celluloid",
+  "concept_id": "celluloid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "celluloid-player/celluloid"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "celluloid",
+      "sense_id": "celluloid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EfficientMedNeXt",
+      "target": "masilab/effidec3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EfficientMedNeXt",
+      "target": "masilab/3dux-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EfficientMedNeXt",
+      "target": "project-monai/research-contributions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EfficientMedNeXt",
+      "target": "mic-dkfz/mednext",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:43.749402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository of MICCAI 2025 paper \"EfficientMedNeXt: Multi-Receptive Dilated Convolutions for Medical Image Segmentation\"",
+    "fork": false,
+    "full_name": "SLDGroup/EfficientMedNeXt",
+    "html_url": "https://github.com/SLDGroup/EfficientMedNeXt",
+    "language": "Python",
+    "pushed_at": "2025-09-24T11:29:45Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-22T08:23:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "masilab/3dux-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "masilab/effidec3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mic-dkfz/mednext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-monai/research-contributions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

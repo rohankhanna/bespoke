@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theseyan/lmdbx-zig",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theseyan/lmdbx-zig",
+      "target": "libmdbx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theseyan/lmdbx-zig",
+      "target": "lmdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theseyan/lmdbx-zig",
+      "target": "zig-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:31:46.169667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Zig bindings for libMDBX (a fork of LMDB)",
+    "fork": false,
+    "full_name": "theseyan/lmdbx-zig",
+    "html_url": "https://github.com/theseyan/lmdbx-zig",
+    "language": "Zig",
+    "pushed_at": "2026-04-24T19:03:36Z",
+    "stargazers_count": 12,
+    "topics": [
+      "database",
+      "libmdbx",
+      "lmdb",
+      "zig",
+      "zig-package"
+    ],
+    "updated_at": "2026-04-25T21:56:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Zig bindings for [libMDBX](https://libmdbx.dqdkfa.ru/) (a fork of LMDB).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Zig bindings for [libMDBX](https://libmdbx.dqdkfa.ru/) (a fork of LMDB).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libmdbx"
+    },
+    {
+      "context_snippet": "Zig bindings for [libMDBX](https://libmdbx.dqdkfa.ru/) (a fork of LMDB).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lmdb"
+    },
+    {
+      "context_snippet": "Zig bindings for [libMDBX](https://libmdbx.dqdkfa.ru/) (a fork of LMDB).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zig-package"
+    }
+  ]
+}

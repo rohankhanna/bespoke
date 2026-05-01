@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "cisco/go-hpke",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "cisco/go-hpke",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "cisco/go-hpke",
+      "target": "Build and Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:31:06.104986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 554
+    },
+    {
+      "path": "go.mod",
+      "size": 249
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of draft-irtf-cfrg-hpke",
+    "fork": false,
+    "full_name": "cisco/go-hpke",
+    "html_url": "https://github.com/cisco/go-hpke",
+    "language": "Go",
+    "pushed_at": "2023-05-11T20:41:33Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2024-09-12T09:53:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Build and Test"
+    }
+  ]
+}

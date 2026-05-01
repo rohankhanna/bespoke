@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Push to Luarocks"
+    "Push to Luarocks",
+    "push-to-luarocks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -109,6 +110,30 @@
       "source_repo": "codymikol/neotest-kotlin",
       "status": "candidate-context",
       "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight, fast and async formatting and linting plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate-context",
+      "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "IDE-like breadcrumbs, out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "push-to-luarocks"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +190,18 @@
       "source_repo": "codymikol/neotest-kotlin",
       "status": "candidate",
       "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate",
+      "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate",
+      "text": "push-to-luarocks"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +311,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/luarocks.yml",
       "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvimdev/guard.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "Bekaboo/dropbar.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

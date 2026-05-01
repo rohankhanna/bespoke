@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "reisub/http_cookie",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "reisub/http_cookie",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "reisub/http_cookie",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "reisub/http_cookie",
+      "target": "actions/cache/restore@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "reisub/http_cookie",
+      "target": "actions/cache/save@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:14:56.258101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2090
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Standards-compliant HTTP Cookie implementation for Elixir",
+    "fork": false,
+    "full_name": "reisub/http_cookie",
+    "html_url": "https://github.com/reisub/http_cookie",
+    "language": "Elixir",
+    "pushed_at": "2026-01-28T15:59:30Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-01-28T16:08:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

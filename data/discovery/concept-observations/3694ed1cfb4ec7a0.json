@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A PyTorch library for all things Reinforcement Learning (RL) for Combinatorial Optimization (CO)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "</br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "</br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "attention-model",
+      "sense_id": "attention-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "attention-model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "attention-model",
+  "observation_id": "3694ed1cfb4ec7a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "attention-model",
+  "source_context_snippet": "</br>",
+  "source_file": null,
+  "source_repo": "ai4co/rl4co",
+  "source_repo_description": "A PyTorch library for all things Reinforcement Learning (RL) for Combinatorial Optimization (CO)"
+}

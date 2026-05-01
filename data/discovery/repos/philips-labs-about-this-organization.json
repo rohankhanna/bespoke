@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philips-labs/about-this-organization",
+      "target": "philips-software/philips-howto-open-source",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philips-labs/about-this-organization",
+      "target": "philips-forks/about-this-organization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philips-labs/about-this-organization",
+      "target": "philips-internal/about-this-organization",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:14:26.988999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Philips Labs - Projects in development",
+    "fork": false,
+    "full_name": "philips-labs/about-this-organization",
+    "html_url": "https://github.com/philips-labs/about-this-organization",
+    "language": null,
+    "pushed_at": "2021-09-28T07:15:11Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-07-26T01:26:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philips-forks/about-this-organization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philips-internal/about-this-organization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philips-software/philips-howto-open-source",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

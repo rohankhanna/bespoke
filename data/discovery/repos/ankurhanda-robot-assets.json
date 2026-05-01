@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankurhanda/robot-assets",
+      "target": "dic-iit/gym-ignition-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankurhanda/robot-assets",
+      "target": "anybotics/anymal_b_simple_description",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankurhanda/robot-assets",
+      "target": "a-price/robotiq_arg85_description",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankurhanda/robot-assets",
+      "target": "code-iai/robot_scenarios_sim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:34:50.906285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A repository of various URDFs and assets needed for robot manipulation",
+    "fork": false,
+    "full_name": "ankurhanda/robot-assets",
+    "html_url": "https://github.com/ankurhanda/robot-assets",
+    "language": "Python",
+    "pushed_at": "2026-04-10T22:07:33Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-04-10T22:07:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-price/robotiq_arg85_description",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anybotics/anymal_b_simple_description",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "code-iai/robot_scenarios_sim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dic-iit/gym-ignition-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

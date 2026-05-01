@@ -67,6 +67,30 @@
       "source_repo": "dotnet-architecture/eShopOnWeb",
       "status": "candidate-context",
       "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate-context",
+      "text": "This repo is used for servicing PR's for .NET Core 2.1 and 3.1. Please visit us at https://github.com/dotnet/runtime "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate-context",
+      "text": "Going forward, the .NET team is using https://github.com/dotnet/runtime to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "Prism Avalonia UI framework. Super charge your cross-platform apps with IoC, navigation, and more! Sponsored by Suess Labs. Prism is based on Microsoft patterns and practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "> ## Announcement"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "dotnet-architecture/eShopOnWeb",
       "status": "candidate",
       "text": "> eShop sample applications have been updated and moved to https://github.com/dotnet/eShop. Active development will continue there. We also recommend the [Reliable Web App](https://learn.microsoft.com/azure/architecture/web-apps/guides/reliable-web-app/overview) patterns guidanc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/corefx",
+      "status": "candidate",
+      "text": "Going forward, the .NET team is using https://github.com/dotnet/runtime to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate",
+      "text": "> ## Announcement"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dotnet-architecture/eShopOnWeb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/corefx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

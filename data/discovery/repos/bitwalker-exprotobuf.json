@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:18:47.684970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Protocol Buffers in Elixir made easy!",
+    "fork": false,
+    "full_name": "bitwalker/exprotobuf",
+    "html_url": "https://github.com/bitwalker/exprotobuf",
+    "language": "Elixir",
+    "pushed_at": "2024-07-04T16:43:38Z",
+    "stargazers_count": 482,
+    "topics": [],
+    "updated_at": "2026-02-11T12:40:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

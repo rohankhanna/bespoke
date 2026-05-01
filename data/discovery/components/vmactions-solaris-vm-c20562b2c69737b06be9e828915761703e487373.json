@@ -1,0 +1,12 @@
+{
+  "component": "vmactions/solaris-vm@c20562b2c69737b06be9e828915761703e487373",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rust-lang/libc"
+    }
+  ]
+}

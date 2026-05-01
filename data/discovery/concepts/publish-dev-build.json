@@ -19,12 +19,30 @@
       "source_repo": "marin-community/levanter",
       "status": "candidate-context",
       "text": "Publish Dev Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate-context",
+      "text": "Named Tensors for Legible Deep Learning in JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate-context",
+      "text": "Publish Dev Build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "marin-community/levanter",
+      "status": "candidate",
+      "text": "Publish Dev Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/haliax",
       "status": "candidate",
       "text": "Publish Dev Build"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/publish_dev.yaml",
       "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish_dev.yaml",
+      "source_repo": "marin-community/haliax"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

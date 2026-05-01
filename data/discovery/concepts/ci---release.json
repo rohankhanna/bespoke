@@ -31,6 +31,30 @@
       "source_repo": "npm/node-semver",
       "status": "candidate-context",
       "text": "CI - Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate-context",
+      "text": "get better errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate-context",
+      "text": "CI - Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/package-json",
+      "status": "candidate-context",
+      "text": "Programmatic API to update package.json"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/package-json",
+      "status": "candidate-context",
+      "text": "CI - Release"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "npm/node-semver",
+      "status": "candidate",
+      "text": "CI - Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate",
+      "text": "CI - Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/package-json",
       "status": "candidate",
       "text": "CI - Release"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/ci-release.yml",
       "source_repo": "npm/node-semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "npm/json-parse-even-better-errors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "npm/package-json"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

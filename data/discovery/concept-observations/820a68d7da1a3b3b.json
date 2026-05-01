@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a secure dotenv\u2013from the creator of `dotenv`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![dotenvx](https://dotenvx.com/banner.png)](https://dotenvx.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![dotenvx](https://dotenvx.com/banner.png)](https://dotenvx.com)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "configuration-file",
+      "sense_id": "configuration-file#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "configuration-file",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "configuration-file",
+  "observation_id": "820a68d7da1a3b3b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "configuration-file",
+  "source_context_snippet": "[![dotenvx](https://dotenvx.com/banner.png)](https://dotenvx.com)",
+  "source_file": null,
+  "source_repo": "dotenvx/dotenvx",
+  "source_repo_description": "a secure dotenv\u2013from the creator of `dotenv`"
+}

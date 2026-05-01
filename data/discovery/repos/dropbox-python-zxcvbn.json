@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:23:18.996662+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A realistic password strength estimator.",
+    "fork": false,
+    "full_name": "dropbox/python-zxcvbn",
+    "html_url": "https://github.com/dropbox/python-zxcvbn",
+    "language": "HTML",
+    "pushed_at": "2021-09-16T19:56:21Z",
+    "stargazers_count": 257,
+    "topics": [],
+    "updated_at": "2026-04-07T13:48:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

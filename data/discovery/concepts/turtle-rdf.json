@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "turtle-rdf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "![](docs/_static/RDFlib.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate",
+      "text": "![](docs/_static/RDFlib.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "turtle-rdf",
+  "concept_id": "turtle-rdf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "turtle-rdf",
+      "sense_id": "turtle-rdf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

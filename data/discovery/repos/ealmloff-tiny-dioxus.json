@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ealmloff/tiny-dioxus",
+      "target": "dioxuslabs/cli",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:17.627055+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 687
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ealmloff/tiny-dioxus",
+    "html_url": "https://github.com/ealmloff/tiny-dioxus",
+    "language": "HTML",
+    "pushed_at": "2024-03-21T13:38:42Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-06-03T11:21:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dioxuslabs/cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "lock-closed-issues-and-pr-s",
   "observation_id": "e95b3c42d8af7c19",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Lock closed issues and PR's",
   "source_context_snippet": "\"Lock closed issues and PR's\"",
   "source_file": ".github/workflows/lock.yml",

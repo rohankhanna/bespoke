@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -96,6 +96,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "amannn/action-semantic-pull-request"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
     }
   ],
   "term": "PR Title"

@@ -1,0 +1,12 @@
+{
+  "component": "Akryum/release-tag@v4.0.7",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "vuejs/devtools-v6"
+    }
+  ]
+}

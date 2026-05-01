@@ -43,6 +43,18 @@
       "source_repo": "Mailtrain-org/mailtrain",
       "status": "candidate-context",
       "text": "Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Billionmail/BillionMail",
+      "status": "candidate-context",
+      "text": "BillionMail gives you open-source MailServer, NewsLetter,  Email Marketing \u2014 fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Billionmail/BillionMail",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Mailtrain-org/mailtrain",
       "status": "candidate",
       "text": "Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Billionmail/BillionMail",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Mailtrain-org/mailtrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Billionmail/BillionMail"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

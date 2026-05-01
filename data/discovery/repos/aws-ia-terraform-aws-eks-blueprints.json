@@ -1,0 +1,725 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@55d479fb1c5bcad5a4f9099a5d9f37c8857b2845",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@3c4e3dcb1aa7874d2c16be7d79418e9b7efd6261",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "aws-ia/terraform-aws-eks-ack-addons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "step-security/harden-runner@55d479fb1c5bcad5a4f9099a5d9f37c8857b2845",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/dependency-review-action@3c4e3dcb1aa7874d2c16be7d79418e9b7efd6261",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "aws-actions/configure-aws-credentials@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "hashicorp/setup-terraform@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "e2e-parallel-destroy-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "aws-actions/configure-aws-credentials@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-parallel-full.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "hashicorp/setup-terraform@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-parallel-full.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "e2e-parallel-full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "aws-actions/configure-aws-credentials@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-examples.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "hashicorp/setup-terraform@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plan-examples.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "plan-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "amannn/action-semantic-pull-request@v6.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "Pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "Publish docs via GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "aws-eks-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "bottlerocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "eks-addons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "eks-clusters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "eks-fargate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "fargate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:03:22.107552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9978
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/e2e-parallel-destroy.yml",
+      "size": 2312
+    },
+    {
+      "path": ".github/workflows/e2e-parallel-full.yml",
+      "size": 6694
+    },
+    {
+      "path": ".github/workflows/linkcheck.json",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/markdown-link-check.yml",
+      "size": 882
+    },
+    {
+      "path": ".github/workflows/plan-examples.yml",
+      "size": 3755
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "size": 1032
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 1810
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 1115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Configure and deploy complete EKS clusters.",
+    "fork": false,
+    "full_name": "aws-ia/terraform-aws-eks-blueprints",
+    "html_url": "https://github.com/aws-ia/terraform-aws-eks-blueprints",
+    "language": "HCL",
+    "pushed_at": "2026-04-15T11:53:23Z",
+    "stargazers_count": 3015,
+    "topics": [
+      "aws-eks-cluster",
+      "bottlerocket",
+      "eks",
+      "eks-addons",
+      "eks-clusters",
+      "eks-fargate",
+      "fargate",
+      "kubernetes",
+      "terraform"
+    ],
+    "updated_at": "2026-05-01T07:45:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-ia/terraform-aws-eks-ack-addons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "e2e-parallel-destroy-only",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-parallel-destroy.yml",
+      "term": "e2e-parallel-destroy-only"
+    },
+    {
+      "context_snippet": "e2e-parallel-full",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-parallel-full.yml",
+      "term": "e2e-parallel-full"
+    },
+    {
+      "context_snippet": "plan-examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plan-examples.yml",
+      "term": "plan-examples"
+    },
+    {
+      "context_snippet": "'PR title'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "term": "PR title"
+    },
+    {
+      "context_snippet": "Pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-commit"
+    },
+    {
+      "context_snippet": "Publish docs via GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Publish docs via GitHub Pages"
+    },
+    {
+      "context_snippet": "Welcome to Amazon EKS Blueprints for Terraform!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-eks-cluster"
+    },
+    {
+      "context_snippet": "Welcome to Amazon EKS Blueprints for Terraform!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bottlerocket"
+    },
+    {
+      "context_snippet": "Welcome to Amazon EKS Blueprints for Terraform!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eks-addons"
+    },
+    {
+      "context_snippet": "Welcome to Amazon EKS Blueprints for Terraform!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eks-clusters"
+    },
+    {
+      "context_snippet": "Welcome to Amazon EKS Blueprints for Terraform!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eks-fargate"
+    },
+    {
+      "context_snippet": "Welcome to Amazon EKS Blueprints for Terraform!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fargate"
+    },
+    {
+      "context_snippet": "Welcome to Amazon EKS Blueprints for Terraform!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "Welcome to Amazon EKS Blueprints for Terraform!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

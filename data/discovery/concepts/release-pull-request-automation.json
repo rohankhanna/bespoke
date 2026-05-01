@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Release Pull Request Automation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "status": "candidate-context",
+      "text": "Update your plugin readme and assets in the WordPress.org repository outside of new releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "status": "candidate-context",
+      "text": "Release Pull Request Automation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "status": "candidate-context",
+      "text": "Build a zip archive of your WordPress.org plugin using GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "status": "candidate-context",
+      "text": "Release Pull Request Automation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "status": "candidate",
+      "text": "Release Pull Request Automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "status": "candidate",
+      "text": "Release Pull Request Automation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44609,
+      "status": "candidate",
+      "text": "trigger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44178,
+      "status": "candidate",
+      "text": "triggered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44178,
+      "status": "candidate",
+      "text": "triggering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31805,
+      "status": "candidate",
+      "text": "quit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31743,
+      "status": "candidate",
+      "text": "dump"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Pull Request Automation",
+  "concept_id": "release-pull-request-automation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Pull Request Automation",
+      "sense_id": "release-pull-request-automation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

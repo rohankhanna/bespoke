@@ -31,6 +31,18 @@
       "source_repo": "HansZ8/unitree_cpp",
       "status": "candidate-context",
       "text": "A lightweight Python binding for **Unitree SDK2**, designed to overcome the performance issues of the official `unitree_sdk2_python` on the **Unitree G1** (Jetson Orin)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate-context",
+      "text": "Sim-to-real RL training and deployment tools for the Unitree Go1 robot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate-context",
+      "text": "1. [Overview](#overview)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "HansZ8/unitree_cpp",
       "status": "candidate",
       "text": "A lightweight Python binding for **Unitree SDK2**, designed to overcome the performance issues of the official `unitree_sdk2_python` on the **Unitree G1** (Jetson Orin)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate",
+      "text": "1. [Overview](#overview)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "HansZ8/unitree_cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Improbable-AI/walk-these-ways"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HansZ8/RoboJuDo"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

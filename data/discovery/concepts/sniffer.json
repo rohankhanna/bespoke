@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "sniffer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-tcpdump-group/libpcap",
+      "status": "candidate-context",
+      "text": "the LIBpcap interface to various kernel packet capture mechanism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-tcpdump-group/libpcap",
+      "status": "candidate-context",
+      "text": "**To report a security issue please send an e-mail to security@tcpdump.org.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-tcpdump-group/libpcap",
+      "status": "candidate",
+      "text": "**To report a security issue please send an e-mail to security@tcpdump.org.**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29866576,
+      "status": "candidate",
+      "text": "snorting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29862800,
+      "status": "candidate",
+      "text": "smell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29842318,
+      "status": "candidate",
+      "text": "nose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29825261,
+      "status": "candidate",
+      "text": "crawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29792878,
+      "status": "candidate",
+      "text": "glue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sniffer",
+  "concept_id": "sniffer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sniffer",
+      "sense_id": "sniffer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Multiple Builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "\ud83d\udc3b Bear necessities for state management in React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "Test Multiple Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate",
+      "text": "Test Multiple Builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26053,
+      "status": "candidate",
+      "text": "microplate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18612,
+      "status": "candidate",
+      "text": "initiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18529,
+      "status": "candidate",
+      "text": "carbonless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18529,
+      "status": "candidate",
+      "text": "eclecticism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18485,
+      "status": "candidate",
+      "text": "baptistery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Multiple Builds",
+  "concept_id": "test-multiple-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test-multiple-builds.yml",
+      "source_repo": "pmndrs/zustand"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Multiple Builds",
+      "sense_id": "test-multiple-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

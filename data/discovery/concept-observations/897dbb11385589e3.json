@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "DryRunGenPR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "DryRunGenPR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DryRunGenPR",
+      "sense_id": "dryrungenpr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dryrungenpr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dryrungenpr",
+  "observation_id": "897dbb11385589e3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "DryRunGenPR",
+  "source_context_snippet": "DryRunGenPR",
+  "source_file": ".github/workflows/dryrun-gen-pr.yaml",
+  "source_repo": "aws/karpenter-provider-aws",
+  "source_repo_description": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity."
+}

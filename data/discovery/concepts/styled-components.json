@@ -115,6 +115,42 @@
       "source_repo": "styled-system/styled-system",
       "status": "candidate-context",
       "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate-context",
+      "text": "A curated list of awesome styled-components resources \ud83d\udc85 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate-context",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "priceline/design-system",
+      "status": "candidate-context",
+      "text": "Priceline.com Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priceline/design-system",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/priceline/design-system/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate-context",
+      "text": "Responsive React Flexbox (CSS Flexible Box Layout Module) grid system based heavily on the standard CSS API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "styled-system/styled-system",
       "status": "candidate",
       "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priceline/design-system",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/priceline/design-system/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +316,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "styled-components/awesome-styled-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "priceline/design-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

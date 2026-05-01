@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot-update.yml"
+    },
+    {
+      "component": "hynek/setup-cached-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "hynek/setup-cached-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "hynek/setup-cached-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "hynek/setup-cached-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "hynek/setup-cached-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "hynek/setup-cached-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "barneygale/pathlib-abc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot-update.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot-update.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "hynek/setup-cached-uv@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-dependabot-update.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "Post Dependabot Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "hynek/setup-cached-uv@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "hynek/setup-cached-uv@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "fsspec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsspec/universal_pathlib",
+      "target": "pathlib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:08:36.669443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36121
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4910
+    },
+    {
+      "path": ".github/workflows/post-dependabot-update.yml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 595
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pathlib api extended to use fsspec backends",
+    "fork": false,
+    "full_name": "fsspec/universal_pathlib",
+    "html_url": "https://github.com/fsspec/universal_pathlib",
+    "language": "Python",
+    "pushed_at": "2026-04-27T13:16:20Z",
+    "stargazers_count": 387,
+    "topics": [
+      "fsspec",
+      "pathlib"
+    ],
+    "updated_at": "2026-04-30T10:43:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barneygale/pathlib-abc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Post Dependabot Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-dependabot-update.yml",
+      "term": "Post Dependabot Update"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/universal_pathlib)](https://pypi.org/project/universal_pathlib/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsspec"
+    },
+    {
+      "context_snippet": "[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/universal_pathlib)](https://pypi.org/project/universal_pathlib/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pathlib"
+    }
+  ]
+}

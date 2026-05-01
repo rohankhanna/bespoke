@@ -934,6 +934,114 @@
       "source_repo": "libimobiledevice/libimobiledevice",
       "status": "candidate-context",
       "text": "*A library to communicate with services on iOS devices using native protocols.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "A high-level API for programmatically interacting with web pages through WebDriver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/fantoccini.svg)](https://crates.io/crates/fantoccini)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate-context",
+      "text": "Resolve Node.js version aliases like `latest`, `lts` or `erbium`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/node-version-alias)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate-context",
+      "text": "Normalize and validate Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/normalize-node-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate-context",
+      "text": "Get the preferred Node.js version of a project or user"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate-context",
+      "text": "Download a specific version of Node.js (CLI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate-context",
+      "text": "A JSON5 serializer and parser library for Python 3 written in Cython."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate-context",
+      "text": "PyJSON5"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/thrift",
+      "status": "candidate-context",
+      "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/thrift",
+      "status": "candidate-context",
+      "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate-context",
+      "text": "RealSense SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate-context",
+      "text": "build_lrs_ROS2_package"
     }
   ],
   "candidate_glosses": [
@@ -1398,6 +1506,60 @@
       "source_repo": "libimobiledevice/libimobiledevice",
       "status": "candidate",
       "text": "*A library to communicate with services on iOS devices using native protocols.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/fantoccini.svg)](https://crates.io/crates/fantoccini)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/node-version-alias)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/normalize-node-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kijewski/pyjson5",
+      "status": "candidate",
+      "text": "PyJSON5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/thrift",
+      "status": "candidate",
+      "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate",
+      "text": "build_lrs_ROS2_package"
     }
   ],
   "candidate_related_terms": [
@@ -1978,11 +2140,83 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "libimobiledevice/libimobiledevice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jonhoo/fantoccini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/node-version-alias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/normalize-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/preferred-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/get-node-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Kijewski/pyjson5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/thrift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

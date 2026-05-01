@@ -19,6 +19,30 @@
       "source_repo": "mit-ll-responsible-ai/hydra-zen",
       "status": "candidate-context",
       "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "pre-configured CLI (linters, formatters) -> LSP (IDE) adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omry/omegaconf",
+      "status": "candidate-context",
+      "text": "Flexible Python configuration system. The last one you will ever need."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omry/omegaconf",
+      "status": "candidate-context",
+      "text": "| | Description |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "mit-ll-responsible-ai/hydra-zen",
       "status": "candidate",
       "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omry/omegaconf",
+      "status": "candidate",
+      "text": "| | Description |"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "omry/omegaconf"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

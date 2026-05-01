@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Clojure support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/avli.clojure.svg)](https://marketplace.visualstudio.com/items?itemName=avli.clojure) [![Build Status](https://travis-ci.org/avli/clojureVSCode.svg?branch=master)](https://travis-ci.org/avli/clojureVSCode)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/avli.clojure.svg)](https://marketplace.visualstudio.com/items?itemName=avli.clojure) [![Build Status](https://travis-ci.org/avli/clojureVSCode.svg?branch=master)](https://travis-ci.org/avli/clojureVSCode)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nrepl",
+      "sense_id": "nrepl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nrepl",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nrepl",
+  "observation_id": "dda3648f308561d9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "nrepl",
+  "source_context_snippet": "[![Version](https://vsmarketplacebadge.apphb.com/version/avli.clojure.svg)](https://marketplace.visualstudio.com/items?itemName=avli.clojure) [![Build Status](https://travis-ci.org/avli/clojureVSCode.svg?branch=master)](https://travis-ci.org/avli/clojureVSCode)",
+  "source_file": null,
+  "source_repo": "avli/clojureVSCode",
+  "source_repo_description": "Clojure support for Visual Studio Code"
+}

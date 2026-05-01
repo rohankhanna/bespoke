@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node filesystem spies and mocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Spy on filesystem calls. Create file system mocks. Use for testing."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Spy on filesystem calls. Create file system mocks. Use for testing."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29879546,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29876136,
+      "status": "candidate",
+      "text": "proc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886332,
+      "status": "candidate",
+      "text": "ext2"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886332,
+      "status": "candidate",
+      "text": "ext3"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886331,
+      "status": "candidate",
+      "text": "filesystems"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filesystem",
+      "sense_id": "filesystem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "filesystem",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "filesystem",
+  "observation_id": "e13a447f17b0c66b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "filesystem",
+  "source_context_snippet": "Spy on filesystem calls. Create file system mocks. Use for testing.",
+  "source_file": null,
+  "source_repo": "streamich/spyfs",
+  "source_repo_description": "Node filesystem spies and mocks"
+}

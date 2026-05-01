@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "ruby-numo/numo-gsl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "ruby-numo/numo-fftw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "ruby-numo/numo-ffte",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "ruby-numo/numo-gnuplot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "narray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "numo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "ruby-numo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-narray",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:27:01.961705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3079
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby/Numo::NArray - New NArray class library",
+    "fork": false,
+    "full_name": "ruby-numo/numo-narray",
+    "html_url": "https://github.com/ruby-numo/numo-narray",
+    "language": "C",
+    "pushed_at": "2025-06-06T02:42:46Z",
+    "stargazers_count": 458,
+    "topics": [
+      "narray",
+      "numo",
+      "ruby",
+      "ruby-numo",
+      "scientific-computing"
+    ],
+    "updated_at": "2026-04-14T13:45:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-numo/numo-ffte",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-numo/numo-fftw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-numo/numo-gnuplot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-numo/numo-gsl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "narray"
+    },
+    {
+      "context_snippet": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numo"
+    },
+    {
+      "context_snippet": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-numo"
+    },
+    {
+      "context_snippet": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

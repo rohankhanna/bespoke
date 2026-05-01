@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "preactjs-templates/widget",
+      "target": "developit/microbundle",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:16:02.724052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Template for a widget to be embedded in another website",
+    "fork": false,
+    "full_name": "preactjs-templates/widget",
+    "html_url": "https://github.com/preactjs-templates/widget",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-16T10:37:50Z",
+    "stargazers_count": 88,
+    "topics": [],
+    "updated_at": "2026-01-29T17:12:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "developit/microbundle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed as modified LSM-Tree for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lsm-tree",
+      "sense_id": "lsm-tree#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lsm-tree",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lsm-tree",
+  "observation_id": "bcc3ff6cf0b75c55",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "lsm-tree",
+  "source_context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+  "source_file": null,
+  "source_repo": "unum-cloud/UDisk",
+  "source_repo_description": "The fastest ACID-transactional persisted Key-Value store designed as modified LSM-Tree for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel"
+}

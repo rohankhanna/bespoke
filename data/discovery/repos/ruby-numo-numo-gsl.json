@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-gsl",
+      "target": "ruby-numo/narray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gsl",
+      "target": "narray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gsl",
+      "target": "numo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gsl",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gsl",
+      "target": "ruby-numo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gsl",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:45.742423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3920
+    },
+    {
+      "path": "Dockerfile",
+      "size": 426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GSL interface for Ruby/Numo::NArray",
+    "fork": false,
+    "full_name": "ruby-numo/numo-gsl",
+    "html_url": "https://github.com/ruby-numo/numo-gsl",
+    "language": "Ruby",
+    "pushed_at": "2024-06-07T12:03:12Z",
+    "stargazers_count": 22,
+    "topics": [
+      "gsl",
+      "narray",
+      "numo",
+      "ruby",
+      "ruby-numo",
+      "scientific-computing"
+    ],
+    "updated_at": "2025-07-27T20:15:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-numo/narray",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[GitHub](https://github.com/ruby-numo/numo-gsl) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "narray"
+    },
+    {
+      "context_snippet": "[GitHub](https://github.com/ruby-numo/numo-gsl) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numo"
+    },
+    {
+      "context_snippet": "[GitHub](https://github.com/ruby-numo/numo-gsl) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[GitHub](https://github.com/ruby-numo/numo-gsl) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-numo"
+    },
+    {
+      "context_snippet": "[GitHub](https://github.com/ruby-numo/numo-gsl) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

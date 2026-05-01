@@ -1,7 +1,7 @@
 {
   "component": "dependabot/fetch-metadata@v2",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot.yml",
       "source_repo": "sergiodxa/remix-i18next"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-approve-minor.yml",
+      "source_repo": "CheckerNetwork/spark-checker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automation.yaml",
+      "source_repo": "github/super-linter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/yari"
     }
   ]
 }

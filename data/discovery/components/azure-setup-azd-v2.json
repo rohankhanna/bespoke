@@ -1,7 +1,7 @@
 {
   "component": "Azure/setup-azd@v2",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/azure-dev.yaml",
       "source_repo": "Azure-Samples/azure-search-openai-javascript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-backend-fastapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/contoso-creative-writer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yml",
+      "source_repo": "Azure-Samples/contoso-creative-writer"
     }
   ]
 }

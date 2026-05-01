@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/nerfies",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/nerfies",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/nerfies",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/nerfies",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/nerfies",
+      "target": "neural-rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:53.648372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9650
+    },
+    {
+      "path": "requirements.txt",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "This is the code for Deformable Neural Radiance Fields, a.k.a. Nerfies.",
+    "fork": false,
+    "full_name": "google/nerfies",
+    "html_url": "https://github.com/google/nerfies",
+    "language": "Python",
+    "pushed_at": "2024-04-22T20:43:02Z",
+    "stargazers_count": 1950,
+    "topics": [
+      "3d",
+      "machine-learning",
+      "nerf",
+      "neural-network",
+      "neural-rendering"
+    ],
+    "updated_at": "2026-04-25T22:06:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the code for Nerfies: Deformable Neural Radiance Fields.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This is the code for Nerfies: Deformable Neural Radiance Fields.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "This is the code for Nerfies: Deformable Neural Radiance Fields.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "This is the code for Nerfies: Deformable Neural Radiance Fields.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-rendering"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate Fern Definitions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/fern",
+      "status": "candidate-context",
+      "text": "Input OpenAPI. Output SDKs and Docs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/fern",
+      "status": "candidate-context",
+      "text": "Validate Fern Definitions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/fern",
+      "status": "candidate",
+      "text": "Validate Fern Definitions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19741,
+      "status": "candidate",
+      "text": "above"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19741,
+      "status": "candidate",
+      "text": "ami"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19741,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19741,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19741,
+      "status": "candidate",
+      "text": "dynamic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate Fern Definitions",
+  "concept_id": "validate-fern-definitions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/definitions-validation.yml",
+      "source_repo": "fern-api/fern"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Fern Definitions",
+      "sense_id": "validate-fern-definitions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

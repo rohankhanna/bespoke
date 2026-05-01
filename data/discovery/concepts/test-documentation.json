@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Test documentation",
-    "test documentation"
+    "test documentation",
+    "Test Documentation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate-context",
       "text": "test documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "All-in-one training for vision models (YOLO, ViTs, RT-DETR, DINOv3): pretraining, fine-tuning, distillation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "Test Documentation"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate",
       "text": "test documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate",
+      "text": "Test Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/docs-test.yml",
       "source_repo": "Farama-Foundation/Minari"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test_documentation.yml",
+      "source_repo": "lightly-ai/lightly-train"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,18 @@
       "source_repo": "bhavuklabs/research4j",
       "status": "candidate-context",
       "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\uff08\u804a\u5929\u3001\u7ed8\u753b\u3001\u77e5\u8bc6\u5e93\u3001\u5de5\u4f5c\u6d41\u3001 MCP\u670d\u52a1\u5e02\u573a\u3001\u8bed\u97f3\u8f93\u5165\u8f93\u51fa\u3001\u957f\u671f\u8bb0\u5fc6\uff09 | Ai-based productivity tools (Chat,Draw,RAG,Workflow,MCP marketplace, ASR,TTS, Long-term memory etc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "status": "candidate-context",
+      "text": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "bhavuklabs/research4j",
       "status": "candidate",
       "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "status": "candidate",
+      "text": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "langgraph4j/langgraph4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "moyangzhan/langchain4j-aideepin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

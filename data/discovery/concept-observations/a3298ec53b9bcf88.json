@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf0b  A tool for managing Dart projects with multiple packages. With IntelliJ and Vscode IDE support. Supports automated versioning, changelogs & publishing via Conventional Commits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"PR Title is Conventional\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"PR Title is Conventional\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26160,
+      "status": "candidate",
+      "text": "honorable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26160,
+      "status": "candidate",
+      "text": "mister"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26063,
+      "status": "candidate",
+      "text": "dear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26063,
+      "status": "candidate",
+      "text": "grace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26063,
+      "status": "candidate",
+      "text": "herr"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Title is Conventional",
+      "sense_id": "pr-title-is-conventional#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-title-is-conventional",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-title-is-conventional",
+  "observation_id": "a3298ec53b9bcf88",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "PR Title is Conventional",
+  "source_context_snippet": "\"PR Title is Conventional\"",
+  "source_file": ".github/workflows/pr_title.yaml",
+  "source_repo": "invertase/melos",
+  "source_repo_description": "\ud83c\udf0b  A tool for managing Dart projects with multiple packages. With IntelliJ and Vscode IDE support. Supports automated versioning, changelogs & publishing via Conventional Commits."
+}

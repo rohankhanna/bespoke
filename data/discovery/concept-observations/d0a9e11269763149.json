@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.   \u57fa\u4e8e Langgraph4j \u6846\u67b6\u7684\u6df1\u5ea6\u7814\u7a76\u52a9\u624b\uff0c\u5177\u5907\u8fed\u4ee3\u5f0f\u6df1\u5ea6\u7814\u7a76\u80fd\u529b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "langgraph4j",
+      "sense_id": "langgraph4j#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "langgraph4j",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "langgraph4j",
+  "observation_id": "d0a9e11269763149",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "langgraph4j",
+  "source_context_snippet": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.",
+  "source_file": null,
+  "source_repo": "imfangs/langgraph4j-deep-researcher",
+  "source_repo_description": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.   \u57fa\u4e8e Langgraph4j \u6846\u67b6\u7684\u6df1\u5ea6\u7814\u7a76\u52a9\u624b\uff0c\u5177\u5907\u8fed\u4ee3\u5f0f\u6df1\u5ea6\u7814\u7a76\u80fd\u529b\u3002"
+}

@@ -55,6 +55,18 @@
       "source_repo": "chyh1990/yaml-rust",
       "status": "candidate-context",
       "text": "The missing YAML 1.2 implementation for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate-context",
+      "text": "An UnrealEngine Plugin for parsing YAML Files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate-context",
+      "text": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "chyh1990/yaml-rust",
       "status": "candidate",
       "text": "The missing YAML 1.2 implementation for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate",
+      "text": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "chyh1990/yaml-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -118,6 +118,42 @@
       "source_repo": "hyperbrew/bolt-cep",
       "status": "candidate-context",
       "text": "<img src=\"src/js/assets/bolt-cep.svg\" alt=\"Bolt CEP\" title=\"Bolt CEP\" width=\"400\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "boilerplate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate-context",
+      "text": "React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate-context",
+      "text": "> React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate-context",
+      "text": "Electron\u26a1\ufe0fVite samples, includes C/C++ addons | \u6837\u677f\u4ee3\u7801\u96c6\u5408\uff0c\u5305\u542b C/C++ \u6269\u5c55"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate-context",
+      "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +210,24 @@
       "source_repo": "hyperbrew/bolt-cep",
       "status": "candidate",
       "text": "<img src=\"src/js/assets/bolt-cep.svg\" alt=\"Bolt CEP\" title=\"Bolt CEP\" width=\"400\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate",
+      "text": "boilerplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate",
+      "text": "> React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate",
+      "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
     }
   ],
   "candidate_related_terms": [
@@ -289,11 +343,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hyperbrew/bolt-cep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/boilerplate.yml",
+      "source_repo": "AgnostiqHQ/covalent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

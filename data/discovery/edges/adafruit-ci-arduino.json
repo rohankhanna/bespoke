@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "features/actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "adafruit/adafruit_bme280_library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "arduino-libraries/servo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "arduino-libraries/ethernet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "Github Arduino Library CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "adafruit/ci-arduino"
+}

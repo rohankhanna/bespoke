@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "target": "hibernate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "target": "joda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "target": "joda-time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:28.452122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hibernate mapping for Joda-Time.",
+    "fork": false,
+    "full_name": "JodaOrg/joda-time-hibernate",
+    "html_url": "https://github.com/JodaOrg/joda-time-hibernate",
+    "language": "Java",
+    "pushed_at": "2026-01-20T15:06:20Z",
+    "stargazers_count": 41,
+    "topics": [
+      "hibernate",
+      "java",
+      "joda",
+      "joda-time"
+    ],
+    "updated_at": "2024-10-21T01:51:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Joda-Time Contributions area - Hibernate support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hibernate"
+    },
+    {
+      "context_snippet": "Joda-Time Contributions area - Hibernate support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Joda-Time Contributions area - Hibernate support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "joda"
+    },
+    {
+      "context_snippet": "Joda-Time Contributions area - Hibernate support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "joda-time"
+    }
+  ]
+}

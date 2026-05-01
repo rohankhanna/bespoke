@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_from_sdk.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_from_sdk.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/pub",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/pub",
+      "target": "No Response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_from_sdk.yml",
+      "source_repo": "dart-lang/pub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_from_sdk.yml",
+      "source_repo": "dart-lang/pub",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_from_sdk.yml",
+      "source_repo": "dart-lang/pub",
+      "target": "Sync version tags from SDK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dart-lang/pub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dart-lang/pub",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dart-lang/pub",
+      "target": "Dart CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:19:15.213957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3192
+    },
+    {
+      "path": ".github/workflows/no-response.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/tag_from_sdk.yml",
+      "size": 677
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The pub command line tool",
+    "fork": false,
+    "full_name": "dart-lang/pub",
+    "html_url": "https://github.com/dart-lang/pub",
+    "language": "Dart",
+    "pushed_at": "2026-05-01T00:44:02Z",
+    "stargazers_count": 1114,
+    "topics": [],
+    "updated_at": "2026-04-30T16:43:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "No Response",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "term": "No Response"
+    },
+    {
+      "context_snippet": "Sync version tags from SDK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_from_sdk.yml",
+      "term": "Sync version tags from SDK"
+    },
+    {
+      "context_snippet": "Dart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Dart CI"
+    }
+  ]
+}

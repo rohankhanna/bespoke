@@ -28,13 +28,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/distrax",
-      "target": "deepmind/distrax",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "google-deepmind/distrax",
@@ -84,12 +77,8 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T01:08:39.599906+00:00",
+  "fetched_at": "2026-05-01T10:09:42.147211+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 12717
-    },
     {
       "path": "pyproject.toml",
       "size": 3213
@@ -117,13 +106,7 @@
     "topics": [],
     "updated_at": "2026-04-21T06:11:37Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "deepmind/distrax",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "pypi",

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MC-E/DragonDiffusion",
+      "target": "xingangpan/draggan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:38.683122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4986
+    },
+    {
+      "path": "requirements.txt",
+      "size": 126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ICLR 2024 (Spotlight)",
+    "fork": false,
+    "full_name": "MC-E/DragonDiffusion",
+    "html_url": "https://github.com/MC-E/DragonDiffusion",
+    "language": "Python",
+    "pushed_at": "2024-03-02T01:26:51Z",
+    "stargazers_count": 785,
+    "topics": [],
+    "updated_at": "2026-04-04T09:46:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingangpan/draggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

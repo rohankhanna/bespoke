@@ -1,0 +1,175 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "dingkeyan93/dists",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "dists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "fsim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "loss-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "lpips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "ssim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "target": "steerable-filters",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:21.663955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2062
+    },
+    {
+      "path": "requirements.txt",
+      "size": 10
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Comparison of IQA models in Perceptual Optimization",
+    "fork": false,
+    "full_name": "dingkeyan93/IQA-optimization",
+    "html_url": "https://github.com/dingkeyan93/IQA-optimization",
+    "language": "Python",
+    "pushed_at": "2023-08-18T01:09:46Z",
+    "stargazers_count": 322,
+    "topics": [
+      "dists",
+      "fsim",
+      "image-quality-assessment",
+      "iqa",
+      "loss-functions",
+      "lpips",
+      "optimization",
+      "pytorch",
+      "ssim",
+      "steerable-filters",
+      "vif"
+    ],
+    "updated_at": "2026-02-12T01:32:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingkeyan93/dists",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dists"
+    },
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsim"
+    },
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-quality-assessment"
+    },
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loss-functions"
+    },
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lpips"
+    },
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssim"
+    },
+    {
+      "context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "steerable-filters"
+    }
+  ]
+}

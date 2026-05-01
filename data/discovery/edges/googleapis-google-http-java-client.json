@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-http-java-client",
-      "target": "googleapis/google-oauth-java-client",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-http-java-client",
-      "target": "googleapis/google-api-java-client",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approve-readme.yaml",
       "source_repo": "googleapis/google-http-java-client",
@@ -134,6 +120,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "googleapis/google-http-java-client"
 }

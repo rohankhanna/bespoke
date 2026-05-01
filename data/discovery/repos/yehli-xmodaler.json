@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YehLi/xmodaler",
+      "target": "cross-modal-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YehLi/xmodaler",
+      "target": "image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YehLi/xmodaler",
+      "target": "pretraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YehLi/xmodaler",
+      "target": "tden",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YehLi/xmodaler",
+      "target": "video-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YehLi/xmodaler",
+      "target": "vision-and-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YehLi/xmodaler",
+      "target": "visual-question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:15.211268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10788
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "X-modaler is a versatile and high-performance codebase for cross-modal analytics(e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrieval).",
+    "fork": false,
+    "full_name": "YehLi/xmodaler",
+    "html_url": "https://github.com/YehLi/xmodaler",
+    "language": "Python",
+    "pushed_at": "2023-02-27T18:28:38Z",
+    "stargazers_count": 969,
+    "topics": [
+      "cross-modal-retrieval",
+      "image-captioning",
+      "pretraining",
+      "tden",
+      "video-captioning",
+      "vision-and-language",
+      "visual-question-answering"
+    ],
+    "updated_at": "2026-04-07T05:11:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-modal-retrieval"
+    },
+    {
+      "context_snippet": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-captioning"
+    },
+    {
+      "context_snippet": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretraining"
+    },
+    {
+      "context_snippet": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tden"
+    },
+    {
+      "context_snippet": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-captioning"
+    },
+    {
+      "context_snippet": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    },
+    {
+      "context_snippet": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-question-answering"
+    }
+  ]
+}

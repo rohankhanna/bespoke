@@ -19,6 +19,30 @@
       "source_repo": "apache/echarts",
       "status": "candidate-context",
       "text": "<a href=\"https://echarts.apache.org/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecomfe/echarts-gl",
+      "status": "candidate-context",
+      "text": "Extension pack for Apache ECharts, providing globe visualization and 3D plots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/echarts-gl",
+      "status": "candidate-context",
+      "text": "ECharts-GL is an extension pack of [Apache ECharts](http://echarts.apache.org/), which providing 3D plots, globe visualization and WebGL acceleration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "status": "candidate-context",
+      "text": "Liquid Fill Chart for Apache ECharts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "status": "candidate-context",
+      "text": "Liquid Fill Chart plugin for [Apache ECharts](https://github.com/apache/echarts), which is usually used to represent data in percentage."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "apache/echarts",
       "status": "candidate",
       "text": "<a href=\"https://echarts.apache.org/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/echarts-gl",
+      "status": "candidate",
+      "text": "ECharts-GL is an extension pack of [Apache ECharts](http://echarts.apache.org/), which providing 3D plots, globe visualization and WebGL acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "status": "candidate",
+      "text": "Liquid Fill Chart plugin for [Apache ECharts](https://github.com/apache/echarts), which is usually used to represent data in percentage."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "apache/echarts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ecomfe/echarts-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ecomfe/echarts-liquidfill"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

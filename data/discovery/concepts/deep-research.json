@@ -67,6 +67,18 @@
       "source_repo": "johnbean393/Sidekick",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "status": "candidate-context",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.   \u57fa\u4e8e Langgraph4j \u6846\u67b6\u7684\u6df1\u5ea6\u7814\u7a76\u52a9\u624b\uff0c\u5177\u5907\u8fed\u4ee3\u5f0f\u6df1\u5ea6\u7814\u7a76\u80fd\u529b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "status": "candidate-context",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "johnbean393/Sidekick",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "status": "candidate",
+      "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "imfangs/langgraph4j-deep-researcher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

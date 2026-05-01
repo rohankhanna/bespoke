@@ -12,20 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-bidirectional-linear-attention",
-      "target": "zacharymeng/polaformer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fla-org/flash-bidirectional-linear-attention",
-      "target": "xie-lab-ml/piecewise-sparse-attention",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fla-org/flash-bidirectional-linear-attention",
       "target": "sustcsonglin/flash-linear-attention",
       "target_type": "repository"
     },
@@ -51,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T01:00:42.981947+00:00",
+  "fetched_at": "2026-05-01T09:30:25.655957+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,16 +71,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "sustcsonglin/flash-linear-attention",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xie-lab-ml/piecewise-sparse-attention",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zacharymeng/polaformer",
       "source_file": "README.md"
     }
   ],

@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/learn-react",
-      "target": "enaqx/awesome-react",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dwyl/learn-react",
       "target": "facebook/jest",
       "target_type": "repository"
     },
@@ -36,7 +29,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T16:03:12.331559+00:00",
+  "fetched_at": "2026-05-01T10:19:05.477266+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -62,11 +55,6 @@
     "updated_at": "2026-01-04T12:47:11Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "enaqx/awesome-react",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "facebook/jest",

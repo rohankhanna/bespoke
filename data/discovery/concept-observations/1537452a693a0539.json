@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BusKill's main CLI/GUI app for arming/disarming/configuring the BusKill laptop kill cord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024056,
+      "status": "candidate",
+      "text": "computer security"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024055,
+      "status": "candidate",
+      "text": "infostructure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024054,
+      "status": "candidate",
+      "text": "infosystem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024053,
+      "status": "candidate",
+      "text": "devsecops"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024052,
+      "status": "candidate",
+      "text": "information technology"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "infosec",
+      "sense_id": "infosec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "infosec",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "infosec",
+  "observation_id": "1537452a693a0539",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "infosec",
+  "source_context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+  "source_file": null,
+  "source_repo": "BusKill/buskill-app",
+  "source_repo_description": "BusKill's main CLI/GUI app for arming/disarming/configuring the BusKill laptop kill cord"
+}

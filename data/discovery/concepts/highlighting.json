@@ -67,6 +67,18 @@
       "source_repo": "JustusAdam/language-haskell",
       "status": "candidate-context",
       "text": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate-context",
+      "text": "An Atom linter interface for write-good."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate-context",
+      "text": "Naive linter for English prose for developers who can't write good and wanna"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "JustusAdam/language-haskell",
       "status": "candidate",
       "text": "Syntax highlighting support for Haskell and associated languages (e.g. Cabal, Happy and Alex) in Visual Studio Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate",
+      "text": "Naive linter for English prose for developers who can't write good and wanna"
     }
   ],
   "candidate_related_terms": [
@@ -192,11 +210,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "JustusAdam/language-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

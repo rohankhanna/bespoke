@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "gizmo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate-context",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate-context",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049964,
+      "status": "candidate",
+      "text": "thingummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049963,
+      "status": "candidate",
+      "text": "dojigger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049962,
+      "status": "candidate",
+      "text": "doodad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049962,
+      "status": "candidate",
+      "text": "doohickey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049962,
+      "status": "candidate",
+      "text": "thingamabob"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20030,
+      "status": "candidate",
+      "text": "contrivance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9038,
+      "status": "candidate",
+      "text": "gadget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8041,
+      "status": "candidate",
+      "text": "appliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7034,
+      "status": "candidate",
+      "text": "gimmick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7021,
+      "status": "candidate",
+      "text": "gubbins"
+    }
+  ],
+  "canonical_name": "gizmo",
+  "concept_id": "gizmo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "BrutPitt/imGuIZMO.quat"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gizmo",
+      "sense_id": "gizmo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

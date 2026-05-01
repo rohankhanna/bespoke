@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension  (CMRC 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reading-comprehension",
+      "sense_id": "reading-comprehension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reading-comprehension",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reading-comprehension",
+  "observation_id": "336f3780dc18dc47",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "reading-comprehension",
+  "source_context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)",
+  "source_file": null,
+  "source_repo": "ymcui/cmrc2018",
+  "source_repo_description": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension  (CMRC 2018)"
+}

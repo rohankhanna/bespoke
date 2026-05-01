@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -357,6 +357,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/image_dlrover_master.yml",
       "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-publish-docker.yml",
+      "source_repo": "ajayd-san/gomanagedocker"
     }
   ]
 }

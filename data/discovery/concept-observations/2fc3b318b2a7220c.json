@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Comparison of IQA models in Perceptual Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19984397,
+      "status": "candidate",
+      "text": "distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19949901,
+      "status": "candidate",
+      "text": "syndication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19845004,
+      "status": "candidate",
+      "text": "taa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19682590,
+      "status": "candidate",
+      "text": "tna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19638839,
+      "status": "candidate",
+      "text": "accra"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dists",
+      "sense_id": "dists#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dists",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dists",
+  "observation_id": "2fc3b318b2a7220c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "dists",
+  "source_context_snippet": "This repository re-implemented the existing IQA models with PyTorch, including",
+  "source_file": null,
+  "source_repo": "dingkeyan93/IQA-optimization",
+  "source_repo_description": "Comparison of IQA models in Perceptual Optimization"
+}

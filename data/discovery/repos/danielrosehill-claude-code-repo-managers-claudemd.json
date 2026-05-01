@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+      "target": "slash-commands",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:32.630593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLAUDE.md files for repo base levels for bulk mgmt",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+    "html_url": "https://github.com/danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+    "language": "Shell",
+    "pushed_at": "2025-10-25T23:32:11Z",
+    "stargazers_count": 2,
+    "topics": [
+      "claude-code",
+      "slash-commands"
+    ],
+    "updated_at": "2026-01-28T20:44:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![alt text](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![alt text](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slash-commands"
+    }
+  ]
+}

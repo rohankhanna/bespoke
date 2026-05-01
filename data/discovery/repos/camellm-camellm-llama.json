@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:07.899756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plugin for CameLLM supporting the LLaMA family of models",
+    "fork": false,
+    "full_name": "CameLLM/CameLLM-Llama",
+    "html_url": "https://github.com/CameLLM/CameLLM-Llama",
+    "language": "C",
+    "pushed_at": "2023-05-26T05:57:30Z",
+    "stargazers_count": 6,
+    "topics": [
+      "ai",
+      "llama",
+      "ml",
+      "swift"
+    ],
+    "updated_at": "2024-07-07T17:43:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is under development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "This repository is under development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

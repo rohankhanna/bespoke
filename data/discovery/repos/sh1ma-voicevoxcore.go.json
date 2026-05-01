@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "CI: Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "target": "voicevox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:28:25.931207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2456
+    },
+    {
+      "path": "go.mod",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1466
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 807
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Voicevox Core\u306e\u30e9\u30c3\u30d1\u30fc\u30e9\u30a4\u30d6\u30e9\u30ea",
+    "fork": false,
+    "full_name": "sh1ma/voicevoxcore.go",
+    "html_url": "https://github.com/sh1ma/voicevoxcore.go",
+    "language": "Go",
+    "pushed_at": "2024-05-20T10:44:23Z",
+    "stargazers_count": 18,
+    "topics": [
+      "cgo",
+      "ffi",
+      "golang",
+      "voicevox"
+    ],
+    "updated_at": "2026-03-07T18:00:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "'CI: Test'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "CI: Test"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/sh1ma/voicevoxcore.go/branch/main/graph/badge.svg?token=5111EKB6SF)](https://codecov.io/gh/sh1ma/voicevoxcore.go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/sh1ma/voicevoxcore.go/branch/main/graph/badge.svg?token=5111EKB6SF)](https://codecov.io/gh/sh1ma/voicevoxcore.go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voicevox"
+    }
+  ]
+}

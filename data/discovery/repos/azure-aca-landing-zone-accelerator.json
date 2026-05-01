@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "azure/arm-deploy@v1.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "Azure/cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "azure/arm-deploy@v1.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "trstringer/manual-approval@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    },
+    {
+      "component": "Azure/cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "azure/arm-deploy@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "Azure/cli@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "trstringer/manual-approval@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "LZA Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "bicep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "container-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "landing-zone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "landing-zone-accelarator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:32.650182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4107
+    },
+    {
+      "path": ".github/workflows/lza-deployment.yml",
+      "size": 4633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale.",
+    "fork": false,
+    "full_name": "Azure/aca-landing-zone-accelerator",
+    "html_url": "https://github.com/Azure/aca-landing-zone-accelerator",
+    "language": "Bicep",
+    "pushed_at": "2026-01-26T21:39:48Z",
+    "stargazers_count": 218,
+    "topics": [
+      "aca",
+      "architecture",
+      "azd-templates",
+      "azure",
+      "bicep",
+      "container",
+      "container-apps",
+      "iac",
+      "landing-zone",
+      "landing-zone-accelarator",
+      "lza",
+      "terraform"
+    ],
+    "updated_at": "2026-04-19T18:41:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "LZA Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "term": "LZA Deployment"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azd-templates"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bicep"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-apps"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "landing-zone"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "landing-zone-accelarator"
+    },
+    {
+      "context_snippet": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

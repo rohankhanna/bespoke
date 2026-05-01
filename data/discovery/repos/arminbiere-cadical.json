@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:32:41.293695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2938
+    },
+    {
+      "path": "Dockerfile",
+      "size": 944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CaDiCaL SAT Solver",
+    "fork": false,
+    "full_name": "arminbiere/cadical",
+    "html_url": "https://github.com/arminbiere/cadical",
+    "language": "C++",
+    "pushed_at": "2026-04-30T20:06:58Z",
+    "stargazers_count": 546,
+    "topics": [],
+    "updated_at": "2026-04-27T10:52:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

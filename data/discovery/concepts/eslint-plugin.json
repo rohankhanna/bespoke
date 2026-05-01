@@ -139,6 +139,18 @@
       "source_repo": "dangreenisrael/eslint-plugin-jest-formatting",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master.svg?style=svg)](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate-context",
+      "text": "Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "dangreenisrael/eslint-plugin-jest-formatting",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master.svg?style=svg)](https://circleci.com/gh/dangreenisrael/eslint-plugin-jest-formatting/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +334,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ts-safeql/safeql"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

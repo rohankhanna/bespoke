@@ -160,13 +160,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cross-rs/cross",
-      "target": "cross-rs/cross-toolchains",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml.x",
       "source_repo": "cross-rs/cross",
@@ -356,7 +349,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:09:16.816828+00:00",
+  "fetched_at": "2026-05-01T10:14:33.828195+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -392,8 +385,8 @@
     "full_name": "cross-rs/cross",
     "html_url": "https://github.com/cross-rs/cross",
     "language": "Rust",
-    "pushed_at": "2026-03-25T16:00:29Z",
-    "stargazers_count": 8125,
+    "pushed_at": "2026-04-23T05:25:27Z",
+    "stargazers_count": 8143,
     "topics": [
       "aarch64",
       "arm",
@@ -410,14 +403,9 @@
       "windows",
       "x86"
     ],
-    "updated_at": "2026-04-21T07:10:09Z"
+    "updated_at": "2026-04-30T14:03:20Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cross-rs/cross-toolchains",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "rust-lang-nursery/compiler-builtins",

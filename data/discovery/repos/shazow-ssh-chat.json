@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "shazow/ssh-chat",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "shazow/ssh-chat",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shazow/ssh-chat",
+      "target": "chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shazow/ssh-chat",
+      "target": "server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shazow/ssh-chat",
+      "target": "ssh-chat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:20:28.243690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3548
+    },
+    {
+      "path": "Dockerfile",
+      "size": 341
+    },
+    {
+      "path": "go.mod",
+      "size": 351
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chat over SSH.",
+    "fork": false,
+    "full_name": "shazow/ssh-chat",
+    "html_url": "https://github.com/shazow/ssh-chat",
+    "language": "Go",
+    "pushed_at": "2026-01-10T02:23:23Z",
+    "stargazers_count": 5883,
+    "topics": [
+      "chat",
+      "server",
+      "ssh",
+      "ssh-chat"
+    ],
+    "updated_at": "2026-04-29T18:12:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssh-chat"
+    }
+  ]
+}

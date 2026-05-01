@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Input OpenAPI. Output SDKs and Docs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Backfill Issue Labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Backfill Issue Labels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24224,
+      "status": "candidate",
+      "text": "shading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24224,
+      "status": "candidate",
+      "text": "transcribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24224,
+      "status": "candidate",
+      "text": "translate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23501,
+      "status": "candidate",
+      "text": "names"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23440,
+      "status": "candidate",
+      "text": "mark"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backfill Issue Labels",
+      "sense_id": "backfill-issue-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "backfill-issue-labels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "backfill-issue-labels",
+  "observation_id": "cd94e7856a999638",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Backfill Issue Labels",
+  "source_context_snippet": "Backfill Issue Labels",
+  "source_file": ".github/workflows/backfill-issue-labels.yml",
+  "source_repo": "fern-api/fern",
+  "source_repo_description": "Input OpenAPI. Output SDKs and Docs."
+}

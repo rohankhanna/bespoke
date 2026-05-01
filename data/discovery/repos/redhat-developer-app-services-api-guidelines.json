@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rlespinasse/github-slug-action@102b1a064a9b145e56556e22b18b19c624538d94",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "target": "PR verification and build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "target": "rlespinasse/github-slug-action@102b1a064a9b145e56556e22b18b19c624538d94",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "target": "npm-publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:21.382927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 346
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 642
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Design guidelines for App Services APIs",
+    "fork": false,
+    "full_name": "redhat-developer/app-services-api-guidelines",
+    "html_url": "https://github.com/redhat-developer/app-services-api-guidelines",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T14:15:45Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-02-12T23:55:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR verification and build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "PR verification and build"
+    },
+    {
+      "context_snippet": "npm-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "npm-publish"
+    }
+  ]
+}

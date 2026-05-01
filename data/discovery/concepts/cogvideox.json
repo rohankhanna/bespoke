@@ -43,6 +43,30 @@
       "source_repo": "neph1/finetrainers-ui",
       "status": "candidate-context",
       "text": "Simple GUI for [finetrainers](https://github.com/a-r-r-o-w/finetrainers) (but in no way affiliated with it) made using gradio, inspired by bmalthais gui for kohya-ss scripts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate-context",
+      "text": "Official implementation for \"RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers\" (ICML 2025) , UltraViCo (ICLR 2026) and UltraImage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate-context",
+      "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate-context",
+      "text": "Finetuning and inference tools for the CogView4 and CogVideoX model series."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate-context",
+      "text": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "neph1/finetrainers-ui",
       "status": "candidate",
       "text": "Simple GUI for [finetrainers](https://github.com/a-r-r-o-w/finetrainers) (but in no way affiliated with it) made using gradio, inspired by bmalthais gui for kohya-ss scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate",
+      "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate",
+      "text": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -106,11 +142,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "neph1/finetrainers-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/CogKit"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

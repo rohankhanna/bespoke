@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Virtual whiteboard for sketching hand-drawn like diagrams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998955,
+      "status": "candidate",
+      "text": "quislingism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972294,
+      "status": "candidate",
+      "text": "coaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010725,
+      "status": "candidate",
+      "text": "cooperation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010708,
+      "status": "candidate",
+      "text": "cooperate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010706,
+      "status": "candidate",
+      "text": "cooperative"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "collaboration",
+      "sense_id": "collaboration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11025,
+      "status": "candidate",
+      "text": "coaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7012,
+      "status": "candidate",
+      "text": "quislingism"
+    }
+  ],
+  "concept_id": "collaboration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "collaboration",
+  "observation_id": "eaff97a392a26e2f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "collaboration",
+  "source_context_snippet": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">",
+  "source_file": null,
+  "source_repo": "excalidraw/excalidraw",
+  "source_repo_description": "Virtual whiteboard for sketching hand-drawn like diagrams"
+}

@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "target": "butchersboy/materialdesigninxamltoolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "target": "hacktoberfest2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "target": "mvvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "target": "xaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:33:08.299474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of small samples using MaterialDesignInXaml. ",
+    "fork": false,
+    "full_name": "Keboo/MaterialDesignInXaml.Examples",
+    "html_url": "https://github.com/Keboo/MaterialDesignInXaml.Examples",
+    "language": "C#",
+    "pushed_at": "2025-04-10T20:05:45Z",
+    "stargazers_count": 495,
+    "topics": [
+      "hacktoberfest",
+      "hacktoberfest2021",
+      "material-design",
+      "mvvm",
+      "wpf",
+      "xaml"
+    ],
+    "updated_at": "2026-04-17T14:07:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "butchersboy/materialdesigninxamltoolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2021"
+    },
+    {
+      "context_snippet": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mvvm"
+    },
+    {
+      "context_snippet": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xaml"
+    }
+  ]
+}

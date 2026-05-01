@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml"
+    },
+    {
+      "component": "butlerlogic/action-autotag@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "DiligentGraphics/NuklearUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "DiligentGraphics/NuklearUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "DiligentGraphics/NuklearUI",
+      "target": "butlerlogic/action-autotag@1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "DiligentGraphics/NuklearUI",
+      "target": "Create Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "DiligentGraphics/NuklearUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "DiligentGraphics/NuklearUI",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "DiligentGraphics/NuklearUI",
+      "target": "Documentation on github.io",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:13:53.151290+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ccpp.yml",
+      "size": 1752
+    },
+    {
+      "path": ".github/workflows/create-tag.yml",
+      "size": 289
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A single-header ANSI C immediate mode cross-platform GUI library",
+    "fork": true,
+    "full_name": "DiligentGraphics/NuklearUI",
+    "html_url": "https://github.com/DiligentGraphics/NuklearUI",
+    "language": null,
+    "pushed_at": "2026-02-07T17:37:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-15T14:37:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tag.yml",
+      "term": "Create Tag"
+    },
+    {
+      "context_snippet": "Documentation on github.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation on github.io"
+    }
+  ]
+}

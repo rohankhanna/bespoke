@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:06:41.861532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1849
+    },
+    {
+      "path": "go.mod",
+      "size": 501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create beautiful system diagrams with Go",
+    "fork": false,
+    "full_name": "blushft/go-diagrams",
+    "html_url": "https://github.com/blushft/go-diagrams",
+    "language": "Go",
+    "pushed_at": "2025-03-22T20:11:19Z",
+    "stargazers_count": 5229,
+    "topics": [],
+    "updated_at": "2026-05-01T05:57:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

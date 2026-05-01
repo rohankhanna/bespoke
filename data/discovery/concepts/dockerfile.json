@@ -165,6 +165,54 @@
       "source_repo": "sclorg/postgresql-container",
       "status": "candidate-context",
       "text": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Dockerfile for LanguageTool server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Erikvl87/docker-languagetool/workflows/Build/badge.svg)](https://github.com/Erikvl87/docker-languagetool) [![Tests Status](https://github.com/Erikvl87/docker-languagetool/workflows/Tests/badge.svg)](https://github.com/Erikvl87/docker-languaget\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Dockerfile for LanguageTool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate-context",
+      "text": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate-context",
+      "text": "VSCode extension to integrate hadolint, a Dockerfile linter, into VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/ExiaSR/vscode-hadolint.svg?branch=master)](https://travis-ci.com/ExiaSR/vscode-hadolint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "status": "candidate-context",
+      "text": "NodeJS images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running NodeJS applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "status": "candidate-context",
+      "text": "NodeJS container images"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +293,30 @@
       "source_repo": "sclorg/postgresql-container",
       "status": "candidate",
       "text": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Erikvl87/docker-languagetool/workflows/Build/badge.svg)](https://github.com/Erikvl87/docker-languagetool) [![Tests Status](https://github.com/Erikvl87/docker-languagetool/workflows/Tests/badge.svg)](https://github.com/Erikvl87/docker-languaget\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate",
+      "text": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/ExiaSR/vscode-hadolint.svg?branch=master)](https://travis-ci.com/ExiaSR/vscode-hadolint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "status": "candidate",
+      "text": "NodeJS container images"
     }
   ],
   "candidate_related_terms": [],
@@ -444,11 +516,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "sclorg/postgresql-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Erikvl87/docker-languagetool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "silvio/docker-languagetool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

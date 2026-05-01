@@ -299,6 +299,42 @@
       "source_repo": "module-federation/core",
       "status": "candidate-context",
       "text": "Devtools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Framework-agnostic devtools panel for handling TanStack libraries devtools and your custom devtool plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Next-gen browser and mobile automation test framework for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate-context",
+      "text": "A desktop application for managing Docker database containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -433,6 +469,24 @@
       "source_repo": "module-federation/core",
       "status": "candidate",
       "text": "Devtools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -614,11 +668,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/devtools.yml",
       "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webdriverio/webdriverio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/devtools.yml",
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AbianS/docker-db-manager"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

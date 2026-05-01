@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "fftw"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings to the FFTW library for fast Fourier transforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "fmrib software library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "mafft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "imsl numerical libraries"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "math kernel library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "integrated performance primitives"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fftw",
+  "concept_id": "fftw",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JuliaMath/FFTW.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fftw",
+      "sense_id": "fftw#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

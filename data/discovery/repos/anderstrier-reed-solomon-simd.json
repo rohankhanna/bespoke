@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AndersTrier/reed-solomon-simd",
+      "target": "catid/leopard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AndersTrier/reed-solomon-simd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AndersTrier/reed-solomon-simd",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AndersTrier/reed-solomon-simd",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:55.690192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9809
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1323
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reed-Solomon GF(2^16) erasure coding with O(n log n) complexity",
+    "fork": false,
+    "full_name": "AndersTrier/reed-solomon-simd",
+    "html_url": "https://github.com/AndersTrier/reed-solomon-simd",
+    "language": "Rust",
+    "pushed_at": "2025-11-04T21:15:39Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-04-27T13:35:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catid/leopard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "xamarin-studio"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate-context",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Xamarin Forms, and Uno / Win UI Applications.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate-context",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "xamarin-studio",
+  "concept_id": "xamarin-studio",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xamarin-studio",
+      "sense_id": "xamarin-studio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

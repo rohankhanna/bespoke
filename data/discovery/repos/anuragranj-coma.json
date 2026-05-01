@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anuragranj/coma",
+      "target": "sw-gong/coma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anuragranj/coma",
+      "target": "pixelite1201/pytorch_coma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anuragranj/coma",
+      "target": "qianlim/cape",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:34:36.278089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3693
+    },
+    {
+      "path": "requirements.txt",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convolutional Mesh Autoencoders for Generating 3D Faces",
+    "fork": false,
+    "full_name": "anuragranj/coma",
+    "html_url": "https://github.com/anuragranj/coma",
+    "language": "Python",
+    "pushed_at": "2023-03-24T22:27:42Z",
+    "stargazers_count": 475,
+    "topics": [],
+    "updated_at": "2026-04-27T07:53:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pixelite1201/pytorch_coma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qianlim/cape",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sw-gong/coma",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

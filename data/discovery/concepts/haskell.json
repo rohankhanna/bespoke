@@ -259,6 +259,54 @@
       "source_repo": "hadolint/hadolint",
       "status": "candidate-context",
       "text": "[![GPL-3 licensed][license-img]][license]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate-context",
+      "text": "A file watcher and development tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate-context",
+      "text": "Steel Overseer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate-context",
+      "text": "Scan Haskell code with HLint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate-context",
+      "text": "This is a GitHub action which scans Haskell code using [HLint]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kowainik/relude",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 Safe, performant, user-friendly and lightweight Haskell standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/relude",
+      "status": "candidate-context",
+      "text": "![Logo](https://user-images.githubusercontent.com/8126674/67678250-9d8eab80-f99f-11e9-96ca-27883ceeefa6.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "Haskell Dockerfile parser, pretty-printer and EDSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "[![Build Status][actions-img]][actions]"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +435,30 @@
       "source_repo": "hadolint/hadolint",
       "status": "candidate",
       "text": "[![GPL-3 licensed][license-img]][license]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate",
+      "text": "Steel Overseer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate",
+      "text": "This is a GitHub action which scans Haskell code using [HLint]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/relude",
+      "status": "candidate",
+      "text": "![Logo](https://user-images.githubusercontent.com/8126674/67678250-9d8eab80-f99f-11e9-96ca-27883ceeefa6.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate",
+      "text": "[![Build Status][actions-img]][actions]"
     }
   ],
   "candidate_related_terms": [
@@ -562,11 +634,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "hadolint/hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "schell/steeloverseer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "haskell-actions/hlint-scan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kowainik/relude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

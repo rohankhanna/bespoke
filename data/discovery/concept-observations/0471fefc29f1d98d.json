@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Responsive React Flexbox (CSS Flexible Box Layout Module) grid system based heavily on the standard CSS API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flexa",
+      "sense_id": "flexa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flexa",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flexa",
+  "observation_id": "0471fefc29f1d98d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "flexa",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026",
+  "source_file": null,
+  "source_repo": "aaronvanston/react-flexa",
+  "source_repo_description": "Responsive React Flexbox (CSS Flexible Box Layout Module) grid system based heavily on the standard CSS API."
+}

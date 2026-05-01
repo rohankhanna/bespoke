@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sampler, Sequencer, Multi-engine synth and effects - in a box! [WIP]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29894229,
+      "status": "candidate",
+      "text": "synth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799897,
+      "status": "candidate",
+      "text": "mock-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29757078,
+      "status": "candidate",
+      "text": "simulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29750555,
+      "status": "candidate",
+      "text": "analog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29661368,
+      "status": "candidate",
+      "text": "modelling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synthesizer",
+      "sense_id": "synthesizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "synthesizer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "synthesizer",
+  "observation_id": "931d68a583374457",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "synthesizer",
+  "source_context_snippet": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)",
+  "source_file": null,
+  "source_repo": "bitfieldaudio/OTTO",
+  "source_repo_description": "Sampler, Sequencer, Multi-engine synth and effects - in a box! [WIP]"
+}

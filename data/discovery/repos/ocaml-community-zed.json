@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ocaml-community/zed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ocaml-community/zed",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml-community/zed",
+      "target": "ocaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:50.839165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1241
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Abstract engine for text edition in OCaml",
+    "fork": false,
+    "full_name": "ocaml-community/zed",
+    "html_url": "https://github.com/ocaml-community/zed",
+    "language": "OCaml",
+    "pushed_at": "2025-07-05T15:48:40Z",
+    "stargazers_count": 123,
+    "topics": [
+      "ocaml"
+    ],
+    "updated_at": "2025-12-07T03:30:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Zed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    }
+  ]
+}

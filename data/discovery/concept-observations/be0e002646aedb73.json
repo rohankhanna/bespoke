@@ -84,7 +84,7 @@
   "normalized_form": "browserstack",
   "observation_id": "be0e002646aedb73",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Browserstack",
   "source_context_snippet": "\"Browserstack\"",
   "source_file": ".github/workflows/browserstack.yaml",

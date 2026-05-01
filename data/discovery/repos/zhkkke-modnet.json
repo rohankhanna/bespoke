@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZHKKKe/MODNet",
+      "target": "jkjung-avt/tensorrt_demos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZHKKKe/MODNet",
+      "target": "nahidalam/modnet_docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZHKKKe/MODNet",
+      "target": "zhkkke/ppm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZHKKKe/MODNet",
+      "target": "portrait-matting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:34:24.106668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Trimap-Free Portrait Matting Solution in Real Time [AAAI 2022]",
+    "fork": false,
+    "full_name": "ZHKKKe/MODNet",
+    "html_url": "https://github.com/ZHKKKe/MODNet",
+    "language": "Python",
+    "pushed_at": "2024-05-06T14:28:28Z",
+    "stargazers_count": 4306,
+    "topics": [
+      "portrait-matting"
+    ],
+    "updated_at": "2026-04-27T14:17:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkjung-avt/tensorrt_demos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nahidalam/modnet_docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhkkke/ppm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\">MODNet: Trimap-Free Portrait Matting in Real Time</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portrait-matting"
+    }
+  ]
+}

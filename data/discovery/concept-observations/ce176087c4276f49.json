@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unofficial implementation of LSQ-Net, a neural network quantization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is an unofficial implementation of LSQ-Net, a deep neural network quantization framework."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is an unofficial implementation of LSQ-Net, a deep neural network quantization framework."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-network-quantization",
+      "sense_id": "neural-network-quantization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neural-network-quantization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neural-network-quantization",
+  "observation_id": "ce176087c4276f49",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "neural-network-quantization",
+  "source_context_snippet": "This is an unofficial implementation of LSQ-Net, a deep neural network quantization framework.",
+  "source_file": null,
+  "source_repo": "zhutmost/lsq-net",
+  "source_repo_description": "Unofficial implementation of LSQ-Net, a neural network quantization framework"
+}

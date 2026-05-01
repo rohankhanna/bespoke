@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
+      "target": "xr-robotics/robotvision-pc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
+      "target": "xr-robotics/xrobotoolkit-native-video-viewer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:20.688230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1904
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video Previewer/Encoder/Sender on Nvidia Jetson Orin Platform",
+    "fork": false,
+    "full_name": "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
+    "html_url": "https://github.com/XR-Robotics/XRoboToolkit-Orin-Video-Sender",
+    "language": "HTML",
+    "pushed_at": "2026-02-04T20:52:37Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-20T04:40:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xr-robotics/robotvision-pc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xr-robotics/xrobotoolkit-native-video-viewer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

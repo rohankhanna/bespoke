@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-docker-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_coverity.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h2o/h2o",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h2o/h2o",
+      "target": "docker/setup-docker-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h2o/h2o",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h2o/h2o",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h2o/h2o",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h2o/h2o",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_coverity.yml",
+      "source_repo": "h2o/h2o",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_coverity.yml",
+      "source_repo": "h2o/h2o",
+      "target": "DailyCoverity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:25:20.923704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2268
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3262
+    },
+    {
+      "path": ".github/workflows/daily_coverity.yml",
+      "size": 2617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "H2O - the optimized HTTP/1, HTTP/2, HTTP/3 server",
+    "fork": false,
+    "full_name": "h2o/h2o",
+    "html_url": "https://github.com/h2o/h2o",
+    "language": "C",
+    "pushed_at": "2026-04-30T02:04:42Z",
+    "stargazers_count": 11448,
+    "topics": [],
+    "updated_at": "2026-04-30T23:06:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "DailyCoverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_coverity.yml",
+      "term": "DailyCoverity"
+    }
+  ]
+}

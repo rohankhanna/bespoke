@@ -67,6 +67,18 @@
       "source_repo": "com-lihaoyi/mill",
       "status": "candidate-context",
       "text": "'autofix.ci'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate-context",
+      "text": "Jenkins automation server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate-context",
+      "text": "<a href=\"https://jenkins.io\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "com-lihaoyi/mill",
       "status": "candidate",
       "text": "'autofix.ci'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate",
+      "text": "<a href=\"https://jenkins.io\">"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "com-lihaoyi/mill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jenkins"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

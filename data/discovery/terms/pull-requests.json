@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -136,6 +136,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "amannn/action-semantic-pull-request"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "stefanlogue/scoops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_requests.yml",
+      "source_repo": "gordon-code/cuid2"
     }
   ],
   "term": "pull-requests"

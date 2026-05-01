@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbolya/yolact",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbolya/yolact",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbolya/yolact",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbolya/yolact",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbolya/yolact",
+      "target": "yolact",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:33:37.405768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple, fully convolutional model for real-time instance segmentation.",
+    "fork": false,
+    "full_name": "dbolya/yolact",
+    "html_url": "https://github.com/dbolya/yolact",
+    "language": "Python",
+    "pushed_at": "2025-09-09T00:11:59Z",
+    "stargazers_count": 5231,
+    "topics": [
+      "instance-segmentation",
+      "pytorch",
+      "real-time",
+      "realtime",
+      "yolact"
+    ],
+    "updated_at": "2026-04-29T08:45:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolact"
+    }
+  ]
+}

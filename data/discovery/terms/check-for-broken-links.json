@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "pipecat-ai/docs"
+    }
+  ],
+  "term": "Check for Broken Links"
+}

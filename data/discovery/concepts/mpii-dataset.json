@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "mpii-dataset"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate-context",
+      "text": "Distribution-Aware Coordinate Representation for Human Pose Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate-context",
+      "text": "The project is an official implementation of our CVPR2019 paper \"Deep High-Resolution Representation Learning for Human Pose Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate-context",
+      "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate",
+      "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mpii-dataset",
+  "concept_id": "mpii-dataset",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ilovepose/DarkPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mpii-dataset",
+      "sense_id": "mpii-dataset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

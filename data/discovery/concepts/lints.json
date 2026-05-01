@@ -43,6 +43,18 @@
       "source_repo": "neon-bindings/neon",
       "status": "candidate-context",
       "text": "Lints"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate-context",
+      "text": "Vulkan-lite GPU API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate-context",
+      "text": "Lints"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "neon-bindings/neon",
+      "status": "candidate",
+      "text": "Lints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakarumych/sierra",
       "status": "candidate",
       "text": "Lints"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "neon-bindings/neon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "zakarumych/sierra"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

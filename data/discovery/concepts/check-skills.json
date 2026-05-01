@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Check Skills"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Framework-agnostic devtools panel for handling TanStack libraries devtools and your custom devtool plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate-context",
+      "text": "Check Skills"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/router",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/router",
+      "status": "candidate-context",
+      "text": "Check Skills"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate",
+      "text": "Check Skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/router",
+      "status": "candidate",
+      "text": "Check Skills"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11803,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11803,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11596,
+      "status": "candidate",
+      "text": "knowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11596,
+      "status": "candidate",
+      "text": "leave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11596,
+      "status": "candidate",
+      "text": "right"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Skills",
+  "concept_id": "check-skills",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check-skills.yml",
+      "source_repo": "TanStack/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check-skills.yml",
+      "source_repo": "TanStack/router"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Skills",
+      "sense_id": "check-skills#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

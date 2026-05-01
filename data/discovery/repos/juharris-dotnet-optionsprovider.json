@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dotnet.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "CI-.NET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "options",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:22:30.378322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22109
+    },
+    {
+      "path": ".github/workflows/ci-dotnet.yml",
+      "size": 1485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simplifies getting the right configuration options for a request using loaded configurations from files to manage options for experiments or flights.",
+    "fork": false,
+    "full_name": "juharris/dotnet-OptionsProvider",
+    "html_url": "https://github.com/juharris/dotnet-OptionsProvider",
+    "language": "C#",
+    "pushed_at": "2025-03-05T20:08:44Z",
+    "stargazers_count": 0,
+    "topics": [
+      "config",
+      "options"
+    ],
+    "updated_at": "2025-02-14T20:25:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI-.NET",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "term": "CI-.NET"
+    },
+    {
+      "context_snippet": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "options"
+    }
+  ]
+}

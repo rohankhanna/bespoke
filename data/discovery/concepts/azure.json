@@ -475,6 +475,90 @@
       "source_repo": "smartstore/SmartStoreNET",
       "status": "candidate-context",
       "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "The Azure App Service landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure App Service at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "This repository provides both enterprise architecture guidelines and a reference implementation for deploying Azure App Service solutions in multi-tenant and App Service Environment scenarios. It includes best practices, considerations, and deployable artifacts for implementing \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate-context",
+      "text": "Build your repo automatically."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Oryx/Oryx-Nightly?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=10393&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate-context",
+      "text": "The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate-context",
+      "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
+      "status": "candidate-context",
+      "text": "A creative writing multi-agent solution to help users write articles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +795,48 @@
       "source_repo": "smartstore/SmartStoreNET",
       "status": "candidate",
       "text": "This repository is outdated and no longer being actively maintained by the Smartstore devs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate",
+      "text": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate",
+      "text": "This repository provides both enterprise architecture guidelines and a reference implementation for deploying Azure App Service solutions in multi-tenant and App Service Environment scenarios. It includes best practices, considerations, and deployable artifacts for implementing \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate",
+      "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Oryx/Oryx-Nightly?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=10393&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "status": "candidate",
+      "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate",
+      "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -1120,11 +1246,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Oryx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/contoso-creative-writer"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

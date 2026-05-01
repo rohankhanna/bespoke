@@ -295,6 +295,42 @@
       "source_repo": "yeyupiaoling/MASR",
       "status": "candidate-context",
       "text": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DemisEom/SpecAugment",
+      "status": "candidate-context",
+      "text": "A Implementation of SpecAugment with Tensorflow & Pytorch, introduced by Google Brain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DemisEom/SpecAugment",
+      "status": "candidate-context",
+      "text": "This is a implementation of SpecAugment that speech data augmentation method which directly process the spectrogram with Tensorflow & Pytorch, introduced by Google Brain[1]. This is currently under the Apache 2.0, Please feel free to use for your project. Enjoy!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate-context",
+      "text": "Tools for handling multimodal data in machine learning projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate-context",
+      "text": "StarGANv2-VC: A Diverse, Unsupervised, Non-parallel Framework for Natural-Sounding Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate-context",
+      "text": "> We present an unsupervised non-parallel many-to-many voice conversion (VC) method using a generative adversarial network (GAN) called StarGAN v2. Using a combination of adversarial source classifier loss and perceptual loss, our model significantly outperforms previous VC mode\u2026"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "yeyupiaoling/MASR",
       "status": "candidate",
       "text": "![python version](https://img.shields.io/badge/python-3.11+-orange.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DemisEom/SpecAugment",
+      "status": "candidate",
+      "text": "This is a implementation of SpecAugment that speech data augmentation method which directly process the spectrogram with Tensorflow & Pytorch, introduced by Google Brain[1]. This is currently under the Apache 2.0, Please feel free to use for your project. Enjoy!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate",
+      "text": "> We present an unsupervised non-parallel many-to-many voice conversion (VC) method using a generative adversarial network (GAN) called StarGAN v2. Using a combination of adversarial source classifier loss and perceptual loss, our model significantly outperforms previous VC mode\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -670,11 +724,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "yeyupiaoling/MASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lhotse-speech/lhotse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StarGANv2-VC"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

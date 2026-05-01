@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "target": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "target": "hrnet/hrnet-semantic-segmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "target": "hrnet/hrnet-object-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "target": "deep-high-resolution-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "target": "facealignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "target": "facial-landmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "target": "hrnets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:11:42.253839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6481
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is an official implementation of facial landmark detection for our TPAMI paper \"Deep High-Resolution Representation Learning for Visual Recognition\". https://arxiv.org/abs/1908.07919",
+    "fork": false,
+    "full_name": "HRNet/HRNet-Facial-Landmark-Detection",
+    "html_url": "https://github.com/HRNet/HRNet-Facial-Landmark-Detection",
+    "language": "Python",
+    "pushed_at": "2022-08-12T08:03:02Z",
+    "stargazers_count": 1136,
+    "topics": [
+      "deep-high-resolution-net",
+      "face-alignment",
+      "facealignment",
+      "facial-landmarks",
+      "hrnets"
+    ],
+    "updated_at": "2026-04-29T07:31:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrnet-object-detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrnet-semantic-segmentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-high-resolution-net"
+    },
+    {
+      "context_snippet": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facealignment"
+    },
+    {
+      "context_snippet": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facial-landmarks"
+    },
+    {
+      "context_snippet": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hrnets"
+    }
+  ]
+}

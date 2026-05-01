@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-js",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/extension-cookiecutter-js",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-cookiecutter-js",
+      "target": "cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-cookiecutter-js",
+      "target": "jupyterlab-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:32:23.422560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cookiecutter recipe for building JupyterLab extensions.",
+    "fork": false,
+    "full_name": "jupyterlab/extension-cookiecutter-js",
+    "html_url": "https://github.com/jupyterlab/extension-cookiecutter-js",
+    "language": "Python",
+    "pushed_at": "2023-01-06T19:19:39Z",
+    "stargazers_count": 56,
+    "topics": [
+      "cookiecutter",
+      "jupyterlab-extension"
+    ],
+    "updated_at": "2024-11-06T09:11:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-js/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter"
+    },
+    {
+      "context_snippet": "![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-js/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab-extension"
+    }
+  ]
+}

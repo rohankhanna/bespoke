@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "semantic-kernel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate-context",
+      "text": "12 Lessons to Get Started Building AI Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate-context",
+      "text": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate-context",
+      "text": "Five lessons, learn how to really apply AI to your .NET Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-beginners-dotnet.svg)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate",
+      "text": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-beginners-dotnet.svg)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/LICENSE)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "semantic-kernel",
+  "concept_id": "semantic-kernel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semantic-kernel",
+      "sense_id": "semantic-kernel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

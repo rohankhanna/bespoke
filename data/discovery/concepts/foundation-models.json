@@ -199,6 +199,66 @@
       "source_repo": "multimodal-art-projection/YuE",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate-context",
+      "text": "[ICCV 2025 & ICCV 2025 RIWM Outstanding Paper] Aether: Geometric-Aware Unified World Modeling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "multimodal-art-projection/YuE",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -478,11 +568,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/MTP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/RSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

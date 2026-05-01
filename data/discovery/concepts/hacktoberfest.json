@@ -6343,6 +6343,408 @@
       "source_repo": "abey79/vpype",
       "status": "candidate-context",
       "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate-context",
+      "text": "The Free Software Media System - Server Backend & API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Jellyfin</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate-context",
+      "text": "Jenkins automation server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate-context",
+      "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruntjs/grunt-cli",
+      "status": "candidate-context",
+      "text": "Grunt's command line interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-cli",
+      "status": "candidate-context",
+      "text": "> The Grunt command line interface."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate-context",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Xamarin Forms, and Uno / Win UI Applications.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate-context",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "Virtual whiteboard for sketching hand-drawn like diagrams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "Google's Material Design in XAML & WPF, for C# & VB.Net. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "A framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/form",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Headless, performant, and type-safe form state management for TS/JS, React, Vue, Angular, Solid, and Lit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/form",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EKA2L1/EKA2L1",
+      "status": "candidate-context",
+      "text": "A Symbian OS/N-Gage emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EKA2L1/EKA2L1",
+      "status": "candidate-context",
+      "text": "<div class=\"header\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate-context",
+      "text": "Orchestrate the execution of GrimoireLab tools to produce a dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate-context",
+      "text": "SirMordred is the tool used to coordinate the execution of the GrimoireLab platform, via two main configuration files, the `setup.cfg` and `projects.json`, which are summarized in their corresponding sections."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "To manage Docker Content Trust and Notary certificates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate-context",
+      "text": "PARTY OR DIE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main.svg?style=shield)](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate-context",
+      "text": "PostCSS plugin to keep rules and at-rules content in order."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate-context",
+      "text": "A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate-context",
+      "text": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "Simplified nix packaging for various programming language ecosystems [maintainer=@DavHau]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradle/actions",
+      "status": "candidate-context",
+      "text": "A collection of GitHub Actions to accelerate your Gradle Builds on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/actions",
+      "status": "candidate-context",
+      "text": "This repository contains a set of GitHub Actions that are useful for building Gradle projects on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/mandrel-packaging",
+      "status": "candidate-context",
+      "text": "This repo contains all the necessary scripts and tools to build [Mandrel](https://github.com/graalvm/mandrel)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate-context",
+      "text": "Node.js bindings for Argon2 hashing algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate-context",
+      "text": "[![Financial contributors on Open Collective][opencollective-image]][opencollective-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate-context",
+      "text": "\ud83d\ude38 Soothing pastel theme for the high-spirited!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/vim",
+      "status": "candidate-context",
+      "text": "\ud83e\uddcb Soothing pastel theme for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/vim",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate-context",
+      "text": "Instant-loading web apps, without effort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "\ud83e\uddec Repository for third party middlewares with dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmbo/questionary",
+      "status": "candidate-context",
+      "text": "Python library to build pretty command line user prompts \u2728Easy to use multi-select lists, confirmations, free text prompts ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmbo/questionary",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/pypi/v/questionary.svg)](https://pypi.org/project/questionary/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "\ud83d\udc3b Bear necessities for state management in React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate-context",
+      "text": "The OpenAPI v3 specification for DigitalOcean's public API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate-context",
+      "text": "![Spec Main](https://github.com/digitalocean/apiv2-openapi/workflows/Spec%20Main/badge.svg) ![Status](https://img.shields.io/badge/Status-Early%20Availability-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PMunch/nimlsp",
+      "status": "candidate-context",
+      "text": "Language Server Protocol implementation for Nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PMunch/nimlsp",
+      "status": "candidate-context",
+      "text": "Nim Language Server Protocol"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate-context",
+      "text": "Convert images to plotter-friendly hatched patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate-context",
+      "text": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate-context",
+      "text": "Perform async work synchronously in Node.js/Bun using `worker_threads` with first-class TypeScript and Yarn P'n'P support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/synckit/ci.yml?branch=main)](https://github.com/un-ts/synckit/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate-context",
+      "text": "The Free Software Media System - Official Web Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Jellyfin Web</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invertase/melos",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0b  A tool for managing Dart projects with multiple packages. With IntelliJ and Vscode IDE support. Supports automated versioning, changelogs & publishing via Conventional Commits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invertase/melos",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "Shared Controlz for WPF and ... more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate-context",
+      "text": "A collection of small samples using MaterialDesignInXaml. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate-context",
+      "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
     }
   ],
   "candidate_glosses": [
@@ -9519,6 +9921,210 @@
       "source_repo": "abey79/vpype",
       "status": "candidate",
       "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Jellyfin</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jenkins",
+      "status": "candidate",
+      "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-cli",
+      "status": "candidate",
+      "text": "> The Grunt command line interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate",
+      "text": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/form",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EKA2L1/EKA2L1",
+      "status": "candidate",
+      "text": "<div class=\"header\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate",
+      "text": "SirMordred is the tool used to coordinate the execution of the GrimoireLab platform, via two main configuration files, the `setup.cfg` and `projects.json`, which are summarized in their corresponding sections."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main.svg?style=shield)](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate",
+      "text": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/actions",
+      "status": "candidate",
+      "text": "This repository contains a set of GitHub Actions that are useful for building Gradle projects on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graalvm/mandrel-packaging",
+      "status": "candidate",
+      "text": "This repo contains all the necessary scripts and tools to build [Mandrel](https://github.com/graalvm/mandrel)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate",
+      "text": "[![Financial contributors on Open Collective][opencollective-image]][opencollective-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/vim",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmbo/questionary",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/pypi/v/questionary.svg)](https://pypi.org/project/questionary/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate",
+      "text": "![Spec Main](https://github.com/digitalocean/apiv2-openapi/workflows/Spec%20Main/badge.svg) ![Status](https://img.shields.io/badge/Status-Early%20Availability-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PMunch/nimlsp",
+      "status": "candidate",
+      "text": "Nim Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate",
+      "text": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/synckit/ci.yml?branch=main)](https://github.com/un-ts/synckit/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Jellyfin Web</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invertase/melos",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate",
+      "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate",
+      "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
     }
   ],
   "candidate_related_terms": [],
@@ -13978,11 +14584,425 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "abey79/vpype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jellyfin/jellyfin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Heapy/awesome-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jenkins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgnostiqHQ/covalent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gruntjs/grunt-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "excalidraw/excalidraw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "EKA2L1/EKA2L1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-sirmordred"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "philips-labs/dct-notary-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jmhobbs/cultofthepartyparrot.com"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hudochenkov/postcss-sorting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/dream2nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gradle/actions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graalvm/mandrel-packaging"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ranisalt/node-argon2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/catppuccin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "QwikDev/qwik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-devlake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tmbo/questionary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/zustand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PMunch/nimlsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "plottertools/hatched"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "un-ts/synckit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jellyfin/jellyfin-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "invertase/melos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ControlzEx/ControlzEx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

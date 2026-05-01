@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "coffeelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "UziTech/action-setup-atom@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atom/language-sql",
+      "target": "textmate/sql.tmbundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/language-sql",
+      "target": "coffeelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/language-sql",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/language-sql",
+      "target": "UziTech/action-setup-atom@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:04:33.664350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 707
+    },
+    {
+      "path": "package.json",
+      "size": 453
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "SQL package for Atom",
+    "fork": false,
+    "full_name": "atom/language-sql",
+    "html_url": "https://github.com/atom/language-sql",
+    "language": "CoffeeScript",
+    "pushed_at": "2022-09-28T10:52:01Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-04-03T12:02:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "textmate/sql.tmbundle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

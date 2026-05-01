@@ -19,6 +19,18 @@
       "source_repo": "nghorbani/homogenus",
       "status": "candidate-context",
       "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "Example code for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 3D keypoints and 3D scans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nghorbani/homogenus",
       "status": "candidate",
       "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nghorbani/homogenus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

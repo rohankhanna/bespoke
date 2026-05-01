@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v3",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/jekyll-gh-pages.yml",
       "source_repo": "ardalis/Result"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "EricLBuehler/range-checked"
     }
   ]
 }

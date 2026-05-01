@@ -19,12 +19,30 @@
       "source_repo": "scikit-optimize/scikit-optimize",
       "status": "candidate-context",
       "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holgern/scikit-optimize",
+      "status": "candidate-context",
+      "text": "Sequential model-based optimization with a `scipy.optimize` interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holgern/scikit-optimize",
+      "status": "candidate-context",
+      "text": "|Logo|"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "scikit-optimize/scikit-optimize",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holgern/scikit-optimize",
       "status": "candidate",
       "text": "|Logo|"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "scikit-optimize/scikit-optimize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "holgern/scikit-optimize"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

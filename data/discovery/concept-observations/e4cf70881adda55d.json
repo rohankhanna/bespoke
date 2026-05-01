@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The OpenAPI v3 specification for DigitalOcean's public API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Trigger TypeScript Client Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Trigger TypeScript Client Generation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31618,
+      "status": "candidate",
+      "text": "pleading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31591,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31591,
+      "status": "candidate",
+      "text": "powered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31550,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31550,
+      "status": "candidate",
+      "text": "start"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger TypeScript Client Generation",
+      "sense_id": "trigger-typescript-client-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trigger-typescript-client-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trigger-typescript-client-generation",
+  "observation_id": "e4cf70881adda55d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Trigger TypeScript Client Generation",
+  "source_context_snippet": "Trigger TypeScript Client Generation",
+  "source_file": ".github/workflows/trigger-typescript-client-gen.yml",
+  "source_repo": "digitalocean/openapi",
+  "source_repo_description": "The OpenAPI v3 specification for DigitalOcean's public API."
+}

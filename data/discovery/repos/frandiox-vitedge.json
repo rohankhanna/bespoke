@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "vitepress",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frandiox/vitedge",
+      "target": "frandiox/vitessedge-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frandiox/vitedge",
+      "target": "frandiox/reactesse-edge-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "frandiox/vitedge",
+      "target": "vitepress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frandiox/vitedge",
+      "target": "cloudflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frandiox/vitedge",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frandiox/vitedge",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frandiox/vitedge",
+      "target": "vite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frandiox/vitedge",
+      "target": "worker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:30:30.162519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3845
+    },
+    {
+      "path": "package.json",
+      "size": 500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Edge-side rendering and fullstack Vite framework",
+    "fork": false,
+    "full_name": "frandiox/vitedge",
+    "html_url": "https://github.com/frandiox/vitedge",
+    "language": "JavaScript",
+    "pushed_at": "2024-02-14T07:36:04Z",
+    "stargazers_count": 730,
+    "topics": [
+      "cloudflare",
+      "edge",
+      "esr",
+      "hmr",
+      "react",
+      "ssr",
+      "vite",
+      "vue",
+      "worker"
+    ],
+    "updated_at": "2026-03-30T13:26:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frandiox/reactesse-edge-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frandiox/vitessedge-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudflare"
+    },
+    {
+      "context_snippet": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    },
+    {
+      "context_snippet": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "worker"
+    }
+  ]
+}

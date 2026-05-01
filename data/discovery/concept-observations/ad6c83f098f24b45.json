@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Javascript Smile implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm](https://img.shields.io/npm/v/smile-js)](https://www.npmjs.com/package/smile-js)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/smile-js)](https://www.npmjs.com/package/smile-js)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031483,
+      "status": "candidate",
+      "text": "grin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031449,
+      "status": "candidate",
+      "text": "grinning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031402,
+      "status": "candidate",
+      "text": "smirk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027284,
+      "status": "candidate",
+      "text": "laughter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027261,
+      "status": "candidate",
+      "text": "laugh"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smile",
+      "sense_id": "smile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 70039,
+      "status": "candidate",
+      "text": "grin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7025,
+      "status": "candidate",
+      "text": "smiling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6022,
+      "status": "candidate",
+      "text": "grinning"
+    }
+  ],
+  "concept_id": "smile",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "smile",
+  "observation_id": "ad6c83f098f24b45",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "smile",
+  "source_context_snippet": "[![npm](https://img.shields.io/npm/v/smile-js)](https://www.npmjs.com/package/smile-js)",
+  "source_file": null,
+  "source_repo": "ngyewch/smile-js",
+  "source_repo_description": "Javascript Smile implementation."
+}

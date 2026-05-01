@@ -19,6 +19,18 @@
       "source_repo": "slime/slime",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fukamachi/fast-http",
+      "status": "candidate-context",
+      "text": "A fast HTTP request/response parser for Common Lisp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fukamachi/fast-http",
+      "status": "candidate-context",
+      "text": "A fast HTTP request/response parser for Common Lisp."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "slime/slime",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fukamachi/fast-http",
+      "status": "candidate",
+      "text": "A fast HTTP request/response parser for Common Lisp."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "slime/slime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fukamachi/fast-http"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

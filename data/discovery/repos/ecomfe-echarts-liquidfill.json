@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "echarts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "echarts",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "target": "echarts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "target": "echarts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "target": "echarts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecomfe/echarts-liquidfill",
+      "target": "liquid-fill-charts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:08.294895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22053
+    },
+    {
+      "path": "package.json",
+      "size": 746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Liquid Fill Chart for Apache ECharts",
+    "fork": false,
+    "full_name": "ecomfe/echarts-liquidfill",
+    "html_url": "https://github.com/ecomfe/echarts-liquidfill",
+    "language": "JavaScript",
+    "pushed_at": "2024-03-12T02:42:19Z",
+    "stargazers_count": 1530,
+    "topics": [
+      "echarts",
+      "liquid-fill-charts"
+    ],
+    "updated_at": "2026-04-27T02:53:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Liquid Fill Chart plugin for [Apache ECharts](https://github.com/apache/echarts), which is usually used to represent data in percentage.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echarts"
+    },
+    {
+      "context_snippet": "Liquid Fill Chart plugin for [Apache ECharts](https://github.com/apache/echarts), which is usually used to represent data in percentage.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liquid-fill-charts"
+    }
+  ]
+}

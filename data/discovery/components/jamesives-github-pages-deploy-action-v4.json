@@ -1,7 +1,7 @@
 {
   "component": "JamesIves/github-pages-deploy-action@v4",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -347,6 +347,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/manual-build-docs-version.yml",
       "source_repo": "Farama-Foundation/Minari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "EricLBuehler/range-checked"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-global.yml",
+      "source_repo": "pola-rs/polars"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-python.yml",
+      "source_repo": "pola-rs/polars"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-rust.yml",
+      "source_repo": "pola-rs/polars"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "aws/aws-lc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "oblador/react-native-vector-icons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "KVM-VMI/kvm-vmi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Quick/Nimble"
     }
   ]
 }

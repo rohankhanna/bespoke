@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "archinetai/a-unet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "lucidrains/imagen-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "audio-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "target": "denoising-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:29:16.301045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11246
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Audio generation using diffusion models, in PyTorch.",
+    "fork": false,
+    "full_name": "archinetai/audio-diffusion-pytorch",
+    "html_url": "https://github.com/archinetai/audio-diffusion-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-06-12T22:40:16Z",
+    "stargazers_count": 2104,
+    "topics": [
+      "artificial-intelligence",
+      "audio-generation",
+      "deep-learning",
+      "denoising-diffusion"
+    ],
+    "updated_at": "2026-04-28T07:27:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archinetai/a-unet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/imagen-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./LOGO.png\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"./LOGO.png\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-generation"
+    },
+    {
+      "context_snippet": "<img src=\"./LOGO.png\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"./LOGO.png\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising-diffusion"
+    }
+  ]
+}

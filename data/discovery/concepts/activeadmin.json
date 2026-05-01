@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "activeadmin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate-context",
+      "text": "The administration framework for Ruby on Rails applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate-context",
+      "text": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate",
+      "text": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "activeadmin",
+  "concept_id": "activeadmin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "activeadmin/activeadmin"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "activeadmin",
+      "sense_id": "activeadmin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

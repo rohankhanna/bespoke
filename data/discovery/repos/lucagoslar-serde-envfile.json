@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lucagoslar/serde-envfile",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lucagoslar/serde-envfile",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lucagoslar/serde-envfile",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lucagoslar/serde-envfile",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lucagoslar/serde-envfile",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lucagoslar/serde-envfile",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucagoslar/serde-envfile",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucagoslar/serde-envfile",
+      "target": "serde",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:30.510908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1284
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 923
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u267b\ufe0f Deserialize and serialize environment variables.",
+    "fork": false,
+    "full_name": "lucagoslar/serde-envfile",
+    "html_url": "https://github.com/lucagoslar/serde-envfile",
+    "language": "Rust",
+    "pushed_at": "2025-05-27T20:01:47Z",
+    "stargazers_count": 1,
+    "topics": [
+      "env",
+      "rust",
+      "serde"
+    ],
+    "updated_at": "2025-10-24T09:47:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serde"
+    }
+  ]
+}

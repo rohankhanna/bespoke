@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test-runner.yml",
       "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell-actions/hlint-scan"
     }
   ]
 }

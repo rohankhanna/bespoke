@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/actions-lint.yml",
       "source_repo": "ChainSafe/forest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/activeadmin"
     }
   ],
   "term": "GitHub Actions lint"

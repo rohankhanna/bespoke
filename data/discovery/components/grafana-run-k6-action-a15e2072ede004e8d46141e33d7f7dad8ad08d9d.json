@@ -1,12 +1,17 @@
 {
   "component": "grafana/run-k6-action@a15e2072ede004e8d46141e33d7f7dad8ad08d9d",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/load-test.yml",
       "source_repo": "bitwarden/server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "appwrite/appwrite"
     }
   ]
 }

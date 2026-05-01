@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "lunarmodules/luacheck@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "mhartington/formatter.nvim",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "mhartington/formatter.nvim",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "mhartington/formatter.nvim",
+      "target": "lunarmodules/luacheck@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "mhartington/formatter.nvim",
+      "target": "Pull request check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:28:04.771345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7607
+    },
+    {
+      "path": ".github/workflows/pr_check.yml",
+      "size": 391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mhartington/formatter.nvim",
+    "html_url": "https://github.com/mhartington/formatter.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-05-29T22:48:52Z",
+    "stargazers_count": 1455,
+    "topics": [],
+    "updated_at": "2026-04-28T13:16:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pull request check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_check.yml",
+      "term": "Pull request check"
+    }
+  ]
+}

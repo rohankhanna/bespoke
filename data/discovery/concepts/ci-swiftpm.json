@@ -19,12 +19,30 @@
       "source_repo": "Quick/Quick",
       "status": "candidate-context",
       "text": "CI (SwiftPM)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate-context",
+      "text": "A Matcher Framework for Swift and Objective-C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate-context",
+      "text": "CI (SwiftPM)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Quick/Quick",
+      "status": "candidate",
+      "text": "CI (SwiftPM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Nimble",
       "status": "candidate",
       "text": "CI (SwiftPM)"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/ci-swiftpm.yml",
       "source_repo": "Quick/Quick"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "source_repo": "Quick/Nimble"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

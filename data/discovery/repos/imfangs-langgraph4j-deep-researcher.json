@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "target": "deep-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "target": "langgraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imfangs/langgraph4j-deep-researcher",
+      "target": "langgraph4j",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:16:08.477988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.   \u57fa\u4e8e Langgraph4j \u6846\u67b6\u7684\u6df1\u5ea6\u7814\u7a76\u52a9\u624b\uff0c\u5177\u5907\u8fed\u4ee3\u5f0f\u6df1\u5ea6\u7814\u7a76\u80fd\u529b\u3002",
+    "fork": false,
+    "full_name": "imfangs/langgraph4j-deep-researcher",
+    "html_url": "https://github.com/imfangs/langgraph4j-deep-researcher",
+    "language": "Java",
+    "pushed_at": "2025-09-15T01:40:13Z",
+    "stargazers_count": 21,
+    "topics": [
+      "ai",
+      "ai-agent",
+      "deep-research",
+      "langgraph",
+      "langgraph4j"
+    ],
+    "updated_at": "2026-04-28T05:59:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-research"
+    },
+    {
+      "context_snippet": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langgraph"
+    },
+    {
+      "context_snippet": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langgraph4j"
+    }
+  ]
+}

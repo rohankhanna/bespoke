@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "davor/ruby-plot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "elitheeli/plotrobber",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "maasha/gnuplotter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "dilcom/gnuplotrb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "gnuplot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "narray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "numo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "plot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "target": "ruby-numo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:43.628118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gnuplot wrapper for Ruby/Numo",
+    "fork": false,
+    "full_name": "ruby-numo/numo-gnuplot",
+    "html_url": "https://github.com/ruby-numo/numo-gnuplot",
+    "language": "Ruby",
+    "pushed_at": "2022-10-08T13:26:18Z",
+    "stargazers_count": 54,
+    "topics": [
+      "gnuplot",
+      "narray",
+      "numo",
+      "plot",
+      "plotting",
+      "ruby",
+      "ruby-numo"
+    ],
+    "updated_at": "2025-09-25T11:15:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davor/ruby-plot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dilcom/gnuplotrb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elitheeli/plotrobber",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maasha/gnuplotter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnuplot"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "narray"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numo"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plot"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-numo"
+    }
+  ]
+}

@@ -55,6 +55,18 @@
       "source_repo": "enjoy-digital/litex",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate-context",
+      "text": "RealSense SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate-context",
+      "text": "build_lrs_ROS2_package"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "enjoy-digital/litex",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realsenseai/librealsense",
+      "status": "candidate",
+      "text": "build_lrs_ROS2_package"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "enjoy-digital/litex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

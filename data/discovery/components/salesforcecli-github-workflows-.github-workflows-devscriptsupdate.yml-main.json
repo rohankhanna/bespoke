@@ -1,0 +1,17 @@
+{
+  "component": "salesforcecli/github-workflows/.github/workflows/devScriptsUpdate.yml@main",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devScripts.yml",
+      "source_repo": "forcedotcom/agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devScripts.yml",
+      "source_repo": "forcedotcom/change-case-management"
+    }
+  ]
+}

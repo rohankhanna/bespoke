@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GPG"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rvm/rvm",
+      "status": "candidate-context",
+      "text": "Ruby enVironment Manager (RVM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvm/rvm",
+      "status": "candidate-context",
+      "text": "GPG"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvm/rvm",
+      "status": "candidate",
+      "text": "GPG"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5001,
+      "status": "candidate",
+      "text": "bpm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5001,
+      "status": "candidate",
+      "text": "gbp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5001,
+      "status": "candidate",
+      "text": "pmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "pgp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4999,
+      "status": "candidate",
+      "text": "using"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GPG",
+  "concept_id": "gpg",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/gpg_signature.yml",
+      "source_repo": "rvm/rvm"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GPG",
+      "sense_id": "gpg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

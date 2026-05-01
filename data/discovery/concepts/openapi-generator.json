@@ -55,6 +55,18 @@
       "source_repo": "mr-fatalyst/fastopenapi",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate-context",
+      "text": "OpenAPI integration for Falco."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate-context",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.OpenApi.svg)](https://www.nuget.org/packages/Falco.OpenApi)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "mr-fatalyst/fastopenapi",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.OpenApi.svg)](https://www.nuget.org/packages/Falco.OpenApi)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "mr-fatalyst/fastopenapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.OpenApi"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

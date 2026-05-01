@@ -1,12 +1,15 @@
 {
   "aliases": [
     "Performance Test",
-    "Performance test"
+    "Performance test",
+    "performance-test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -56,6 +59,18 @@
       "source_repo": "redai-infra/TransferQueue",
       "status": "candidate-context",
       "text": "Performance Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Next-gen browser and mobile automation test framework for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +97,12 @@
       "source_repo": "redai-infra/TransferQueue",
       "status": "candidate",
       "text": "Performance Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +170,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/perftest.yml",
       "source_repo": "redai-infra/TransferQueue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webdriverio/webdriverio"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

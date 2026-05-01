@@ -403,6 +403,30 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate-context",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "status": "candidate-context",
+      "text": "Collection of examples of how to use Model Context Protocol with AWS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "status": "candidate-context",
+      "text": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DINO-X-MCP",
+      "status": "candidate-context",
+      "text": "Official DINO-X Model Context Protocol (MCP) server that empowers LLMs with real-world visual perception through image object detection, localization, and captioning APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DINO-X-MCP",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![npm version](https://img.shields.io/npm/v/@deepdataspace/dinox-mcp.svg)](https://www.npmjs.com/package/@deepdataspace/dinox-mcp) [![npm downloads](https://img.\u2026"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +627,18 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "status": "candidate",
+      "text": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DINO-X-MCP",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![npm version](https://img.shields.io/npm/v/@deepdataspace/dinox-mcp.svg)](https://www.npmjs.com/package/@deepdataspace/dinox-mcp) [![npm downloads](https://img.\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -982,11 +1018,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-agentic-ai-demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO-X-MCP"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

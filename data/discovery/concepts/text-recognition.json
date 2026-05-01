@@ -115,6 +115,18 @@
       "source_repo": "yeungchenwa/OCR-SAM",
       "status": "candidate-context",
       "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate-context",
+      "text": "A collection of original, innovative ideas and algorithms towards Advanced Literate Machinery. This project is maintained by the OCR Team in the Language Technology Lab, Tongyi Lab, Alibaba Group."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate-context",
+      "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "yeungchenwa/OCR-SAM",
       "status": "candidate",
       "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate",
+      "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "yeungchenwa/OCR-SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

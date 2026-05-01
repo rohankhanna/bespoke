@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DocGenome: An Open Large-scale Scientific Document Benchmark for Training and Testing Multi-modal Large Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "question-answering",
+      "sense_id": "question-answering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "question-answering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "question-answering",
+  "observation_id": "d95d8b8f936dfbaa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "question-answering",
+  "source_context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)",
+  "source_file": null,
+  "source_repo": "Alpha-Innovator/DocGenome",
+  "source_repo_description": "DocGenome: An Open Large-scale Scientific Document Benchmark for Training and Testing Multi-modal Large Models"
+}

@@ -19,6 +19,18 @@
       "source_repo": "sigstore/sigstore-python",
       "status": "candidate-context",
       "text": "sigstore-python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "To manage Docker Content Trust and Notary certificates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sigstore/sigstore-python",
       "status": "candidate",
       "text": "sigstore-python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "sigstore/sigstore-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "philips-labs/dct-notary-admin"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

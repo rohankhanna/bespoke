@@ -1,0 +1,12 @@
+{
+  "component": "CatChen/eslint-suggestion-action@efbe3942e76df120000621539d93ce7e0b54f7a7",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "jellyfin/jellyfin-web"
+    }
+  ]
+}

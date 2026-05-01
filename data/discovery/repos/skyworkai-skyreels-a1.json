@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "target": "skyworkai/skyreels-a2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "target": "diffposetalk/diffposetalk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "target": "dajes/frame-interpolation-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "target": "a-r-r-o-w/finetrainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "target": "condition-render",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "target": "portrait-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyworkAI/SkyReels-A1",
+      "target": "video-diffusion-transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:49.347170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8833
+    },
+    {
+      "path": "requirements.txt",
+      "size": 694
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SkyReels-A1: Expressive Portrait Animation in Video Diffusion Transformers",
+    "fork": false,
+    "full_name": "SkyworkAI/SkyReels-A1",
+    "html_url": "https://github.com/SkyworkAI/SkyReels-A1",
+    "language": "Python",
+    "pushed_at": "2025-06-05T15:29:23Z",
+    "stargazers_count": 586,
+    "topics": [
+      "condition-render",
+      "portrait-animation",
+      "video-diffusion-transformers"
+    ],
+    "updated_at": "2026-04-12T12:54:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-r-r-o-w/finetrainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dajes/frame-interpolation-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diffposetalk/diffposetalk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/skyreels-a2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "condition-render"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portrait-animation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-diffusion-transformers"
+    }
+  ]
+}

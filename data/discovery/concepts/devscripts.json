@@ -1,0 +1,82 @@
+{
+  "aliases": [
+    "devScripts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate-context",
+      "text": "devScripts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "scripts to automate change case management in Salesforce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "devScripts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate",
+      "text": "devScripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate",
+      "text": "devScripts"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "devScripts",
+  "concept_id": "devscripts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/devScripts.yml",
+      "source_repo": "forcedotcom/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/devScripts.yml",
+      "source_repo": "forcedotcom/change-case-management"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "devScripts",
+      "sense_id": "devscripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

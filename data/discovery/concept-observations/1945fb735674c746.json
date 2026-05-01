@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HIP: C++ Heterogeneous-Compute Interface for Portability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hip-kernel-language",
+      "sense_id": "hip-kernel-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hip-kernel-language",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hip-kernel-language",
+  "observation_id": "1945fb735674c746",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "hip-kernel-language",
+  "source_context_snippet": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**",
+  "source_file": null,
+  "source_repo": "ROCm/hip",
+  "source_repo_description": "HIP: C++ Heterogeneous-Compute Interface for Portability"
+}

@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM-Plugin-Harness",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:08.896837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 64
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Supporting infrastructure for CameLLM plugins",
+    "fork": false,
+    "full_name": "CameLLM/CameLLM-Plugin-Harness",
+    "html_url": "https://github.com/CameLLM/CameLLM-Plugin-Harness",
+    "language": "Swift",
+    "pushed_at": "2023-06-08T22:46:51Z",
+    "stargazers_count": 3,
+    "topics": [
+      "swift"
+    ],
+    "updated_at": "2023-11-25T23:17:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is under development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

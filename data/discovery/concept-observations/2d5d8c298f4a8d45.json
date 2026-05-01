@@ -84,7 +84,7 @@
   "normalized_form": "combine-prs",
   "observation_id": "2d5d8c298f4a8d45",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Combine PRs",
   "source_context_snippet": "'Combine PRs'",
   "source_file": ".github/workflows/combine-prs.yml",

@@ -55,6 +55,30 @@
       "source_repo": "pyannote/pyannote-audio",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "status": "candidate-context",
+      "text": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "status": "candidate-context",
+      "text": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate-context",
+      "text": "A PyTorch-based Speech Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pyannote/pyannote-audio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "status": "candidate",
+      "text": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/speechbrain",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "pyannote/pyannote-audio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/Speech-Backbones"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "speechbrain/speechbrain"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

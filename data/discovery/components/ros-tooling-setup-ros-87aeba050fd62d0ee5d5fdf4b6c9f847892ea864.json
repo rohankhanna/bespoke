@@ -1,0 +1,12 @@
+{
+  "component": "ros-tooling/setup-ros@87aeba050fd62d0ee5d5fdf4b6c9f847892ea864",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ROS2-package-CI.yaml",
+      "source_repo": "realsenseai/librealsense"
+    }
+  ]
+}

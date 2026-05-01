@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/luarocks.yml",
       "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "nvimdev/guard.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "Bekaboo/dropbar.nvim"
     }
   ],
   "term": "Push to Luarocks"

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "http-status-code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate-context",
+      "text": "Utility to interact with HTTP status code in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate-context",
+      "text": "Utility to interact with HTTP status codes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate",
+      "text": "Utility to interact with HTTP status codes."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "http-status-code",
+  "concept_id": "http-status-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adaltas/node-http-status"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "http-status-code",
+      "sense_id": "http-status-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

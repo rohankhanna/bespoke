@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/liteiclink",
+      "target": "enjoy-digital/usb3_pipe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/liteiclink",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/liteiclink",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:32:35.193069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4258
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small footprint and configurable Inter-Chip communication cores",
+    "fork": false,
+    "full_name": "enjoy-digital/liteiclink",
+    "html_url": "https://github.com/enjoy-digital/liteiclink",
+    "language": "Python",
+    "pushed_at": "2026-02-20T14:09:07Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-04-13T23:20:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/usb3_pipe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

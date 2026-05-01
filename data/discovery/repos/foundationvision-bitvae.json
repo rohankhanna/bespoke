@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "FoundationVision/BitVAE",
+      "target": "nottombrown/imagenet_stubs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/BitVAE",
+      "target": "autoregressive-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/BitVAE",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/BitVAE",
+      "target": "image-tokenizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/BitVAE",
+      "target": "vqvae",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:08:51.724337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4399
+    },
+    {
+      "path": "requirements.txt",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "official training and inference code of bitwise tokenizer",
+    "fork": false,
+    "full_name": "FoundationVision/BitVAE",
+    "html_url": "https://github.com/FoundationVision/BitVAE",
+    "language": "Python",
+    "pushed_at": "2025-05-18T19:45:25Z",
+    "stargazers_count": 71,
+    "topics": [
+      "autoregressive-models",
+      "image-generation",
+      "image-tokenizer",
+      "vae",
+      "vqvae"
+    ],
+    "updated_at": "2026-03-23T04:17:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nottombrown/imagenet_stubs",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The training and inference code of bitwise tokenizer used by [Infinity](https://github.com/FoundationVision/Infinity).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoregressive-models"
+    },
+    {
+      "context_snippet": "The training and inference code of bitwise tokenizer used by [Infinity](https://github.com/FoundationVision/Infinity).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "The training and inference code of bitwise tokenizer used by [Infinity](https://github.com/FoundationVision/Infinity).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-tokenizer"
+    },
+    {
+      "context_snippet": "The training and inference code of bitwise tokenizer used by [Infinity](https://github.com/FoundationVision/Infinity).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vqvae"
+    }
+  ]
+}

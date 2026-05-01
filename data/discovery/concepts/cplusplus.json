@@ -211,6 +211,30 @@
       "source_repo": "mono/CppSharp",
       "status": "candidate-context",
       "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DadSchoorse/vkBasalt",
+      "status": "candidate-context",
+      "text": "a vulkan post processing layer for linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DadSchoorse/vkBasalt",
+      "status": "candidate-context",
+      "text": "vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/thrift",
+      "status": "candidate-context",
+      "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/thrift",
+      "status": "candidate-context",
+      "text": "Apache Thrift"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "mono/CppSharp",
       "status": "candidate",
       "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DadSchoorse/vkBasalt",
+      "status": "candidate",
+      "text": "vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/thrift",
+      "status": "candidate",
+      "text": "Apache Thrift"
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +580,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DadSchoorse/vkBasalt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/thrift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

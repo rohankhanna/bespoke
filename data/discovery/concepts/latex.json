@@ -133,6 +133,42 @@
       "source_repo": "VikParuchuri/texify",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate-context",
+      "text": "(yet another) static site generator. Simple, customisable, fast, maths with KaTeX, code evaluation, optional pre-rendering, in Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "pix2tex: Using a ViT to convert images of equations into LaTeX code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate-context",
+      "text": "CLI for document conversion for scientific documents, powered by Mathpix OCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate-context",
+      "text": "Document conversion for scientific documents."
     }
   ],
   "candidate_glosses": [
@@ -201,6 +237,24 @@
       "source_repo": "VikParuchuri/texify",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate",
+      "text": "Document conversion for scientific documents."
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +379,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "VikParuchuri/texify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-blecher/LaTeX-OCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Mathpix/mpx-cli"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

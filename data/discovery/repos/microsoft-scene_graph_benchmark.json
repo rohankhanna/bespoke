@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:11:02.777952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "image scene graph generation benchmark",
+    "fork": false,
+    "full_name": "microsoft/scene_graph_benchmark",
+    "html_url": "https://github.com/microsoft/scene_graph_benchmark",
+    "language": "Python",
+    "pushed_at": "2022-08-30T19:24:56Z",
+    "stargazers_count": 401,
+    "topics": [],
+    "updated_at": "2026-04-28T21:54:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

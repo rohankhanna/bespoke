@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Filecoin Plus registry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "threesigmaxyz/filplus-allocator-bot",
+      "status": "candidate-context",
+      "text": "A bot that tracks the state and events for the Fillecoin Plus program."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "threesigmaxyz/filplus-allocator-bot",
+      "status": "candidate-context",
+      "text": "Update Filecoin Plus registry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "threesigmaxyz/filplus-allocator-bot",
+      "status": "candidate",
+      "text": "Update Filecoin Plus registry"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "secretariat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17956,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17956,
+      "status": "candidate",
+      "text": "maintaining"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Filecoin Plus registry",
+  "concept_id": "update-filecoin-plus-registry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "threesigmaxyz/filplus-allocator-bot"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Filecoin Plus registry",
+      "sense_id": "update-filecoin-plus-registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

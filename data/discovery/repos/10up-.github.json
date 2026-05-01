@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "github/issue-metrics@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_metrics.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_metrics.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_repos.yml"
+    },
+    {
+      "component": "github-community-projects/stale-repos@f592689f914c623d9fb51a0372f15d05f9849b09",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_repos.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_repos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_metrics.yml",
+      "source_repo": "10up/.github",
+      "target": "github/issue-metrics@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_metrics.yml",
+      "source_repo": "10up/.github",
+      "target": "peter-evans/create-issue-from-file@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_metrics.yml",
+      "source_repo": "10up/.github",
+      "target": "Monthly issue metrics (Multi Repo)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_repos.yml",
+      "source_repo": "10up/.github",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_repos.yml",
+      "source_repo": "10up/.github",
+      "target": "github-community-projects/stale-repos@f592689f914c623d9fb51a0372f15d05f9849b09",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_repos.yml",
+      "source_repo": "10up/.github",
+      "target": "peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_repos.yml",
+      "source_repo": "10up/.github",
+      "target": "Stale Repo Identifier",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:22:04.799317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1698
+    },
+    {
+      "path": ".github/workflows/issue_metrics.yml",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/stale_repos.yml",
+      "size": 1429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "trunk",
+    "description": "10up's community files",
+    "fork": false,
+    "full_name": "10up/.github",
+    "html_url": "https://github.com/10up/.github",
+    "language": null,
+    "pushed_at": "2026-03-10T14:57:49Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-10T14:58:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Monthly issue metrics (Multi Repo)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_metrics.yml",
+      "term": "Monthly issue metrics (Multi Repo)"
+    },
+    {
+      "context_snippet": "Stale Repo Identifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_repos.yml",
+      "term": "Stale Repo Identifier"
+    }
+  ]
+}

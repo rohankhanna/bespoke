@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PixarAnimationStudios/OpenSubdiv",
+      "target": "wdas/ptex",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:44.474969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "An Open-Source subdivision surface library.",
+    "fork": false,
+    "full_name": "PixarAnimationStudios/OpenSubdiv",
+    "html_url": "https://github.com/PixarAnimationStudios/OpenSubdiv",
+    "language": "C++",
+    "pushed_at": "2026-02-19T00:06:27Z",
+    "stargazers_count": 3049,
+    "topics": [],
+    "updated_at": "2026-04-29T19:22:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wdas/ptex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

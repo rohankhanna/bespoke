@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chriskempson/tomorrow-theme",
+      "target": "color-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chriskempson/tomorrow-theme",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:23:34.911045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tomorrow Theme",
+    "fork": false,
+    "full_name": "chriskempson/tomorrow-theme",
+    "html_url": "https://github.com/chriskempson/tomorrow-theme",
+    "language": "CSS",
+    "pushed_at": "2022-07-09T10:34:23Z",
+    "stargazers_count": 13971,
+    "topics": [
+      "color-scheme",
+      "theme"
+    ],
+    "updated_at": "2026-04-30T05:59:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "After having spent several years using, tweaking and refining a personal editor theme since 2005, I decided it was time to publicly release \"Tomorrow Theme\" on the _14th of February 2011_. Tomorrow theme is a colourful theme with muted colours and sensible syntax highlighting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-scheme"
+    },
+    {
+      "context_snippet": "After having spent several years using, tweaking and refining a personal editor theme since 2005, I decided it was time to publicly release \"Tomorrow Theme\" on the _14th of February 2011_. Tomorrow theme is a colourful theme with muted colours and sensible syntax highlighting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

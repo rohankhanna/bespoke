@@ -1,0 +1,12 @@
+{
+  "component": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/pinact"
+    }
+  ]
+}

@@ -754,6 +754,42 @@
       "source_repo": "ibireme/c_numconv_benchmark",
       "status": "candidate-context",
       "text": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "Repository for webpack documentation and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Next-gen browser and mobile automation test framework for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
     }
   ],
   "candidate_glosses": [
@@ -1128,6 +1164,24 @@
       "source_repo": "ibireme/c_numconv_benchmark",
       "status": "candidate",
       "text": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
     }
   ],
   "candidate_related_terms": [
@@ -1729,11 +1783,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ibireme/c_numconv_benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack.js.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webdriverio/webdriverio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

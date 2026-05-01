@@ -1,0 +1,17 @@
+{
+  "component": "helm/chart-testing-action@v2.6.0",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "beclab/Olares"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml",
+      "source_repo": "beclab/Olares"
+    }
+  ]
+}

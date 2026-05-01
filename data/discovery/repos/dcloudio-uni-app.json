@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcloudio/uni-app",
+      "target": "dcloudio/hello-uniapp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "dcloudio/uni-app",
+      "target": "dcloudio/hello-uts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "dcloudio/uni-app",
+      "target": "dcloudio/hello-uvue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app",
+      "target": "crossplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app",
+      "target": "hbuilderx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app",
+      "target": "miniprogram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app",
+      "target": "uni-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app",
+      "target": "uniapp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app",
+      "target": "vue3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:07:18.481671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1759
+    },
+    {
+      "path": "package.json",
+      "size": 651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "uni-app-x",
+    "description": "A cross-platform framework using Vue.js",
+    "fork": false,
+    "full_name": "dcloudio/uni-app",
+    "html_url": "https://github.com/dcloudio/uni-app",
+    "language": "Objective-C",
+    "pushed_at": "2026-04-30T13:02:14Z",
+    "stargazers_count": 41508,
+    "topics": [
+      "android",
+      "cross-platform",
+      "crossplatform",
+      "hbuilderx",
+      "ios",
+      "javascript",
+      "miniprogram",
+      "uni",
+      "uni-app",
+      "uniapp",
+      "vue",
+      "vue3"
+    ],
+    "updated_at": "2026-05-01T07:53:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcloudio/hello-uniapp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcloudio/hello-uts",
+      "source_file": "package.json"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcloudio/hello-uvue",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crossplatform"
+    },
+    {
+      "context_snippet": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hbuilderx"
+    },
+    {
+      "context_snippet": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "miniprogram"
+    },
+    {
+      "context_snippet": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uni-app"
+    },
+    {
+      "context_snippet": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uniapp"
+    },
+    {
+      "context_snippet": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue3"
+    }
+  ]
+}

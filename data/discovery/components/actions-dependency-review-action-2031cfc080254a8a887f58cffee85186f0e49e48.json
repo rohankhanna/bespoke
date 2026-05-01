@@ -1,7 +1,7 @@
 {
   "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -222,6 +222,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "zip-rs/zip2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/webpack-dev-middleware"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/webpack.js.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yaml",
+      "source_repo": "haskell-actions/hlint-scan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__quality_checks.yml",
+      "source_repo": "jellyfin/jellyfin-web"
     }
   ]
 }

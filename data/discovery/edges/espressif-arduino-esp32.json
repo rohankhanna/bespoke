@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "me-no-dev/espexceptiondecoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allboards.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allboards.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "P-R-O-C-H-Y/compile-sketches@a62f069b92dc8f5053da4ac439ea6d1950cf6379",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/allboards.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "Boards Test - Remote trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backlog-bot.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backlog-bot.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backlog-bot.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "Backlog Management Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boards.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boards.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boards.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "P-R-O-C-H-Y/compile-sketches@a62f069b92dc8f5053da4ac439ea6d1950cf6379",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boards.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "Boards Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_component.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_component.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "awalsh128/cache-apt-pkgs-action@2c09a5e66da6c8016428a2172bd76e5e4f14bb17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_component.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "tj-actions/changed-files@2f7c5bfce28377bc069a65ba478de0a74aa0ca32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_component.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_component.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "dcarbone/install-jq-action@e397bd87438d72198f81efd21f876461183d383a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_component.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_component.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "Arduino as ESP-IDF Component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_py_tools.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_py_tools.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "tj-actions/changed-files@2f7c5bfce28377bc069a65ba478de0a74aa0ca32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_py_tools.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_py_tools.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "espressif/release-sign@33f3684091168d78b2cf6c8265bd9968c376254c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_py_tools.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "github/codeql-action/init@181d5eefc20863364f96762470ba6f862bdef56b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "github/codeql-action/analyze@181d5eefc20863364f96762470ba6f862bdef56b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "github/codeql-action/upload-sarif@181d5eefc20863364f96762470ba6f862bdef56b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "CodeQL Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "espressif/shared-github-dangerjs@fb17367fd3e8ff7412603b8e946d9b19ffdb2d7f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "DangerJS Pull Request linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "espressif/arduino-esp32",
+      "target": "Documentation Build and Deploy CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espressif/arduino-esp32",
+      "target": "arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espressif/arduino-esp32",
+      "target": "esp-idf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espressif/arduino-esp32",
+      "target": "esp32",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "espressif/arduino-esp32"
+}

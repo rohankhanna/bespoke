@@ -19,6 +19,30 @@
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
       "status": "candidate-context",
       "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
       "status": "candidate",
       "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/MTP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/RSP"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

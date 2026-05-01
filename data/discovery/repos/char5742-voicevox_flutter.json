@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "char5742/voicevox_flutter",
+      "target": "dart-lang/ffigen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:28:22.088168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bindings to voicevox_core ",
+    "fork": false,
+    "full_name": "char5742/voicevox_flutter",
+    "html_url": "https://github.com/char5742/voicevox_flutter",
+    "language": "Dart",
+    "pushed_at": "2023-10-26T13:55:43Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-01-13T02:17:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/ffigen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

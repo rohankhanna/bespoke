@@ -19,6 +19,18 @@
       "source_repo": "surrealdb/surrealdb",
       "status": "candidate-context",
       "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "surrealdb/license",
+      "status": "candidate-context",
+      "text": "Licensing information for the SurrealDB database, components, libraries, and SDKs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/license",
+      "status": "candidate-context",
+      "text": "SurrealDB is an end-to-end cloud native database for web, mobile, serverless, jamstack, backend, and traditional applications."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "surrealdb/surrealdb",
       "status": "candidate",
       "text": "<a href=\"https://surrealdb.com#gh-dark-mode-only\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "surrealdb/license",
+      "status": "candidate",
+      "text": "SurrealDB is an end-to-end cloud native database for web, mobile, serverless, jamstack, backend, and traditional applications."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "surrealdb/license"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

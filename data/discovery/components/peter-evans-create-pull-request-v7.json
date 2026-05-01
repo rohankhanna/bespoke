@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -237,6 +237,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/releast-typst.yml",
       "source_repo": "Myriad-Dreamin/shiroa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml",
+      "source_repo": "pipecat-ai/pipecat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-notebook-examples-to-docs.yml",
+      "source_repo": "AgentOps-AI/agentops"
     }
   ]
 }

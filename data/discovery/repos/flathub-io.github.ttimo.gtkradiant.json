@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:15:20.048147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "flathub/io.github.TTimo.GtkRadiant",
+    "html_url": "https://github.com/flathub/io.github.TTimo.GtkRadiant",
+    "language": "Shell",
+    "pushed_at": "2024-01-22T03:20:08Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-01-17T08:53:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

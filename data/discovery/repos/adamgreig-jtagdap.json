@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamgreig/jtagdap",
+      "target": "adamgreig/spidap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "adamgreig/jtagdap",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "adamgreig/jtagdap",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "adamgreig/jtagdap",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:32:37.565942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 916
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 374
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arbitrary JTAG access via CMSIS-DAP compatible probes",
+    "fork": false,
+    "full_name": "adamgreig/jtagdap",
+    "html_url": "https://github.com/adamgreig/jtagdap",
+    "language": "Rust",
+    "pushed_at": "2022-11-03T01:49:19Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-03-16T19:10:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamgreig/spidap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

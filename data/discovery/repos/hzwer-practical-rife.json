@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/Practical-RIFE",
+      "target": "hzwer/arxiv2020-rife",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/Practical-RIFE",
+      "target": "google-research/frame-interpolation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/Practical-RIFE",
+      "target": "coldog2333/pytoflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/Practical-RIFE",
+      "target": "baowenbo/memc-net",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:23.578204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9463
+    },
+    {
+      "path": "requirements.txt",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "More practical frame interpolation approach.",
+    "fork": false,
+    "full_name": "hzwer/Practical-RIFE",
+    "html_url": "https://github.com/hzwer/Practical-RIFE",
+    "language": "Python",
+    "pushed_at": "2025-11-20T03:55:42Z",
+    "stargazers_count": 927,
+    "topics": [],
+    "updated_at": "2026-04-30T23:10:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baowenbo/memc-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coldog2333/pytoflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/frame-interpolation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hzwer/arxiv2020-rife",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyparam/demos",
+      "target": "hyparam/hightable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyparam/demos",
+      "target": "hyparam/squirreling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyparam/demos",
+      "target": "hyparam/icebird",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_common_jobs.yml",
+      "source_repo": "hyparam/demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_hightable_demo.yml",
+      "source_repo": "hyparam/demos",
+      "target": "hightable-demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_hyparquet_demo.yml",
+      "source_repo": "hyparam/demos",
+      "target": "hyparquet-demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_icebird_demo.yml",
+      "source_repo": "hyparam/demos",
+      "target": "icebird-demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_squirreling_demo.yml",
+      "source_repo": "hyparam/demos",
+      "target": "squirreling-demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_squirreling_gis_demo.yml",
+      "source_repo": "hyparam/demos",
+      "target": "squirreling-gis-demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "hyparam/demos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "hyparam/demos",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "hyparam/demos",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_pages.yml",
+      "source_repo": "hyparam/demos",
+      "target": "Deploy GitHub Pages",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "hyparam/demos"
+}

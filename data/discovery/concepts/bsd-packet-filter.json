@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bsd-packet-filter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-tcpdump-group/libpcap",
+      "status": "candidate-context",
+      "text": "the LIBpcap interface to various kernel packet capture mechanism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-tcpdump-group/libpcap",
+      "status": "candidate-context",
+      "text": "**To report a security issue please send an e-mail to security@tcpdump.org.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-tcpdump-group/libpcap",
+      "status": "candidate",
+      "text": "**To report a security issue please send an e-mail to security@tcpdump.org.**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bsd-packet-filter",
+  "concept_id": "bsd-packet-filter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bsd-packet-filter",
+      "sense_id": "bsd-packet-filter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

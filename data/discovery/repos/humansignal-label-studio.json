@@ -123,34 +123,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "HumanSignal/label-studio",
-      "target": "humansignal/label-studio-ml-backend",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "HumanSignal/label-studio",
-      "target": "humansignal/label-studio-sdk",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "HumanSignal/label-studio",
-      "target": "humansignal/label-studio-transformers",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "HumanSignal/label-studio",
-      "target": "humansignal/label-studio-sdk",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/algolia-crawler-hs-docs.yml",
       "source_repo": "HumanSignal/label-studio",
@@ -480,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:07:43.780899+00:00",
+  "fetched_at": "2026-05-01T10:33:15.467163+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -532,8 +504,8 @@
     "full_name": "HumanSignal/label-studio",
     "html_url": "https://github.com/HumanSignal/label-studio",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T15:05:24Z",
-    "stargazers_count": 27177,
+    "pushed_at": "2026-05-01T07:45:24Z",
+    "stargazers_count": 27184,
     "topics": [
       "annotation",
       "annotation-tool",
@@ -556,30 +528,9 @@
       "text-annotation",
       "yolo"
     ],
-    "updated_at": "2026-04-30T09:19:21Z"
+    "updated_at": "2026-05-01T10:13:18Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "humansignal/label-studio-ml-backend",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "humansignal/label-studio-sdk",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "humansignal/label-studio-transformers",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "humansignal/label-studio-sdk",
-      "source_file": "pyproject.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Algolia Indexer for HumanSignal Docs",

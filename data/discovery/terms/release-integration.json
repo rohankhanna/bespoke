@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-integration.yml",
       "source_repo": "npm/node-semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-integration.yml",
+      "source_repo": "npm/json-parse-even-better-errors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-integration.yml",
+      "source_repo": "npm/package-json"
     }
   ],
   "term": "Release Integration"

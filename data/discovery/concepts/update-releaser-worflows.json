@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update releaser worflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/extension-template",
+      "status": "candidate-context",
+      "text": "A `copier` template for JupyterLab extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-template",
+      "status": "candidate-context",
+      "text": "Update releaser worflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-template",
+      "status": "candidate",
+      "text": "Update releaser worflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11418,
+      "status": "candidate",
+      "text": "fear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11418,
+      "status": "candidate",
+      "text": "pope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11418,
+      "status": "candidate",
+      "text": "yoga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10532,
+      "status": "candidate",
+      "text": "accelerating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10532,
+      "status": "candidate",
+      "text": "arrow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update releaser worflows",
+  "concept_id": "update-releaser-worflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update-workflows.yml",
+      "source_repo": "jupyterlab/extension-template"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update releaser worflows",
+      "sense_id": "update-releaser-worflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

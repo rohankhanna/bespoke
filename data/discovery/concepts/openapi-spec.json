@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "openapi-spec"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate-context",
+      "text": "OpenAPI integration for Falco."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate-context",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.OpenApi.svg)](https://www.nuget.org/packages/Falco.OpenApi)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.OpenApi.svg)](https://www.nuget.org/packages/Falco.OpenApi)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "openapi-spec",
+  "concept_id": "openapi-spec",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.OpenApi"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openapi-spec",
+      "sense_id": "openapi-spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

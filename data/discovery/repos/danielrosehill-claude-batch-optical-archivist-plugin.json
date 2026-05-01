@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:14:02.389765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin: plan and burn batch M-Disc / BD-R / DVD archives on Ubuntu via growisofs with copy multipliers for offsite duplicates.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T17:12:21Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T17:12:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

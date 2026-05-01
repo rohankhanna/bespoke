@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19470965,
+      "status": "candidate",
+      "text": "kong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9674561,
+      "status": "candidate",
+      "text": "mishmash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9674560,
+      "status": "candidate",
+      "text": "midden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9674559,
+      "status": "candidate",
+      "text": "moop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9674557,
+      "status": "candidate",
+      "text": "mirnyong"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mongo",
+      "sense_id": "mongo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mongo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mongo",
+  "observation_id": "baf5add020a2257b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "mongo",
+  "source_context_snippet": "![Prisma](https://i.imgur.com/h6UIYTu.png)",
+  "source_file": null,
+  "source_repo": "prisma/prisma",
+  "source_repo_description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+}

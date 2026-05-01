@@ -121,13 +121,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-imagemin",
-      "target": "googlechromelabs/squoosh",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unplugin/unplugin-imagemin",
       "target": "erkelost/unplugin-imagemin",
       "target_type": "repository"
     },
@@ -293,7 +286,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T16:13:07.693653+00:00",
+  "fetched_at": "2026-05-01T10:30:27.638927+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -313,7 +306,7 @@
     "full_name": "unplugin/unplugin-imagemin",
     "html_url": "https://github.com/unplugin/unplugin-imagemin",
     "language": "TypeScript",
-    "pushed_at": "2026-04-29T20:38:45Z",
+    "pushed_at": "2026-05-01T03:41:33Z",
     "stargazers_count": 259,
     "topics": [],
     "updated_at": "2026-04-22T01:03:14Z"
@@ -322,11 +315,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "erkelost/unplugin-imagemin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googlechromelabs/squoosh",
       "source_file": "README.md"
     }
   ],

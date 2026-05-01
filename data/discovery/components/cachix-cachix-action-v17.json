@@ -1,7 +1,7 @@
 {
   "component": "cachix/cachix-action@v17",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run-test.yml",
       "source_repo": "Antares0982/ssrJSON"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "holochain/holochain-serialization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "holochain/holochain-wasmer"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Rust documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Extremely fast Query Engine for DataFrames, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Build Rust documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate",
+      "text": "Build Rust documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17929,
+      "status": "candidate",
+      "text": "crown wart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17929,
+      "status": "candidate",
+      "text": "morbid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17865,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17777,
+      "status": "candidate",
+      "text": "dross"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17777,
+      "status": "candidate",
+      "text": "steel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Rust documentation",
+  "concept_id": "build-rust-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs-rust.yml",
+      "source_repo": "pola-rs/polars"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Rust documentation",
+      "sense_id": "build-rust-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

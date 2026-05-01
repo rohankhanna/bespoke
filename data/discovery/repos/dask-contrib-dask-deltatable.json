@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v3.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v3.5.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "actions/checkout@v3.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "actions/checkout@v3.5.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "conda-incubator/setup-miniconda@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "dask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "dask-dataframes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "delta-lake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask-contrib/dask-deltatable",
+      "target": "parquet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:27:25.614914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2811
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 417
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 823
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 1937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Delta Lake reader for Dask",
+    "fork": false,
+    "full_name": "dask-contrib/dask-deltatable",
+    "html_url": "https://github.com/dask-contrib/dask-deltatable",
+    "language": "Python",
+    "pushed_at": "2025-07-29T09:51:29Z",
+    "stargazers_count": 54,
+    "topics": [
+      "dask",
+      "dask-dataframes",
+      "delta-lake",
+      "parquet",
+      "python"
+    ],
+    "updated_at": "2026-03-28T16:20:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Reading and writing to Delta Lake using Dask engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dask"
+    },
+    {
+      "context_snippet": "Reading and writing to Delta Lake using Dask engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dask-dataframes"
+    },
+    {
+      "context_snippet": "Reading and writing to Delta Lake using Dask engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delta-lake"
+    },
+    {
+      "context_snippet": "Reading and writing to Delta Lake using Dask engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    }
+  ]
+}

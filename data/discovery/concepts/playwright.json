@@ -106,6 +106,18 @@
       "source_repo": "Skyvern-AI/skyvern",
       "status": "candidate-context",
       "text": "<!-- DOCTOC SKIP -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "Examples for using Connect with various TypeScript web frameworks and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "examples-es"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "Skyvern-AI/skyvern",
       "status": "candidate",
       "text": "<!-- DOCTOC SKIP -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate",
+      "text": "examples-es"
     }
   ],
   "candidate_related_terms": [
@@ -273,11 +291,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/examples-es"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

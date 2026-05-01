@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "nan",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unicode-regex",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "target": "nan",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "target": "unicode-regex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "target": "grammar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "target": "tree-sitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:30:10.746245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1578
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 547
+    },
+    {
+      "path": "package.json",
+      "size": 997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Markdown grammar for tree-sitter",
+    "fork": false,
+    "full_name": "ikatyang/tree-sitter-markdown",
+    "html_url": "https://github.com/ikatyang/tree-sitter-markdown",
+    "language": "C++",
+    "pushed_at": "2023-07-27T21:35:08Z",
+    "stargazers_count": 193,
+    "topics": [
+      "grammar",
+      "markdown",
+      "tree-sitter"
+    ],
+    "updated_at": "2026-03-15T22:19:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![npm](https://img.shields.io/npm/v/tree-sitter-markdown.svg)](https://www.npmjs.com/package/tree-sitter-markdown)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammar"
+    },
+    {
+      "context_snippet": "[![npm](https://img.shields.io/npm/v/tree-sitter-markdown.svg)](https://www.npmjs.com/package/tree-sitter-markdown)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![npm](https://img.shields.io/npm/v/tree-sitter-markdown.svg)](https://www.npmjs.com/package/tree-sitter-markdown)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-sitter"
+    }
+  ]
+}

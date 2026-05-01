@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/android.yml"
     },
     {
-      "component": "softprops/action-gh-release@v2",
+      "component": "softprops/action-gh-release@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/linux.yml"
     },
     {
-      "component": "softprops/action-gh-release@v2",
+      "component": "softprops/action-gh-release@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml"
     },
@@ -151,7 +151,7 @@
       "source_file": ".github/workflows/macos.yml"
     },
     {
-      "component": "softprops/action-gh-release@v2",
+      "component": "softprops/action-gh-release@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yml"
     }
@@ -196,7 +196,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yml",
       "source_repo": "KhronosGroup/KTX-Software",
-      "target": "softprops/action-gh-release@v2",
+      "target": "softprops/action-gh-release@v3",
       "target_type": "component"
     },
     {
@@ -343,7 +343,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "KhronosGroup/KTX-Software",
-      "target": "softprops/action-gh-release@v2",
+      "target": "softprops/action-gh-release@v3",
       "target_type": "component"
     },
     {
@@ -399,7 +399,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "KhronosGroup/KTX-Software",
-      "target": "softprops/action-gh-release@v2",
+      "target": "softprops/action-gh-release@v3",
       "target_type": "component"
     },
     {
@@ -438,7 +438,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:05:21.527814+00:00",
+  "fetched_at": "2026-05-01T10:21:58.060100+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -450,7 +450,7 @@
     },
     {
       "path": ".github/workflows/check-libktx-only.yml",
-      "size": 5266
+      "size": 5269
     },
     {
       "path": ".github/workflows/check-mkvk.yml",
@@ -490,7 +490,7 @@
     "full_name": "KhronosGroup/KTX-Software",
     "html_url": "https://github.com/KhronosGroup/KTX-Software",
     "language": "C++",
-    "pushed_at": "2026-04-30T05:34:45Z",
+    "pushed_at": "2026-05-01T09:51:59Z",
     "stargazers_count": 1241,
     "topics": [
       "ktx",
@@ -498,7 +498,7 @@
       "opengl",
       "textures"
     ],
-    "updated_at": "2026-04-30T14:38:23Z"
+    "updated_at": "2026-05-01T09:51:54Z"
   },
   "repo_links": [
     {

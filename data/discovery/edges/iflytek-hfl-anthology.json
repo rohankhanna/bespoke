@@ -4,21 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "iflytek/HFL-Anthology",
-      "target": "iflytek/vle",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "iflytek/HFL-Anthology",
-      "target": "iflytek/minirbt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "iflytek/HFL-Anthology",
-      "target": "noviscl/advrace",
+      "target": "wtma/charbert",
       "target_type": "repository"
     },
     {
@@ -27,8 +13,22 @@
       "source_repo": "iflytek/HFL-Anthology",
       "target": "china-ai-law-challenge/cail2019",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/HFL-Anthology",
+      "target": "wtma/pr-embedding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/HFL-Anthology",
+      "target": "wtma/triplenet",
+      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "iflytek/HFL-Anthology"
 }

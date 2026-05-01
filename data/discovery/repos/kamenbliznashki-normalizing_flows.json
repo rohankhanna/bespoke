@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "target": "density-estmation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "target": "normalizing-flows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "target": "probability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:10:02.183040+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows",
+    "fork": false,
+    "full_name": "kamenbliznashki/normalizing_flows",
+    "html_url": "https://github.com/kamenbliznashki/normalizing_flows",
+    "language": "Python",
+    "pushed_at": "2021-07-12T12:40:38Z",
+    "stargazers_count": 638,
+    "topics": [
+      "deep-learning",
+      "density-estmation",
+      "normalizing-flows",
+      "probability"
+    ],
+    "updated_at": "2026-04-25T13:35:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "density-estmation"
+    },
+    {
+      "context_snippet": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalizing-flows"
+    },
+    {
+      "context_snippet": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probability"
+    }
+  ]
+}

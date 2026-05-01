@@ -1,0 +1,196 @@
+{
+  "aliases": [
+    "queuing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar",
+      "status": "candidate-context",
+      "text": "Apache Pulsar - distributed pub-sub messaging system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate-context",
+      "text": "Apache Pulsar Adapters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate-context",
+      "text": "Apache Pulsar C++ client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate-context",
+      "text": "Apache Pulsar Go Client Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "Apache Pulsar NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881433,
+      "status": "candidate",
+      "text": "queue up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39875964,
+      "status": "candidate",
+      "text": "line up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29881656,
+      "status": "candidate",
+      "text": "waiting line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29881642,
+      "status": "candidate",
+      "text": "enqueue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29857032,
+      "status": "candidate",
+      "text": "line"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "queuing",
+  "concept_id": "queuing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-node"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "queuing",
+      "sense_id": "queuing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

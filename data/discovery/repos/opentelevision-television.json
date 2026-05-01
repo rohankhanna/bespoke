@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:10:27.603549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5752
+    },
+    {
+      "path": "requirements.txt",
+      "size": 468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CoRL 2024] Open-TeleVision: Teleoperation with Immersive Active Visual Feedback",
+    "fork": false,
+    "full_name": "OpenTeleVision/TeleVision",
+    "html_url": "https://github.com/OpenTeleVision/TeleVision",
+    "language": "Python",
+    "pushed_at": "2024-09-27T02:38:47Z",
+    "stargazers_count": 1243,
+    "topics": [],
+    "updated_at": "2026-04-26T14:32:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

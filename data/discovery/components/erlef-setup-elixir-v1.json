@@ -1,0 +1,32 @@
+{
+  "component": "erlef/setup-elixir@v1",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dialyzer.yml",
+      "source_repo": "am-kantox/md"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "am-kantox/md"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_eex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_elixir"
+    }
+  ]
+}

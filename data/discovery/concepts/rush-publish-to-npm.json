@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rush publish to NPM"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "priceline/design-system",
+      "status": "candidate-context",
+      "text": "Priceline.com Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priceline/design-system",
+      "status": "candidate-context",
+      "text": "Rush publish to NPM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priceline/design-system",
+      "status": "candidate",
+      "text": "Rush publish to NPM"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "catapult"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "locking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22361,
+      "status": "candidate",
+      "text": "locks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rush publish to NPM",
+  "concept_id": "rush-publish-to-npm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/npm-publish.yaml",
+      "source_repo": "priceline/design-system"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rush publish to NPM",
+      "sense_id": "rush-publish-to-npm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

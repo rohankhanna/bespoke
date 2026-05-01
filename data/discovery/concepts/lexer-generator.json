@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lexer-generator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Create ridiculously fast Lexers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lexer-generator",
+  "concept_id": "lexer-generator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "maciejhirsz/logos"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lexer-generator",
+      "sense_id": "lexer-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sample microservices solution using Azure Container Apps, Dapr, Cosmos DB, and Azure API Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "container-apps",
+      "sense_id": "container-apps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "container-apps",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "container-apps",
+  "observation_id": "64d0b55f04d1da5d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "container-apps",
+  "source_context_snippet": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps.",
+  "source_file": null,
+  "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+  "source_repo_description": "Sample microservices solution using Azure Container Apps, Dapr, Cosmos DB, and Azure API Management"
+}

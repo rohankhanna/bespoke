@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-statsmodels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-statsmodels",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-statsmodels",
+      "target": "maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:26:42.143495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4498
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java library and command-line application for converting StatsModels models to PMML",
+    "fork": false,
+    "full_name": "jpmml/jpmml-statsmodels",
+    "html_url": "https://github.com/jpmml/jpmml-statsmodels",
+    "language": "Java",
+    "pushed_at": "2026-04-27T11:41:53Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-27T11:41:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "maven"
+    }
+  ]
+}

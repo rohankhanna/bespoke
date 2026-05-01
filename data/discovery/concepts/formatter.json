@@ -634,6 +634,30 @@
       "source_repo": "prontolabs/pronto",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate-context",
+      "text": "Draw pretty micro benchmarking charts in HTML and allow to export them as png for benchee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate-context",
+      "text": "Formatter for [benchee](//github.com/PragTob/benchee) to produce some standalone HTML with nice graphs, a data table etc. from your benchee benchmarking results :) Also allows you to export PNG images, the graphs are also somewhat explorable thanks to [plotly.js](https://plot.ly\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "A code formatter for Julia with rules set in stone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "*A code formatter with rules set in stone.*"
     }
   ],
   "candidate_glosses": [
@@ -948,6 +972,18 @@
       "source_repo": "prontolabs/pronto",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate",
+      "text": "Formatter for [benchee](//github.com/PragTob/benchee) to produce some standalone HTML with nice graphs, a data table etc. from your benchee benchmarking results :) Also allows you to export PNG images, the graphs are also somewhat explorable thanks to [plotly.js](https://plot.ly\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate",
+      "text": "*A code formatter with rules set in stone.*"
     }
   ],
   "candidate_related_terms": [
@@ -1459,11 +1495,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fredrikekre/Runic.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "typstyle-rs/typstyle"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

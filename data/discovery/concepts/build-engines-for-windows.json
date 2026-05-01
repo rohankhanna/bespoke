@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Engines for Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate-context",
+      "text": "\ud83d\ude82 Engine components of Prisma ORM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate-context",
+      "text": "Build Engines for Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate",
+      "text": "Build Engines for Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17968,
+      "status": "candidate",
+      "text": "snorkel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17900,
+      "status": "candidate",
+      "text": "reheat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17764,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17764,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17764,
+      "status": "candidate",
+      "text": "millwork"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Engines for Windows",
+  "concept_id": "build-engines-for-windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-engines-windows-template.yml",
+      "source_repo": "prisma/prisma-engines"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Engines for Windows",
+      "sense_id": "build-engines-for-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

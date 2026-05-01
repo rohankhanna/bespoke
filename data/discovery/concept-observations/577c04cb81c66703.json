@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "To manage Docker Content Trust and Notary certificates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922231,
+      "status": "candidate",
+      "text": "notary public"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922297,
+      "status": "candidate",
+      "text": "attorney"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922225,
+      "status": "candidate",
+      "text": "lawyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29919711,
+      "status": "candidate",
+      "text": "escrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29918125,
+      "status": "candidate",
+      "text": "notarial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notary",
+      "sense_id": "notary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35,
+      "status": "candidate",
+      "text": "notary public"
+    }
+  ],
+  "concept_id": "notary",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notary",
+  "observation_id": "577c04cb81c66703",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "notary",
+  "source_context_snippet": "[![Continuous Integration](https://github.com/philips-labs/dct-notary-admin/workflows/Continuous%20Integration/badge.svg)](https://github.com/philips-labs/dct-notary-admin/actions?query=workflow%3A\"Continuous+Integration\"+branch%3Adevelop)",
+  "source_file": null,
+  "source_repo": "philips-labs/dct-notary-admin",
+  "source_repo_description": "To manage Docker Content Trust and Notary certificates"
+}

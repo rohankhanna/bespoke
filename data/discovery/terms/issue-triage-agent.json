@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-triage.yml",
       "source_repo": "tombii/better-ccflare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/triage-agent.yml",
+      "source_repo": "TanStack/devtools"
     }
   ],
   "term": "Issue Triage Agent"

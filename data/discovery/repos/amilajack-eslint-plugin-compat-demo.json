@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-compat",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "target": "eslint-plugin-compat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "target": "compat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:22:59.448122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 724
+    },
+    {
+      "path": "package.json",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimal demo of eslint-plugin-compat",
+    "fork": false,
+    "full_name": "amilajack/eslint-plugin-compat-demo",
+    "html_url": "https://github.com/amilajack/eslint-plugin-compat-demo",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-18T19:25:59Z",
+    "stargazers_count": 9,
+    "topics": [
+      "compat",
+      "demo",
+      "eslint",
+      "plugin"
+    ],
+    "updated_at": "2025-09-21T15:20:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "eslint-plugin-compat-demo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compat"
+    },
+    {
+      "context_snippet": "eslint-plugin-compat-demo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "eslint-plugin-compat-demo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "eslint-plugin-compat-demo",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

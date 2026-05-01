@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DocGenome: An Open Large-scale Scientific Document Benchmark for Training and Testing Multi-modal Large Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paper-annotation",
+      "sense_id": "paper-annotation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "paper-annotation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "paper-annotation",
+  "observation_id": "4ad15c368a4de6f8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "paper-annotation",
+  "source_context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)",
+  "source_file": null,
+  "source_repo": "Alpha-Innovator/DocGenome",
+  "source_repo_description": "DocGenome: An Open Large-scale Scientific Document Benchmark for Training and Testing Multi-modal Large Models"
+}

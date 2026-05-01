@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "sirv-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml"
+    },
+    {
+      "component": "azure/CLI@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    },
+    {
+      "component": "Azure/setup-azd@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
+      "target": "sirv-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
+      "target": "azure/CLI@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
+      "target": "Validate bicep scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
+      "target": "Azure/setup-azd@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:10.222337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3326
+    },
+    {
+      "path": "package.json",
+      "size": 225
+    },
+    {
+      "path": ".github/workflows/azure-bicep-validate.yaml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/azure-dev.yaml",
+      "size": 2507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple frontend using the AI Chat Protocol SDK to stream responses from compatible backends. Deployable to Static Web Apps.",
+    "fork": false,
+    "full_name": "Azure-Samples/openai-chat-frontend-vanillajs",
+    "html_url": "https://github.com/Azure-Samples/openai-chat-frontend-vanillajs",
+    "language": "HTML",
+    "pushed_at": "2025-08-01T18:53:47Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-11-25T06:14:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Validate bicep scripts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "term": "Validate bicep scripts"
+    }
+  ]
+}

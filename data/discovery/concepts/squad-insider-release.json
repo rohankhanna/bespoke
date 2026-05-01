@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Squad Insider Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate-context",
+      "text": "Five lessons, learn how to really apply AI to your .NET Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate-context",
+      "text": "Squad Insider Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate",
+      "text": "Squad Insider Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20668,
+      "status": "candidate",
+      "text": "detail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20668,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20668,
+      "status": "candidate",
+      "text": "patrol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20668,
+      "status": "candidate",
+      "text": "relay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20621,
+      "status": "candidate",
+      "text": "substitute"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Squad Insider Release",
+  "concept_id": "squad-insider-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/squad-insider-release.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Squad Insider Release",
+      "sense_id": "squad-insider-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

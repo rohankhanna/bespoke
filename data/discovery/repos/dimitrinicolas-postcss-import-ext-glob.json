@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "fast-glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fast-sort",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-value-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava-postcss-tester",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodemon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "postcss/postcss-import",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "dimitrinicolas/ava-postcss-tester",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "fast-glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "fast-sort",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "postcss-value-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "ava-postcss-tester",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "nodemon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "postcss-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "postcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "postcss-import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "target": "postcss-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:19:58.104524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2499
+    },
+    {
+      "path": "package.json",
+      "size": 1324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PostCSS plugin to extend postcss-import path resolver to allow glob usage as path, e.g. @import-glob \"**/*.css\";",
+    "fork": false,
+    "full_name": "dimitrinicolas/postcss-import-ext-glob",
+    "html_url": "https://github.com/dimitrinicolas/postcss-import-ext-glob",
+    "language": "JavaScript",
+    "pushed_at": "2022-11-30T10:42:08Z",
+    "stargazers_count": 40,
+    "topics": [
+      "glob",
+      "postcss",
+      "postcss-import",
+      "postcss-plugin"
+    ],
+    "updated_at": "2025-10-06T01:13:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimitrinicolas/ava-postcss-tester",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "postcss/postcss-import",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob"
+    },
+    {
+      "context_snippet": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postcss"
+    },
+    {
+      "context_snippet": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postcss-import"
+    },
+    {
+      "context_snippet": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postcss-plugin"
+    }
+  ]
+}

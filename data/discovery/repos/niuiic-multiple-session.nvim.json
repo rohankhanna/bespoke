@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/multiple-session.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/multiple-session.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/multiple-session.nvim",
+      "target": "session",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:24:12.390183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Session manager for neovim",
+    "fork": false,
+    "full_name": "niuiic/multiple-session.nvim",
+    "html_url": "https://github.com/niuiic/multiple-session.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-05-25T13:41:34Z",
+    "stargazers_count": 9,
+    "topics": [
+      "neovim",
+      "plugin",
+      "session"
+    ],
+    "updated_at": "2025-04-24T16:02:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Provides multi-session management capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Provides multi-session management capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Provides multi-session management capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "session"
+    }
+  ]
+}

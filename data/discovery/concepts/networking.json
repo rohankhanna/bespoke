@@ -379,6 +379,18 @@
       "source_repo": "apple/swift-nio",
       "status": "candidate-context",
       "text": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfc Record and replay OkHttp network interaction in your tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate-context",
+      "text": "Build/Test"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "apple/swift-nio",
       "status": "candidate",
       "text": "[![sswg:graduated|104x20](https://img.shields.io/badge/sswg-graduated-green.svg)](https://github.com/swift-server/sswg/blob/main/process/incubation.md#graduated-level)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate",
+      "text": "Build/Test"
     }
   ],
   "candidate_related_terms": [
@@ -796,11 +814,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "apple/swift-nio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/okreplay"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

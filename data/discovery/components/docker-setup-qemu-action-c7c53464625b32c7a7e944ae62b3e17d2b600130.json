@@ -2,7 +2,7 @@
   "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -169,6 +169,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "kubeflow/spark-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "excalidraw/excalidraw"
     }
   ]
 }

@@ -69,6 +69,30 @@
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
       "status": "candidate-context",
       "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "OpenTinker is an RL-as-a-Service infrastructure for foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "isort"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate-context",
+      "text": "Tools for handling multimodal data in machine learning projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate-context",
+      "text": "isort"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +125,18 @@
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
       "status": "candidate",
       "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate",
+      "text": "isort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate",
+      "text": "isort"
     }
   ],
   "candidate_related_terms": [],
@@ -156,11 +192,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "open-tinker/OpenTinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/isort.yml",
+      "source_repo": "lhotse-speech/lhotse"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@v9",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -437,6 +437,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale-bot.yml",
       "source_repo": "panjf2000/ants"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remove-stale-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "paper-trail-gem/paper_trail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/response.yml",
+      "source_repo": "lewis6991/gitsigns.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "github/super-linter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale-check.yml",
+      "source_repo": "AgentOps-AI/agentops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale-issue-pr.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale-issue-pr.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale_issue_pr_manager.yaml",
+      "source_repo": "invertase/melos"
     }
   ]
 }

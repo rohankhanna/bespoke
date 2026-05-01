@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:06:19.624827+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimalistic and high-performance SAT solver",
+    "fork": false,
+    "full_name": "niklasso/minisat",
+    "html_url": "https://github.com/niklasso/minisat",
+    "language": "C++",
+    "pushed_at": "2024-04-28T23:57:29Z",
+    "stargazers_count": 1160,
+    "topics": [],
+    "updated_at": "2026-04-19T13:21:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

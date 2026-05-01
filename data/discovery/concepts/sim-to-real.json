@@ -19,6 +19,18 @@
       "source_repo": "princeton-nlp/WebShop",
       "status": "candidate-context",
       "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate-context",
+      "text": "Sim-to-real RL training and deployment tools for the Unitree Go1 robot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate-context",
+      "text": "1. [Overview](#overview)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "princeton-nlp/WebShop",
       "status": "candidate",
       "text": "[![Python version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-3813/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate",
+      "text": "1. [Overview](#overview)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "princeton-nlp/WebShop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Improbable-AI/walk-these-ways"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

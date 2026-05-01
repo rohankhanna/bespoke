@@ -1,0 +1,12 @@
+{
+  "component": "ava-postcss-tester",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob"
+    }
+  ]
+}

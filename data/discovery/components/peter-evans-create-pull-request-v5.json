@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v5",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/localization.yml",
       "source_repo": "IEvangelist/blazor-azure-openai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "mermaid-js/mermaid-live-editor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clean-patches.yml",
+      "source_repo": "w3c/webref"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "w3c/webref"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend_release.yml",
+      "source_repo": "weaviate/elysia"
     }
   ]
 }

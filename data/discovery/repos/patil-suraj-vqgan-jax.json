@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:09:44.097684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JAX implementation of VQGAN",
+    "fork": false,
+    "full_name": "patil-suraj/vqgan-jax",
+    "html_url": "https://github.com/patil-suraj/vqgan-jax",
+    "language": "Python",
+    "pushed_at": "2022-07-09T21:18:35Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-02-19T19:18:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

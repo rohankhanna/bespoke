@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:10:01.768777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2426
+    },
+    {
+      "path": "Dockerfile",
+      "size": 999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Image restoration with neural networks but without learning.",
+    "fork": false,
+    "full_name": "DmitryUlyanov/deep-image-prior",
+    "html_url": "https://github.com/DmitryUlyanov/deep-image-prior",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-04-27T03:47:44Z",
+    "stargazers_count": 8078,
+    "topics": [],
+    "updated_at": "2026-04-30T13:28:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

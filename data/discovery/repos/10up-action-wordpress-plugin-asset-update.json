@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "target": "10up/action-wordpress-plugin-deploy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "target": "Release Pull Request Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "target": "Automated Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:22:09.651433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7185
+    },
+    {
+      "path": ".github/workflows/close-stale-issues.yml",
+      "size": 1672
+    },
+    {
+      "path": ".github/workflows/release-pull-request.yml",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Update your plugin readme and assets in the WordPress.org repository outside of new releases",
+    "fork": false,
+    "full_name": "10up/action-wordpress-plugin-asset-update",
+    "html_url": "https://github.com/10up/action-wordpress-plugin-asset-update",
+    "language": "Shell",
+    "pushed_at": "2026-01-13T01:10:11Z",
+    "stargazers_count": 135,
+    "topics": [],
+    "updated_at": "2026-04-15T12:55:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "10up/action-wordpress-plugin-deploy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Release Pull Request Automation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "term": "Release Pull Request Automation"
+    },
+    {
+      "context_snippet": "Automated Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Automated Tests"
+    }
+  ]
+}

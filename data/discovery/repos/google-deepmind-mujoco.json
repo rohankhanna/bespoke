@@ -83,27 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/mujoco",
-      "target": "ttktjmt/mjswan",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/mujoco",
-      "target": "myohub/myoconverter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/mujoco",
-      "target": "rhoban/onshape-to-robot",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "google-deepmind/mujoco",
@@ -244,7 +223,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:54:39.993209+00:00",
+  "fetched_at": "2026-05-01T09:35:35.713519+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -280,32 +259,16 @@
     "full_name": "google-deepmind/mujoco",
     "html_url": "https://github.com/google-deepmind/mujoco",
     "language": "C++",
-    "pushed_at": "2026-04-30T15:41:52Z",
-    "stargazers_count": 13302,
+    "pushed_at": "2026-05-01T07:20:16Z",
+    "stargazers_count": 13303,
     "topics": [
       "mujoco",
       "physics",
       "robotics"
     ],
-    "updated_at": "2026-04-30T15:41:58Z"
+    "updated_at": "2026-05-01T09:23:33Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "myohub/myoconverter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rhoban/onshape-to-robot",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ttktjmt/mjswan",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "build",

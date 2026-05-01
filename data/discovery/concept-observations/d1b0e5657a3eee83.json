@@ -48,7 +48,7 @@
   "normalized_form": "decnum",
   "observation_id": "d1b0e5657a3eee83",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "decnum",
   "source_context_snippet": "decnum",
   "source_file": ".github/workflows/decnum.yml",

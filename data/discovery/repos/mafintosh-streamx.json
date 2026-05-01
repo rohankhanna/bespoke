@@ -60,6 +60,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mafintosh/streamx",
+      "target": "holepunchto/merge-readable",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "mafintosh/streamx",
@@ -137,7 +144,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:53:07.769096+00:00",
+  "fetched_at": "2026-05-01T09:10:38.858013+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -167,6 +174,11 @@
     "updated_at": "2026-04-08T11:36:43Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "holepunchto/merge-readable",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "streamxorg/streamx",

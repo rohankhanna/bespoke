@@ -55,6 +55,54 @@
       "source_repo": "asafschers/scoruby",
       "status": "candidate-context",
       "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate-context",
+      "text": "Numo::Liblinear is a Ruby gem binding to the LIBLINEAR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate-context",
+      "text": "Numo::Libsvm is a Ruby gem binding to the LIBSVM "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-libsvm/workflows/build/badge.svg)](https://github.com/yoshoku/numo-libsvm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "red-data-tools/pycall.rb",
+      "status": "candidate-context",
+      "text": "Calling Python functions from the Ruby language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "red-data-tools/pycall.rb",
+      "status": "candidate-context",
+      "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "Ruby language bindings for LIBSVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "asafschers/scoruby",
       "status": "candidate",
       "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-libsvm/workflows/build/badge.svg)](https://github.com/yoshoku/numo-libsvm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "red-data-tools/pycall.rb",
+      "status": "candidate",
+      "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +190,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "asafschers/scoruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-liblinear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-libsvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

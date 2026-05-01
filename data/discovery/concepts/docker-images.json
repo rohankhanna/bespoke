@@ -95,6 +95,30 @@
       "source_repo": "lite-xl/lite-xl-build-box",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "Docker Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate-context",
+      "text": "A Docker credential helper for GCR users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate-context",
+      "text": "<a href=\"https://gcr.io\"><img src=\"https://avatars2.githubusercontent.com/u/21046548?s=400&v=4\" height=\"120\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -139,6 +163,18 @@
       "source_repo": "lite-xl/lite-xl-build-box",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate",
+      "text": "Docker Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate",
+      "text": "<a href=\"https://gcr.io\"><img src=\"https://avatars2.githubusercontent.com/u/21046548?s=400&v=4\" height=\"120\"/></a>"
     }
   ],
   "candidate_related_terms": [
@@ -230,11 +266,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "lite-xl/lite-xl-build-box"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "RDFLib/rdflib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

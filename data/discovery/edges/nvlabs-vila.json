@@ -20,15 +20,8 @@
       "source_repo": "NVlabs/VILA",
       "target": "facebookresearch/llama",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "NVlabs/VILA",
-      "target": "nvlabs/ps3",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "NVlabs/VILA"
 }

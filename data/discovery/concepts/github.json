@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -715,6 +717,30 @@
       "source_repo": "2KAbhishek/utils.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitalets/github-trending-repos",
+      "status": "candidate-context",
+      "text": "Track GitHub trending repositories in your favorite programming language by native GitHub notifications!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/github-trending-repos",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://user-images.githubusercontent.com/1473072/33020417-45869a00-ce0f-11e7-9faa-368445d463f7.gif\" alt=\"Stars counter\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate-context",
+      "text": "Smithy code generators for Go (in development)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate-context",
+      "text": "github"
     }
   ],
   "candidate_glosses": [
@@ -1071,6 +1097,18 @@
       "source_repo": "2KAbhishek/utils.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitalets/github-trending-repos",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://user-images.githubusercontent.com/1473072/33020417-45869a00-ce0f-11e7-9faa-368445d463f7.gif\" alt=\"Stars counter\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate",
+      "text": "github"
     }
   ],
   "candidate_related_terms": [
@@ -1594,11 +1632,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/cmtr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vitalets/github-trending-repos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/cmtr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "aws/smithy-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

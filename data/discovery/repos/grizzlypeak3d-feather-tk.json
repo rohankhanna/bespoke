@@ -63,34 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "grizzlypeak3d/feather-tk",
-      "target": "grizzlypeak3d/tlrender",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "grizzlypeak3d/feather-tk",
-      "target": "opentimelineio/toucan",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "grizzlypeak3d/feather-tk",
-      "target": "sammycage/lunasvg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "grizzlypeak3d/feather-tk",
-      "target": "btzy/nativefiledialog-extended",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-workflow.yml",
       "source_repo": "grizzlypeak3d/feather-tk",
@@ -105,7 +77,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T13:08:14.341590+00:00",
+  "fetched_at": "2026-05-01T08:12:28.286360+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -130,27 +102,6 @@
     "topics": [],
     "updated_at": "2026-04-29T00:47:03Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "btzy/nativefiledialog-extended",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "grizzlypeak3d/tlrender",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "opentimelineio/toucan",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sammycage/lunasvg",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

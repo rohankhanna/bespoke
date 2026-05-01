@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build main",
-    "Build (main)"
+    "Build (main)",
+    "Build Main"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "apple/pkl",
       "status": "candidate-context",
       "text": "Build (main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itroyano/ustore-operator",
+      "status": "candidate-context",
+      "text": "A Go Operator for creating and managing instances of Unum UKV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itroyano/ustore-operator",
+      "status": "candidate-context",
+      "text": "Build Main"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "apple/pkl",
       "status": "candidate",
       "text": "Build (main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itroyano/ustore-operator",
+      "status": "candidate",
+      "text": "Build Main"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +155,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-main.yml",
+      "source_repo": "itroyano/ustore-operator"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

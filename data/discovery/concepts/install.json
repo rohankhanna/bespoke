@@ -118,6 +118,24 @@
       "source_repo": "Botspot/pi-apps",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "Install PyTorch distributions with computation backend auto-detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "[![BSD-3-Clause License](https://img.shields.io/github/license/Slicer/light-the-torch)](https://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +192,18 @@
       "source_repo": "Botspot/pi-apps",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate",
+      "text": "install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate",
+      "text": "[![BSD-3-Clause License](https://img.shields.io/github/license/Slicer/light-the-torch)](https://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_related_terms": [
@@ -354,11 +384,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "Slicer/light-the-torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Slicer/light-the-torch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

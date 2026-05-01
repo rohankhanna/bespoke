@@ -103,6 +103,42 @@
       "source_repo": "nerfstudio-project/nerfstudio",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is a implementation of the 3D FLAME model in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "Tensorflow framework for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 2D or 3D keypoints, and how to generate textured head meshes from Images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate-context",
+      "text": "Photometric optimization code for creating the FLAME texture space and other applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate-context",
+      "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "nerfstudio-project/nerfstudio",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HavenFeng/photometric_optimization",
+      "status": "candidate",
+      "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +262,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "nerfstudio-project/nerfstudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/TF_FLAME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HavenFeng/photometric_optimization"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:15:13.830306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7738
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "spring-ai-alibaba/deepresearch",
+    "html_url": "https://github.com/spring-ai-alibaba/deepresearch",
+    "language": "Java",
+    "pushed_at": "2026-03-02T04:13:36Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-04-28T09:25:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

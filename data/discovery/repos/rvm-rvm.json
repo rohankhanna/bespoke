@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpg_signature.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rvm/rvm",
+      "target": "rvm/ubuntu_rvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpg_signature.yml",
+      "source_repo": "rvm/rvm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpg_signature.yml",
+      "source_repo": "rvm/rvm",
+      "target": "GPG",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml",
+      "source_repo": "rvm/rvm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/specs.yml",
+      "source_repo": "rvm/rvm",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rvm/rvm",
+      "target": "jruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rvm/rvm",
+      "target": "mri-ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rvm/rvm",
+      "target": "mruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rvm/rvm",
+      "target": "rubinius",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rvm/rvm",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rvm/rvm",
+      "target": "ruby-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rvm/rvm",
+      "target": "ruby-versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rvm/rvm",
+      "target": "truffleruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:04:02.242769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7585
+    },
+    {
+      "path": "Dockerfile",
+      "size": 320
+    },
+    {
+      "path": ".github/workflows/gpg_signature.yml",
+      "size": 483
+    },
+    {
+      "path": ".github/workflows/specs.yml",
+      "size": 2594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby enVironment Manager (RVM)",
+    "fork": false,
+    "full_name": "rvm/rvm",
+    "html_url": "https://github.com/rvm/rvm",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T12:14:53Z",
+    "stargazers_count": 5192,
+    "topics": [
+      "jruby",
+      "mri-ruby",
+      "mruby",
+      "rbx",
+      "rubinius",
+      "ruby",
+      "ruby-environment",
+      "ruby-versions",
+      "rvm",
+      "truffleruby"
+    ],
+    "updated_at": "2026-04-28T03:35:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rvm/ubuntu_rvm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GPG",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpg_signature.yml",
+      "term": "GPG"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jruby"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mri-ruby"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mruby"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubinius"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-environment"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-versions"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truffleruby"
+    }
+  ]
+}

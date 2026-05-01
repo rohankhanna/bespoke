@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-AI-Model-Research-Plugin",
+      "target": "danielrosehill/model-scout-mcp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:01.134203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-AI-Model-Research-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T19:37:59Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T19:38:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/model-scout-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

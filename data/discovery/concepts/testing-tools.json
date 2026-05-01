@@ -169,6 +169,18 @@
       "source_repo": "karatelabs/karate",
       "status": "candidate-context",
       "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Headless browser for Go for TDD workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
     }
   ],
   "candidate_glosses": [
@@ -249,6 +261,12 @@
       "source_repo": "karatelabs/karate",
       "status": "candidate",
       "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +364,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "karatelabs/karate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gost-dom/browser"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "Improbable-AI/VisionProTeleop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "Improbable-AI/VisionProTeleop",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "Improbable-AI/VisionProTeleop",
+      "target": "Deploy Documentation to GitHub Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:23.323319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30565
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VisionOS App + Python Library to stream hand tracking data from Vision Pro, video/audio stream to Vision Pro.",
+    "fork": false,
+    "full_name": "Improbable-AI/VisionProTeleop",
+    "html_url": "https://github.com/Improbable-AI/VisionProTeleop",
+    "language": "C++",
+    "pushed_at": "2025-12-28T02:18:18Z",
+    "stargazers_count": 765,
+    "topics": [],
+    "updated_at": "2026-04-29T13:08:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Documentation to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Documentation to GitHub Pages"
+    }
+  ]
+}

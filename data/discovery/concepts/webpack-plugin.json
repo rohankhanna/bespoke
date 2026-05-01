@@ -43,6 +43,42 @@
       "source_repo": "relative-ci/bundle-stats",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate-context",
+      "text": "A secure webpack plugin that supports dotenv and other environment variables and only exposes what you choose and use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "Repository for webpack documentation and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "status": "candidate-context",
+      "text": "A Webpack plugin to optimize \\ minimize CSS assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "status": "candidate-context",
+      "text": "A Webpack plugin to optimize \\ minimize CSS assets."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "relative-ci/bundle-stats",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "status": "candidate",
+      "text": "A Webpack plugin to optimize \\ minimize CSS assets."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "relative-ci/bundle-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mrsteele/dotenv-webpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack.js.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

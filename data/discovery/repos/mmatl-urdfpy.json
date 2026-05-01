@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/urdfpy",
+      "target": "kinematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/urdfpy",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/urdfpy",
+      "target": "urdf-descriptions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/urdfpy",
+      "target": "urdf-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/urdfpy",
+      "target": "urdf-visualizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:34:51.601423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1202
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python parser for URDFs",
+    "fork": false,
+    "full_name": "mmatl/urdfpy",
+    "html_url": "https://github.com/mmatl/urdfpy",
+    "language": "Python",
+    "pushed_at": "2024-08-19T06:34:25Z",
+    "stargazers_count": 320,
+    "topics": [
+      "kinematics",
+      "robotics",
+      "ros",
+      "urdf-descriptions",
+      "urdf-models",
+      "urdf-visualizer"
+    ],
+    "updated_at": "2026-04-28T02:10:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kinematics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-descriptions"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-models"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-visualizer"
+    }
+  ]
+}

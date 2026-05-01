@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "CI and Publish",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "criccomini/uniffi-bindgen-node-js"
+}

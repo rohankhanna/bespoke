@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prism Avalonia UI framework. Super charge your cross-platform apps with IoC, navigation, and more! Sponsored by Suess Labs. Prism is based on Microsoft patterns and practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> ## Announcement"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> ## Announcement"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xeno-innovations",
+      "sense_id": "xeno-innovations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "xeno-innovations",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "xeno-innovations",
+  "observation_id": "df00cbc751a453b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "xeno-innovations",
+  "source_context_snippet": "> ## Announcement",
+  "source_file": null,
+  "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+  "source_repo_description": "Prism Avalonia UI framework. Super charge your cross-platform apps with IoC, navigation, and more! Sponsored by Suess Labs. Prism is based on Microsoft patterns and practices."
+}

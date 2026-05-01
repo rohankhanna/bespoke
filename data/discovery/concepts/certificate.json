@@ -43,6 +43,18 @@
       "source_repo": "novnc/websockify",
       "status": "candidate-context",
       "text": "websockify was formerly named wsproxy and was part of the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "The easiest, and most secure way to access and protect all of your infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "novnc/websockify",
       "status": "candidate",
       "text": "websockify was formerly named wsproxy and was part of the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +171,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "novnc/websockify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gravitational/teleport"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

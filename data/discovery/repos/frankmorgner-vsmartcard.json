@@ -1,0 +1,308 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "vapier/coverity-scan-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "vapier/coverity-scan-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "ccid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "emulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "pcsc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "smartcard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "smartcard-reader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard",
+      "target": "tizen-wearable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:31:21.062203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1402
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3629
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "umbrella project for emulation of smart card readers or smart cards",
+    "fork": false,
+    "full_name": "frankmorgner/vsmartcard",
+    "html_url": "https://github.com/frankmorgner/vsmartcard",
+    "language": "C",
+    "pushed_at": "2026-03-12T21:09:17Z",
+    "stargazers_count": 836,
+    "topics": [
+      "android",
+      "c",
+      "ccid",
+      "emulation",
+      "nfc",
+      "pcsc",
+      "python",
+      "security",
+      "smartcard",
+      "smartcard-reader",
+      "tizen-wearable"
+    ],
+    "updated_at": "2026-04-28T07:16:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity Scan"
+    },
+    {
+      "context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ccid"
+    },
+    {
+      "context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emulation"
+    },
+    {
+      "context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pcsc"
+    },
+    {
+      "context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smartcard"
+    },
+    {
+      "context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smartcard-reader"
+    },
+    {
+      "context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tizen-wearable"
+    }
+  ]
+}

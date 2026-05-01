@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phsym/prettytable-rs",
+      "target": "google/evcxr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phsym/prettytable-rs",
+      "target": "crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phsym/prettytable-rs",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phsym/prettytable-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:08:28.416242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13347
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A rust library to print aligned and formatted tables",
+    "fork": false,
+    "full_name": "phsym/prettytable-rs",
+    "html_url": "https://github.com/phsym/prettytable-rs",
+    "language": "Rust",
+    "pushed_at": "2024-09-20T04:41:24Z",
+    "stargazers_count": 1047,
+    "topics": [
+      "cli",
+      "crates",
+      "formatting",
+      "rust"
+    ],
+    "updated_at": "2026-04-21T08:39:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/evcxr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crates"
+    },
+    {
+      "context_snippet": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

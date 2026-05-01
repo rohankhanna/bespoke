@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ROS2-package-CI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "ros-tooling/setup-ros@87aeba050fd62d0ee5d5fdf4b6c9f847892ea864",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ROS2-package-CI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "ros-tooling/action-ros-ci@1ff2c804b4c2383146d8cd8444dfda64ab4bf7ac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/upload-artifact@c7d193f32edcb7bfad88892161225aeda64e9392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "camera-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "developer-kits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "hardware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "librealsense",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "realsenseai/librealsense"
+}

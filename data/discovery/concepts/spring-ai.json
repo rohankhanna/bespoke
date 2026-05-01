@@ -55,6 +55,30 @@
       "source_repo": "spring-ai-community/awesome-spring-ai",
       "status": "candidate-context",
       "text": "A curated list of awesome resources, tools, tutorials, and projects for building generative AI applications using Spring AI. This repository aims to help developers leverage the power of Large Language Models (LLMs) within the Spring ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "Agentic AI Framework for Java Developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "piomin/spring-ai-showcase",
+      "status": "candidate-context",
+      "text": "Sample Spring AI Application with several use cases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piomin/spring-ai-showcase",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "spring-ai-community/awesome-spring-ai",
       "status": "candidate",
       "text": "A curated list of awesome resources, tools, tutorials, and projects for building generative AI applications using Spring AI. This repository aims to help developers leverage the power of Large Language Models (LLMs) within the Spring ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piomin/spring-ai-showcase",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "langgraph4j/langgraph4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

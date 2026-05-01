@@ -310,6 +310,42 @@
       "source_repo": "viser-project/viser",
       "status": "candidate-context",
       "text": "formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate-context",
+      "text": "PostCSS plugin to keep rules and at-rules content in order."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "A wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "LSP-format.nvim is a wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phsym/prettytable-rs",
+      "status": "candidate-context",
+      "text": "A rust library to print aligned and formatted tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phsym/prettytable-rs",
+      "status": "candidate-context",
+      "text": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +498,24 @@
       "source_repo": "viser-project/viser",
       "status": "candidate",
       "text": "formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate",
+      "text": "LSP-format.nvim is a wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phsym/prettytable-rs",
+      "status": "candidate",
+      "text": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -773,11 +827,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/formatting.yaml",
       "source_repo": "viser-project/viser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hudochenkov/postcss-sorting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-reineke/lsp-format.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "phsym/prettytable-rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

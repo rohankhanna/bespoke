@@ -1,0 +1,12 @@
+{
+  "component": "amondnet/vercel-action@16e87c0a08142b0d0d33b76aeaf20823c381b9b9",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vercel.yml",
+      "source_repo": "un-ts/prettier"
+    }
+  ]
+}

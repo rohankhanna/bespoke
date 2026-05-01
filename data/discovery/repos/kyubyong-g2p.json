@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/g2p",
+      "target": "cmudict",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/g2p",
+      "target": "english-grapheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/g2p",
+      "target": "g2p-seq2seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/g2p",
+      "target": "pronunciation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:31:59.598282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4404
+    },
+    {
+      "path": "README.rst",
+      "size": 4001
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "g2p: English Grapheme To Phoneme Conversion",
+    "fork": false,
+    "full_name": "Kyubyong/g2p",
+    "html_url": "https://github.com/Kyubyong/g2p",
+    "language": "Python",
+    "pushed_at": "2023-01-05T01:52:10Z",
+    "stargazers_count": 918,
+    "topics": [
+      "cmudict",
+      "english-grapheme",
+      "g2p",
+      "g2p-seq2seq",
+      "pronunciation"
+    ],
+    "updated_at": "2026-04-24T05:33:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![image](https://img.shields.io/pypi/v/g2p-en.svg)](https://pypi.org/project/g2p-en/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmudict"
+    },
+    {
+      "context_snippet": "[![image](https://img.shields.io/pypi/v/g2p-en.svg)](https://pypi.org/project/g2p-en/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english-grapheme"
+    },
+    {
+      "context_snippet": "[![image](https://img.shields.io/pypi/v/g2p-en.svg)](https://pypi.org/project/g2p-en/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "g2p-seq2seq"
+    },
+    {
+      "context_snippet": "[![image](https://img.shields.io/pypi/v/g2p-en.svg)](https://pypi.org/project/g2p-en/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pronunciation"
+    }
+  ]
+}

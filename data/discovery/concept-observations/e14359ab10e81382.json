@@ -84,7 +84,7 @@
   "normalized_form": "coverity-scan",
   "observation_id": "e14359ab10e81382",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Coverity Scan",
   "source_context_snippet": "Coverity Scan",
   "source_file": ".github/workflows/coverity.yml",

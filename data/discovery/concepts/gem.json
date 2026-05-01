@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Gem"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate-context",
+      "text": "A Ruby library, written in Rust, for generating Halton sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate-context",
+      "text": "Gem"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate",
+      "text": "Gem"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012190,
+      "status": "candidate",
+      "text": "jewel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012069,
+      "status": "candidate",
+      "text": "precious stone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011561,
+      "status": "candidate",
+      "text": "gemstone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005734,
+      "status": "candidate",
+      "text": "stone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938252,
+      "status": "candidate",
+      "text": "muffin"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18062,
+      "status": "candidate",
+      "text": "stone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12040,
+      "status": "candidate",
+      "text": "treasure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11042,
+      "status": "candidate",
+      "text": "jewel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "gemstone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4039,
+      "status": "candidate",
+      "text": "muffin"
+    }
+  ],
+  "canonical_name": "Gem",
+  "concept_id": "gem",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/gem.yml",
+      "source_repo": "matsadler/halton-rb"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gem",
+      "sense_id": "gem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

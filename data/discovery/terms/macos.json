@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -831,6 +831,51 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci_macos.yml",
       "source_repo": "beached/daw_json_link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/realcugan-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/waifu2x-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabbe/nativefiledialog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "DiligentGraphics/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbianS/docker-db-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackielii/skhd.zig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/macos-tests.yml",
+      "source_repo": "AgileRL/AgileRL"
     }
   ],
   "term": "macos"

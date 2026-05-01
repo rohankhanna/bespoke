@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dashbitco/nimble_totp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dashbitco/nimble_totp",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dashbitco/nimble_totp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/nimble_totp",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/nimble_totp",
+      "target": "totp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:14:51.442213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2535
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tiny Elixir library for time-based one time passwords (TOTP)",
+    "fork": false,
+    "full_name": "dashbitco/nimble_totp",
+    "html_url": "https://github.com/dashbitco/nimble_totp",
+    "language": "Elixir",
+    "pushed_at": "2026-04-07T15:23:53Z",
+    "stargazers_count": 476,
+    "topics": [
+      "2fa",
+      "elixir",
+      "totp"
+    ],
+    "updated_at": "2026-04-30T05:12:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This library allows developers to implement Time-based One-Time Passwords (TOTP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "This library allows developers to implement Time-based One-Time Passwords (TOTP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "totp"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dialyzer.yml"
+    },
+    {
+      "component": "erlef/setup-elixir@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dialyzer.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "erlef/setup-elixir@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dialyzer.yml",
+      "source_repo": "am-kantox/md",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dialyzer.yml",
+      "source_repo": "am-kantox/md",
+      "target": "erlef/setup-elixir@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dialyzer.yml",
+      "source_repo": "am-kantox/md",
+      "target": "Dialyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "am-kantox/md",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "am-kantox/md",
+      "target": "erlef/setup-elixir@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "am-kantox/md",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:20:42.208862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7088
+    },
+    {
+      "path": ".github/workflows/dialyzer.yml",
+      "size": 755
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stream-aware markdown parser with custom syntax setting",
+    "fork": false,
+    "full_name": "am-kantox/md",
+    "html_url": "https://github.com/am-kantox/md",
+    "language": "Elixir",
+    "pushed_at": "2026-03-23T14:36:04Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-03-23T14:36:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dialyzer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dialyzer.yml",
+      "term": "Dialyzer"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

@@ -19,14 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "openshift-s2i/s2i-wildfly",
+      "target": "sclorg/s2i-perl-container",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "sclorg/postgresql-container",
+      "target": "openshift-s2i/s2i-wildfly",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T00:47:08.183044+00:00",
+  "fetched_at": "2026-05-01T09:22:03.070549+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,12 +90,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sclorg/postgresql-container",
+      "full_name": "sclorg/s2i-nodejs-container",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sclorg/s2i-nodejs-container",
+      "full_name": "sclorg/s2i-perl-container",
       "source_file": "README.md"
     }
   ],

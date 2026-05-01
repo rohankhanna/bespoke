@@ -595,6 +595,42 @@
       "source_repo": "zcash/pasta",
       "status": "candidate-context",
       "text": "Pallas/Vesta supporting evidence"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rozbb/rust-hpke",
+      "status": "candidate-context",
+      "text": "An implementation of the HPKE hybrid encryption standard (RFC 9180)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rozbb/rust-hpke",
+      "status": "candidate-context",
+      "text": "rust-hpke"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msoos/cryptominisat",
+      "status": "candidate-context",
+      "text": "An advanced SAT solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msoos/cryptominisat",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veorq/SipHash",
+      "status": "candidate-context",
+      "text": "High-speed secure pseudorandom function for short messages "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veorq/SipHash",
+      "status": "candidate-context",
+      "text": "[![License:"
     }
   ],
   "candidate_glosses": [
@@ -897,6 +933,24 @@
       "source_repo": "zcash/pasta",
       "status": "candidate",
       "text": "Pallas/Vesta supporting evidence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rozbb/rust-hpke",
+      "status": "candidate",
+      "text": "rust-hpke"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msoos/cryptominisat",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veorq/SipHash",
+      "status": "candidate",
+      "text": "[![License:"
     }
   ],
   "candidate_related_terms": [
@@ -1366,11 +1420,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rozbb/rust-hpke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "msoos/cryptominisat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "veorq/SipHash"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

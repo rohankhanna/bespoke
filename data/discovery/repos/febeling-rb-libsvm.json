@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "febeling/rb-libsvm",
+      "target": "sch1zo/jrb-libsvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "libsvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "ruby-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "ruby-language-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "rubyml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "svm-classifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "svm-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm",
+      "target": "svm-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:52.328089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby language bindings for LIBSVM",
+    "fork": false,
+    "full_name": "febeling/rb-libsvm",
+    "html_url": "https://github.com/febeling/rb-libsvm",
+    "language": "C++",
+    "pushed_at": "2023-12-07T20:35:24Z",
+    "stargazers_count": 279,
+    "topics": [
+      "libsvm",
+      "machine-learning",
+      "ml",
+      "ruby",
+      "ruby-bindings",
+      "ruby-language-bindings",
+      "rubyml",
+      "svm",
+      "svm-classifier",
+      "svm-learning",
+      "svm-training"
+    ],
+    "updated_at": "2025-08-29T12:04:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sch1zo/jrb-libsvm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libsvm"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-bindings"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-language-bindings"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubyml"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svm-classifier"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svm-learning"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svm-training"
+    }
+  ]
+}

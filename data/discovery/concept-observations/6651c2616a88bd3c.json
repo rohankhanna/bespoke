@@ -77,7 +77,7 @@
   "normalized_form": "marker-cla-assistant",
   "observation_id": "6651c2616a88bd3c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Marker CLA Assistant",
   "source_context_snippet": "\"Marker CLA Assistant\"",
   "source_file": ".github/workflows/cla.yml",

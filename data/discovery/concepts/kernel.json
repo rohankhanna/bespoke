@@ -94,6 +94,18 @@
       "source_repo": "ipython/ipykernel",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate-context",
+      "text": "The Serenity Operating System \ud83d\udc1e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate-context",
+      "text": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers."
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "ipython/ipykernel",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate",
+      "text": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers."
     }
   ],
   "candidate_related_terms": [
@@ -277,11 +295,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "hermit-os/libhermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

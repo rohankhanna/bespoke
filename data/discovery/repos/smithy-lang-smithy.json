@@ -273,27 +273,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "smithy-lang/smithy",
-      "target": "smithy-lang/smithy-examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "smithy-lang/smithy",
-      "target": "smithy-lang/smithy-gradle-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "smithy-lang/smithy",
-      "target": "smithy-lang/awesome-smithy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog-ci.yml",
       "source_repo": "smithy-lang/smithy",
@@ -539,7 +518,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:03:22.159707+00:00",
+  "fetched_at": "2026-05-01T10:19:25.623969+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -587,31 +566,15 @@
     "full_name": "smithy-lang/smithy",
     "html_url": "https://github.com/smithy-lang/smithy",
     "language": "Java",
-    "pushed_at": "2026-04-30T15:40:05Z",
-    "stargazers_count": 2250,
+    "pushed_at": "2026-04-30T20:23:24Z",
+    "stargazers_count": 2251,
     "topics": [
       "smithy",
       "smithy-models"
     ],
-    "updated_at": "2026-04-30T09:26:18Z"
+    "updated_at": "2026-04-30T20:23:26Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "smithy-lang/awesome-smithy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "smithy-lang/smithy-examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "smithy-lang/smithy-gradle-plugin",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "changelog",

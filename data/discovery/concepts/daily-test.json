@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Daily test"
+    "Daily test",
+    "Daily Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "python/typeshed",
       "status": "candidate-context",
       "text": "Daily test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Daily Test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "python/typeshed",
       "status": "candidate",
       "text": "Daily test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate",
+      "text": "Daily Test"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/daily.yml",
       "source_repo": "python/typeshed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/daily-test.yml",
+      "source_repo": "prisma/prisma"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

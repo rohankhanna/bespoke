@@ -379,6 +379,42 @@
       "source_repo": "ellisonleao/nvim-plugin-template",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/extension-template",
+      "status": "candidate-context",
+      "text": "A `copier` template for JupyterLab extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-template",
+      "status": "candidate-context",
+      "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-template/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-template/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "status": "candidate-context",
+      "text": "Updated AI assisted dev repo template (swap preferred CLI!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "status": "candidate-context",
+      "text": "**Version**: October 2025"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate-context",
+      "text": "Electron\u26a1\ufe0fVite samples, includes C/C++ addons | \u6837\u677f\u4ee3\u7801\u96c6\u5408\uff0c\u5305\u542b C/C++ \u6269\u5c55"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate-context",
+      "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +603,24 @@
       "source_repo": "ellisonleao/nvim-plugin-template",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-template",
+      "status": "candidate",
+      "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-template/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-template/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "status": "candidate",
+      "text": "**Version**: October 2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate",
+      "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
     }
   ],
   "candidate_related_terms": [
@@ -883,11 +937,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

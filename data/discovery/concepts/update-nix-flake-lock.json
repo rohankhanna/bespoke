@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Update Nix Flake Lock"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/ocaml-lsp",
+      "status": "candidate-context",
+      "text": "OCaml Language Server Protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-lsp",
+      "status": "candidate-context",
+      "text": "Update Nix Flake Lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate-context",
+      "text": "Update Nix Flake Lock"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-lsp",
+      "status": "candidate",
+      "text": "Update Nix Flake Lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate",
+      "text": "Update Nix Flake Lock"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29504,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27251,
+      "status": "candidate",
+      "text": "fleck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19759,
+      "status": "candidate",
+      "text": "veto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19353,
+      "status": "candidate",
+      "text": "ampere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19353,
+      "status": "candidate",
+      "text": "jot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Nix Flake Lock",
+  "concept_id": "update-nix-flake-lock",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "ocaml/ocaml-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "ocamllabs/vscode-ocaml-platform"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Nix Flake Lock",
+      "sense_id": "update-nix-flake-lock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

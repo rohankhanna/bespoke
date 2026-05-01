@@ -84,7 +84,7 @@
   "normalized_form": "ai-context-check",
   "observation_id": "81374914bf5cb1f2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "AI Context Check",
   "source_context_snippet": "AI Context Check",
   "source_file": ".github/workflows/ai-context-check.yml",

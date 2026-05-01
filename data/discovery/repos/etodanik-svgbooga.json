@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etodanik/SvgBooga",
+      "target": "import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etodanik/SvgBooga",
+      "target": "unreal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etodanik/SvgBooga",
+      "target": "unreal-engine-5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:39.023202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unreal Engine plugin to work with SVG files",
+    "fork": false,
+    "full_name": "etodanik/SvgBooga",
+    "html_url": "https://github.com/etodanik/SvgBooga",
+    "language": "C++",
+    "pushed_at": "2023-12-31T12:10:55Z",
+    "stargazers_count": 33,
+    "topics": [
+      "import",
+      "svg",
+      "unreal",
+      "unreal-engine-5"
+    ],
+    "updated_at": "2025-12-02T10:29:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A free and open source SVG importer for Unreal Engine 5",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "import"
+    },
+    {
+      "context_snippet": "A free and open source SVG importer for Unreal Engine 5",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal"
+    },
+    {
+      "context_snippet": "A free and open source SVG importer for Unreal Engine 5",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine-5"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "collectiveidea/buildlight@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildlight.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_gem.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_gem.yml"
+    },
+    {
+      "component": "rubygems/release-gem@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_gem.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collectiveidea/audited",
+      "target": "testdouble/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildlight.yml",
+      "source_repo": "collectiveidea/audited",
+      "target": "collectiveidea/buildlight@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildlight.yml",
+      "source_repo": "collectiveidea/audited",
+      "target": "Buildlight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "collectiveidea/audited",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "collectiveidea/audited",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_gem.yml",
+      "source_repo": "collectiveidea/audited",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_gem.yml",
+      "source_repo": "collectiveidea/audited",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_gem.yml",
+      "source_repo": "collectiveidea/audited",
+      "target": "rubygems/release-gem@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_gem.yml",
+      "source_repo": "collectiveidea/audited",
+      "target": "Publish Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited",
+      "target": "activerecord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited",
+      "target": "audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited",
+      "target": "audit-log",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited",
+      "target": "audit-trail",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited",
+      "target": "auditing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:19:13.351751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12550
+    },
+    {
+      "path": ".github/workflows/buildlight.yml",
+      "size": 214
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4520
+    },
+    {
+      "path": ".github/workflows/publish_gem.yml",
+      "size": 486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models.",
+    "fork": false,
+    "full_name": "collectiveidea/audited",
+    "html_url": "https://github.com/collectiveidea/audited",
+    "language": "Ruby",
+    "pushed_at": "2025-11-18T19:05:29Z",
+    "stargazers_count": 3492,
+    "topics": [
+      "activerecord",
+      "audit",
+      "audit-log",
+      "audit-trail",
+      "auditing",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-04-24T17:19:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "testdouble/standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Buildlight",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildlight.yml",
+      "term": "Buildlight"
+    },
+    {
+      "context_snippet": "Publish Gem",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_gem.yml",
+      "term": "Publish Gem"
+    },
+    {
+      "context_snippet": "Audited",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activerecord"
+    },
+    {
+      "context_snippet": "Audited",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audit"
+    },
+    {
+      "context_snippet": "Audited",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audit-log"
+    },
+    {
+      "context_snippet": "Audited",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audit-trail"
+    },
+    {
+      "context_snippet": "Audited",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auditing"
+    },
+    {
+      "context_snippet": "Audited",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "Audited",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

@@ -56,16 +56,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "cross-fetch",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "dotenv",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "eslint",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -270,20 +260,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "abaplint/transpiler",
-      "target": "cross-fetch",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "abaplint/transpiler",
-      "target": "dotenv",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "abaplint/transpiler",
       "target": "eslint",
       "target_type": "component"
     },
@@ -477,7 +453,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:47:38.196578+00:00",
+  "fetched_at": "2026-05-01T08:15:42.728132+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,7 +461,7 @@
     },
     {
       "path": "package.json",
-      "size": 3594
+      "size": 3532
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -509,14 +485,14 @@
     "full_name": "abaplint/transpiler",
     "html_url": "https://github.com/abaplint/transpiler",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T13:14:38Z",
+    "pushed_at": "2026-05-01T06:57:11Z",
     "stargazers_count": 99,
     "topics": [
       "abap",
       "abaplint",
       "transpiler"
     ],
-    "updated_at": "2026-04-29T18:02:59Z"
+    "updated_at": "2026-05-01T06:57:13Z"
   },
   "repo_links": [
     {

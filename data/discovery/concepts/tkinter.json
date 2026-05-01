@@ -19,6 +19,18 @@
       "source_repo": "CoolCat467/idlemypyextension",
       "status": "candidate-context",
       "text": "Python IDLE extension to perform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chyok/ollama-gui",
+      "status": "candidate-context",
+      "text": "A single-file tkinter-based Ollama GUI project with no external dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chyok/ollama-gui",
+      "status": "candidate-context",
+      "text": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CoolCat467/idlemypyextension",
       "status": "candidate",
       "text": "Python IDLE extension to perform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chyok/ollama-gui",
+      "status": "candidate",
+      "text": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "CoolCat467/idlemypyextension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

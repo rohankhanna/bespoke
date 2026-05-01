@@ -19,6 +19,30 @@
       "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
       "status": "candidate-context",
       "text": "![pose to mesh](./asset/pose_mesh.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of \"Learning to Estimate Robust 3D Human Mesh from In-the-Wild Crowded Scenes\", CVPR 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "status": "candidate-context",
+      "text": "![front_figur](./assets/front_figure.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of \"Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video\", CVPR 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "status": "candidate-context",
+      "text": "| Qualtitative result | Paper teaser video |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "hongsukchoi/Pose2Mesh_RELEASE",
       "status": "candidate",
       "text": "![pose to mesh](./asset/pose_mesh.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "status": "candidate",
+      "text": "![front_figur](./assets/front_figure.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "status": "candidate",
+      "text": "| Qualtitative result | Paper teaser video |"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "hongsukchoi/Pose2Mesh_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hongsukchoi/TCMR_RELEASE"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

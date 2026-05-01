@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lifeiteng/vall-e",
+      "target": "lifeiteng/valle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lifeiteng/vall-e",
+      "target": "lifeiteng/lifeiteng.github.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e",
+      "target": "in-context-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e",
+      "target": "vall-e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e",
+      "target": "valle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:30:09.572135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of VALL-E(Zero-Shot Text-To-Speech), Reproduced Demo https://lifeiteng.github.io/valle/index.html",
+    "fork": false,
+    "full_name": "lifeiteng/vall-e",
+    "html_url": "https://github.com/lifeiteng/vall-e",
+    "language": "Python",
+    "pushed_at": "2025-09-10T16:08:02Z",
+    "stargazers_count": 2209,
+    "topics": [
+      "chatgpt",
+      "in-context-learning",
+      "large-language-models",
+      "text-to-speech",
+      "tts",
+      "vall-e",
+      "valle"
+    ],
+    "updated_at": "2026-05-01T08:09:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifeiteng/lifeiteng.github.com",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifeiteng/valle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Language : \ud83c\uddfa\ud83c\uddf8 | [\ud83c\udde8\ud83c\uddf3](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "Language : \ud83c\uddfa\ud83c\uddf8 | [\ud83c\udde8\ud83c\uddf3](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-context-learning"
+    },
+    {
+      "context_snippet": "Language : \ud83c\uddfa\ud83c\uddf8 | [\ud83c\udde8\ud83c\uddf3](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Language : \ud83c\uddfa\ud83c\uddf8 | [\ud83c\udde8\ud83c\uddf3](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "Language : \ud83c\uddfa\ud83c\uddf8 | [\ud83c\udde8\ud83c\uddf3](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vall-e"
+    },
+    {
+      "context_snippet": "Language : \ud83c\uddfa\ud83c\uddf8 | [\ud83c\udde8\ud83c\uddf3](./README.zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "valle"
+    }
+  ]
+}

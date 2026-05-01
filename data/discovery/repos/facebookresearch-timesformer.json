@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/TimeSformer",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:12.286159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The official pytorch implementation of our paper \"Is Space-Time Attention All You Need for Video Understanding?\"",
+    "fork": false,
+    "full_name": "facebookresearch/TimeSformer",
+    "html_url": "https://github.com/facebookresearch/TimeSformer",
+    "language": "Python",
+    "pushed_at": "2024-04-09T06:00:55Z",
+    "stargazers_count": 1848,
+    "topics": [],
+    "updated_at": "2026-04-17T08:15:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

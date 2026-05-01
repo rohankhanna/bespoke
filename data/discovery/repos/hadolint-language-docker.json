@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml"
+    },
+    {
+      "component": "rwe/actions-hlint-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml"
+    },
+    {
+      "component": "rwe/actions-hlint-run@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hadolint/language-docker",
+      "target": "hadolint/dockerfile-creator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell.yml",
+      "source_repo": "hadolint/language-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell.yml",
+      "source_repo": "hadolint/language-docker",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell.yml",
+      "source_repo": "hadolint/language-docker",
+      "target": "Haskell Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "hadolint/language-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "hadolint/language-docker",
+      "target": "rwe/actions-hlint-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "hadolint/language-docker",
+      "target": "rwe/actions-hlint-run@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "hadolint/language-docker",
+      "target": "Haskell Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker",
+      "target": "pretty-print",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker",
+      "target": "pretty-printer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker",
+      "target": "templating",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:12:02.989120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1241
+    },
+    {
+      "path": ".github/workflows/haskell.yml",
+      "size": 743
+    },
+    {
+      "path": ".github/workflows/hlint.yml",
+      "size": 675
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Haskell Dockerfile parser, pretty-printer and EDSL",
+    "fork": false,
+    "full_name": "hadolint/language-docker",
+    "html_url": "https://github.com/hadolint/language-docker",
+    "language": "Haskell",
+    "pushed_at": "2026-04-17T10:24:06Z",
+    "stargazers_count": 42,
+    "topics": [
+      "docker",
+      "docker-image",
+      "haskell",
+      "parser",
+      "pretty-print",
+      "pretty-printer",
+      "templating"
+    ],
+    "updated_at": "2026-04-17T10:24:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hadolint/dockerfile-creator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Haskell Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell.yml",
+      "term": "Haskell Tests"
+    },
+    {
+      "context_snippet": "Haskell Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hlint.yml",
+      "term": "Haskell Lint"
+    },
+    {
+      "context_snippet": "[![Build Status][actions-img]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Build Status][actions-img]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "[![Build Status][actions-img]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "[![Build Status][actions-img]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![Build Status][actions-img]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretty-print"
+    },
+    {
+      "context_snippet": "[![Build Status][actions-img]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretty-printer"
+    },
+    {
+      "context_snippet": "[![Build Status][actions-img]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templating"
+    }
+  ]
+}

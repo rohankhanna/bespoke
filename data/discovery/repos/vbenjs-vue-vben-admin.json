@@ -231,7 +231,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "SamKirkland/FTP-Deploy-Action@v4.3.6",
+      "component": "SamKirkland/FTP-Deploy-Action@v4.4.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -241,7 +241,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "SamKirkland/FTP-Deploy-Action@v4.3.6",
+      "component": "SamKirkland/FTP-Deploy-Action@v4.4.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "SamKirkland/FTP-Deploy-Action@v4.3.6",
+      "component": "SamKirkland/FTP-Deploy-Action@v4.4.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -261,7 +261,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "SamKirkland/FTP-Deploy-Action@v4.3.6",
+      "component": "SamKirkland/FTP-Deploy-Action@v4.4.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -271,7 +271,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "SamKirkland/FTP-Deploy-Action@v4.3.6",
+      "component": "SamKirkland/FTP-Deploy-Action@v4.4.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -307,13 +307,6 @@
       "source_file": "README.md",
       "source_repo": "vbenjs/vue-vben-admin",
       "target": "anncwb/vue-vben-admin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vbenjs/vue-vben-admin",
-      "target": "vuejs/vue",
       "target_type": "repository"
     },
     {
@@ -649,7 +642,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "SamKirkland/FTP-Deploy-Action@v4.3.6",
+      "target": "SamKirkland/FTP-Deploy-Action@v4.4.0",
       "target_type": "component"
     },
     {
@@ -786,7 +779,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:13:12.065354+00:00",
+  "fetched_at": "2026-05-01T10:30:35.751866+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -838,8 +831,8 @@
     "full_name": "vbenjs/vue-vben-admin",
     "html_url": "https://github.com/vbenjs/vue-vben-admin",
     "language": "Vue",
-    "pushed_at": "2026-04-30T07:46:07Z",
-    "stargazers_count": 32255,
+    "pushed_at": "2026-04-30T23:20:15Z",
+    "stargazers_count": 32257,
     "topics": [
       "admin-template",
       "ant-design",
@@ -856,17 +849,12 @@
       "vue3",
       "vuex"
     ],
-    "updated_at": "2026-04-30T16:08:54Z"
+    "updated_at": "2026-05-01T09:24:10Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "anncwb/vue-vben-admin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vuejs/vue",
       "source_file": "README.md"
     }
   ],

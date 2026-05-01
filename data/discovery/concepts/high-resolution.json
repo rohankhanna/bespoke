@@ -91,6 +91,30 @@
       "source_repo": "NVlabs/PS3",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "The OCR approach is rephrased as Segmentation Transformer: https://arxiv.org/abs/1909.11065. This is an official implementation of semantic segmentation for HRNet. https://arxiv.org/abs/1908.07919"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "- This is the implementation for HRNet + OCR."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate-context",
+      "text": "Efficient vision foundation models for high-resolution generation and perception."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "NVlabs/PS3",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate",
+      "text": "- This is the implementation for HRNet + OCR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +286,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "NVlabs/PS3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/efficientvit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

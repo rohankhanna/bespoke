@@ -118,6 +118,18 @@
       "source_repo": "addfox/addfox",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/map-to-chrome",
+      "status": "candidate-context",
+      "text": "Map versions of Chromium-based browsers to their equivalent Chrome versions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/map-to-chrome",
+      "status": "candidate-context",
+      "text": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "addfox/addfox",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/map-to-chrome",
+      "status": "candidate",
+      "text": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">"
     }
   ],
   "candidate_related_terms": [
@@ -338,11 +356,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

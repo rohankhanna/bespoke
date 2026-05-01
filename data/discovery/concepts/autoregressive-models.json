@@ -43,6 +43,30 @@
       "source_repo": "FoundationVision/Liquid",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/BitVAE",
+      "status": "candidate-context",
+      "text": "official training and inference code of bitwise tokenizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/BitVAE",
+      "status": "candidate-context",
+      "text": "The training and inference code of bitwise tokenizer used by [Infinity](https://github.com/FoundationVision/Infinity)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/InfinityStar",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025 Oral]Infinity\u2b50\ufe0f: Uni\ufb01ed Spacetime AutoRegressive Modeling for Visual Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/InfinityStar",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "FoundationVision/Liquid",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/BitVAE",
+      "status": "candidate",
+      "text": "The training and inference code of bitwise tokenizer used by [Infinity](https://github.com/FoundationVision/Infinity)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/InfinityStar",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "FoundationVision/Liquid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/BitVAE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/InfinityStar"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

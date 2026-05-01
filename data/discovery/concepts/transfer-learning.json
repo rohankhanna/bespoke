@@ -127,6 +127,54 @@
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
       "status": "candidate-context",
       "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
       "status": "candidate",
       "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
     }
   ],
   "candidate_related_terms": [],
@@ -274,11 +346,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/MTP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/RSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

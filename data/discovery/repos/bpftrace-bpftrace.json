@@ -163,20 +163,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bpftrace/bpftrace",
-      "target": "libbpf/libbpf",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bpftrace/bpftrace",
-      "target": "bpftrace/user-tools",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/binary.yml",
       "source_repo": "bpftrace/bpftrace",
@@ -471,7 +457,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:47:57.129320+00:00",
+  "fetched_at": "2026-05-01T08:25:56.221550+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -523,8 +509,8 @@
     "full_name": "bpftrace/bpftrace",
     "html_url": "https://github.com/bpftrace/bpftrace",
     "language": "C++",
-    "pushed_at": "2026-04-23T20:51:05Z",
-    "stargazers_count": 10069,
+    "pushed_at": "2026-05-01T00:57:20Z",
+    "stargazers_count": 10080,
     "topics": [
       "bcc",
       "bpf",
@@ -535,20 +521,9 @@
       "uprobes",
       "usdt"
     ],
-    "updated_at": "2026-04-23T20:56:01Z"
+    "updated_at": "2026-04-30T22:29:11Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bpftrace/user-tools",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "libbpf/libbpf",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Binary",

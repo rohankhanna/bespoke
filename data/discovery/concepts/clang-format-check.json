@@ -142,6 +142,42 @@
       "source_repo": "mono/CppSharp",
       "status": "candidate-context",
       "text": "clang-format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/hip",
+      "status": "candidate-context",
+      "text": "HIP: C++ Heterogeneous-Compute Interface for Portability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hip",
+      "status": "candidate-context",
+      "text": "Clang format check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optiscaler/OptiScaler",
+      "status": "candidate-context",
+      "text": "OptiScaler bridges upscaling/frame gen across GPUs. Supports DLSS2+/XeSS/FSR2+ inputs, replaces native upscalers, enables FSR3 FG on non-FG titles. Supports Nukem mod for DLSSG-to-FSR3 FG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optiscaler/OptiScaler",
+      "status": "candidate-context",
+      "text": "clang-format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pipecat-ai/pipecat-esp32",
+      "status": "candidate-context",
+      "text": "Pipecat ESP32 Client SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat-esp32",
+      "status": "candidate-context",
+      "text": "clang-format Check"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +244,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mono/CppSharp",
+      "status": "candidate",
+      "text": "clang-format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hip",
+      "status": "candidate",
+      "text": "Clang format check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optiscaler/OptiScaler",
+      "status": "candidate",
+      "text": "clang-format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat-esp32",
       "status": "candidate",
       "text": "clang-format Check"
     }
@@ -354,11 +408,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/clang-format-check.yml",
       "source_repo": "mono/CppSharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ROCm/hip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "optiscaler/OptiScaler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "pipecat-ai/pipecat-esp32"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

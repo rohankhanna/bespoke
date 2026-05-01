@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:27:33.207751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An inference-time, plug-and-play method for temporal control in multi-event generation",
+    "fork": false,
+    "full_name": "GordonChen19/Prompt-Relay",
+    "html_url": "https://github.com/GordonChen19/Prompt-Relay",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-26T05:45:54Z",
+    "stargazers_count": 127,
+    "topics": [],
+    "updated_at": "2026-04-30T11:37:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

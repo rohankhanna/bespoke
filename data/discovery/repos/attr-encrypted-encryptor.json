@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:26:41.561200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple wrapper for the standard ruby OpenSSL library",
+    "fork": false,
+    "full_name": "attr-encrypted/encryptor",
+    "html_url": "https://github.com/attr-encrypted/encryptor",
+    "language": "Ruby",
+    "pushed_at": "2025-10-12T03:07:46Z",
+    "stargazers_count": 337,
+    "topics": [],
+    "updated_at": "2025-12-13T07:06:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

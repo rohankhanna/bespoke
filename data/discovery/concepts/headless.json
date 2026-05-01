@@ -55,6 +55,18 @@
       "source_repo": "chromedp/chromedp",
       "status": "candidate-context",
       "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Headless browser for Go for TDD workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "chromedp/chromedp",
       "status": "candidate",
       "text": "Package `chromedp` is a faster, simpler way to drive browsers supporting the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "chromedp/chromedp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gost-dom/browser"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

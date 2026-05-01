@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "snapview/tungstenite-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "sfackler/rust-native-tls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "asynchronous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "tokio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "tokio-tungstenite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapview/tokio-tungstenite",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:14:47.068809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3029
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3077
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Future-based Tungstenite for Tokio. Lightweight stream-based WebSocket implementation",
+    "fork": false,
+    "full_name": "snapview/tokio-tungstenite",
+    "html_url": "https://github.com/snapview/tokio-tungstenite",
+    "language": "Rust",
+    "pushed_at": "2026-03-31T14:33:49Z",
+    "stargazers_count": 2440,
+    "topics": [
+      "asynchronous",
+      "tokio",
+      "tokio-tungstenite",
+      "websocket",
+      "websockets"
+    ],
+    "updated_at": "2026-04-25T22:16:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfackler/rust-native-tls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snapview/tungstenite-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Asynchronous WebSockets for Tokio stack.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asynchronous"
+    },
+    {
+      "context_snippet": "Asynchronous WebSockets for Tokio stack.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokio"
+    },
+    {
+      "context_snippet": "Asynchronous WebSockets for Tokio stack.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokio-tungstenite"
+    },
+    {
+      "context_snippet": "Asynchronous WebSockets for Tokio stack.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "Asynchronous WebSockets for Tokio stack.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

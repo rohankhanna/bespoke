@@ -67,6 +67,30 @@
       "source_repo": "electron-vite/electron-vite-vue",
       "status": "candidate-context",
       "text": "\ud83e\udd73 Really simple `Electron` + `Vue` + `Vite` boilerplate."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "Generate favicons for your project with caching for blazing fast rebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "Examples for using Connect with various TypeScript web frameworks and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "examples-es"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "electron-vite/electron-vite-vue",
       "status": "candidate",
       "text": "\ud83e\udd73 Really simple `Electron` + `Vue` + `Vite` boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate",
+      "text": "examples-es"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "electron-vite/electron-vite-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/examples-es"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

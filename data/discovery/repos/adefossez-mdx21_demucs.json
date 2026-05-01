@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:08:02.098553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1126
+    },
+    {
+      "path": "requirements.txt",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reproduction repository for the MDX 2021  Hybrid Demucs model",
+    "fork": false,
+    "full_name": "adefossez/mdx21_demucs",
+    "html_url": "https://github.com/adefossez/mdx21_demucs",
+    "language": "Python",
+    "pushed_at": "2022-04-19T17:18:13Z",
+    "stargazers_count": 112,
+    "topics": [],
+    "updated_at": "2026-02-22T20:51:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

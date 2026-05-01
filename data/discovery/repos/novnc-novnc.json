@@ -208,13 +208,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "novnc/noVNC",
-      "target": "nodeca/pako",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "novnc/noVNC",
@@ -551,7 +544,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:57:18.033509+00:00",
+  "fetched_at": "2026-05-01T08:22:58.389889+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -588,7 +581,7 @@
     "html_url": "https://github.com/novnc/noVNC",
     "language": "JavaScript",
     "pushed_at": "2026-04-28T10:44:09Z",
-    "stargazers_count": 13666,
+    "stargazers_count": 13668,
     "topics": [
       "arraybuffer",
       "html",
@@ -602,15 +595,9 @@
       "websockify",
       "wss"
     ],
-    "updated_at": "2026-04-30T08:33:32Z"
+    "updated_at": "2026-04-30T21:43:21Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nodeca/pako",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish",

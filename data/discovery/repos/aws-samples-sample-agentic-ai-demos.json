@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "target": "bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "target": "mcp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "target": "mcp-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:07:12.884904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of examples of how to use Model Context Protocol with AWS.",
+    "fork": false,
+    "full_name": "aws-samples/sample-agentic-ai-demos",
+    "html_url": "https://github.com/aws-samples/sample-agentic-ai-demos",
+    "language": "Python",
+    "pushed_at": "2026-02-14T07:47:58Z",
+    "stargazers_count": 101,
+    "topics": [
+      "agents",
+      "bedrock",
+      "genai",
+      "mcp",
+      "mcp-client",
+      "mcp-server"
+    ],
+    "updated_at": "2026-04-30T23:21:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bedrock"
+    },
+    {
+      "context_snippet": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-client"
+    },
+    {
+      "context_snippet": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    }
+  ]
+}

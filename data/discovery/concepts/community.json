@@ -130,6 +130,18 @@
       "source_repo": "SciML/ColPrac",
       "status": "candidate-context",
       "text": "[![Global Docs](https://img.shields.io/badge/docs-SciML-blue.svg)](https://docs.sciml.ai/ColPrac/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/mdn-community",
+      "status": "candidate-context",
+      "text": "A place to provide feedback and suggestions for MDN Web Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-community",
+      "status": "candidate-context",
+      "text": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing."
     }
   ],
   "candidate_glosses": [
@@ -192,6 +204,12 @@
       "source_repo": "SciML/ColPrac",
       "status": "candidate",
       "text": "[![Global Docs](https://img.shields.io/badge/docs-SciML-blue.svg)](https://docs.sciml.ai/ColPrac/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-community",
+      "status": "candidate",
+      "text": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing."
     }
   ],
   "candidate_related_terms": [
@@ -337,11 +355,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "SciML/ColPrac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdn/mdn-community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hacs/integration"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

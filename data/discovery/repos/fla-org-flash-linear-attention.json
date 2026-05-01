@@ -81,28 +81,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "opennlplab/hgrn",
+      "target": "opennlplab/lightnet",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "opennlplab/hgrn2",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "rwkv/rwkv-lm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "opensparsellms/mom",
+      "target": "zhixuan-lin/forgetting-transformer",
       "target_type": "repository"
     },
     {
@@ -281,7 +267,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T01:00:32.545614+00:00",
+  "fetched_at": "2026-05-01T09:30:29.368599+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -333,7 +319,7 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-04-30T07:52:55Z",
+    "pushed_at": "2026-05-01T08:25:47Z",
     "stargazers_count": 5016,
     "topics": [
       "large-language-models",
@@ -341,27 +327,17 @@
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-04-30T17:14:30Z"
+    "updated_at": "2026-05-01T08:25:52Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "opennlplab/hgrn",
+      "full_name": "opennlplab/lightnet",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "opennlplab/hgrn2",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "opensparsellms/mom",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rwkv/rwkv-lm",
+      "full_name": "zhixuan-lin/forgetting-transformer",
       "source_file": "README.md"
     }
   ],

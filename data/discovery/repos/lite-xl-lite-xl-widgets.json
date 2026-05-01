@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-widgets",
+      "target": "lite-xl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-widgets",
+      "target": "widget-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:24:33.627411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Widgets that can be used on Lite XL.",
+    "fork": false,
+    "full_name": "lite-xl/lite-xl-widgets",
+    "html_url": "https://github.com/lite-xl/lite-xl-widgets",
+    "language": "Lua",
+    "pushed_at": "2025-01-26T23:45:49Z",
+    "stargazers_count": 48,
+    "topics": [
+      "lite-xl",
+      "ui",
+      "widget-library"
+    ],
+    "updated_at": "2026-01-12T17:03:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Update Notice:** With the now available",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lite-xl"
+    },
+    {
+      "context_snippet": "**Update Notice:** With the now available",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widget-library"
+    }
+  ]
+}

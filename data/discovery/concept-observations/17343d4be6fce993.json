@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "VOICEVOX\u306e\u30d7\u30ec\u30d3\u30e5\u30fc\u7528\u30da\u30fc\u30b8\u3092\u30c7\u30d7\u30ed\u30a4\u3059\u308b\u30ea\u30dd\u30b8\u30c8\u30ea\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Cleanup Caches\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Cleanup Caches\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11581,
+      "status": "candidate",
+      "text": "bucket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11581,
+      "status": "candidate",
+      "text": "corduroy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11581,
+      "status": "candidate",
+      "text": "corduroys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11581,
+      "status": "candidate",
+      "text": "deacon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11581,
+      "status": "candidate",
+      "text": "debugging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup Caches",
+      "sense_id": "cleanup-caches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cleanup-caches",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cleanup-caches",
+  "observation_id": "17343d4be6fce993",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Cleanup Caches",
+  "source_context_snippet": "\"Cleanup Caches\"",
+  "source_file": ".github/workflows/cleanup_caches.yml",
+  "source_repo": "VOICEVOX/preview-pages",
+  "source_repo_description": "VOICEVOX\u306e\u30d7\u30ec\u30d3\u30e5\u30fc\u7528\u30da\u30fc\u30b8\u3092\u30c7\u30d7\u30ed\u30a4\u3059\u308b\u30ea\u30dd\u30b8\u30c8\u30ea\u3002"
+}

@@ -1,0 +1,460 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-consistency-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-arm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-ppc.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-rvv.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-rvv.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-s390x.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-sve.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "numscale/boost.simd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "xtensor-stack/xtl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "Android build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arch-consistency-check.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-consistency-check.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "Arch consistency check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "benchmark & examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "CMake integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-arm.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-arm.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "Arm cross-compilation build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-ppc.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-ppc.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "PowerPC cross-compilation build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-rvv.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "docker/setup-qemu-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-rvv.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-rvv.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "RISC-V RVV cross-compilation build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-s390x.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-s390x.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "IBM Z cross-compilation build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-sve.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-sve.yml",
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "Arm-SVE cross-compilation build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "mathematical-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "simd-instructions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "simd-intrinsics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "vectorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xsimd",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:35:12.084874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8707
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 1065
+    },
+    {
+      "path": ".github/workflows/arch-consistency-check.yml",
+      "size": 435
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 492
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 779
+    },
+    {
+      "path": ".github/workflows/cross-arm.yml",
+      "size": 2730
+    },
+    {
+      "path": ".github/workflows/cross-ppc.yml",
+      "size": 2818
+    },
+    {
+      "path": ".github/workflows/cross-rvv.yml",
+      "size": 2930
+    },
+    {
+      "path": ".github/workflows/cross-s390x.yml",
+      "size": 2629
+    },
+    {
+      "path": ".github/workflows/cross-sve.yml",
+      "size": 2225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ wrappers for SIMD intrinsics and parallelized, optimized mathematical functions (SSE, AVX, AVX512, NEON, SVE, WebAssembly, VSX, RISC-V))",
+    "fork": false,
+    "full_name": "xtensor-stack/xsimd",
+    "html_url": "https://github.com/xtensor-stack/xsimd",
+    "language": "C++",
+    "pushed_at": "2026-05-01T08:00:56Z",
+    "stargazers_count": 2670,
+    "topics": [
+      "avx",
+      "avx512",
+      "cpp",
+      "cpp17",
+      "mathematical-functions",
+      "neon",
+      "simd",
+      "simd-instructions",
+      "simd-intrinsics",
+      "sse",
+      "sve",
+      "vectorization",
+      "vsx",
+      "wasm"
+    ],
+    "updated_at": "2026-04-30T01:42:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "numscale/boost.simd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xtensor-stack/xtl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android build"
+    },
+    {
+      "context_snippet": "Arch consistency check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arch-consistency-check.yml",
+      "term": "Arch consistency check"
+    },
+    {
+      "context_snippet": "benchmark & examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "benchmark & examples"
+    },
+    {
+      "context_snippet": "CMake integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake integration"
+    },
+    {
+      "context_snippet": "Arm cross-compilation build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-arm.yml",
+      "term": "Arm cross-compilation build"
+    },
+    {
+      "context_snippet": "PowerPC cross-compilation build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-ppc.yml",
+      "term": "PowerPC cross-compilation build"
+    },
+    {
+      "context_snippet": "RISC-V RVV cross-compilation build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-rvv.yml",
+      "term": "RISC-V RVV cross-compilation build"
+    },
+    {
+      "context_snippet": "IBM Z cross-compilation build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-s390x.yml",
+      "term": "IBM Z cross-compilation build"
+    },
+    {
+      "context_snippet": "Arm-SVE cross-compilation build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-sve.yml",
+      "term": "Arm-SVE cross-compilation build"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematical-functions"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-instructions"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-intrinsics"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vectorization"
+    },
+    {
+      "context_snippet": "[![GHA android](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml/badge.svg)](https://github.com/xtensor-stack/xsimd/actions/workflows/android.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

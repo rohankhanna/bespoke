@@ -290,15 +290,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T12:50:58.878633+00:00",
+  "fetched_at": "2026-05-01T09:20:53.277831+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13618
+      "size": 13657
     },
     {
       "path": "pyproject.toml",
-      "size": 2163
+      "size": 2094
     },
     {
       "path": ".github/workflows/AddLabel.yml",
@@ -342,8 +342,8 @@
     "full_name": "AI-Hypercomputer/maxtext",
     "html_url": "https://github.com/AI-Hypercomputer/maxtext",
     "language": "Python",
-    "pushed_at": "2026-04-30T11:00:38Z",
-    "stargazers_count": 2263,
+    "pushed_at": "2026-05-01T05:24:14Z",
+    "stargazers_count": 2264,
     "topics": [
       "deepseek",
       "fine-tuning",
@@ -360,7 +360,7 @@
       "mixtral",
       "sft"
     ],
-    "updated_at": "2026-04-29T23:30:03Z"
+    "updated_at": "2026-05-01T03:58:08Z"
   },
   "repo_links": [],
   "terms": [

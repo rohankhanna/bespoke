@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "henry123-boy/SpaTracker",
+      "target": "lpiccinelli-eth/unidepth",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:29.386963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4538
+    },
+    {
+      "path": "requirements.txt",
+      "size": 172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024 Highlight] Official PyTorch implementation of SpatialTracker: Tracking Any 2D Pixels in 3D Space",
+    "fork": false,
+    "full_name": "henry123-boy/SpaTracker",
+    "html_url": "https://github.com/henry123-boy/SpaTracker",
+    "language": "Python",
+    "pushed_at": "2025-08-08T01:43:26Z",
+    "stargazers_count": 1042,
+    "topics": [],
+    "updated_at": "2026-04-28T11:14:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lpiccinelli-eth/unidepth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

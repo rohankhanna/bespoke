@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -552,6 +552,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/self-update.yml",
       "source_repo": "fredrikaverpil/neotest-golang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-providers.yml",
+      "source_repo": "leandrocp/req_embed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fix-format.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -251,6 +251,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/changelog.yaml",
       "source_repo": "argoproj/argo-events"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "AgnostiqHQ/covalent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "vectordotdev/vrl"
     }
   ],
   "term": "Changelog"

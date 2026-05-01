@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YangLing0818/IterComp",
+      "target": "frank-xwang/instancediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YangLing0818/IterComp",
+      "target": "lllyasviel/omost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YangLing0818/IterComp",
+      "target": "thudm/imagereward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/IterComp",
+      "target": "reward-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/IterComp",
+      "target": "rlhf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YangLing0818/IterComp",
+      "target": "text-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:17.989543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18042
+    },
+    {
+      "path": "requirements.txt",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation",
+    "fork": false,
+    "full_name": "YangLing0818/IterComp",
+    "html_url": "https://github.com/YangLing0818/IterComp",
+    "language": "Python",
+    "pushed_at": "2025-02-19T13:27:30Z",
+    "stargazers_count": 205,
+    "topics": [
+      "dpo",
+      "reward-modeling",
+      "rlhf",
+      "text-to-image"
+    ],
+    "updated_at": "2026-04-19T12:06:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frank-xwang/instancediffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lllyasviel/omost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/imagereward",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171) (**ICLR 2025**).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reward-modeling"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171) (**ICLR 2025**).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlhf"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171) (**ICLR 2025**).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    }
+  ]
+}

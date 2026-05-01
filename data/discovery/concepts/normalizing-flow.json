@@ -19,6 +19,18 @@
       "source_repo": "JingyunLiang/HCFlow",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreas128/SRFlow",
+      "status": "candidate-context",
+      "text": "Official SRFlow training code: Super-Resolution using Normalizing Flow in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreas128/SRFlow",
+      "status": "candidate-context",
+      "text": "<br>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JingyunLiang/HCFlow",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2108.05301)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreas128/SRFlow",
+      "status": "candidate",
+      "text": "<br>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "JingyunLiang/HCFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "andreas128/SRFlow"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

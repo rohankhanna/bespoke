@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "prelude"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kowainik/relude",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 Safe, performant, user-friendly and lightweight Haskell standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/relude",
+      "status": "candidate-context",
+      "text": "![Logo](https://user-images.githubusercontent.com/8126674/67678250-9d8eab80-f99f-11e9-96ca-27883ceeefa6.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/relude",
+      "status": "candidate",
+      "text": "![Logo](https://user-images.githubusercontent.com/8126674/67678250-9d8eab80-f99f-11e9-96ca-27883ceeefa6.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018314,
+      "status": "candidate",
+      "text": "preliminary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990252,
+      "status": "candidate",
+      "text": "overture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017986,
+      "status": "candidate",
+      "text": "prologue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017906,
+      "status": "candidate",
+      "text": "foreword"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017529,
+      "status": "candidate",
+      "text": "preface"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23044,
+      "status": "candidate",
+      "text": "overture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21036,
+      "status": "candidate",
+      "text": "preliminary"
+    }
+  ],
+  "canonical_name": "prelude",
+  "concept_id": "prelude",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kowainik/relude"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prelude",
+      "sense_id": "prelude#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Lint all the codes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meyayl/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Lint all the codes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meyayl/docker-languagetool",
+      "status": "candidate",
+      "text": "Lint all the codes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31474,
+      "status": "candidate",
+      "text": "din"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27274,
+      "status": "candidate",
+      "text": "sing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "junk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25284,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25284,
+      "status": "candidate",
+      "text": "relax"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint all the codes",
+  "concept_id": "lint-all-the-codes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/reusable-super-linter.yaml",
+      "source_repo": "meyayl/docker-languagetool"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint all the codes",
+      "sense_id": "lint-all-the-codes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

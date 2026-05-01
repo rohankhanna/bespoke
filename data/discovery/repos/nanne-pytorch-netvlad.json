@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Nanne/pytorch-NetVlad",
+      "target": "relja/netvlad",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:13:10.526368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation of NetVlad including training on Pittsburgh.",
+    "fork": false,
+    "full_name": "Nanne/pytorch-NetVlad",
+    "html_url": "https://github.com/Nanne/pytorch-NetVlad",
+    "language": "Python",
+    "pushed_at": "2023-05-16T08:56:47Z",
+    "stargazers_count": 490,
+    "topics": [],
+    "updated_at": "2026-03-31T11:08:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "relja/netvlad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

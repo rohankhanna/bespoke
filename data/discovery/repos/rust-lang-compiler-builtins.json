@@ -232,7 +232,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:11:25.502208+00:00",
+  "fetched_at": "2026-05-01T10:14:31.087639+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -264,10 +264,10 @@
     "full_name": "rust-lang/compiler-builtins",
     "html_url": "https://github.com/rust-lang/compiler-builtins",
     "language": "Rust",
-    "pushed_at": "2026-04-20T11:08:56Z",
-    "stargazers_count": 488,
+    "pushed_at": "2026-04-27T07:22:11Z",
+    "stargazers_count": 490,
     "topics": [],
-    "updated_at": "2026-04-20T11:08:27Z"
+    "updated_at": "2026-04-27T07:21:38Z"
   },
   "repo_links": [],
   "terms": [

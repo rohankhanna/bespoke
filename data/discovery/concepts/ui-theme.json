@@ -19,6 +19,18 @@
       "source_repo": "rose-pine/rose-pine-theme",
       "status": "candidate-context",
       "text": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish color palette."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate-context",
+      "text": "nord \u2014 An arctic, north-bluish color palette"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rose-pine/rose-pine-theme",
       "status": "candidate",
       "text": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate",
+      "text": "nord \u2014 An arctic, north-bluish color palette"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rose-pine/rose-pine-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/nord"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

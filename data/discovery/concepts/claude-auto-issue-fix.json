@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude Auto Issue Fix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/db",
+      "status": "candidate-context",
+      "text": "The reactive client store for your API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/db",
+      "status": "candidate-context",
+      "text": "Claude Auto Issue Fix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/db",
+      "status": "candidate",
+      "text": "Claude Auto Issue Fix"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31024,
+      "status": "candidate",
+      "text": "club"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30941,
+      "status": "candidate",
+      "text": "redd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30941,
+      "status": "candidate",
+      "text": "step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30930,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30914,
+      "status": "candidate",
+      "text": "saddle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Auto Issue Fix",
+  "concept_id": "claude-auto-issue-fix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/reproduce-and-fix-issue-claude.yml",
+      "source_repo": "TanStack/db"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Auto Issue Fix",
+      "sense_id": "claude-auto-issue-fix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

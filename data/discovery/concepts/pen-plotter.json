@@ -19,6 +19,30 @@
       "source_repo": "abey79/vsketch",
       "status": "candidate-context",
       "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate-context",
+      "text": "Convert images to plotter-friendly hatched patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate-context",
+      "text": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vpype-pixelart",
+      "status": "candidate-context",
+      "text": "Pixel art plotting in vpype"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype-pixelart",
+      "status": "candidate-context",
+      "text": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "abey79/vsketch",
       "status": "candidate",
       "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate",
+      "text": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype-pixelart",
+      "status": "candidate",
+      "text": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "abey79/vsketch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "plottertools/hatched"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "abey79/vpype-pixelart"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

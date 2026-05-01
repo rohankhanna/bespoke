@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stack-trace",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cadorn/mfs",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cadorn/mfs",
+      "target": "stack-trace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cadorn/mfs",
+      "target": "mocha",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:16:49.082193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 493
+    },
+    {
+      "path": "package.json",
+      "size": 371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Monitor your calls to node-fs-extra.",
+    "fork": false,
+    "full_name": "cadorn/mfs",
+    "html_url": "https://github.com/cadorn/mfs",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-10T02:59:30Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-09-05T13:21:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

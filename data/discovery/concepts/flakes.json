@@ -43,6 +43,18 @@
       "source_repo": "90-008/nix-cargo-integration",
       "status": "candidate-context",
       "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hercules-ci/flake-parts",
+      "status": "candidate-context",
+      "text": "\u2744\ufe0f Simplify Nix Flakes with the module system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hercules-ci/flake-parts",
+      "status": "candidate-context",
+      "text": "_Core of a distributed framework for writing Nix Flakes._"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "90-008/nix-cargo-integration",
       "status": "candidate",
       "text": "Easily and effortlessly integrate Cargo projects with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hercules-ci/flake-parts",
+      "status": "candidate",
+      "text": "_Core of a distributed framework for writing Nix Flakes._"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "90-008/nix-cargo-integration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hercules-ci/flake-parts"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

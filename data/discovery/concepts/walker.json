@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "walker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041348,
+      "status": "candidate",
+      "text": "pedestrian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041098,
+      "status": "candidate",
+      "text": "footer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003181,
+      "status": "candidate",
+      "text": "go-cart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983704,
+      "status": "candidate",
+      "text": "baby-walker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024649,
+      "status": "candidate",
+      "text": "tourist"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "footer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1036,
+      "status": "candidate",
+      "text": "pedestrian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "go-cart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "baby-walker"
+    }
+  ],
+  "canonical_name": "walker",
+  "concept_id": "walker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "csstree/csstree"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "walker",
+      "sense_id": "walker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

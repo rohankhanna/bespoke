@@ -184,6 +184,30 @@
       "source_repo": "vitalets/react-native-extended-stylesheet",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "Network Analysis in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate-context",
+      "text": "A networkx backend that uses joblib to run graph algorithms in parallel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate-context",
+      "text": "style"
     }
   ],
   "candidate_glosses": [
@@ -276,6 +300,18 @@
       "source_repo": "vitalets/react-native-extended-stylesheet",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/vitalets/react-native-extended-stylesheet.svg?branch=master)](https://travis-ci.org/vitalets/react-native-extended-stylesheet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate",
+      "text": "style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate",
+      "text": "style"
     }
   ],
   "candidate_related_terms": [
@@ -535,11 +571,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "networkx/networkx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "networkx/nx-parallel"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

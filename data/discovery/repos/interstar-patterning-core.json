@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "interstar/Patterning-Core",
+      "target": "quil/quil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "interstar/Patterning-Core",
+      "target": "interstar/patterning-quil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "interstar/Patterning-Core",
+      "target": "interstar/patterning-for-processing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "interstar/Patterning-Core",
+      "target": "interstar/patterning",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:00.433493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "New core for the Patterning library. Creates only the data-structure and SVG. No Quil / Processing dependency.",
+    "fork": false,
+    "full_name": "interstar/Patterning-Core",
+    "html_url": "https://github.com/interstar/Patterning-Core",
+    "language": "Clojure",
+    "pushed_at": "2026-04-15T12:29:28Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-15T12:29:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interstar/patterning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interstar/patterning-for-processing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interstar/patterning-quil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quil/quil",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

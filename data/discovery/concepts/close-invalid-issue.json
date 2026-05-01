@@ -19,12 +19,48 @@
       "source_repo": "cloudwego/hertz",
       "status": "candidate-context",
       "text": "\"Close Invalid Issue\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "Agentic AI Framework for Java Developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "\"Close Invalid Issue\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "A high-determinism, code-free 'Prompt Programing'  studio built with Java \u4e00\u4e2a\u9ad8\u786e\u5b9a\u6027\u7684 \u65e0\u4ee3\u7801 'Prompt\u7f16\u7a0b'\u5de5\u4f5c\u7ad9\uff0c\u4ee5 Java \u7f16\u5199"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "\"Close Invalid Issue\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cloudwego/hertz",
+      "status": "candidate",
+      "text": "\"Close Invalid Issue\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate",
+      "text": "\"Close Invalid Issue\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
       "status": "candidate",
       "text": "\"Close Invalid Issue\""
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/invalid_question.yml",
       "source_repo": "cloudwego/hertz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/invalid-issue-check.yml",
+      "source_repo": "alibaba/spring-ai-alibaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/invalid-issue-check.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

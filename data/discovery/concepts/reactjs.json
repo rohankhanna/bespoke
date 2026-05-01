@@ -199,6 +199,18 @@
       "source_repo": "marmelab/react-admin-helpdesk",
       "status": "candidate-context",
       "text": "This application is a fake a Help Desk for an imaginary refrigerator company with a few support agents. You can test it online at https://marmelab.com/react-admin-helpdesk. It is a demo of the [react-admin](https://github.com/marmelab/react-admin) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "\ud83d\udc3b Bear necessities for state management in React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "marmelab/react-admin-helpdesk",
       "status": "candidate",
       "text": "This application is a fake a Help Desk for an imaginary refrigerator company with a few support agents. You can test it online at https://marmelab.com/react-admin-helpdesk. It is a demo of the [react-admin](https://github.com/marmelab/react-admin) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -430,11 +448,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/zustand"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

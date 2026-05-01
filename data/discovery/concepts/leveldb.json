@@ -67,6 +67,30 @@
       "source_repo": "Level/level",
       "status": "candidate-context",
       "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syndtr/goleveldb",
+      "status": "candidate-context",
+      "text": "LevelDB key/value database in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syndtr/goleveldb",
+      "status": "candidate-context",
+      "text": "This is an implementation of the [LevelDB key/value database](https://github.com/google/leveldb) in the [Go programming language](https://go.dev)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate-context",
+      "text": "Wide NoSQL benchmark for RocksDB, LevelDB, Redis, WiredTiger and MongoDB extending the Yahoo Cloud Serving Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Unbranded Cloud Serving Benchmark</h1>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "Level/level",
       "status": "candidate",
       "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syndtr/goleveldb",
+      "status": "candidate",
+      "text": "This is an implementation of the [LevelDB key/value database](https://github.com/google/leveldb) in the [Go programming language](https://go.dev)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Unbranded Cloud Serving Benchmark</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "syndtr/goleveldb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/ucsb"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

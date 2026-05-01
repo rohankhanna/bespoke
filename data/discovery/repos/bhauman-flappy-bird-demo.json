@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:24:09.730931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Live interactive coding Flappy Bird in ClojureScript",
+    "fork": false,
+    "full_name": "bhauman/flappy-bird-demo",
+    "html_url": "https://github.com/bhauman/flappy-bird-demo",
+    "language": "JavaScript",
+    "pushed_at": "2022-05-05T16:42:36Z",
+    "stargazers_count": 148,
+    "topics": [],
+    "updated_at": "2025-10-19T05:30:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

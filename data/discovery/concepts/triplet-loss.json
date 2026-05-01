@@ -19,6 +19,18 @@
       "source_repo": "soubhiksanyal/RingNet",
       "status": "candidate-context",
       "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate-context",
+      "text": "This is the official repository for evaluation on the NoW Benchmark Dataset. The goal of the NoW benchmark is to introduce a standard evaluation metric to measure the accuracy and robustness of 3D face reconstruction methods from a single image under variations in viewing angle, lighting, and common occlusions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate-context",
+      "text": "The original README continues below:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "soubhiksanyal/RingNet",
       "status": "candidate",
       "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate",
+      "text": "The original README continues below:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "soubhiksanyal/RingNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

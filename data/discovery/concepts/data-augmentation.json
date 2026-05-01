@@ -79,6 +79,18 @@
       "source_repo": "denisyarats/drq",
       "status": "candidate-context",
       "text": "This is a PyTorch implementation of **DrQ** from"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DemisEom/SpecAugment",
+      "status": "candidate-context",
+      "text": "A Implementation of SpecAugment with Tensorflow & Pytorch, introduced by Google Brain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DemisEom/SpecAugment",
+      "status": "candidate-context",
+      "text": "This is a implementation of SpecAugment that speech data augmentation method which directly process the spectrogram with Tensorflow & Pytorch, introduced by Google Brain[1]. This is currently under the Apache 2.0, Please feel free to use for your project. Enjoy!"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "denisyarats/drq",
       "status": "candidate",
       "text": "This is a PyTorch implementation of **DrQ** from"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DemisEom/SpecAugment",
+      "status": "candidate",
+      "text": "This is a implementation of SpecAugment that speech data augmentation method which directly process the spectrogram with Tensorflow & Pytorch, introduced by Google Brain[1]. This is currently under the Apache 2.0, Please feel free to use for your project. Enjoy!"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +232,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

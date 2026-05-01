@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIOpen",
+      "target": "rocm/hipblaslt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIOpen",
+      "target": "rocm/hipblas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIOpen",
+      "target": "rocm/rocmlir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ROCm/MIOpen",
+      "target": "pfultz2/cget",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:17:26.297233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14275
+    },
+    {
+      "path": "Dockerfile",
+      "size": 7292
+    },
+    {
+      "path": "requirements.txt",
+      "size": 947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop_deprecated",
+    "description": "[DEPRECATED] Moved to ROCm/rocm-libraries repo",
+    "fork": false,
+    "full_name": "ROCm/MIOpen",
+    "html_url": "https://github.com/ROCm/MIOpen",
+    "language": "Assembly",
+    "pushed_at": "2026-04-14T13:55:24Z",
+    "stargazers_count": 1186,
+    "topics": [],
+    "updated_at": "2026-04-24T17:21:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/hipblas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/hipblaslt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/rocmlir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pfultz2/cget",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

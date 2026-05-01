@@ -163,6 +163,18 @@
       "source_repo": "JizhiziLi/RIM",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Referring Image Matting [CVPR-2023]</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "JizhiziLi/RIM",
       "status": "candidate",
       "text": "<h1 align=\"center\">Referring Image Matting [CVPR-2023]</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +376,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/notebooks"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

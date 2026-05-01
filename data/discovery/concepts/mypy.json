@@ -238,6 +238,42 @@
       "source_repo": "brentyi/jaxlie",
       "status": "candidate-context",
       "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "Network Analysis in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "Mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "OpenTinker is an RL-as-a-Service infrastructure for foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "Mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/dfgo",
+      "status": "candidate-context",
+      "text": "Differentiable Factor Graph Optimization @ IROS 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/dfgo",
+      "status": "candidate-context",
+      "text": "mypy"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +388,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "brentyi/jaxlie",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate",
+      "text": "Mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate",
+      "text": "Mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/dfgo",
       "status": "candidate",
       "text": "mypy"
     }
@@ -571,11 +625,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/mypy.yml",
       "source_repo": "brentyi/jaxlie"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "networkx/networkx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "open-tinker/OpenTinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/dfgo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

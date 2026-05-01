@@ -523,6 +523,168 @@
       "source_repo": "JuliaFolds/BangBang.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate-context",
+      "text": "(yet another) static site generator. Simple, customisable, fast, maths with KaTeX, code evaluation, optional pre-rendering, in Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DocumentationGenerator.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaRegistries/Registrator.jl",
+      "status": "candidate-context",
+      "text": "Julia package registration bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/Registrator.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/BumpStdlibs.jl",
+      "status": "candidate-context",
+      "text": "Update the hashes and checksums of all Julia stdlibs in just four clicks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/BumpStdlibs.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "A code formatter for Julia with rules set in stone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate-context",
+      "text": "Scientific reports/literate programming for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate-context",
+      "text": "Port of mustache.js to julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/Bibliography.jl",
+      "status": "candidate-context",
+      "text": "General bibliography manager in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/Bibliography.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/DocumenterInventoryWritingBackport.jl",
+      "status": "candidate-context",
+      "text": "Backport of inventory writing for Documenter 0.25-1.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DocumenterInventoryWritingBackport.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Cairo.jl",
+      "status": "candidate-context",
+      "text": "Bindings to the Cairo graphics library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Cairo.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Gtk.jl",
+      "status": "candidate-context",
+      "text": "Julia interface to Gtk windowing toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Gtk.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings to the FFTW library for fast Fourier transforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/GSL.jl",
+      "status": "candidate-context",
+      "text": "Julia interface to the GNU Scientific Library (GSL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/GSL.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lyceum/LyceumBase.jl",
+      "status": "candidate-context",
+      "text": "A set of common definitions and interfaces for the Lyceum ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumBase.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -805,6 +967,90 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaFolds/BangBang.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DocumentationGenerator.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/Registrator.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/BumpStdlibs.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/Bibliography.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/DocumenterInventoryWritingBackport.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Cairo.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Gtk.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/GSL.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumBase.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -1102,11 +1348,95 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaFolds/BangBang.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/DocumentationGenerator.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaRegistries/Registrator.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/BumpStdlibs.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "fredrikekre/Runic.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JunoLab/Weave.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jverzani/Mustache.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Humans-of-Julia/Bibliography.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/DocumenterInventoryWritingBackport.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Cairo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Gtk.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaMath/FFTW.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaMath/GSL.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "Lyceum/LyceumBase.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

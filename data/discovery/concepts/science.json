@@ -79,6 +79,30 @@
       "source_repo": "galaxyproject/galaxy",
       "status": "candidate-context",
       "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate-context",
+      "text": "CLI for document conversion for scientific documents, powered by Mathpix OCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate-context",
+      "text": "Document conversion for scientific documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate-context",
+      "text": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate-context",
+      "text": "<!-- OpenSim Logo -->"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "galaxyproject/galaxy",
       "status": "candidate",
       "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate",
+      "text": "Document conversion for scientific documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate",
+      "text": "<!-- OpenSim Logo -->"
     }
   ],
   "candidate_related_terms": [
@@ -218,11 +254,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "galaxyproject/galaxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Mathpix/mpx-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "opensim-org/opensim-core"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

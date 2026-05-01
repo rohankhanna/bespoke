@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "freetype/freetype",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "adamharrison/lite-xl-plugin-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "adamharrison/lite-xl-simplified",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "jeremycw/httpserver.h",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps5",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "adamharrison/straightforward-c-project-standard"
+}

@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "akuity/awesome-argo",
-      "target": "argoproj-labs/argocd-agent",
+      "target": "argoproj-labs/argocd-interlace",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "akuity/awesome-argo",
-      "target": "argoproj-labs/argocd-autopilot",
+      "target": "argoproj-labs/argocd-operator",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "akuity/awesome-argo",
-      "target": "argoproj-labs/argocd-extensions",
+      "target": "argoproj-labs/argocd-rbac-operator",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "akuity/awesome-argo",
-      "target": "argoproj-labs/argocd-image-updater",
+      "target": "argoproj-labs/argocd-vault-plugin",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T01:55:11.560625+00:00",
+  "fetched_at": "2026-05-01T08:11:04.986431+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -187,7 +187,7 @@
     "html_url": "https://github.com/akuity/awesome-argo",
     "language": null,
     "pushed_at": "2026-02-28T03:02:12Z",
-    "stargazers_count": 2424,
+    "stargazers_count": 2423,
     "topics": [
       "argo",
       "argo-events",
@@ -210,27 +210,27 @@
       "workflow-management",
       "workflow-orchestration"
     ],
-    "updated_at": "2026-04-29T06:09:19Z"
+    "updated_at": "2026-04-30T20:45:38Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "argoproj-labs/argocd-agent",
+      "full_name": "argoproj-labs/argocd-interlace",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "argoproj-labs/argocd-autopilot",
+      "full_name": "argoproj-labs/argocd-operator",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "argoproj-labs/argocd-extensions",
+      "full_name": "argoproj-labs/argocd-rbac-operator",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "argoproj-labs/argocd-image-updater",
+      "full_name": "argoproj-labs/argocd-vault-plugin",
       "source_file": "README.md"
     }
   ],

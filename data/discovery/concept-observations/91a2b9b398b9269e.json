@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RFC3986 URI parsing library for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Uri -- an RFC3986 URI/URL parsing library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Uri -- an RFC3986 URI/URL parsing library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rfc-3986",
+      "sense_id": "rfc-3986#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rfc-3986",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rfc-3986",
+  "observation_id": "91a2b9b398b9269e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "rfc-3986",
+  "source_context_snippet": "Uri -- an RFC3986 URI/URL parsing library",
+  "source_file": null,
+  "source_repo": "mirage/ocaml-uri",
+  "source_repo_description": "RFC3986 URI parsing library for OCaml"
+}

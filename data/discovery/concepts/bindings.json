@@ -178,6 +178,18 @@
       "source_repo": "mono/CppSharp",
       "status": "candidate-context",
       "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings to the FFTW library for fast Fourier transforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "mono/CppSharp",
       "status": "candidate",
       "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +469,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JuliaMath/FFTW.jl"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

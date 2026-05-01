@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "derekkraan/curl_req",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "derekkraan/curl_req",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "derekkraan/curl_req",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:14:52.745242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3829
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "req to curl and back",
+    "fork": false,
+    "full_name": "derekkraan/curl_req",
+    "html_url": "https://github.com/derekkraan/curl_req",
+    "language": "Elixir",
+    "pushed_at": "2025-05-26T16:39:06Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2025-10-20T08:48:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

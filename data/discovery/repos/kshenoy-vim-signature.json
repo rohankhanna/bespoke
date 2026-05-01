@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kshenoy/vim-signature",
+      "target": "zakj/vim-showmarks",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:45.037236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugin to toggle, display and navigate marks",
+    "fork": false,
+    "full_name": "kshenoy/vim-signature",
+    "html_url": "https://github.com/kshenoy/vim-signature",
+    "language": "Vim script",
+    "pushed_at": "2022-10-20T10:08:38Z",
+    "stargazers_count": 1427,
+    "topics": [],
+    "updated_at": "2026-04-18T09:22:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zakj/vim-showmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

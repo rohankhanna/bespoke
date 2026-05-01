@@ -313,6 +313,18 @@
       "source_repo": "gorilla-llm/gorilla-cli",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "Virtual whiteboard for sketching hand-drawn like diagrams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +465,12 @@
       "source_repo": "gorilla-llm/gorilla-cli",
       "status": "candidate",
       "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate",
+      "text": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">"
     }
   ],
   "candidate_related_terms": [
@@ -810,11 +828,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "gorilla-llm/gorilla-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "excalidraw/excalidraw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

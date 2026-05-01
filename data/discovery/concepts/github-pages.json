@@ -602,6 +602,30 @@
       "source_repo": "kitknox/helix",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/docsite",
+      "status": "candidate-context",
+      "text": "Dioxuslabs.com documentation site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/docsite",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "Simplified nix packaging for various programming language ecosystems [maintainer=@DavHau]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "github pages"
     }
   ],
   "candidate_glosses": [
@@ -898,6 +922,18 @@
       "source_repo": "kitknox/helix",
       "status": "candidate",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/docsite",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate",
+      "text": "github pages"
     }
   ],
   "candidate_related_terms": [
@@ -1349,11 +1385,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "DioxusLabs/docsite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "nix-community/dream2nix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cargo-generate/cargo-generate"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

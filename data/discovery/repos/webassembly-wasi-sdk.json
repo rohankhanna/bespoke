@@ -83,34 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WebAssembly/wasi-sdk",
-      "target": "webassembly/wasi-libc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WebAssembly/wasi-sdk",
-      "target": "webassembly/threads",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WebAssembly/wasi-sdk",
-      "target": "webassembly/wasi-threads",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WebAssembly/wasi-sdk",
-      "target": "webassembly/tool-conventions",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "WebAssembly/wasi-sdk",
@@ -216,7 +188,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:42:04.270073+00:00",
+  "fetched_at": "2026-05-01T07:29:13.223632+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -236,38 +208,17 @@
     "full_name": "WebAssembly/wasi-sdk",
     "html_url": "https://github.com/WebAssembly/wasi-sdk",
     "language": "CMake",
-    "pushed_at": "2026-04-20T21:37:05Z",
-    "stargazers_count": 1538,
+    "pushed_at": "2026-04-30T14:19:10Z",
+    "stargazers_count": 1541,
     "topics": [
       "llvm",
       "sysroot",
       "wasi-libc",
       "wasi-sdk"
     ],
-    "updated_at": "2026-04-22T00:15:52Z"
+    "updated_at": "2026-04-29T19:29:47Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webassembly/threads",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webassembly/tool-conventions",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webassembly/wasi-libc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webassembly/wasi-threads",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "[Download SDK packages here.][releases]",

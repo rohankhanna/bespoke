@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikras/ducks-modular-redux",
+      "target": "cyrilluce/saga-duck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikras/ducks-modular-redux",
+      "target": "benbeadle/modular-redux-thunk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikras/ducks-modular-redux",
+      "target": "drpicox/ducks-middleware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikras/ducks-modular-redux",
+      "target": "deadivan/ducks-modular-redux",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:14:05.001458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A proposal for bundling reducers, action types and actions when using Redux",
+    "fork": false,
+    "full_name": "erikras/ducks-modular-redux",
+    "html_url": "https://github.com/erikras/ducks-modular-redux",
+    "language": "JavaScript",
+    "pushed_at": "2022-01-31T03:42:20Z",
+    "stargazers_count": 9566,
+    "topics": [],
+    "updated_at": "2026-04-22T14:49:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benbeadle/modular-redux-thunk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyrilluce/saga-duck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deadivan/ducks-modular-redux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drpicox/ducks-middleware",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

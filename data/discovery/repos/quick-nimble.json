@@ -1,0 +1,498 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/carthage.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/carthage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml"
+    },
+    {
+      "component": "compnerd/gha-setup-swift@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-xcode.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-xcode.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-xcode.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml"
+    },
+    {
+      "component": "norio-nomura/action-swiftlint@3.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml"
+    },
+    {
+      "component": "swiftwasm/swiftwasm-action@v5.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Quick/Nimble",
+      "target": "pivotal/cedar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/carthage.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/carthage.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/carthage.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "Carthage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "compnerd/gha-setup-swift@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "CI (SwiftPM)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-xcode.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-xcode.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "CI (Xcode)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "CocoaPods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "Build Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "Release Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "norio-nomura/action-swiftlint@3.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "SwiftLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "swiftwasm/swiftwasm-action@v5.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "Quick/Nimble",
+      "target": "SwiftWasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Nimble",
+      "target": "asynchronous-expectations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Nimble",
+      "target": "failure-messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Nimble",
+      "target": "matcher-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Nimble",
+      "target": "operator-overloads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Nimble",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Nimble",
+      "target": "swift-assertions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Nimble",
+      "target": "swift-generics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Quick/Nimble",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:26:48.892150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4608
+    },
+    {
+      "path": ".github/workflows/carthage.yml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/ci-swiftpm.yml",
+      "size": 1539
+    },
+    {
+      "path": ".github/workflows/ci-xcode.yml",
+      "size": 1331
+    },
+    {
+      "path": ".github/workflows/cocoapods.yml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 547
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 640
+    },
+    {
+      "path": ".github/workflows/swiftlint.yml",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/wasm.yml",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Matcher Framework for Swift and Objective-C",
+    "fork": false,
+    "full_name": "Quick/Nimble",
+    "html_url": "https://github.com/Quick/Nimble",
+    "language": "Swift",
+    "pushed_at": "2026-04-13T13:27:51Z",
+    "stargazers_count": 4841,
+    "topics": [
+      "asynchronous-expectations",
+      "bdd",
+      "failure-messages",
+      "matcher-functions",
+      "operator-overloads",
+      "swift",
+      "swift-assertions",
+      "swift-generics",
+      "testing"
+    ],
+    "updated_at": "2026-04-30T07:59:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pivotal/cedar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Carthage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/carthage.yml",
+      "term": "Carthage"
+    },
+    {
+      "context_snippet": "CI (SwiftPM)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-swiftpm.yml",
+      "term": "CI (SwiftPM)"
+    },
+    {
+      "context_snippet": "CI (Xcode)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-xcode.yml",
+      "term": "CI (Xcode)"
+    },
+    {
+      "context_snippet": "CocoaPods",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "term": "CocoaPods"
+    },
+    {
+      "context_snippet": "Build Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Build Documentation"
+    },
+    {
+      "context_snippet": "\"Release Artifacts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Artifacts"
+    },
+    {
+      "context_snippet": "SwiftLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "term": "SwiftLint"
+    },
+    {
+      "context_snippet": "SwiftWasm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "term": "SwiftWasm"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asynchronous-expectations"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "failure-messages"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matcher-functions"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operator-overloads"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-assertions"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-generics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

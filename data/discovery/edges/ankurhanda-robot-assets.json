@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankurhanda/robot-assets",
+      "target": "dic-iit/gym-ignition-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankurhanda/robot-assets",
+      "target": "anybotics/anymal_b_simple_description",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankurhanda/robot-assets",
+      "target": "a-price/robotiq_arg85_description",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankurhanda/robot-assets",
+      "target": "code-iai/robot_scenarios_sim",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "ankurhanda/robot-assets"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Haskell Dockerfile parser, pretty-printer and EDSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Haskell Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Haskell Lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7604,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7004,
+      "status": "candidate",
+      "text": "bayard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4600,
+      "status": "candidate",
+      "text": "arnold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4600,
+      "status": "candidate",
+      "text": "blake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4600,
+      "status": "candidate",
+      "text": "boyle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Haskell Lint",
+      "sense_id": "haskell-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "haskell-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "haskell-lint",
+  "observation_id": "4ac32e2067dccd98",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Haskell Lint",
+  "source_context_snippet": "Haskell Lint",
+  "source_file": ".github/workflows/hlint.yml",
+  "source_repo": "hadolint/language-docker",
+  "source_repo_description": "Haskell Dockerfile parser, pretty-printer and EDSL"
+}

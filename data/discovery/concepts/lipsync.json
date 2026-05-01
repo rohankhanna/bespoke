@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lipsync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facefusion/facefusion",
+      "status": "candidate-context",
+      "text": "Industry leading face manipulation platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facefusion/facefusion",
+      "status": "candidate-context",
+      "text": "FaceFusion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facefusion/facefusion",
+      "status": "candidate",
+      "text": "FaceFusion"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002133,
+      "status": "candidate",
+      "text": "lip-synching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002132,
+      "status": "candidate",
+      "text": "synch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002131,
+      "status": "candidate",
+      "text": "lip reading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002130,
+      "status": "candidate",
+      "text": "sing-along"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002129,
+      "status": "candidate",
+      "text": "lipservice"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lipsync",
+  "concept_id": "lipsync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "facefusion/facefusion"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lipsync",
+      "sense_id": "lipsync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

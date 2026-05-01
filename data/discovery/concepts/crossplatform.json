@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "crossplatform"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate-context",
+      "text": "A cross-platform framework using Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate-context",
+      "text": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate",
+      "text": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "interoperability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "interoperable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "crosspatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "compatible software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "interoperate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "crossplatform",
+  "concept_id": "crossplatform",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crossplatform",
+      "sense_id": "crossplatform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

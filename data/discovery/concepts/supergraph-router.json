@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "supergraph-router"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate-context",
+      "text": "Archived: GitOps config repo for an Apollo GraphQL federated graph with a supergraph router and subgraph services deployed to Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate-context",
+      "text": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate",
+      "text": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "supergraph-router",
+  "concept_id": "supergraph-router",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "supergraph-router",
+      "sense_id": "supergraph-router#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

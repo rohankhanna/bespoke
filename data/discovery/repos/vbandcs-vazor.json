@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VBAndCs/Vazor",
+      "target": "vbandcs/zml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:20:18.945873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vazor is a VB.NET Razor for ASP.NET Core 6.0 (MVC and Razor Pages)",
+    "fork": false,
+    "full_name": "VBAndCs/Vazor",
+    "html_url": "https://github.com/VBAndCs/Vazor",
+    "language": "Visual Basic .NET",
+    "pushed_at": "2022-09-23T20:03:10Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-02-04T09:27:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vbandcs/zml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

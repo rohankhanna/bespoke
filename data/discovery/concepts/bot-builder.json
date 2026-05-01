@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bot-builder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate-context",
+      "text": "A desktop application that allows users to locally test and debug chat bots built with the Bot Framework SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate-context",
+      "text": "**Bot Framework Emulator being retired in favor of Agents Playground**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate",
+      "text": "**Bot Framework Emulator being retired in favor of Agents Playground**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bot-builder",
+  "concept_id": "bot-builder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/BotFramework-Emulator"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bot-builder",
+      "sense_id": "bot-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

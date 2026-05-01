@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jhakulin/realtime-ai",
+      "target": "azure-samples/cognitive-services-speech-sdk",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:39.704188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16817
+    },
+    {
+      "path": "requirements.txt",
+      "size": 205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Experimental Python SDK for Realtime API for Speech",
+    "fork": false,
+    "full_name": "jhakulin/realtime-ai",
+    "html_url": "https://github.com/jhakulin/realtime-ai",
+    "language": "Python",
+    "pushed_at": "2026-01-24T04:04:35Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-02-07T13:47:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/cognitive-services-speech-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

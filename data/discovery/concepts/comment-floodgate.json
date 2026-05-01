@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment Floodgate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate-context",
+      "text": "A proposal for adding a useful pipe operator to JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate-context",
+      "text": "Comment Floodgate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate",
+      "text": "Comment Floodgate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12336,
+      "status": "candidate",
+      "text": "hatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12336,
+      "status": "candidate",
+      "text": "sluice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10804,
+      "status": "candidate",
+      "text": "parenthesis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "barrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "bog"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment Floodgate",
+  "concept_id": "comment-floodgate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/floodgate.yml",
+      "source_repo": "tc39/proposal-pipeline-operator"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment Floodgate",
+      "sense_id": "comment-floodgate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

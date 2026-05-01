@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "INK-USC/CrossFit",
+      "target": "shmsw25/bart-closed-book-qa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:44.132495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for paper \"CrossFit :weight_lifting:: A Few-shot Learning Challenge for Cross-task Generalization in NLP\" (https://arxiv.org/abs/2104.08835)",
+    "fork": false,
+    "full_name": "INK-USC/CrossFit",
+    "html_url": "https://github.com/INK-USC/CrossFit",
+    "language": "Python",
+    "pushed_at": "2022-04-28T01:10:58Z",
+    "stargazers_count": 113,
+    "topics": [],
+    "updated_at": "2025-10-29T16:26:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shmsw25/bart-closed-book-qa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -43,6 +43,18 @@
       "source_repo": "OpenGVLab/InternGPT",
       "status": "candidate-context",
       "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate-context",
+      "text": "[CVPR 2024] Official implementation of FreeDrag: Feature Dragging for Reliable Point-based Image Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "OpenGVLab/InternGPT",
       "status": "candidate",
       "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "OpenGVLab/InternGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LPengYang/FreeDrag"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

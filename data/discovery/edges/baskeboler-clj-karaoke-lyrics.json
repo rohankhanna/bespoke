@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "colxi/midi-parser-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "Clojure CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "awalsh128/cache-apt-pkgs-action@677fd9bce54b19c406f4a1651bca51b38b1f978a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "awalsh128/cache-apt-pkgs-action@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "ConorMacBride/install-package@3e7ad059e07782ee54fa35f827df52aae0626f30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "ConorMacBride/install-package@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "target": "Manual workflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "baskeboler/clj-karaoke-lyrics"
+}

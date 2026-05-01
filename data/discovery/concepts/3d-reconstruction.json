@@ -121,6 +121,138 @@
       "source_repo": "aim-uofa/FrozenRecon",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is a implementation of the 3D FLAME model in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate-context",
+      "text": "This is the official repository for evaluation on the NoW Benchmark Dataset. The goal of the NoW benchmark is to introduce a standard evaluation metric to measure the accuracy and robustness of 3D face reconstruction methods from a single image under variations in viewing angle, lighting, and common occlusions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate-context",
+      "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "Tensorflow framework for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 2D or 3D keypoints, and how to generate textured head meshes from Images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate-context",
+      "text": "The repo for \"Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image\" and \"Metric3Dv2: A Versatile Monocular Geometric Foundation Model...\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate-context",
+      "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niessner/Matterport",
+      "status": "candidate-context",
+      "text": "Matterport3D is a pretty awesome dataset for RGB-D machine learning tasks :)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niessner/Matterport",
+      "status": "candidate-context",
+      "text": "![Matterport3d](img/teaser.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/MoGe",
+      "status": "candidate-context",
+      "text": "[CVPR'25 Oral] MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MoGe",
+      "status": "candidate-context",
+      "text": "MoGe is a powerful model for recovering 3D geometry from monocular open-domain images, including metric point maps, metric depth maps, normal maps and camera FOV. ***Check our websites ([MoGe-1](https://wangrc.site/MoGePage), [MoGe-2](https://wangrc.site/MoGe2Page)) for videos a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate-context",
+      "text": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate-context",
+      "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate-context",
+      "text": "open Multi-View Stereo reconstruction library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate-context",
+      "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate-context",
+      "text": "Open source Structure-from-Motion pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate-context",
+      "text": "OpenSfM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nmoehrle/mvs-texturing",
+      "status": "candidate-context",
+      "text": "Algorithm to texture 3D reconstructions from multi-view stereo images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmoehrle/mvs-texturing",
+      "status": "candidate-context",
+      "text": "MVS-Texturing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "Example code for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 3D keypoints and 3D scans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
     }
   ],
   "candidate_glosses": [
@@ -183,6 +315,72 @@
       "source_repo": "aim-uofa/FrozenRecon",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate",
+      "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate",
+      "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niessner/Matterport",
+      "status": "candidate",
+      "text": "![Matterport3d](img/teaser.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MoGe",
+      "status": "candidate",
+      "text": "MoGe is a powerful model for recovering 3D geometry from monocular open-domain images, including metric point maps, metric depth maps, normal maps and camera FOV. ***Check our websites ([MoGe-1](https://wangrc.site/MoGePage), [MoGe-2](https://wangrc.site/MoGe2Page)) for videos a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate",
+      "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate",
+      "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate",
+      "text": "OpenSfM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmoehrle/mvs-texturing",
+      "status": "candidate",
+      "text": "MVS-Texturing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +448,77 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "aim-uofa/FrozenRecon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/TF_FLAME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/Metric3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niessner/Matterport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/MoGe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mapillary/OpenSfM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nmoehrle/mvs-texturing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

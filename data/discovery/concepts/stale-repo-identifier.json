@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stale Repo Identifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/.github",
+      "status": "candidate-context",
+      "text": "10up's community files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/.github",
+      "status": "candidate-context",
+      "text": "Stale Repo Identifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/.github",
+      "status": "candidate",
+      "text": "Stale Repo Identifier"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20594,
+      "status": "candidate",
+      "text": "flagged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20585,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20585,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20585,
+      "status": "candidate",
+      "text": "possess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20585,
+      "status": "candidate",
+      "text": "possessed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stale Repo Identifier",
+  "concept_id": "stale-repo-identifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale_repos.yml",
+      "source_repo": "10up/.github"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Repo Identifier",
+      "sense_id": "stale-repo-identifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

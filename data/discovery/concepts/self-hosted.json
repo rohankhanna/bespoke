@@ -391,6 +391,42 @@
       "source_repo": "janhq/jan",
       "status": "candidate-context",
       "text": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "Aggregates compute from spare GPU capacity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beclab/Olares",
+      "status": "candidate-context",
+      "text": "Olares: An Open-Source Personal Cloud to Reclaim Your Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beclab/Olares",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +621,24 @@
       "source_repo": "janhq/jan",
       "status": "candidate",
       "text": "<img width=\"2048\" height=\"280\" alt=\"github jan banner\" src=\"https://github.com/user-attachments/assets/f3f87889-c133-433b-b250-236218150d3f\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beclab/Olares",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
     }
   ],
   "candidate_related_terms": [
@@ -902,11 +956,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kalavai-net/kalavai-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beclab/Olares"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/appwrite"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

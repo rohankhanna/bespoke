@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TTPlanetPig/Comfyui_Object_Migration",
+      "target": "ttplanetpig/comfyui_jc2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TTPlanetPig/Comfyui_Object_Migration",
+      "target": "minuszoneai/comfyui-fluxext-mz",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:23:47.127842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a study aim to transfer the single concept by using DIT model self-attention capablity",
+    "fork": false,
+    "full_name": "TTPlanetPig/Comfyui_Object_Migration",
+    "html_url": "https://github.com/TTPlanetPig/Comfyui_Object_Migration",
+    "language": "Python",
+    "pushed_at": "2024-11-20T16:51:57Z",
+    "stargazers_count": 783,
+    "topics": [],
+    "updated_at": "2026-04-20T09:02:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minuszoneai/comfyui-fluxext-mz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ttplanetpig/comfyui_jc2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

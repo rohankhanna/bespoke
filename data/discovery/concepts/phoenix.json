@@ -247,6 +247,42 @@
       "source_repo": "chequer-io/PhoenixSql",
       "status": "candidate-context",
       "text": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate-context",
+      "text": "\ud83d\udfea AppSignal for Elixir package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/appsignal/appsignal-elixir.png?branch=main)](https://travis-ci.org/appsignal/appsignal-elixir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/phoenix",
+      "status": "candidate-context",
+      "text": "Apache Phoenix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/phoenix",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate-context",
+      "text": "AppSignal instrumentation for the Phoenix framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate-context",
+      "text": "AppSignal's Phoenix instrumentation instruments calls to Phoenix applications"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "chequer-io/PhoenixSql",
       "status": "candidate",
       "text": "<img width=\"128\" src=\"https://github.com/chequer-io/phoenixsql/blob/main/Logo.png?raw=true\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/appsignal/appsignal-elixir.png?branch=main)](https://travis-ci.org/appsignal/appsignal-elixir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/phoenix",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate",
+      "text": "AppSignal's Phoenix instrumentation instruments calls to Phoenix applications"
     }
   ],
   "candidate_related_terms": [
@@ -619,11 +673,47 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "chequer-io/PhoenixSql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-elixir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/phoenix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-elixir-phoenix"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

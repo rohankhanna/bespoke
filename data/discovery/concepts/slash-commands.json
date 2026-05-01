@@ -40,6 +40,18 @@
       "source_repo": "hao-ai-lab/FastVideo",
       "status": "candidate-context",
       "text": "Slash Commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+      "status": "candidate-context",
+      "text": "CLAUDE.md files for repo base levels for bulk mgmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+      "status": "candidate-context",
+      "text": "![alt text](banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -54,6 +66,12 @@
       "source_repo": "hao-ai-lab/FastVideo",
       "status": "candidate",
       "text": "Slash Commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+      "status": "candidate",
+      "text": "![alt text](banner.png)"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ci-slash-commands.yml",
       "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

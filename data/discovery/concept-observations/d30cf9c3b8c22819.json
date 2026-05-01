@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28429340,
+      "status": "candidate",
+      "text": "doura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28332461,
+      "status": "candidate",
+      "text": "rouge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28260737,
+      "status": "candidate",
+      "text": "session"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28255397,
+      "status": "candidate",
+      "text": "dura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28214573,
+      "status": "candidate",
+      "text": "role"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dora",
+      "sense_id": "dora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dora",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dora",
+  "observation_id": "d30cf9c3b8c22819",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "dora",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "apache/incubator-devlake",
+  "source_repo_description": "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
+}

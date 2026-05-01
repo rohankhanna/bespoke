@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "reading-comprehension"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate-context",
+      "text": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension  (CMRC 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate-context",
+      "text": "A Sentence Cloze Dataset for Chinese Machine Reading Comprehension (CMRC 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "reading-comprehension",
+  "concept_id": "reading-comprehension",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2018"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2019"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reading-comprehension",
+      "sense_id": "reading-comprehension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

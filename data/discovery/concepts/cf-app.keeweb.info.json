@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\u2601\ufe0f CF \u203a app.keeweb.info"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate-context",
+      "text": "Free cross-platform password manager compatible with KeePass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate-context",
+      "text": "'\u2601\ufe0f CF \u203a app.keeweb.info'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate",
+      "text": "'\u2601\ufe0f CF \u203a app.keeweb.info'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "article"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "defence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "dnd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "every"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\u2601\ufe0f CF \u203a app.keeweb.info",
+  "concept_id": "cf-app.keeweb.info",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "keeweb/keeweb"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\u2601\ufe0f CF \u203a app.keeweb.info",
+      "sense_id": "cf-app.keeweb.info#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

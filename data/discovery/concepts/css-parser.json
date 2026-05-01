@@ -19,6 +19,18 @@
       "source_repo": "CSSLint/parser-lib",
       "status": "candidate-context",
       "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CSSLint/parser-lib",
       "status": "candidate",
       "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "CSSLint/parser-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "csstree/csstree"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

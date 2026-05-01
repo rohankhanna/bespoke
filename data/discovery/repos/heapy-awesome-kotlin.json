@@ -197,7 +197,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:59:29.955332+00:00",
+  "fetched_at": "2026-05-01T07:06:36.483086+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -221,8 +221,8 @@
     "full_name": "Heapy/awesome-kotlin",
     "html_url": "https://github.com/Heapy/awesome-kotlin",
     "language": "Kotlin",
-    "pushed_at": "2026-04-24T03:02:39Z",
-    "stargazers_count": 11361,
+    "pushed_at": "2026-05-01T03:11:10Z",
+    "stargazers_count": 11360,
     "topics": [
       "hacktoberfest",
       "kotlin",
@@ -231,7 +231,7 @@
       "kotlin-language",
       "kotlin-library"
     ],
-    "updated_at": "2026-04-29T21:07:24Z"
+    "updated_at": "2026-04-30T23:53:42Z"
   },
   "repo_links": [],
   "terms": [

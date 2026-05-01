@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "gerrymanoim/pr-prefix-labeler@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "gerrymanoim/pr-prefix-labeler@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "actions/setup-python@v2.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master-merge.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-merge.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "On Master Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "actions/setup-python@v2.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "quantopian/libpy",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:20:50.404993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1701
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3228
+    },
+    {
+      "path": ".github/workflows/master-merge.yml",
+      "size": 359
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Utilities for writing C++ extension modules.",
+    "fork": false,
+    "full_name": "quantopian/libpy",
+    "html_url": "https://github.com/quantopian/libpy",
+    "language": "C++",
+    "pushed_at": "2023-07-13T19:26:01Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-04-07T14:02:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "On Master Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master-merge.yml",
+      "term": "On Master Merge"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "depth-map"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate-context",
+      "text": "The repo for \"Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image\" and \"Metric3Dv2: A Versatile Monocular Geometric Foundation Model...\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate-context",
+      "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate",
+      "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "depth-map",
+  "concept_id": "depth-map",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/Metric3D"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "depth-map",
+      "sense_id": "depth-map#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

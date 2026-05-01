@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "Pylons/pyramid",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "Pylons/pyramid",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "Pylons/pyramid",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pylons/pyramid",
+      "target": "pylons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pylons/pyramid",
+      "target": "pyramid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pylons/pyramid",
+      "target": "web-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pylons/pyramid",
+      "target": "wsgi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:13:39.192864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2513
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4188
+    },
+    {
+      "path": ".github/workflows/ci-tests.yml",
+      "size": 2548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pyramid - A Python web framework",
+    "fork": false,
+    "full_name": "Pylons/pyramid",
+    "html_url": "https://github.com/Pylons/pyramid",
+    "language": "Python",
+    "pushed_at": "2026-03-11T17:57:15Z",
+    "stargazers_count": 4081,
+    "topics": [
+      "pylons",
+      "pyramid",
+      "python",
+      "web-framework",
+      "wsgi"
+    ],
+    "updated_at": "2026-04-25T14:59:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "Pyramid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pylons"
+    },
+    {
+      "context_snippet": "Pyramid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyramid"
+    },
+    {
+      "context_snippet": "Pyramid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-framework"
+    },
+    {
+      "context_snippet": "Pyramid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsgi"
+    }
+  ]
+}

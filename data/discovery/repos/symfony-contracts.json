@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "symfony/contracts",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "symfony/contracts",
+      "target": "Close Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "abstractions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "decoupling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "interfaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "interoperability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "standards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "symfony",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/contracts",
+      "target": "symfony-component",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:26:28.284078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2349
+    },
+    {
+      "path": ".github/workflows/close-pull-request.yml",
+      "size": 544
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of abstractions extracted out of the Symfony components",
+    "fork": false,
+    "full_name": "symfony/contracts",
+    "html_url": "https://github.com/symfony/contracts",
+    "language": "PHP",
+    "pushed_at": "2026-04-18T13:54:33Z",
+    "stargazers_count": 3942,
+    "topics": [
+      "abstractions",
+      "component",
+      "contracts",
+      "decoupling",
+      "dev",
+      "interfaces",
+      "interoperability",
+      "php",
+      "standards",
+      "symfony",
+      "symfony-component"
+    ],
+    "updated_at": "2026-04-18T13:54:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "term": "Close Pull Request"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abstractions"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "component"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contracts"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decoupling"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interfaces"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interoperability"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standards"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony"
+    },
+    {
+      "context_snippet": "Symfony Contracts",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony-component"
+    }
+  ]
+}

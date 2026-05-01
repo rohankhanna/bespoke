@@ -163,6 +163,18 @@
       "source_repo": "BobLd/camelot-sharp",
       "status": "candidate-context",
       "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate-context",
+      "text": "Open source Structure-from-Motion pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate-context",
+      "text": "OpenSfM"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "BobLd/camelot-sharp",
       "status": "candidate",
       "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate",
+      "text": "OpenSfM"
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +394,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "BobLd/camelot-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mapillary/OpenSfM"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

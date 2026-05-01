@@ -316,6 +316,18 @@
       "source_repo": "apernet/hysteria",
       "status": "candidate-context",
       "text": "\"Build Docker Image\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "Virtual whiteboard for sketching hand-drawn like diagrams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "Build Docker image"
     }
   ],
   "candidate_glosses": [
@@ -474,6 +486,12 @@
       "source_repo": "apernet/hysteria",
       "status": "candidate",
       "text": "\"Build Docker Image\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate",
+      "text": "Build Docker image"
     }
   ],
   "candidate_related_terms": [
@@ -727,11 +745,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "apernet/hysteria"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker_build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "excalidraw/excalidraw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "geocompx/docker"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -265,14 +265,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "augustdev/enchanted",
+      "target": "chyok/ollama-gui",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "cheshire-cat-ai/core",
+      "target": "augustdev/enchanted",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:09:43.861326+00:00",
+  "fetched_at": "2026-05-01T10:26:19.925472+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-04-30T15:28:19Z",
-    "stargazers_count": 170397,
+    "pushed_at": "2026-05-01T08:56:41Z",
+    "stargazers_count": 170465,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-04-30T15:58:38Z"
+    "updated_at": "2026-05-01T10:22:40Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cheshire-cat-ai/core",
+      "full_name": "chyok/ollama-gui",
       "source_file": "README.md"
     }
   ],

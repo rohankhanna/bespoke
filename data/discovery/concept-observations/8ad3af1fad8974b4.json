@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Install PyTorch distributions with computation backend auto-detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "publishable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "publishable"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879601,
+      "status": "candidate",
+      "text": "magazinable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879600,
+      "status": "candidate",
+      "text": "publicizable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879599,
+      "status": "candidate",
+      "text": "bloggable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879598,
+      "status": "candidate",
+      "text": "uploadable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879597,
+      "status": "candidate",
+      "text": "commercializable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "publishable",
+      "sense_id": "publishable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publishable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publishable",
+  "observation_id": "8ad3af1fad8974b4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "publishable",
+  "source_context_snippet": "publishable",
+  "source_file": ".github/workflows/publishable.yml",
+  "source_repo": "Slicer/light-the-torch",
+  "source_repo_description": "Install PyTorch distributions with computation backend auto-detection"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "comment-on-pr-generated-vrl-docs",
   "observation_id": "30962defb008e683",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Comment on PR (Generated VRL Docs)",
   "source_context_snippet": "Comment on PR (Generated VRL Docs)",
   "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",

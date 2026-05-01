@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:37:25.323821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6898
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 46
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-fidelity performance metrics for generative models in PyTorch",
+    "fork": true,
+    "full_name": "LTH14/torch-fidelity",
+    "html_url": "https://github.com/LTH14/torch-fidelity",
+    "language": "Python",
+    "pushed_at": "2025-10-26T02:16:07Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-03-10T03:21:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

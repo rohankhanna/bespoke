@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AnimMouse/setup-ffmpeg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "FedericoCarboni/setup-ffmpeg@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facefusion/facefusion",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facefusion/facefusion",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facefusion/facefusion",
+      "target": "AnimMouse/setup-ffmpeg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facefusion/facefusion",
+      "target": "FedericoCarboni/setup-ffmpeg@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facefusion/facefusion",
+      "target": "deep-fake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facefusion/facefusion",
+      "target": "deepfake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facefusion/facefusion",
+      "target": "face-swap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facefusion/facefusion",
+      "target": "faceswap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facefusion/facefusion",
+      "target": "lip-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facefusion/facefusion",
+      "target": "lipsync",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:10:15.972481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2842
+    },
+    {
+      "path": "requirements.txt",
+      "size": 139
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Industry leading face manipulation platform",
+    "fork": false,
+    "full_name": "facefusion/facefusion",
+    "html_url": "https://github.com/facefusion/facefusion",
+    "language": "Python",
+    "pushed_at": "2026-04-30T13:36:17Z",
+    "stargazers_count": 28101,
+    "topics": [
+      "ai",
+      "deep-fake",
+      "deepfake",
+      "face-swap",
+      "faceswap",
+      "lip-sync",
+      "lipsync"
+    ],
+    "updated_at": "2026-05-01T07:31:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FaceFusion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-fake"
+    },
+    {
+      "context_snippet": "FaceFusion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepfake"
+    },
+    {
+      "context_snippet": "FaceFusion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-swap"
+    },
+    {
+      "context_snippet": "FaceFusion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faceswap"
+    },
+    {
+      "context_snippet": "FaceFusion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lip-sync"
+    },
+    {
+      "context_snippet": "FaceFusion",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lipsync"
+    }
+  ]
+}

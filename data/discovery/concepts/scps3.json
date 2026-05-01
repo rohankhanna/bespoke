@@ -19,6 +19,18 @@
       "source_repo": "lite-xl/lite-xl-plugin-manager",
       "status": "candidate-context",
       "text": "![image](https://user-images.githubusercontent.com/1034518/216748882-3ae8c8d4-a767-4d97-acc4-c1cde7e3e331.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "status": "candidate-context",
+      "text": "A standard for straightforward integration and compilation of C projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "status": "candidate-context",
+      "text": "This document outlines a project structure for C(++) programs and libraries"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lite-xl/lite-xl-plugin-manager",
       "status": "candidate",
       "text": "![image](https://user-images.githubusercontent.com/1034518/216748882-3ae8c8d4-a767-4d97-acc4-c1cde7e3e331.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "status": "candidate",
+      "text": "This document outlines a project structure for C(++) programs and libraries"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "lite-xl/lite-xl-plugin-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-plugin-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

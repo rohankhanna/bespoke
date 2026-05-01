@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:37:27.050736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5389
+    },
+    {
+      "path": "requirements.txt",
+      "size": 232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "yuvalkirstain/PickScore",
+    "html_url": "https://github.com/yuvalkirstain/PickScore",
+    "language": "Python",
+    "pushed_at": "2024-12-21T19:53:15Z",
+    "stargazers_count": 590,
+    "topics": [],
+    "updated_at": "2026-04-28T08:56:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "fmtlib/format-benchmark",
+      "target": "c42f/tinyformat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:21:09.272796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2788
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of formatting benchmarks",
+    "fork": false,
+    "full_name": "fmtlib/format-benchmark",
+    "html_url": "https://github.com/fmtlib/format-benchmark",
+    "language": "C++",
+    "pushed_at": "2026-02-23T16:35:35Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-16T07:48:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c42f/tinyformat",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

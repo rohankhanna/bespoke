@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MAGREF-Video/MAGREF",
+      "target": "phantom-video/phantom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MAGREF-Video/MAGREF",
+      "target": "skyworkai/skyreels-a2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MAGREF-Video/MAGREF",
+      "target": "tencent-hunyuan/hunyuancustom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MAGREF-Video/MAGREF",
+      "target": "ml-gsai/concat-id",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "MAGREF-Video/MAGREF"
+}

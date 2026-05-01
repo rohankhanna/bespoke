@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "palantir/javapoet",
+      "target": "octo-correct-managed",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:14:56.922363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Java library used to generate Java source files.",
+    "fork": false,
+    "full_name": "palantir/javapoet",
+    "html_url": "https://github.com/palantir/javapoet",
+    "language": "Java",
+    "pushed_at": "2026-05-01T07:05:21Z",
+    "stargazers_count": 349,
+    "topics": [
+      "octo-correct-managed"
+    ],
+    "updated_at": "2026-04-27T16:02:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "octo-correct-managed"
+    }
+  ]
+}

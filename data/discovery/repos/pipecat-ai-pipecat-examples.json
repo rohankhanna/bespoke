@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@v45",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "tj-actions/changed-files@v45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-demos.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "target": "Test Demos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:36:43.862045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4329
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 367
+    },
+    {
+      "path": ".github/workflows/android.yaml",
+      "size": 1799
+    },
+    {
+      "path": ".github/workflows/format.yaml",
+      "size": 854
+    },
+    {
+      "path": ".github/workflows/test-demos.yaml",
+      "size": 4123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pipecat example applications. Use and learn from these patterns to build your own voice AI applications.",
+    "fork": false,
+    "full_name": "pipecat-ai/pipecat-examples",
+    "html_url": "https://github.com/pipecat-ai/pipecat-examples",
+    "language": "Python",
+    "pushed_at": "2026-04-22T23:54:11Z",
+    "stargazers_count": 273,
+    "topics": [],
+    "updated_at": "2026-05-01T01:51:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yaml",
+      "term": "android"
+    },
+    {
+      "context_snippet": "format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yaml",
+      "term": "format"
+    },
+    {
+      "context_snippet": "Test Demos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-demos.yaml",
+      "term": "Test Demos"
+    }
+  ]
+}

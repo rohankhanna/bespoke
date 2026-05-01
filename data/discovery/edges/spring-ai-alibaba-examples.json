@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "springaialibaba/spring-ai-alibaba-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/saa-playground-docker-publish.yml",
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/saa-playground-docker-publish.yml",
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/saa-playground-docker-publish.yml",
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/saa-playground-docker-publish.yml",
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/saa-playground-docker-publish.yml",
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/saa-playground-docker-publish.yml",
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/saa-playground-docker-publish.yml",
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "SAA Playground Docker Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "exampls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-ai-alibaba/examples",
+      "target": "spring-ai-alibaba",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "spring-ai-alibaba/examples"
+}

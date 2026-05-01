@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js",
+      "target": "anti-fingerprinting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js",
+      "target": "anti-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js",
+      "target": "arkenfox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js",
+      "target": "mozilla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkenfox/user.js",
+      "target": "settings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:11:41.022323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Firefox privacy, security and anti-tracking: a comprehensive user.js template for configuration and hardening",
+    "fork": false,
+    "full_name": "arkenfox/user.js",
+    "html_url": "https://github.com/arkenfox/user.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-20T20:30:29Z",
+    "stargazers_count": 12469,
+    "topics": [
+      "anti-fingerprinting",
+      "anti-tracking",
+      "arkenfox",
+      "firefox",
+      "mozilla",
+      "privacy",
+      "security",
+      "settings"
+    ],
+    "updated_at": "2026-05-01T09:04:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anti-fingerprinting"
+    },
+    {
+      "context_snippet": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anti-tracking"
+    },
+    {
+      "context_snippet": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arkenfox"
+    },
+    {
+      "context_snippet": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mozilla"
+    },
+    {
+      "context_snippet": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "settings"
+    }
+  ]
+}

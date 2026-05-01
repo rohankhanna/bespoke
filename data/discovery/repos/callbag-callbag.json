@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "callbag/callbag",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "callbag/callbag",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:19:35.951596+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc5c A standard for JS callbacks that enables lightweight observables and iterables",
+    "fork": false,
+    "full_name": "callbag/callbag",
+    "html_url": "https://github.com/callbag/callbag",
+    "language": null,
+    "pushed_at": "2023-02-27T19:29:12Z",
+    "stargazers_count": 1577,
+    "topics": [],
+    "updated_at": "2026-04-29T04:43:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

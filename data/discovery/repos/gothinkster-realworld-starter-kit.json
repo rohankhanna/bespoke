@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gothinkster/realworld-starter-kit",
+      "target": "gothinkster/realworld",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:18:30.680292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 915
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Starter kit for new RealWorld framework implementations",
+    "fork": false,
+    "full_name": "gothinkster/realworld-starter-kit",
+    "html_url": "https://github.com/gothinkster/realworld-starter-kit",
+    "language": null,
+    "pushed_at": "2025-07-08T23:46:48Z",
+    "stargazers_count": 470,
+    "topics": [],
+    "updated_at": "2026-04-23T22:37:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gothinkster/realworld",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

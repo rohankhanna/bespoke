@@ -43,6 +43,18 @@
       "source_repo": "replicate/cog",
       "status": "candidate-context",
       "text": "Bonk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/workers-sdk",
+      "status": "candidate-context",
+      "text": "\u26c5\ufe0f Home to Wrangler, the CLI for Cloudflare Workers\u00ae"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/workers-sdk",
+      "status": "candidate-context",
+      "text": "Bonk"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "replicate/cog",
+      "status": "candidate",
+      "text": "Bonk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/workers-sdk",
       "status": "candidate",
       "text": "Bonk"
     }
@@ -159,11 +177,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/bonk.yml",
       "source_repo": "replicate/cog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bonk.yml",
+      "source_repo": "cloudflare/workers-sdk"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

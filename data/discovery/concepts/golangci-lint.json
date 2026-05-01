@@ -899,6 +899,18 @@
       "source_repo": "goreleaser/nfpm",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "status": "candidate-context",
+      "text": "Voicevox Core\u306e\u30e9\u30c3\u30d1\u30fc\u30e9\u30a4\u30d6\u30e9\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -1337,6 +1349,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "goreleaser/nfpm",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sh1ma/voicevoxcore.go",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -1958,11 +1976,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

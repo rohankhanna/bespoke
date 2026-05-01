@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "maui"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate-context",
+      "text": "Home of the Prism Docs Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate-context",
+      "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate",
+      "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19696387,
+      "status": "candidate",
+      "text": "maui island"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19696386,
+      "status": "candidate",
+      "text": "shelter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19562536,
+      "status": "candidate",
+      "text": "mua"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19506902,
+      "status": "candidate",
+      "text": "moi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19168456,
+      "status": "candidate",
+      "text": "taha"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "maui island"
+    }
+  ],
+  "canonical_name": "maui",
+  "concept_id": "maui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Documentation"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maui",
+      "sense_id": "maui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

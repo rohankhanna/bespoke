@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -486,6 +486,51 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "streamich/memfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ehmicky/node-version-alias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ehmicky/normalize-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ehmicky/preferred-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ehmicky/get-node-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdriverio/webdriverio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/geojson-vt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/vector-tile-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-node"
     }
   ],
   "term": "node"

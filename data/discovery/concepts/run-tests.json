@@ -1246,6 +1246,102 @@
       "source_repo": "JuliaFolds/BangBang.jl",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jxddk/prettier-plugin-nginx",
+      "status": "candidate-context",
+      "text": "NGINX configuration plugin for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jxddk/prettier-plugin-nginx",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate-context",
+      "text": "Named Tensors for Legible Deep Learning in JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/code-analyzer",
+      "status": "candidate-context",
+      "text": "run-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate-context",
+      "text": "Runtime environment based on OpenJDK for running IntelliJ Platform-based products on Windows, macOS, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate-context",
+      "text": "'Run tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate-context",
+      "text": "An OpenJDK release maintained and supported by SAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate-context",
+      "text": "'Run tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight, fast and async formatting and linting plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-wasmer",
+      "status": "candidate-context",
+      "text": "run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "status": "candidate-context",
+      "text": "Alibaba Cloud OSS SDK for Java V2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vkarpov15/acquit",
+      "status": "candidate-context",
+      "text": "Parse BDD-style tests (Mocha, Jasmine) to generate documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vkarpov15/acquit",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -1878,6 +1974,60 @@
       "source_repo": "JuliaFolds/BangBang.jl",
       "status": "candidate",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jxddk/prettier-plugin-nginx",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/code-analyzer",
+      "status": "candidate",
+      "text": "run-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate",
+      "text": "'Run tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate",
+      "text": "'Run tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-wasmer",
+      "status": "candidate",
+      "text": "run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vkarpov15/acquit",
+      "status": "candidate",
+      "text": "Run Tests"
     }
   ],
   "candidate_related_terms": [
@@ -2749,11 +2899,107 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/github-action-run-tests.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "forcedotcom/code-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SAP/SapMachine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nvimdev/guard.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "holochain/holochain-wasmer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vkarpov15/acquit"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

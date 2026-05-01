@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generated readme check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate-context",
+      "text": "Vulkan-lite GPU API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate-context",
+      "text": "Generated readme check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate",
+      "text": "Generated readme check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22679,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22679,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22656,
+      "status": "candidate",
+      "text": "back up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22656,
+      "status": "candidate",
+      "text": "byte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22656,
+      "status": "candidate",
+      "text": "capture"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generated readme check",
+  "concept_id": "generated-readme-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/readme.yml",
+      "source_repo": "zakarumych/sierra"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generated readme check",
+      "sense_id": "generated-readme-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "sebelga/gstore-node",
       "status": "candidate-context",
       "text": "<img title=\"logo\" src=\"logo/logo.png\" width=\"75%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "status": "candidate-context",
+      "text": "Functional extensions for C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "status": "candidate-context",
+      "text": "\ufeff# Functional Extensions for C&#35;"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sebelga/gstore-node",
       "status": "candidate",
       "text": "<img title=\"logo\" src=\"logo/logo.png\" width=\"75%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "status": "candidate",
+      "text": "\ufeff# Functional Extensions for C&#35;"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "sebelga/gstore-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

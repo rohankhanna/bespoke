@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip"
+    }
+  ],
+  "term": "Release Pull Request Automation"
+}

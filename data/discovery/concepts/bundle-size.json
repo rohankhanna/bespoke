@@ -1,7 +1,8 @@
 {
   "aliases": [
     "bundle-size",
-    "Bundle Size"
+    "Bundle Size",
+    "Bundle size"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -46,6 +47,42 @@
       "source_repo": "module-federation/core",
       "status": "candidate-context",
       "text": "Bundle Size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/redux",
+      "status": "candidate-context",
+      "text": "A JS library for predictable global state management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux",
+      "status": "candidate-context",
+      "text": "Bundle Size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Bundle size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/router",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/router",
+      "status": "candidate-context",
+      "text": "Bundle Size"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +101,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "module-federation/core",
+      "status": "candidate",
+      "text": "Bundle Size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux",
+      "status": "candidate",
+      "text": "Bundle Size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate",
+      "text": "Bundle size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/router",
       "status": "candidate",
       "text": "Bundle Size"
     }
@@ -127,11 +182,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/bundle-size.yml",
       "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/size.yaml",
+      "source_repo": "reduxjs/redux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bundle-size.yml",
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bundle-size.yml",
+      "source_repo": "prisma/prisma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bundle-size.yml",
+      "source_repo": "TanStack/router"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

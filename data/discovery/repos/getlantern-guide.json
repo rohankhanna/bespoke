@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "getlantern/guide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "getlantern/guide",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "getlantern/guide",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "getlantern/guide",
+      "target": "Update & Generate Document PDF",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:47.738769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 564
+    },
+    {
+      "path": ".github/workflows/generate.yml",
+      "size": 697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "User guides and documentation",
+    "fork": false,
+    "full_name": "getlantern/guide",
+    "html_url": "https://github.com/getlantern/guide",
+    "language": "Makefile",
+    "pushed_at": "2026-05-01T05:03:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-01T05:03:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update & Generate Document PDF",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yml",
+      "term": "Update & Generate Document PDF"
+    }
+  ]
+}

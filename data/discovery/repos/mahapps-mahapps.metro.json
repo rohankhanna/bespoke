@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cake-build/cake-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "cake-build/cake-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "mahapps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "metro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "modern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "winui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "wpf-mahapps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro",
+      "target": "xaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:04:12.818848+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1059
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort.",
+    "fork": false,
+    "full_name": "MahApps/MahApps.Metro",
+    "html_url": "https://github.com/MahApps/MahApps.Metro",
+    "language": "C#",
+    "pushed_at": "2026-04-15T07:11:53Z",
+    "stargazers_count": 9782,
+    "topics": [
+      "c-sharp",
+      "hacktoberfest",
+      "mahapps",
+      "metro",
+      "modern",
+      "open-source",
+      "oss",
+      "theme",
+      "ui",
+      "windows",
+      "winui",
+      "wpf",
+      "wpf-mahapps",
+      "xaml"
+    ],
+    "updated_at": "2026-05-01T01:35:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mahapps"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metro"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modern"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wpf-mahapps"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xaml"
+    }
+  ]
+}

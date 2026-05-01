@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "chinese-traditional"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trylovetom/clean-code-javascript",
+      "status": "candidate-context",
+      "text": ":bathtub: Clean Code concepts adapted for JavaScript \uff08\u7121\u7455\u7684\u7a0b\u5f0f\u78bc JavaScript\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trylovetom/clean-code-javascript",
+      "status": "candidate-context",
+      "text": "> \u539f\u4f5c\uff1a [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trylovetom/clean-code-javascript",
+      "status": "candidate",
+      "text": "> \u539f\u4f5c\uff1a [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)<br>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chinese-traditional",
+  "concept_id": "chinese-traditional",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "trylovetom/clean-code-javascript"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-traditional",
+      "sense_id": "chinese-traditional#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

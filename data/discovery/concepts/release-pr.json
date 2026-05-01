@@ -49,6 +49,18 @@
       "source_repo": "DeterminateSystems/nix-installer",
       "status": "candidate-context",
       "text": "Release PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate-context",
+      "text": "A mighty CSS linter that helps you avoid errors and enforce conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate-context",
+      "text": "Release PR"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +85,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DeterminateSystems/nix-installer",
+      "status": "candidate",
+      "text": "Release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint",
       "status": "candidate",
       "text": "Release PR"
     }
@@ -148,11 +166,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release-prs.yml",
       "source_repo": "DeterminateSystems/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "stylelint/stylelint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "cargo-generate/cargo-generate"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

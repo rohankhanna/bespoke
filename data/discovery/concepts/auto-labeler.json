@@ -32,6 +32,18 @@
       "source_repo": "awsdocs/aws-doc-sdk-examples",
       "status": "candidate-context",
       "text": "\"Auto Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "\ud83e\uddec Repository for third party middlewares with dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "auto-labeler"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "awsdocs/aws-doc-sdk-examples",
       "status": "candidate",
       "text": "\"Auto Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate",
+      "text": "auto-labeler"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/label-auto-language.yml",
       "source_repo": "awsdocs/aws-doc-sdk-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-labeler.yml",
+      "source_repo": "gofiber/contrib"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

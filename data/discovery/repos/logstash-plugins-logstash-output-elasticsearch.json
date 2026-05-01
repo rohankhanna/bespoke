@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "logstash-plugins/.ci/.github/workflows/integration-tests.yml@feature/github-actions",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "logstash-plugins/.ci/.github/workflows/secure-integration-tests.yml@feature/github-actions",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secure-integration-tests.yml"
+    },
+    {
+      "component": "logstash-plugins/.ci/.github/workflows/test.yml@feature/github-actions",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch",
+      "target": "logstash-plugins/.ci/.github/workflows/integration-tests.yml@feature/github-actions",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secure-integration-tests.yml",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch",
+      "target": "logstash-plugins/.ci/.github/workflows/secure-integration-tests.yml@feature/github-actions",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secure-integration-tests.yml",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch",
+      "target": "Secure Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch",
+      "target": "logstash-plugins/.ci/.github/workflows/test.yml@feature/github-actions",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "logstash-plugins/logstash-output-elasticsearch",
+      "target": "Unit Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:15:54.064224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4000
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/secure-integration-tests.yml",
+      "size": 592
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "logstash-plugins/logstash-output-elasticsearch",
+    "html_url": "https://github.com/logstash-plugins/logstash-output-elasticsearch",
+    "language": "Ruby",
+    "pushed_at": "2026-04-17T18:05:25Z",
+    "stargazers_count": 220,
+    "topics": [],
+    "updated_at": "2026-04-16T18:37:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "Secure Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secure-integration-tests.yml",
+      "term": "Secure Integration Tests"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Unit Tests"
+    }
+  ]
+}

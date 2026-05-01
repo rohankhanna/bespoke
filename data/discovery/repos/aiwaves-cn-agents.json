@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiwaves-cn/agents",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiwaves-cn/agents",
+      "target": "language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:09:21.747459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4370
+    },
+    {
+      "path": "requirements.txt",
+      "size": 651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents",
+    "fork": false,
+    "full_name": "aiwaves-cn/agents",
+    "html_url": "https://github.com/aiwaves-cn/agents",
+    "language": "Python",
+    "pushed_at": "2024-09-26T03:12:53Z",
+    "stargazers_count": 5916,
+    "topics": [
+      "autonomous-agents",
+      "language-model",
+      "llm"
+    ],
+    "updated_at": "2026-04-30T18:19:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    }
+  ]
+}

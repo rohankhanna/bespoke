@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/MS-SVConv",
+      "target": "mit-spark/teaser-plusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/MS-SVConv",
+      "target": "rusty1s/pytorch_geometric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/MS-SVConv",
+      "target": "humanpose1/deeppointcloud-benchmarks",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "humanpose1/MS-SVConv"
+}

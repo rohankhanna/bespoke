@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/HA-Red-Alert-News-Dash",
+      "target": "home-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/HA-Red-Alert-News-Dash",
+      "target": "israel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/HA-Red-Alert-News-Dash",
+      "target": "preparedness",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:38.364539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Home Assistant dashboard for emergency alerts (Tzeva Adom) in Israel with and without live news",
+    "fork": false,
+    "full_name": "danielrosehill/HA-Red-Alert-News-Dash",
+    "html_url": "https://github.com/danielrosehill/HA-Red-Alert-News-Dash",
+    "language": null,
+    "pushed_at": "2025-04-18T10:28:57Z",
+    "stargazers_count": 0,
+    "topics": [
+      "home-assistant",
+      "israel",
+      "preparedness"
+    ],
+    "updated_at": "2025-04-18T10:29:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project provides a Home Assistant dashboard for monitoring real-time rocket alerts in Israel. It builds upon Amit Fin's [oref_alert](https://github.com/amitfin/oref_alert) integration, offering a visual monitoring solution for multiple alert zones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-assistant"
+    },
+    {
+      "context_snippet": "This project provides a Home Assistant dashboard for monitoring real-time rocket alerts in Israel. It builds upon Amit Fin's [oref_alert](https://github.com/amitfin/oref_alert) integration, offering a visual monitoring solution for multiple alert zones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israel"
+    },
+    {
+      "context_snippet": "This project provides a Home Assistant dashboard for monitoring real-time rocket alerts in Israel. It builds upon Amit Fin's [oref_alert](https://github.com/amitfin/oref_alert) integration, offering a visual monitoring solution for multiple alert zones.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preparedness"
+    }
+  ]
+}

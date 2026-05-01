@@ -1,0 +1,749 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx-bundle.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx-bundle.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx-bundle.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx-bundle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml"
+    },
+    {
+      "component": "digicert/ssm-code-signing@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml"
+    },
+    {
+      "component": "digicert/ssm-code-signing@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_model_licenses.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeflash.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeflash.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeflash.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml"
+    },
+    {
+      "component": "depot/setup-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml"
+    },
+    {
+      "component": "depot/build-push-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml"
+    },
+    {
+      "component": "depot/setup-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml"
+    },
+    {
+      "component": "depot/build-push-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roboflow/inference",
+      "target": "roboflow/notebooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roboflow/inference",
+      "target": "roboflow/multimodal-maestro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx-bundle.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx-bundle.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx-bundle.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx-bundle.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-osx-bundle.yml",
+      "source_repo": "roboflow/inference",
+      "target": "Build macOS Bundle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "digicert/ssm-code-signing@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "Build Windows Installer (CPU)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "digicert/ssm-code-signing@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml",
+      "source_repo": "roboflow/inference",
+      "target": "Build Windows Installer (GPU)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_if_branch_is_mergeable.yml",
+      "source_repo": "roboflow/inference",
+      "target": "mergeable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_model_licenses.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_model_licenses.yml",
+      "source_repo": "roboflow/inference",
+      "target": "Validate Model License Listings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeflash.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeflash.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeflash.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeflash.yml",
+      "source_repo": "roboflow/inference",
+      "target": "Codeflash Optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml",
+      "source_repo": "roboflow/inference",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml",
+      "source_repo": "roboflow/inference",
+      "target": "depot/setup-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml",
+      "source_repo": "roboflow/inference",
+      "target": "depot/build-push-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml",
+      "source_repo": "roboflow/inference",
+      "target": "Build and Push CPU Container Parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml",
+      "source_repo": "roboflow/inference",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml",
+      "source_repo": "roboflow/inference",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml",
+      "source_repo": "roboflow/inference",
+      "target": "depot/setup-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml",
+      "source_repo": "roboflow/inference",
+      "target": "depot/build-push-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.cpu.slim.yml",
+      "source_repo": "roboflow/inference",
+      "target": "Build and Push CPU Slim Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "inference-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "inference-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "jetson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "yolo11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "yolov12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "yolov5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboflow/inference",
+      "target": "yolov8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:33:37.082363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18545
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 285
+    },
+    {
+      "path": ".github/workflows/build-osx-bundle.yml",
+      "size": 10336
+    },
+    {
+      "path": ".github/workflows/build-windows-installer-cpu.yml",
+      "size": 17073
+    },
+    {
+      "path": ".github/workflows/build-windows-installer-gpu.yml",
+      "size": 19297
+    },
+    {
+      "path": ".github/workflows/check_if_branch_is_mergeable.yml",
+      "size": 2530
+    },
+    {
+      "path": ".github/workflows/check_model_licenses.yml",
+      "size": 2102
+    },
+    {
+      "path": ".github/workflows/codeflash.yml",
+      "size": 1642
+    },
+    {
+      "path": ".github/workflows/docker.cpu.parallel.yml",
+      "size": 1437
+    },
+    {
+      "path": ".github/workflows/docker.cpu.slim.yml",
+      "size": 1447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Turn any computer or edge device into a command center for your computer vision projects.",
+    "fork": false,
+    "full_name": "roboflow/inference",
+    "html_url": "https://github.com/roboflow/inference",
+    "language": "Python",
+    "pushed_at": "2026-04-30T23:03:23Z",
+    "stargazers_count": 2265,
+    "topics": [
+      "agents",
+      "classification",
+      "computer-vision",
+      "deployment",
+      "docker",
+      "inference",
+      "inference-api",
+      "inference-server",
+      "instance-segmentation",
+      "jetson",
+      "machine-learning",
+      "object-detection",
+      "onnx",
+      "python",
+      "tensorrt",
+      "vit",
+      "yolo11",
+      "yolov12",
+      "yolov5",
+      "yolov8"
+    ],
+    "updated_at": "2026-04-30T13:41:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roboflow/multimodal-maestro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roboflow/notebooks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build macOS Bundle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-osx-bundle.yml",
+      "term": "Build macOS Bundle"
+    },
+    {
+      "context_snippet": "Build Windows Installer (CPU)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml",
+      "term": "Build Windows Installer (CPU)"
+    },
+    {
+      "context_snippet": "Build Windows Installer (GPU)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml",
+      "term": "Build Windows Installer (GPU)"
+    },
+    {
+      "context_snippet": "mergeable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_if_branch_is_mergeable.yml",
+      "term": "mergeable"
+    },
+    {
+      "context_snippet": "\"Validate Model License Listings\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_model_licenses.yml",
+      "term": "Validate Model License Listings"
+    },
+    {
+      "context_snippet": "Codeflash Optimization",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeflash.yml",
+      "term": "Codeflash Optimization"
+    },
+    {
+      "context_snippet": "Build and Push CPU Container Parallel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml",
+      "term": "Build and Push CPU Container Parallel"
+    },
+    {
+      "context_snippet": "Build and Push CPU Slim Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.cpu.slim.yml",
+      "term": "Build and Push CPU Slim Container"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-api"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-server"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo11"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov12"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    }
+  ]
+}

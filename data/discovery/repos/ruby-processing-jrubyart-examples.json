@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "ruby-processing/learning-processing-with-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "ruby-processing/the-nature-of-code-for-jrubyart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "jrubyart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "pbox2d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "sketches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "toxiclibs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "target": "wordcram",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:20:46.783160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example sketches for JRubyArt",
+    "fork": false,
+    "full_name": "ruby-processing/JRubyArt-examples",
+    "html_url": "https://github.com/ruby-processing/JRubyArt-examples",
+    "language": "Ruby",
+    "pushed_at": "2022-01-21T13:30:45Z",
+    "stargazers_count": 18,
+    "topics": [
+      "generative-art",
+      "jrubyart",
+      "pbox2d",
+      "processing",
+      "ruby",
+      "sketches",
+      "toxiclibs",
+      "wordcram"
+    ],
+    "updated_at": "2024-09-16T11:21:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-processing/learning-processing-with-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-processing/the-nature-of-code-for-jrubyart",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jrubyart"
+    },
+    {
+      "context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pbox2d"
+    },
+    {
+      "context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "processing"
+    },
+    {
+      "context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sketches"
+    },
+    {
+      "context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toxiclibs"
+    },
+    {
+      "context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordcram"
+    }
+  ]
+}

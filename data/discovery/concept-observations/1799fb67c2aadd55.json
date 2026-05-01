@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of awesome styled-components resources \ud83d\udc85 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "postcss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "css framework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "javascript templating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "css animations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "stylus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "css-in-js",
+      "sense_id": "css-in-js#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "css-in-js",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "css-in-js",
+  "observation_id": "1799fb67c2aadd55",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "css-in-js",
+  "source_context_snippet": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)",
+  "source_file": null,
+  "source_repo": "styled-components/awesome-styled-components",
+  "source_repo_description": "A curated list of awesome styled-components resources \ud83d\udc85 "
+}

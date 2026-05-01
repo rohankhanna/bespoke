@@ -55,6 +55,42 @@
       "source_repo": "aagarwal1012/Animated-Text-Kit",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "Google's Material Design in XAML & WPF, for C# & VB.Net. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate-context",
+      "text": "Theming .NET WinForms, C# or VB.Net, to Google's Material Design Principles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate-context",
+      "text": "MaterialSkin for .NET WinForms"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate-context",
+      "text": "A collection of small samples using MaterialDesignInXaml. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate-context",
+      "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "aagarwal1012/Animated-Text-Kit",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate",
+      "text": "MaterialSkin for .NET WinForms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate",
+      "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "aagarwal1012/Animated-Text-Kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IgnaceMaes/MaterialSkin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

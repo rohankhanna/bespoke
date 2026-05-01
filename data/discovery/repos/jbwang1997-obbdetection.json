@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jbwang1997/OBBDetection",
+      "target": "jbwang1997/bboxtoolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jbwang1997/OBBDetection",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jbwang1997/OBBDetection",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jbwang1997/OBBDetection",
+      "target": "codecov/codecov-action@v1.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jbwang1997/OBBDetection",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbwang1997/OBBDetection",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbwang1997/OBBDetection",
+      "target": "oriented-object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:33:35.307877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6821
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2915
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OBBDetection is an oriented object detection library, which is based on MMdetection.",
+    "fork": false,
+    "full_name": "jbwang1997/OBBDetection",
+    "html_url": "https://github.com/jbwang1997/OBBDetection",
+    "language": "Python",
+    "pushed_at": "2024-02-01T08:51:37Z",
+    "stargazers_count": 608,
+    "topics": [
+      "object-detection",
+      "oriented-object-detection"
+    ],
+    "updated_at": "2026-04-19T08:46:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jbwang1997/bboxtoolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "**note**: If you have questions or good suggestions, feel free to propose issues and contact me.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "**note**: If you have questions or good suggestions, feel free to propose issues and contact me.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oriented-object-detection"
+    }
+  ]
+}

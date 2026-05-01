@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DadSchoorse/vkBasalt",
+      "target": "crosire/reshade-shaders",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DadSchoorse/vkBasalt",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DadSchoorse/vkBasalt",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DadSchoorse/vkBasalt",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:29:09.325919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a vulkan post processing layer for linux",
+    "fork": false,
+    "full_name": "DadSchoorse/vkBasalt",
+    "html_url": "https://github.com/DadSchoorse/vkBasalt",
+    "language": "C++",
+    "pushed_at": "2023-10-04T19:40:30Z",
+    "stargazers_count": 1501,
+    "topics": [
+      "cplusplus",
+      "glsl",
+      "vulkan"
+    ],
+    "updated_at": "2026-05-01T03:59:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crosire/reshade-shaders",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

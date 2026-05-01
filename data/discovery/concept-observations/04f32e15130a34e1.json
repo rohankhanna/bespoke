@@ -84,7 +84,7 @@
   "normalized_form": "update-action-pins-major",
   "observation_id": "04f32e15130a34e1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Update action pins (major)",
   "source_context_snippet": "Update action pins (major)",
   "source_file": ".github/workflows/update-action-pins-major.yml",

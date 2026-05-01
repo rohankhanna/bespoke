@@ -124,6 +124,18 @@
       "source_repo": "geocompx/geocompr",
       "status": "candidate-context",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Create ridiculously fast Lexers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Book"
     }
   ],
   "candidate_glosses": [
@@ -186,6 +198,12 @@
       "source_repo": "geocompx/geocompr",
       "status": "candidate",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate",
+      "text": "Book"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +343,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "geocompx/geocompr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "maciejhirsz/logos"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

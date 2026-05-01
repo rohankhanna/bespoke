@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/armory-drive",
+      "target": "usbarmory/armory-drive-log",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:09:43.629116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7205
+    },
+    {
+      "path": "go.mod",
+      "size": 1251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Armory Drive - USB encrypted drive with mobile unlock over BLE",
+    "fork": false,
+    "full_name": "usbarmory/armory-drive",
+    "html_url": "https://github.com/usbarmory/armory-drive",
+    "language": "Go",
+    "pushed_at": "2026-04-10T07:21:16Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-04-10T07:21:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usbarmory/armory-drive-log",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,12 +1,17 @@
 {
   "component": "github/codeql-action/upload-sarif@5c8a8a642e79153f5d047b10ec1cba1d1cc65699",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "kysely-org/kysely"
     }
   ]
 }

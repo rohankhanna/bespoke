@@ -1,0 +1,12 @@
+{
+  "component": "amannn/action-semantic-pull-request@v5.0.2",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
+    }
+  ]
+}

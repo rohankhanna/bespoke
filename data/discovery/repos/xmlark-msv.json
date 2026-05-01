@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:11:36.045807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multi-Schema Validator",
+    "fork": false,
+    "full_name": "xmlark/msv",
+    "html_url": "https://github.com/xmlark/msv",
+    "language": "Java",
+    "pushed_at": "2026-04-20T06:27:41Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-20T06:27:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

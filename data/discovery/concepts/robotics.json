@@ -379,6 +379,90 @@
       "source_repo": "Stanford-TML/robot_keyframe_kit",
       "status": "candidate-context",
       "text": "A generalizable MuJoCo keyframe editor for creating and editing robot motion sequences. Works with any MuJoCo-compatible robot model."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlagOpen/RoboBrain",
+      "status": "candidate-context",
+      "text": "[CVPR 2025] RoboBrain: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete. Official Repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/RoboBrain",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmatl/urdfpy",
+      "status": "candidate-context",
+      "text": "Python parser for URDFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmatl/urdfpy",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "[![Unit-tests](https://github.com/pytorch/rl/actions/workflows/test-linux.yml/badge.svg)](https://github.com/pytorch/rl/actions/workflows/test-linux.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "C++ implementation of Lie Groups using Eigen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate-context",
+      "text": "Sim-to-real RL training and deployment tools for the Unitree Go1 robot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate-context",
+      "text": "1. [Overview](#overview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "status": "candidate-context",
+      "text": "[RSS 2025] \"ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "real-stanford/diffusion_policy",
+      "status": "candidate-context",
+      "text": "[RSS 2023] Diffusion Policy Visuomotor Policy Learning via Action Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "real-stanford/diffusion_policy",
+      "status": "candidate-context",
+      "text": "[[Project page]](https://diffusion-policy.cs.columbia.edu/)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +651,48 @@
       "source_repo": "Stanford-TML/robot_keyframe_kit",
       "status": "candidate",
       "text": "A generalizable MuJoCo keyframe editor for creating and editing robot motion sequences. Works with any MuJoCo-compatible robot model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/RoboBrain",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmatl/urdfpy",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate",
+      "text": "[![Unit-tests](https://github.com/pytorch/rl/actions/workflows/test-linux.yml/badge.svg)](https://github.com/pytorch/rl/actions/workflows/test-linux.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate",
+      "text": "1. [Overview](#overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "real-stanford/diffusion_policy",
+      "status": "candidate",
+      "text": "[[Project page]](https://diffusion-policy.cs.columbia.edu/)"
     }
   ],
   "candidate_related_terms": [
@@ -838,11 +964,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "Stanford-TML/robot_keyframe_kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mmatl/urdfpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/rl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "strasdat/Sophus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Improbable-AI/walk-these-ways"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LeCAR-Lab/ASAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "real-stanford/diffusion_policy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

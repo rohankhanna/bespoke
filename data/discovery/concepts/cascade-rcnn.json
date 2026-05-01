@@ -19,6 +19,18 @@
       "source_repo": "open-mmlab/mmdetection",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRNet-Object-Detection",
+      "status": "candidate-context",
+      "text": "Object detection with multi-level representations generated from deep high-resolution representation learning (HRNetV2h). This is an official implementation for our TPAMI paper \"Deep High-Resolution Representation Learning for Visual Recognition\". https://arxiv.org/abs/1908.07919"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Object-Detection",
+      "status": "candidate-context",
+      "text": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "open-mmlab/mmdetection",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Object-Detection",
+      "status": "candidate",
+      "text": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmdetection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Object-Detection"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

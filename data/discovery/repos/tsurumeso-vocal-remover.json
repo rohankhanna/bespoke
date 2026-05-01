@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/vocal-remover",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/vocal-remover",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/vocal-remover",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/vocal-remover",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/vocal-remover",
+      "target": "spectrogram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tsurumeso/vocal-remover",
+      "target": "vocal-separation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:08:07.825054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2678
+    },
+    {
+      "path": "requirements.txt",
+      "size": 190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Vocal Remover using Deep Neural Networks",
+    "fork": false,
+    "full_name": "tsurumeso/vocal-remover",
+    "html_url": "https://github.com/tsurumeso/vocal-remover",
+    "language": "Python",
+    "pushed_at": "2024-07-23T18:19:55Z",
+    "stargazers_count": 1748,
+    "topics": [
+      "audio",
+      "deep-learning",
+      "pytorch",
+      "segmentation",
+      "spectrogram",
+      "vocal-separation"
+    ],
+    "updated_at": "2026-04-28T05:47:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectrogram"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocal-separation"
+    }
+  ]
+}

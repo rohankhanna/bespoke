@@ -1,0 +1,564 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no_std.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no_std.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no_std.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-mdbook@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustcheck.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustcheck.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustcheck.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustdoc.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustdoc.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustdoc.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustlib.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustlib.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustlib.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustlib.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clearcache.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Cleanup caches by a branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no_std.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no_std.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no_std.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "peaceiris/actions-mdbook@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Book",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustbench.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "CodSpeedHQ/action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustbench.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustcheck.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustcheck.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustcheck.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustcheck.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustcheck.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Cargo check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustdoc.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustdoc.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustdoc.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustdoc.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Rustdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustlib.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustlib.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustlib.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustlib.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustlib.yml",
+      "source_repo": "maciejhirsz/logos",
+      "target": "Library testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maciejhirsz/logos",
+      "target": "lexer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maciejhirsz/logos",
+      "target": "lexer-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maciejhirsz/logos",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maciejhirsz/logos",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maciejhirsz/logos",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:19.782673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4011
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2838
+    },
+    {
+      "path": ".github/workflows/clearcache.yml",
+      "size": 985
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 836
+    },
+    {
+      "path": ".github/workflows/no_std.yml",
+      "size": 817
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/rustbench.yml",
+      "size": 725
+    },
+    {
+      "path": ".github/workflows/rustcheck.yml",
+      "size": 456
+    },
+    {
+      "path": ".github/workflows/rustdoc.yml",
+      "size": 492
+    },
+    {
+      "path": ".github/workflows/rustlib.yml",
+      "size": 1190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create ridiculously fast Lexers",
+    "fork": false,
+    "full_name": "maciejhirsz/logos",
+    "html_url": "https://github.com/maciejhirsz/logos",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T08:10:18Z",
+    "stargazers_count": 3483,
+    "topics": [
+      "lexer",
+      "lexer-generator",
+      "parser",
+      "parsing",
+      "rust"
+    ],
+    "updated_at": "2026-04-28T23:11:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cleanup caches by a branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clearcache.yml",
+      "term": "Cleanup caches by a branch"
+    },
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Book",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Book"
+    },
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustbench.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Cargo check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustcheck.yml",
+      "term": "Cargo check"
+    },
+    {
+      "context_snippet": "Rustdoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustdoc.yml",
+      "term": "Rustdoc"
+    },
+    {
+      "context_snippet": "Library testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustlib.yml",
+      "term": "Library testing"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lexer"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lexer-generator"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

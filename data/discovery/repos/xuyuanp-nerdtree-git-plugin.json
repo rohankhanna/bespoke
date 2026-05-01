@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "reviewdog/action-vint@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "target": "xuyuanp/git-nerdtree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "target": "xuyuanp/yanil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "target": "swerner/git_nerd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "target": "reviewdog/action-vint@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "target": "nerdtree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:23:56.088606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3609
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A plugin of NERDTree showing git status",
+    "fork": false,
+    "full_name": "Xuyuanp/nerdtree-git-plugin",
+    "html_url": "https://github.com/Xuyuanp/nerdtree-git-plugin",
+    "language": "Vim script",
+    "pushed_at": "2021-08-18T13:31:09Z",
+    "stargazers_count": 2090,
+    "topics": [
+      "nerdtree",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-05-01T03:41:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swerner/git_nerd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuyuanp/git-nerdtree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuyuanp/yanil",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "nerdtree-git-plugin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerdtree"
+    },
+    {
+      "context_snippet": "nerdtree-git-plugin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

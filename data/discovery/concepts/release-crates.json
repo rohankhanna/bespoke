@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "release-crates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate-context",
+      "text": "An extremely fast CSS parser, transformer, bundler, and minifier written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate-context",
+      "text": "release-crates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate",
+      "text": "release-crates"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "release-crates",
+  "concept_id": "release-crates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-crates.yml",
+      "source_repo": "parcel-bundler/lightningcss"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release-crates",
+      "sense_id": "release-crates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

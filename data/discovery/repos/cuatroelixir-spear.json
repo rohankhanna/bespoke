@@ -98,20 +98,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "CuatroElixir/spear",
-      "target": "ninenines/gun",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CuatroElixir/spear",
-      "target": "exponentially/extreme",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "CuatroElixir/spear",
       "target": "nfibrokerage/volley",
       "target_type": "repository"
     },
@@ -235,7 +221,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:06:39.616963+00:00",
+  "fetched_at": "2026-05-01T10:23:34.315724+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -277,22 +263,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "exponentially/extreme",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "nfibrokerage/spear",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "nfibrokerage/volley",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ninenines/gun",
       "source_file": "README.md"
     }
   ],

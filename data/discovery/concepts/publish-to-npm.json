@@ -2,7 +2,8 @@
   "aliases": [
     "Publish to npm",
     "Publish to NPM",
-    "publish to npm"
+    "publish to npm",
+    "publish-to-npm"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -207,6 +208,36 @@
       "source_repo": "kylebarron/arrow-js-ffi",
       "status": "candidate-context",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jxddk/prettier-plugin-nginx",
+      "status": "candidate-context",
+      "text": "NGINX configuration plugin for Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jxddk/prettier-plugin-nginx",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/code-analyzer",
+      "status": "candidate-context",
+      "text": "publish-to-npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/router",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 The official router for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/router",
+      "status": "candidate-context",
+      "text": "Publish to npm"
     }
   ],
   "candidate_glosses": [
@@ -311,6 +342,24 @@
       "source_repo": "kylebarron/arrow-js-ffi",
       "status": "candidate",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jxddk/prettier-plugin-nginx",
+      "status": "candidate",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/code-analyzer",
+      "status": "candidate",
+      "text": "publish-to-npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/router",
+      "status": "candidate",
+      "text": "Publish to npm"
     }
   ],
   "candidate_related_terms": [
@@ -492,11 +541,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "kylebarron/arrow-js-ffi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/github-action-publish-npm.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish-to-npm.yml",
+      "source_repo": "forcedotcom/code-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vuejs/router"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

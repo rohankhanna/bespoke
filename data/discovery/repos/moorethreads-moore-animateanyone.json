@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MooreThreads/Moore-AnimateAnyone",
+      "target": "guoqincode/open-animateanyone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MooreThreads/Moore-AnimateAnyone",
+      "target": "emilianavt/openseeface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MooreThreads/Moore-AnimateAnyone",
+      "target": "sdbds/moore-animateanyone-for-windows",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:10:19.072039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12110
+    },
+    {
+      "path": "requirements.txt",
+      "size": 691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Character Animation (AnimateAnyone, Face Reenactment)",
+    "fork": false,
+    "full_name": "MooreThreads/Moore-AnimateAnyone",
+    "html_url": "https://github.com/MooreThreads/Moore-AnimateAnyone",
+    "language": "Python",
+    "pushed_at": "2024-05-31T03:45:26Z",
+    "stargazers_count": 3503,
+    "topics": [],
+    "updated_at": "2026-04-27T06:57:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emilianavt/openseeface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guoqincode/open-animateanyone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdbds/moore-animateanyone-for-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

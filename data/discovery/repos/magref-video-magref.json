@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MAGREF-Video/MAGREF",
+      "target": "phantom-video/phantom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MAGREF-Video/MAGREF",
+      "target": "skyworkai/skyreels-a2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MAGREF-Video/MAGREF",
+      "target": "tencent-hunyuan/hunyuancustom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MAGREF-Video/MAGREF",
+      "target": "ml-gsai/concat-id",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:05.136942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6356
+    },
+    {
+      "path": "requirements.txt",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of MAGREF: Masked Guidance for Any-Reference Video Generation  with Subject Disentanglement (ICLR2026)",
+    "fork": false,
+    "full_name": "MAGREF-Video/MAGREF",
+    "html_url": "https://github.com/MAGREF-Video/MAGREF",
+    "language": "Python",
+    "pushed_at": "2026-03-24T03:41:07Z",
+    "stargazers_count": 294,
+    "topics": [],
+    "updated_at": "2026-04-29T09:12:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ml-gsai/concat-id",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phantom-video/phantom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/skyreels-a2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hunyuancustom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

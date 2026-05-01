@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CalciferZh/SMPL",
+      "target": "yeecy/smplpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CalciferZh/SMPL",
+      "target": "calciferzh/minimal-ik",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CalciferZh/SMPL",
+      "target": "body",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CalciferZh/SMPL",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CalciferZh/SMPL",
+      "target": "graphics-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CalciferZh/SMPL",
+      "target": "pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CalciferZh/SMPL",
+      "target": "smpl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:25:41.641983+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NumPy, TensorFlow and PyTorch implementation of human body SMPL model and infant body SMIL model.",
+    "fork": false,
+    "full_name": "CalciferZh/SMPL",
+    "html_url": "https://github.com/CalciferZh/SMPL",
+    "language": "Python",
+    "pushed_at": "2022-03-21T13:58:16Z",
+    "stargazers_count": 948,
+    "topics": [
+      "body",
+      "graphics",
+      "graphics-3d",
+      "pose",
+      "smpl"
+    ],
+    "updated_at": "2026-04-28T18:32:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calciferzh/minimal-ik",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeecy/smplpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "body"
+    },
+    {
+      "context_snippet": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-3d"
+    },
+    {
+      "context_snippet": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose"
+    },
+    {
+      "context_snippet": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpl"
+    }
+  ]
+}

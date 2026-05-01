@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "cryspen/hacl-packages",
       "status": "candidate-context",
       "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate-context",
+      "text": "Collection of cryptography-related traits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate-context",
+      "text": "aead"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "cryspen/hacl-packages",
       "status": "candidate",
       "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustCrypto/traits",
+      "status": "candidate",
+      "text": "aead"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +60,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cryspen/hacl-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/aead.yml",
+      "source_repo": "RustCrypto/traits"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

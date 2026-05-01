@@ -79,6 +79,18 @@
       "source_repo": "autowarefoundation/autoware_universe",
       "status": "candidate-context",
       "text": "Autoware Universe serves as a foundational pillar within the Autoware ecosystem, playing a critical role in enhancing the core functionalities of autonomous driving technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware_core",
+      "status": "candidate-context",
+      "text": "- An [Autoware](https://github.com/autowarefoundation/autoware) repository that contains a basic set of high-quality, stable ROS packages for autonomous driving."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware_launch",
+      "status": "candidate-context",
+      "text": "A launch configuration repository for [Autoware](https://github.com/autowarefoundation/autoware), containing node configurations and their parameters."
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,18 @@
       "source_repo": "autowarefoundation/autoware_universe",
       "status": "candidate",
       "text": "Autoware Universe serves as a foundational pillar within the Autoware ecosystem, playing a critical role in enhancing the core functionalities of autonomous driving technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware_core",
+      "status": "candidate",
+      "text": "- An [Autoware](https://github.com/autowarefoundation/autoware) repository that contains a basic set of high-quality, stable ROS packages for autonomous driving."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware_launch",
+      "status": "candidate",
+      "text": "A launch configuration repository for [Autoware](https://github.com/autowarefoundation/autoware), containing node configurations and their parameters."
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +202,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "autowarefoundation/autoware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware_launch"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

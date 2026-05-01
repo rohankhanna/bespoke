@@ -285,6 +285,66 @@
       "source_repo": "ocaml/dune",
       "status": "candidate-context",
       "text": "![Dune][logo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "Context sensitive completion for OCaml in Vim and Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f Default branch recently renamed to `main`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/neocaml",
+      "status": "candidate-context",
+      "text": "A modern, TreeSitter-powered, Emacs package for programming in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/neocaml",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/neocaml-badge.svg)](https://melpa.org/#/neocaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mirage/ocaml-uri",
+      "status": "candidate-context",
+      "text": "RFC3986 URI parsing library for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/ocaml-uri",
+      "status": "candidate-context",
+      "text": "Uri -- an RFC3986 URI/URL parsing library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-community/lambda-term",
+      "status": "candidate-context",
+      "text": "Terminal manipulation library for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-community/lambda-term",
+      "status": "candidate-context",
+      "text": "Lambda-Term"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-community/zed",
+      "status": "candidate-context",
+      "text": "Abstract engine for text edition in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-community/zed",
+      "status": "candidate-context",
+      "text": "Zed"
     }
   ],
   "candidate_glosses": [
@@ -425,6 +485,36 @@
       "source_repo": "ocaml/dune",
       "status": "candidate",
       "text": "![Dune][logo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f Default branch recently renamed to `main`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/neocaml",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/neocaml-badge.svg)](https://melpa.org/#/neocaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/ocaml-uri",
+      "status": "candidate",
+      "text": "Uri -- an RFC3986 URI/URL parsing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-community/lambda-term",
+      "status": "candidate",
+      "text": "Lambda-Term"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-community/zed",
+      "status": "candidate",
+      "text": "Zed"
     }
   ],
   "candidate_related_terms": [
@@ -774,11 +864,65 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml/merlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bbatsov/neocaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mirage/ocaml-uri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-community/lambda-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-community/zed"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

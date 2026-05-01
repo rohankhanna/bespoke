@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -111,6 +111,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deno.yml",
       "source_repo": "i18next/i18next-resources-to-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kysely-org/kysely"
     }
   ],
   "term": "deno"

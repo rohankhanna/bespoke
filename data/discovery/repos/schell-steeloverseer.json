@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml"
+    },
+    {
+      "component": "freckle/stack-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schell/steeloverseer",
+      "target": "commercialhaskell/stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "schell/steeloverseer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "schell/steeloverseer",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "schell/steeloverseer",
+      "target": "Haskell-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml",
+      "source_repo": "schell/steeloverseer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml",
+      "source_repo": "schell/steeloverseer",
+      "target": "freckle/stack-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stack.yml",
+      "source_repo": "schell/steeloverseer",
+      "target": "Stack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schell/steeloverseer",
+      "target": "capture-groups",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schell/steeloverseer",
+      "target": "file-watcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schell/steeloverseer",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schell/steeloverseer",
+      "target": "pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schell/steeloverseer",
+      "target": "watches",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:32.199025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5394
+    },
+    {
+      "path": ".github/workflows/haskell-ci.yml",
+      "size": 7375
+    },
+    {
+      "path": ".github/workflows/stack.yml",
+      "size": 235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A file watcher and development tool.",
+    "fork": false,
+    "full_name": "schell/steeloverseer",
+    "html_url": "https://github.com/schell/steeloverseer",
+    "language": "Haskell",
+    "pushed_at": "2024-11-11T20:48:46Z",
+    "stargazers_count": 130,
+    "topics": [
+      "capture-groups",
+      "file-watcher",
+      "haskell",
+      "pipeline",
+      "watches"
+    ],
+    "updated_at": "2026-02-03T02:38:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "commercialhaskell/stack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Haskell-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "term": "Haskell-CI"
+    },
+    {
+      "context_snippet": "Stack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stack.yml",
+      "term": "Stack"
+    },
+    {
+      "context_snippet": "Steel Overseer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "capture-groups"
+    },
+    {
+      "context_snippet": "Steel Overseer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-watcher"
+    },
+    {
+      "context_snippet": "Steel Overseer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "Steel Overseer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline"
+    },
+    {
+      "context_snippet": "Steel Overseer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watches"
+    }
+  ]
+}

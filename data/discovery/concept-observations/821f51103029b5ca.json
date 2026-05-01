@@ -84,7 +84,7 @@
   "normalized_form": "sign-release",
   "observation_id": "821f51103029b5ca",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Sign Release",
   "source_context_snippet": "Sign Release",
   "source_file": ".github/workflows/release-sign.yml",

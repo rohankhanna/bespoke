@@ -1,0 +1,22 @@
+{
+  "component": "bahmutov/npm-install@v1.8.32",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-crates.yml",
+      "source_repo": "parcel-bundler/lightningcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "parcel-bundler/lightningcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "parcel-bundler/lightningcss"
+    }
+  ]
+}

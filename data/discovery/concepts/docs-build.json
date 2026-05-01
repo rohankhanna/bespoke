@@ -57,6 +57,30 @@
       "source_repo": "bndtools/bnd",
       "status": "candidate-context",
       "text": "'Docs Build'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/logstash",
+      "status": "candidate-context",
+      "text": "Logstash - transport and process your logs, events, or other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash",
+      "status": "candidate-context",
+      "text": "docs-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate-context",
+      "text": "MyoSuite is a collection of environments/tasks to be solved by musculoskeletal models simulated with the MuJoCo physics engine and wrapped in the OpenAI gym API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate-context",
+      "text": "Docs Build"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +107,18 @@
       "source_repo": "bndtools/bnd",
       "status": "candidate",
       "text": "'Docs Build'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash",
+      "status": "candidate",
+      "text": "docs-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate",
+      "text": "Docs Build"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +192,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "bndtools/bnd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/logstash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "MyoHub/myosuite"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

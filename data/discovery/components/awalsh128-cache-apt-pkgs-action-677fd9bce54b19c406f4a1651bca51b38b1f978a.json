@@ -1,0 +1,12 @@
+{
+  "component": "awalsh128/cache-apt-pkgs-action@677fd9bce54b19c406f4a1651bca51b38b1f978a",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/subtitles.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics"
+    }
+  ]
+}

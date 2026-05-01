@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "caoxiemeihao/blog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "better-sqlite3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "boilerplate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "node-native-addons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "serialport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "sqlite3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "target": "vite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:30:51.097567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 564
+    },
+    {
+      "path": "package.json",
+      "size": 498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Electron\u26a1\ufe0fVite samples, includes C/C++ addons | \u6837\u677f\u4ee3\u7801\u96c6\u5408\uff0c\u5305\u542b C/C++ \u6269\u5c55",
+    "fork": false,
+    "full_name": "caoxiemeihao/electron-vite-samples",
+    "html_url": "https://github.com/caoxiemeihao/electron-vite-samples",
+    "language": "TypeScript",
+    "pushed_at": "2024-11-16T13:19:33Z",
+    "stargazers_count": 263,
+    "topics": [
+      "better-sqlite3",
+      "boilerplate",
+      "electron",
+      "node-native-addons",
+      "serialport",
+      "sqlite3",
+      "template",
+      "vite"
+    ],
+    "updated_at": "2026-03-29T03:32:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caoxiemeihao/blog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "better-sqlite3"
+    },
+    {
+      "context_snippet": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boilerplate"
+    },
+    {
+      "context_snippet": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-native-addons"
+    },
+    {
+      "context_snippet": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialport"
+    },
+    {
+      "context_snippet": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite3"
+    },
+    {
+      "context_snippet": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    }
+  ]
+}

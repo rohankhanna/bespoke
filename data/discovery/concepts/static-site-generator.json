@@ -163,6 +163,30 @@
       "source_repo": "gatsbyjs/gatsby",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umijs/dumi",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd6 Static Site Generator for component library development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umijs/dumi",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/dumi)](https://npmjs.org/package/dumi) [![NPM downloads](https://img.shields.io/npm/dm/dumi)](https://npmjs.org/package/dumi) [![GitHub CI](https://github.com/umijs/dumi/workflows/CI/badge.svg)](https://github.com/umijs/dumi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate-context",
+      "text": "CLI for document conversion for scientific documents, powered by Mathpix OCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate-context",
+      "text": "Document conversion for scientific documents."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "gatsbyjs/gatsby",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umijs/dumi",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/dumi)](https://npmjs.org/package/dumi) [![NPM downloads](https://img.shields.io/npm/dm/dumi)](https://npmjs.org/package/dumi) [![GitHub CI](https://github.com/umijs/dumi/workflows/CI/badge.svg)](https://github.com/umijs/dumi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathpix/mpx-cli",
+      "status": "candidate",
+      "text": "Document conversion for scientific documents."
     }
   ],
   "candidate_related_terms": [],
@@ -370,11 +406,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "umijs/dumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Mathpix/mpx-cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

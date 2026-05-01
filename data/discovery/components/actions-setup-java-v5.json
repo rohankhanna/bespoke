@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v5",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1502,6 +1502,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gradle.yml",
       "source_repo": "michel-kraemer/bson4jackson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml",
+      "source_repo": "elastic/logstash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox_core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-gradle-cache-update.yaml",
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pulsar-ci-flaky.yaml",
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pulsar-ci.yaml",
+      "source_repo": "apache/pulsar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/thrift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "omry/omegaconf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_dev.yml",
+      "source_repo": "omry/omegaconf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_test.yml",
+      "source_repo": "omry/omegaconf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_samples.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2"
     }
   ]
 }

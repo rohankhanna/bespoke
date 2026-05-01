@@ -103,6 +103,42 @@
       "source_repo": "ilyachur/cmake4vim",
       "status": "candidate-context",
       "text": "Greetings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "Agentic AI Framework for Java Developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "To manage Docker Content Trust and Notary certificates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate-context",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilyachur/gtest-vim",
+      "status": "candidate-context",
+      "text": "GTest integration to vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/gtest-vim",
+      "status": "candidate-context",
+      "text": "Greetings"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +187,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ilyachur/cmake4vim",
+      "status": "candidate",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philips-labs/dct-notary-admin",
+      "status": "candidate",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/gtest-vim",
       "status": "candidate",
       "text": "Greetings"
     }
@@ -268,11 +322,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/greetings.yml",
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/greeting-guideline-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/greeting.yml",
+      "source_repo": "philips-labs/dct-notary-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "ilyachur/gtest-vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

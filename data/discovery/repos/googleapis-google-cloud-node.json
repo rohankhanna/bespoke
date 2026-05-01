@@ -168,7 +168,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "googleapis/google-cloud-node",
-      "target": "sebelga/gstore-node",
+      "target": "stephenplusplus/gcloud-kvstore",
       "target_type": "repository"
     },
     {
@@ -452,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T12:52:41.023433+00:00",
+  "fetched_at": "2026-05-01T07:26:06.151174+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -504,13 +504,13 @@
     "full_name": "googleapis/google-cloud-node",
     "html_url": "https://github.com/googleapis/google-cloud-node",
     "language": "JavaScript",
-    "pushed_at": "2026-04-30T07:52:12Z",
-    "stargazers_count": 3151,
+    "pushed_at": "2026-05-01T04:27:23Z",
+    "stargazers_count": 3152,
     "topics": [
       "google-cloud",
       "nodejs"
     ],
-    "updated_at": "2026-04-29T21:13:12Z"
+    "updated_at": "2026-05-01T04:27:27Z"
   },
   "repo_links": [
     {
@@ -530,7 +530,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sebelga/gstore-node",
+      "full_name": "stephenplusplus/gcloud-kvstore",
       "source_file": "README.md"
     }
   ],

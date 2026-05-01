@@ -7553,6 +7553,696 @@
       "source_repo": "ebitengine/debugui",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "A high-level API for programmatically interacting with web pages through WebDriver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feluelle/airflow-diagrams",
+      "status": "candidate-context",
+      "text": "Auto-generated Diagrams from Airflow DAGs. \ud83d\udd2e \ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feluelle/airflow-diagrams",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/files-to-prompt",
+      "status": "candidate-context",
+      "text": "Concatenate a directory full of files into a single prompt for use with LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/files-to-prompt",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate-context",
+      "text": "Go implementation of a HTTP server to allow remote generation of mermaid-js diagrams without any pre-requisites installed locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus",
+      "status": "candidate-context",
+      "text": "Complete Telemetry.Metrics Reporter solution for Prometheus "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate-context",
+      "text": "A Ruby library, written in Rust, for generating Halton sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate-context",
+      "text": "Check the browser compatibility of your code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1000ch/vscode-csso",
+      "status": "candidate-context",
+      "text": "Minify CSS with CSSO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1000ch/vscode-csso",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jelly-beam/rebar3_ex_doc",
+      "status": "candidate-context",
+      "text": "rebar3 plugin for generating docs with ex_doc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jelly-beam/rebar3_ex_doc",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate-context",
+      "text": "MongoDB object modeling designed to work in an asynchronous environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe/smokescreen",
+      "status": "candidate-context",
+      "text": "A simple HTTP proxy that fogs over naughty URLs    "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/smokescreen",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate-context",
+      "text": "Utility to interact with HTTP status code in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate-context",
+      "text": "A 45% faster alternative to node:querystring module "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate-context",
+      "text": "A type-safe TypeScript SQL query builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/webref",
+      "status": "candidate-context",
+      "text": "Machine-readable references of terms defined in web browser specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webref",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "Deezer source separation library including pretrained models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanCardin/cappa",
+      "status": "candidate-context",
+      "text": "Declarative CLI argument parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanCardin/cappa",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "status": "candidate-context",
+      "text": "Tool for generating various glTF assets for importer validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "status": "candidate-context",
+      "text": "This is a C# Visual Studio project for generating various glTF 2.0 assets for validating glTF 2.0 importers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate-context",
+      "text": "Render preact components with access to the produced virtual dom for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate-context",
+      "text": "preact-render-spy is a package designed to cover many of the use cases for testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "A code formatter for Julia with rules set in stone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celluloid-player/celluloid",
+      "status": "candidate-context",
+      "text": "A simple GTK+ frontend for mpv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celluloid-player/celluloid",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate-context",
+      "text": "PostCSS plugin to keep rules and at-rules content in order."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/core.logic",
+      "status": "candidate-context",
+      "text": "A logic programming library for Clojure & ClojureScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/core.logic",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/edamame",
+      "status": "candidate-context",
+      "text": "Configurable EDN/Clojure parser with location metadata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/edamame",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucagoslar/serde-envfile",
+      "status": "candidate-context",
+      "text": "\u267b\ufe0f Deserialize and serialize environment variables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucagoslar/serde-envfile",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to integrate with Tailwind CSS V3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-jp/vim-vimlparser",
+      "status": "candidate-context",
+      "text": "Vim script parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vim-vimlparser",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Next-gen browser and mobile automation test framework for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate-context",
+      "text": "Abstractions to probably serialize and deserialize things properly without forgetting or doubling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcoapp/app",
+      "status": "candidate-context",
+      "text": "GitHub App that enforces the Developer Certificate of Origin (DCO) on Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcoapp/app",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate-context",
+      "text": "An extremely fast CSS parser, transformer, bundler, and minifier written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshwooding/vite-plugin-react-docgen-typescript",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate-context",
+      "text": "For parsing, creating and editing unknown or dynamic JSON in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grosser/parallel_tests",
+      "status": "candidate-context",
+      "text": "Ruby: 2 CPUs = 2x Testing Speed for RSpec, Test::Unit and Cucumber"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grosser/parallel_tests",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dakrone/cheshire",
+      "status": "candidate-context",
+      "text": "Clojure JSON and JSON SMILE (binary json format) encoding/decoding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dakrone/cheshire",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanostores/nanostores",
+      "status": "candidate-context",
+      "text": "A tiny (286 bytes) state manager for React/RN/Preact/Vue/Svelte with many atomic tree-shakable stores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanostores/nanostores",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "An offline deep reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/react-three-fiber",
+      "status": "candidate-context",
+      "text": "\ud83c\udde8\ud83c\udded A React renderer for Three.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/react-three-fiber",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "\ud83d\udc3b Bear necessities for state management in React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barneygale/pathlib-abc",
+      "status": "candidate-context",
+      "text": "Python base classes for rich path objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barneygale/pathlib-abc",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate-context",
+      "text": "Car Rental Platform with Mobile App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-telemetry/telemetry_metrics_statsd",
+      "status": "candidate-context",
+      "text": "Telemetry.Metrics reporter for StatsD-compatible metric servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics_statsd",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "am-kantox/md",
+      "status": "candidate-context",
+      "text": "Stream-aware markdown parser with custom syntax setting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "am-kantox/md",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate-context",
+      "text": "Node filesystem spies and mocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate-context",
+      "text": "Spy on filesystem calls. Create file system mocks. Use for testing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amilajack/ast-metadata-inferer",
+      "status": "candidate-context",
+      "text": "Given a list of API's, return their AST node type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/ast-metadata-inferer",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstools/postcss-normalize",
+      "status": "candidate-context",
+      "text": "Use the parts of normalize.css (or sanitize.css) you need from your browserslist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstools/postcss-normalize",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erlef/rebar3_hex",
+      "status": "candidate-context",
+      "text": "Rebar3 Hex library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/rebar3_hex",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for silicon in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate-context",
+      "text": "pinact is a CLI to edit GitHub Workflow and Composite action files and pin versions of Actions and Reusable Workflows. pinact can also update their versions and verify version annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate-context",
+      "text": "VOICEVOX\u306e\u30d7\u30ec\u30d3\u30e5\u30fc\u7528\u30da\u30fc\u30b8\u3092\u30c7\u30d7\u30ed\u30a4\u3059\u308b\u30ea\u30dd\u30b8\u30c8\u30ea\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "red-data-tools/red-datasets",
+      "status": "candidate-context",
+      "text": "A RubyGem that provides common datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "red-data-tools/red-datasets",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate-context",
+      "text": "A Docker credential helper for GCR users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optiscaler/OptiScaler",
+      "status": "candidate-context",
+      "text": "OptiScaler bridges upscaling/frame gen across GPUs. Supports DLSS2+/XeSS/FSR2+ inputs, replaces native upscalers, enables FSR3 FG on non-FG titles. Supports Nukem mod for DLSSG-to-FSR3 FG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optiscaler/OptiScaler",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe/goproxy",
+      "status": "candidate-context",
+      "text": "An HTTP proxy library for Go          "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/goproxy",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/router",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 The official router for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/router",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobinBlomberg/kysely-codegen",
+      "status": "candidate-context",
+      "text": "Generate Kysely type definitions from your database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobinBlomberg/kysely-codegen",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwebdocs/mdn-bcd-collector",
+      "status": "candidate-context",
+      "text": "Data collection service for MDN's browser-compat-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwebdocs/mdn-bcd-collector",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -11375,6 +12065,354 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ebitengine/debugui",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feluelle/airflow-diagrams",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/files-to-prompt",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1000ch/vscode-csso",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jelly-beam/rebar3_ex_doc",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/smokescreen",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webref",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanCardin/cappa",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "status": "candidate",
+      "text": "This is a C# Visual Studio project for generating various glTF 2.0 assets for validating glTF 2.0 importers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate",
+      "text": "preact-render-spy is a package designed to cover many of the use cases for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celluloid-player/celluloid",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/core.logic",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/edamame",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucagoslar/serde-envfile",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vim-vimlparser",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcoapp/app",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshwooding/vite-plugin-react-docgen-typescript",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grosser/parallel_tests",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dakrone/cheshire",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanostores/nanostores",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/react-three-fiber",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barneygale/pathlib-abc",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics_statsd",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "am-kantox/md",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate",
+      "text": "Spy on filesystem calls. Create file system mocks. Use for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/ast-metadata-inferer",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstools/postcss-normalize",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/rebar3_hex",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "red-data-tools/red-datasets",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optiscaler/OptiScaler",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/goproxy",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/router",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobinBlomberg/kysely-codegen",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwebdocs/mdn-bcd-collector",
       "status": "candidate",
       "text": "Test"
     }
@@ -16447,11 +17485,569 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ebitengine/debugui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonhoo/fantoccini"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "feluelle/airflow-diagrams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simonw/files-to-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "TomWright/mermaid-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test-nightly.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beam-telemetry/telemetry_metrics_prometheus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "matsadler/halton-rb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "amilajack/eslint-plugin-compat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "1000ch/vscode-csso"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jelly-beam/rebar3_ex_doc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stripe/smokescreen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "adaltas/node-http-status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "anonrig/fast-querystring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "w3c/webref"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "deezer/spleeter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DanCardin/cappa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/glTF-Asset-Generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mzgoddard/preact-render-spy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "fredrikekre/Runic.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "celluloid-player/celluloid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "astroturfcss/astroturf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hudochenkov/postcss-sorting"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/core.logic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "borkdude/edamame"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lucagoslar/serde-envfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-run-test.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "novnc/noVNC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-jp/vim-vimlparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webdriverio/webdriverio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "holochain/holochain-serialization"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dcoapp/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "parcel-bundler/lightningcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "joshwooding/vite-plugin-react-docgen-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jeffail/gabs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "grosser/parallel_tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dakrone/cheshire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "hacs/integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nanostores/nanostores"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NVlabs/trajdata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "takuseno/d3rlpy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pmndrs/react-three-fiber"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pmndrs/zustand"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "barneygale/pathlib-abc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aelassas/bookcars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beam-telemetry/telemetry_metrics_statsd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "am-kantox/md"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/spyfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "amilajack/ast-metadata-inferer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "csstools/postcss-normalize"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "erlef/rebar3_hex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "krivahtoo/silicon.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "suzuki-shunsuke/pinact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "VOICEVOX/preview-pages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "red-data-tools/red-datasets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "optiscaler/OptiScaler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stripe/goproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vuejs/router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "RobinBlomberg/kysely-codegen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openwebdocs/mdn-bcd-collector"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

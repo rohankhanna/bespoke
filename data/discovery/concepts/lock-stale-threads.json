@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock Stale Threads"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate-context",
+      "text": "A proposal for adding a useful pipe operator to JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate-context",
+      "text": "Lock Stale Threads"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate",
+      "text": "Lock Stale Threads"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17971,
+      "status": "candidate",
+      "text": "locks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17971,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17971,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17971,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17947,
+      "status": "candidate",
+      "text": "crowd"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock Stale Threads",
+  "concept_id": "lock-stale-threads",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stale-lock.yml",
+      "source_repo": "tc39/proposal-pipeline-operator"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock Stale Threads",
+      "sense_id": "lock-stale-threads#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

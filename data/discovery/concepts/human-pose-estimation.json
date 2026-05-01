@@ -187,6 +187,30 @@
       "source_repo": "NVIDIA-AI-IOT/trt_pose",
       "status": "candidate-context",
       "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate-context",
+      "text": "Distribution-Aware Coordinate Representation for Human Pose Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate-context",
+      "text": "The project is an official implementation of our CVPR2019 paper \"Deep High-Resolution Representation Learning for Human Pose Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate-context",
+      "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "NVIDIA-AI-IOT/trt_pose",
       "status": "candidate",
       "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate",
+      "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +424,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-AI-IOT/trt_pose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ilovepose/DarkPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

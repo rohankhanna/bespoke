@@ -115,6 +115,54 @@
       "source_repo": "PBK-B/i18next-cli-vue",
       "status": "candidate-context",
       "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/prettier",
+      "status": "candidate-context",
+      "text": ":package: Opinionated but Incredible Prettier plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/prettier",
+      "status": "candidate-context",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate-context",
+      "text": "Perform async work synchronously in Node.js/Bun using `worker_threads` with first-class TypeScript and Yarn P'n'P support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate-context",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate-context",
+      "text": "Scan for React performance issues and eliminate slow renders in your app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate-context",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/router",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 The official router for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/router",
+      "status": "candidate-context",
+      "text": "Publish Any Commit"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +217,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PBK-B/i18next-cli-vue",
+      "status": "candidate",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/prettier",
+      "status": "candidate",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/router",
       "status": "candidate",
       "text": "Publish Any Commit"
     }
@@ -292,11 +364,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/pr_new.yml",
       "source_repo": "PBK-B/i18next-cli-vue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "un-ts/prettier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "un-ts/synckit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pkg-pr-new.yaml",
+      "source_repo": "aidenybai/react-scan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "vuejs/router"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

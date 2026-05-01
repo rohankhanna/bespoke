@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Docker credential helper for GCR users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://gcr.io\"><img src=\"https://avatars2.githubusercontent.com/u/21046548?s=400&v=4\" height=\"120\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://gcr.io\"><img src=\"https://avatars2.githubusercontent.com/u/21046548?s=400&v=4\" height=\"120\"/></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compute-engine",
+      "sense_id": "compute-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compute-engine",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compute-engine",
+  "observation_id": "65f2dd66edc9830e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "compute-engine",
+  "source_context_snippet": "<a href=\"https://gcr.io\"><img src=\"https://avatars2.githubusercontent.com/u/21046548?s=400&v=4\" height=\"120\"/></a>",
+  "source_file": null,
+  "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+  "source_repo_description": "A Docker credential helper for GCR users"
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/boost_jll.jl",
+      "target": "juliabinarywrappers/bzip2_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/boost_jll.jl",
+      "target": "juliabinarywrappers/zlib_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:26:44.575218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/boost_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/boost_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-01-28T02:39:44Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-01-28T02:39:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/bzip2_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/zlib_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

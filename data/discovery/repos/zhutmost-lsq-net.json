@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhutmost/lsq-net",
+      "target": "akamaster/pytorch_resnet_cifar10",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhutmost/lsq-net",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhutmost/lsq-net",
+      "target": "neural-network-quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:10:37.473739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unofficial implementation of LSQ-Net, a neural network quantization framework",
+    "fork": false,
+    "full_name": "zhutmost/lsq-net",
+    "html_url": "https://github.com/zhutmost/lsq-net",
+    "language": "Python",
+    "pushed_at": "2024-05-08T02:45:25Z",
+    "stargazers_count": 313,
+    "topics": [
+      "deep-learning",
+      "neural-network-quantization"
+    ],
+    "updated_at": "2026-04-28T13:47:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akamaster/pytorch_resnet_cifar10",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an unofficial implementation of LSQ-Net, a deep neural network quantization framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is an unofficial implementation of LSQ-Net, a deep neural network quantization framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network-quantization"
+    }
+  ]
+}

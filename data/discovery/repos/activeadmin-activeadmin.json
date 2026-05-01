@@ -1,0 +1,735 @@
+{
+  "components": [
+    {
+      "component": "@rails/ujs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flowbite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-alias",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gherkin-lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitepress",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-report-template.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-report-template.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.306.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-report-template.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.306.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml"
+    },
+    {
+      "component": "actions/setup-node@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml"
+    },
+    {
+      "component": "actions/setup-node@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml"
+    },
+    {
+      "component": "reviewdog/action-eslint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gherkin-lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gherkin-lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gherkin-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml"
+    },
+    {
+      "component": "reviewdog/action-actionlint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    },
+    {
+      "component": "reviewdog/action-markdownlint@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "activeadmin/arbre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "formtastic/formtastic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "activeadmin/inherited_resources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "activerecord-hackery/ransack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "@rails/ujs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "flowbite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "@rollup/plugin-alias",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "gherkin-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "vitepress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-report-template.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-report-template.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "tj-actions/changed-files@v47.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-report-template.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bug-report-template.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "Bug Reports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "tj-actions/changed-files@v47.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/setup-node@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-not-merge.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "Do Not Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/setup-node@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deployment.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deployment.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "Docs Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/setup-node@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "tj-actions/changed-files@v47.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "reviewdog/action-eslint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "ESLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gherkin-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gherkin-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "tj-actions/changed-files@v47.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gherkin-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/setup-node@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gherkin-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "Gherkin Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "tj-actions/changed-files@v47.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "reviewdog/action-actionlint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "GitHub Actions Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "tj-actions/changed-files@v47.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "activeadmin/activeadmin",
+      "target": "reviewdog/action-markdownlint@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/activeadmin",
+      "target": "activeadmin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/activeadmin",
+      "target": "admin-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/activeadmin",
+      "target": "arbre",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/activeadmin",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/activeadmin",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:19:07.678474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4574
+    },
+    {
+      "path": "package.json",
+      "size": 1310
+    },
+    {
+      "path": ".github/workflows/bug-report-template.yml",
+      "size": 1216
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 3693
+    },
+    {
+      "path": ".github/workflows/do-not-merge.yml",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/docs-deployment.yml",
+      "size": 1225
+    },
+    {
+      "path": ".github/workflows/eslint.yml",
+      "size": 856
+    },
+    {
+      "path": ".github/workflows/gherkin-lint.yml",
+      "size": 838
+    },
+    {
+      "path": ".github/workflows/github-actions-lint.yml",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/markdown-lint.yml",
+      "size": 832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The administration framework for Ruby on Rails applications.",
+    "fork": false,
+    "full_name": "activeadmin/activeadmin",
+    "html_url": "https://github.com/activeadmin/activeadmin",
+    "language": "Ruby",
+    "pushed_at": "2026-05-01T01:36:55Z",
+    "stargazers_count": 9684,
+    "topics": [
+      "activeadmin",
+      "admin-ui",
+      "arbre",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-05-01T01:36:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "activeadmin/arbre",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "activeadmin/inherited_resources",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "activerecord-hackery/ransack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "formtastic/formtastic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bug Reports",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bug-report-template.yml",
+      "term": "Bug Reports"
+    },
+    {
+      "context_snippet": "Do Not Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/do-not-merge.yml",
+      "term": "Do Not Merge"
+    },
+    {
+      "context_snippet": "Docs Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deployment.yml",
+      "term": "Docs Deployment"
+    },
+    {
+      "context_snippet": "ESLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eslint.yml",
+      "term": "ESLint"
+    },
+    {
+      "context_snippet": "Gherkin Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gherkin-lint.yml",
+      "term": "Gherkin Lint"
+    },
+    {
+      "context_snippet": "GitHub Actions Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "term": "GitHub Actions Lint"
+    },
+    {
+      "context_snippet": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activeadmin"
+    },
+    {
+      "context_snippet": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "admin-ui"
+    },
+    {
+      "context_snippet": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbre"
+    },
+    {
+      "context_snippet": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

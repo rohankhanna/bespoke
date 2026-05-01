@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "images"
+    "images",
+    "Images"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -127,6 +130,30 @@
       "source_repo": "sumcumo/imagemin-merlin",
       "status": "candidate-context",
       "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate-context",
+      "text": "Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate-context",
+      "text": "<!-- SPDX-License-Identifier: CC-BY-4.0 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate-context",
+      "text": "Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases. Generate all-in-one manifests for use with ArgoCD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate-context",
+      "text": "Images"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +216,18 @@
       "source_repo": "sumcumo/imagemin-merlin",
       "status": "candidate",
       "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate",
+      "text": "<!-- SPDX-License-Identifier: CC-BY-4.0 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate",
+      "text": "Images"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +349,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "helmfile/helmfile"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

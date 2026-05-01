@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml",
+      "source_repo": "beclab/Olares"
+    }
+  ],
+  "term": "Publish image-service to Dockerhub"
+}

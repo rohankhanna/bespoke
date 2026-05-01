@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-code-check.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-code-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-code-check.yml",
+      "source_repo": "gofrp/tiny-frpc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-code-check.yml",
+      "source_repo": "gofrp/tiny-frpc",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-code-check.yml",
+      "source_repo": "gofrp/tiny-frpc",
+      "target": "Go Code Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gofrp/tiny-frpc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gofrp/tiny-frpc",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gofrp/tiny-frpc",
+      "target": "goreleaser/goreleaser-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gofrp/tiny-frpc",
+      "target": "goreleaser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:44.895111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3933
+    },
+    {
+      "path": "go.mod",
+      "size": 347
+    },
+    {
+      "path": ".github/workflows/go-code-check.yml",
+      "size": 443
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "tiny frpc using ssh protocol with frps",
+    "fork": false,
+    "full_name": "gofrp/tiny-frpc",
+    "html_url": "https://github.com/gofrp/tiny-frpc",
+    "language": "Go",
+    "pushed_at": "2025-04-20T12:55:51Z",
+    "stargazers_count": 239,
+    "topics": [],
+    "updated_at": "2026-04-22T01:03:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go Code Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-code-check.yml",
+      "term": "Go Code Check"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "goreleaser"
+    }
+  ]
+}

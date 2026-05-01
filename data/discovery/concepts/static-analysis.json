@@ -623,6 +623,60 @@
       "source_repo": "securego/gosec",
       "status": "candidate-context",
       "text": "Inspects source code for security problems by scanning the Go AST"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ozsie/detekt-maven-plugin",
+      "status": "candidate-context",
+      "text": "Maven wrapper for detekt cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ozsie/detekt-maven-plugin",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Ozsie/detekt-maven-plugin/actions/workflows/maven.yml/badge.svg)](https://github.com/Ozsie/detekt-maven-plugin/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/imgui",
+      "status": "candidate-context",
+      "text": "Dear ImGui: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/imgui",
+      "status": "candidate-context",
+      "text": "static-analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate-context",
+      "text": "A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate-context",
+      "text": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "\ud83e\udda9 Tools for Go projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jemalloc/jemalloc",
+      "status": "candidate-context",
+      "text": "'Static Analysis'"
     }
   ],
   "candidate_glosses": [
@@ -925,6 +979,36 @@
       "source_repo": "securego/gosec",
       "status": "candidate",
       "text": "Inspects source code for security problems by scanning the Go AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ozsie/detekt-maven-plugin",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Ozsie/detekt-maven-plugin/actions/workflows/maven.yml/badge.svg)](https://github.com/Ozsie/detekt-maven-plugin/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/imgui",
+      "status": "candidate",
+      "text": "static-analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate",
+      "text": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jemalloc/jemalloc",
+      "status": "candidate",
+      "text": "'Static Analysis'"
     }
   ],
   "candidate_related_terms": [
@@ -1382,11 +1466,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "securego/gosec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Ozsie/detekt-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "DiligentGraphics/imgui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "jemalloc/jemalloc"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

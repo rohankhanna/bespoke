@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "symbian"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EKA2L1/EKA2L1",
+      "status": "candidate-context",
+      "text": "A Symbian OS/N-Gage emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EKA2L1/EKA2L1",
+      "status": "candidate-context",
+      "text": "<div class=\"header\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EKA2L1/EKA2L1",
+      "status": "candidate",
+      "text": "<div class=\"header\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014689,
+      "status": "candidate",
+      "text": "joined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014688,
+      "status": "candidate",
+      "text": "provides"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004690,
+      "status": "candidate",
+      "text": "device"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999691,
+      "status": "candidate",
+      "text": "assistive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999691,
+      "status": "candidate",
+      "text": "biomimetic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "symbian",
+  "concept_id": "symbian",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "EKA2L1/EKA2L1"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "symbian",
+      "sense_id": "symbian#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

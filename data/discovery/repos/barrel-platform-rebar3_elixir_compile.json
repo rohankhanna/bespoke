@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "barrel-platform/rebar3_elixir_compile",
+      "target": "barrel-db/rebar3_elixir_compile",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:20:08.226190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Elixir rebar3 compiler plugin",
+    "fork": false,
+    "full_name": "barrel-platform/rebar3_elixir_compile",
+    "html_url": "https://github.com/barrel-platform/rebar3_elixir_compile",
+    "language": "Erlang",
+    "pushed_at": "2021-11-28T00:51:33Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2024-08-24T14:39:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barrel-db/rebar3_elixir_compile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

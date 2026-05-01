@@ -43,6 +43,18 @@
       "source_repo": "MajicDesigns/MD_Parola",
       "status": "candidate-context",
       "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "A dynamic windowed scrolling table component for react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "![HighTable](hightable.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "MajicDesigns/MD_Parola",
       "status": "candidate",
       "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate",
+      "text": "![HighTable](hightable.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "MajicDesigns/MD_Parola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hightable"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

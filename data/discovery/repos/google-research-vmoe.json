@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:29:10.636663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3538
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/vmoe",
+    "html_url": "https://github.com/google-research/vmoe",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-06T01:33:11Z",
+    "stargazers_count": 717,
+    "topics": [],
+    "updated_at": "2026-04-29T21:27:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

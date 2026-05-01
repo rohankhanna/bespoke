@@ -19,12 +19,30 @@
       "source_repo": "hadolint/hadolint",
       "status": "candidate-context",
       "text": "Haskell Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "Haskell Dockerfile parser, pretty-printer and EDSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "Haskell Lint"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "hadolint/hadolint",
+      "status": "candidate",
+      "text": "Haskell Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
       "status": "candidate",
       "text": "Haskell Lint"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/hlint.yml",
       "source_repo": "hadolint/hadolint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "hadolint/language-docker"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

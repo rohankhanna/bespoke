@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joeljuvel/YuE-UI",
+      "target": "sgsdxzy/yue-exllamav2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:46.391818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5392
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gradio UI for YuE",
+    "fork": false,
+    "full_name": "joeljuvel/YuE-UI",
+    "html_url": "https://github.com/joeljuvel/YuE-UI",
+    "language": "Python",
+    "pushed_at": "2025-04-05T18:31:56Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-04-26T14:21:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sgsdxzy/yue-exllamav2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

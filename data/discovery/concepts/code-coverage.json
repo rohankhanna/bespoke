@@ -329,6 +329,30 @@
       "source_repo": "oxc-project/oxc",
       "status": "candidate-context",
       "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Create ridiculously fast Lexers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectordotdev/vrl",
+      "status": "candidate-context",
+      "text": "Vector Remap Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vrl",
+      "status": "candidate-context",
+      "text": "Code Coverage"
     }
   ],
   "candidate_glosses": [
@@ -491,6 +515,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oxc-project/oxc",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectordotdev/vrl",
       "status": "candidate",
       "text": "Code Coverage"
     }
@@ -848,11 +884,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "maciejhirsz/logos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "vectordotdev/vrl"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,17 @@
+{
+  "component": "digicert/ssm-code-signing@v1.0.0",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-cpu.yml",
+      "source_repo": "roboflow/inference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-installer-gpu.yml",
+      "source_repo": "roboflow/inference"
+    }
+  ]
+}

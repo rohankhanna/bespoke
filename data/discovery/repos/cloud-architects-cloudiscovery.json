@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cloud-Architects/cloudiscovery",
+      "target": "aws-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cloud-Architects/cloudiscovery",
+      "target": "aws-iot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cloud-Architects/cloudiscovery",
+      "target": "aws-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cloud-Architects/cloudiscovery",
+      "target": "aws-services",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cloud-Architects/cloudiscovery",
+      "target": "devops-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cloud-Architects/cloudiscovery",
+      "target": "diagrams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cloud-Architects/cloudiscovery",
+      "target": "iam-policy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:06:42.809865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14609
+    },
+    {
+      "path": "Dockerfile",
+      "size": 402
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The tool to help you discover resources in the cloud environment",
+    "fork": false,
+    "full_name": "Cloud-Architects/cloudiscovery",
+    "html_url": "https://github.com/Cloud-Architects/cloudiscovery",
+    "language": "Python",
+    "pushed_at": "2024-06-18T03:08:56Z",
+    "stargazers_count": 825,
+    "topics": [
+      "aws",
+      "aws-cli",
+      "aws-iot",
+      "aws-monitoring",
+      "aws-services",
+      "devops-tools",
+      "diagrams",
+      "iam-policy",
+      "iot",
+      "python",
+      "vpc"
+    ],
+    "updated_at": "2026-04-27T21:02:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloudiscovery.svg)](https://badge.fury.io/py/cloudiscovery)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cli"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloudiscovery.svg)](https://badge.fury.io/py/cloudiscovery)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-iot"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloudiscovery.svg)](https://badge.fury.io/py/cloudiscovery)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-monitoring"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloudiscovery.svg)](https://badge.fury.io/py/cloudiscovery)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-services"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloudiscovery.svg)](https://badge.fury.io/py/cloudiscovery)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops-tools"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloudiscovery.svg)](https://badge.fury.io/py/cloudiscovery)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagrams"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloudiscovery.svg)](https://badge.fury.io/py/cloudiscovery)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iam-policy"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "spacejam/sled",
       "status": "candidate-context",
       "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate-context",
+      "text": "If only std::set was a DBMS: collection of templated ACID in-memory exception-free thread-safe and concurrent containers in a header-only library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "spacejam/sled",
       "status": "candidate",
       "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "spacejam/sled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

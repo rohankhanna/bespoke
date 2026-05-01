@@ -667,6 +667,42 @@
       "source_repo": "OpenGVLab/InternGPT",
       "status": "candidate-context",
       "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AILab-CVC/SEED",
+      "status": "candidate-context",
+      "text": "Official implementation of SEED-LLaMA (ICLR 2024)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AILab-CVC/SEED",
+      "status": "candidate-context",
+      "text": "[![Project Homepage](https://img.shields.io/badge/Project-Homepage-green)](https://ailab-cvc.github.io/seed/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate-context",
+      "text": "A collection of original, innovative ideas and algorithms towards Advanced Literate Machinery. This project is maintained by the OCR Team in the Language Technology Lab, Tongyi Lab, Alibaba Group."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate-context",
+      "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate-context",
+      "text": "streamline the fine-tuning process for multimodal models: PaliGemma 2, Florence-2, and Qwen2.5-VL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -999,6 +1035,24 @@
       "source_repo": "OpenGVLab/InternGPT",
       "status": "candidate",
       "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AILab-CVC/SEED",
+      "status": "candidate",
+      "text": "[![Project Homepage](https://img.shields.io/badge/Project-Homepage-green)](https://ailab-cvc.github.io/seed/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
+      "status": "candidate",
+      "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1498,11 +1552,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/SEED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AlibabaResearch/AdvancedLiterateMachinery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -324,6 +324,24 @@
       "source_repo": "amannn/action-semantic-pull-request",
       "status": "candidate-context",
       "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/scoops",
+      "status": "candidate-context",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate-context",
+      "text": "Next generation GUIDs. Collision-resistant ids optimized for horizontal scaling and performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate-context",
+      "text": "Pull Requests"
     }
   ],
   "candidate_glosses": [
@@ -482,6 +500,18 @@
       "source_repo": "amannn/action-semantic-pull-request",
       "status": "candidate",
       "text": "This is a GitHub Action that ensures that your pull request titles match the [Conventional Commits spec](https://www.conventionalcommits.org/). Typically, this is used in combination with a tool like [semantic-release](https://github.com/semantic-release/semantic-release) to aut\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/scoops",
+      "status": "candidate",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate",
+      "text": "Pull Requests"
     }
   ],
   "candidate_related_terms": [
@@ -801,11 +831,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "stefanlogue/scoops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pull_requests.yml",
+      "source_repo": "gordon-code/cuid2"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "dcarbone/install-jq-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "Azure/login@v1.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "dcarbone/install-jq-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "Azure/login@v1.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-app-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-app-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-cache-redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-frontdoor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-keyvault",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-private-endpoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-sql-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "bicep-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "reference-implementation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "Azure/reliable-web-app-pattern-dotnet"
+}

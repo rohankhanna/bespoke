@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andirkh/clean-code-javascript",
+      "target": "danielstjules/buddy.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andirkh/clean-code-javascript",
+      "target": "alivebao/clean-code-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andirkh/clean-code-javascript",
+      "target": "beginor/clean-code-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andirkh/clean-code-javascript",
+      "target": "boryamogila/clean-code-javascript-ru",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:15:47.638667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 59689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":bathtub: Clean Code concepts adapted for JavaScript",
+    "fork": true,
+    "full_name": "andirkh/clean-code-javascript",
+    "html_url": "https://github.com/andirkh/clean-code-javascript",
+    "language": "JavaScript",
+    "pushed_at": "2021-07-13T04:24:17Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-04-08T02:20:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alivebao/clean-code-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beginor/clean-code-javascript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boryamogila/clean-code-javascript-ru",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielstjules/buddy.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

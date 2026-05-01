@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alejandrobabio/spring-commands-teaspoon",
+      "target": "jonleighton/spring-commands-rspec",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:08:40.163361+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This gem implements the `teaspoon` command for Spring.",
+    "fork": false,
+    "full_name": "alejandrobabio/spring-commands-teaspoon",
+    "html_url": "https://github.com/alejandrobabio/spring-commands-teaspoon",
+    "language": "Ruby",
+    "pushed_at": "2022-12-27T15:36:55Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2023-07-10T17:07:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonleighton/spring-commands-rspec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

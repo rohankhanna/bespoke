@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LPengYang/FreeDrag",
+      "target": "xingangpan/draggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LPengYang/FreeDrag",
+      "target": "draggan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LPengYang/FreeDrag",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LPengYang/FreeDrag",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LPengYang/FreeDrag",
+      "target": "image-manipulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:36.816081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6860
+    },
+    {
+      "path": "requirements.txt",
+      "size": 72
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Official implementation of FreeDrag: Feature Dragging for Reliable Point-based Image Editing",
+    "fork": false,
+    "full_name": "LPengYang/FreeDrag",
+    "html_url": "https://github.com/LPengYang/FreeDrag",
+    "language": "Python",
+    "pushed_at": "2025-04-13T16:04:47Z",
+    "stargazers_count": 422,
+    "topics": [
+      "draggan",
+      "image-editing",
+      "image-generation",
+      "image-manipulation"
+    ],
+    "updated_at": "2026-04-09T07:53:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingangpan/draggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "draggan"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    }
+  ]
+}

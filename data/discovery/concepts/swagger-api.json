@@ -49,6 +49,18 @@
       "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate-context",
       "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate-context",
+      "text": "Swagger module for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate-context",
+      "text": "This GitHub repository has been archived."
     }
   ],
   "candidate_glosses": [
@@ -75,6 +87,12 @@
       "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate",
       "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate",
+      "text": "This GitHub repository has been archived."
     }
   ],
   "candidate_related_terms": [],
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-node"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

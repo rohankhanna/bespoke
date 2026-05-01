@@ -453,20 +453,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "DioxusLabs/dioxus",
-      "target": "ealmloff/tiny-dioxus",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "dioxuslabs/docsite",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "DioxusLabs/dioxus",
       "target": "dioxuslabs/dioxus-std",
       "target_type": "repository"
     },
@@ -786,7 +772,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:55:06.305143+00:00",
+  "fetched_at": "2026-05-01T08:21:19.705706+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -798,7 +784,7 @@
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 27785
+      "size": 27872
     },
     {
       "path": ".github/workflows/merge.yml",
@@ -826,8 +812,8 @@
     "full_name": "DioxusLabs/dioxus",
     "html_url": "https://github.com/DioxusLabs/dioxus",
     "language": "Rust",
-    "pushed_at": "2026-04-30T17:49:58Z",
-    "stargazers_count": 35868,
+    "pushed_at": "2026-05-01T01:38:23Z",
+    "stargazers_count": 35872,
     "topics": [
       "android",
       "css",
@@ -843,22 +829,12 @@
       "wasm",
       "web"
     ],
-    "updated_at": "2026-04-30T17:39:09Z"
+    "updated_at": "2026-05-01T07:40:55Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "dioxuslabs/dioxus-std",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dioxuslabs/docsite",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ealmloff/tiny-dioxus",
       "source_file": "README.md"
     },
     {

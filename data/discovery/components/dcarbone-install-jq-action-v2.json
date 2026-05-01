@@ -1,7 +1,7 @@
 {
   "component": "dcarbone/install-jq-action@v2",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-submit-ios.yml",
       "source_repo": "bluesky-social/social-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet"
     }
   ]
 }

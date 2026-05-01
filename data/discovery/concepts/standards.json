@@ -55,6 +55,18 @@
       "source_repo": "MicrosoftEdge/MSEdgeExplainers",
       "status": "candidate-context",
       "text": "Welcome! This repo is home to \"explainers\" and related documents originating"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/contracts",
+      "status": "candidate-context",
+      "text": "A set of abstractions extracted out of the Symfony components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/contracts",
+      "status": "candidate-context",
+      "text": "Symfony Contracts"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "MicrosoftEdge/MSEdgeExplainers",
       "status": "candidate",
       "text": "Welcome! This repo is home to \"explainers\" and related documents originating"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/contracts",
+      "status": "candidate",
+      "text": "Symfony Contracts"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "MicrosoftEdge/MSEdgeExplainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "symfony/contracts"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

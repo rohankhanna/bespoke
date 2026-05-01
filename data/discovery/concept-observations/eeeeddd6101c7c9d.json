@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Logstash - transport and process your logs, events, or other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bump-logstash-version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bump-logstash-version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bump-logstash-version",
+      "sense_id": "bump-logstash-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-logstash-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-logstash-version",
+  "observation_id": "eeeeddd6101c7c9d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "bump-logstash-version",
+  "source_context_snippet": "bump-logstash-version",
+  "source_file": ".github/workflows/bump-logstash.yml",
+  "source_repo": "elastic/logstash",
+  "source_repo_description": "Logstash - transport and process your logs, events, or other data"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sample project using clojurephant to build a Clojure library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure library."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure library."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clojurephant",
+      "sense_id": "clojurephant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clojurephant",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clojurephant",
+  "observation_id": "08cd6f93f6b501dc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "clojurephant",
+  "source_context_snippet": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure library.",
+  "source_file": null,
+  "source_repo": "clojurephant/sample-clojurephant-clj-lib",
+  "source_repo_description": "Sample project using clojurephant to build a Clojure library."
+}

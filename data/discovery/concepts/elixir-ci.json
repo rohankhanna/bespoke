@@ -427,6 +427,42 @@
       "source_repo": "ahamez/protox",
       "status": "candidate-context",
       "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leandrocp/req_embed",
+      "status": "candidate-context",
+      "text": "Req plugin to fetch oEmbed resources and a Phoenix Component to embed rich content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leandrocp/req_embed",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msharp/elixir-statistics",
+      "status": "candidate-context",
+      "text": "Statistical functions and distributions for Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msharp/elixir-statistics",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rkallos/peep",
+      "status": "candidate-context",
+      "text": "Small, simple, unsampled metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rkallos/peep",
+      "status": "candidate-context",
+      "text": "Elixir CI"
     }
   ],
   "candidate_glosses": [
@@ -637,6 +673,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ahamez/protox",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leandrocp/req_embed",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msharp/elixir-statistics",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rkallos/peep",
       "status": "candidate",
       "text": "Elixir CI"
     }
@@ -940,11 +994,47 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/elixir.yml",
       "source_repo": "ahamez/protox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "leandrocp/req_embed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "msharp/elixir-statistics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "rkallos/peep"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

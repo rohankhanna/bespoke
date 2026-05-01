@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:26:45.079868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A MySQL functionality enhancement UDF",
+    "fork": false,
+    "full_name": "infusion/udf_infusion",
+    "html_url": "https://github.com/infusion/udf_infusion",
+    "language": "Shell",
+    "pushed_at": "2024-08-27T23:10:02Z",
+    "stargazers_count": 140,
+    "topics": [],
+    "updated_at": "2026-03-10T13:41:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

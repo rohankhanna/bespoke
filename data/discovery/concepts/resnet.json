@@ -115,6 +115,30 @@
       "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
       "status": "candidate-context",
       "text": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wenet-e2e/wespeaker",
+      "status": "candidate-context",
+      "text": "Research and Production Oriented Speaker Verification, Recognition and Diarization Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wespeaker",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "Improved Residual Networks (https://arxiv.org/pdf/2004.04989.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
       "status": "candidate",
       "text": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wenet-e2e/wespeaker",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +328,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "wenet-e2e/wespeaker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "iduta/iresnet"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

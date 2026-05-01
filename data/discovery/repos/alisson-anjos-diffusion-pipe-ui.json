@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/diffusion-pipe-ui",
+      "target": "tdrussell/diffusion-pipe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/diffusion-pipe-ui",
+      "target": "kohya-ss/musubi-tuner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/diffusion-pipe-ui",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/diffusion-pipe-ui",
+      "target": "tdrussell/qlora-pipe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:32.094313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18385
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2526
+    },
+    {
+      "path": "requirements.txt",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pipeline parallel training script for diffusion models.",
+    "fork": true,
+    "full_name": "alisson-anjos/diffusion-pipe-ui",
+    "html_url": "https://github.com/alisson-anjos/diffusion-pipe-ui",
+    "language": "Python",
+    "pushed_at": "2025-06-21T21:32:56Z",
+    "stargazers_count": 148,
+    "topics": [],
+    "updated_at": "2026-04-30T11:25:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kohya-ss/musubi-tuner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tdrussell/diffusion-pipe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tdrussell/qlora-pipe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -268,6 +268,18 @@
       "source_repo": "marmelab/FakeRest",
       "status": "candidate-context",
       "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate-context",
+      "text": "Awesome Smithy is a curated list of awesome build-tools, code-generators, examples, and other resources related to the Smithy IDL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate-context",
+      "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -402,6 +414,12 @@
       "source_repo": "marmelab/FakeRest",
       "status": "candidate",
       "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate",
+      "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [
@@ -647,11 +665,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "marmelab/FakeRest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

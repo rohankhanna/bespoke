@@ -104,6 +104,18 @@
       "source_repo": "ZhuoZhuoCrayon/throttled-py",
       "status": "candidate-context",
       "text": "Lint Commit Messages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/bsc",
+      "status": "candidate-context",
+      "text": "A BNB Smart Chain client based on the go-ethereum fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/bsc",
+      "status": "candidate-context",
+      "text": "Lint Commit Messages"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +164,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ZhuoZhuoCrayon/throttled-py",
+      "status": "candidate",
+      "text": "Lint Commit Messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/bsc",
       "status": "candidate",
       "text": "Lint Commit Messages"
     }
@@ -251,11 +269,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/commitlint.yml",
       "source_repo": "ZhuoZhuoCrayon/throttled-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/commit-lint.yml",
+      "source_repo": "bnb-chain/bsc"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

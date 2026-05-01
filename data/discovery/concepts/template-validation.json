@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Template Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "status": "candidate-context",
+      "text": "Basic sample for deploying AI agents web app with Azure AI Foundry and SDKs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "status": "candidate-context",
+      "text": "Template Validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "status": "candidate-context",
+      "text": "End-to-end solution sample for a travel assistant built with the Azure Agent Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "status": "candidate-context",
+      "text": "Template Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "status": "candidate",
+      "text": "Template Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "status": "candidate",
+      "text": "Template Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10625,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10625,
+      "status": "candidate",
+      "text": "specimen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "probate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10497,
+      "status": "candidate",
+      "text": "accession number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10497,
+      "status": "candidate",
+      "text": "accompaniment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Template Validation",
+  "concept_id": "template-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template Validation",
+      "sense_id": "template-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

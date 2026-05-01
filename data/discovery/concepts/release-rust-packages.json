@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Rust Packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/thrift",
+      "status": "candidate-context",
+      "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/thrift",
+      "status": "candidate-context",
+      "text": "Release Rust Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/thrift",
+      "status": "candidate",
+      "text": "Release Rust Packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18438,
+      "status": "candidate",
+      "text": "curl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18438,
+      "status": "candidate",
+      "text": "curls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18438,
+      "status": "candidate",
+      "text": "infection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18438,
+      "status": "candidate",
+      "text": "old"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10901,
+      "status": "candidate",
+      "text": "drop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Rust Packages",
+  "concept_id": "release-rust-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release_rust.yml",
+      "source_repo": "apache/thrift"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Rust Packages",
+      "sense_id": "release-rust-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":package: Opinionated but Incredible Prettier plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/prettier/ci.yml?branch=master)](https://github.com/un-ts/prettier/actions/workflows/ci.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/prettier/ci.yml?branch=master)](https://github.com/un-ts/prettier/actions/workflows/ci.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prettier-plugins",
+      "sense_id": "prettier-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prettier-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prettier-plugins",
+  "observation_id": "0ac11594d3a42528",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "prettier-plugins",
+  "source_context_snippet": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/prettier/ci.yml?branch=master)](https://github.com/un-ts/prettier/actions/workflows/ci.yml?query=branch%3Amaster)",
+  "source_file": null,
+  "source_repo": "un-ts/prettier",
+  "source_repo_description": ":package: Opinionated but Incredible Prettier plugins."
+}

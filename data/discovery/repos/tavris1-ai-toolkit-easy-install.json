@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "target": "huggingface/xet-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "target": "ai-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "target": "easy-install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "target": "windows-installer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:27:03.677860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "One-click Portable Windows installation of 'AI-Toolkit by Ostris'",
+    "fork": false,
+    "full_name": "Tavris1/AI-Toolkit-Easy-Install",
+    "html_url": "https://github.com/Tavris1/AI-Toolkit-Easy-Install",
+    "language": "Batchfile",
+    "pushed_at": "2026-04-21T13:30:13Z",
+    "stargazers_count": 387,
+    "topics": [
+      "ai-toolkit",
+      "easy-install",
+      "fine-tuning",
+      "lora",
+      "machine-learning",
+      "stable-diffusion",
+      "windows-installer"
+    ],
+    "updated_at": "2026-04-30T06:42:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/xet-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-toolkit"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "easy-install"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-installer"
+    }
+  ]
+}

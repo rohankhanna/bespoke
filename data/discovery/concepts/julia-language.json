@@ -127,6 +127,30 @@
       "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
       "status": "candidate-context",
       "text": "[![CI][ci-img]][ci-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate-context",
+      "text": "(yet another) static site generator. Simple, customisable, fast, maths with KaTeX, code evaluation, optional pre-rendering, in Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "A code formatter for Julia with rules set in stone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "*A code formatter with rules set in stone.*"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
       "status": "candidate",
       "text": "[![CI][ci-img]][ci-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate",
+      "text": "*A code formatter with rules set in stone.*"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +304,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fredrikekre/Runic.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

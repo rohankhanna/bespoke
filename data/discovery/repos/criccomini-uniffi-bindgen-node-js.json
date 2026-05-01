@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "source_repo": "criccomini/uniffi-bindgen-node-js",
+      "target": "CI and Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:28:43.980291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7708
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 712
+    },
+    {
+      "path": ".github/workflows/ci-publish.yml",
+      "size": 9447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate Node.js bindings for UniFFI Rust libraries, with ESM output, TypeScript declarations, and a Koffi-based runtime.",
+    "fork": false,
+    "full_name": "criccomini/uniffi-bindgen-node-js",
+    "html_url": "https://github.com/criccomini/uniffi-bindgen-node-js",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T23:13:10Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-30T23:13:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-publish.yml",
+      "term": "CI and Publish"
+    }
+  ]
+}

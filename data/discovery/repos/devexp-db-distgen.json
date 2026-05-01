@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-copr-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-diff-lint.yml"
+    },
+    {
+      "component": "fedora-copr/vcs-diff-lint-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-diff-lint.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-diff-lint.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-diff-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-copr-build.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-copr-build.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "RPM build in Fedora Copr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-diff-lint.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-diff-lint.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "fedora-copr/vcs-diff-lint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-diff-lint.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-diff-lint.yml",
+      "source_repo": "devexp-db/distgen",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:22:08.068628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3522
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1106
+    },
+    {
+      "path": "requirements.txt",
+      "size": 37
+    },
+    {
+      "path": ".github/workflows/push-copr-build.yml",
+      "size": 698
+    },
+    {
+      "path": ".github/workflows/pypi-publish.yml",
+      "size": 997
+    },
+    {
+      "path": ".github/workflows/python-diff-lint.yml",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Distribution oriented templating system",
+    "fork": false,
+    "full_name": "devexp-db/distgen",
+    "html_url": "https://github.com/devexp-db/distgen",
+    "language": "Python",
+    "pushed_at": "2026-04-13T12:09:45Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-13T12:09:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "RPM build in Fedora Copr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-copr-build.yml",
+      "term": "RPM build in Fedora Copr"
+    }
+  ]
+}

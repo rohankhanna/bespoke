@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ostris/ai-toolkit",
+      "target": "tavris1/ai-toolkit-easy-install",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "ostris/ai-toolkit",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "ostris/ai-toolkit",
+      "target": "Close Stale Issues and PRs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:23:45.690460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 63262
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    },
+    {
+      "path": ".github/workflows/stale-issues.yml",
+      "size": 3714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The ultimate training toolkit for finetuning diffusion models",
+    "fork": false,
+    "full_name": "ostris/ai-toolkit",
+    "html_url": "https://github.com/ostris/ai-toolkit",
+    "language": "Python",
+    "pushed_at": "2026-04-30T22:00:24Z",
+    "stargazers_count": 10403,
+    "topics": [],
+    "updated_at": "2026-05-01T05:42:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tavris1/ai-toolkit-easy-install",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Stale Issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "term": "Close Stale Issues and PRs"
+    }
+  ]
+}

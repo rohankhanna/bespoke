@@ -19,6 +19,30 @@
       "source_repo": "chakra-core/ChakraCore",
       "status": "candidate-context",
       "text": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate-context",
+      "text": "Cocos simplifies game creation and distribution with Cocos Creator, a free, open-source, cross-platform game engine. Empowering millions of developers to create high-performance, engaging 2D/3D games and instant web entertainment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate-context",
+      "text": "Implementation of the Wave-U-Net for audio source separation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate-context",
+      "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "chakra-core/ChakraCore",
       "status": "candidate",
       "text": "[![Discord Chat](https://img.shields.io/discord/695166668967510077?label=Discord&logo=Discord)](https://discord.gg/dgRawPdNuC)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate",
+      "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "f90/Wave-U-Net"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

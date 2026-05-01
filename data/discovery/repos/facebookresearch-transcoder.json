@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/TransCoder",
+      "target": "facebookresearch/codegen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/TransCoder",
+      "target": "fairinternal/transcoder_release",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:26:59.462421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Public release of the TransCoder research project https://arxiv.org/pdf/2006.03511.pdf",
+    "fork": false,
+    "full_name": "facebookresearch/TransCoder",
+    "html_url": "https://github.com/facebookresearch/TransCoder",
+    "language": "Python",
+    "pushed_at": "2021-09-29T14:51:46Z",
+    "stargazers_count": 1732,
+    "topics": [],
+    "updated_at": "2026-04-20T18:18:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/codegen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fairinternal/transcoder_release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

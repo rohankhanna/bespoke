@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "hrnet/dekr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "hrnet/higher-hrnet-human-pose-estimation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "microsoft/human-pose-estimation.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "coco-keypoints-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "deep-high-resolution-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "high-resolution-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "mpii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "mpii-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "mscoco-keypoint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:11:48.392275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16106
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The project is an official implementation of our CVPR2019 paper \"Deep High-Resolution Representation Learning for Human Pose Estimation\"",
+    "fork": false,
+    "full_name": "leoxiaobin/deep-high-resolution-net.pytorch",
+    "html_url": "https://github.com/leoxiaobin/deep-high-resolution-net.pytorch",
+    "language": "Cuda",
+    "pushed_at": "2024-08-30T23:46:48Z",
+    "stargazers_count": 4473,
+    "topics": [
+      "coco-keypoints-detection",
+      "deep-high-resolution-net",
+      "deep-learning",
+      "high-resolution-net",
+      "human-pose-estimation",
+      "mpii",
+      "mpii-dataset",
+      "mscoco-keypoint"
+    ],
+    "updated_at": "2026-04-29T07:13:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/dekr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/higher-hrnet-human-pose-estimation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/human-pose-estimation.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco-keypoints-detection"
+    },
+    {
+      "context_snippet": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-high-resolution-net"
+    },
+    {
+      "context_snippet": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution-net"
+    },
+    {
+      "context_snippet": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mpii"
+    },
+    {
+      "context_snippet": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mpii-dataset"
+    },
+    {
+      "context_snippet": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco-keypoint"
+    }
+  ]
+}

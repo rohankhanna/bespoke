@@ -43,6 +43,30 @@
       "source_repo": "zhiqwang/yolort",
       "status": "candidate-context",
       "text": "CI testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate-context",
+      "text": "Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using \u26a1 Pytorch Lightning and \ud83e\udd17 Transformers. For access to our API, please email us at contact@unitary.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate-context",
+      "text": "CI testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "siliconflow/onediff",
+      "status": "candidate-context",
+      "text": "OneDiff: An out-of-the-box acceleration library for diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "siliconflow/onediff",
+      "status": "candidate-context",
+      "text": "CI testing"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zhiqwang/yolort",
+      "status": "candidate",
+      "text": "CI testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate",
+      "text": "CI testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "siliconflow/onediff",
       "status": "candidate",
       "text": "CI testing"
     }
@@ -160,11 +196,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/ci-testing.yml",
       "source_repo": "Lightning-AI/deep-learning-project-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "unitaryai/detoxify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/deep-learning-project-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "siliconflow/onediff"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "kapture-release-docker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "naver/kapture",
+      "status": "candidate-context",
+      "text": "kapture is a file format as well as a set of tools for manipulating datasets, and in particular Visual Localization and Structure from Motion data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naver/kapture",
+      "status": "candidate-context",
+      "text": "kapture-release-docker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naver/kapture",
+      "status": "candidate",
+      "text": "kapture-release-docker"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kapture-release-docker",
+  "concept_id": "kapture-release-docker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/kapture-release-docker.yml",
+      "source_repo": "naver/kapture"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "kapture-release-docker",
+      "sense_id": "kapture-release-docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

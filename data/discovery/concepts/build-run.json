@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udd28 Build \u203a Run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate-context",
+      "text": "Free cross-platform password manager compatible with KeePass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate-context",
+      "text": "'\ud83d\udd28 Build \u203a Run'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate",
+      "text": "'\ud83d\udd28 Build \u203a Run'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11808,
+      "status": "candidate",
+      "text": "accrue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11808,
+      "status": "candidate",
+      "text": "amass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11808,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11808,
+      "status": "candidate",
+      "text": "clinic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11808,
+      "status": "candidate",
+      "text": "compile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udd28 Build \u203a Run",
+  "concept_id": "build-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-run.yaml",
+      "source_repo": "keeweb/keeweb"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd28 Build \u203a Run",
+      "sense_id": "build-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

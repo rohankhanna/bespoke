@@ -1,0 +1,304 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-push-main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-push-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-docker.yml"
+    },
+    {
+      "component": "elgohr/Publish-Docker-Github-Action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-docker.yml"
+    },
+    {
+      "component": "elgohr/Publish-Docker-Github-Action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-push-main.yml",
+      "source_repo": "naver/kapture",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-push-main.yml",
+      "source_repo": "naver/kapture",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kapture-push-main.yml",
+      "source_repo": "naver/kapture",
+      "target": "kapture-push-main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-docker.yml",
+      "source_repo": "naver/kapture",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-docker.yml",
+      "source_repo": "naver/kapture",
+      "target": "elgohr/Publish-Docker-Github-Action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kapture-release-docker.yml",
+      "source_repo": "naver/kapture",
+      "target": "kapture-release-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml",
+      "source_repo": "naver/kapture",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml",
+      "source_repo": "naver/kapture",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml",
+      "source_repo": "naver/kapture",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml",
+      "source_repo": "naver/kapture",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kapture-release-pypi.yml",
+      "source_repo": "naver/kapture",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kapture-release-pypi.yml",
+      "source_repo": "naver/kapture",
+      "target": "kapture-release-pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/kapture",
+      "target": "colmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/kapture",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/kapture",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/kapture",
+      "target": "r2d2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/kapture",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/kapture",
+      "target": "visual-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/kapture",
+      "target": "visual-localization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:13:06.554837+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 4323
+    },
+    {
+      "path": ".github/workflows/kapture-push-main.yml",
+      "size": 1515
+    },
+    {
+      "path": ".github/workflows/kapture-release-docker.yml",
+      "size": 1178
+    },
+    {
+      "path": ".github/workflows/kapture-release-pypi.yml",
+      "size": 1847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "kapture is a file format as well as a set of tools for manipulating datasets, and in particular Visual Localization and Structure from Motion data.",
+    "fork": false,
+    "full_name": "naver/kapture",
+    "html_url": "https://github.com/naver/kapture",
+    "language": "Python",
+    "pushed_at": "2026-04-17T09:46:26Z",
+    "stargazers_count": 537,
+    "topics": [
+      "colmap",
+      "image-retrieval",
+      "localization",
+      "r2d2",
+      "sfm",
+      "structure-from-motion",
+      "visual-features",
+      "visual-localization"
+    ],
+    "updated_at": "2026-04-26T08:45:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "kapture-push-main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kapture-push-main.yml",
+      "term": "kapture-push-main"
+    },
+    {
+      "context_snippet": "kapture-release-docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kapture-release-docker.yml",
+      "term": "kapture-release-docker"
+    },
+    {
+      "context_snippet": "kapture-release-pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kapture-release-pypi.yml",
+      "term": "kapture-release-pypi"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colmap"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r2d2"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-features"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-localization"
+    }
+  ]
+}

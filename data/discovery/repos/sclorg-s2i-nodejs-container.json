@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "sclorg/build-and-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "sclorg/tfaga-wrapper@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-upstream-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "containers/libpod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "sclorg/build-and-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-upstream-tests.yml",
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "sclorg/tfaga-wrapper@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-nodejs-container",
+      "target": "rhel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:22:05.084021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7550
+    },
+    {
+      "path": ".github/workflows/build-and-push.yml",
+      "size": 5434
+    },
+    {
+      "path": ".github/workflows/container-tests.yml",
+      "size": 527
+    },
+    {
+      "path": ".github/workflows/container-upstream-tests.yml",
+      "size": 1192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NodeJS images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running NodeJS applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images.",
+    "fork": false,
+    "full_name": "sclorg/s2i-nodejs-container",
+    "html_url": "https://github.com/sclorg/s2i-nodejs-container",
+    "language": "Shell",
+    "pushed_at": "2026-04-21T13:01:58Z",
+    "stargazers_count": 172,
+    "topics": [
+      "centos",
+      "container",
+      "docker",
+      "dockerfile",
+      "fedora",
+      "javascript",
+      "openshift",
+      "rhel",
+      "s2i"
+    ],
+    "updated_at": "2026-04-21T13:02:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/libpod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "NodeJS container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centos"
+    },
+    {
+      "context_snippet": "NodeJS container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "NodeJS container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "NodeJS container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "NodeJS container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fedora"
+    },
+    {
+      "context_snippet": "NodeJS container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "NodeJS container images",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhel"
+    }
+  ]
+}

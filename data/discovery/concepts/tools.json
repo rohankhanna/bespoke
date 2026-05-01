@@ -343,6 +343,18 @@
       "source_repo": "veggiemonk/awesome-docker",
       "status": "candidate-context",
       "text": "> A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4pga/prjxray-db",
+      "status": "candidate-context",
+      "text": "Project X-Ray Database: XC7 Series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray-db",
+      "status": "candidate-context",
+      "text": "[TOC]"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "veggiemonk/awesome-docker",
       "status": "candidate",
       "text": "> A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray-db",
+      "status": "candidate",
+      "text": "[TOC]"
     }
   ],
   "candidate_related_terms": [
@@ -784,11 +802,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray-db"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

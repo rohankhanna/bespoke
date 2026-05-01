@@ -19,6 +19,18 @@
       "source_repo": "preactjs-templates/default",
       "status": "candidate-context",
       "text": "![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs-templates/typescript",
+      "status": "candidate-context",
+      "text": "The TypeScript template for Preact CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs-templates/typescript",
+      "status": "candidate-context",
+      "text": "- This is a TypeScript version of the default template for"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "preactjs-templates/default",
       "status": "candidate",
       "text": "![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs-templates/typescript",
+      "status": "candidate",
+      "text": "- This is a TypeScript version of the default template for"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "preactjs-templates/default"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs-templates/typescript"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

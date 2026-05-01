@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "jiro4989/setup-nim-action@v1.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "PMunch/nimlsp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "PMunch/nimlsp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "PMunch/nimlsp",
+      "target": "jiro4989/setup-nim-action@v1.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "PMunch/nimlsp",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PMunch/nimlsp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PMunch/nimlsp",
+      "target": "lsp-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:32.655341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9545
+    },
+    {
+      "path": ".github/workflows/action.yml",
+      "size": 1099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Language Server Protocol implementation for Nim",
+    "fork": false,
+    "full_name": "PMunch/nimlsp",
+    "html_url": "https://github.com/PMunch/nimlsp",
+    "language": "Nim",
+    "pushed_at": "2026-02-09T21:16:08Z",
+    "stargazers_count": 439,
+    "topics": [
+      "hacktoberfest",
+      "lsp-server"
+    ],
+    "updated_at": "2026-04-24T06:23:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Nim Language Server Protocol",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Nim Language Server Protocol",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-server"
+    }
+  ]
+}

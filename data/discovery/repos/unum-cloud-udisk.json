@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "io-uring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "iouring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "key-value",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "key-value-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "linux-kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "lsm-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk",
+      "target": "spdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:25:33.827719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The fastest ACID-transactional persisted Key-Value store designed as modified LSM-Tree for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel",
+    "fork": false,
+    "full_name": "unum-cloud/UDisk",
+    "html_url": "https://github.com/unum-cloud/UDisk",
+    "language": null,
+    "pushed_at": "2023-03-31T15:46:46Z",
+    "stargazers_count": 78,
+    "topics": [
+      "cuda",
+      "database",
+      "io-uring",
+      "iouring",
+      "key-value",
+      "key-value-store",
+      "linux",
+      "linux-kernel",
+      "lsm-tree",
+      "spdk"
+    ],
+    "updated_at": "2026-02-03T22:12:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "io-uring"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iouring"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value-store"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-kernel"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsm-tree"
+    },
+    {
+      "context_snippet": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spdk"
+    }
+  ]
+}

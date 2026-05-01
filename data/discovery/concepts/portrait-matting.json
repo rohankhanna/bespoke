@@ -19,6 +19,18 @@
       "source_repo": "JizhiziLi/P3M",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZHKKKe/MODNet",
+      "status": "candidate-context",
+      "text": "A Trimap-Free Portrait Matting Solution in Real Time [AAAI 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZHKKKe/MODNet",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">MODNet: Trimap-Free Portrait Matting in Real Time</h2>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JizhiziLi/P3M",
       "status": "candidate",
       "text": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZHKKKe/MODNet",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">MODNet: Trimap-Free Portrait Matting in Real Time</h2>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "JizhiziLi/P3M"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ZHKKKe/MODNet"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

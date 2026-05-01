@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "lsm-tree"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate-context",
+      "text": "Wide NoSQL benchmark for RocksDB, LevelDB, Redis, WiredTiger and MongoDB extending the Yahoo Cloud Serving Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Unbranded Cloud Serving Benchmark</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate-context",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed as modified LSM-Tree for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate-context",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Unbranded Cloud Serving Benchmark</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lsm-tree",
+  "concept_id": "lsm-tree",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/ucsb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lsm-tree",
+      "sense_id": "lsm-tree#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

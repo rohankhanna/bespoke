@@ -1,0 +1,388 @@
+{
+  "components": [
+    {
+      "component": "@antora/pdf-extension",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/lunr-extension",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/site-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Deep-Symmetry/github-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Deep-Symmetry/github-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "shimataro/ssh-key-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Deep-Symmetry/github-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Deep-Symmetry/github-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Deep-Symmetry/github-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Deep-Symmetry/github-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "bobbylight/rsyntaxtextarea",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "bobbylight/rstaui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "kirill-grouchnikov/radiance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "deep-symmetry/carabiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "@antora/pdf-extension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "@antora/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "@antora/lunr-extension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "@antora/site-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "DeLaGuardo/setup-clojure@13.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "Deep-Symmetry/github-version-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "Create \u00fcberjar and native installers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "ableton-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "dj-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger",
+      "target": "pioneer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:20:31.373427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22976
+    },
+    {
+      "path": "package.json",
+      "size": 1003
+    },
+    {
+      "path": ".github/workflows/uberjar.yml",
+      "size": 9117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Trigger events and automate shows in response to events on Pioneer CDJs",
+    "fork": false,
+    "full_name": "Deep-Symmetry/beat-link-trigger",
+    "html_url": "https://github.com/Deep-Symmetry/beat-link-trigger",
+    "language": "Clojure",
+    "pushed_at": "2025-11-15T10:37:09Z",
+    "stargazers_count": 641,
+    "topics": [
+      "ableton-link",
+      "clojure",
+      "cue",
+      "dj-link",
+      "midi",
+      "network",
+      "pioneer"
+    ],
+    "updated_at": "2026-04-30T03:16:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bobbylight/rstaui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bobbylight/rsyntaxtextarea",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/carabiner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kirill-grouchnikov/radiance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create \u00fcberjar and native installers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uberjar.yml",
+      "term": "Create \u00fcberjar and native installers"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ableton-link"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dj-link"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pioneer"
+    }
+  ]
+}

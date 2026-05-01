@@ -199,6 +199,54 @@
       "source_repo": "LuisaGroup/LuisaRender",
       "status": "candidate-context",
       "text": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate-context",
+      "text": "Vulkan-lite GPU API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate-context",
+      "text": "[![crates](https://img.shields.io/crates/v/sierra.svg?style=for-the-badge&label=sierra)](https://crates.io/crates/sierra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "A flyweight in situ visualization and analysis runtime for multi-physics HPC simulations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "Ascent"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate-context",
+      "text": "Scan for React performance issues and eliminate slow renders in your app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate-context",
+      "text": "React Scan automatically detects performance issues in your React app."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +345,30 @@
       "source_repo": "LuisaGroup/LuisaRender",
       "status": "candidate",
       "text": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate",
+      "text": "[![crates](https://img.shields.io/crates/v/sierra.svg?style=for-the-badge&label=sierra)](https://crates.io/crates/sierra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate",
+      "text": "Ascent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate",
+      "text": "React Scan automatically detects performance issues in your React app."
     }
   ],
   "candidate_related_terms": [
@@ -484,11 +556,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "LuisaGroup/LuisaRender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zakarumych/sierra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aidenybai/react-scan"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

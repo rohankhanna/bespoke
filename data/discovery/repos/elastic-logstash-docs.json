@@ -1,0 +1,315 @@
+{
+  "components": [
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_plugin_placeholder_in_vpr.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_plugin_placeholder_in_vpr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_plugin_placeholder_in_vpr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_plugin_placeholder_in_vpr.yml"
+    },
+    {
+      "component": "elastic/oblt-actions/elastic/github-commands@31fd8582a94d1829536be22c624697f851fdf60e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-commands-comment.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_plugin_docs_to_md.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_plugin_docs_to_md.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_plugin_docs_to_md.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_plugin_docs_to_md.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_plugin_docs_to_md.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpr.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_plugin_placeholder_in_vpr.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_plugin_placeholder_in_vpr.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_plugin_placeholder_in_vpr.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-commands-comment.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "elastic/oblt-actions/elastic/github-commands@31fd8582a94d1829536be22c624697f851fdf60e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-commands-comment.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "github-commands-comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_plugin_docs_to_md.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_plugin_docs_to_md.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpr.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpr.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vpr.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vpr.yml",
+      "source_repo": "elastic/logstash-docs",
+      "target": "Version Plugin Reference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:15:51.539160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 647
+    },
+    {
+      "path": ".github/workflows/add_plugin_placeholder_in_vpr.yml",
+      "size": 1881
+    },
+    {
+      "path": ".github/workflows/github-commands-comment.yml",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/reference_docs-pre90.yml",
+      "size": 3414
+    },
+    {
+      "path": ".github/workflows/reference_docs90.yml",
+      "size": 3199
+    },
+    {
+      "path": ".github/workflows/version_plugin_docs_to_md.yml",
+      "size": 1864
+    },
+    {
+      "path": ".github/workflows/vpr.yml",
+      "size": 1504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "elastic/logstash-docs",
+    "html_url": "https://github.com/elastic/logstash-docs",
+    "language": null,
+    "pushed_at": "2026-04-28T16:10:09Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-21T22:26:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "github-commands-comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-commands-comment.yml",
+      "term": "github-commands-comment"
+    },
+    {
+      "context_snippet": "Version Plugin Reference",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vpr.yml",
+      "term": "Version Plugin Reference"
+    }
+  ]
+}

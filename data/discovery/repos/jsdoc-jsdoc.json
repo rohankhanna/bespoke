@@ -213,6 +213,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jsdoc/jsdoc",
+      "target": "dbcdk/jsdoc3template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsdoc/jsdoc",
       "target": "danyg/jsdoc3template",
       "target_type": "repository"
     },
@@ -220,14 +227,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jsdoc/jsdoc",
-      "target": "clenemt/docdash",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jsdoc/jsdoc",
-      "target": "andstor/jsdoc-action",
+      "target": "jsdoc/jsdoc.github.io",
       "target_type": "repository"
     },
     {
@@ -511,7 +511,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T07:16:08.324640+00:00",
+  "fetched_at": "2026-05-01T07:12:07.392642+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -535,8 +535,8 @@
     "full_name": "jsdoc/jsdoc",
     "html_url": "https://github.com/jsdoc/jsdoc",
     "language": "JavaScript",
-    "pushed_at": "2026-04-30T06:41:02Z",
-    "stargazers_count": 15433,
+    "pushed_at": "2026-05-01T02:41:25Z",
+    "stargazers_count": 15434,
     "topics": [
       "api",
       "docs",
@@ -544,19 +544,9 @@
       "javascript",
       "jsdoc"
     ],
-    "updated_at": "2026-04-30T06:41:09Z"
+    "updated_at": "2026-05-01T02:41:06Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "andstor/jsdoc-action",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clenemt/docdash",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "danyg/jsdoc3template",
@@ -565,6 +555,16 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "davidshimjs/jaguarjs-jsdoc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dbcdk/jsdoc3template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jsdoc/jsdoc.github.io",
       "source_file": "README.md"
     }
   ],

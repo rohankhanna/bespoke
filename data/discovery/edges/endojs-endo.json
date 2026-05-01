@@ -331,6 +331,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "PromyLOPh/guix-install-action@40615e98e5c16a451aec10fe01c214ed07cbaa77",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "OCapN Guile interop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "endojs/endo",
       "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
@@ -421,34 +449,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "source_repo": "endojs/endo",
-      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "source_repo": "endojs/endo",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "source_repo": "endojs/endo",
-      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "source_repo": "endojs/endo",
-      "target": "Update action pins",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "endojs/endo",
@@ -519,6 +519,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "endojs/endo"
 }

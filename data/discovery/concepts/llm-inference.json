@@ -331,6 +331,30 @@
       "source_repo": "nomic-ai/gpt4all",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">GPT4All</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/lws",
+      "status": "candidate-context",
+      "text": "LeaderWorkerSet: An API for deploying a group of pods as a unit of replication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/lws",
+      "status": "candidate-context",
+      "text": "[![GoReport Widget]][GoReport Status]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "Aggregates compute from spare GPU capacity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +519,18 @@
       "source_repo": "nomic-ai/gpt4all",
       "status": "candidate",
       "text": "<h1 align=\"center\">GPT4All</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/lws",
+      "status": "candidate",
+      "text": "[![GoReport Widget]][GoReport Status]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -736,11 +772,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/lws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kalavai-net/kalavai-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

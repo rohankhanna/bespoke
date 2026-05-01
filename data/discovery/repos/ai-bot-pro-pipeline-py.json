@@ -16,13 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ai-bot-pro/pipeline-py",
-      "target": "pipecat-ai/pipecat",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ai-bot-pro/pipeline-py",
@@ -30,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:37:01.966140+00:00",
+  "fetched_at": "2026-05-01T10:36:45.824586+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -63,11 +56,6 @@
     "updated_at": "2025-11-28T14:05:45Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pipecat-ai/pipecat",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "weedge/pipeline-go",

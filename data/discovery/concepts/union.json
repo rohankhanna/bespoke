@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "union"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate-context",
+      "text": "Use multiple fs modules at once"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate-context",
+      "text": "Creates a union of multiple `fs` file systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate",
+      "text": "Creates a union of multiple `fs` file systems."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043377,
+      "status": "candidate",
+      "text": "uniting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042976,
+      "status": "candidate",
+      "text": "conjugation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042701,
+      "status": "candidate",
+      "text": "unification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042311,
+      "status": "candidate",
+      "text": "pairing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042200,
+      "status": "candidate",
+      "text": "coupling"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9033,
+      "status": "candidate",
+      "text": "organized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8039,
+      "status": "candidate",
+      "text": "matrimony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8039,
+      "status": "candidate",
+      "text": "wedlock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8035,
+      "status": "candidate",
+      "text": "unification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7035,
+      "status": "candidate",
+      "text": "brotherhood"
+    }
+  ],
+  "canonical_name": "union",
+  "concept_id": "union",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/unionfs"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "union",
+      "sense_id": "union#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

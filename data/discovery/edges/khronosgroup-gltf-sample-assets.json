@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "analyticalgraphicsinc/cesium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "kalmykov/fr24-3d-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AssetCheck.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AssetCheck.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AssetCheck.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "Asset Quality Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RebuildAllAssets.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RebuildAllAssets.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RebuildAllAssets.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/RebuildAllAssets.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "Rebuild All Model Assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "target": "glTF Validation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "KhronosGroup/glTF-Sample-Assets"
+}

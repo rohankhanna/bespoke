@@ -142,6 +142,18 @@
       "source_repo": "amitfin/oref_alert",
       "status": "candidate-context",
       "text": "Metadata"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate-context",
+      "text": "Aim \ud83d\udcab \u2014 An easy-to-use & supercharged open-source experiment tracker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "amitfin/oref_alert",
       "status": "candidate",
       "text": "Metadata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -361,11 +379,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aimhubio/aim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pypa/setuptools-scm"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,30 @@
       "source_repo": "simple-icons/simple-icons",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oblador/react-native-vector-icons",
+      "status": "candidate-context",
+      "text": "Customizable Icons for React Native with support for image source and full styling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-vector-icons",
+      "status": "candidate-context",
+      "text": "![Vector Icons for React Native](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "Shared Controlz for WPF and ... more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "\ufeff<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "simple-icons/simple-icons",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-vector-icons",
+      "status": "candidate",
+      "text": "![Vector Icons for React Native](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate",
+      "text": "\ufeff<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "simple-icons/simple-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "oblador/react-native-vector-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ControlzEx/ControlzEx"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

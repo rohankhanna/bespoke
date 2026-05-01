@@ -93,6 +93,18 @@
       "source_repo": "lumen-oss/rocks-dev.nvim",
       "status": "candidate-context",
       "text": "\"Nix build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msoos/cryptominisat",
+      "status": "candidate-context",
+      "text": "An advanced SAT solver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msoos/cryptominisat",
+      "status": "candidate-context",
+      "text": "nix build"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +149,12 @@
       "source_repo": "lumen-oss/rocks-dev.nvim",
       "status": "candidate",
       "text": "\"Nix build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msoos/cryptominisat",
+      "status": "candidate",
+      "text": "nix build"
     }
   ],
   "candidate_related_terms": [
@@ -300,11 +318,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "msoos/cryptominisat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "gastownhall/beads"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

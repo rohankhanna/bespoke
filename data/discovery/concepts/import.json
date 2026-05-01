@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "import"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate-context",
+      "text": "Unreal Engine plugin to work with SVG files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate-context",
+      "text": "A free and open source SVG importer for Unreal Engine 5"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate",
+      "text": "A free and open source SVG importer for Unreal Engine 5"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018514,
+      "status": "candidate",
+      "text": "consequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013978,
+      "status": "candidate",
+      "text": "signification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011514,
+      "status": "candidate",
+      "text": "significance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006024,
+      "status": "candidate",
+      "text": "implication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005883,
+      "status": "candidate",
+      "text": "meaning"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37039,
+      "status": "candidate",
+      "text": "consequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34044,
+      "status": "candidate",
+      "text": "significance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29048,
+      "status": "candidate",
+      "text": "implication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14050,
+      "status": "candidate",
+      "text": "spell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12045,
+      "status": "candidate",
+      "text": "meaning"
+    }
+  ],
+  "canonical_name": "import",
+  "concept_id": "import",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "etodanik/SvgBooga"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "import",
+      "sense_id": "import#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

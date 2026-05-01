@@ -318,6 +318,21 @@
     {
       "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml"
+    },
+    {
+      "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml"
+    },
+    {
+      "component": "PromyLOPh/guix-install-action@40615e98e5c16a451aec10fe01c214ed07cbaa77",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
@@ -364,21 +379,6 @@
       "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-action-pins-major.yml"
-    },
-    {
-      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml"
-    },
-    {
-      "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml"
-    },
-    {
-      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml"
     }
   ],
   "edges": [
@@ -713,6 +713,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "PromyLOPh/guix-install-action@40615e98e5c16a451aec10fe01c214ed07cbaa77",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo",
+      "target": "OCapN Guile interop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "endojs/endo",
       "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
@@ -803,34 +831,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "source_repo": "endojs/endo",
-      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "source_repo": "endojs/endo",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "source_repo": "endojs/endo",
-      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "source_repo": "endojs/endo",
-      "target": "Update action pins",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "endojs/endo",
@@ -901,7 +901,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T20:04:17.141095+00:00",
+  "fetched_at": "2026-05-01T09:17:09.591824+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -928,6 +928,10 @@
       "size": 1393
     },
     {
+      "path": ".github/workflows/ocapn-guile-interop.yml",
+      "size": 8368
+    },
+    {
       "path": ".github/workflows/release.yml",
       "size": 1335
     },
@@ -938,10 +942,6 @@
     {
       "path": ".github/workflows/update-action-pins-major.yml",
       "size": 1238
-    },
-    {
-      "path": ".github/workflows/update-action-pins.yml",
-      "size": 1190
     }
   ],
   "related_repositories": [],
@@ -953,7 +953,7 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-04-30T19:46:13Z",
+    "pushed_at": "2026-05-01T07:38:26Z",
     "stargazers_count": 1010,
     "topics": [
       "capabilities",
@@ -968,7 +968,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-04-30T10:32:17Z"
+    "updated_at": "2026-05-01T07:37:44Z"
   },
   "repo_links": [
     {
@@ -996,6 +996,12 @@
       "term": "Test project mutual dependency versions"
     },
     {
+      "context_snippet": "OCapN Guile interop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "term": "OCapN Guile interop"
+    },
+    {
       "context_snippet": "Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
@@ -1012,12 +1018,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/update-action-pins-major.yml",
       "term": "Update action pins (major)"
-    },
-    {
-      "context_snippet": "Update action pins",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-action-pins.yml",
-      "term": "Update action pins"
     },
     {
       "context_snippet": "---",

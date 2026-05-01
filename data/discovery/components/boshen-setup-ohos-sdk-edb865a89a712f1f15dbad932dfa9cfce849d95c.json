@@ -1,0 +1,12 @@
+{
+  "component": "Boshen/setup-ohos-sdk@edb865a89a712f1f15dbad932dfa9cfce849d95c",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver"
+    }
+  ]
+}

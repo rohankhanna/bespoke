@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:28:04.406350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4985
+    },
+    {
+      "path": "requirements.txt",
+      "size": 82
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AnyStory: Towards Unified Single and Multiple Subject Personalization in Text-to-Image Generation",
+    "fork": false,
+    "full_name": "junjiehe96/AnyStory",
+    "html_url": "https://github.com/junjiehe96/AnyStory",
+    "language": "Python",
+    "pushed_at": "2025-05-09T16:26:35Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-03-27T17:32:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

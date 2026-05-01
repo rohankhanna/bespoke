@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amirbarda/MagicClay",
+      "target": "amir90/magicclay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amirbarda/MagicClay",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amirbarda/MagicClay",
+      "target": "geometry-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amirbarda/MagicClay",
+      "target": "meshes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:30:47.969634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of MagicClay: Sculpting Meshes with Generative Neural Fields (Siggraph Asia 2024)",
+    "fork": false,
+    "full_name": "amirbarda/MagicClay",
+    "html_url": "https://github.com/amirbarda/MagicClay",
+    "language": "Python",
+    "pushed_at": "2024-10-24T19:37:44Z",
+    "stargazers_count": 59,
+    "topics": [
+      "genai",
+      "geometry-processing",
+      "meshes"
+    ],
+    "updated_at": "2026-01-22T17:35:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amir90/magicclay",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry-processing"
+    },
+    {
+      "context_snippet": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meshes"
+    }
+  ]
+}

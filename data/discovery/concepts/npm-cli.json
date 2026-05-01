@@ -43,6 +43,30 @@
       "source_repo": "npm/node-semver",
       "status": "candidate-context",
       "text": "semver(1) -- The semantic versioner for npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate-context",
+      "text": "get better errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate-context",
+      "text": "[`json-parse-even-better-errors`](https://github.com/npm/json-parse-even-better-errors)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/package-json",
+      "status": "candidate-context",
+      "text": "Programmatic API to update package.json"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/package-json",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/@npmcli/package-json)](https://www.npmjs.com/package/@npmcli/package-json)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "npm/node-semver",
       "status": "candidate",
       "text": "semver(1) -- The semantic versioner for npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate",
+      "text": "[`json-parse-even-better-errors`](https://github.com/npm/json-parse-even-better-errors)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/package-json",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/@npmcli/package-json)](https://www.npmjs.com/package/@npmcli/package-json)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "npm/node-semver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "npm/json-parse-even-better-errors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "npm/package-json"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

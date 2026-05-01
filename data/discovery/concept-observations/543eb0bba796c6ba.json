@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":herb: \u4e2d\u6587\u8fd1\u4e49\u8bcd\uff1a\u804a\u5929\u673a\u5668\u4eba\uff0c\u667a\u80fd\u95ee\u7b54\u5de5\u5177\u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967997,
+      "status": "candidate",
+      "text": "chat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967996,
+      "status": "candidate",
+      "text": "chatbox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967995,
+      "status": "candidate",
+      "text": "infobot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967994,
+      "status": "candidate",
+      "text": "cyberchat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967993,
+      "status": "candidate",
+      "text": "chat room"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatbot",
+      "sense_id": "chatbot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatbot",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatbot",
+  "observation_id": "543eb0bba796c6ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "chatbot",
+  "source_context_snippet": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026",
+  "source_file": null,
+  "source_repo": "chatopera/Synonyms",
+  "source_repo_description": ":herb: \u4e2d\u6587\u8fd1\u4e49\u8bcd\uff1a\u804a\u5929\u673a\u5668\u4eba\uff0c\u667a\u80fd\u95ee\u7b54\u5de5\u5177\u5305"
+}

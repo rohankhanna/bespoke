@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-makeup/makeup_c",
+      "target": "tmbb/makeup",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:23:46.107296+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C lexer for Makeup",
+    "fork": false,
+    "full_name": "elixir-makeup/makeup_c",
+    "html_url": "https://github.com/elixir-makeup/makeup_c",
+    "language": "Elixir",
+    "pushed_at": "2024-05-24T21:18:14Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2022-04-20T19:06:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmbb/makeup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -127,6 +127,30 @@
       "source_repo": "LeelaChessZero/lc0",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "Streamlining reinforcement learning with RLOps. State-of-the-art RL algorithms and tools, with 10x faster training through evolutionary hyperparameter optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "An offline deep reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img align=\"center\" width=\"300px\" src=\"assets/logo.png\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "LeelaChessZero/lc0",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/LeelaChessZero/lc0.svg?style=shield)](https://circleci.com/gh/LeelaChessZero/lc0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img align=\"center\" width=\"300px\" src=\"assets/logo.png\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +298,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "LeelaChessZero/lc0"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgileRL/AgileRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "takuseno/d3rlpy"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

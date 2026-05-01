@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rgeo/rgeo-activerecord",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rgeo/rgeo-activerecord",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rgeo/rgeo-activerecord",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:26:40.756505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5787
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RGeo ActiveRecord extensions and tools for spatial connection adapters",
+    "fork": false,
+    "full_name": "rgeo/rgeo-activerecord",
+    "html_url": "https://github.com/rgeo/rgeo-activerecord",
+    "language": "Ruby",
+    "pushed_at": "2025-10-23T12:52:03Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2026-02-11T11:03:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    }
+  ]
+}

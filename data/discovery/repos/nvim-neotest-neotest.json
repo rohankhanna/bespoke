@@ -68,14 +68,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "fredrikaverpil/neotest-golang",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-neotest/neotest",
-      "target": "benelan/neotest-stenciljs",
+      "target": "haydenmeade/neotest-jest",
       "target_type": "repository"
     },
     {
@@ -83,6 +76,13 @@
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
       "target": "codymikol/neotest-kotlin.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neotest/neotest",
+      "target": "ashton/neotest-gleam-unitest",
       "target_type": "repository"
     },
     {
@@ -170,11 +170,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:41:05.941458+00:00",
+  "fetched_at": "2026-05-01T08:30:34.318690+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17403
+      "size": 17559
     },
     {
       "path": ".github/workflows/docgen.yaml",
@@ -198,13 +198,13 @@
     "full_name": "nvim-neotest/neotest",
     "html_url": "https://github.com/nvim-neotest/neotest",
     "language": "Lua",
-    "pushed_at": "2026-04-01T08:36:45Z",
+    "pushed_at": "2026-05-01T07:18:33Z",
     "stargazers_count": 3073,
     "topics": [
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-04-29T08:36:57Z"
+    "updated_at": "2026-05-01T07:17:54Z"
   },
   "repo_links": [
     {
@@ -214,7 +214,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "benelan/neotest-stenciljs",
+      "full_name": "ashton/neotest-gleam-unitest",
       "source_file": "README.md"
     },
     {
@@ -224,7 +224,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fredrikaverpil/neotest-golang",
+      "full_name": "haydenmeade/neotest-jest",
       "source_file": "README.md"
     }
   ],

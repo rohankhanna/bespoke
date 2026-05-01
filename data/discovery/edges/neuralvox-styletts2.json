@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuralVox/StyleTTS2",
+      "target": "fakerybakery/styletts2-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuralVox/StyleTTS2",
+      "target": "yl4579/auxiliaryasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuralVox/StyleTTS2",
+      "target": "yl4579/pitchextractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuralVox/StyleTTS2",
+      "target": "rishikksh20/istftnet-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "NeuralVox/StyleTTS2"
+}

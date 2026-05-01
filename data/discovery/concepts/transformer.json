@@ -1093,6 +1093,54 @@
       "source_repo": "JingyunLiang/RVRT",
       "status": "candidate-context",
       "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JingyunLiang/VRT",
+      "status": "candidate-context",
+      "text": "VRT: A Video Restoration Transformer (official repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/VRT",
+      "status": "candidate-context",
+      "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yuchen Fan](https://ychfan.github.io/), [Kai Zhang](https://cszn.github.io/), Rakesh Ranjan, [Yawei Li](https://ofsoundof.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "The OCR approach is rephrased as Segmentation Transformer: https://arxiv.org/abs/1909.11065. This is an official implementation of semantic segmentation for HRNet. https://arxiv.org/abs/1908.07919"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "- This is the implementation for HRNet + OCR."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "pix2tex: Using a ViT to convert images of equations into LaTeX code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HowieMa/CVTHead",
+      "status": "candidate-context",
+      "text": "[WACV 2024] \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HowieMa/CVTHead",
+      "status": "candidate-context",
+      "text": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\""
     }
   ],
   "candidate_glosses": [
@@ -1641,6 +1689,30 @@
       "source_repo": "JingyunLiang/RVRT",
       "status": "candidate",
       "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JingyunLiang/VRT",
+      "status": "candidate",
+      "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yuchen Fan](https://ychfan.github.io/), [Kai Zhang](https://cszn.github.io/), Rakesh Ranjan, [Yawei Li](https://ofsoundof.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate",
+      "text": "- This is the implementation for HRNet + OCR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HowieMa/CVTHead",
+      "status": "candidate",
+      "text": "Official Implementation of WACV 2024 paper, \"CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer\""
     }
   ],
   "candidate_related_terms": [
@@ -2464,11 +2536,83 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JingyunLiang/VRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-blecher/LaTeX-OCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HowieMa/CVTHead"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,583 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml"
+    },
+    {
+      "component": "stelligent/cfn_nag@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pytest-xfails.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-prs.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-hygiene.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-tests.yml"
+    },
+    {
+      "component": "malachi-constant/issue-minimum-response@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum-response-time.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-linter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "Bandit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "stelligent/cfn_nag@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "CFN Nag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pytest-xfails.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pytest-xfails.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "Check Tests for Unspecific XFails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-prs.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-prs.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "Dependabot Pull Request Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-hygiene.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-hygiene.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-tests.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-tests.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-tests.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimal-tests.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "Minimal Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum-response-time.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "malachi-constant/issue-minimum-response@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimum-response-time.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "Issue Minimum Response Time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-linter.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-linter.yml",
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "Check PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "amazon-athena",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "amazon-sagemaker-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "apache-arrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "apache-parquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "athena",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "aws-glue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "data-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "glue-catalog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "modin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-pandas",
+      "target": "redshift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:27:18.341008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14358
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5659
+    },
+    {
+      "path": ".github/workflows/bandit.yml",
+      "size": 522
+    },
+    {
+      "path": ".github/workflows/cfn-nag.yml",
+      "size": 2116
+    },
+    {
+      "path": ".github/workflows/check-pytest-xfails.yml",
+      "size": 471
+    },
+    {
+      "path": ".github/workflows/dependabot-prs.yml",
+      "size": 757
+    },
+    {
+      "path": ".github/workflows/git-hygiene.yml",
+      "size": 1158
+    },
+    {
+      "path": ".github/workflows/minimal-tests.yml",
+      "size": 1851
+    },
+    {
+      "path": ".github/workflows/minimum-response-time.yml",
+      "size": 570
+    },
+    {
+      "path": ".github/workflows/pr-linter.yml",
+      "size": 368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pandas on AWS - Easy integration with Athena, Glue, Redshift, Timestream, Neptune, OpenSearch, QuickSight, Chime, CloudWatchLogs, DynamoDB, EMR, SecretManager, PostgreSQL, MySQL, SQLServer and S3 (Parquet, CSV, JSON and EXCEL).",
+    "fork": false,
+    "full_name": "aws/aws-sdk-pandas",
+    "html_url": "https://github.com/aws/aws-sdk-pandas",
+    "language": "Python",
+    "pushed_at": "2026-04-30T23:37:02Z",
+    "stargazers_count": 4107,
+    "topics": [
+      "amazon-athena",
+      "amazon-sagemaker-notebook",
+      "apache-arrow",
+      "apache-parquet",
+      "athena",
+      "aws",
+      "aws-glue",
+      "aws-lambda",
+      "data-engineering",
+      "data-science",
+      "emr",
+      "etl",
+      "glue-catalog",
+      "lambda",
+      "modin",
+      "mysql",
+      "pandas",
+      "python",
+      "ray",
+      "redshift"
+    ],
+    "updated_at": "2026-04-30T23:24:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bandit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "term": "Bandit"
+    },
+    {
+      "context_snippet": "CFN Nag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cfn-nag.yml",
+      "term": "CFN Nag"
+    },
+    {
+      "context_snippet": "Check Tests for Unspecific XFails",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pytest-xfails.yml",
+      "term": "Check Tests for Unspecific XFails"
+    },
+    {
+      "context_snippet": "Dependabot Pull Request Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-prs.yml",
+      "term": "Dependabot Pull Request Metadata"
+    },
+    {
+      "context_snippet": "\"Close Stale Issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-hygiene.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "Minimal Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimal-tests.yml",
+      "term": "Minimal Tests"
+    },
+    {
+      "context_snippet": "Issue Minimum Response Time",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimum-response-time.yml",
+      "term": "Issue Minimum Response Time"
+    },
+    {
+      "context_snippet": "Check PR title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-linter.yml",
+      "term": "Check PR title"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-athena"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-sagemaker-notebook"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-arrow"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-parquet"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "athena"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-glue"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-engineering"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glue-catalog"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modin"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "*Pandas on AWS*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redshift"
+    }
+  ]
+}

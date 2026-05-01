@@ -535,6 +535,54 @@
       "source_repo": "apple/swift-nio-http2",
       "status": "candidate-context",
       "text": "This project contains HTTP/2 support for Swift projects using [SwiftNIO](https://github.com/apple/swift-nio). To get started, check the [API docs](https://swiftpackageindex.com/apple/swift-nio-http2/main/documentation/niohttp2)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate-context",
+      "text": "Simple, high-performance event-driven HTTP client+server for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate-context",
+      "text": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "Async runtime for Rust where correctness is structural: region-owned tasks, cancel-correct protocols, capability-gated effects, and deterministic replay testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate-context",
+      "text": "Perform async work synchronously in Node.js/Bun using `worker_threads` with first-class TypeScript and Yarn P'n'P support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/synckit/ci.yml?branch=main)](https://github.com/un-ts/synckit/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/pacer",
+      "status": "candidate-context",
+      "text": "Utilities for debouncing, throttling, rate limiting, and queueing. Non-async and Async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/pacer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +849,30 @@
       "source_repo": "apple/swift-nio-http2",
       "status": "candidate",
       "text": "This project contains HTTP/2 support for Swift projects using [SwiftNIO](https://github.com/apple/swift-nio). To get started, check the [API docs](https://swiftpackageindex.com/apple/swift-nio-http2/main/documentation/niohttp2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate",
+      "text": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/synckit/ci.yml?branch=main)](https://github.com/un-ts/synckit/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/pacer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1168,11 +1240,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "apple/swift-nio-http2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "http-kit/http-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/asupersync"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "un-ts/synckit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/pacer"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

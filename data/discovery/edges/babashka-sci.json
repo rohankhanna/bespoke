@@ -11,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/sci",
-      "target": "interstar/cardigan-bay",
+      "target": "juji-io/datalevin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/sci",
-      "target": "jerems/prose",
+      "target": "jgrodziski/keycloak-clojure",
       "target_type": "repository"
     },
     {
@@ -127,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "babashka/sci"
 }

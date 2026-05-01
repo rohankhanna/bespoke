@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -146,6 +146,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/e2e-install.yml",
       "source_repo": "ClickHouse/clickhouse-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/end-to-end.yml",
+      "source_repo": "antoniusnaumann/cargo-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "TanStack/db"
     }
   ],
   "term": "E2E Tests"

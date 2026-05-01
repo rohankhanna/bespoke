@@ -196,6 +196,18 @@
       "source_repo": "marmelab/FakeRest",
       "status": "candidate-context",
       "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vue",
+      "status": "candidate-context",
+      "text": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue",
+      "status": "candidate-context",
+      "text": "**You are looking at the now inactive repository for Vue 2. The actively maintained repository for the latest version of Vue is [vuejs/core](https://github.com/vuejs/core).**"
     }
   ],
   "candidate_glosses": [
@@ -294,6 +306,12 @@
       "source_repo": "marmelab/FakeRest",
       "status": "candidate",
       "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue",
+      "status": "candidate",
+      "text": "**You are looking at the now inactive repository for Vue 2. The actively maintained repository for the latest version of Vue is [vuejs/core](https://github.com/vuejs/core).**"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +469,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

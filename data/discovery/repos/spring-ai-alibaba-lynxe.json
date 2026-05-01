@@ -1,0 +1,472 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-chinese-content.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-chinese-content.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@v2.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invalid-issue-check.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-jar.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-jar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "lynxe-public/lynxe-public-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "talk-flow/public-usecase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "\ud83c\udfd7\ufe0f Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-chinese-content.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-chinese-content.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-chinese-content.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "\ud83d\udd0d Check Chinese Content in Lynxe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "contributor-assistant/github-action@v2.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "\ud83d\udcc3 CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "\ud83d\udc33 Build Docker Image (Development)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "\ud83d\ude80 Release Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invalid-issue-check.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/invalid-issue-check.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "Close Invalid Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "\ud83d\uddd2\ufe0f License Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "\ud83d\udc40 Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-jar.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-jar.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-jar.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "target": "\ud83d\udce6 Release JAR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:15:19.187282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11530
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 1755
+    },
+    {
+      "path": ".github/workflows/check-chinese-content.yml",
+      "size": 3263
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 3245
+    },
+    {
+      "path": ".github/workflows/docker-build-push.yml",
+      "size": 2728
+    },
+    {
+      "path": ".github/workflows/docker-release.yml",
+      "size": 3229
+    },
+    {
+      "path": ".github/workflows/invalid-issue-check.yml",
+      "size": 1677
+    },
+    {
+      "path": ".github/workflows/license-check.yml",
+      "size": 1017
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 1048
+    },
+    {
+      "path": ".github/workflows/release-jar.yml",
+      "size": 3182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high-determinism, code-free 'Prompt Programing'  studio built with Java \u4e00\u4e2a\u9ad8\u786e\u5b9a\u6027\u7684 \u65e0\u4ee3\u7801 'Prompt\u7f16\u7a0b'\u5de5\u4f5c\u7ad9\uff0c\u4ee5 Java \u7f16\u5199",
+    "fork": false,
+    "full_name": "spring-ai-alibaba/Lynxe",
+    "html_url": "https://github.com/spring-ai-alibaba/Lynxe",
+    "language": "Java",
+    "pushed_at": "2026-04-01T06:01:06Z",
+    "stargazers_count": 978,
+    "topics": [],
+    "updated_at": "2026-05-01T07:51:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lynxe-public/lynxe-public-prompts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "talk-flow/public-usecase",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udfd7\ufe0f Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "\ud83c\udfd7\ufe0f Build and Test"
+    },
+    {
+      "context_snippet": "\ud83d\udd0d Check Chinese Content in Lynxe",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-chinese-content.yml",
+      "term": "\ud83d\udd0d Check Chinese Content in Lynxe"
+    },
+    {
+      "context_snippet": "\"\ud83d\udcc3 CLA Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "\ud83d\udcc3 CLA Assistant"
+    },
+    {
+      "context_snippet": "\ud83d\udc33 Build Docker Image (Development)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "term": "\ud83d\udc33 Build Docker Image (Development)"
+    },
+    {
+      "context_snippet": "\ud83d\ude80 Release Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "term": "\ud83d\ude80 Release Docker Image"
+    },
+    {
+      "context_snippet": "\"Close Invalid Issue\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/invalid-issue-check.yml",
+      "term": "Close Invalid Issue"
+    },
+    {
+      "context_snippet": "\ud83d\uddd2\ufe0f License Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yml",
+      "term": "\ud83d\uddd2\ufe0f License Check"
+    },
+    {
+      "context_snippet": "\ud83d\udc40 Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "\ud83d\udc40 Linter"
+    },
+    {
+      "context_snippet": "\ud83d\udce6 Release JAR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-jar.yml",
+      "term": "\ud83d\udce6 Release JAR"
+    }
+  ]
+}

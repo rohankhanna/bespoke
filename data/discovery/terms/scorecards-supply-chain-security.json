@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -101,6 +101,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO"
     }
   ],
   "term": "Scorecards supply-chain security"

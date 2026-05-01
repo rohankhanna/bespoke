@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "date-time"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JodaOrg/joda-time",
+      "status": "candidate-context",
+      "text": "Joda-Time is the widely used replacement for the Java date and time classes prior to Java SE 8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time",
+      "status": "candidate-context",
+      "text": "Joda-Time"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time",
+      "status": "candidate",
+      "text": "Joda-Time"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "date-time",
+  "concept_id": "date-time",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "date-time",
+      "sense_id": "date-time#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

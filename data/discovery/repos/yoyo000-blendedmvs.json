@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YoYo000/BlendedMVS",
+      "target": "yoyo000/mvsnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YoYo000/BlendedMVS",
+      "target": "kwea123/casmvsnet_pl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:26:12.239224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BlendedMVS: A Large-scale Dataset for Generalized Multi-view Stereo Networks",
+    "fork": false,
+    "full_name": "YoYo000/BlendedMVS",
+    "html_url": "https://github.com/YoYo000/BlendedMVS",
+    "language": null,
+    "pushed_at": "2025-09-08T02:21:12Z",
+    "stargazers_count": 669,
+    "topics": [],
+    "updated_at": "2026-04-30T23:28:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwea123/casmvsnet_pl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yoyo000/mvsnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

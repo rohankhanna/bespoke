@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "tooltips"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "Shared Controlz for WPF and ... more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "\ufeff<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate",
+      "text": "\ufeff<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9928681,
+      "status": "candidate",
+      "text": "suggestion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9923407,
+      "status": "candidate",
+      "text": "hint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9878328,
+      "status": "candidate",
+      "text": "tip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "toolbar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "toolkits"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tooltips",
+  "concept_id": "tooltips",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ControlzEx/ControlzEx"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tooltips",
+      "sense_id": "tooltips#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

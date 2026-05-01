@@ -19,6 +19,30 @@
       "source_repo": "php/frankenphp",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/vite-ssr",
+      "status": "candidate-context",
+      "text": "Use Vite for server side rendering in Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vite-ssr",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate-context",
+      "text": "Edge-side rendering and fullstack Vite framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate-context",
+      "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "php/frankenphp",
       "status": "candidate",
       "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vite-ssr",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate",
+      "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
     }
   ],
   "candidate_related_terms": [
@@ -117,11 +153,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/vite-ssr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/vitedge"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

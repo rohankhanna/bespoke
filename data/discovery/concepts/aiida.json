@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "aiida"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiidateam/aiida-core",
+      "status": "candidate-context",
+      "text": "The official repository for the AiiDA code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiidateam/aiida-core",
+      "status": "candidate-context",
+      "text": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiidateam/plumpy",
+      "status": "candidate-context",
+      "text": "A python workflows library that supports writing Processes with a well defined set of inputs and outputs that can be strung together."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiidateam/plumpy",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/aiidateam/plumpy/blob/master/docs/source/_static/logo.svg\" width=\"64px\" height=\"auto\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiidateam/aiida-core",
+      "status": "candidate",
+      "text": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiidateam/plumpy",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/aiidateam/plumpy/blob/master/docs/source/_static/logo.svg\" width=\"64px\" height=\"auto\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aiida",
+  "concept_id": "aiida",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aiidateam/plumpy"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aiida",
+      "sense_id": "aiida#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

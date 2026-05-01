@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "numo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate-context",
+      "text": "Ruby/Numo::NArray - New NArray class library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate-context",
+      "text": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate-context",
+      "text": "Numo::Linalg Alternative (numo-linalg-alt) is an alternative to Numo::Linalg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/numo-linalg-alt.svg)](https://badge.fury.io/rb/numo-linalg-alt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate-context",
+      "text": "Gnuplot wrapper for Ruby/Numo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate-context",
+      "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate-context",
+      "text": "GSL interface for Ruby/Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate-context",
+      "text": "[GitHub](https://github.com/ruby-numo/numo-gsl) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate-context",
+      "text": "Linear Algebra Library for Ruby/Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate-context",
+      "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate-context",
+      "text": "Numo::TinyLinalg is a subset library from Numo::Linalg consisting only of methods used in Machine Learning algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate-context",
+      "text": "**This project is discontinued. Development has been moved to [Numo::Linalg Alternative](https://github.com/yoshoku/numo-linalg-alt).**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate",
+      "text": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/numo-linalg-alt.svg)](https://badge.fury.io/rb/numo-linalg-alt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate",
+      "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate",
+      "text": "[GitHub](https://github.com/ruby-numo/numo-gsl) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate",
+      "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate",
+      "text": "**This project is discontinued. Development has been moved to [Numo::Linalg Alternative](https://github.com/yoshoku/numo-linalg-alt).**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "numo",
+  "concept_id": "numo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-narray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-linalg-alt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-linalg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-tiny_linalg"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "numo",
+      "sense_id": "numo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

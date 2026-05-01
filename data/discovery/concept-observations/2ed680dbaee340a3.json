@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MongoDB object modeling designed to work in an asynchronous environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Encryption Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Encryption Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11968,
+      "status": "candidate",
+      "text": "code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11473,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11462,
+      "status": "candidate",
+      "text": "assert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11462,
+      "status": "candidate",
+      "text": "assertively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11452,
+      "status": "candidate",
+      "text": "canon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Encryption Tests",
+      "sense_id": "encryption-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "encryption-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "encryption-tests",
+  "observation_id": "2ed680dbaee340a3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Encryption Tests",
+  "source_context_snippet": "Encryption Tests",
+  "source_file": ".github/workflows/encryption-tests.yml",
+  "source_repo": "Automattic/mongoose",
+  "source_repo_description": "MongoDB object modeling designed to work in an asynchronous environment."
+}

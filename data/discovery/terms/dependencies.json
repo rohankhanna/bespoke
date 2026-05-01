@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -66,6 +66,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "antoniusnaumann/cargo-swift"
     }
   ],
   "term": "dependencies"

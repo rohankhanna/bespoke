@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml/lint-opam@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mirage/ocaml-uri",
+      "target": "diml/utop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-uri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-uri",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-uri",
+      "target": "ocaml/setup-ocaml/lint-opam@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-uri",
+      "target": "Builds, tests & co",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/ocaml-uri",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/ocaml-uri",
+      "target": "rfc-3986",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:48.018360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1890
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFC3986 URI parsing library for OCaml",
+    "fork": false,
+    "full_name": "mirage/ocaml-uri",
+    "html_url": "https://github.com/mirage/ocaml-uri",
+    "language": "OCaml",
+    "pushed_at": "2025-11-24T11:47:15Z",
+    "stargazers_count": 98,
+    "topics": [
+      "ocaml",
+      "rfc-3986",
+      "uri",
+      "url"
+    ],
+    "updated_at": "2026-03-10T18:14:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diml/utop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Builds, tests & co",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Builds, tests & co"
+    },
+    {
+      "context_snippet": "Uri -- an RFC3986 URI/URL parsing library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "Uri -- an RFC3986 URI/URL parsing library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-3986"
+    }
+  ]
+}

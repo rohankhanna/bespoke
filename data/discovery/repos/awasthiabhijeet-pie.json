@@ -1,0 +1,200 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "nusnlp/m2scorer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "belambert/edit-distance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "bert-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "bert-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "bert-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "grammatical-error-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "post-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "sequence-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "sequence-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE",
+      "target": "sequence-transduction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:03:14.874847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6087
+    },
+    {
+      "path": "requirements.txt",
+      "size": 190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast + Non-Autoregressive Grammatical Error Correction using BERT. Code and Pre-trained models for paper \"Parallel Iterative Edit Models for Local Sequence Transduction\": www.aclweb.org/anthology/D19-1435.pdf (EMNLP-IJCNLP 2019)",
+    "fork": false,
+    "full_name": "awasthiabhijeet/PIE",
+    "html_url": "https://github.com/awasthiabhijeet/PIE",
+    "language": "Macaulay2",
+    "pushed_at": "2023-03-24T22:38:04Z",
+    "stargazers_count": 232,
+    "topics": [
+      "bert",
+      "bert-embeddings",
+      "bert-model",
+      "bert-models",
+      "grammatical-error-correction",
+      "natural-language-processing",
+      "nlp",
+      "post-editing",
+      "sequence-editing",
+      "sequence-labeling",
+      "sequence-transduction"
+    ],
+    "updated_at": "2026-04-21T13:32:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "belambert/edit-distance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nusnlp/m2scorer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-embeddings"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-model"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-models"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammatical-error-correction"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-editing"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-editing"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-labeling"
+    },
+    {
+      "context_snippet": "Fast Grammatical Error Correction using BERT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-transduction"
+    }
+  ]
+}

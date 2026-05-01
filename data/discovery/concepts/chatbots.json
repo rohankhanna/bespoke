@@ -43,6 +43,18 @@
       "source_repo": "hiyouga/FastEdit",
       "status": "candidate-context",
       "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate-context",
+      "text": "Open Source framework for voice and multimodal conversational AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate-context",
+      "text": "<h1><div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hiyouga/FastEdit",
       "status": "candidate",
       "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat",
+      "status": "candidate",
+      "text": "<h1><div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "hiyouga/FastEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pipecat-ai/pipecat"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

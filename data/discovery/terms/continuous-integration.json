@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -901,6 +901,91 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "testcontainers/testcontainers-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vectordotdev/heim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jenkins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EricLBuehler/range-checked"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "guoqingbao/candle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kherud/java-llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "philips-labs/dct-notary-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "yaahc/displaydoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "evcxr/evcxr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "gordon-code/cuid2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jk-jeon/dragonbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "cdcseacave/openMVS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "tmbo/questionary"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/opensim-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_diff"
     }
   ],
   "term": "Continuous Integration"

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "test-wheels"
+    "test-wheels",
+    "Test wheels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "falconry/falcon",
       "status": "candidate-context",
       "text": "test-wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask/fastparquet",
+      "status": "candidate-context",
+      "text": "python implementation of the parquet columnar file format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/fastparquet",
+      "status": "candidate-context",
+      "text": "Test wheels"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "falconry/falcon",
       "status": "candidate",
       "text": "test-wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/fastparquet",
+      "status": "candidate",
+      "text": "Test wheels"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "lead"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "test-wheels",
   "concept_id": "test-wheels",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/test-wheels.yaml",
       "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test_wheel.yaml",
+      "source_repo": "dask/fastparquet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

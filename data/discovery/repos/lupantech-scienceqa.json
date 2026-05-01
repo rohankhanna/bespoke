@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/ScienceQA",
+      "target": "amazon-science/mm-cot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/ScienceQA",
+      "target": "lupantech/promptpg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/ScienceQA",
+      "target": "lupantech/chameleon-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/ScienceQA",
+      "target": "lupantech/mathvista",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:41.852211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46385
+    },
+    {
+      "path": "requirements.txt",
+      "size": 132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data and code for NeurIPS 2022 Paper \"Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering\".",
+    "fork": false,
+    "full_name": "lupantech/ScienceQA",
+    "html_url": "https://github.com/lupantech/ScienceQA",
+    "language": "Python",
+    "pushed_at": "2024-09-19T03:47:50Z",
+    "stargazers_count": 733,
+    "topics": [],
+    "updated_at": "2026-04-16T08:40:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazon-science/mm-cot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lupantech/chameleon-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lupantech/mathvista",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lupantech/promptpg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

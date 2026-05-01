@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Update pages",
+    "Update Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getlantern/.github",
+      "status": "candidate-context",
+      "text": "Censorship circumvention tool available for free download on any operating system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/.github",
+      "status": "candidate-context",
+      "text": "Update pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate-context",
+      "text": "VOICEVOX\u306e\u30d7\u30ec\u30d3\u30e5\u30fc\u7528\u30da\u30fc\u30b8\u3092\u30c7\u30d7\u30ed\u30a4\u3059\u308b\u30ea\u30dd\u30b8\u30c8\u30ea\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate-context",
+      "text": "\"Update Pages\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getlantern/.github",
+      "status": "candidate",
+      "text": "Update pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/preview-pages",
+      "status": "candidate",
+      "text": "\"Update Pages\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11640,
+      "status": "candidate",
+      "text": "chase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "recap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "status"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "stock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update pages",
+  "concept_id": "update-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "getlantern/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update_pages.yml",
+      "source_repo": "VOICEVOX/preview-pages"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update pages",
+      "sense_id": "update-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

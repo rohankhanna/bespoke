@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "suzuki-shunsuke/ghalint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "suzuki-shunsuke/ghtkn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "suzuki-shunsuke/pinact-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "sethvargo/ratchet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "suzuki-shunsuke/go-autofix-action@2a159c8f21af356c29ee26d76821b5c15956c1d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "suzuki-shunsuke/check-commit-signing-workflow/.github/workflows/check.yaml@547eee345f56310a656f271ec5eaa900af46b0fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "Check if all commits are signed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "suzuki-shunsuke/go-release-workflow/.github/workflows/release.yaml@4db55f2aeaca166b2655fa4a80658df1050dc203",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "aquaproj/aqua-installer@11dd79b4e498d471a9385aa9fb7f62bb5f52a73c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "integration test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_test.yaml",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "suzuki-shunsuke/go-test-full-workflow/.github/workflows/test.yaml@596bc52a7f02dd896d3351e61e4dfa661c1f3304",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/pinact",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "suzuki-shunsuke/pinact"
+}

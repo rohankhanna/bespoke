@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "3mdeb/3mdeb-secpack",
+      "target": "qubesos/qubes-secpack",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:11:53.361499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "3mdeb Security Pack",
+    "fork": false,
+    "full_name": "3mdeb/3mdeb-secpack",
+    "html_url": "https://github.com/3mdeb/3mdeb-secpack",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T14:37:55Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-30T14:45:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qubesos/qubes-secpack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

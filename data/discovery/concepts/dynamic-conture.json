@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dynamic-conture"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is a implementation of the 3D FLAME model in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dynamic-conture",
+  "concept_id": "dynamic-conture",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic-conture",
+      "sense_id": "dynamic-conture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ulfjack/ryu",
+      "target": "alexiljin/ryu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ulfjack/ryu",
+      "target": "cespare/ryu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ulfjack/ryu",
+      "target": "dogwei/ryucsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ulfjack/ryu",
+      "target": "coconut2015/cookjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "ulfjack/ryu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "ulfjack/ryu",
+      "target": "Presubmit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:21:07.773695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14930
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 2689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Converts floating point numbers to decimal strings",
+    "fork": false,
+    "full_name": "ulfjack/ryu",
+    "html_url": "https://github.com/ulfjack/ryu",
+    "language": "C++",
+    "pushed_at": "2026-02-09T23:30:21Z",
+    "stargazers_count": 1336,
+    "topics": [],
+    "updated_at": "2026-04-30T13:01:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexiljin/ryu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cespare/ryu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coconut2015/cookjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dogwei/ryucsharp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Presubmit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "Presubmit"
+    }
+  ]
+}

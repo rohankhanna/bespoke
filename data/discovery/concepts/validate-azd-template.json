@@ -43,6 +43,30 @@
       "source_repo": "Azure-Samples/azure-search-openai-javascript",
       "status": "candidate-context",
       "text": "Validate AZD template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/contoso-chat",
+      "status": "candidate-context",
+      "text": "This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, GitHub actions for evaluation and deployment and intent mapping for multiple LLM task mapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/contoso-chat",
+      "status": "candidate-context",
+      "text": "Validate AZD template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
+      "status": "candidate-context",
+      "text": "A creative writing multi-agent solution to help users write articles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
+      "status": "candidate-context",
+      "text": "Validate AZD template"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "status": "candidate",
+      "text": "Validate AZD template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/contoso-chat",
+      "status": "candidate",
+      "text": "Validate AZD template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
       "status": "candidate",
       "text": "Validate AZD template"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/azure-dev-validation.yaml",
       "source_repo": "Azure-Samples/azure-search-openai-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/azure-dev-validation.yml",
+      "source_repo": "Azure-Samples/contoso-chat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/contoso-creative-writer"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

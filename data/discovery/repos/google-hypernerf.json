@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/hypernerf",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/hypernerf",
+      "target": "google/nerfies",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/hypernerf",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/hypernerf",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/hypernerf",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/hypernerf",
+      "target": "neural-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/hypernerf",
+      "target": "novel-view-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:52.008959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4513
+    },
+    {
+      "path": "requirements.txt",
+      "size": 371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\".",
+    "fork": false,
+    "full_name": "google/hypernerf",
+    "html_url": "https://github.com/google/hypernerf",
+    "language": "Python",
+    "pushed_at": "2024-05-03T20:24:40Z",
+    "stargazers_count": 959,
+    "topics": [
+      "3d",
+      "machine-learning",
+      "nerf",
+      "neural-network",
+      "neural-rendering",
+      "novel-view-synthesis"
+    ],
+    "updated_at": "2026-04-25T22:06:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/nerfies",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-rendering"
+    },
+    {
+      "context_snippet": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novel-view-synthesis"
+    }
+  ]
+}

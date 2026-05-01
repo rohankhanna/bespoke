@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "marvinpinto/action-automatic-releases@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plottertools/hatched",
+      "target": "skvark/opencv-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plottertools/hatched",
+      "target": "toblerity/shapely",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plottertools/hatched",
+      "target": "mozman/svgwrite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "plottertools/hatched",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "plottertools/hatched",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "plottertools/hatched",
+      "target": "marvinpinto/action-automatic-releases@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "plottertools/hatched",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "plottertools/hatched",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plottertools/hatched",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plottertools/hatched",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plottertools/hatched",
+      "target": "pen-plotter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plottertools/hatched",
+      "target": "plotter-art",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:39.922300+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5928
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 164
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert images to plotter-friendly hatched patterns",
+    "fork": false,
+    "full_name": "plottertools/hatched",
+    "html_url": "https://github.com/plottertools/hatched",
+    "language": "Python",
+    "pushed_at": "2025-03-07T09:41:23Z",
+    "stargazers_count": 137,
+    "topics": [
+      "generative-art",
+      "hacktoberfest",
+      "pen-plotter",
+      "plotter-art"
+    ],
+    "updated_at": "2026-04-23T13:49:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozman/svgwrite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skvark/opencv-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "toblerity/shapely",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pen-plotter"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotter-art"
+    }
+  ]
+}

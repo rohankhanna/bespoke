@@ -19,6 +19,30 @@
       "source_repo": "drahnr/cargo-spellcheck",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo_spellcheck.svg)](https://crates.io/crates/cargo-spellcheck)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Dockerfile for LanguageTool server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Erikvl87/docker-languagetool/workflows/Build/badge.svg)](https://github.com/Erikvl87/docker-languagetool) [![Tests Status](https://github.com/Erikvl87/docker-languagetool/workflows/Tests/badge.svg)](https://github.com/Erikvl87/docker-languaget\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate-context",
+      "text": "Dockerfile for LanguageTool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate-context",
+      "text": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "drahnr/cargo-spellcheck",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo_spellcheck.svg)](https://crates.io/crates/cargo-spellcheck)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Erikvl87/docker-languagetool",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Erikvl87/docker-languagetool/workflows/Build/badge.svg)](https://github.com/Erikvl87/docker-languagetool) [![Tests Status](https://github.com/Erikvl87/docker-languagetool/workflows/Tests/badge.svg)](https://github.com/Erikvl87/docker-languaget\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "silvio/docker-languagetool",
+      "status": "candidate",
+      "text": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "drahnr/cargo-spellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Erikvl87/docker-languagetool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "silvio/docker-languagetool"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

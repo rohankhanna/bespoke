@@ -31,28 +31,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinted-theming/home",
-      "target": "aarowill/base16-alacritty",
+      "target": "afq984/base16-xfce4-terminal",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinted-theming/home",
-      "target": "adre5577/contour-tinted",
+      "target": "agausmann/base16-wofi-colors",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinted-theming/home",
-      "target": "aarowill/base16-gnome-terminal",
+      "target": "atelierbram/base16-prism",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinted-theming/home",
-      "target": "4e554c4c/base16-halloy",
+      "target": "andreyvpng/just-colors",
       "target_type": "repository"
     },
     {
@@ -140,7 +140,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:38:25.670864+00:00",
+  "fetched_at": "2026-05-01T08:17:53.363360+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -169,34 +169,34 @@
     "html_url": "https://github.com/tinted-theming/home",
     "language": null,
     "pushed_at": "2026-04-21T21:20:23Z",
-    "stargazers_count": 423,
+    "stargazers_count": 425,
     "topics": [
       "base16",
       "base24",
       "theme",
       "themes"
     ],
-    "updated_at": "2026-04-21T21:20:28Z"
+    "updated_at": "2026-04-24T23:45:56Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "4e554c4c/base16-halloy",
+      "full_name": "afq984/base16-xfce4-terminal",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aarowill/base16-alacritty",
+      "full_name": "agausmann/base16-wofi-colors",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aarowill/base16-gnome-terminal",
+      "full_name": "andreyvpng/just-colors",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "adre5577/contour-tinted",
+      "full_name": "atelierbram/base16-prism",
       "source_file": "README.md"
     }
   ],

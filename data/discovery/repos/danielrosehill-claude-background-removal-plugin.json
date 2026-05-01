@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Background-Removal-Plugin",
+      "target": "danielrosehill/quick-rmbg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:01.840057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: remove image backgrounds via rembg with Dolphin right-click integration",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Background-Removal-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Background-Removal-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T19:46:16Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T19:46:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/quick-rmbg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

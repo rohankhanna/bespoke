@@ -475,6 +475,54 @@
       "source_repo": "DiligentGraphics/DiligentSamples",
       "status": "candidate-context",
       "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate-context",
+      "text": "Declarative UI toolkit for modern C++20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate-context",
+      "text": "![build badge](https://github.com/aui-framework/aui/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate-context",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate-context",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glium/glium",
+      "status": "candidate-context",
+      "text": "Safe OpenGL wrapper for the Rust language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glium/glium",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/glium/glium/actions/workflows/ci.yml/badge.svg)](https://github.com/glium/glium/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "A toy physically based GPU path tracer (C++/OpenGL/GLSL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +759,30 @@
       "source_repo": "DiligentGraphics/DiligentSamples",
       "status": "candidate",
       "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate",
+      "text": "![build badge](https://github.com/aui-framework/aui/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrutPitt/imGuIZMO.quat",
+      "status": "candidate",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glium/glium",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/glium/glium/actions/workflows/ci.yml/badge.svg)](https://github.com/glium/glium/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_related_terms": [
@@ -1036,11 +1108,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aui-framework/aui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "BrutPitt/imGuIZMO.quat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "glium/glium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

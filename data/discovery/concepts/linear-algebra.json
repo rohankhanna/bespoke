@@ -103,6 +103,66 @@
       "source_repo": "Reference-LAPACK/lapack",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/Reference-LAPACK/lapack.svg?branch=master)](https://travis-ci.org/Reference-LAPACK/lapack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate-context",
+      "text": "Numo::Linalg Alternative (numo-linalg-alt) is an alternative to Numo::Linalg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/numo-linalg-alt.svg)](https://badge.fury.io/rb/numo-linalg-alt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milhidaka/webgpu-blas",
+      "status": "candidate-context",
+      "text": "Fast matrix-matrix multiplication on web browser using WebGPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milhidaka/webgpu-blas",
+      "status": "candidate-context",
+      "text": "Fast matrix-matrix multiplication on web browser using [WebGPU](https://gpuweb.github.io/gpuweb/), future web standard."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/Grassmann.jl",
+      "status": "candidate-context",
+      "text": "\u27e8Grassmann-Clifford-Hodge\u27e9 differential geometric algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Grassmann.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate-context",
+      "text": "A collection of useful mathematical functions in Elixir with a slant towards statistics, linear algebra and machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/safwank/Numerix.svg?branch=master)](https://travis-ci.org/safwank/Numerix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate-context",
+      "text": "Numo::TinyLinalg is a subset library from Numo::Linalg consisting only of methods used in Machine Learning algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate-context",
+      "text": "**This project is discontinued. Development has been moved to [Numo::Linalg Alternative](https://github.com/yoshoku/numo-linalg-alt).**"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +213,36 @@
       "source_repo": "Reference-LAPACK/lapack",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/Reference-LAPACK/lapack.svg?branch=master)](https://travis-ci.org/Reference-LAPACK/lapack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/numo-linalg-alt.svg)](https://badge.fury.io/rb/numo-linalg-alt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milhidaka/webgpu-blas",
+      "status": "candidate",
+      "text": "Fast matrix-matrix multiplication on web browser using [WebGPU](https://gpuweb.github.io/gpuweb/), future web standard."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Grassmann.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/safwank/Numerix.svg?branch=master)](https://travis-ci.org/safwank/Numerix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate",
+      "text": "**This project is discontinued. Development has been moved to [Numo::Linalg Alternative](https://github.com/yoshoku/numo-linalg-alt).**"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +304,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Reference-LAPACK/lapack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-linalg-alt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "milhidaka/webgpu-blas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/Grassmann.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "safwank/Numerix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-tiny_linalg"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

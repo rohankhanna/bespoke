@@ -31,6 +31,18 @@
       "source_repo": "FasterXML/woodstox",
       "status": "candidate-context",
       "text": "The gold standard [Stax](https://en.wikipedia.org/wiki/StAX) XML \"pull\" API (`javax.xml.stream`) implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeux/pugixml",
+      "status": "candidate-context",
+      "text": "Light-weight, simple and fast XML parser for C++ with XPath support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/pugixml",
+      "status": "candidate-context",
+      "text": "pugixml [![Actions Status](https://github.com/zeux/pugixml/workflows/build/badge.svg)](https://github.com/zeux/pugixml/actions) [![Build status](https://ci.appveyor.com/api/projects/status/9hdks1doqvq8pwe7/branch/master?svg=true)](https://ci.appveyor.com/project/zeux/pugixml) [!\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "FasterXML/woodstox",
       "status": "candidate",
       "text": "The gold standard [Stax](https://en.wikipedia.org/wiki/StAX) XML \"pull\" API (`javax.xml.stream`) implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/pugixml",
+      "status": "candidate",
+      "text": "pugixml [![Actions Status](https://github.com/zeux/pugixml/workflows/build/badge.svg)](https://github.com/zeux/pugixml/actions) [![Build status](https://ci.appveyor.com/api/projects/status/9hdks1doqvq8pwe7/branch/master?svg=true)](https://ci.appveyor.com/project/zeux/pugixml) [!\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "FasterXML/woodstox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zeux/pugixml"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

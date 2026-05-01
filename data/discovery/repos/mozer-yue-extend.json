@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mozer/YuE-extend",
+      "target": "sgsdxzy/yue-exllamav2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mozer/YuE-extend",
+      "target": "alisson-anjos/yue-exllamav2-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mozer/YuE-extend",
+      "target": "bdashore3/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mozer/YuE-extend",
+      "target": "alissonpereiraanjos/yue-exllamav2-ui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:47.526458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19281
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2965
+    },
+    {
+      "path": "requirements.txt",
+      "size": 228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YuE with mp3 extend, exllama and GUI",
+    "fork": true,
+    "full_name": "Mozer/YuE-extend",
+    "html_url": "https://github.com/Mozer/YuE-extend",
+    "language": "Python",
+    "pushed_at": "2025-02-24T12:29:33Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-03-22T23:18:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alisson-anjos/yue-exllamav2-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alissonpereiraanjos/yue-exllamav2-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bdashore3/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sgsdxzy/yue-exllamav2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

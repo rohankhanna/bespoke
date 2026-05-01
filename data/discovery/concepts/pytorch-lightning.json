@@ -67,6 +67,42 @@
       "source_repo": "Fanghua-Yu/SUPIR",
       "status": "candidate-context",
       "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate-context",
+      "text": "Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using \u26a1 Pytorch Lightning and \ud83e\udd17 Transformers. For access to our API, please email us at contact@unitary.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate-context",
+      "text": "A PyTorch library for all things Reinforcement Learning (RL) for Combinatorial Optimization (CO)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate-context",
+      "text": "</br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate-context",
+      "text": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate-context",
+      "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "Fanghua-Yu/SUPIR",
       "status": "candidate",
       "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate",
+      "text": "</br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/ngp_pl",
+      "status": "candidate",
+      "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Fanghua-Yu/SUPIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unitaryai/detoxify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

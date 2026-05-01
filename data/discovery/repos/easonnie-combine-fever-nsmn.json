@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:12:25.680923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository provides the implementation for the paper \"Combining Fact Extraction and Verification with Neural Semantic Matching Networks\".",
+    "fork": false,
+    "full_name": "easonnie/combine-FEVER-NSMN",
+    "html_url": "https://github.com/easonnie/combine-FEVER-NSMN",
+    "language": "Python",
+    "pushed_at": "2021-08-23T16:04:22Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-03-10T11:43:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

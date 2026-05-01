@@ -19,6 +19,18 @@
       "source_repo": "romanz/electrs",
       "status": "candidate-context",
       "text": "![Logo](logo/logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate-context",
+      "text": "Wide NoSQL benchmark for RocksDB, LevelDB, Redis, WiredTiger and MongoDB extending the Yahoo Cloud Serving Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Unbranded Cloud Serving Benchmark</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "romanz/electrs",
       "status": "candidate",
       "text": "![Logo](logo/logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/ucsb",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Unbranded Cloud Serving Benchmark</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "romanz/electrs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/ucsb"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

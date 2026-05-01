@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ormolu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate-context",
+      "text": "Scan Haskell code with HLint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate-context",
+      "text": "Ormolu"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate",
+      "text": "Ormolu"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956467,
+      "status": "candidate",
+      "text": "or-molu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956466,
+      "status": "candidate",
+      "text": "gold-bronze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956465,
+      "status": "candidate",
+      "text": "vermeil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956464,
+      "status": "candidate",
+      "text": "antique brass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956463,
+      "status": "candidate",
+      "text": "gilding metal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ormolu",
+  "concept_id": "ormolu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ormolu.yaml",
+      "source_repo": "haskell-actions/hlint-scan"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ormolu",
+      "sense_id": "ormolu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

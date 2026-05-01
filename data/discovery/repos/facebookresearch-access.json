@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/access",
+      "target": "louismartin/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "facebookresearch/access",
+      "target": "louismartin/fairseq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:12:29.457019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1820
+    },
+    {
+      "path": "requirements.txt",
+      "size": 391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code to reproduce the experiments from the paper.",
+    "fork": false,
+    "full_name": "facebookresearch/access",
+    "html_url": "https://github.com/facebookresearch/access",
+    "language": "HTML",
+    "pushed_at": "2023-10-10T19:47:52Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2025-12-01T12:55:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "louismartin/fairseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "louismartin/fairseq",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

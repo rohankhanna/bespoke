@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "red-data-tools/matplotlib.rb",
+      "target": "mrkn/pycall",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:26:46.855953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2000
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "matplotlib wrapper for Ruby",
+    "fork": false,
+    "full_name": "red-data-tools/matplotlib.rb",
+    "html_url": "https://github.com/red-data-tools/matplotlib.rb",
+    "language": "Ruby",
+    "pushed_at": "2023-03-16T17:18:33Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-01-28T13:37:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrkn/pycall",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

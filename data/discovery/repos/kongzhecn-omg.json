@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kongzhecn/OMG",
+      "target": "instantid/instantid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kongzhecn/OMG",
+      "target": "image-customization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kongzhecn/OMG",
+      "target": "image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:51.354951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17922
+    },
+    {
+      "path": "requirements.txt",
+      "size": 279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV 2024] OMG: Occlusion-friendly Personalized Multi-concept Generation In Diffusion Models",
+    "fork": false,
+    "full_name": "kongzhecn/OMG",
+    "html_url": "https://github.com/kongzhecn/OMG",
+    "language": "Python",
+    "pushed_at": "2024-07-02T12:51:23Z",
+    "stargazers_count": 700,
+    "topics": [
+      "image-customization",
+      "image-generation"
+    ],
+    "updated_at": "2026-04-30T13:07:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instantid/instantid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-customization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    }
+  ]
+}

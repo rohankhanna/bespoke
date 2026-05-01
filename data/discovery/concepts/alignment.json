@@ -115,6 +115,18 @@
       "source_repo": "microsoft/UniVL",
       "status": "candidate-context",
       "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "belambert/edit-distance",
+      "status": "candidate-context",
+      "text": "Python library for computing edit distance between arbitrary Python sequences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belambert/edit-distance",
+      "status": "candidate-context",
+      "text": "edit_distance"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "microsoft/UniVL",
       "status": "candidate",
       "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belambert/edit-distance",
+      "status": "candidate",
+      "text": "edit_distance"
     }
   ],
   "candidate_related_terms": [
@@ -297,11 +315,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/UniVL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "belambert/edit-distance"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Pull Request Check"
+    "Pull Request Check",
+    "Pull request check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -229,6 +230,24 @@
       "source_repo": "hertz-contrib/etag",
       "status": "candidate-context",
       "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "A wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhartington/formatter.nvim",
+      "status": "candidate-context",
+      "text": "Pull request check"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +370,18 @@
       "source_repo": "hertz-contrib/etag",
       "status": "candidate",
       "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate",
+      "text": "Pull Request Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhartington/formatter.nvim",
+      "status": "candidate",
+      "text": "Pull request check"
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +545,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/pr-check.yml",
       "source_repo": "hertz-contrib/etag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "lukas-reineke/lsp-format.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "mhartington/formatter.nvim"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

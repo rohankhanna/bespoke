@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "csso",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "plugin-error",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vinyl-sourcemaps-apply",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-spec",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vinyl",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ben-eb/gulp-csso",
+      "target": "floridoo/gulp-sourcemaps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ben-eb/gulp-csso",
+      "target": "csso",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ben-eb/gulp-csso",
+      "target": "plugin-error",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ben-eb/gulp-csso",
+      "target": "vinyl-sourcemaps-apply",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ben-eb/gulp-csso",
+      "target": "tap-spec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ben-eb/gulp-csso",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ben-eb/gulp-csso",
+      "target": "vinyl",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:17:54.487772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2768
+    },
+    {
+      "path": "package.json",
+      "size": 763
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minify CSS with CSSO.",
+    "fork": false,
+    "full_name": "ben-eb/gulp-csso",
+    "html_url": "https://github.com/ben-eb/gulp-csso",
+    "language": "JavaScript",
+    "pushed_at": "2022-03-25T19:24:18Z",
+    "stargazers_count": 240,
+    "topics": [],
+    "updated_at": "2025-09-20T14:20:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "floridoo/gulp-sourcemaps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

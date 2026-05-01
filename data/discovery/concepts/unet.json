@@ -31,6 +31,18 @@
       "source_repo": "qubvel-org/segmentation_models.pytorch",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate-context",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate-context",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "qubvel-org/segmentation_models.pytorch",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "archinetai/a-unet"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

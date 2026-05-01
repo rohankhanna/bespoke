@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "freetype/freetype",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "adamharrison/lite-xl-plugin-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "adamharrison/lite-xl-simplified",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "jeremycw/httpserver.h",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/straightforward-c-project-standard",
+      "target": "scps5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:24:31.601498+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A standard for straightforward integration and compilation of C projects.",
+    "fork": false,
+    "full_name": "adamharrison/straightforward-c-project-standard",
+    "html_url": "https://github.com/adamharrison/straightforward-c-project-standard",
+    "language": null,
+    "pushed_at": "2023-01-11T18:00:34Z",
+    "stargazers_count": 24,
+    "topics": [
+      "scps",
+      "scps0",
+      "scps1",
+      "scps2",
+      "scps3",
+      "scps4",
+      "scps5"
+    ],
+    "updated_at": "2025-12-08T16:10:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamharrison/lite-xl-plugin-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamharrison/lite-xl-simplified",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freetype/freetype",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeremycw/httpserver.h",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This document outlines a project structure for C(++) programs and libraries",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps"
+    },
+    {
+      "context_snippet": "This document outlines a project structure for C(++) programs and libraries",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps0"
+    },
+    {
+      "context_snippet": "This document outlines a project structure for C(++) programs and libraries",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps1"
+    },
+    {
+      "context_snippet": "This document outlines a project structure for C(++) programs and libraries",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps2"
+    },
+    {
+      "context_snippet": "This document outlines a project structure for C(++) programs and libraries",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps3"
+    },
+    {
+      "context_snippet": "This document outlines a project structure for C(++) programs and libraries",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps4"
+    },
+    {
+      "context_snippet": "This document outlines a project structure for C(++) programs and libraries",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps5"
+    }
+  ]
+}

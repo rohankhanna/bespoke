@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/committed.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "crate-ci/committed@4cd58ed75e5f581ba45f42ef52e055cc001def37",
+      "target": "crate-ci/committed@6c479a992d863c7d0a7a7abf39f3744348347980",
       "target_type": "component"
     },
     {
@@ -186,7 +186,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/spelling.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "crate-ci/typos@8f11c0dc0f31c780c45b3dd5b72ff4b48a350b75",
+      "target": "crate-ci/typos@bbaefadf97b0ec5fdc942684b647f1a6ab250274",
       "target_type": "component"
     },
     {
@@ -218,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "crate-ci/cargo-release"
 }

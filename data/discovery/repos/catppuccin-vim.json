@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/vim",
+      "target": "catppuccin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/vim",
+      "target": "catppuccin-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/vim",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/vim",
+      "target": "vim-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:41.496639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\uddcb Soothing pastel theme for Vim",
+    "fork": false,
+    "full_name": "catppuccin/vim",
+    "html_url": "https://github.com/catppuccin/vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-08-11T21:46:00Z",
+    "stargazers_count": 362,
+    "topics": [
+      "catppuccin",
+      "catppuccin-theme",
+      "hacktoberfest",
+      "vim",
+      "vim-theme"
+    ],
+    "updated_at": "2026-04-29T22:34:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catppuccin"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catppuccin-theme"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-theme"
+    }
+  ]
+}

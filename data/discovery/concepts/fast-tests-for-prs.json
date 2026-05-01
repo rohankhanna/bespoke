@@ -67,6 +67,18 @@
       "source_repo": "williamberman/diffusers",
       "status": "candidate-context",
       "text": "Fast tests for PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "status": "candidate-context",
+      "text": "Memory-optimized training library for diffusion models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbilcke-hf/finetrainers",
+      "status": "candidate-context",
+      "text": "Fast tests for PRs"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "williamberman/diffusers",
+      "status": "candidate",
+      "text": "Fast tests for PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbilcke-hf/finetrainers",
       "status": "candidate",
       "text": "Fast tests for PRs"
     }
@@ -184,11 +202,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/pr_tests.yml",
       "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "jbilcke-hf/finetrainers"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

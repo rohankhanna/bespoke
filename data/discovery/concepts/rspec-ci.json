@@ -19,12 +19,30 @@
       "source_repo": "rspec/rspec",
       "status": "candidate-context",
       "text": "RSpec CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspec/rspec-rails",
+      "status": "candidate-context",
+      "text": "RSpec for Rails 7+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-rails",
+      "status": "candidate-context",
+      "text": "RSpec CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "rspec/rspec",
+      "status": "candidate",
+      "text": "RSpec CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-rails",
       "status": "candidate",
       "text": "RSpec CI"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "rspec/rspec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rspec/rspec-rails"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

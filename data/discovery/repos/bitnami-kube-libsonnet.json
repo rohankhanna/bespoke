@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bitnami/kube-libsonnet",
+      "target": "bitnami-labs/kube-manifests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitnami/kube-libsonnet",
       "target": "bitnami-labs/kube-libsonnet",
       "target_type": "repository"
     },
@@ -37,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T00:47:42.582594+00:00",
+  "fetched_at": "2026-05-01T09:22:27.449936+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -67,6 +74,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bitnami-labs/kube-libsonnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitnami-labs/kube-manifests",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,248 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "microsoft/ai-powered-notes-winui3-sample",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "jennifermarsman/phirecycling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "microsoft/aitour-exploring-cutting-edge-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "microsoft/generative-ai-for-beginners-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "cookbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi-4-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi-4-multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi3-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi3-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi4-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "phi4-multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook",
+      "target": "small-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:33:17.503581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a Phi Family of SLMs book for getting started with Phi Models. Phi a family of open sourced AI models developed by Microsoft. Phi models are the most capable and cost-effective small language models (SLMs) available, outperforming models of the same size and next size up across a variety of language, reasoning, coding, and math benchmarks",
+    "fork": false,
+    "full_name": "microsoft/PhiCookBook",
+    "html_url": "https://github.com/microsoft/PhiCookBook",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-26T13:17:43Z",
+    "stargazers_count": 3730,
+    "topics": [
+      "cookbook",
+      "language-model",
+      "phi-4",
+      "phi-4-mini",
+      "phi-4-multimodal",
+      "phi3",
+      "phi3-testing",
+      "phi3-vision",
+      "phi4",
+      "phi4-mini",
+      "phi4-multimodal",
+      "slm",
+      "small-language-model"
+    ],
+    "updated_at": "2026-04-30T18:38:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jennifermarsman/phirecycling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/ai-powered-notes-winui3-sample",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/aitour-exploring-cutting-edge-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-for-beginners-dotnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookbook"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi-4"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi-4-mini"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi-4-multimodal"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi3"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi3-testing"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi3-vision"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi4"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi4-mini"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi4-multimodal"
+    },
+    {
+      "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "small-language-model"
+    }
+  ]
+}

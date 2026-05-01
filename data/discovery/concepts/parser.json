@@ -763,6 +763,78 @@
       "source_repo": "beached/daw_json_link",
       "status": "candidate-context",
       "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "florajs/sql-parser",
+      "status": "candidate-context",
+      "text": "Parse SQL (select) statements into abstract syntax tree (AST) and convert ASTs back to SQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "florajs/sql-parser",
+      "status": "candidate-context",
+      "text": "![](https://github.com/florajs/sql-parser/workflows/ci/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate-context",
+      "text": "![](docs/_static/RDFlib.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Create ridiculously fast Lexers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate-context",
+      "text": "An extremely fast CSS parser, transformer, bundler, and minifier written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate-context",
+      "text": "An extremely fast CSS parser, transformer, and minifier written in Rust. Use it with [Parcel](https://parceljs.org), as a standalone library or CLI, or via a plugin with any other tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "Haskell Dockerfile parser, pretty-printer and EDSL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate-context",
+      "text": "[![Build Status][actions-img]][actions]"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1215,42 @@
       "source_repo": "beached/daw_json_link",
       "status": "candidate",
       "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "florajs/sql-parser",
+      "status": "candidate",
+      "text": "![](https://github.com/florajs/sql-parser/workflows/ci/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/rdflib",
+      "status": "candidate",
+      "text": "![](docs/_static/RDFlib.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate",
+      "text": "An extremely fast CSS parser, transformer, and minifier written in Rust. Use it with [Parcel](https://parceljs.org), as a standalone library or CLI, or via a plugin with any other tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hadolint/language-docker",
+      "status": "candidate",
+      "text": "[![Build Status][actions-img]][actions]"
     }
   ],
   "candidate_related_terms": [
@@ -1594,11 +1702,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "beached/daw_json_link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "florajs/sql-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "csstree/csstree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "maciejhirsz/logos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "parcel-bundler/lightningcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hadolint/language-docker"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

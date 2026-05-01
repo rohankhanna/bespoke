@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:33:24.455833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3000
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "vis-nlp/ChartQAPro",
+    "html_url": "https://github.com/vis-nlp/ChartQAPro",
+    "language": "Python",
+    "pushed_at": "2026-01-17T03:07:36Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-04-10T07:12:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:17:31.336580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tensorchord/marketing-material",
+    "html_url": "https://github.com/tensorchord/marketing-material",
+    "language": null,
+    "pushed_at": "2025-01-21T09:00:53Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-04-24T16:02:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

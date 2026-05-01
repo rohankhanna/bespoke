@@ -1150,6 +1150,114 @@
       "source_repo": "module-federation/core",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/memfs",
+      "status": "candidate-context",
+      "text": "Node.js \"fs\" and browser \"File System API\" adapters and in-memory implementations \ud83d\udc4d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/memfs",
+      "status": "candidate-context",
+      "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate-context",
+      "text": "Resolve Node.js version aliases like `latest`, `lts` or `erbium`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/node-version-alias)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate-context",
+      "text": "Normalize and validate Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/normalize-node-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate-context",
+      "text": "Get the preferred Node.js version of a project or user"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate-context",
+      "text": "Download a specific version of Node.js (CLI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Next-gen browser and mobile automation test framework for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/geojson-vt",
+      "status": "candidate-context",
+      "text": "Slice GeoJSON into vector tiles on the fly in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/geojson-vt",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/vector-tile-js",
+      "status": "candidate-context",
+      "text": "Parses vector tiles with JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/vector-tile-js",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "Apache Pulsar NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -1722,6 +1830,60 @@
       "source_repo": "module-federation/core",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/memfs",
+      "status": "candidate",
+      "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/node-version-alias)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/normalize-node-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/geojson-vt",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/vector-tile-js",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -2815,11 +2977,137 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/memfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/node-version-alias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/normalize-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/preferred-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/get-node-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "debug-js/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webdriverio/webdriverio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/geojson-vt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/vector-tile-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-node"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

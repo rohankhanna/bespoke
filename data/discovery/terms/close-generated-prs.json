@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -421,6 +421,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/generated-pr.yml",
       "source_repo": "multiformats/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "probe-lab/github-mgmt"
     }
   ],
   "term": "Close Generated PRs"

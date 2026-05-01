@@ -199,6 +199,42 @@
       "source_repo": "drduh/pwd.sh",
       "status": "candidate-context",
       "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate-context",
+      "text": "Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate-context",
+      "text": "[![Linux Security Expert badge](https://badges.linuxsecurity.expert/tools/ranking/lynis.svg)](https://linuxsecurity.expert/tools/lynis/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate-context",
+      "text": "The Serenity Operating System \ud83d\udc1e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate-context",
+      "text": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate-context",
+      "text": "TUI tool to manage your docker images, containers and volumes \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate-context",
+      "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "drduh/pwd.sh",
       "status": "candidate",
       "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate",
+      "text": "[![Linux Security Expert badge](https://badges.linuxsecurity.expert/tools/ranking/lynis.svg)](https://linuxsecurity.expert/tools/lynis/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SerenityOS/serenity",
+      "status": "candidate",
+      "text": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate",
+      "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +505,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "drduh/pwd.sh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CISOfy/lynis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ajayd-san/gomanagedocker"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

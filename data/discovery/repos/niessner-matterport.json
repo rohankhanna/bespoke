@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niessner/Matterport",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niessner/Matterport",
+      "target": "semantic-scene-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:26:08.775357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Matterport3D is a pretty awesome dataset for RGB-D machine learning tasks :)",
+    "fork": false,
+    "full_name": "niessner/Matterport",
+    "html_url": "https://github.com/niessner/Matterport",
+    "language": "C++",
+    "pushed_at": "2025-11-03T12:14:52Z",
+    "stargazers_count": 1204,
+    "topics": [
+      "3d-reconstruction",
+      "semantic-scene-understanding"
+    ],
+    "updated_at": "2026-04-30T07:06:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Matterport3d](img/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "![Matterport3d](img/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-understanding"
+    }
+  ]
+}

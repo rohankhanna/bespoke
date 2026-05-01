@@ -1972,6 +1972,162 @@
       "source_repo": "BobLd/camelot-sharp",
       "status": "candidate-context",
       "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/realcugan-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "real-cugan converter ncnn version, runs fast on intel / amd / nvidia / apple-silicon GPU with vulkan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/realcugan-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": ":exclamation: :exclamation: :exclamation: This software is in the early development stage, it may bite your cat"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/waifu2x-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "waifu2x converter ncnn version, runs fast on intel / amd / nvidia / apple-silicon GPU with vulkan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/waifu2x-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/nihui/waifu2x-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate-context",
+      "text": "A tiny, neat C library that portably invokes native file open and save dialogs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate-context",
+      "text": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate-context",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed as modified LSM-Tree for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate-context",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/fb303",
+      "status": "candidate-context",
+      "text": "fb303 is a core set of thrift functions that provide a common mechanism for querying stats and other information from a service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fb303",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/wangle",
+      "status": "candidate-context",
+      "text": "Wangle is a framework providing a set of common client/server abstractions for building services in a consistent, modular, and composable way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/wangle",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookincubator/fizz",
+      "status": "candidate-context",
+      "text": "C++14 implementation of the TLS-1.3 standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/fizz",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate-context",
+      "text": "BusKill's main CLI/GUI app for arming/disarming/configuring the BusKill laptop kill cord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate-context",
+      "text": "Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate-context",
+      "text": "[![Linux Security Expert badge](https://badges.linuxsecurity.expert/tools/ranking/lynis.svg)](https://linuxsecurity.expert/tools/lynis/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate-context",
+      "text": "TUI tool to manage your docker images, containers and volumes \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate-context",
+      "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "Streamlining reinforcement learning with RLOps. State-of-the-art RL algorithms and tools, with 10x faster training through evolutionary hyperparameter optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "A toy physically based GPU path tracer (C++/OpenGL/GLSL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate-context",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_glosses": [
@@ -2970,6 +3126,84 @@
       "source_repo": "BobLd/camelot-sharp",
       "status": "candidate",
       "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/realcugan-ncnn-vulkan",
+      "status": "candidate",
+      "text": ":exclamation: :exclamation: :exclamation: This software is in the early development stage, it may bite your cat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/waifu2x-ncnn-vulkan",
+      "status": "candidate",
+      "text": "![CI](https://github.com/nihui/waifu2x-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate",
+      "text": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/UDisk",
+      "status": "candidate",
+      "text": "The fastest ACID-transactional persisted Key-Value store designed for NVMe block-devices with GPU-acceleration and SPDK to bypass the Linux kernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fb303",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/wangle",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookincubator/fizz",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate",
+      "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CISOfy/lynis",
+      "status": "candidate",
+      "text": "[![Linux Security Expert badge](https://badges.linuxsecurity.expert/tools/ranking/lynis.svg)](https://linuxsecurity.expert/tools/lynis/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate",
+      "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "status": "candidate",
+      "text": "GLSL-PathTracer"
     }
   ],
   "candidate_related_terms": [
@@ -4411,11 +4645,143 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/dotnet-linux.yml",
       "source_repo": "BobLd/camelot-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nihui/realcugan-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nihui/waifu2x-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlabbe/nativefiledialog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UDisk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/fb303"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/wangle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebookincubator/fizz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CISOfy/lynis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ajayd-san/gomanagedocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linux-tests.yml",
+      "source_repo": "AgileRL/AgileRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

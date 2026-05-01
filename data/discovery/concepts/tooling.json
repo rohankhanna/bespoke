@@ -163,6 +163,18 @@
       "source_repo": "octokit/create-octokit-project.js",
       "status": "candidate-context",
       "text": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/markdown",
+      "status": "candidate-context",
+      "text": "MDN Web Docs tool to covert HTML to Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/markdown",
+      "status": "candidate-context",
+      "text": "MDN Web Docs tool to convert HTML to Markdown."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "octokit/create-octokit-project.js",
       "status": "candidate",
       "text": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/markdown",
+      "status": "candidate",
+      "text": "MDN Web Docs tool to convert HTML to Markdown."
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +388,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdn/markdown"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

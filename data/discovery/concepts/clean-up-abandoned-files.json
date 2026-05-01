@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clean up abandoned files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/webref",
+      "status": "candidate-context",
+      "text": "Machine-readable references of terms defined in web browser specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webref",
+      "status": "candidate-context",
+      "text": "Clean up abandoned files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webref",
+      "status": "candidate",
+      "text": "Clean up abandoned files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47226,
+      "status": "candidate",
+      "text": "rake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46340,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46340,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40151,
+      "status": "candidate",
+      "text": "reprobate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38140,
+      "status": "candidate",
+      "text": "cleaned"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clean up abandoned files",
+  "concept_id": "clean-up-abandoned-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "w3c/webref"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean up abandoned files",
+      "sense_id": "clean-up-abandoned-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

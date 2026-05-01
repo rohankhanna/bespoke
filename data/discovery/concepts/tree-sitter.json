@@ -181,6 +181,18 @@
       "source_repo": "Beaglefoot/tree-sitter-awk",
       "status": "candidate-context",
       "text": "tree-sitter-awk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "Markdown grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/tree-sitter-markdown.svg)](https://www.npmjs.com/package/tree-sitter-markdown)"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +285,12 @@
       "source_repo": "Beaglefoot/tree-sitter-awk",
       "status": "candidate",
       "text": "tree-sitter-awk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikatyang/tree-sitter-markdown",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/tree-sitter-markdown.svg)](https://www.npmjs.com/package/tree-sitter-markdown)"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +406,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "Beaglefoot/tree-sitter-awk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ikatyang/tree-sitter-markdown"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

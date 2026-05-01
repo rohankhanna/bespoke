@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "racket"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbutterick/pollen",
+      "status": "candidate-context",
+      "text": "book-publishing system [mirror of main repo at https://gitlab.com/mbutterick/pollen]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbutterick/pollen",
+      "status": "candidate-context",
+      "text": "A book-publishing system written in [Racket](http://racket-lang.org). This is the software I use to publish & maintain my web-based books [Beautiful Racket](http://beautifulracket.com), [Practical Typography](http://practicaltypography.com), and [Typography for Lawyers](http://t\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbutterick/pollen",
+      "status": "candidate",
+      "text": "A book-publishing system written in [Racket](http://racket-lang.org). This is the software I use to publish & maintain my web-based books [Beautiful Racket](http://beautifulracket.com), [Practical Typography](http://practicaltypography.com), and [Typography for Lawyers](http://t\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39697155,
+      "status": "candidate",
+      "text": "racquet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39457683,
+      "status": "candidate",
+      "text": "noise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39447121,
+      "status": "candidate",
+      "text": "whoop it up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39430538,
+      "status": "candidate",
+      "text": "revel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39429552,
+      "status": "candidate",
+      "text": "make merry"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38043,
+      "status": "candidate",
+      "text": "dissonance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30088,
+      "status": "candidate",
+      "text": "noise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5043,
+      "status": "candidate",
+      "text": "wassail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2020,
+      "status": "candidate",
+      "text": "whoop it up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1034,
+      "status": "candidate",
+      "text": "racquet"
+    }
+  ],
+  "canonical_name": "racket",
+  "concept_id": "racket",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mbutterick/pollen"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "racket",
+      "sense_id": "racket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

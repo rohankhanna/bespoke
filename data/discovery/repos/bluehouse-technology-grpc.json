@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bluehouse-Technology/grpc",
+      "target": "bluehouse-technology/grpc_client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bluehouse-Technology/grpc",
+      "target": "erlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bluehouse-Technology/grpc",
+      "target": "grpc-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bluehouse-Technology/grpc",
+      "target": "grpc-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:18:48.705597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Erlang library for GRPC",
+    "fork": false,
+    "full_name": "Bluehouse-Technology/grpc",
+    "html_url": "https://github.com/Bluehouse-Technology/grpc",
+    "language": "Erlang",
+    "pushed_at": "2023-07-29T21:06:13Z",
+    "stargazers_count": 101,
+    "topics": [
+      "erlang",
+      "grpc-client",
+      "grpc-server"
+    ],
+    "updated_at": "2026-01-15T23:21:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluehouse-technology/grpc_client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An implementation of a gRPC server in Erlang.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "erlang"
+    },
+    {
+      "context_snippet": "An implementation of a gRPC server in Erlang.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-client"
+    },
+    {
+      "context_snippet": "An implementation of a gRPC server in Erlang.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-server"
+    }
+  ]
+}

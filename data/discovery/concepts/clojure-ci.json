@@ -43,6 +43,18 @@
       "source_repo": "baskeboler/cljs-karaoke-client",
       "status": "candidate-context",
       "text": "Clojure CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "status": "candidate-context",
+      "text": "Extract lyrics data from karaoke midi files for karaoke applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
+      "status": "candidate-context",
+      "text": "Clojure CI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "baskeboler/cljs-karaoke-client",
+      "status": "candidate",
+      "text": "Clojure CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baskeboler/clj-karaoke-lyrics",
       "status": "candidate",
       "text": "Clojure CI"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/clojure.yml",
       "source_repo": "baskeboler/cljs-karaoke-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "baskeboler/clj-karaoke-lyrics"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

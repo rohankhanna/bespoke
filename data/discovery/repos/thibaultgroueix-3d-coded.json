@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "assimp/assimp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "qnzhou/pymesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "fxia22/pointgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "gulvarol/surreal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "3d-correspondences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "atlasnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:25:43.289755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch Implementation for the project : `3D-CODED` and `Learning Elementary Structure`",
+    "fork": false,
+    "full_name": "ThibaultGROUEIX/3D-CODED",
+    "html_url": "https://github.com/ThibaultGROUEIX/3D-CODED",
+    "language": "Python",
+    "pushed_at": "2021-11-18T16:26:14Z",
+    "stargazers_count": 327,
+    "topics": [
+      "3d-correspondences",
+      "atlasnet",
+      "deep-learning"
+    ],
+    "updated_at": "2026-04-18T15:15:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "assimp/assimp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fxia22/pointgan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gulvarol/surreal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qnzhou/pymesh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**3D-CODED : 3D Correspondences by Deep Deformation** <br>Thibault Groueix, Matthew Fisher, Vladimir G. Kim , Bryan C. Russell, Mathieu Aubry <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-correspondences"
+    },
+    {
+      "context_snippet": "**3D-CODED : 3D Correspondences by Deep Deformation** <br>Thibault Groueix, Matthew Fisher, Vladimir G. Kim , Bryan C. Russell, Mathieu Aubry <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atlasnet"
+    },
+    {
+      "context_snippet": "**3D-CODED : 3D Correspondences by Deep Deformation** <br>Thibault Groueix, Matthew Fisher, Vladimir G. Kim , Bryan C. Russell, Mathieu Aubry <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    }
+  ]
+}

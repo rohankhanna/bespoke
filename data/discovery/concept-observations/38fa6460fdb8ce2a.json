@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Matcher Framework for Swift and Objective-C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Carthage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Carthage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036667,
+      "status": "candidate",
+      "text": "tunis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004754,
+      "status": "candidate",
+      "text": "cartagena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29553197,
+      "status": "candidate",
+      "text": "colton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29490204,
+      "status": "candidate",
+      "text": "cartago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036808,
+      "status": "candidate",
+      "text": "tunisia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Carthage",
+      "sense_id": "carthage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "carthage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "carthage",
+  "observation_id": "38fa6460fdb8ce2a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Carthage",
+  "source_context_snippet": "Carthage",
+  "source_file": ".github/workflows/carthage.yml",
+  "source_repo": "Quick/Nimble",
+  "source_repo_description": "A Matcher Framework for Swift and Objective-C"
+}

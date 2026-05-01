@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:28:18.720199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4457
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2023] This is an official implementation of paper \"DETRs with Hybrid Matching\".",
+    "fork": false,
+    "full_name": "HDETR/H-PETR-Pose",
+    "html_url": "https://github.com/HDETR/H-PETR-Pose",
+    "language": "Python",
+    "pushed_at": "2022-09-01T17:40:28Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2024-01-04T17:10:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -43,6 +43,18 @@
       "source_repo": "dotnet/Silk.NET",
       "status": "candidate-context",
       "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holgern/scikit-optimize",
+      "status": "candidate-context",
+      "text": "Sequential model-based optimization with a `scipy.optimize` interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holgern/scikit-optimize",
+      "status": "candidate-context",
+      "text": "|Logo|"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dotnet/Silk.NET",
       "status": "candidate",
       "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holgern/scikit-optimize",
+      "status": "candidate",
+      "text": "|Logo|"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "holgern/scikit-optimize"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

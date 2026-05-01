@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "drduh/Router-Guide",
-      "target": "3mdeb/3mdeb-secpack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "drduh/Router-Guide",
       "target": "elad/openbsd-apu2",
       "target_type": "repository"
     },
@@ -27,6 +20,13 @@
       "source_file": "README.md",
       "source_repo": "drduh/Router-Guide",
       "target": "martinbaillie/homebrew-openbsd-pcengines-router",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/Router-Guide",
+      "target": "northox/openbsd-apu2",
       "target_type": "repository"
     },
     {
@@ -121,7 +121,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:54:38.063710+00:00",
+  "fetched_at": "2026-05-01T09:11:54.322590+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -160,11 +160,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "3mdeb/3mdeb-secpack",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "drduh/pc-engines-apu-router-guide",
       "source_file": "README.md"
     },
@@ -176,6 +171,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "martinbaillie/homebrew-openbsd-pcengines-router",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "northox/openbsd-apu2",
       "source_file": "README.md"
     }
   ],

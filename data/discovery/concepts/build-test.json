@@ -512,6 +512,66 @@
       "source_repo": "Jakuje/virt_cacard",
       "status": "candidate-context",
       "text": "Build & test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juharris/optify",
+      "status": "candidate-context",
+      "text": "Simplifies getting the right configuration options for a process using pre-loaded configurations from files to manage options for experiments or flights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juharris/optify",
+      "status": "candidate-context",
+      "text": "\"Build & Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "43081j/picoquery",
+      "status": "candidate-context",
+      "text": "A small library for parsing and serializing query strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "43081j/picoquery",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/bsc",
+      "status": "candidate-context",
+      "text": "A BNB Smart Chain client based on the go-ethereum fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/bsc",
+      "status": "candidate-context",
+      "text": "Build Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/doc-it",
+      "status": "candidate-context",
+      "text": "Italian translation of the PHP documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-it",
+      "status": "candidate-context",
+      "text": "Build Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/composition-api",
+      "status": "candidate-context",
+      "text": "Composition API plugin for Vue 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/composition-api",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -772,6 +832,36 @@
       "source_repo": "Jakuje/virt_cacard",
       "status": "candidate",
       "text": "Build & test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juharris/optify",
+      "status": "candidate",
+      "text": "\"Build & Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "43081j/picoquery",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/bsc",
+      "status": "candidate",
+      "text": "Build Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-it",
+      "status": "candidate",
+      "text": "Build Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/composition-api",
+      "status": "candidate",
+      "text": "Build & Test"
     }
   ],
   "candidate_related_terms": [
@@ -1355,11 +1445,71 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "juharris/optify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "43081j/picoquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "bnb-chain/bsc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "php/doc-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vuejs/composition-api"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "AlloAllo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "Generate favicons for your project with caching for blazing fast rebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "\"AlloAllo\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/markdown",
+      "status": "candidate-context",
+      "text": "MDN Web Docs tool to covert HTML to Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/markdown",
+      "status": "candidate-context",
+      "text": "\"AlloAllo\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate",
+      "text": "\"AlloAllo\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/markdown",
+      "status": "candidate",
+      "text": "\"AlloAllo\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "AlloAllo",
+  "concept_id": "alloallo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/allo-allo.yml",
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/welcome-bot.yml",
+      "source_repo": "mdn/markdown"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AlloAllo",
+      "sense_id": "alloallo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-check.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-check.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secret-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "\ud83d\udee0\ufe0f Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-check.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-check.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-check.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "Frontend Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "\ud83d\uddd2\ufe0f License Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "\ud83e\udd14 Lint PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "\ud83d\udc40 Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secret-check.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secret-check.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "target": "\ud83d\udddd\ufe0f Secrets Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:15:10.224325+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3667
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 1782
+    },
+    {
+      "path": ".github/workflows/frontend-check.yml",
+      "size": 1607
+    },
+    {
+      "path": ".github/workflows/license-check.yml",
+      "size": 1014
+    },
+    {
+      "path": ".github/workflows/lint-pr-title.yml",
+      "size": 1766
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 1019
+    },
+    {
+      "path": ".github/workflows/secret-check.yml",
+      "size": 951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spring AI Alibaba DataAgent",
+    "fork": false,
+    "full_name": "spring-ai-alibaba/DataAgent",
+    "html_url": "https://github.com/spring-ai-alibaba/DataAgent",
+    "language": "Java",
+    "pushed_at": "2026-04-22T05:13:12Z",
+    "stargazers_count": 1826,
+    "topics": [],
+    "updated_at": "2026-04-30T17:12:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udee0\ufe0f Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "\ud83d\udee0\ufe0f Build and Test"
+    },
+    {
+      "context_snippet": "Frontend Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-check.yml",
+      "term": "Frontend Check"
+    },
+    {
+      "context_snippet": "\ud83d\uddd2\ufe0f License Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yml",
+      "term": "\ud83d\uddd2\ufe0f License Check"
+    },
+    {
+      "context_snippet": "\ud83e\udd14 Lint PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "term": "\ud83e\udd14 Lint PR"
+    },
+    {
+      "context_snippet": "\ud83d\udc40 Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "\ud83d\udc40 Linter"
+    },
+    {
+      "context_snippet": "\ud83d\udddd\ufe0f Secrets Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secret-check.yml",
+      "term": "\ud83d\udddd\ufe0f Secrets Check"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "umbrella project for emulation of smart card readers or smart cards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Virtual Smart Card Architecture is an umbrella project for various"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Virtual Smart Card Architecture is an umbrella project for various"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pcsc",
+      "sense_id": "pcsc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pcsc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pcsc",
+  "observation_id": "bf75681062aea878",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "pcsc",
+  "source_context_snippet": "Virtual Smart Card Architecture is an umbrella project for various",
+  "source_file": null,
+  "source_repo": "frankmorgner/vsmartcard",
+  "source_repo_description": "umbrella project for emulation of smart card readers or smart cards"
+}

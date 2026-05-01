@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:19:13.765300+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A library of color palettes for Typst.",
+    "fork": false,
+    "full_name": "kaarmu/splash",
+    "html_url": "https://github.com/kaarmu/splash",
+    "language": "Typst",
+    "pushed_at": "2025-04-27T14:35:10Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-04-03T10:33:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

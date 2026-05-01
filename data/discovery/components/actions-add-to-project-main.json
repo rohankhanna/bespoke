@@ -1,7 +1,7 @@
 {
   "component": "actions/add-to-project@main",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "github/rest-api-description"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_open.yml",
+      "source_repo": "taichi-dev/taichi"
     }
   ]
 }

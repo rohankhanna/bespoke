@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:20:28.871941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Subscribe to this repo to be notified of Announcements and changes in .NET Core. ",
+    "fork": false,
+    "full_name": "dotnet/announcements",
+    "html_url": "https://github.com/dotnet/announcements",
+    "language": null,
+    "pushed_at": "2022-06-29T17:39:04Z",
+    "stargazers_count": 1368,
+    "topics": [],
+    "updated_at": "2026-04-22T20:38:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

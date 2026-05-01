@@ -19,12 +19,48 @@
       "source_repo": "facebook/jscodeshift",
       "status": "candidate-context",
       "text": "Continuous Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Next-gen browser and mobile automation test framework for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Continuous Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umijs/dumi",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd6 Static Site Generator for component library development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umijs/dumi",
+      "status": "candidate-context",
+      "text": "Continuous Releases"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "facebook/jscodeshift",
+      "status": "candidate",
+      "text": "Continuous Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate",
+      "text": "Continuous Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umijs/dumi",
       "status": "candidate",
       "text": "Continuous Releases"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/cr.yml",
       "source_repo": "facebook/jscodeshift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cr.yml",
+      "source_repo": "webdriverio/webdriverio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "umijs/dumi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

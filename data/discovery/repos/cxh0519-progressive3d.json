@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cxh0519/Progressive3D",
+      "target": "dsaurus/threestudio-mvdream",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:30:51.351413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of \"Progressive3D: Progressively Local Editing for Text-to-3D Content Creation with Complex Semantic Prompts\" [ICLR 2024]",
+    "fork": false,
+    "full_name": "cxh0519/Progressive3D",
+    "html_url": "https://github.com/cxh0519/Progressive3D",
+    "language": "Python",
+    "pushed_at": "2024-06-27T08:19:40Z",
+    "stargazers_count": 121,
+    "topics": [],
+    "updated_at": "2026-03-15T22:37:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dsaurus/threestudio-mvdream",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

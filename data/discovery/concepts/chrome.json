@@ -244,6 +244,18 @@
       "source_repo": "SafetyCulture/grpc-web-devtools",
       "status": "candidate-context",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/map-to-chrome",
+      "status": "candidate-context",
+      "text": "Map versions of Chromium-based browsers to their equivalent Chrome versions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/map-to-chrome",
+      "status": "candidate-context",
+      "text": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">"
     }
   ],
   "candidate_glosses": [
@@ -366,6 +378,12 @@
       "source_repo": "SafetyCulture/grpc-web-devtools",
       "status": "candidate",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/map-to-chrome",
+      "status": "candidate",
+      "text": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">"
     }
   ],
   "candidate_related_terms": [
@@ -621,11 +639,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

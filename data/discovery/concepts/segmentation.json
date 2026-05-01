@@ -421,6 +421,42 @@
       "source_repo": "JIA-Lab-research/LISA",
       "status": "candidate-context",
       "text": "[![Gradio](https://img.shields.io/badge/Gradio-Online%20Demo-blue)](http://103.170.5.190:7860/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsurumeso/vocal-remover",
+      "status": "candidate-context",
+      "text": "Vocal Remover using Deep Neural Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsurumeso/vocal-remover",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "The OCR approach is rephrased as Segmentation Transformer: https://arxiv.org/abs/1909.11065. This is an official implementation of semantic segmentation for HRNet. https://arxiv.org/abs/1908.07919"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "- This is the implementation for HRNet + OCR."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate-context",
+      "text": "Efficient vision foundation models for high-resolution generation and perception."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
     }
   ],
   "candidate_glosses": [
@@ -633,6 +669,24 @@
       "source_repo": "JIA-Lab-research/LISA",
       "status": "candidate",
       "text": "[![Gradio](https://img.shields.io/badge/Gradio-Online%20Demo-blue)](http://103.170.5.190:7860/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsurumeso/vocal-remover",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation",
+      "status": "candidate",
+      "text": "- This is the implementation for HRNet + OCR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
     }
   ],
   "candidate_related_terms": [
@@ -994,11 +1048,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tsurumeso/vocal-remover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Semantic-Segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/efficientvit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

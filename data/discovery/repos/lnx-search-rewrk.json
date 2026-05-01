@@ -199,7 +199,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:05:34.069313+00:00",
+  "fetched_at": "2026-05-01T10:22:11.498147+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -236,14 +236,14 @@
     "html_url": "https://github.com/lnx-search/rewrk",
     "language": "Rust",
     "pushed_at": "2024-03-25T12:30:23Z",
-    "stargazers_count": 582,
+    "stargazers_count": 583,
     "topics": [
       "benchmark",
       "http",
       "rust",
       "web"
     ],
-    "updated_at": "2026-04-24T10:43:34Z"
+    "updated_at": "2026-04-30T16:34:15Z"
   },
   "repo_links": [
     {

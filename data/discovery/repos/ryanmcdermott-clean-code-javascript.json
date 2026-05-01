@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "alivebao/clean-code-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "alljointtw/clean-code-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "andirkh/clean-code-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "andersontr15/clean-code-javascript-es",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "best-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "clean-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "clean-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "composition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "inheritance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "target": "principles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:07:37.739199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 58443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clean Code concepts adapted for JavaScript",
+    "fork": false,
+    "full_name": "ryanmcdermott/clean-code-javascript",
+    "html_url": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-29T07:24:37Z",
+    "stargazers_count": 94296,
+    "topics": [
+      "best-practices",
+      "clean-architecture",
+      "clean-code",
+      "composition",
+      "inheritance",
+      "javascript",
+      "principles"
+    ],
+    "updated_at": "2026-05-01T05:24:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alivebao/clean-code-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alljointtw/clean-code-javascript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andersontr15/clean-code-javascript-es",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andirkh/clean-code-javascript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "1. [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-practices"
+    },
+    {
+      "context_snippet": "1. [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean-architecture"
+    },
+    {
+      "context_snippet": "1. [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean-code"
+    },
+    {
+      "context_snippet": "1. [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "composition"
+    },
+    {
+      "context_snippet": "1. [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inheritance"
+    },
+    {
+      "context_snippet": "1. [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "principles"
+    }
+  ]
+}

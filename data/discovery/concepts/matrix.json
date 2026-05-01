@@ -103,6 +103,18 @@
       "source_repo": "beve-org/beve",
       "status": "candidate-context",
       "text": "Version 1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate-context",
+      "text": "Linear Algebra Library for Ruby/Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate-context",
+      "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "beve-org/beve",
       "status": "candidate",
       "text": "Version 1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate",
+      "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
     }
   ],
   "candidate_related_terms": [
@@ -265,11 +283,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-linalg"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

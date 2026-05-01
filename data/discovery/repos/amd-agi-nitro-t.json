@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMD-AGI/Nitro-T",
+      "target": "sonyresearch/micro_diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:34:01.276329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4757
+    },
+    {
+      "path": "requirements.txt",
+      "size": 114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nitro-T is a family of text-to-image diffusion models focused on highly efficient training.",
+    "fork": false,
+    "full_name": "AMD-AGI/Nitro-T",
+    "html_url": "https://github.com/AMD-AGI/Nitro-T",
+    "language": "Python",
+    "pushed_at": "2025-07-10T20:30:03Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-28T15:08:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sonyresearch/micro_diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

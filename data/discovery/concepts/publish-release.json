@@ -297,6 +297,48 @@
       "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
       "status": "candidate-context",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate-context",
+      "text": "Abstractions to probably serialize and deserialize things properly without forgetting or doubling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-wasmer",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/bob",
+      "status": "candidate-context",
+      "text": "(Deprecated) Builder of Bits, powered MDN's interactive examples 2018\u20132025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/bob",
+      "status": "candidate-context",
+      "text": "publish-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/markdown",
+      "status": "candidate-context",
+      "text": "MDN Web Docs tool to covert HTML to Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/markdown",
+      "status": "candidate-context",
+      "text": "publish-release"
     }
   ],
   "candidate_glosses": [
@@ -443,6 +485,30 @@
       "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
       "status": "candidate",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-serialization",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/holochain-wasmer",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/bob",
+      "status": "candidate",
+      "text": "publish-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/markdown",
+      "status": "candidate",
+      "text": "publish-release"
     }
   ],
   "candidate_related_terms": [
@@ -696,11 +762,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "holochain/holochain-serialization"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "holochain/holochain-wasmer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "mdn/bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "mdn/markdown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

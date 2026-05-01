@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "langgraph4j/langgraph4j",
-      "target": "langgraph4j/langgraph4j-examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "langgraph4j/langgraph4j",
-      "target": "imfangs/langgraph4j-deep-researcher",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "langgraph4j/langgraph4j",
-      "target": "moyangzhan/langchain4j-aideepin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "langgraph4j/langgraph4j",
-      "target": "kugaaa/langchain4j-langfuse",
+      "target": "osgiliathenterprise/acp-langgraph-langchain-bridge",
       "target_type": "repository"
     },
     {
@@ -246,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "langgraph4j/langgraph4j"
 }

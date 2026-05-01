@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "target": "butchersboy/materialdesigninxamltoolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "target": "net-winforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:33:06.823889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4487
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Theming .NET WinForms, C# or VB.Net, to Google's Material Design Principles.",
+    "fork": false,
+    "full_name": "IgnaceMaes/MaterialSkin",
+    "html_url": "https://github.com/IgnaceMaes/MaterialSkin",
+    "language": "C#",
+    "pushed_at": "2024-07-15T08:36:06Z",
+    "stargazers_count": 3040,
+    "topics": [
+      "c-sharp",
+      "design",
+      "material-design",
+      "net-winforms",
+      "theme"
+    ],
+    "updated_at": "2026-05-01T04:58:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "butchersboy/materialdesigninxamltoolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MaterialSkin for .NET WinForms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "MaterialSkin for .NET WinForms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "MaterialSkin for .NET WinForms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "MaterialSkin for .NET WinForms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "net-winforms"
+    },
+    {
+      "context_snippet": "MaterialSkin for .NET WinForms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

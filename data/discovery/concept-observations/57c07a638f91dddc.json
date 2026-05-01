@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u267b\ufe0f Deserialize and serialize environment variables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serde",
+      "sense_id": "serde#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "serde",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serde",
+  "observation_id": "57c07a638f91dddc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "serde",
+  "source_context_snippet": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026",
+  "source_file": null,
+  "source_repo": "lucagoslar/serde-envfile",
+  "source_repo_description": "\u267b\ufe0f Deserialize and serialize environment variables."
+}

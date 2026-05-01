@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:34:46.558554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4301
+    },
+    {
+      "path": "Dockerfile",
+      "size": 304
+    },
+    {
+      "path": "requirements.txt",
+      "size": 152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Code for the paper \"Quantifying Transfer in Reinforcement Learning\"",
+    "fork": false,
+    "full_name": "openai/coinrun",
+    "html_url": "https://github.com/openai/coinrun",
+    "language": "C++",
+    "pushed_at": "2023-10-07T21:33:01Z",
+    "stargazers_count": 408,
+    "topics": [],
+    "updated_at": "2026-04-30T19:14:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

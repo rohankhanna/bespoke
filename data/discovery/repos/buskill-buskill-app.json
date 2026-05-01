@@ -1,0 +1,296 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unicode_warn.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BusKill/buskill-app",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BusKill/buskill-app",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BusKill/buskill-app",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BusKill/buskill-app",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unicode_warn.yml",
+      "source_repo": "BusKill/buskill-app",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "anti-forensics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "deadmanswitch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "infosec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "kivy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "libusb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "opsec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "tripwire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:11:44.877941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6368
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5491
+    },
+    {
+      "path": ".github/workflows/docs_pages_workflow.yml",
+      "size": 654
+    },
+    {
+      "path": ".github/workflows/sign_workflow.yml",
+      "size": 919
+    },
+    {
+      "path": ".github/workflows/unicode_warn.yml",
+      "size": 2628
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BusKill's main CLI/GUI app for arming/disarming/configuring the BusKill laptop kill cord",
+    "fork": false,
+    "full_name": "BusKill/buskill-app",
+    "html_url": "https://github.com/BusKill/buskill-app",
+    "language": "Python",
+    "pushed_at": "2026-03-16T21:28:22Z",
+    "stargazers_count": 272,
+    "topics": [
+      "anti-forensics",
+      "cli",
+      "deadmanswitch",
+      "gui",
+      "infosec",
+      "kivy",
+      "libusb",
+      "linux",
+      "macos",
+      "opsec",
+      "python",
+      "security",
+      "tripwire",
+      "usb",
+      "windows"
+    ],
+    "updated_at": "2026-04-22T14:15:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anti-forensics"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deadmanswitch"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infosec"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kivy"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libusb"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opsec"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tripwire"
+    },
+    {
+      "context_snippet": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

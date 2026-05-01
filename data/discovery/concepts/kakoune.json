@@ -43,6 +43,18 @@
       "source_repo": "kakoune-lsp/kakoune-lsp",
       "status": "candidate-context",
       "text": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "pre-configured CLI (linters, formatters) -> LSP (IDE) adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "kakoune-lsp/kakoune-lsp",
       "status": "candidate",
       "text": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "kakoune-lsp/kakoune-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

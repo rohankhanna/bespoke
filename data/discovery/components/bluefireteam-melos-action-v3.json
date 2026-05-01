@@ -1,0 +1,32 @@
+{
+  "component": "bluefireteam/melos-action@v3",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_health.yml",
+      "source_repo": "firebase/FirebaseUI-Flutter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "firebase/FirebaseUI-Flutter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "invertase/melos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "invertase/melos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "invertase/melos"
+    }
+  ]
+}

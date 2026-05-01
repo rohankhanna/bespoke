@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/cp-image.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/cp-image.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:19:08.227166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Quickly insert image in neovim",
+    "fork": false,
+    "full_name": "niuiic/cp-image.nvim",
+    "html_url": "https://github.com/niuiic/cp-image.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-05-11T04:35:59Z",
+    "stargazers_count": 10,
+    "topics": [
+      "neovim",
+      "plugin"
+    ],
+    "updated_at": "2025-11-10T20:22:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Paste the image from the clipboard and insert the reference code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Paste the image from the clipboard and insert the reference code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

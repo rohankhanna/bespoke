@@ -991,6 +991,78 @@
       "source_repo": "ttktjmt/mjswan",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate-context",
+      "text": "A PyTorch library for all things Reinforcement Learning (RL) for Combinatorial Optimization (CO)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate-context",
+      "text": "</br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pat-jj/DeepRetrieval",
+      "status": "candidate-context",
+      "text": "[COLM\u201925] DeepRetrieval \u2014 \ud83d\udd25 Training Search Agent by RLVR with Retrieval Outcome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pat-jj/DeepRetrieval",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "Streamlining reinforcement learning with RLOps. State-of-the-art RL algorithms and tools, with 10x faster training through evolutionary hyperparameter optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "[![Unit-tests](https://github.com/pytorch/rl/actions/workflows/test-linux.yml/badge.svg)](https://github.com/pytorch/rl/actions/workflows/test-linux.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate-context",
+      "text": "Sim-to-real RL training and deployment tools for the Unitree Go1 robot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate-context",
+      "text": "1. [Overview](#overview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "status": "candidate-context",
+      "text": "[RSS 2025] \"ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for"
     }
   ],
   "candidate_glosses": [
@@ -1485,6 +1557,42 @@
       "source_repo": "ttktjmt/mjswan",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4co/rl4co",
+      "status": "candidate",
+      "text": "</br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pat-jj/DeepRetrieval",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate",
+      "text": "[![Unit-tests](https://github.com/pytorch/rl/actions/workflows/test-linux.yml/badge.svg)](https://github.com/pytorch/rl/actions/workflows/test-linux.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "status": "candidate",
+      "text": "1. [Overview](#overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for"
     }
   ],
   "candidate_related_terms": [],
@@ -2146,11 +2254,71 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ai4co/rl4co"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pat-jj/DeepRetrieval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgileRL/AgileRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/rl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Improbable-AI/walk-these-ways"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LeCAR-Lab/ASAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

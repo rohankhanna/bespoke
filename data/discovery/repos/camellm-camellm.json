@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CameLLM/CameLLM",
+      "target": "camellm/camellm-common",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CameLLM/CameLLM",
+      "target": "camellm/camellm-plugin-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CameLLM/CameLLM",
+      "target": "camellm/camellm-llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CameLLM/CameLLM",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM",
+      "target": "gpt-j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:25:54.081936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run your favourite LLMs locally on macOS from Swift",
+    "fork": false,
+    "full_name": "CameLLM/CameLLM",
+    "html_url": "https://github.com/CameLLM/CameLLM",
+    "language": "Swift",
+    "pushed_at": "2023-06-08T22:46:08Z",
+    "stargazers_count": 84,
+    "topics": [
+      "ai",
+      "gpt-j",
+      "llama",
+      "ml",
+      "swift"
+    ],
+    "updated_at": "2026-04-22T14:29:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camellm/camellm-common",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camellm/camellm-llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camellm/camellm-plugin-harness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"Resources/Banner-b47186.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-j"
+    },
+    {
+      "context_snippet": "<img src=\"Resources/Banner-b47186.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<img src=\"Resources/Banner-b47186.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

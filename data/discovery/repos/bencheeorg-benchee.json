@@ -46,7 +46,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bencheeorg/benchee",
-      "target": "bencheeorg/benchee_html",
+      "target": "pragtob/elixir_playground",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bencheeorg/benchee",
+      "target": "whatyouhide/stream_data",
       "target_type": "repository"
     },
     {
@@ -61,13 +68,6 @@
       "source_file": "README.md",
       "source_repo": "bencheeorg/benchee",
       "target": "barrel-db/rebar3_elixir_compile",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bencheeorg/benchee",
-      "target": "bencheeorg/statistex",
       "target_type": "repository"
     },
     {
@@ -134,7 +134,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:03:57.574851+00:00",
+  "fetched_at": "2026-05-01T10:20:09.474021+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -155,7 +155,7 @@
     "html_url": "https://github.com/bencheeorg/benchee",
     "language": "Elixir",
     "pushed_at": "2026-04-11T09:28:54Z",
-    "stargazers_count": 1505,
+    "stargazers_count": 1506,
     "topics": [
       "benchmarking",
       "elixir",
@@ -164,7 +164,7 @@
       "microbenchmarks",
       "statistics"
     ],
-    "updated_at": "2026-04-30T05:12:27Z"
+    "updated_at": "2026-05-01T08:41:24Z"
   },
   "repo_links": [
     {
@@ -179,12 +179,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bencheeorg/benchee_html",
+      "full_name": "pragtob/elixir_playground",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bencheeorg/statistex",
+      "full_name": "whatyouhide/stream_data",
       "source_file": "README.md"
     }
   ],

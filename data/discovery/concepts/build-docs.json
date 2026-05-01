@@ -484,6 +484,24 @@
       "source_repo": "LuisaGroup/LuisaCompute",
       "status": "candidate-context",
       "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scicode-bench/scicode-bench.github.io",
+      "status": "candidate-context",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate-context",
+      "text": "Home of the Prism Docs Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -726,6 +744,18 @@
       "source_repo": "LuisaGroup/LuisaCompute",
       "status": "candidate",
       "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scicode-bench/scicode-bench.github.io",
+      "status": "candidate",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate",
+      "text": "Build Docs"
     }
   ],
   "candidate_related_terms": [
@@ -1195,11 +1225,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "scicode-bench/scicode-bench.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism-Documentation"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

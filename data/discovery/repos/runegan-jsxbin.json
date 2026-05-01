@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "command-line-args",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "command-line-usage",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "winston",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-runegan",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mz",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "command-line-args",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "command-line-usage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "winston",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "eslint-config-runegan",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "mz",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runegan/jsxbin",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runegan/jsxbin",
+      "target": "after-effects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runegan/jsxbin",
+      "target": "extendscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runegan/jsxbin",
+      "target": "jsxbin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:05:12.982142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3043
+    },
+    {
+      "path": "package.json",
+      "size": 1148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert jsx ExtendScript files into jsxbin files using ExtendScript Toolkit",
+    "fork": false,
+    "full_name": "runegan/jsxbin",
+    "html_url": "https://github.com/runegan/jsxbin",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-04T20:16:04Z",
+    "stargazers_count": 105,
+    "topics": [
+      "after-effects",
+      "extendscript",
+      "jsxbin"
+    ],
+    "updated_at": "2026-04-30T12:43:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Convert jsx ExtendScript files into jsxbin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "after-effects"
+    },
+    {
+      "context_snippet": "Convert jsx ExtendScript files into jsxbin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extendscript"
+    },
+    {
+      "context_snippet": "Convert jsx ExtendScript files into jsxbin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsxbin"
+    }
+  ]
+}

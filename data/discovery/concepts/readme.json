@@ -273,6 +273,18 @@
       "source_repo": "RustCrypto/password-hashes",
       "status": "candidate-context",
       "text": "readme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/markup",
+      "status": "candidate-context",
+      "text": "Determines which markup library to use to render a content file (e.g. README) on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/markup",
+      "status": "candidate-context",
+      "text": "GitHub Markup"
     }
   ],
   "candidate_glosses": [
@@ -407,6 +419,12 @@
       "source_repo": "RustCrypto/password-hashes",
       "status": "candidate",
       "text": "readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/markup",
+      "status": "candidate",
+      "text": "GitHub Markup"
     }
   ],
   "candidate_related_terms": [
@@ -600,11 +618,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/readme.yml",
       "source_repo": "RustCrypto/password-hashes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "github/markup"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

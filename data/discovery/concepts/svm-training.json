@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "svm-training"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "Ruby language bindings for LIBSVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "svm-training",
+  "concept_id": "svm-training",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "svm-training",
+      "sense_id": "svm-training#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

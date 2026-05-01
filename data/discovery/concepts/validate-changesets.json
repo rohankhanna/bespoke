@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Validate changesets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate-context",
+      "text": "\ud83d\udfea AppSignal for Elixir package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate-context",
+      "text": "Validate changesets"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate-context",
+      "text": "AppSignal instrumentation for the Phoenix framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate-context",
+      "text": "Validate changesets"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-elixir-plug",
+      "status": "candidate-context",
+      "text": "AppSignal instrumentation for Plug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-plug",
+      "status": "candidate-context",
+      "text": "Validate changesets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate",
+      "text": "Validate changesets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate",
+      "text": "Validate changesets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-plug",
+      "status": "candidate",
+      "text": "Validate changesets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "affirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "okay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "vet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate changesets",
+  "concept_id": "validate-changesets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/validate_changesets.yaml",
+      "source_repo": "appsignal/appsignal-elixir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/validate_changesets.yml",
+      "source_repo": "appsignal/appsignal-elixir-phoenix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/validate_changesets.yml",
+      "source_repo": "appsignal/appsignal-elixir-plug"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate changesets",
+      "sense_id": "validate-changesets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

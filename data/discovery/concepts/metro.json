@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "metro"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "A framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate",
+      "text": "ci"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979104,
+      "status": "candidate",
+      "text": "subway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930259,
+      "status": "candidate",
+      "text": "underground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39817309,
+      "status": "candidate",
+      "text": "tube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979170,
+      "status": "candidate",
+      "text": "railway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969421,
+      "status": "candidate",
+      "text": "meter"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6061,
+      "status": "candidate",
+      "text": "tube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "subway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "underground"
+    }
+  ],
+  "canonical_name": "metro",
+  "concept_id": "metro",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "metro",
+      "sense_id": "metro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotenv-org/examples",
+      "target": "dotenvx/dotenvx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:03:58.886618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\ude9c Examples of using dotenv with various frameworks",
+    "fork": false,
+    "full_name": "dotenv-org/examples",
+    "html_url": "https://github.com/dotenv-org/examples",
+    "language": "PHP",
+    "pushed_at": "2024-05-06T02:45:38Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-02-23T11:20:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotenvx/dotenvx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

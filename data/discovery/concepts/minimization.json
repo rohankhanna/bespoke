@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "minimization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "status": "candidate-context",
+      "text": "A Webpack plugin to optimize \\ minimize CSS assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "status": "candidate-context",
+      "text": "A Webpack plugin to optimize \\ minimize CSS assets."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "status": "candidate",
+      "text": "A Webpack plugin to optimize \\ minimize CSS assets."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016064,
+      "status": "candidate",
+      "text": "minimisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012300,
+      "status": "candidate",
+      "text": "reduced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011606,
+      "status": "candidate",
+      "text": "reduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011157,
+      "status": "candidate",
+      "text": "reducing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010994,
+      "status": "candidate",
+      "text": "reduce"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "minimisation"
+    }
+  ],
+  "canonical_name": "minimization",
+  "concept_id": "minimization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minimization",
+      "sense_id": "minimization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

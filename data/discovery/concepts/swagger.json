@@ -385,6 +385,30 @@
       "source_repo": "mr-fatalyst/fastopenapi",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate-context",
+      "text": "Samples for the various Swagger projects under swagger-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate-context",
+      "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate-context",
+      "text": "Swagger module for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate-context",
+      "text": "This GitHub repository has been archived."
     }
   ],
   "candidate_glosses": [
@@ -579,6 +603,18 @@
       "source_repo": "mr-fatalyst/fastopenapi",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate",
+      "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate",
+      "text": "This GitHub repository has been archived."
     }
   ],
   "candidate_related_terms": [
@@ -922,11 +958,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

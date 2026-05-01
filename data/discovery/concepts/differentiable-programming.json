@@ -19,6 +19,30 @@
       "source_repo": "NVIDIA/warp",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/warp-lang.svg)](https://badge.fury.io/py/warp-lang)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taichi-dev/taichi",
+      "status": "candidate-context",
+      "text": "Productive, portable, and performant GPU programming in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/taichi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "NVIDIA/warp",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/warp-lang.svg)](https://badge.fury.io/py/warp-lang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/taichi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/warp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/taichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

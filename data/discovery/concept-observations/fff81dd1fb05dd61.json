@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "install `dotenvx` to heroku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![dotenvx](https://dotenvx.com/better-banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![dotenvx](https://dotenvx.com/better-banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heroku-buildpack",
+      "sense_id": "heroku-buildpack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "heroku-buildpack",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "heroku-buildpack",
+  "observation_id": "fff81dd1fb05dd61",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "heroku-buildpack",
+  "source_context_snippet": "![dotenvx](https://dotenvx.com/better-banner.png)",
+  "source_file": null,
+  "source_repo": "dotenvx/heroku-buildpack-dotenvx",
+  "source_repo_description": "install `dotenvx` to heroku"
+}

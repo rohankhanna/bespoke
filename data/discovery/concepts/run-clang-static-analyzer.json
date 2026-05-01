@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Clang Static Analyzer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate-context",
+      "text": "Device app kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate-context",
+      "text": "Run Clang Static Analyzer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate",
+      "text": "Run Clang Static Analyzer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24644,
+      "status": "candidate",
+      "text": "clangor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21743,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17682,
+      "status": "candidate",
+      "text": "hum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16306,
+      "status": "candidate",
+      "text": "clanging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16185,
+      "status": "candidate",
+      "text": "clash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Clang Static Analyzer",
+  "concept_id": "run-clang-static-analyzer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Clang Static Analyzer",
+      "sense_id": "run-clang-static-analyzer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

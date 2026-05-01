@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "comfysage/artio.nvim",
+      "target": "echasnovski/mini.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "comfysage/artio.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "comfysage/artio.nvim",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "comfysage/artio.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:42.798118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":bear: minimal extui fuzzy finder for Neovim",
+    "fork": false,
+    "full_name": "comfysage/artio.nvim",
+    "html_url": "https://github.com/comfysage/artio.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-18T15:58:08Z",
+    "stargazers_count": 108,
+    "topics": [
+      "neovim",
+      "neovim-lua",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-05-01T08:27:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A minimal, nature-infused file picker for Neovim using ui2.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A minimal, nature-infused file picker for Neovim using ui2.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "A minimal, nature-infused file picker for Neovim using ui2.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

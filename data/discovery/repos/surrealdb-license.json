@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "surrealdb/license",
+      "target": "surreal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "surrealdb/license",
+      "target": "surrealdb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:32:18.743358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Licensing information for the SurrealDB database, components, libraries, and SDKs",
+    "fork": false,
+    "full_name": "surrealdb/license",
+    "html_url": "https://github.com/surrealdb/license",
+    "language": null,
+    "pushed_at": "2023-08-08T16:17:37Z",
+    "stargazers_count": 8,
+    "topics": [
+      "surreal",
+      "surrealdb"
+    ],
+    "updated_at": "2024-10-19T17:02:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "SurrealDB is an end-to-end cloud native database for web, mobile, serverless, jamstack, backend, and traditional applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surreal"
+    },
+    {
+      "context_snippet": "SurrealDB is an end-to-end cloud native database for web, mobile, serverless, jamstack, backend, and traditional applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surrealdb"
+    }
+  ]
+}

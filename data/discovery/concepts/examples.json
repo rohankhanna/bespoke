@@ -467,6 +467,18 @@
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
       "status": "candidate-context",
       "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate-context",
+      "text": "A cargo plugin to easily build Swift packages from Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate-context",
+      "text": "Examples"
     }
   ],
   "candidate_glosses": [
@@ -697,6 +709,12 @@
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
       "status": "candidate",
       "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate",
+      "text": "Examples"
     }
   ],
   "candidate_related_terms": [
@@ -1081,11 +1099,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "antoniusnaumann/cargo-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

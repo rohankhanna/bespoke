@@ -105,12 +105,12 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/eshost",
-      "target": "devsnek/esvu",
+      "target": "bterlson/eshost",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "package.json",
       "source_repo": "tc39/eshost",
       "target": "bterlson/eshost",
       "target_type": "repository"
@@ -235,7 +235,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T19:56:35.831936+00:00",
+  "fetched_at": "2026-05-01T09:13:15.939945+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -268,11 +268,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "devsnek/esvu",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "microsoft/chakracore",
       "source_file": "README.md"
     },
@@ -280,6 +275,11 @@
       "edge_type": "explicit-github-link",
       "full_name": "serenityos/serenity",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bterlson/eshost",
+      "source_file": "package.json"
     }
   ],
   "terms": []

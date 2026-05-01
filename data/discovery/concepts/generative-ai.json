@@ -367,6 +367,36 @@
       "source_repo": "FoundationVision/Liquid",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate-context",
+      "text": "12 Lessons to Get Started Building AI Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate-context",
+      "text": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate-context",
+      "text": "generative-ai"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate-context",
+      "text": "Join a time-traveling adventure where you meet history\u2019s legends while learning Generative AI technologies! \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -547,6 +577,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FoundationVision/Liquid",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate",
+      "text": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate",
+      "text": "generative-ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-with-javascript",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -928,11 +976,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "FoundationVision/Liquid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "openlit/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-with-javascript"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

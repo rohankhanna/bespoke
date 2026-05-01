@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml"
+    },
+    {
+      "component": "pozil/auto-assign-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml"
+    },
+    {
+      "component": "pozil/auto-assign-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "azure/co-op-translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "microsoft/azd-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "microsoft/edgeai-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "microsoft/copilotadventures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-issue.yml",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "pozil/auto-assign-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-pr.yml",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "pozil/auto-assign-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "agentic-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "agentic-rag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "ai-agents-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "autogen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "target": "semantic-kernel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:42.712973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20264
+    },
+    {
+      "path": "requirements.txt",
+      "size": 293
+    },
+    {
+      "path": ".github/workflows/welcome-issue.yml",
+      "size": 1123
+    },
+    {
+      "path": ".github/workflows/welcome-pr.yml",
+      "size": 1161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "12 Lessons to Get Started Building AI Agents",
+    "fork": false,
+    "full_name": "microsoft/ai-agents-for-beginners",
+    "html_url": "https://github.com/microsoft/ai-agents-for-beginners",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-30T11:25:22Z",
+    "stargazers_count": 60243,
+    "topics": [
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-rag",
+      "ai-agents",
+      "ai-agents-framework",
+      "autogen",
+      "generative-ai",
+      "semantic-kernel"
+    ],
+    "updated_at": "2026-05-01T06:36:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/co-op-translator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/azd-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/copilotadventures",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/edgeai-for-beginners",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-framework"
+    },
+    {
+      "context_snippet": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-rag"
+    },
+    {
+      "context_snippet": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-agents-framework"
+    },
+    {
+      "context_snippet": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autogen"
+    },
+    {
+      "context_snippet": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-kernel"
+    }
+  ]
+}

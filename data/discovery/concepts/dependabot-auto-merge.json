@@ -528,6 +528,42 @@
       "source_repo": "cockroachdb/client_golang",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kddnewton/prettier-plugin-ini",
+      "status": "candidate-context",
+      "text": "A prettier plugin for INI files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kddnewton/prettier-plugin-ini",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Storage Provider Retrieval Checker as a Checker Subnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "\ud83e\uddec Repository for third party middlewares with dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -780,6 +816,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cockroachdb/client_golang",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kddnewton/prettier-plugin-ini",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -1083,11 +1137,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/automerge-dependabot.yml",
       "source_repo": "cockroachdb/client_golang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "kddnewton/prettier-plugin-ini"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "CheckerNetwork/spark-checker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "gofiber/contrib"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

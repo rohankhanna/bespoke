@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of ECCV'18 paper -  GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eccv-2018",
+      "sense_id": "eccv-2018#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eccv-2018",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eccv-2018",
+  "observation_id": "ae3393dfe8ef2a41",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "eccv-2018",
+  "source_context_snippet": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan.",
+  "source_file": null,
+  "source_repo": "lzx551402/geodesc",
+  "source_repo_description": "Implementation of ECCV'18 paper -  GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints"
+}

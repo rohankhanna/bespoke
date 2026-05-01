@@ -19,6 +19,42 @@
       "source_repo": "EvolvingLMMs-Lab/Otter",
       "status": "candidate-context",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlagOpen/RoboBrain",
+      "status": "candidate-context",
+      "text": "[CVPR 2025] RoboBrain: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete. Official Repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/RoboBrain",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "status": "candidate-context",
+      "text": "RoboBrain 2.5: Advanced version of RoboBrain. Depth in Sight, Time in Mind. \ud83c\udf89\ud83c\udf89\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate-context",
+      "text": "[ICCV 2025 & ICCV 2025 RIWM Outstanding Paper] Aether: Geometric-Aware Unified World Modeling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "EvolvingLMMs-Lab/Otter",
       "status": "candidate",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/RoboBrain",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +124,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain2.5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

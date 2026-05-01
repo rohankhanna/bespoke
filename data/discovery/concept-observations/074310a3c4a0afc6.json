@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Markdown lint tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "All checks pass"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "All checks pass"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26563,
+      "status": "candidate",
+      "text": "decease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26563,
+      "status": "candidate",
+      "text": "die"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26563,
+      "status": "candidate",
+      "text": "exit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26563,
+      "status": "candidate",
+      "text": "perish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26517,
+      "status": "candidate",
+      "text": "expire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "All checks pass",
+      "sense_id": "all-checks-pass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "all-checks-pass",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "all-checks-pass",
+  "observation_id": "074310a3c4a0afc6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "All checks pass",
+  "source_context_snippet": "All checks pass",
+  "source_file": ".github/workflows/check-all-checks.yml",
+  "source_repo": "markdownlint/markdownlint",
+  "source_repo_description": "Markdown lint tool"
+}

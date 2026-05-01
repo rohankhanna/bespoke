@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:07:11.769817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3969
+    },
+    {
+      "path": "go.mod",
+      "size": 136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Static Regexp code generation in pure Go",
+    "fork": false,
+    "full_name": "dlclark/regexp2cg",
+    "html_url": "https://github.com/dlclark/regexp2cg",
+    "language": "Go",
+    "pushed_at": "2026-04-22T02:34:26Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-22T02:34:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "write-good",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xregexp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/travis-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/apm-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jasmine-fix",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "atomlinter/linter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "gepoch/linter-write-good",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "write-good",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "xregexp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "@commitlint/travis-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "@semantic-release/apm-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "jasmine-fix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "atom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "coffeescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good",
+      "target": "linter-interface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:28:28.396702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1500
+    },
+    {
+      "path": "package.json",
+      "size": 1377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "An Atom linter interface for write-good.",
+    "fork": false,
+    "full_name": "AtomLinter/linter-write-good",
+    "html_url": "https://github.com/AtomLinter/linter-write-good",
+    "language": "CoffeeScript",
+    "pushed_at": "2023-07-19T07:54:11Z",
+    "stargazers_count": 103,
+    "topics": [
+      "atom",
+      "coffeescript",
+      "highlighting",
+      "linter",
+      "linter-interface"
+    ],
+    "updated_at": "2025-07-22T03:04:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atomlinter/linter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gepoch/linter-write-good",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Naive linter for English prose for developers who can't write good and wanna",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom"
+    },
+    {
+      "context_snippet": "Naive linter for English prose for developers who can't write good and wanna",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coffeescript"
+    },
+    {
+      "context_snippet": "Naive linter for English prose for developers who can't write good and wanna",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlighting"
+    },
+    {
+      "context_snippet": "Naive linter for English prose for developers who can't write good and wanna",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "Naive linter for English prose for developers who can't write good and wanna",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-interface"
+    }
+  ]
+}

@@ -547,6 +547,30 @@
       "source_repo": "johnbean393/Sidekick",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate-context",
+      "text": "Build and run agents you can see, understand and trust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatopera/Synonyms",
+      "status": "candidate-context",
+      "text": ":herb: \u4e2d\u6587\u8fd1\u4e49\u8bcd\uff1a\u804a\u5929\u673a\u5668\u4eba\uff0c\u667a\u80fd\u95ee\u7b54\u5de5\u5177\u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatopera/Synonyms",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +843,18 @@
       "source_repo": "johnbean393/Sidekick",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatopera/Synonyms",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1252,11 +1288,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "agentscope-ai/agentscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chatopera/Synonyms"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

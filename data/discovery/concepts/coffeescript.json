@@ -19,6 +19,18 @@
       "source_repo": "Glavin001/atom-beautify",
       "status": "candidate-context",
       "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate-context",
+      "text": "An Atom linter interface for write-good."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate-context",
+      "text": "Naive linter for English prose for developers who can't write good and wanna"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Glavin001/atom-beautify",
       "status": "candidate",
       "text": "[![apm](https://img.shields.io/apm/dm/atom-beautify.svg)](https://atom.io/packages/atom-beautify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate",
+      "text": "Naive linter for English prose for developers who can't write good and wanna"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Glavin001/atom-beautify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

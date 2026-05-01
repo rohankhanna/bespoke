@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "musculoskeletal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate-context",
+      "text": "MyoSuite is a collection of environments/tasks to be solved by musculoskeletal models simulated with the MuJoCo physics engine and wrapped in the OpenAI gym API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate-context",
+      "text": "<!-- ================================================="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate",
+      "text": "<!-- ================================================="
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30015578,
+      "status": "candidate",
+      "text": "circulatory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014226,
+      "status": "candidate",
+      "text": "gastrointestinal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006290,
+      "status": "candidate",
+      "text": "locomotor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983650,
+      "status": "candidate",
+      "text": "digestive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29723864,
+      "status": "candidate",
+      "text": "institute"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "musculoskeletal",
+  "concept_id": "musculoskeletal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MyoHub/myosuite"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "musculoskeletal",
+      "sense_id": "musculoskeletal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

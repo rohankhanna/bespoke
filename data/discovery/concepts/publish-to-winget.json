@@ -116,6 +116,18 @@
       "source_repo": "rclone/rclone",
       "status": "candidate-context",
       "text": "Publish to Winget"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate-context",
+      "text": "Powerful system-level package manager for Linux, macOS and Windows written in Rust \u2013 building on top of the Conda ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate-context",
+      "text": "Publish to WinGet"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +184,12 @@
       "source_repo": "rclone/rclone",
       "status": "candidate",
       "text": "Publish to Winget"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate",
+      "text": "Publish to WinGet"
     }
   ],
   "candidate_related_terms": [
@@ -329,11 +347,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/winget.yml",
       "source_repo": "rclone/rclone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/post_release.yml",
+      "source_repo": "prefix-dev/pixi"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

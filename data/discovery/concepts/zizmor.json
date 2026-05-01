@@ -189,6 +189,18 @@
       "source_repo": "hynek/argon2-cffi",
       "status": "candidate-context",
       "text": "Zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hynek/argon2-cffi-bindings",
+      "status": "candidate-context",
+      "text": "Low-level Python CFFI Bindings for Argon2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi-bindings",
+      "status": "candidate-context",
+      "text": "Zizmor \ud83c\udf08"
     }
   ],
   "candidate_glosses": [
@@ -281,6 +293,12 @@
       "source_repo": "hynek/argon2-cffi",
       "status": "candidate",
       "text": "Zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi-bindings",
+      "status": "candidate",
+      "text": "Zizmor \ud83c\udf08"
     }
   ],
   "candidate_related_terms": [],
@@ -384,11 +402,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "hynek/argon2-cffi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "hynek/argon2-cffi-bindings"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

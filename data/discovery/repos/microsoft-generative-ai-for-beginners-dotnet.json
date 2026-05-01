@@ -1,0 +1,455 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-validation.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "IEvangelist/profanity-filter@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profanity-filter.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-heartbeat.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-heartbeat.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-heartbeat.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-insider-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-issue-assign.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-issue-assign.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-issue-assign.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-label-enforce.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-label-enforce.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "microsoft/generative-ai-for-beginners-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "microsoft/generative-ai-with-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "microsoft/security-101",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "microsoft/xr-development-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-validation.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-validation.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profanity-filter.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "IEvangelist/profanity-filter@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profanity-filter.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "Profanity filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-ci.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-ci.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "Squad CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-docs.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-docs.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "Squad Docs \u2014 Build & Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-heartbeat.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-heartbeat.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-heartbeat.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "Squad Heartbeat (Ralph)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-insider-release.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-insider-release.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "Squad Insider Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-issue-assign.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-issue-assign.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-issue-assign.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "Squad Issue Assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-label-enforce.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squad-label-enforce.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-label-enforce.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "Squad Label Enforce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "azure-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "codespaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "github-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "target": "semantic-kernel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:29.991463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16811
+    },
+    {
+      "path": ".github/workflows/build-validation.yml",
+      "size": 1560
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1080
+    },
+    {
+      "path": ".github/workflows/profanity-filter.yml",
+      "size": 624
+    },
+    {
+      "path": ".github/workflows/squad-ci.yml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/squad-docs.yml",
+      "size": 662
+    },
+    {
+      "path": ".github/workflows/squad-heartbeat.yml",
+      "size": 6510
+    },
+    {
+      "path": ".github/workflows/squad-insider-release.yml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/squad-issue-assign.yml",
+      "size": 6404
+    },
+    {
+      "path": ".github/workflows/squad-label-enforce.yml",
+      "size": 6816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Five lessons, learn how to really apply AI to your .NET Applications",
+    "fork": false,
+    "full_name": "microsoft/Generative-AI-for-beginners-dotnet",
+    "html_url": "https://github.com/microsoft/Generative-AI-for-beginners-dotnet",
+    "language": "C#",
+    "pushed_at": "2026-04-23T21:45:57Z",
+    "stargazers_count": 2701,
+    "topics": [
+      "ai",
+      "azure-ai",
+      "codespaces",
+      "github-models",
+      "semantic-kernel"
+    ],
+    "updated_at": "2026-05-01T08:11:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-for-beginners-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-with-javascript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/security-101",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/xr-development-for-beginners",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Profanity filter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profanity-filter.yml",
+      "term": "Profanity filter"
+    },
+    {
+      "context_snippet": "Squad CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-ci.yml",
+      "term": "Squad CI"
+    },
+    {
+      "context_snippet": "Squad Docs \u2014 Build & Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-docs.yml",
+      "term": "Squad Docs \u2014 Build & Deploy"
+    },
+    {
+      "context_snippet": "Squad Heartbeat (Ralph)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-heartbeat.yml",
+      "term": "Squad Heartbeat (Ralph)"
+    },
+    {
+      "context_snippet": "Squad Insider Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-insider-release.yml",
+      "term": "Squad Insider Release"
+    },
+    {
+      "context_snippet": "Squad Issue Assign",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-issue-assign.yml",
+      "term": "Squad Issue Assign"
+    },
+    {
+      "context_snippet": "Squad Label Enforce",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/squad-label-enforce.yml",
+      "term": "Squad Label Enforce"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-beginners-dotnet.svg)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-ai"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-beginners-dotnet.svg)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codespaces"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-beginners-dotnet.svg)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-models"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-beginners-dotnet.svg)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-kernel"
+    }
+  ]
+}

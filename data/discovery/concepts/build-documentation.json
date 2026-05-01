@@ -482,6 +482,30 @@
       "source_repo": "AnswerDotAI/fastkmeans",
       "status": "candidate-context",
       "text": "Build Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Extremely fast Query Engine for DataFrames, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate-context",
+      "text": "A Matcher Framework for Swift and Objective-C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate-context",
+      "text": "Build Documentation"
     }
   ],
   "candidate_glosses": [
@@ -722,6 +746,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "AnswerDotAI/fastkmeans",
+      "status": "candidate",
+      "text": "Build Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Nimble",
       "status": "candidate",
       "text": "Build Documentation"
     }
@@ -1175,11 +1211,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs-global.yml",
+      "source_repo": "pola-rs/polars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Quick/Nimble"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "typstyle-rs/typstyle"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

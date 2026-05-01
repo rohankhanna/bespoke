@@ -1,0 +1,33 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:08:55.443259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1169
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compiler agnostic metaprogramming library providing concepts, type operations and tuples for C++ and cuda",
+    "fork": false,
+    "full_name": "llnl/camp",
+    "html_url": "https://github.com/llnl/camp",
+    "language": "C++",
+    "pushed_at": "2026-04-28T22:17:30Z",
+    "stargazers_count": 98,
+    "topics": [
+      "cpp"
+    ],
+    "updated_at": "2026-04-22T02:13:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

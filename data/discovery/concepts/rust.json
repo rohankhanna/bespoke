@@ -6622,6 +6622,414 @@
       "source_repo": "jakudlaty/tsid",
       "status": "candidate-context",
       "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "A high-level API for programmatically interacting with web pages through WebDriver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/fantoccini.svg)](https://crates.io/crates/fantoccini)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reproto/reproto",
+      "status": "candidate-context",
+      "text": "Rethinking Protocols"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reproto/reproto",
+      "status": "candidate-context",
+      "text": "[![Build Status][github-badge]][github-action]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate-context",
+      "text": "A Ruby library, written in Rust, for generating Halton sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate-context",
+      "text": "[workspace] members = [\"ext/halton\"]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate-context",
+      "text": "LLama.cpp rust bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate-context",
+      "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "Extremely fast Query Engine for DataFrames, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate-context",
+      "text": "A cargo plugin to easily build Swift packages from Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate-context",
+      "text": "[![Language: Rust](https://img.shields.io/badge/Language-Rust-F46623)](https://www.rust-lang.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate-context",
+      "text": "Compile Rust projects with the Android NDK without hassle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate-context",
+      "text": "[<img alt=\"CI\" src=\"https://github.com/bbqsrc/cargo-ndk/actions/workflows/ci.yml/badge.svg\">](https://github.com/bbqsrc/cargo-ndk/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rozbb/rust-hpke",
+      "status": "candidate-context",
+      "text": "An implementation of the HPKE hybrid encryption standard (RFC 9180)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rozbb/rust-hpke",
+      "status": "candidate-context",
+      "text": "rust-hpke"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate-context",
+      "text": "Community maintained modules for Testcontainers for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs-modules-community/workflows/Continuous%20Integration/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glium/glium",
+      "status": "candidate-context",
+      "text": "Safe OpenGL wrapper for the Rust language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glium/glium",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/glium/glium/actions/workflows/ci.yml/badge.svg)](https://github.com/glium/glium/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rosetta-rs/argparse-rosetta-rs",
+      "status": "candidate-context",
+      "text": "Comparing argparse APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rosetta-rs/argparse-rosetta-rs",
+      "status": "candidate-context",
+      "text": "This repo tries to assess Rust arg parsing performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "Yet another cross-platform graphical process/system monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/sdk",
+      "status": "candidate-context",
+      "text": "A library to provide abstractions to access common utilities when developing Dioxus applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/sdk",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "Simplified nix packaging for various programming language ecosystems [maintainer=@DavHau]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/envy",
+      "status": "candidate-context",
+      "text": "deserialize env vars into typesafe structs with rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy",
+      "status": "candidate-context",
+      "text": "> deserialize environment variables into typesafe structs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucagoslar/serde-envfile",
+      "status": "candidate-context",
+      "text": "\u267b\ufe0f Deserialize and serialize environment variables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucagoslar/serde-envfile",
+      "status": "candidate-context",
+      "text": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tremby/snapmixer",
+      "status": "candidate-context",
+      "text": "Control snapcast output volumes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tremby/snapmixer",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate-context",
+      "text": "Volatile access to memory mapped hardware registers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate-context",
+      "text": "A Rust library crate with types for safe MMIO device access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate-context",
+      "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "Async runtime for Rust where correctness is structural: region-owned tasks, cancel-correct protocols, capability-gated effects, and deterministic replay testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "Create ridiculously fast Lexers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate-context",
+      "text": "An extremely fast CSS parser, transformer, bundler, and minifier written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate-context",
+      "text": "An extremely fast CSS parser, transformer, and minifier written in Rust. Use it with [Parcel](https://parceljs.org), as a standalone library or CLI, or via a plugin with any other tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phsym/prettytable-rs",
+      "status": "candidate-context",
+      "text": "A rust library to print aligned and formatted tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phsym/prettytable-rs",
+      "status": "candidate-context",
+      "text": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndersTrier/reed-solomon-simd",
+      "status": "candidate-context",
+      "text": "Reed-Solomon GF(2^16) erasure coding with O(n log n) complexity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersTrier/reed-solomon-simd",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "status": "candidate-context",
+      "text": "[Looking for new owners/maintainers, see #88] Rust implementation of Reed-Solomon erasure coding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/darrenldl/reed-solomon-erasure.svg?branch=master)](https://travis-ci.org/darrenldl/reed-solomon-erasure)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustwasm/wee_alloc",
+      "status": "candidate-context",
+      "text": "The Wasm-Enabled, Elfin Allocator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustwasm/wee_alloc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate-context",
+      "text": "\ud83d\ude82 Engine components of Prisma ORM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate-context",
+      "text": "[![Schema Engine + sql_schema_describer](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml/badge.svg)](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koute/stdweb",
+      "status": "candidate-context",
+      "text": "A standard library for the client-side Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koute/stdweb",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate-context",
+      "text": "Powerful system-level package manager for Linux, macOS and Windows written in Rust \u2013 building on top of the Conda ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aloxaf/silicon",
+      "status": "candidate-context",
+      "text": "Create beautiful image of your source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aloxaf/silicon",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/silicon.svg)](https://crates.io/crates/silicon)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for silicon in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdn36/arrow-rs-object-store",
+      "status": "candidate-context",
+      "text": "Rust object_store crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdn36/arrow-rs-object-store",
+      "status": "candidate-context",
+      "text": "rust"
     }
   ],
   "candidate_glosses": [
@@ -10020,6 +10428,216 @@
       "source_repo": "jakudlaty/tsid",
       "status": "candidate",
       "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/fantoccini.svg)](https://crates.io/crates/fantoccini)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reproto/reproto",
+      "status": "candidate",
+      "text": "[![Build Status][github-badge]][github-action]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate",
+      "text": "[workspace] members = [\"ext/halton\"]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate",
+      "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pola-rs/polars",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate",
+      "text": "[![Language: Rust](https://img.shields.io/badge/Language-Rust-F46623)](https://www.rust-lang.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate",
+      "text": "[<img alt=\"CI\" src=\"https://github.com/bbqsrc/cargo-ndk/actions/workflows/ci.yml/badge.svg\">](https://github.com/bbqsrc/cargo-ndk/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rozbb/rust-hpke",
+      "status": "candidate",
+      "text": "rust-hpke"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs-modules-community/workflows/Continuous%20Integration/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glium/glium",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/glium/glium/actions/workflows/ci.yml/badge.svg)](https://github.com/glium/glium/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rosetta-rs/argparse-rosetta-rs",
+      "status": "candidate",
+      "text": "This repo tries to assess Rust arg parsing performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/sdk",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy",
+      "status": "candidate",
+      "text": "> deserialize environment variables into typesafe structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucagoslar/serde-envfile",
+      "status": "candidate",
+      "text": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tremby/snapmixer",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate",
+      "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maciejhirsz/logos",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parcel-bundler/lightningcss",
+      "status": "candidate",
+      "text": "An extremely fast CSS parser, transformer, and minifier written in Rust. Use it with [Parcel](https://parceljs.org), as a standalone library or CLI, or via a plugin with any other tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phsym/prettytable-rs",
+      "status": "candidate",
+      "text": "![License](http://img.shields.io/badge/license-BSD-lightgrey.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersTrier/reed-solomon-simd",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-rse/reed-solomon-erasure",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/darrenldl/reed-solomon-erasure.svg?branch=master)](https://travis-ci.org/darrenldl/reed-solomon-erasure)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustwasm/wee_alloc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-engines",
+      "status": "candidate",
+      "text": "[![Schema Engine + sql_schema_describer](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml/badge.svg)](https://github.com/prisma/prisma-engines/actions/workflows/test-schema-engine.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koute/stdweb",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aloxaf/silicon",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/silicon.svg)](https://crates.io/crates/silicon)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdn36/arrow-rs-object-store",
+      "status": "candidate",
+      "text": "rust"
     }
   ],
   "candidate_related_terms": [
@@ -15037,11 +15655,473 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jonhoo/fantoccini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "reproto/reproto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "matsadler/halton-rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdrokz/rust-llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pola-rs/polars"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "antoniusnaumann/cargo-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bbqsrc/cargo-ndk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rozbb/rust-hpke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-rs-modules-community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "glium/glium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/ttf-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rosetta-rs/argparse-rosetta-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ClementTsang/bottom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/dream2nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "softprops/envy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lucagoslar/serde-envfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "tremby/snapmixer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-embedded/volatile-register"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "google/safe-mmio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/safe-mmio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/asupersync"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "maciejhirsz/logos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "parcel-bundler/lightningcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "phsym/prettytable-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AndersTrier/reed-solomon-simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rustwasm/wee_alloc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "LuisaGroup/luisa-compute-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma-engines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "koute/stdweb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "prefix-dev/pixi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Aloxaf/silicon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "krivahtoo/silicon.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kdn36/arrow-rs-object-store"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

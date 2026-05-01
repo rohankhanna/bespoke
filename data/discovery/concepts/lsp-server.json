@@ -151,6 +151,30 @@
       "source_repo": "Shopify/ruby-lsp",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "pre-configured CLI (linters, formatters) -> LSP (IDE) adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PMunch/nimlsp",
+      "status": "candidate-context",
+      "text": "Language Server Protocol implementation for Nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PMunch/nimlsp",
+      "status": "candidate-context",
+      "text": "Nim Language Server Protocol"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "Shopify/ruby-lsp",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PMunch/nimlsp",
+      "status": "candidate",
+      "text": "Nim Language Server Protocol"
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +376,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PMunch/nimlsp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

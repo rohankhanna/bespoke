@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "mdrokz/rust-llama.cpp",
+      "target": "mindworkai/ai-studio",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "kherud/java-llama.cpp",
+      "target": "mobile-artificial-intelligence/maid",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "lostruins/koboldcpp",
+      "target": "mostlygeek/llama-swap",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "kalavai-net/kalavai-client",
+      "target": "morganro8/lucys_labyrinth",
       "target_type": "repository"
     },
     {
@@ -246,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "ggml-org/llama.cpp"
 }

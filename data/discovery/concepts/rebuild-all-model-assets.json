@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rebuild All Model Assets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "status": "candidate-context",
+      "text": "An assortment of assets that demonstrate features and capabilities of the glTF format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "status": "candidate-context",
+      "text": "Rebuild All Model Assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets",
+      "status": "candidate",
+      "text": "Rebuild All Model Assets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46070,
+      "status": "candidate",
+      "text": "estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41273,
+      "status": "candidate",
+      "text": "refurbished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41273,
+      "status": "candidate",
+      "text": "refurbishing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35564,
+      "status": "candidate",
+      "text": "capital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35564,
+      "status": "candidate",
+      "text": "liquidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rebuild All Model Assets",
+  "concept_id": "rebuild-all-model-assets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/RebuildAllAssets.yml",
+      "source_repo": "KhronosGroup/glTF-Sample-Assets"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rebuild All Model Assets",
+      "sense_id": "rebuild-all-model-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

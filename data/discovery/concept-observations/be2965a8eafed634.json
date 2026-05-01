@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of awesome styled-components resources \ud83d\udc85 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "styled-components",
+      "sense_id": "styled-components#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "styled-components",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "styled-components",
+  "observation_id": "be2965a8eafed634",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "styled-components",
+  "source_context_snippet": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)",
+  "source_file": null,
+  "source_repo": "styled-components/awesome-styled-components",
+  "source_repo_description": "A curated list of awesome styled-components resources \ud83d\udc85 "
+}

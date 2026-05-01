@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TRI-ML/dd3d",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TRI-ML/dd3d",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TRI-ML/dd3d",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:09.921014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of DD3D: Is Pseudo-Lidar needed for Monocular 3D Object detection? (ICCV 2021), Dennis Park*, Rares Ambrus*, Vitor Guizilini, Jie Li, and Adrien Gaidon.",
+    "fork": false,
+    "full_name": "TRI-ML/dd3d",
+    "html_url": "https://github.com/TRI-ML/dd3d",
+    "language": "Python",
+    "pushed_at": "2022-11-29T21:17:39Z",
+    "stargazers_count": 492,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T17:35:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://www.tri.global/\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.tri.global/\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.tri.global/\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

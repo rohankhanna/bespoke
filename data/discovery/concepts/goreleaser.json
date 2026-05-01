@@ -597,6 +597,42 @@
       "source_repo": "fatedier/frp",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofrp/tiny-frpc",
+      "status": "candidate-context",
+      "text": "tiny frpc using ssh protocol with frps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofrp/tiny-frpc",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate-context",
+      "text": "Declaratively deploy your Kubernetes manifests, Kustomize configs, and Charts as Helm releases. Generate all-in-one manifests for use with ArgoCD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate-context",
+      "text": "GoReleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate-context",
+      "text": "A Docker credential helper for GCR users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate-context",
+      "text": "goreleaser"
     }
   ],
   "candidate_glosses": [
@@ -885,6 +921,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fatedier/frp",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofrp/tiny-frpc",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/helmfile",
+      "status": "candidate",
+      "text": "GoReleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
       "status": "candidate",
       "text": "goreleaser"
     }
@@ -1224,11 +1278,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/goreleaser.yml",
       "source_repo": "fatedier/frp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "gofrp/tiny-frpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/releaser.yaml",
+      "source_repo": "helmfile/helmfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleCloudPlatform/docker-credential-gcr"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

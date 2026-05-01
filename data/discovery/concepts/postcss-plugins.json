@@ -19,6 +19,18 @@
       "source_repo": "postcss/autoprefixer",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"94\" height=\"71\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate-context",
+      "text": "PostCSS plugin to keep rules and at-rules content in order."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "postcss/autoprefixer",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"94\" height=\"71\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-sorting",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "postcss/autoprefixer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hudochenkov/postcss-sorting"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

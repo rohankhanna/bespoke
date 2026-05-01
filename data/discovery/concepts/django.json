@@ -139,6 +139,18 @@
       "source_repo": "mr-fatalyst/fastopenapi",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evansd/whitenoise",
+      "status": "candidate-context",
+      "text": "Radically simplified static file serving for Python web apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evansd/whitenoise",
+      "status": "candidate-context",
+      "text": "=========="
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "mr-fatalyst/fastopenapi",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evansd/whitenoise",
+      "status": "candidate",
+      "text": "=========="
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +334,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "mr-fatalyst/fastopenapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "evansd/whitenoise"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

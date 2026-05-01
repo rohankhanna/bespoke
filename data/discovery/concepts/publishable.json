@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "publishable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "Install PyTorch distributions with computation backend auto-detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate-context",
+      "text": "publishable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Slicer/light-the-torch",
+      "status": "candidate",
+      "text": "publishable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879601,
+      "status": "candidate",
+      "text": "magazinable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879600,
+      "status": "candidate",
+      "text": "publicizable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879599,
+      "status": "candidate",
+      "text": "bloggable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879598,
+      "status": "candidate",
+      "text": "uploadable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19879597,
+      "status": "candidate",
+      "text": "commercializable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "publishable",
+  "concept_id": "publishable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publishable.yml",
+      "source_repo": "Slicer/light-the-torch"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "publishable",
+      "sense_id": "publishable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

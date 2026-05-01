@@ -1,0 +1,12 @@
+{
+  "component": "KyleMayes/install-llvm-action@98e68e10c96dffcb7bfed8b2144541a66b49aa02",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison"
+    }
+  ]
+}

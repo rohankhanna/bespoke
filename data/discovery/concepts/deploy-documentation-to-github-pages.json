@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy documentation to GitHub Pages"
+    "Deploy documentation to GitHub Pages",
+    "Deploy Documentation to GitHub Pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "kvcache-ai/Mooncake",
       "status": "candidate-context",
       "text": "Deploy documentation to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Improbable-AI/VisionProTeleop",
+      "status": "candidate-context",
+      "text": "VisionOS App + Python Library to stream hand tracking data from Vision Pro, video/audio stream to Vision Pro."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/VisionProTeleop",
+      "status": "candidate-context",
+      "text": "Deploy Documentation to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "kvcache-ai/Mooncake",
       "status": "candidate",
       "text": "Deploy documentation to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Improbable-AI/VisionProTeleop",
+      "status": "candidate",
+      "text": "Deploy Documentation to GitHub Pages"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "kvcache-ai/Mooncake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "Improbable-AI/VisionProTeleop"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

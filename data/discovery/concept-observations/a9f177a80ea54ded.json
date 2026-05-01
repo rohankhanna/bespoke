@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The platform code behind MDN Web Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "mark-as-idle"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "mark-as-idle"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "mark-as-idle",
+      "sense_id": "mark-as-idle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mark-as-idle",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mark-as-idle",
+  "observation_id": "a9f177a80ea54ded",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "mark-as-idle",
+  "source_context_snippet": "mark-as-idle",
+  "source_file": ".github/workflows/mark-as-idle-issues-pr.yml",
+  "source_repo": "mdn/yari",
+  "source_repo_description": "The platform code behind MDN Web Docs"
+}

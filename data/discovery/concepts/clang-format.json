@@ -131,6 +131,18 @@
       "source_repo": "wincent/command-t",
       "status": "candidate-context",
       "text": "clang-format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate-context",
+      "text": "Numo::Linalg Alternative (numo-linalg-alt) is an alternative to Numo::Linalg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate-context",
+      "text": "clang-format"
     }
   ],
   "candidate_glosses": [
@@ -191,6 +203,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "wincent/command-t",
+      "status": "candidate",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-linalg-alt",
       "status": "candidate",
       "text": "clang-format"
     }
@@ -314,11 +332,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/clang-format.yml",
       "source_repo": "wincent/command-t"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "yoshoku/numo-linalg-alt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -553,6 +553,54 @@
       "source_repo": "sanel/monroe",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "Context sensitive completion for OCaml in Vim and Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f Default branch recently renamed to `main`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "pre-configured CLI (linters, formatters) -> LSP (IDE) adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnbeckwith/writegood-mode",
+      "status": "candidate-context",
+      "text": "Minor mode for Emacs to improve English writing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnbeckwith/writegood-mode",
+      "status": "candidate-context",
+      "text": "Minor mode for Emacs to improve English writing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/neocaml",
+      "status": "candidate-context",
+      "text": "A modern, TreeSitter-powered, Emacs package for programming in OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/neocaml",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/neocaml-badge.svg)](https://melpa.org/#/neocaml)"
     }
   ],
   "candidate_glosses": [
@@ -831,6 +879,30 @@
       "source_repo": "sanel/monroe",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f Default branch recently renamed to `main`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnbeckwith/writegood-mode",
+      "status": "candidate",
+      "text": "Minor mode for Emacs to improve English writing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/neocaml",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/neocaml-badge.svg)](https://melpa.org/#/neocaml)"
     }
   ],
   "candidate_related_terms": [
@@ -1162,11 +1234,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml/merlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bnbeckwith/writegood-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bbatsov/neocaml"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

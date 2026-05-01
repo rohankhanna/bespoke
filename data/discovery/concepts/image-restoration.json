@@ -259,6 +259,30 @@
       "source_repo": "caiyuanhao1998/BiSCI",
       "status": "candidate-context",
       "text": "&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/Real-ESRGAN-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "NCNN implementation of Real-ESRGAN. Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/Real-ESRGAN-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate-context",
+      "text": "neosr is an open-source framework for training super-resolution models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate-context",
+      "text": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +411,18 @@
       "source_repo": "caiyuanhao1998/BiSCI",
       "status": "candidate",
       "text": "&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/Real-ESRGAN-ncnn-vulkan",
+      "status": "candidate",
+      "text": "![CI](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate",
+      "text": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +556,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "caiyuanhao1998/BiSCI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xinntao/Real-ESRGAN-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "neosr-project/neosr"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

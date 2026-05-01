@@ -1,0 +1,489 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac-wheels.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "codeplea/tinyexpr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "interactivecomputergraphics/compactnsearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "interactivecomputergraphics/cunsearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "interactivecomputergraphics/blender-sequence-loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "build-linux-wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "build-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mac-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "build-mac-wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "build-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "build-windows-wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "build-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "deformable-solids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "fluid-dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "fluid-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "fluids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "multiphase-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "smoothed-particle-hydrodynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "sph-fluids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "target": "viscous-fluids",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:09:51.547312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7321
+    },
+    {
+      "path": ".github/workflows/build-linux-wheels.yml",
+      "size": 2178
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 562
+    },
+    {
+      "path": ".github/workflows/build-mac-wheels.yml",
+      "size": 2106
+    },
+    {
+      "path": ".github/workflows/build-mac.yml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/build-windows-wheels.yml",
+      "size": 1537
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SPlisHSPlasH is an open-source library for the physically-based simulation of fluids.",
+    "fork": false,
+    "full_name": "InteractiveComputerGraphics/SPlisHSPlasH",
+    "html_url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH",
+    "language": "C++",
+    "pushed_at": "2025-11-28T15:47:16Z",
+    "stargazers_count": 1835,
+    "topics": [
+      "deformable-solids",
+      "fluid-dynamics",
+      "fluid-simulation",
+      "fluids",
+      "multiphase-flow",
+      "simulation",
+      "smoothed-particle-hydrodynamics",
+      "sph",
+      "sph-fluids",
+      "viscous-fluids"
+    ],
+    "updated_at": "2026-04-30T19:08:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codeplea/tinyexpr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interactivecomputergraphics/blender-sequence-loader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interactivecomputergraphics/compactnsearch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interactivecomputergraphics/cunsearch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-linux-wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-wheels.yml",
+      "term": "build-linux-wheels"
+    },
+    {
+      "context_snippet": "build-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "build-linux"
+    },
+    {
+      "context_snippet": "build-mac-wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mac-wheels.yml",
+      "term": "build-mac-wheels"
+    },
+    {
+      "context_snippet": "build-mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mac.yml",
+      "term": "build-mac"
+    },
+    {
+      "context_snippet": "build-windows-wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "term": "build-windows-wheels"
+    },
+    {
+      "context_snippet": "build-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "build-windows"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deformable-solids"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluid-dynamics"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluid-simulation"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluids"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiphase-flow"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smoothed-particle-hydrodynamics"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sph-fluids"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viscous-fluids"
+    }
+  ]
+}

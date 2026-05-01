@@ -136,6 +136,18 @@
       "source_repo": "jupyterlab/extension-cookiecutter-ts",
       "status": "candidate-context",
       "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-ts/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-cookiecutter-ts/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/extension-cookiecutter-js",
+      "status": "candidate-context",
+      "text": "A cookiecutter recipe for building JupyterLab extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-cookiecutter-js",
+      "status": "candidate-context",
+      "text": "![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-js/workflows/CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +216,12 @@
       "source_repo": "jupyterlab/extension-cookiecutter-ts",
       "status": "candidate",
       "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-ts/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-cookiecutter-ts/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-cookiecutter-js",
+      "status": "candidate",
+      "text": "![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-js/workflows/CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -331,11 +349,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "jupyterlab/extension-cookiecutter-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jupyterlab/extension-cookiecutter-js"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

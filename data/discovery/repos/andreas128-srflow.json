@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andreas128/SRFlow",
+      "target": "lynnho/hd-celeba-cropper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andreas128/SRFlow",
+      "target": "fatheral/matlab_imresize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreas128/SRFlow",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreas128/SRFlow",
+      "target": "normalizing-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreas128/SRFlow",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreas128/SRFlow",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:10:04.785070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5422
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official SRFlow training code: Super-Resolution using Normalizing Flow in PyTorch",
+    "fork": false,
+    "full_name": "andreas128/SRFlow",
+    "html_url": "https://github.com/andreas128/SRFlow",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-12-08T11:44:49Z",
+    "stargazers_count": 854,
+    "topics": [
+      "image-manipulation",
+      "normalizing-flow",
+      "paper",
+      "super-resolution"
+    ],
+    "updated_at": "2026-03-21T07:48:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatheral/matlab_imresize",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lynnho/hd-celeba-cropper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalizing-flow"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Rust library crate with types for safe MMIO device access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-crate",
+      "sense_id": "rust-crate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-crate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-crate",
+  "observation_id": "c14f179b67f3039e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "rust-crate",
+  "source_context_snippet": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)",
+  "source_file": null,
+  "source_repo": "google/safe-mmio",
+  "source_repo_description": "A Rust library crate with types for safe MMIO device access"
+}

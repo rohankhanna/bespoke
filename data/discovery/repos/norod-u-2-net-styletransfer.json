@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Norod/U-2-Net-StyleTransfer",
+      "target": "image-stylization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Norod/U-2-Net-StyleTransfer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Norod/U-2-Net-StyleTransfer",
+      "target": "style-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Norod/U-2-Net-StyleTransfer",
+      "target": "u2net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:05:06.132765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2506
+    },
+    {
+      "path": "requirements.txt",
+      "size": 79
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "U-2-Net: U Square Net - Modified for paired image training of style transfer",
+    "fork": false,
+    "full_name": "Norod/U-2-Net-StyleTransfer",
+    "html_url": "https://github.com/Norod/U-2-Net-StyleTransfer",
+    "language": "Python",
+    "pushed_at": "2022-01-04T08:23:16Z",
+    "stargazers_count": 52,
+    "topics": [
+      "image-stylization",
+      "pytorch",
+      "style-transfer",
+      "u2net"
+    ],
+    "updated_at": "2025-10-31T15:59:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-stylization"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-transfer"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "u2net"
+    }
+  ]
+}

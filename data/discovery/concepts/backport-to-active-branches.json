@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Backport to active branches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/logstash",
+      "status": "candidate-context",
+      "text": "Logstash - transport and process your logs, events, or other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash",
+      "status": "candidate-context",
+      "text": "Backport to active branches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash",
+      "status": "candidate",
+      "text": "Backport to active branches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9304,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9304,
+      "status": "candidate",
+      "text": "limb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9304,
+      "status": "candidate",
+      "text": "service"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9304,
+      "status": "candidate",
+      "text": "twig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9272,
+      "status": "candidate",
+      "text": "address"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backport to active branches",
+  "concept_id": "backport-to-active-branches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/backport-active.yml",
+      "source_repo": "elastic/logstash"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backport to active branches",
+      "sense_id": "backport-to-active-branches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

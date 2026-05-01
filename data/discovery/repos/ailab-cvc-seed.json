@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/SEED",
+      "target": "ailab-cvc/seed-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/SEED",
+      "target": "foundation-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/SEED",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/SEED",
+      "target": "vision-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:27:31.531611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14974
+    },
+    {
+      "path": "requirements.txt",
+      "size": 190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of SEED-LLaMA (ICLR 2024).",
+    "fork": false,
+    "full_name": "AILab-CVC/SEED",
+    "html_url": "https://github.com/AILab-CVC/SEED",
+    "language": "Python",
+    "pushed_at": "2024-09-21T15:13:36Z",
+    "stargazers_count": 641,
+    "topics": [
+      "foundation-model",
+      "multimodal",
+      "vision-language"
+    ],
+    "updated_at": "2026-03-28T09:28:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ailab-cvc/seed-x",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Project Homepage](https://img.shields.io/badge/Project-Homepage-green)](https://ailab-cvc.github.io/seed/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-model"
+    },
+    {
+      "context_snippet": "[![Project Homepage](https://img.shields.io/badge/Project-Homepage-green)](https://ailab-cvc.github.io/seed/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "[![Project Homepage](https://img.shields.io/badge/Project-Homepage-green)](https://ailab-cvc.github.io/seed/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    }
+  ]
+}

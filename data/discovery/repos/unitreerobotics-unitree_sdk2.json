@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "unitreerobotics/unitree_sdk2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:18.354246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1431
+    },
+    {
+      "path": ".github/workflows/c-cpp.yml",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unitree robot sdk version 2. https://support.unitree.com/home/zh/developer",
+    "fork": false,
+    "full_name": "unitreerobotics/unitree_sdk2",
+    "html_url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "language": "C++",
+    "pushed_at": "2026-04-28T07:24:28Z",
+    "stargazers_count": 1059,
+    "topics": [],
+    "updated_at": "2026-04-30T15:55:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

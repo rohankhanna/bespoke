@@ -175,6 +175,30 @@
       "source_repo": "funcool/promesa",
       "status": "candidate-context",
       "text": "[![Clojars Project](http://clojars.org/funcool/promesa/latest-version.svg)](http://clojars.org/funcool/promesa)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate-context",
+      "text": "If only std::set was a DBMS: collection of templated ACID in-memory exception-free thread-safe and concurrent containers in a header-only library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "Async runtime for Rust where correctness is structural: region-owned tasks, cancel-correct protocols, capability-gated effects, and deterministic replay testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "funcool/promesa",
       "status": "candidate",
       "text": "[![Clojars Project](http://clojars.org/funcool/promesa/latest-version.svg)](http://clojars.org/funcool/promesa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -430,11 +466,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/asupersync"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

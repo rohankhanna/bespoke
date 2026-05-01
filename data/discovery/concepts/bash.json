@@ -721,6 +721,42 @@
       "source_repo": "gorilla-llm/gorilla-cli",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate-context",
+      "text": "Resolve Node.js version aliases like `latest`, `lts` or `erbium`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/node-version-alias)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate-context",
+      "text": "Normalize and validate Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/normalize-node-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate-context",
+      "text": "Get the preferred Node.js version of a project or user"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
     }
   ],
   "candidate_glosses": [
@@ -1077,6 +1113,24 @@
       "source_repo": "gorilla-llm/gorilla-cli",
       "status": "candidate",
       "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/node-version-alias)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/normalize-node-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
     }
   ],
   "candidate_related_terms": [
@@ -1690,11 +1744,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "gorilla-llm/gorilla-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/node-version-alias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/normalize-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/preferred-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/rbenv"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

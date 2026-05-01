@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Backfill Issue Labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/fern",
+      "status": "candidate-context",
+      "text": "Input OpenAPI. Output SDKs and Docs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/fern",
+      "status": "candidate-context",
+      "text": "Backfill Issue Labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/fern",
+      "status": "candidate",
+      "text": "Backfill Issue Labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24224,
+      "status": "candidate",
+      "text": "shading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24224,
+      "status": "candidate",
+      "text": "transcribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24224,
+      "status": "candidate",
+      "text": "translate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23501,
+      "status": "candidate",
+      "text": "names"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23440,
+      "status": "candidate",
+      "text": "mark"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backfill Issue Labels",
+  "concept_id": "backfill-issue-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/backfill-issue-labels.yml",
+      "source_repo": "fern-api/fern"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backfill Issue Labels",
+      "sense_id": "backfill-issue-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

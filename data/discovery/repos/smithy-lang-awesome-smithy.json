@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "awslabs/smithy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "aws/smithy-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "awslabs/smithy-dafny",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "aws-samples/smithy-server-generator-typescript-sample",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy",
+      "target": "smithy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:13:09.142463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Awesome Smithy is a curated list of awesome build-tools, code-generators, examples, and other resources related to the Smithy IDL.",
+    "fork": false,
+    "full_name": "smithy-lang/awesome-smithy",
+    "html_url": "https://github.com/smithy-lang/awesome-smithy",
+    "language": null,
+    "pushed_at": "2026-04-28T07:07:04Z",
+    "stargazers_count": 248,
+    "topics": [
+      "api",
+      "awesome",
+      "awesome-list",
+      "aws",
+      "client",
+      "codegen",
+      "sdk",
+      "server",
+      "smithy"
+    ],
+    "updated_at": "2026-04-28T07:07:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/smithy-server-generator-typescript-sample",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/smithy-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/smithy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/smithy-dafny",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client"
+    },
+    {
+      "context_snippet": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegen"
+    },
+    {
+      "context_snippet": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    },
+    {
+      "context_snippet": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smithy"
+    }
+  ]
+}

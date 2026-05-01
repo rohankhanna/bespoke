@@ -343,6 +343,30 @@
       "source_repo": "NVIDIA-AI-IOT/trt_pose",
       "status": "candidate-context",
       "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate-context",
+      "text": "ONNX-compatible LightGlue: Local Feature Matching at Light Speed. Supports TensorRT, OpenVINO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate-context",
+      "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "Turn any computer or edge device into a command center for your computer vision projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +537,18 @@
       "source_repo": "NVIDIA-AI-IOT/trt_pose",
       "status": "candidate",
       "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate",
+      "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -694,11 +730,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-AI-IOT/trt_pose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fabio-sim/LightGlue-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/inference"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

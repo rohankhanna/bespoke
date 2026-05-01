@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- OpenSim Logo -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- OpenSim Logo -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955693,
+      "status": "candidate",
+      "text": "analogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881671,
+      "status": "candidate",
+      "text": "pretending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878768,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39874328,
+      "status": "candidate",
+      "text": "pretense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873199,
+      "status": "candidate",
+      "text": "feigning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simulation",
+      "sense_id": "simulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31033,
+      "status": "candidate",
+      "text": "pretense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29030,
+      "status": "candidate",
+      "text": "pretence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28061,
+      "status": "candidate",
+      "text": "analogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10022,
+      "status": "candidate",
+      "text": "feigning"
+    }
+  ],
+  "concept_id": "simulation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "simulation",
+  "observation_id": "1c1046e2d5c7b32a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "simulation",
+  "source_context_snippet": "<!-- OpenSim Logo -->",
+  "source_file": null,
+  "source_repo": "opensim-org/opensim-core",
+  "source_repo_description": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping."
+}

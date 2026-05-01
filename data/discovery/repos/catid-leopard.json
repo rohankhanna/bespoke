@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "catid/leopard",
+      "target": "bulat-ziganshin/fastecc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:57.395356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Leopard-RS : O(N Log N) MDS Reed-Solomon Block Erasure Code for Large Data",
+    "fork": false,
+    "full_name": "catid/leopard",
+    "html_url": "https://github.com/catid/leopard",
+    "language": "C++",
+    "pushed_at": "2024-03-23T11:20:16Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-04-29T12:23:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bulat-ziganshin/fastecc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

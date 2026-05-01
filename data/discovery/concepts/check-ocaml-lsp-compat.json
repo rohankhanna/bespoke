@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "Check ocaml-lsp compat"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "Context sensitive completion for OCaml in Vim and Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "Check ocaml-lsp compat"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate",
+      "text": "Check ocaml-lsp compat"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "absorption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "aat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check ocaml-lsp compat",
+  "concept_id": "check-ocaml-lsp-compat",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ocaml-lsp-compat.yml",
+      "source_repo": "ocaml/merlin"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check ocaml-lsp compat",
+      "sense_id": "check-ocaml-lsp-compat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

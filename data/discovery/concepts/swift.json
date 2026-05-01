@@ -952,6 +952,102 @@
       "source_repo": "Quick/Quick",
       "status": "candidate-context",
       "text": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reproto/reproto",
+      "status": "candidate-context",
+      "text": "Rethinking Protocols"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reproto/reproto",
+      "status": "candidate-context",
+      "text": "[![Build Status][github-badge]][github-action]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CameLLM/CameLLM",
+      "status": "candidate-context",
+      "text": "Run your favourite LLMs locally on macOS from Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM",
+      "status": "candidate-context",
+      "text": "<img src=\"Resources/Banner-b47186.png\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate-context",
+      "text": "A cargo plugin to easily build Swift packages from Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate-context",
+      "text": "[![Language: Rust](https://img.shields.io/badge/Language-Rust-F46623)](https://www.rust-lang.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate-context",
+      "text": "A Matcher Framework for Swift and Objective-C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CameLLM/CameLLM-Common",
+      "status": "candidate-context",
+      "text": "Shared supporting code useful for CameLLM plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM-Common",
+      "status": "candidate-context",
+      "text": "This repository is under development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "status": "candidate-context",
+      "text": "Plugin for CameLLM supporting the LLaMA family of models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "status": "candidate-context",
+      "text": "This repository is under development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CameLLM/CameLLM-Plugin-Harness",
+      "status": "candidate-context",
+      "text": "Supporting infrastructure for CameLLM plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM-Plugin-Harness",
+      "status": "candidate-context",
+      "text": "This repository is under development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
     }
   ],
   "candidate_glosses": [
@@ -1434,6 +1530,54 @@
       "source_repo": "Quick/Quick",
       "status": "candidate",
       "text": "![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reproto/reproto",
+      "status": "candidate",
+      "text": "[![Build Status][github-badge]][github-action]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM",
+      "status": "candidate",
+      "text": "<img src=\"Resources/Banner-b47186.png\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoniusnaumann/cargo-swift",
+      "status": "candidate",
+      "text": "[![Language: Rust](https://img.shields.io/badge/Language-Rust-F46623)](https://www.rust-lang.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM-Common",
+      "status": "candidate",
+      "text": "This repository is under development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM-Llama",
+      "status": "candidate",
+      "text": "This repository is under development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CameLLM/CameLLM-Plugin-Harness",
+      "status": "candidate",
+      "text": "This repository is under development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
     }
   ],
   "candidate_related_terms": [
@@ -2221,11 +2365,89 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/swift.yml",
       "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "reproto/reproto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "antoniusnaumann/cargo-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Quick/Nimble"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM-Common"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM-Llama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CameLLM/CameLLM-Plugin-Harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/appwrite"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

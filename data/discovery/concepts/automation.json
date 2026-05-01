@@ -1,7 +1,8 @@
 {
   "aliases": [
     "automation",
-    "Automation"
+    "Automation",
+    "Automation \ud83c\udf9b\ufe0f"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -790,6 +791,78 @@
       "source_repo": "getsavvyinc/savvy-cli",
       "status": "candidate-context",
       "text": "<h3 align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "A high-level API for programmatically interacting with web pages through WebDriver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/fantoccini.svg)](https://crates.io/crates/fantoccini)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alferov/awesome-gulp",
+      "status": "candidate-context",
+      "text": ":tropical_drink: A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow automation - http://alferov.github.io/awesome-gulp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alferov/awesome-gulp",
+      "status": "candidate-context",
+      "text": "awesome-gulp \u2014 A curated list of awesome Gulp resources, plugins and boilerplates for a better development workflow automation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-repo-automator",
+      "status": "candidate-context",
+      "text": "GitHub Action to automate common repo operations like validate PR description, changelog, and credits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-repo-automator",
+      "status": "candidate-context",
+      "text": "> GitHub Action that automates some common repository operations like validating PR description, changelog and credits."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Netflix/go-expect",
+      "status": "candidate-context",
+      "text": "an expect-like golang library to automate control of terminal or console based programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Netflix/go-expect",
+      "status": "candidate-context",
+      "text": "![Go](https://github.com/Netflix/go-expect/workflows/Go/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Next-gen browser and mobile automation test framework for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate-context",
+      "text": "The Free Software Media System - Official Web Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate-context",
+      "text": "Automation \ud83c\udf9b\ufe0f"
     }
   ],
   "candidate_glosses": [
@@ -1176,6 +1249,42 @@
       "source_repo": "getsavvyinc/savvy-cli",
       "status": "candidate",
       "text": "<h3 align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/fantoccini.svg)](https://crates.io/crates/fantoccini)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alferov/awesome-gulp",
+      "status": "candidate",
+      "text": "awesome-gulp \u2014 A curated list of awesome Gulp resources, plugins and boilerplates for a better development workflow automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-repo-automator",
+      "status": "candidate",
+      "text": "> GitHub Action that automates some common repository operations like validating PR description, changelog and credits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Netflix/go-expect",
+      "status": "candidate",
+      "text": "![Go](https://github.com/Netflix/go-expect/workflows/Go/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jellyfin/jellyfin-web",
+      "status": "candidate",
+      "text": "Automation \ud83c\udf9b\ufe0f"
     }
   ],
   "candidate_related_terms": [
@@ -1213,6 +1322,41 @@
       "score": 30034825,
       "status": "candidate",
       "text": "computerised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "automate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "automates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "computerisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "computerization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "robot"
     }
   ],
   "candidate_synonyms": [
@@ -1764,11 +1908,71 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jonhoo/fantoccini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "alferov/awesome-gulp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "10up/action-repo-automator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Netflix/go-expect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webdriverio/webdriverio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/__automation.yml",
+      "source_repo": "jellyfin/jellyfin-web"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

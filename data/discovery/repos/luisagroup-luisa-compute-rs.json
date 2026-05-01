@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "shiinamiyuki/akari_render",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "Jimver/cuda-toolkit@v0.2.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "differentiable-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "differentiable-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "directx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "gpu-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "raytracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "shading-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:03.138877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22660
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 266
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust frontend to LuisaCompute and more! ",
+    "fork": false,
+    "full_name": "LuisaGroup/luisa-compute-rs",
+    "html_url": "https://github.com/LuisaGroup/luisa-compute-rs",
+    "language": "Rust",
+    "pushed_at": "2025-12-19T13:49:24Z",
+    "stargazers_count": 62,
+    "topics": [
+      "computer-graphics",
+      "cuda",
+      "differentiable-programming",
+      "differentiable-rendering",
+      "directx",
+      "dsl",
+      "dx",
+      "gpu",
+      "gpu-programming",
+      "graphics",
+      "raytracing",
+      "rendering",
+      "rust",
+      "shading-language",
+      "vulkan"
+    ],
+    "updated_at": "2026-05-01T06:23:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shiinamiyuki/akari_render",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-programming"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-rendering"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-programming"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raytracing"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shading-language"
+    },
+    {
+      "context_snippet": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

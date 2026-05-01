@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/awesome-echarts",
+      "target": "alixdehghani/echarts-for-angular",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/awesome-echarts",
+      "target": "bherbruck/svelte-echarts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/awesome-echarts",
+      "target": "ambit-tsai/echarts-for-vue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/awesome-echarts",
+      "target": "abel533/echarts",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "ecomfe/awesome-echarts"
+}

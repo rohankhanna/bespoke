@@ -1,0 +1,279 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "havenfeng/photometric_optimization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "timobolkart/bfm_to_flame",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "timobolkart/flame-universe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "silviazuffi/smalr_online",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "3d-face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "3d-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "chumpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "face-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "flame-fitting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "flame-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "morphable-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting",
+      "target": "smpl-x",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:34:39.613872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6151
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example code for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 3D keypoints and 3D scans.",
+    "fork": false,
+    "full_name": "Rubikplayer/flame-fitting",
+    "html_url": "https://github.com/Rubikplayer/flame-fitting",
+    "language": "Python",
+    "pushed_at": "2023-02-16T02:19:52Z",
+    "stargazers_count": 820,
+    "topics": [
+      "3d-face-alignment",
+      "3d-model",
+      "3d-reconstruction",
+      "chumpy",
+      "computer-graphics",
+      "computer-vision",
+      "face",
+      "face-alignment",
+      "face-model",
+      "flame",
+      "flame-fitting",
+      "flame-model",
+      "morphable-model",
+      "smpl-x"
+    ],
+    "updated_at": "2026-04-30T09:40:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "havenfeng/photometric_optimization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "silviazuffi/smalr_online",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timobolkart/bfm_to_flame",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timobolkart/flame-universe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-alignment"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-model"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chumpy"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-model"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-fitting"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-model"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "morphable-model"
+    },
+    {
+      "context_snippet": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpl-x"
+    }
+  ]
+}

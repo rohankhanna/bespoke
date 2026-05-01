@@ -167,6 +167,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gastownhall/gastown",
+      "target": "you/repo",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/block-internal-prs.yml",
       "source_repo": "gastownhall/gastown",
@@ -335,11 +342,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:55:45.547662+00:00",
+  "fetched_at": "2026-05-01T09:12:46.403512+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 25416
+      "size": 25530
     },
     {
       "path": "Dockerfile",
@@ -355,7 +362,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 6497
+      "size": 6510
     },
     {
       "path": ".github/workflows/close-stale-needs.yml",
@@ -387,10 +394,10 @@
     "full_name": "gastownhall/gastown",
     "html_url": "https://github.com/gastownhall/gastown",
     "language": "Go",
-    "pushed_at": "2026-04-30T18:16:07Z",
-    "stargazers_count": 14814,
+    "pushed_at": "2026-05-01T08:18:39Z",
+    "stargazers_count": 14835,
     "topics": [],
-    "updated_at": "2026-04-30T19:47:42Z"
+    "updated_at": "2026-05-01T08:29:39Z"
   },
   "repo_links": [
     {
@@ -401,6 +408,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "steveyegge/gastown",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "you/repo",
       "source_file": "README.md"
     }
   ],

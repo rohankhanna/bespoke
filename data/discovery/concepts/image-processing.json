@@ -523,6 +523,54 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate-context",
+      "text": "Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate-context",
+      "text": "<!-- SPDX-License-Identifier: CC-BY-4.0 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "pix2tex: Using a ViT to convert images of equations into LaTeX code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate-context",
+      "text": "PaQ2PiQ in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letmaik/rawpy-notebooks",
+      "status": "candidate-context",
+      "text": "A collection of Jupyter notebooks using rawpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letmaik/rawpy-notebooks",
+      "status": "candidate-context",
+      "text": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy)."
     }
   ],
   "candidate_glosses": [
@@ -783,6 +831,30 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate",
+      "text": "<!-- SPDX-License-Identifier: CC-BY-4.0 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate",
+      "text": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letmaik/rawpy-notebooks",
+      "status": "candidate",
+      "text": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy)."
     }
   ],
   "candidate_related_terms": [],
@@ -1132,11 +1204,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "roboflow/supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-blecher/LaTeX-OCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "baidut/paq2piq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "letmaik/rawpy-notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

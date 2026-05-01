@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bennadel/CUID2-For-ColdFusion",
+      "target": "bennadel/cuid-for-coldfusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:20:12.101071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A ColdFusion / CFML port of the Cuid2 library by Eric Elliott.",
+    "fork": false,
+    "full_name": "bennadel/CUID2-For-ColdFusion",
+    "html_url": "https://github.com/bennadel/CUID2-For-ColdFusion",
+    "language": "ColdFusion",
+    "pushed_at": "2023-01-26T14:34:57Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-08-18T20:04:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bennadel/cuid-for-coldfusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

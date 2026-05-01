@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1537,6 +1537,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dev_pr.yml",
       "source_repo": "delta-io/delta-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/encryption-tests.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tidelift-alignment.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compare.yml",
+      "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-and-unit-test.yml",
+      "source_repo": "gradle/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-update-dist.yml",
+      "source_repo": "gradle/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nanostores/nanostores"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__package.yml",
+      "source_repo": "jellyfin/jellyfin-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__quality_checks.yml",
+      "source_repo": "jellyfin/jellyfin-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "jellyfin/jellyfin-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "source_repo": "VOICEVOX/preview-pages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "VOICEVOX/preview-pages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_pages.yml",
+      "source_repo": "VOICEVOX/preview-pages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "firebase/FirebaseUI-Flutter"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -317,6 +317,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update_manifest.yml",
       "source_repo": "JuliaPackaging/Yggdrasil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-since-updater.yml",
+      "source_repo": "jenkinsci/jenkins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-cleanup-bot.yml",
+      "source_repo": "mdn/content"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/interfacedata-updater.yml",
+      "source_repo": "mdn/content"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-cleanup-bot.yml",
+      "source_repo": "mdn/translated-content"
     }
   ]
 }

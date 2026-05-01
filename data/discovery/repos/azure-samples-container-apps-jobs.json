@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml"
+    },
+    {
+      "component": "microsoft/security-devops-action@preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/container-apps-jobs",
+      "target": "theskumar/python-dotenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/container-apps-jobs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/container-apps-jobs",
+      "target": "microsoft/security-devops-action@preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/container-apps-jobs",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "source_repo": "Azure-Samples/container-apps-jobs",
+      "target": "Validate bicep templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:25.710973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 85771
+    },
+    {
+      "path": ".github/workflows/bicep-audit.yml",
+      "size": 786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This sample shows how to create Azure Container Apps Jobs via Azure CLI and Bicep and how to start and monitor these components.",
+    "fork": false,
+    "full_name": "Azure-Samples/container-apps-jobs",
+    "html_url": "https://github.com/Azure-Samples/container-apps-jobs",
+    "language": "Bicep",
+    "pushed_at": "2024-04-22T09:31:43Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-01-25T15:13:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theskumar/python-dotenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate bicep templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bicep-audit.yml",
+      "term": "Validate bicep templates"
+    }
+  ]
+}

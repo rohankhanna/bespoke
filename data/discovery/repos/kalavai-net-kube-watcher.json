@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kalavai-net/kube-watcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kalavai-net/kube-watcher",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kalavai-net/kube-watcher",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kalavai-net/kube-watcher",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kalavai-net/kube-watcher",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:28:53.376540+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4417
+    },
+    {
+      "path": "Dockerfile",
+      "size": 764
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1179
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Monitor and deploy resources in a kalavai cluster",
+    "fork": false,
+    "full_name": "kalavai-net/kube-watcher",
+    "html_url": "https://github.com/kalavai-net/kube-watcher",
+    "language": "Python",
+    "pushed_at": "2026-04-24T15:25:39Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-24T15:25:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish Docker image"
+    }
+  ]
+}

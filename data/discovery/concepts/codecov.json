@@ -178,6 +178,42 @@
       "source_repo": "jaredwray/keyv",
       "status": "candidate-context",
       "text": "codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "Yet another cross-platform graphical process/system monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/multiprecision",
+      "status": "candidate-context",
+      "text": "Boost.Multiprecision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/multiprecision",
+      "status": "candidate-context",
+      "text": "codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "a robust, scalable, and maintained set of caching packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "codecov"
     }
   ],
   "candidate_glosses": [
@@ -262,6 +298,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jaredwray/keyv",
+      "status": "candidate",
+      "text": "codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate",
+      "text": "codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/multiprecision",
+      "status": "candidate",
+      "text": "codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
       "status": "candidate",
       "text": "codecov"
     }
@@ -361,11 +415,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/codecov.yaml",
       "source_repo": "jaredwray/keyv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ClementTsang/bottom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "boostorg/multiprecision"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "jaredwray/cacheable"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

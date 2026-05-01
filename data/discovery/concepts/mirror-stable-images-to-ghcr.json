@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mirror Stable Images to GHCR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/docker-rust",
+      "status": "candidate-context",
+      "text": "The official Docker images for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/docker-rust",
+      "status": "candidate-context",
+      "text": "Mirror Stable Images to GHCR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/docker-rust",
+      "status": "candidate",
+      "text": "Mirror Stable Images to GHCR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34584,
+      "status": "candidate",
+      "text": "twins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34311,
+      "status": "candidate",
+      "text": "reflective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34278,
+      "status": "candidate",
+      "text": "actinomorphic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34278,
+      "status": "candidate",
+      "text": "twin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27489,
+      "status": "candidate",
+      "text": "enantiomorph"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mirror Stable Images to GHCR",
+  "concept_id": "mirror-stable-images-to-ghcr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/mirror_stable.yml",
+      "source_repo": "rust-lang/docker-rust"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror Stable Images to GHCR",
+      "sense_id": "mirror-stable-images-to-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

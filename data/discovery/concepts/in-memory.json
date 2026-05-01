@@ -91,6 +91,30 @@
       "source_repo": "hazelcast/hazelcast-nodejs-client",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/memfs",
+      "status": "candidate-context",
+      "text": "Node.js \"fs\" and browser \"File System API\" adapters and in-memory implementations \ud83d\udc4d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/memfs",
+      "status": "candidate-context",
+      "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate-context",
+      "text": "If only std::set was a DBMS: collection of templated ACID in-memory exception-free thread-safe and concurrent containers in a header-only library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "hazelcast/hazelcast-nodejs-client",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/memfs",
+      "status": "candidate",
+      "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SmashTable",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +256,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hazelcast/hazelcast-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/memfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

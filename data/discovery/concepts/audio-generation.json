@@ -103,6 +103,30 @@
       "source_repo": "multimodal-art-projection/YuE",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Audio generation using diffusion models, in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./LOGO.png\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/soundstorm-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of SoundStorm, Efficient Parallel Audio Generation from Google Deepmind, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/soundstorm-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./soundstorm.png\" width=\"450px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "multimodal-art-projection/YuE",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./LOGO.png\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/soundstorm-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./soundstorm.png\" width=\"450px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +286,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "multimodal-art-projection/YuE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "archinetai/audio-diffusion-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/soundstorm-pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -226,6 +226,18 @@
       "source_repo": "bndtools/bnd",
       "status": "candidate-context",
       "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "Git integration for buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "stale"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +348,12 @@
       "source_repo": "bndtools/bnd",
       "status": "candidate",
       "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate",
+      "text": "stale"
     }
   ],
   "candidate_related_terms": [
@@ -547,11 +565,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "bndtools/bnd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/response.yml",
+      "source_repo": "lewis6991/gitsigns.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

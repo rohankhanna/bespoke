@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bartowski1182/koboldcpp-docker",
+      "target": "noneabove1182/koboldcpp-docker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:02.858040+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2754
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Docker configuration for koboldcpp",
+    "fork": false,
+    "full_name": "bartowski1182/koboldcpp-docker",
+    "html_url": "https://github.com/bartowski1182/koboldcpp-docker",
+    "language": "Shell",
+    "pushed_at": "2024-03-27T21:58:41Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-17T01:08:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noneabove1182/koboldcpp-docker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

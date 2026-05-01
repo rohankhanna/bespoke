@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alibaba/druid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alibaba/druid",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alibaba/druid",
+      "target": "codecov/codecov-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alibaba/druid",
+      "target": "Java CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:07:40.973970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5801
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u963f\u91cc\u4e91\u8ba1\u7b97\u5e73\u53f0DataWorks(https://help.aliyun.com/document_detail/137663.html) \u56e2\u961f\u51fa\u54c1\uff0c\u4e3a\u76d1\u63a7\u800c\u751f\u7684\u6570\u636e\u5e93\u8fde\u63a5\u6c60",
+    "fork": false,
+    "full_name": "alibaba/druid",
+    "html_url": "https://github.com/alibaba/druid",
+    "language": "Java",
+    "pushed_at": "2026-04-22T06:07:52Z",
+    "stargazers_count": 28196,
+    "topics": [],
+    "updated_at": "2026-04-30T23:58:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Java CI"
+    }
+  ]
+}

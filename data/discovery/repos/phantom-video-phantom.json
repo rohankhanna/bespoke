@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Phantom-video/Phantom",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Phantom-video/Phantom",
+      "target": "consistency-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Phantom-video/Phantom",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Phantom-video/Phantom",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:05.992037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13049
+    },
+    {
+      "path": "requirements.txt",
+      "size": 240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment",
+    "fork": false,
+    "full_name": "Phantom-video/Phantom",
+    "html_url": "https://github.com/Phantom-video/Phantom",
+    "language": "Python",
+    "pushed_at": "2025-09-11T14:52:42Z",
+    "stargazers_count": 1501,
+    "topics": [
+      "aigc",
+      "consistency-models",
+      "text-to-video",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-27T11:01:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consistency-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

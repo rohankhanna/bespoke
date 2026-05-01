@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "vlarsson/poselib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "tsattler/ransaclib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "poselib/posebench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "pypa/cibuildwheel@v3.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PoseLib/PoseLib",
+      "target": "Build PoseLib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:31:00.797444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26022
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1015
+    },
+    {
+      "path": ".github/workflows/build-pypi.yaml",
+      "size": 1427
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimal solvers for calibrated camera pose estimation",
+    "fork": false,
+    "full_name": "PoseLib/PoseLib",
+    "html_url": "https://github.com/PoseLib/PoseLib",
+    "language": "C++",
+    "pushed_at": "2026-03-18T12:40:48Z",
+    "stargazers_count": 1176,
+    "topics": [],
+    "updated_at": "2026-04-29T02:57:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsattler/ransaclib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vlarsson/poselib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "poselib/posebench",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build PoseLib",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build PoseLib"
+    }
+  ]
+}

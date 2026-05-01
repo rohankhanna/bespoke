@@ -19,6 +19,18 @@
       "source_repo": "evanwashere/mitata",
       "status": "candidate-context",
       "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate-context",
+      "text": "Simple, fast, accurate single-header microbenchmarking functionality for C++11/14/17/20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "evanwashere/mitata",
       "status": "candidate",
       "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "martinus/nanobench"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

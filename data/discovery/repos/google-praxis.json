@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:20:57.622374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google/praxis",
+    "html_url": "https://github.com/google/praxis",
+    "language": "Python",
+    "pushed_at": "2026-04-29T12:27:46Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2026-04-29T12:27:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

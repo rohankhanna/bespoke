@@ -260,6 +260,18 @@
       "source_repo": "amannn/action-semantic-pull-request",
       "status": "candidate-context",
       "text": "'Lint PR title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "Examples for using Connect with various TypeScript web frameworks and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
     }
   ],
   "candidate_glosses": [
@@ -388,6 +400,12 @@
       "source_repo": "amannn/action-semantic-pull-request",
       "status": "candidate",
       "text": "'Lint PR title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate",
+      "text": "Lint PR Title"
     }
   ],
   "candidate_related_terms": [
@@ -557,11 +575,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/lint-pr-title.yml",
       "source_repo": "amannn/action-semantic-pull-request"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/examples-es"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

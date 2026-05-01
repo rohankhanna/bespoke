@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "mkocabas/vibe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "namepllet/handoccnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "mks0601/neuralannot_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "mkocabas/multi-person-tracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "3d-human-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "3d-human-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "3d-human-shape-and-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "temporal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:11:38.550362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5142
+    },
+    {
+      "path": "requirements.txt",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Pytorch implementation of \"Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video\", CVPR 2021",
+    "fork": false,
+    "full_name": "hongsukchoi/TCMR_RELEASE",
+    "html_url": "https://github.com/hongsukchoi/TCMR_RELEASE",
+    "language": "Python",
+    "pushed_at": "2023-04-18T21:19:05Z",
+    "stargazers_count": 317,
+    "topics": [
+      "3d-human-mesh",
+      "3d-human-motion",
+      "3d-human-shape-and-pose-estimation",
+      "cvpr2021",
+      "temporal",
+      "video"
+    ],
+    "updated_at": "2026-04-13T04:07:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkocabas/vibe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mks0601/neuralannot_release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "namepllet/handoccnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkocabas/multi-person-tracker",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "| Qualtitative result | Paper teaser video |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-mesh"
+    },
+    {
+      "context_snippet": "| Qualtitative result | Paper teaser video |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-motion"
+    },
+    {
+      "context_snippet": "| Qualtitative result | Paper teaser video |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-shape-and-pose-estimation"
+    },
+    {
+      "context_snippet": "| Qualtitative result | Paper teaser video |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "| Qualtitative result | Paper teaser video |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temporal"
+    },
+    {
+      "context_snippet": "| Qualtitative result | Paper teaser video |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

@@ -16,13 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "VITA-Group/SLaK",
-      "target": "vita-group/random_pruning",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "VITA-Group/SLaK",
@@ -86,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T00:57:54.939116+00:00",
+  "fetched_at": "2026-05-01T09:28:30.596252+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -103,7 +96,7 @@
     "html_url": "https://github.com/VITA-Group/SLaK",
     "language": "HTML",
     "pushed_at": "2023-07-05T07:21:04Z",
-    "stargazers_count": 285,
+    "stargazers_count": 284,
     "topics": [
       "51x51",
       "convnet",
@@ -115,7 +108,7 @@
       "pytorch",
       "segmentation"
     ],
-    "updated_at": "2026-04-13T11:36:47Z"
+    "updated_at": "2026-05-01T07:00:39Z"
   },
   "repo_links": [
     {
@@ -126,11 +119,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "shiweiliuiiiiiii/slak",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vita-group/random_pruning",
       "source_file": "README.md"
     }
   ],

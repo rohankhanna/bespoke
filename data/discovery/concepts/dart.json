@@ -382,6 +382,42 @@
       "source_repo": "aagarwal1012/Animated-Text-Kit",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A collection of Firebase plugins for Flutter apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/thrift",
+      "status": "candidate-context",
+      "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/thrift",
+      "status": "candidate-context",
+      "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invertase/melos",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0b  A tool for managing Dart projects with multiple packages. With IntelliJ and Vscode IDE support. Supports automated versioning, changelogs & publishing via Conventional Commits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invertase/melos",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -576,6 +612,24 @@
       "source_repo": "aagarwal1012/Animated-Text-Kit",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/flutterfire",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/thrift",
+      "status": "candidate",
+      "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invertase/melos",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -913,11 +967,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/thrift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "invertase/melos"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

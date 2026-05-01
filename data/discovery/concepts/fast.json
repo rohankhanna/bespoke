@@ -223,6 +223,30 @@
       "source_repo": "beve-org/beve",
       "status": "candidate-context",
       "text": "Version 1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valyala/quicktemplate",
+      "status": "candidate-context",
+      "text": "Fast, powerful, yet easy to use template engine for Go. Optimized for speed, zero memory allocations in hot paths. Up to 20x faster than html/template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/quicktemplate",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/valyala/quicktemplate.svg)](https://travis-ci.org/valyala/quicktemplate)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "beve-org/beve",
       "status": "candidate",
       "text": "Version 1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/quicktemplate",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/valyala/quicktemplate.svg)](https://travis-ci.org/valyala/quicktemplate)"
     }
   ],
   "candidate_related_terms": [
@@ -532,11 +568,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "csstree/csstree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "valyala/quicktemplate"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

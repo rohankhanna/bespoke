@@ -133,6 +133,54 @@
       "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate-context",
       "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate-context",
+      "text": "Samples for the various Swagger projects under swagger-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate-context",
+      "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate-context",
+      "text": "Swagger module for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate-context",
+      "text": "This GitHub repository has been archived."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate-context",
+      "text": "The OpenAPI v3 specification for DigitalOcean's public API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate-context",
+      "text": "![Spec Main](https://github.com/digitalocean/apiv2-openapi/workflows/Spec%20Main/badge.svg) ![Status](https://img.shields.io/badge/Status-Early%20Availability-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate-context",
+      "text": "OpenAPI integration for Falco."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate-context",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.OpenApi.svg)](https://www.nuget.org/packages/Falco.OpenApi)"
     }
   ],
   "candidate_glosses": [
@@ -201,6 +249,30 @@
       "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate",
       "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate",
+      "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-node",
+      "status": "candidate",
+      "text": "This GitHub repository has been archived."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate",
+      "text": "![Spec Main](https://github.com/digitalocean/apiv2-openapi/workflows/Spec%20Main/badge.svg) ![Status](https://img.shields.io/badge/Status-Early%20Availability-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco.OpenApi",
+      "status": "candidate",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.OpenApi.svg)](https://www.nuget.org/packages/Falco.OpenApi)"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +364,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.OpenApi"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

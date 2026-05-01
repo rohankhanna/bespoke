@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Koboldcpp Linux ARM64"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LostRuins/koboldcpp",
+      "status": "candidate-context",
+      "text": "Run GGUF models easily with a KoboldAI UI. One File. Zero Install."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LostRuins/koboldcpp",
+      "status": "candidate-context",
+      "text": "Koboldcpp Linux ARM64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LostRuins/koboldcpp",
+      "status": "candidate",
+      "text": "Koboldcpp Linux ARM64"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "debian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "beatrix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Koboldcpp Linux ARM64",
+  "concept_id": "koboldcpp-linux-arm64",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml",
+      "source_repo": "LostRuins/koboldcpp"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Koboldcpp Linux ARM64",
+      "sense_id": "koboldcpp-linux-arm64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

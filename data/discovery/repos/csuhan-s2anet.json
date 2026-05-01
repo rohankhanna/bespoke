@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csuhan/s2anet",
+      "target": "aerial-image-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csuhan/s2anet",
+      "target": "feature-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csuhan/s2anet",
+      "target": "mmdetection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csuhan/s2anet",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csuhan/s2anet",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:33:32.619242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10692
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official code of the paper \"Align Deep Features for Oriented Object Detection\"",
+    "fork": false,
+    "full_name": "csuhan/s2anet",
+    "html_url": "https://github.com/csuhan/s2anet",
+    "language": "Python",
+    "pushed_at": "2024-12-15T12:36:37Z",
+    "stargazers_count": 393,
+    "topics": [
+      "aerial-image-detection",
+      "feature-alignment",
+      "mmdetection",
+      "object-detection",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-19T01:56:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](demo/network.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aerial-image-detection"
+    },
+    {
+      "context_snippet": "![](demo/network.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-alignment"
+    },
+    {
+      "context_snippet": "![](demo/network.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmdetection"
+    },
+    {
+      "context_snippet": "![](demo/network.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "![](demo/network.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:12:15.655076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ved015/CogVideoX-5b-Physics_iq_benchmarking",
+    "html_url": "https://github.com/ved015/CogVideoX-5b-Physics_iq_benchmarking",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-01-06T14:16:59Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-06T14:17:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

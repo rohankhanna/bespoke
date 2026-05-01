@@ -3821,6 +3821,204 @@
       "source_repo": "securego/gosec",
       "status": "candidate-context",
       "text": "Inspects source code for security problems by scanning the Go AST"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankitpokhrel/shopctl",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0\ufe0f [WiP] Manage Shopify store straight from the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/shopctl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hinshun/vt10x",
+      "status": "candidate-context",
+      "text": "Package vt10x is a vt10x terminal emulation backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hinshun/vt10x",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "The easiest, and most secure way to access and protect all of your infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate-context",
+      "text": "For parsing, creating and editing unknown or dynamic JSON in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate-context",
+      "text": "![Gabs](gabs_logo.png \"Gabs\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "\ud83e\uddec Repository for third party middlewares with dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "status": "candidate-context",
+      "text": "Public DNS resolver that protects you from ad trackers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate-context",
+      "text": "golang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate-context",
+      "text": "TUI tool to manage your docker images, containers and volumes \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate-context",
+      "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MicahParks/jwkset",
+      "status": "candidate-context",
+      "text": "A JWK and JWK Set implementation. An auto-caching JWK Set HTTP client is provided. Generate, validate, and inspect JWKs. Self-host this project's website: https://jwkset.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicahParks/jwkset",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/jwkset.svg)](https://pkg.go.dev/github.com/MicahParks/jwkset)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "\ud83e\udda9 Tools for Go projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valyala/quicktemplate",
+      "status": "candidate-context",
+      "text": "Fast, powerful, yet easy to use template engine for Go. Optimized for speed, zero memory allocations in hot paths. Up to 20x faster than html/template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/quicktemplate",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/valyala/quicktemplate.svg)](https://travis-ci.org/valyala/quicktemplate)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate-context",
+      "text": "Smithy code generators for Go (in development)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate-context",
+      "text": "[![Go Build Status](https://github.com/aws/smithy-go/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/aws/smithy-go/actions/workflows/go.yml)[![Codegen Build Status](https://github.com/aws/smithy-go/actions/workflows/codegen.yml/badge.svg?branch=main)](https:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "status": "candidate-context",
+      "text": "Voicevox Core\u306e\u30e9\u30c3\u30d1\u30fc\u30e9\u30a4\u30d6\u30e9\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/sh1ma/voicevoxcore.go/branch/main/graph/badge.svg?token=5111EKB6SF)](https://codecov.io/gh/sh1ma/voicevoxcore.go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate-context",
+      "text": "Apache Pulsar Go Client Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Headless browser for Go for TDD workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
     }
   ],
   "candidate_glosses": [
@@ -5737,6 +5935,108 @@
       "source_repo": "securego/gosec",
       "status": "candidate",
       "text": "Inspects source code for security problems by scanning the Go AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankitpokhrel/shopctl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hinshun/vt10x",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/hinshun/vt10x.svg?branch=master)](https://travis-ci.org/hinshun/vt10x)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jeffail/gabs",
+      "status": "candidate",
+      "text": "![Gabs](gabs_logo.png \"Gabs\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardDNS",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlit/.github",
+      "status": "candidate",
+      "text": "golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajayd-san/gomanagedocker",
+      "status": "candidate",
+      "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicahParks/jwkset",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/jwkset.svg)](https://pkg.go.dev/github.com/MicahParks/jwkset)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/quicktemplate",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/valyala/quicktemplate.svg)](https://travis-ci.org/valyala/quicktemplate)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate",
+      "text": "[![Go Build Status](https://github.com/aws/smithy-go/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/aws/smithy-go/actions/workflows/go.yml)[![Codegen Build Status](https://github.com/aws/smithy-go/actions/workflows/codegen.yml/badge.svg?branch=main)](https:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/sh1ma/voicevoxcore.go/branch/main/graph/badge.svg?token=5111EKB6SF)](https://codecov.io/gh/sh1ma/voicevoxcore.go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-go",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -8036,11 +8336,173 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ankitpokhrel/shopctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hinshun/vt10x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Jeffail/gabs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gofiber/contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardDNS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-devlake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "openlit/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ajayd-san/gomanagedocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MicahParks/jwkset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "valyala/quicktemplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws/smithy-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "sh1ma/voicevoxcore.go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gost-dom/browser"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

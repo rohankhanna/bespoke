@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "Azure/setup-azd@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "Azure/setup-azd@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml"
+    },
+    {
+      "component": "microsoft/template-validation-action@v0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "microsoft/botframework-emulator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "Azure/setup-azd@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "Deploy Dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "Azure/setup-azd@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "Run Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "microsoft/template-validation-action@v0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "Template Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "ai-azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azureai-travel-agent-python",
+      "target": "azd-templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:16:00.946024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9381
+    },
+    {
+      "path": ".github/workflows/azure-dev.yml",
+      "size": 2243
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 2275
+    },
+    {
+      "path": ".github/workflows/template-validation.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "End-to-end solution sample for a travel assistant built with the Azure Agent Runtime",
+    "fork": false,
+    "full_name": "Azure-Samples/azureai-travel-agent-python",
+    "html_url": "https://github.com/Azure-Samples/azureai-travel-agent-python",
+    "language": "Python",
+    "pushed_at": "2026-04-02T05:10:06Z",
+    "stargazers_count": 31,
+    "topics": [
+      "ai-azd-templates",
+      "azd-templates"
+    ],
+    "updated_at": "2026-04-28T06:32:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botframework-emulator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "term": "Deploy Dev"
+    },
+    {
+      "context_snippet": "Run Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Run Integration Tests"
+    },
+    {
+      "context_snippet": "Template Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-validation.yml",
+      "term": "Template Validation"
+    },
+    {
+      "context_snippet": "End-to-end sample of a travel agent implemented with Azure AI Agent Service and Bot Framework. The travel assistant leverages the Azure AI platform to understand images and documents, providing assistance during travel planning and common travel situations. Key features include:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-azd-templates"
+    },
+    {
+      "context_snippet": "End-to-end sample of a travel agent implemented with Azure AI Agent Service and Bot Framework. The travel assistant leverages the Azure AI platform to understand images and documents, providing assistance during travel planning and common travel situations. Key features include:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azd-templates"
+    }
+  ]
+}

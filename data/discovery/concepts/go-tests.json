@@ -105,6 +105,24 @@
       "source_repo": "Anush008/fastembed-go",
       "status": "candidate-context",
       "text": "\"Go Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate-context",
+      "text": "Smithy code generators for Go (in development)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate-context",
+      "text": "Go Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/hpke",
+      "status": "candidate-context",
+      "text": "Go tests"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +173,18 @@
       "source_repo": "Anush008/fastembed-go",
       "status": "candidate",
       "text": "\"Go Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/smithy-go",
+      "status": "candidate",
+      "text": "Go Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/hpke",
+      "status": "candidate",
+      "text": "Go tests"
     }
   ],
   "candidate_related_terms": [
@@ -246,11 +276,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "Anush008/fastembed-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/smithy-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "FiloSottile/hpke"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

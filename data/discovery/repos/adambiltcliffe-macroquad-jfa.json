@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:17:10.510239+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Shader implementation of the Jump Flood algorithm in macroquad",
+    "fork": false,
+    "full_name": "adambiltcliffe/macroquad-jfa",
+    "html_url": "https://github.com/adambiltcliffe/macroquad-jfa",
+    "language": "Rust",
+    "pushed_at": "2022-08-28T18:50:17Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-01-29T00:48:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

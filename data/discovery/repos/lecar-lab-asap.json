@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "target": "lecar-lab/humanoidverse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "target": "lecar-lab/human2humanoid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/ASAP",
+      "target": "zhengyiluo/phc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeCAR-Lab/ASAP",
+      "target": "humanoid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeCAR-Lab/ASAP",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LeCAR-Lab/ASAP",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:19.586429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[RSS 2025] \"ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills\"",
+    "fork": false,
+    "full_name": "LeCAR-Lab/ASAP",
+    "html_url": "https://github.com/LeCAR-Lab/ASAP",
+    "language": "Python",
+    "pushed_at": "2026-01-06T04:58:36Z",
+    "stargazers_count": 1997,
+    "topics": [
+      "humanoid",
+      "reinforcement-learning",
+      "robotics"
+    ],
+    "updated_at": "2026-04-30T02:34:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lecar-lab/human2humanoid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lecar-lab/humanoidverse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhengyiluo/phc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "humanoid"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

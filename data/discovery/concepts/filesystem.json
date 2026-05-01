@@ -271,6 +271,54 @@
       "source_repo": "burningwave/core",
       "status": "candidate-context",
       "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/memfs",
+      "status": "candidate-context",
+      "text": "Node.js \"fs\" and browser \"File System API\" adapters and in-memory implementations \ud83d\udc4d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/memfs",
+      "status": "candidate-context",
+      "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate-context",
+      "text": "Node filesystem spies and mocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate-context",
+      "text": "Spy on filesystem calls. Create file system mocks. Use for testing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate-context",
+      "text": "Use multiple fs modules at once"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate-context",
+      "text": "Creates a union of multiple `fs` file systems."
     }
   ],
   "candidate_glosses": [
@@ -405,6 +453,30 @@
       "source_repo": "burningwave/core",
       "status": "candidate",
       "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/memfs",
+      "status": "candidate",
+      "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate",
+      "text": "Spy on filesystem calls. Create file system mocks. Use for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate",
+      "text": "Creates a union of multiple `fs` file systems."
     }
   ],
   "candidate_related_terms": [
@@ -592,11 +664,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "burningwave/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/memfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/spyfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/unionfs"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

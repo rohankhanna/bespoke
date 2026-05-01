@@ -211,6 +211,12 @@
       "source_repo": "KnotUntied/scoop-fonts",
       "status": "candidate-context",
       "text": "Excavator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/scoops",
+      "status": "candidate-context",
+      "text": "Excavator"
     }
   ],
   "candidate_glosses": [
@@ -313,6 +319,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KnotUntied/scoop-fonts",
+      "status": "candidate",
+      "text": "Excavator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefanlogue/scoops",
       "status": "candidate",
       "text": "Excavator"
     }
@@ -518,11 +530,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/schedule.yml",
       "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "stefanlogue/scoops"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -283,6 +285,66 @@
       "source_repo": "webpack/webpack-dev-server",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate-context",
+      "text": "Awesome Smithy is a curated list of awesome build-tools, code-generators, examples, and other resources related to the Smithy IDL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate-context",
+      "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate-context",
+      "text": "Download a specific version of Node.js (CLI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pycontribs/jira",
+      "status": "candidate-context",
+      "text": "Python Jira library. Development chat available on https://matrix.to/#/#pycontribs:matrix.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycontribs/jira",
+      "status": "candidate-context",
+      "text": "server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Billionmail/BillionMail",
+      "status": "candidate-context",
+      "text": "BillionMail gives you open-source MailServer, NewsLetter,  Email Marketing \u2014 fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Billionmail/BillionMail",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shazow/ssh-chat",
+      "status": "candidate-context",
+      "text": "Chat over SSH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shazow/ssh-chat",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +485,36 @@
       "source_repo": "webpack/webpack-dev-server",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate",
+      "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycontribs/jira",
+      "status": "candidate",
+      "text": "server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Billionmail/BillionMail",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shazow/ssh-chat",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)"
     }
   ],
   "candidate_related_terms": [
@@ -661,11 +753,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/get-node-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/jira_server_ci.yml",
+      "source_repo": "pycontribs/jira"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Billionmail/BillionMail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "shazow/ssh-chat"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,557 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect_changes.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect_changes.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "lukka/run-vcpkg@5e0cab206a5ea620130caf672fce3e4a6b5666a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@3b1f8f94a2f8254bd26914c4ab9474d4f0015f67",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "lukka/run-vcpkg@5e0cab206a5ea620130caf672fce3e4a6b5666a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@3b1f8f94a2f8254bd26914c4ab9474d4f0015f67",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "TheMrMilchmann/setup-msvc-dev@79dac248aac9d0059f86eae9d8b5bfab4e95e97c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "lukka/run-vcpkg@5e0cab206a5ea620130caf672fce3e4a6b5666a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "sheredom/ubench.h",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "jemalloc/jemalloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "oneapi-src/onetbb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "Compute Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "Coverity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect_changes.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect_changes.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect_changes.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "DetectChanges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "GitHubPages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "lukka/run-vcpkg@5e0cab206a5ea620130caf672fce3e4a6b5666a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "seanmiddleditch/gha-setup-ninja@3b1f8f94a2f8254bd26914c4ab9474d4f0015f67",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "TheMrMilchmann/setup-msvc-dev@79dac248aac9d0059f86eae9d8b5bfab4e95e97c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "lukka/run-vcpkg@5e0cab206a5ea620130caf672fce3e4a6b5666a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "BasicBuilds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "allocators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "cxl-mem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "jemalloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "levelzero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "malloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "oneapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "target": "tbbmalloc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:09:01.271665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20308
+    },
+    {
+      "path": ".github/workflows/.spellcheck-conf.toml",
+      "size": 214
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 1316
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 2500
+    },
+    {
+      "path": ".github/workflows/detect_changes.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 878
+    },
+    {
+      "path": ".github/workflows/docs_pr_push.yml",
+      "size": 951
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 20344
+    },
+    {
+      "path": ".github/workflows/pr_push.yml",
+      "size": 2658
+    },
+    {
+      "path": ".github/workflows/reusable_basic.yml",
+      "size": 23596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A library for constructing allocators and memory pools. It also contains broadly useful abstractions and utilities for memory management. UMF allows users to manage multiple memory pools characterized by different attributes, allowing certain allocation types to be isolated from others and allocated using different hardware resources as required.",
+    "fork": false,
+    "full_name": "oneapi-src/unified-memory-framework",
+    "html_url": "https://github.com/oneapi-src/unified-memory-framework",
+    "language": "C",
+    "pushed_at": "2026-05-01T05:41:34Z",
+    "stargazers_count": 88,
+    "topics": [
+      "allocators",
+      "cxl",
+      "cxl-mem",
+      "jemalloc",
+      "levelzero",
+      "malloc",
+      "memory",
+      "oneapi",
+      "tbbmalloc"
+    ],
+    "updated_at": "2026-04-17T13:44:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jemalloc/jemalloc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-src/onetbb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sheredom/ubench.h",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Compute Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Compute Benchmarks"
+    },
+    {
+      "context_snippet": "Coverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity"
+    },
+    {
+      "context_snippet": "DetectChanges",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect_changes.yml",
+      "term": "DetectChanges"
+    },
+    {
+      "context_snippet": "GitHubPages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "GitHubPages"
+    },
+    {
+      "context_snippet": "Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly"
+    },
+    {
+      "context_snippet": "BasicBuilds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "term": "BasicBuilds"
+    },
+    {
+      "context_snippet": "[![PR/push](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml/badge.svg?branch=main&event=push)](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allocators"
+    },
+    {
+      "context_snippet": "[![PR/push](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml/badge.svg?branch=main&event=push)](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxl-mem"
+    },
+    {
+      "context_snippet": "[![PR/push](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml/badge.svg?branch=main&event=push)](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jemalloc"
+    },
+    {
+      "context_snippet": "[![PR/push](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml/badge.svg?branch=main&event=push)](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "levelzero"
+    },
+    {
+      "context_snippet": "[![PR/push](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml/badge.svg?branch=main&event=push)](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malloc"
+    },
+    {
+      "context_snippet": "[![PR/push](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml/badge.svg?branch=main&event=push)](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    },
+    {
+      "context_snippet": "[![PR/push](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml/badge.svg?branch=main&event=push)](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneapi"
+    },
+    {
+      "context_snippet": "[![PR/push](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml/badge.svg?branch=main&event=push)](https://github.com/oneapi-src/unified-memory-framework/actions/workflows/pr_push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tbbmalloc"
+    }
+  ]
+}

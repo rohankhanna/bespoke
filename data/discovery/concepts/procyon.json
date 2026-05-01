@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "procyon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate-context",
+      "text": "A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate-context",
+      "text": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate",
+      "text": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027509,
+      "status": "candidate",
+      "text": "genus procyon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027506,
+      "status": "candidate",
+      "text": "canis minor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027505,
+      "status": "candidate",
+      "text": "dog star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027504,
+      "status": "candidate",
+      "text": "wezen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027503,
+      "status": "candidate",
+      "text": "canis major"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "genus procyon"
+    }
+  ],
+  "canonical_name": "procyon",
+  "concept_id": "procyon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "procyon",
+      "sense_id": "procyon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

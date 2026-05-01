@@ -1,0 +1,506 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/first-interaction@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greeting-guideline-pr.yml"
+    },
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invalid-issue-check.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-and-pr.yml"
+    },
+    {
+      "component": "springaialibaba/infra@6a10230a282aa7b379e24df108131cc5a946bc5e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-and-pr.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-robot.yml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-robot.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-stale-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "spring-ai-alibaba/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "spring-ai-alibaba/jmanus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "spring-ai-alibaba/dataagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "spring-ai-alibaba/deepresearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "\ud83d\udee0\ufe0f Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greeting-guideline-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/first-interaction@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greeting-guideline-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "Greetings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invalid-issue-check.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/invalid-issue-check.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "Close Invalid Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-and-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-and-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "springaialibaba/infra@6a10230a282aa7b379e24df108131cc5a946bc5e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-and-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "\ud83e\udee1 Issue and PullRequest Command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "\ud83d\uddd2\ufe0f License Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "\ud83e\udd14 Lint PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "\ud83d\udc40 Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-robot.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-robot.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-robot.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "\ud83d\ude80 Pull Request Robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-stale-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-stale-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "Stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "context-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "reactagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "spring-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:07:05.882945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11240
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 2066
+    },
+    {
+      "path": ".github/workflows/greeting-guideline-pr.yml",
+      "size": 1727
+    },
+    {
+      "path": ".github/workflows/invalid-issue-check.yml",
+      "size": 1353
+    },
+    {
+      "path": ".github/workflows/issue-and-pr.yml",
+      "size": 1188
+    },
+    {
+      "path": ".github/workflows/license-check.yml",
+      "size": 1015
+    },
+    {
+      "path": ".github/workflows/lint-pr-title.yml",
+      "size": 1804
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 1020
+    },
+    {
+      "path": ".github/workflows/pull-request-robot.yml",
+      "size": 1043
+    },
+    {
+      "path": ".github/workflows/remove-stale-pr.yml",
+      "size": 2294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agentic AI Framework for Java Developers",
+    "fork": false,
+    "full_name": "alibaba/spring-ai-alibaba",
+    "html_url": "https://github.com/alibaba/spring-ai-alibaba",
+    "language": "Java",
+    "pushed_at": "2026-04-30T02:38:01Z",
+    "stargazers_count": 9446,
+    "topics": [
+      "agentic",
+      "artificial-intelligence",
+      "context-engineering",
+      "graph",
+      "java",
+      "multi-agent",
+      "reactagent",
+      "spring-ai",
+      "workflow"
+    ],
+    "updated_at": "2026-05-01T07:06:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-ai-alibaba/dataagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-ai-alibaba/deepresearch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-ai-alibaba/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-ai-alibaba/jmanus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udee0\ufe0f Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "\ud83d\udee0\ufe0f Build and Test"
+    },
+    {
+      "context_snippet": "Greetings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greeting-guideline-pr.yml",
+      "term": "Greetings"
+    },
+    {
+      "context_snippet": "\"Close Invalid Issue\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/invalid-issue-check.yml",
+      "term": "Close Invalid Issue"
+    },
+    {
+      "context_snippet": "\ud83e\udee1 Issue and PullRequest Command",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-and-pr.yml",
+      "term": "\ud83e\udee1 Issue and PullRequest Command"
+    },
+    {
+      "context_snippet": "\ud83d\uddd2\ufe0f License Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-check.yml",
+      "term": "\ud83d\uddd2\ufe0f License Check"
+    },
+    {
+      "context_snippet": "\ud83e\udd14 Lint PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "term": "\ud83e\udd14 Lint PR"
+    },
+    {
+      "context_snippet": "\ud83d\udc40 Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "\ud83d\udc40 Linter"
+    },
+    {
+      "context_snippet": "\ud83d\ude80 Pull Request Robot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-robot.yml",
+      "term": "\ud83d\ude80 Pull Request Robot"
+    },
+    {
+      "context_snippet": "Stale PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-stale-pr.yml",
+      "term": "Stale PRs"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context-engineering"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactagent"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

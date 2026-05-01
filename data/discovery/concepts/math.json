@@ -91,6 +91,42 @@
       "source_repo": "creachadair/imath",
       "status": "candidate-context",
       "text": "IMath"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings to the FFTW library for fast Fourier transforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "C++ implementation of Lie Groups using Eigen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate-context",
+      "text": "A collection of useful mathematical functions in Elixir with a slant towards statistics, linear algebra and machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/safwank/Numerix.svg?branch=master)](https://travis-ci.org/safwank/Numerix)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "creachadair/imath",
       "status": "candidate",
       "text": "IMath"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/safwank/Numerix.svg?branch=master)](https://travis-ci.org/safwank/Numerix)"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +289,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "creachadair/imath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JuliaMath/FFTW.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "strasdat/Sophus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "safwank/Numerix"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

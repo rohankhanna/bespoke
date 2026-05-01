@@ -463,6 +463,30 @@
       "source_repo": "domkm/silk",
       "status": "candidate-context",
       "text": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/edamame",
+      "status": "candidate-context",
+      "text": "Configurable EDN/Clojure parser with location metadata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/edamame",
+      "status": "candidate-context",
+      "text": "Configurable EDN/Clojure parser with location metadata."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "status": "candidate-context",
+      "text": "Sample project using clojurephant to build a ClojureScript app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "status": "candidate-context",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app."
     }
   ],
   "candidate_glosses": [
@@ -693,6 +717,18 @@
       "source_repo": "domkm/silk",
       "status": "candidate",
       "text": "The core functionality of Silk in `domkm.silk` is fully compatible with both Clojure and ClojureScript and was designed to be so from the ground up."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/edamame",
+      "status": "candidate",
+      "text": "Configurable EDN/Clojure parser with location metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "status": "candidate",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app."
     }
   ],
   "candidate_related_terms": [],
@@ -1012,11 +1048,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "domkm/silk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/edamame"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -151,6 +151,54 @@
       "source_repo": "OFA-Sys/ONE-PEACE",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate-context",
+      "text": "Code for ICLR 2020 paper \"VL-BERT: Pre-training of Generic Visual-Linguistic Representations\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate-context",
+      "text": "By"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YehLi/xmodaler",
+      "status": "candidate-context",
+      "text": "X-modaler is a versatile and high-performance codebase for cross-modal analytics(e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrieval)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YehLi/xmodaler",
+      "status": "candidate-context",
+      "text": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate-context",
+      "text": "streamline the fine-tuning process for multimodal models: PaliGemma 2, Florence-2, and Qwen2.5-VL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Oscar",
+      "status": "candidate-context",
+      "text": "Oscar and VinVL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oscar",
+      "status": "candidate-context",
+      "text": "04/17/2023: Visual instruction tuning with GPT-4 is released! Please check out the multimodal model LLaVA: [[Project Page](https://llava-vl.github.io/)] [[Paper](https://arxiv.org/abs/2304.08485)] [[Demo](https://llava.hliu.cc/)] [[Data](https://huggingface.co/datasets/liuhaotia\u2026"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +273,30 @@
       "source_repo": "OFA-Sys/ONE-PEACE",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate",
+      "text": "By"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YehLi/xmodaler",
+      "status": "candidate",
+      "text": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oscar",
+      "status": "candidate",
+      "text": "04/17/2023: Visual instruction tuning with GPT-4 is released! Please check out the multimodal model LLaVA: [[Project Page](https://llava-vl.github.io/)] [[Paper](https://arxiv.org/abs/2304.08485)] [[Demo](https://llava.hliu.cc/)] [[Data](https://huggingface.co/datasets/liuhaotia\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +376,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "OFA-Sys/ONE-PEACE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "YehLi/xmodaler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Oscar"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

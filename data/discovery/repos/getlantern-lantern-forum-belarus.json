@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-belarus",
+      "target": "getlantern/lantern-forum-en",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-belarus",
+      "target": "getlantern/lantern-forum-cn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-belarus",
+      "target": "getlantern/lantern-forum-ru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-belarus",
+      "target": "getlantern/lantern-forum-fa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:49.599342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Forum for Lantern users in Belarus!",
+    "fork": false,
+    "full_name": "getlantern/lantern-forum-belarus",
+    "html_url": "https://github.com/getlantern/lantern-forum-belarus",
+    "language": null,
+    "pushed_at": "2024-11-01T19:49:57Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-11-01T19:50:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-cn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-en",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-fa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-ru",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

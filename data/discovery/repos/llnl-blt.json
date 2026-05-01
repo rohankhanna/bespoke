@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llnl/blt",
+      "target": "llnl/adiak",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llnl/blt",
+      "target": "alpine-dav/ascent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llnl/blt",
+      "target": "alpine-dav/vtk-h",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llnl/blt",
+      "target": "google/googlemock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/blt",
+      "target": "build-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/blt",
+      "target": "build-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/blt",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/blt",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/blt",
+      "target": "radiuss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/blt",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:08:53.470365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A streamlined CMake build system foundation for developing HPC software",
+    "fork": false,
+    "full_name": "llnl/blt",
+    "html_url": "https://github.com/llnl/blt",
+    "language": "C++",
+    "pushed_at": "2026-04-28T19:13:29Z",
+    "stargazers_count": 286,
+    "topics": [
+      "blt",
+      "build-system",
+      "build-tools",
+      "cmake",
+      "cpp",
+      "cuda",
+      "hpc",
+      "radiuss",
+      "testing"
+    ],
+    "updated_at": "2026-04-14T09:32:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpine-dav/ascent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpine-dav/vtk-h",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/googlemock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llnl/adiak",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-system"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tools"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radiuss"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

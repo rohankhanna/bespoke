@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "dora"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28429340,
+      "status": "candidate",
+      "text": "doura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28332461,
+      "status": "candidate",
+      "text": "rouge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28260737,
+      "status": "candidate",
+      "text": "session"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28255397,
+      "status": "candidate",
+      "text": "dura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28214573,
+      "status": "candidate",
+      "text": "role"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dora",
+  "concept_id": "dora",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-devlake"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dora",
+      "sense_id": "dora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

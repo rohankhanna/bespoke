@@ -1,0 +1,494 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeInspection.yml"
+    },
+    {
+      "component": "JetBrains/qodana-action@v2025.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeInspection.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project-verification.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "Project Verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-nightly-scheduled.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "Nightly Release (scheduled)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "Nightly Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeInspection.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeInspection.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "JetBrains/qodana-action@v2025.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-codeInspection.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "Reusable Code Inspection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "gradle/actions/wrapper-validation@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "Reusable Gradle Wrapper Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "gradle-intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "intellij",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "intellij-ides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "intellij-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "intellij-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "jetbrains-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "target": "plugin-verifier",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:06:27.095316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3412
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 992
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4833
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 1566
+    },
+    {
+      "path": ".github/workflows/project-verification.yml",
+      "size": 205
+    },
+    {
+      "path": ".github/workflows/release-nightly-scheduled.yml",
+      "size": 381
+    },
+    {
+      "path": ".github/workflows/release-nightly.yml",
+      "size": 3882
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3119
+    },
+    {
+      "path": ".github/workflows/reusable-codeInspection.yml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/reusable-gradleValidation.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gradle plugin for building plugins for JetBrains IDEs",
+    "fork": false,
+    "full_name": "JetBrains/intellij-platform-gradle-plugin",
+    "html_url": "https://github.com/JetBrains/intellij-platform-gradle-plugin",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-01T06:41:22Z",
+    "stargazers_count": 1527,
+    "topics": [
+      "gradle",
+      "gradle-intellij-plugin",
+      "intellij",
+      "intellij-ides",
+      "intellij-platform",
+      "intellij-plugin",
+      "intellij-sdk",
+      "jetbrains-plugin",
+      "plugin-verifier"
+    ],
+    "updated_at": "2026-04-30T18:06:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "Project Verification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project-verification.yml",
+      "term": "Project Verification"
+    },
+    {
+      "context_snippet": "Nightly Release (scheduled)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-nightly-scheduled.yml",
+      "term": "Nightly Release (scheduled)"
+    },
+    {
+      "context_snippet": "Nightly Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-nightly.yml",
+      "term": "Nightly Release"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Reusable Code Inspection",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-codeInspection.yml",
+      "term": "Reusable Code Inspection"
+    },
+    {
+      "context_snippet": "Reusable Gradle Wrapper Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml",
+      "term": "Reusable Gradle Wrapper Test"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-intellij-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-ides"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-platform"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-sdk"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetbrains-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-verifier"
+    }
+  ]
+}

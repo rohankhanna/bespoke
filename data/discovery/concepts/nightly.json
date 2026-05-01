@@ -380,6 +380,30 @@
       "source_repo": "cargo-public-api/cargo-public-api",
       "status": "candidate-context",
       "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "status": "candidate-context",
+      "text": "A library for constructing allocators and memory pools. It also contains broadly useful abstractions and utilities for memory management. UMF allows users to manage multiple memory pools characterized by different attributes, allowing certain allocation types to be isolated from others and allocated using different hardware resources as required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "status": "candidate-context",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "Yet another cross-platform graphical process/system monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate-context",
+      "text": "nightly"
     }
   ],
   "candidate_glosses": [
@@ -568,6 +592,18 @@
       "source_repo": "cargo-public-api/cargo-public-api",
       "status": "candidate",
       "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementTsang/bottom",
+      "status": "candidate",
+      "text": "nightly"
     }
   ],
   "candidate_related_terms": [
@@ -836,11 +872,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ClementTsang/bottom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "databrickslabs/ucx"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

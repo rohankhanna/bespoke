@@ -55,6 +55,18 @@
       "source_repo": "php/doc-es",
       "status": "candidate-context",
       "text": "check-whitespace"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/doc-fr",
+      "status": "candidate-context",
+      "text": "French translation of the PHP documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-fr",
+      "status": "candidate-context",
+      "text": "check-whitespace"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "php/doc-es",
+      "status": "candidate",
+      "text": "check-whitespace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/doc-fr",
       "status": "candidate",
       "text": "check-whitespace"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/check-whitespace.yml",
       "source_repo": "php/doc-es"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check-whitespace.yml",
+      "source_repo": "php/doc-fr"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

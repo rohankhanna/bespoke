@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-hex.yml"
+    },
+    {
+      "component": "erlangpack/github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-hex.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bluehouse-Technology/grpc_client",
+      "target": "bluehouse-technology/http2_client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bluehouse-Technology/grpc_client",
+      "target": "willemdj/chatterbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bluehouse-Technology/grpc_client",
+      "target": "bluehouse-technology/grpc_lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-hex.yml",
+      "source_repo": "Bluehouse-Technology/grpc_client",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-hex.yml",
+      "source_repo": "Bluehouse-Technology/grpc_client",
+      "target": "erlangpack/github-action@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:18:51.157221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1830
+    },
+    {
+      "path": ".github/workflows/publish-to-hex.yml",
+      "size": 287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Erlang Client library for gRPC",
+    "fork": false,
+    "full_name": "Bluehouse-Technology/grpc_client",
+    "html_url": "https://github.com/Bluehouse-Technology/grpc_client",
+    "language": "Erlang",
+    "pushed_at": "2022-04-06T12:12:26Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2024-02-04T14:29:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluehouse-technology/grpc_lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluehouse-technology/http2_client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "willemdj/chatterbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

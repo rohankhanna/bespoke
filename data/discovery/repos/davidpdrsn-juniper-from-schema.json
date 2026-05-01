@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "davidpdrsn/juniper-from-schema",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "davidpdrsn/juniper-from-schema",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:32:04.278750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3336
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Schema first GraphQL in Rust with Juniper",
+    "fork": false,
+    "full_name": "davidpdrsn/juniper-from-schema",
+    "html_url": "https://github.com/davidpdrsn/juniper-from-schema",
+    "language": "Rust",
+    "pushed_at": "2021-08-25T07:47:02Z",
+    "stargazers_count": 241,
+    "topics": [],
+    "updated_at": "2026-03-08T00:29:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

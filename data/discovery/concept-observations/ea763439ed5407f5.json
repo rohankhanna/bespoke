@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast persistent key-value store for Nim, based on libmdbx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**April 2023:** In light of statements made by Leonid Yuriev in the [libmdx README](https://abf.io/erthink/libmdbx/blob/master/README.md), I'm abandoning this project and archiving the repo. Namely:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**April 2023:** In light of statements made by Leonid Yuriev in the [libmdx README](https://abf.io/erthink/libmdbx/blob/master/README.md), I'm abandoning this project and archiving the repo. Namely:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "key-value-store",
+      "sense_id": "key-value-store#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "key-value-store",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "key-value-store",
+  "observation_id": "ea763439ed5407f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "key-value-store",
+  "source_context_snippet": "**April 2023:** In light of statements made by Leonid Yuriev in the [libmdx README](https://abf.io/erthink/libmdbx/blob/master/README.md), I'm abandoning this project and archiving the repo. Namely:",
+  "source_file": null,
+  "source_repo": "snej/nimdbx",
+  "source_repo_description": "Fast persistent key-value store for Nim, based on libmdbx"
+}

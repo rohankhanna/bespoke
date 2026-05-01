@@ -5287,6 +5287,474 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiffEqML/torchdyn",
+      "status": "candidate-context",
+      "text": "A PyTorch library entirely dedicated to neural differential equations, implicit models and related numerical methods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiffEqML/torchdyn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Audio generation using diffusion models, in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./LOGO.png\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "All-in-one training for vision models (YOLO, ViTs, RT-DETR, DINOv3): pretraining, fine-tuning, distillation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jittor/JDet",
+      "status": "candidate-context",
+      "text": "JDet is an object detection benchmark based on Jittor. Mainly focus on aerial image object detection (oriented object detection)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jittor/JDet",
+      "status": "candidate-context",
+      "text": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "Deezer source separation library including pretrained models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsurumeso/vocal-remover",
+      "status": "candidate-context",
+      "text": "Vocal Remover using Deep Neural Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsurumeso/vocal-remover",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "status": "candidate-context",
+      "text": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "status": "candidate-context",
+      "text": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhutmost/lsq-net",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of LSQ-Net, a neural network quantization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhutmost/lsq-net",
+      "status": "candidate-context",
+      "text": "This is an unofficial implementation of LSQ-Net, a deep neural network quantization framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate-context",
+      "text": "Distribution-Aware Coordinate Representation for Human Pose Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate-context",
+      "text": "The project is an official implementation of our CVPR2019 paper \"Deep High-Resolution Representation Learning for Human Pose Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate-context",
+      "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/glue-factory",
+      "status": "candidate-context",
+      "text": "Training library for local feature detection and matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/glue-factory",
+      "status": "candidate-context",
+      "text": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate-context",
+      "text": "ONNX-compatible LightGlue: Local Feature Matching at Light Speed. Supports TensorRT, OpenVINO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate-context",
+      "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "pix2tex: Using a ViT to convert images of equations into LaTeX code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "status": "candidate-context",
+      "text": "The official repo for [IJCAI'24] \"LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate-context",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "The official repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "status": "candidate-context",
+      "text": "Pytorch Implementation for the project : `3D-CODED` and `Learning Elementary Structure`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "status": "candidate-context",
+      "text": "**3D-CODED : 3D Correspondences by Deep Deformation** <br>Thibault Groueix, Matthew Fisher, Vladimir G. Kim , Bryan C. Russell, Mathieu Aubry <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate-context",
+      "text": "Cool vision, learning, and graphics papers on Cats!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate-context",
+      "text": "As reported by Cisco, 90% of net traffic will be visual, and indeed, most of the visual data are cat photos and videos. Thus, understanding, modeling, and synthesizing our feline friends becomes a more and more critical research problem these days, especially for our cat lovers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lzx551402/geodesc",
+      "status": "candidate-context",
+      "text": "Implementation of ECCV'18 paper -  GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lzx551402/geodesc",
+      "status": "candidate-context",
+      "text": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TRI-ML/dd3d",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of DD3D: Is Pseudo-Lidar needed for Monocular 3D Object detection? (ICCV 2021), Dennis Park*, Rares Ambrus*, Vitor Guizilini, Jie Li, and Adrien Gaidon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dd3d",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.tri.global/\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GewelsJI/VPS",
+      "status": "candidate-context",
+      "text": "Official website for \"Video Polyp Segmentation: A Deep Learning Perspective (MIR 2022)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/VPS",
+      "status": "candidate-context",
+      "text": "[![license: mit](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "Improved Residual Networks (https://arxiv.org/pdf/2004.04989.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/soft-moe-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Soft MoE, proposed by Brain's Vision team, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/soft-moe-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./soft-moe.1.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "Streamlining reinforcement learning with RLOps. State-of-the-art RL algorithms and tools, with 10x faster training through evolutionary hyperparameter optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "An offline deep reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img align=\"center\" width=\"300px\" src=\"assets/logo.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alexandre-Delplanque/HerdNet",
+      "status": "candidate-context",
+      "text": "Code for paper \"From Crowd to Herd Counting: How to Precisely Detect and Count African Mammals using Aerial Imagery and Deep Learning?\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexandre-Delplanque/HerdNet",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alexandre-Delplanque/HerdNet/blob/main/notebooks/demo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conservationtechlab/animl-r",
+      "status": "candidate-context",
+      "text": "Animl comprises a variety of machine learning tools for analyzing ecological data. The package includes a set of functions to classify subjects within camera trap field data and can handle both images and videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conservationtechlab/animl-r",
+      "status": "candidate-context",
+      "text": "Animl comprises a variety of machine learning tools for analyzing ecological data. The package includes a set of functions to classify subjects within camera trap field data and can handle both images and videos."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/soundstorm-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of SoundStorm, Efficient Parallel Audio Generation from Google Deepmind, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/soundstorm-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./soundstorm.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate-context",
+      "text": "Tools for handling multimodal data in machine learning projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate-context",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate-context",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/imagen-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/imagen-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./imagen.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate-context",
+      "text": "StarGANv2-VC: A Diverse, Unsupervised, Non-parallel Framework for Natural-Sounding Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate-context",
+      "text": "> We present an unsupervised non-parallel many-to-many voice conversion (VC) method using a generative adversarial network (GAN) called StarGAN v2. Using a combination of adversarial source classifier loss and perceptual loss, our model significantly outperforms previous VC mode\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate-context",
+      "text": "Official Implementation of StyleTTS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate-context",
+      "text": "> Text-to-Speech (TTS) has recently seen great progress in synthesizing high-quality speech owing to the rapid development of parallel TTS systems, but producing speech with naturalistic prosodic variations, speaking styles and emotional tones remains challenging. Moreover, sinc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate-context",
+      "text": "Implementation of the Wave-U-Net for audio source separation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate-context",
+      "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate-context",
+      "text": "A PyTorch-based Speech Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -7935,6 +8403,240 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiffEqML/torchdyn",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/audio-diffusion-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./LOGO.png\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jittor/JDet",
+      "status": "candidate",
+      "text": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsurumeso/vocal-remover",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/tsurumeso/vocal-remover.svg)](https://github.com/tsurumeso/vocal-remover/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "status": "candidate",
+      "text": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhutmost/lsq-net",
+      "status": "candidate",
+      "text": "This is an unofficial implementation of LSQ-Net, a deep neural network quantization framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/DarkPose",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate",
+      "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/glue-factory",
+      "status": "candidate",
+      "text": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate",
+      "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/MTP",
+      "status": "candidate",
+      "text": "The official repo for [JSTARS'24] \"MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
+      "status": "candidate",
+      "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/RSP",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "status": "candidate",
+      "text": "**3D-CODED : 3D Correspondences by Deep Deformation** <br>Thibault Groueix, Matthew Fisher, Vladimir G. Kim , Bryan C. Russell, Mathieu Aubry <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate",
+      "text": "As reported by Cisco, 90% of net traffic will be visual, and indeed, most of the visual data are cat photos and videos. Thus, understanding, modeling, and synthesizing our feline friends becomes a more and more critical research problem these days, especially for our cat lovers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lzx551402/geodesc",
+      "status": "candidate",
+      "text": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dd3d",
+      "status": "candidate",
+      "text": "<a href=\"https://www.tri.global/\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/VPS",
+      "status": "candidate",
+      "text": "[![license: mit](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/soft-moe-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./soft-moe.1.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img align=\"center\" width=\"300px\" src=\"assets/logo.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexandre-Delplanque/HerdNet",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alexandre-Delplanque/HerdNet/blob/main/notebooks/demo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conservationtechlab/animl-r",
+      "status": "candidate",
+      "text": "Animl comprises a variety of machine learning tools for analyzing ecological data. The package includes a set of functions to classify subjects within camera trap field data and can handle both images and videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/soundstorm-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./soundstorm.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/imagen-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./imagen.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate",
+      "text": "> We present an unsupervised non-parallel many-to-many voice conversion (VC) method using a generative adversarial network (GAN) called StarGAN v2. Using a combination of adversarial source classifier loss and perceptual loss, our model significantly outperforms previous VC mode\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate",
+      "text": "> Text-to-Speech (TTS) has recently seen great progress in synthesizing high-quality speech owing to the rapid development of parallel TTS systems, but producing speech with naturalistic prosodic variations, speaking styles and emotional tones remains challenging. Moreover, sinc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f90/Wave-U-Net",
+      "status": "candidate",
+      "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/speechbrain",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -11626,11 +12328,491 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgnostiqHQ/covalent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DiffEqML/torchdyn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "archinetai/audio-diffusion-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly-train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Jittor/JDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "deezer/spleeter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tsurumeso/vocal-remover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kamenbliznashki/normalizing_flows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zhutmost/lsq-net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ilovepose/DarkPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cvg/glue-factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fabio-sim/LightGlue-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-blecher/LaTeX-OCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/MTP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/RSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ThibaultGROUEIX/3D-CODED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/CatPapers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lzx551402/geodesc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TRI-ML/dd3d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "GewelsJI/VPS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "iduta/iresnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/soft-moe-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgileRL/AgileRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "takuseno/d3rlpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Alexandre-Delplanque/HerdNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "conservationtechlab/animl-r"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/soundstorm-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lhotse-speech/lhotse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "archinetai/a-unet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/imagen-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StarGANv2-VC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StyleTTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "f90/Wave-U-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "speechbrain/speechbrain"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

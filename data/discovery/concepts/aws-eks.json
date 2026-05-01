@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "aws-eks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate-context",
+      "text": "Terraform AWS module which provisions ACK addons on EKS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate-context",
+      "text": "Terraform module which provisions [AWS controllers for Kubernetes](https://aws-controllers-k8s.github.io/community/docs/community/overview/) on EKS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate-context",
+      "text": "Terraform AWS module which creates an EKS addon (helm release + IRSA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate-context",
+      "text": "Terraform module which provisions an addon ([Helm release](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release)) and an [IAM role for service accounts (IRSA)](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "Terraform module which provisions addons on Amazon EKS clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate-context",
+      "text": "Terraform module to deploy Kubernetes addons on Amazon EKS clusters."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons",
+      "status": "candidate",
+      "text": "Terraform module which provisions [AWS controllers for Kubernetes](https://aws-controllers-k8s.github.io/community/docs/community/overview/) on EKS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "status": "candidate",
+      "text": "Terraform module which provisions an addon ([Helm release](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release)) and an [IAM role for service accounts (IRSA)](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate",
+      "text": "Terraform module to deploy Kubernetes addons on Amazon EKS clusters."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aws-eks",
+  "concept_id": "aws-eks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-ack-addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-eks",
+      "sense_id": "aws-eks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fakerybakery/styletts2-cli",
+      "target": "yl4579/styletts2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "fakerybakery/styletts2-cli",
+      "target": "resemble-ai/monotonic_align",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:31:57.746976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 851
+    },
+    {
+      "path": "requirements.txt",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "fakerybakery/styletts2-cli",
+    "html_url": "https://github.com/fakerybakery/styletts2-cli",
+    "language": "Python",
+    "pushed_at": "2024-03-30T16:17:17Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-09-29T01:14:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yl4579/styletts2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "resemble-ai/monotonic_align",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

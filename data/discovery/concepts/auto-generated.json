@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "auto-generated"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feluelle/airflow-diagrams",
+      "status": "candidate-context",
+      "text": "Auto-generated Diagrams from Airflow DAGs. \ud83d\udd2e \ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feluelle/airflow-diagrams",
+      "status": "candidate-context",
+      "text": "[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/feluelle/airflow-diagrams/main.svg)](https://results.pre-commit.ci/latest/github/feluelle/airflow-diagrams/main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feluelle/airflow-diagrams",
+      "status": "candidate",
+      "text": "[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/feluelle/airflow-diagrams/main.svg)](https://results.pre-commit.ci/latest/github/feluelle/airflow-diagrams/main)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "procedural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "autocoded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "autonumbered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "no-code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "programmatic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "auto-generated",
+  "concept_id": "auto-generated",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "feluelle/airflow-diagrams"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "auto-generated",
+      "sense_id": "auto-generated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

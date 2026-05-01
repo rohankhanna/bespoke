@@ -194,6 +194,18 @@
       "source_repo": "haproxy/haproxy",
       "status": "candidate-context",
       "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "status": "candidate-context",
+      "text": "A library for constructing allocators and memory pools. It also contains broadly useful abstractions and utilities for memory management. UMF allows users to manage multiple memory pools characterized by different attributes, allowing certain allocation types to be isolated from others and allocated using different hardware resources as required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/unified-memory-framework",
+      "status": "candidate-context",
+      "text": "Coverity"
     }
   ],
   "candidate_glosses": [
@@ -290,6 +302,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "haproxy/haproxy",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneapi-src/unified-memory-framework",
       "status": "candidate",
       "text": "Coverity"
     }
@@ -431,11 +449,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/coverity.yml",
       "source_repo": "haproxy/haproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "oneapi-src/unified-memory-framework"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

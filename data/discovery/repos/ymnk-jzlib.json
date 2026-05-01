@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:26:39.205951+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "re-implementation of zlib in pure Java",
+    "fork": false,
+    "full_name": "ymnk/jzlib",
+    "html_url": "https://github.com/ymnk/jzlib",
+    "language": "Java",
+    "pushed_at": "2023-05-25T18:04:44Z",
+    "stargazers_count": 206,
+    "topics": [],
+    "updated_at": "2026-04-21T08:39:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

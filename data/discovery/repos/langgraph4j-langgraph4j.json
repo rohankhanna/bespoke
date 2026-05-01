@@ -141,28 +141,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "langgraph4j/langgraph4j",
-      "target": "langgraph4j/langgraph4j-examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "langgraph4j/langgraph4j",
-      "target": "imfangs/langgraph4j-deep-researcher",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "langgraph4j/langgraph4j",
-      "target": "moyangzhan/langchain4j-aideepin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "langgraph4j/langgraph4j",
-      "target": "kugaaa/langchain4j-langfuse",
+      "target": "osgiliathenterprise/acp-langgraph-langchain-bridge",
       "target_type": "repository"
     },
     {
@@ -383,7 +362,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:05:09.071508+00:00",
+  "fetched_at": "2026-05-01T10:21:44.575722+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -429,27 +408,12 @@
       "spring-ai",
       "workflow"
     ],
-    "updated_at": "2026-04-30T14:40:23Z"
+    "updated_at": "2026-05-01T00:36:16Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "imfangs/langgraph4j-deep-researcher",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kugaaa/langchain4j-langfuse",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "langgraph4j/langgraph4j-examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "moyangzhan/langchain4j-aideepin",
+      "full_name": "osgiliathenterprise/acp-langgraph-langchain-bridge",
       "source_file": "README.md"
     }
   ],

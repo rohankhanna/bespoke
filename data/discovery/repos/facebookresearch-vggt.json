@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/vggt",
+      "target": "jytime/deep-sfm-revisited",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/vggt",
+      "target": "naver/dust3r",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/vggt",
+      "target": "microsoft/moge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/vggt",
+      "target": "xiongzhu666/sky-segmentation-and-post-processing",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:28.675421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14662
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1040
+    },
+    {
+      "path": "requirements.txt",
+      "size": 89
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025 Best Paper Award] VGGT: Visual Geometry Grounded Transformer",
+    "fork": false,
+    "full_name": "facebookresearch/vggt",
+    "html_url": "https://github.com/facebookresearch/vggt",
+    "language": "Python",
+    "pushed_at": "2026-03-03T21:50:51Z",
+    "stargazers_count": 13004,
+    "topics": [],
+    "updated_at": "2026-05-01T04:23:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jytime/deep-sfm-revisited",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/moge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver/dust3r",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiongzhu666/sky-segmentation-and-post-processing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

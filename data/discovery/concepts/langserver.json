@@ -19,6 +19,18 @@
       "source_repo": "mattn/efm-langserver",
       "status": "candidate-context",
       "text": "[![Actions Status](https://github.com/mattn/efm-langserver/workflows/CI/badge.svg)](https://github.com/mattn/efm-langserver/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "pre-configured CLI (linters, formatters) -> LSP (IDE) adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mattn/efm-langserver",
       "status": "candidate",
       "text": "[![Actions Status](https://github.com/mattn/efm-langserver/workflows/CI/badge.svg)](https://github.com/mattn/efm-langserver/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "mattn/efm-langserver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rhoban/onshape-to-robot-examples",
+      "target": "rhoban/metabot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:36:03.461985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example of robots that can be exported with onshape-to-robot tool",
+    "fork": false,
+    "full_name": "Rhoban/onshape-to-robot-examples",
+    "html_url": "https://github.com/Rhoban/onshape-to-robot-examples",
+    "language": "OpenSCAD",
+    "pushed_at": "2026-02-02T20:30:34Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-04-21T15:30:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhoban/metabot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

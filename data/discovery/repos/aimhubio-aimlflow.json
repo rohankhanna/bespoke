@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aimhubio/aimlflow",
+      "target": "mlflow/mlflow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:30:26.472239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4620
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "aim-mlflow integration",
+    "fork": false,
+    "full_name": "aimhubio/aimlflow",
+    "html_url": "https://github.com/aimhubio/aimlflow",
+    "language": "Python",
+    "pushed_at": "2023-07-17T10:23:27Z",
+    "stargazers_count": 244,
+    "topics": [],
+    "updated_at": "2026-04-10T02:23:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlflow/mlflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

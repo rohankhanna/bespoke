@@ -31,6 +31,18 @@
       "source_repo": "ansible/ansible-compat",
       "status": "candidate-context",
       "text": "ack"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pycontribs/jira",
+      "status": "candidate-context",
+      "text": "Python Jira library. Development chat available on https://matrix.to/#/#pycontribs:matrix.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycontribs/jira",
+      "status": "candidate-context",
+      "text": "ack"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ansible/ansible-compat",
+      "status": "candidate",
+      "text": "ack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycontribs/jira",
       "status": "candidate",
       "text": "ack"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/ack.yml",
       "source_repo": "ansible/ansible-compat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ack.yml",
+      "source_repo": "pycontribs/jira"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

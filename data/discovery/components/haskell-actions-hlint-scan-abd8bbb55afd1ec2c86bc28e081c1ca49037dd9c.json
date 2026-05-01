@@ -1,0 +1,12 @@
+{
+  "component": "haskell-actions/hlint-scan@abd8bbb55afd1ec2c86bc28e081c1ca49037dd9c",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yaml",
+      "source_repo": "haskell-actions/hlint-scan"
+    }
+  ]
+}

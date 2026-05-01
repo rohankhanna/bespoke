@@ -166,6 +166,30 @@
       "source_repo": "burningwave/core",
       "status": "candidate-context",
       "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "a robust, scalable, and maintained set of caching packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "[<img align=\"center\" src=\"https://cacheable.org/logo.svg\" alt=\"Cacheable\" />](https://github.com/jaredwray/cacheable)"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +270,18 @@
       "source_repo": "burningwave/core",
       "status": "candidate",
       "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate",
+      "text": "[<img align=\"center\" src=\"https://cacheable.org/logo.svg\" alt=\"Cacheable\" />](https://github.com/jaredwray/cacheable)"
     }
   ],
   "candidate_related_terms": [
@@ -367,11 +403,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "burningwave/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jaredwray/cacheable"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

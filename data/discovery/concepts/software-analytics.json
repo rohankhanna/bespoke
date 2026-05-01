@@ -19,6 +19,18 @@
       "source_repo": "chaoss/grimoirelab-perceval",
       "status": "candidate-context",
       "text": "Send Sir Perceval on a quest to retrieve and gather data from software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate-context",
+      "text": "Orchestrate the execution of GrimoireLab tools to produce a dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate-context",
+      "text": "SirMordred is the tool used to coordinate the execution of the GrimoireLab platform, via two main configuration files, the `setup.cfg` and `projects.json`, which are summarized in their corresponding sections."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chaoss/grimoirelab-perceval",
       "status": "candidate",
       "text": "Send Sir Perceval on a quest to retrieve and gather data from software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate",
+      "text": "SirMordred is the tool used to coordinate the execution of the GrimoireLab platform, via two main configuration files, the `setup.cfg` and `projects.json`, which are summarized in their corresponding sections."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "chaoss/grimoirelab-perceval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-sirmordred"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

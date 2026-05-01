@@ -433,6 +433,18 @@
       "source_repo": "facebook/pyrefly",
       "status": "candidate-context",
       "text": "[![pyrefly](https://img.shields.io/endpoint?url=https://pyrefly.org/badge.json)](https://github.com/facebook/pyrefly)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate-context",
+      "text": "Declarative UI toolkit for modern C++20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate-context",
+      "text": "Code Quality"
     }
   ],
   "candidate_glosses": [
@@ -645,6 +657,12 @@
       "source_repo": "facebook/pyrefly",
       "status": "candidate",
       "text": "[![pyrefly](https://img.shields.io/endpoint?url=https://pyrefly.org/badge.json)](https://github.com/facebook/pyrefly)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aui-framework/aui",
+      "status": "candidate",
+      "text": "Code Quality"
     }
   ],
   "candidate_related_terms": [
@@ -964,11 +982,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "aui-framework/aui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

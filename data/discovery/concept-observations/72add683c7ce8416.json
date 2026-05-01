@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go implementation of a HTTP server to allow remote generation of mermaid-js diagrams without any pre-requisites installed locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Use mermaid-js to generate diagrams in a HTTP endpoint."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Use mermaid-js to generate diagrams in a HTTP endpoint."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026931,
+      "status": "candidate",
+      "text": "horn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29710716,
+      "status": "candidate",
+      "text": "burglar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707297,
+      "status": "candidate",
+      "text": "hell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29681932,
+      "status": "candidate",
+      "text": "siren"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041438,
+      "status": "candidate",
+      "text": "reverse mermaid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mermaid",
+      "sense_id": "mermaid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mermaid",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mermaid",
+  "observation_id": "72add683c7ce8416",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "mermaid",
+  "source_context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+  "source_file": null,
+  "source_repo": "TomWright/mermaid-server",
+  "source_repo_description": "Go implementation of a HTTP server to allow remote generation of mermaid-js diagrams without any pre-requisites installed locally."
+}

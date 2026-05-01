@@ -2983,6 +2983,282 @@
       "source_repo": "aksakalli/gtop",
       "status": "candidate-context",
       "text": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate-context",
+      "text": "Build your repo automatically."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Oryx/Oryx-Nightly?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=10393&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate-context",
+      "text": "Resolve Node.js version aliases like `latest`, `lts` or `erbium`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/node-version-alias)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate-context",
+      "text": "Normalize and validate Node.js versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/normalize-node-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate-context",
+      "text": "Get the preferred Node.js version of a project or user"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate-context",
+      "text": "Download a specific version of Node.js (CLI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate-context",
+      "text": "MongoDB object modeling designed to work in an asynchronous environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate-context",
+      "text": "Mongoose is a [MongoDB](https://www.mongodb.org/) object modeling tool designed to work in an asynchronous environment. Mongoose supports [Node.js](https://nodejs.org/en/) and [Deno](https://deno.land/) (alpha)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/nodejs-datastore",
+      "status": "candidate-context",
+      "text": "Node.js client for Google Cloud Datastore: a highly-scalable NoSQL database for your web and mobile applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-datastore",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imagemin/imagemin",
+      "status": "candidate-context",
+      "text": "Minify images seamlessly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin",
+      "status": "candidate-context",
+      "text": "imagemin \u2014 Minify images seamlessly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "Repository for webpack documentation and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate-context",
+      "text": "Utility to interact with HTTP status code in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate-context",
+      "text": "Utility to interact with HTTP status codes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate-context",
+      "text": "A 45% faster alternative to node:querystring module "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/anonrig/fast-querystring/workflows/test/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate-context",
+      "text": "A type-safe TypeScript SQL query builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "Simplified nix packaging for various programming language ecosystems [maintainer=@DavHau]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate-context",
+      "text": "Node.js bindings for Argon2 hashing algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate-context",
+      "text": "[![Financial contributors on Open Collective][opencollective-image]][opencollective-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate-context",
+      "text": "Perform async work synchronously in Node.js/Bun using `worker_threads` with first-class TypeScript and Yarn P'n'P support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/synckit/ci.yml?branch=main)](https://github.com/un-ts/synckit/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "Examples for using Connect with various TypeScript web frameworks and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "examples-es"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "a robust, scalable, and maintained set of caching packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "[<img align=\"center\" src=\"https://cacheable.org/logo.svg\" alt=\"Cacheable\" />](https://github.com/jaredwray/cacheable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekalinin/nodeenv",
+      "status": "candidate-context",
+      "text": "Virtual environment for Node.js & integrator with virtualenv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/nodeenv",
+      "status": "candidate-context",
+      "text": "Node.js virtual environment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/find-cache-directory",
+      "status": "candidate-context",
+      "text": "Finds the common standard cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/find-cache-directory",
+      "status": "candidate-context",
+      "text": "find-cache-directory \u2014 Finds the common standard cache directory"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jshttp/mime-types",
+      "status": "candidate-context",
+      "text": "The ultimate javascript content-type utility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jshttp/mime-types",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "Apache Pulsar NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -4473,6 +4749,144 @@
       "source_repo": "aksakalli/gtop",
       "status": "candidate",
       "text": "![screen record](https://raw.githubusercontent.com/aksakalli/gtop/master/img/demo.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Oryx",
+      "status": "candidate",
+      "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Oryx/Oryx-Nightly?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=10393&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/node-version-alias",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/node-version-alias)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/normalize-node-version",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/normalize-node-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/preferred-node-version",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/get-node-cli",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/get-node-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate",
+      "text": "Mongoose is a [MongoDB](https://www.mongodb.org/) object modeling tool designed to work in an asynchronous environment. Mongoose supports [Node.js](https://nodejs.org/en/) and [Deno](https://deno.land/) (alpha)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-datastore",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imagemin/imagemin",
+      "status": "candidate",
+      "text": "imagemin \u2014 Minify images seamlessly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adaltas/node-http-status",
+      "status": "candidate",
+      "text": "Utility to interact with HTTP status codes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate",
+      "text": "![Test](https://github.com/anonrig/fast-querystring/workflows/test/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/dream2nix",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate",
+      "text": "[![Financial contributors on Open Collective][opencollective-image]][opencollective-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/synckit",
+      "status": "candidate",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/synckit/ci.yml?branch=main)](https://github.com/un-ts/synckit/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate",
+      "text": "examples-es"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate",
+      "text": "[<img align=\"center\" src=\"https://cacheable.org/logo.svg\" alt=\"Cacheable\" />](https://github.com/jaredwray/cacheable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/nodeenv",
+      "status": "candidate",
+      "text": "Node.js virtual environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/find-cache-directory",
+      "status": "candidate",
+      "text": "find-cache-directory \u2014 Finds the common standard cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jshttp/mime-types",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -6694,11 +7108,281 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Oryx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/node-version-alias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/normalize-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/preferred-node-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/get-node-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/gaxios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/nodejs-datastore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "imagemin/imagemin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack.js.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adaltas/node-http-status"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "anonrig/fast-querystring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/dream2nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ranisalt/node-argon2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "un-ts/synckit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/examples-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jaredwray/cacheable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ekalinin/nodeenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/find-cache-directory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jshttp/mime-types"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/pulsar-client-node"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

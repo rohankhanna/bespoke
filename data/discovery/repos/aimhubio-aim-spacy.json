@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:30:25.686883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7223
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Aim-spaCy integration",
+    "fork": false,
+    "full_name": "aimhubio/aim-spacy",
+    "html_url": "https://github.com/aimhubio/aim-spacy",
+    "language": "Python",
+    "pushed_at": "2023-07-17T10:22:47Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2025-11-06T11:43:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

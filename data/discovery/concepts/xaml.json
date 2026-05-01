@@ -43,6 +43,66 @@
       "source_repo": "microsoft/WinUI-Gallery",
       "status": "candidate-context",
       "text": "![WinUI Gallery hero image](./.github/assets/ReadmeHero-dark.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "Google's Material Design in XAML & WPF, for C# & VB.Net. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "A framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "status": "candidate-context",
+      "text": "NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "status": "candidate-context",
+      "text": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "Shared Controlz for WPF and ... more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate-context",
+      "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate-context",
+      "text": "A collection of small samples using MaterialDesignInXaml. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate-context",
+      "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "microsoft/WinUI-Gallery",
       "status": "candidate",
       "text": "![WinUI Gallery hero image](./.github/assets/ReadmeHero-dark.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "status": "candidate",
+      "text": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ControlzEx/ControlzEx",
+      "status": "candidate",
+      "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate",
+      "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +214,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "microsoft/WinUI-Gallery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hardcodet/wpf-notifyicon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ControlzEx/ControlzEx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

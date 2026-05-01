@@ -115,6 +115,30 @@
       "source_repo": "oclif/plugin-search",
       "status": "candidate-context",
       "text": "failureNotifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate-context",
+      "text": "failureNotifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "scripts to automate change case management in Salesforce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "failureNotifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/dev-config",
+      "status": "candidate-context",
+      "text": "failureNotifications"
     }
   ],
   "candidate_glosses": [
@@ -175,6 +199,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oclif/plugin-search",
+      "status": "candidate",
+      "text": "failureNotifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate",
+      "text": "failureNotifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate",
+      "text": "failureNotifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/dev-config",
       "status": "candidate",
       "text": "failureNotifications"
     }
@@ -244,11 +286,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/failureNotifications.yml",
       "source_repo": "oclif/plugin-search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "forcedotcom/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "forcedotcom/change-case-management"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "forcedotcom/dev-config"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

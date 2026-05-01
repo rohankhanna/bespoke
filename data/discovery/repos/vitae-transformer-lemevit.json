@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "vitae-transformer/rsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "jbwang1997/obbdetection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "justchenhao/bit_cd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "remote-sensing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "scene-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/LeMeViT",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:24:53.928520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo for [IJCAI'24] \"LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation\"",
+    "fork": false,
+    "full_name": "ViTAE-Transformer/LeMeViT",
+    "html_url": "https://github.com/ViTAE-Transformer/LeMeViT",
+    "language": "Python",
+    "pushed_at": "2024-11-11T02:58:22Z",
+    "stargazers_count": 53,
+    "topics": [
+      "attention",
+      "deep-learning",
+      "object-detection",
+      "remote-sensing",
+      "scene-classification",
+      "semantic-segmentation",
+      "vision-transformer"
+    ],
+    "updated_at": "2025-09-06T02:50:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jbwang1997/obbdetection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justchenhao/bit_cd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/rsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-sensing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-classification"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> LeMeViT: Efficient Vision Transformer with Learnable Meta Tokens for Remote",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

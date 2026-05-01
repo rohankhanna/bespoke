@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Complete Telemetry.Metrics Reporter solution for Prometheus "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master.svg?style=svg)](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master) [![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus/branch/mast\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master.svg?style=svg)](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master) [![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus/branch/mast\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001296,
+      "status": "candidate",
+      "text": "panacea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000952,
+      "status": "candidate",
+      "text": "vitriol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000279,
+      "status": "candidate",
+      "text": "cure-all"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994794,
+      "status": "candidate",
+      "text": "nostrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973357,
+      "status": "candidate",
+      "text": "paregoric"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elixir",
+      "sense_id": "elixir#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "elixir",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elixir",
+  "observation_id": "f0eece0846a01810",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "elixir",
+  "source_context_snippet": "[![CircleCI](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master.svg?style=svg)](https://circleci.com/gh/beam-telemetry/telemetry_metrics_prometheus/tree/master) [![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus/branch/mast\u2026",
+  "source_file": null,
+  "source_repo": "beam-telemetry/telemetry_metrics_prometheus",
+  "source_repo_description": "Complete Telemetry.Metrics Reporter solution for Prometheus "
+}

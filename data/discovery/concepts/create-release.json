@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Create Release",
-    "Create release"
+    "Create release",
+    "\ud83d\udce6 Create release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -818,6 +819,54 @@
       "source_repo": "adamgreig/ecpdap",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vue",
+      "status": "candidate-context",
+      "text": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for silicon in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/devtools-v6",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Browser devtools extension for debugging Vue.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/devtools-v6",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate-context",
+      "text": "\ud83e\ude84 Generate Kysely types directly from your Prisma schema!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Create release"
     }
   ],
   "candidate_glosses": [
@@ -1228,6 +1277,30 @@
       "source_repo": "adamgreig/ecpdap",
       "status": "candidate",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/devtools-v6",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate",
+      "text": "\ud83d\udce6 Create release"
     }
   ],
   "candidate_related_terms": [
@@ -1871,11 +1944,71 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/create_release.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "vuejs/vue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "krivahtoo/silicon.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "vuejs/devtools-v6"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "valtyr/prisma-kysely"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

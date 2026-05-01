@@ -34,6 +34,30 @@
       "source_repo": "reviewdog/action-hadolint",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate-context",
+      "text": "Scan Haskell code with HLint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate-context",
+      "text": "Hadolint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate-context",
+      "text": "VSCode extension to integrate hadolint, a Dockerfile linter, into VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/ExiaSR/vscode-hadolint.svg?branch=master)](https://travis-ci.com/ExiaSR/vscode-hadolint)"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +72,18 @@
       "source_repo": "reviewdog/action-hadolint",
       "status": "candidate",
       "text": "[![](https://img.shields.io/github/license/reviewdog/action-hadolint)](./LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate",
+      "text": "Hadolint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/ExiaSR/vscode-hadolint.svg?branch=master)](https://travis-ci.com/ExiaSR/vscode-hadolint)"
     }
   ],
   "candidate_related_terms": [],
@@ -67,11 +103,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "reviewdog/action-hadolint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/hadolint.yaml",
+      "source_repo": "haskell-actions/hlint-scan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

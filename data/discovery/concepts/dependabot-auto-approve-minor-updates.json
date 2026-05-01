@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependabot auto-approve minor updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Storage Provider Retrieval Checker as a Checker Subnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate-context",
+      "text": "Dependabot auto-approve minor updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CheckerNetwork/spark-checker",
+      "status": "candidate",
+      "text": "Dependabot auto-approve minor updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15765,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14644,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14644,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14404,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14404,
+      "status": "candidate",
+      "text": "refresher"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependabot auto-approve minor updates",
+  "concept_id": "dependabot-auto-approve-minor-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dependabot-auto-approve-minor.yml",
+      "source_repo": "CheckerNetwork/spark-checker"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependabot auto-approve minor updates",
+      "sense_id": "dependabot-auto-approve-minor-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

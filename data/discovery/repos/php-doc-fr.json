@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-style.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-whitespace.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/track-en-changes.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "php/doc-fr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "php/doc-fr",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-style.yml",
+      "source_repo": "php/doc-fr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-style.yml",
+      "source_repo": "php/doc-fr",
+      "target": "Check style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-whitespace.yml",
+      "source_repo": "php/doc-fr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-whitespace.yml",
+      "source_repo": "php/doc-fr",
+      "target": "check-whitespace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/track-en-changes.yml",
+      "source_repo": "php/doc-fr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/track-en-changes.yml",
+      "source_repo": "php/doc-fr",
+      "target": "Track doc-en changes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:09:51.181080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7623
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/check-style.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/check-whitespace.yml",
+      "size": 848
+    },
+    {
+      "path": ".github/workflows/track-en-changes.yml",
+      "size": 514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "French translation of the PHP documentation",
+    "fork": false,
+    "full_name": "php/doc-fr",
+    "html_url": "https://github.com/php/doc-fr",
+    "language": "HTML",
+    "pushed_at": "2026-04-30T08:26:34Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-04-30T08:26:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"Check style\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-style.yml",
+      "term": "Check style"
+    },
+    {
+      "context_snippet": "check-whitespace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-whitespace.yml",
+      "term": "check-whitespace"
+    },
+    {
+      "context_snippet": "\"Track doc-en changes\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/track-en-changes.yml",
+      "term": "Track doc-en changes"
+    }
+  ]
+}

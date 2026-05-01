@@ -75,6 +75,18 @@
       "source_repo": "chef/chef",
       "status": "candidate-context",
       "text": "DCO Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdownlint/markdownlint",
+      "status": "candidate-context",
+      "text": "Markdown lint tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdownlint/markdownlint",
+      "status": "candidate-context",
+      "text": "DCO Check"
     }
   ],
   "candidate_glosses": [
@@ -111,6 +123,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chef/chef",
+      "status": "candidate",
+      "text": "DCO Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdownlint/markdownlint",
       "status": "candidate",
       "text": "DCO Check"
     }
@@ -198,11 +216,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/dco.yml",
       "source_repo": "chef/chef"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "markdownlint/markdownlint"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

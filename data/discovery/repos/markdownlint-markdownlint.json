@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "wechuli/allcheckspassed@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-checks.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actionshub/markdownlint@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "fernandrone/linelint@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tim-actions/get-pr-commits@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml"
+    },
+    {
+      "component": "tim-actions/dco@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "ruby/rake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "bundler/bundler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-checks.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "wechuli/allcheckspassed@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-all-checks.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "All checks pass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "actionshub/markdownlint@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "fernandrone/linelint@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "tim-actions/get-pr-commits@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "tim-actions/dco@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "markdownlint/markdownlint",
+      "target": "DCO Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "markdownlint/markdownlint",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "markdownlint/markdownlint",
+      "target": "markdownlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "markdownlint/markdownlint",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:28:22.364516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3935
+    },
+    {
+      "path": ".github/workflows/check-all-checks.yml",
+      "size": 198
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1106
+    },
+    {
+      "path": ".github/workflows/dco.yml",
+      "size": 402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Markdown lint tool",
+    "fork": false,
+    "full_name": "markdownlint/markdownlint",
+    "html_url": "https://github.com/markdownlint/markdownlint",
+    "language": "Ruby",
+    "pushed_at": "2026-04-19T02:08:39Z",
+    "stargazers_count": 2037,
+    "topics": [
+      "markdown",
+      "markdownlint",
+      "ruby"
+    ],
+    "updated_at": "2026-04-29T18:12:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bundler/bundler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby/rake",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "All checks pass",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-all-checks.yml",
+      "term": "All checks pass"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "DCO Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "term": "DCO Check"
+    },
+    {
+      "context_snippet": "[![Continuous Integration](https://github.com/markdownlint/markdownlint/workflows/Continuous%20Integration/badge.svg)](https://github.com/markdownlint/markdownlint/actions?query=workflow%3A%22Continuous+Integration%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![Continuous Integration](https://github.com/markdownlint/markdownlint/workflows/Continuous%20Integration/badge.svg)](https://github.com/markdownlint/markdownlint/actions?query=workflow%3A%22Continuous+Integration%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdownlint"
+    },
+    {
+      "context_snippet": "[![Continuous Integration](https://github.com/markdownlint/markdownlint/workflows/Continuous%20Integration/badge.svg)](https://github.com/markdownlint/markdownlint/actions?query=workflow%3A%22Continuous+Integration%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

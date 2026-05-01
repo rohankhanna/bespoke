@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples demonstrating usage of Spring AI & Spring AI Alibaba \ud83d\udcdc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Spring AI Alibaba Repo: https://github.com/alibaba/spring-ai-alibaba"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Spring AI Alibaba Repo: https://github.com/alibaba/spring-ai-alibaba"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spring-ai-alibaba",
+      "sense_id": "spring-ai-alibaba#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spring-ai-alibaba",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spring-ai-alibaba",
+  "observation_id": "c802e6c943a0f355",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "spring-ai-alibaba",
+  "source_context_snippet": "> Spring AI Alibaba Repo: https://github.com/alibaba/spring-ai-alibaba",
+  "source_file": null,
+  "source_repo": "spring-ai-alibaba/examples",
+  "source_repo_description": "Examples demonstrating usage of Spring AI & Spring AI Alibaba \ud83d\udcdc"
+}

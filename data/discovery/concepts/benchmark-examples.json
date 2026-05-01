@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "benchmark & examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xsimd",
+      "status": "candidate-context",
+      "text": "C++ wrappers for SIMD intrinsics and parallelized, optimized mathematical functions (SSE, AVX, AVX512, NEON, SVE, WebAssembly, VSX, RISC-V))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xsimd",
+      "status": "candidate-context",
+      "text": "benchmark & examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xsimd",
+      "status": "candidate",
+      "text": "benchmark & examples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11769,
+      "status": "candidate",
+      "text": "tie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11769,
+      "status": "candidate",
+      "text": "tied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11769,
+      "status": "candidate",
+      "text": "ties"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10805,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10805,
+      "status": "candidate",
+      "text": "benchmarks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "benchmark & examples",
+  "concept_id": "benchmark-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "xtensor-stack/xsimd"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "benchmark & examples",
+      "sense_id": "benchmark-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

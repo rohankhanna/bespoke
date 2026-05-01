@@ -1,0 +1,12 @@
+{
+  "component": "springaialibaba/infra@6a10230a282aa7b379e24df108131cc5a946bc5e",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-and-pr.yml",
+      "source_repo": "alibaba/spring-ai-alibaba"
+    }
+  ]
+}

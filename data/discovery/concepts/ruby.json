@@ -1420,6 +1420,234 @@
       "source_repo": "ruby-processing/JRubyArt",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate-context",
+      "text": "Track changes to your rails models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate-context",
+      "text": "[![Build Status][4]][5]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate-context",
+      "text": "A Ruby library, written in Rust, for generating Halton sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate-context",
+      "text": "[workspace] members = [\"ext/halton\"]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate-context",
+      "text": "Ruby/Numo::NArray - New NArray class library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate-context",
+      "text": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate-context",
+      "text": "Numo::Liblinear is a Ruby gem binding to the LIBLINEAR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate-context",
+      "text": "Numo::Libsvm is a Ruby gem binding to the LIBSVM "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-libsvm/workflows/build/badge.svg)](https://github.com/yoshoku/numo-libsvm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate-context",
+      "text": "Numo::Linalg Alternative (numo-linalg-alt) is an alternative to Numo::Linalg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/numo-linalg-alt.svg)](https://badge.fury.io/rb/numo-linalg-alt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rvm/rvm",
+      "status": "candidate-context",
+      "text": "Ruby enVironment Manager (RVM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvm/rvm",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdownlint/markdownlint",
+      "status": "candidate-context",
+      "text": "Markdown lint tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdownlint/markdownlint",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration](https://github.com/markdownlint/markdownlint/workflows/Continuous%20Integration/badge.svg)](https://github.com/markdownlint/markdownlint/actions?query=workflow%3A%22Continuous+Integration%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard-rails",
+      "status": "candidate-context",
+      "text": "A Standard Ruby plugin that configures rubocop-rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-rails",
+      "status": "candidate-context",
+      "text": "This gem provides a [lint_roller](https://github.com/standardrb/lint_roller)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate-context",
+      "text": "Example sketches for JRubyArt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate-context",
+      "text": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate-context",
+      "text": "The administration framework for Ruby on Rails applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate-context",
+      "text": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "status": "candidate-context",
+      "text": "Low-Budget Password Strength Estimation written in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/zxcvbn.svg)](https://badge.fury.io/rb/zxcvbn)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "red-data-tools/pycall.rb",
+      "status": "candidate-context",
+      "text": "Calling Python functions from the Ruby language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "red-data-tools/pycall.rb",
+      "status": "candidate-context",
+      "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate-context",
+      "text": "Gnuplot wrapper for Ruby/Numo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate-context",
+      "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate-context",
+      "text": "GSL interface for Ruby/Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate-context",
+      "text": "[GitHub](https://github.com/ruby-numo/numo-gsl) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "Ruby language bindings for LIBSVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate-context",
+      "text": "Linear Algebra Library for Ruby/Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate-context",
+      "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate-context",
+      "text": "Numo::TinyLinalg is a subset library from Numo::Linalg consisting only of methods used in Machine Learning algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate-context",
+      "text": "**This project is discontinued. Development has been moved to [Numo::Linalg Alternative](https://github.com/yoshoku/numo-linalg-alt).**"
     }
   ],
   "candidate_glosses": [
@@ -2142,6 +2370,120 @@
       "source_repo": "ruby-processing/JRubyArt",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate",
+      "text": "[![Build Status][4]][5]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matsadler/halton-rb",
+      "status": "candidate",
+      "text": "[workspace] members = [\"ext/halton\"]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate",
+      "text": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-libsvm/workflows/build/badge.svg)](https://github.com/yoshoku/numo-libsvm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/numo-linalg-alt.svg)](https://badge.fury.io/rb/numo-linalg-alt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvm/rvm",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdownlint/markdownlint",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/markdownlint/markdownlint/workflows/Continuous%20Integration/badge.svg)](https://github.com/markdownlint/markdownlint/actions?query=workflow%3A%22Continuous+Integration%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard-rails",
+      "status": "candidate",
+      "text": "This gem provides a [lint_roller](https://github.com/standardrb/lint_roller)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate",
+      "text": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate",
+      "text": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate",
+      "text": "Audited"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formigarafa/zxcvbn-rb",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/zxcvbn.svg)](https://badge.fury.io/rb/zxcvbn)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "red-data-tools/pycall.rb",
+      "status": "candidate",
+      "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate",
+      "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate",
+      "text": "[GitHub](https://github.com/ruby-numo/numo-gsl) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-linalg",
+      "status": "candidate",
+      "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-tiny_linalg",
+      "status": "candidate",
+      "text": "**This project is discontinued. Development has been moved to [Numo::Linalg Alternative](https://github.com/yoshoku/numo-linalg-alt).**"
     }
   ],
   "candidate_related_terms": [
@@ -3037,11 +3379,143 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ruby-processing/JRubyArt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "paper-trail-gem/paper_trail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "matsadler/halton-rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-narray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-liblinear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-libsvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-linalg-alt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rvm/rvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "markdownlint/markdownlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby/ruby-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "formigarafa/zxcvbn-rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-linalg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-tiny_linalg"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,30 @@
       "source_repo": "openlit/openlit",
       "status": "candidate-context",
       "text": "Publish Package to npmjs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate-context",
+      "text": "MongoDB object modeling designed to work in an asynchronous environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate-context",
+      "text": "Publish Package to npmjs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/redux",
+      "status": "candidate-context",
+      "text": "A JS library for predictable global state management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux",
+      "status": "candidate-context",
+      "text": "Publish Package to npmjs"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "openlit/openlit",
+      "status": "candidate",
+      "text": "Publish Package to npmjs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/mongoose",
+      "status": "candidate",
+      "text": "Publish Package to npmjs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux",
       "status": "candidate",
       "text": "Publish Package to npmjs"
     }
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/npm-release.yml",
       "source_repo": "openlit/openlit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "reduxjs/redux"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

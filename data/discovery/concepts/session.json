@@ -43,6 +43,18 @@
       "source_repo": "alexedwards/scs",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate-context",
+      "text": "Session manager for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate-context",
+      "text": "Provides multi-session management capabilities."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "alexedwards/scs",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate",
+      "text": "Provides multi-session management capabilities."
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +171,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alexedwards/scs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/multiple-session.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

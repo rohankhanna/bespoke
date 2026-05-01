@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orlp/color-backtrace",
+      "target": "yaahc/btparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "orlp/color-backtrace",
+      "target": "athre0z/color-backtrace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "orlp/color-backtrace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "orlp/color-backtrace",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:38.218136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4450
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1194
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Colorful panic backtraces for Rust",
+    "fork": true,
+    "full_name": "orlp/color-backtrace",
+    "html_url": "https://github.com/orlp/color-backtrace",
+    "language": null,
+    "pushed_at": "2026-02-12T11:42:46Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-12T19:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yaahc/btparse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "athre0z/color-backtrace",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

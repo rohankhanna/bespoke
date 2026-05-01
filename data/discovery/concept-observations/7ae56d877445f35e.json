@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google's Material Design in XAML & WPF, for C# & VB.Net. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Wiki - Update Control Styles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Wiki - Update Control Styles"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32796,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22184,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21790,
+      "status": "candidate",
+      "text": "avenue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21629,
+      "status": "candidate",
+      "text": "smoker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21607,
+      "status": "candidate",
+      "text": "brow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Wiki - Update Control Styles",
+      "sense_id": "wiki---update-control-styles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wiki---update-control-styles",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wiki---update-control-styles",
+  "observation_id": "7ae56d877445f35e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Wiki - Update Control Styles",
+  "source_context_snippet": "Wiki - Update Control Styles",
+  "source_file": ".github/workflows/control_styles.yml",
+  "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+  "source_repo_description": "Google's Material Design in XAML & WPF, for C# & VB.Net. "
+}

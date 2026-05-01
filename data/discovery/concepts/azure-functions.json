@@ -19,6 +19,18 @@
       "source_repo": "serverless/serverless",
       "status": "candidate-context",
       "text": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/app-service-announcements",
+      "status": "candidate-context",
+      "text": "Subscribe to this repo to be notified about major changes in App Service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/app-service-announcements",
+      "status": "candidate-context",
+      "text": "Announcements"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "serverless/serverless",
       "status": "candidate",
       "text": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/app-service-announcements",
+      "status": "candidate",
+      "text": "Announcements"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "serverless/serverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/app-service-announcements"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brentyi/dfgo",
+      "target": "brentyi/jax_dataclasses",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brentyi/dfgo",
+      "target": "brentyi/jax-ekf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brentyi/dfgo",
+      "target": "brentyi/fannypack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brentyi/dfgo",
+      "target": "borglab/swiftfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/dfgo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/dfgo",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/dfgo",
+      "target": "mypy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:09:45.399428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9051
+    },
+    {
+      "path": "requirements.txt",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Differentiable Factor Graph Optimization @ IROS 2021",
+    "fork": false,
+    "full_name": "brentyi/dfgo",
+    "html_url": "https://github.com/brentyi/dfgo",
+    "language": "Python",
+    "pushed_at": "2023-02-22T09:02:00Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-04-17T17:33:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borglab/swiftfusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brentyi/fannypack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brentyi/jax-ekf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brentyi/jax_dataclasses",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "mypy"
+    }
+  ]
+}

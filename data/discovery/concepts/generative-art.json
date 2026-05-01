@@ -139,6 +139,42 @@
       "source_repo": "abey79/vpype",
       "status": "candidate-context",
       "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate-context",
+      "text": "Example sketches for JRubyArt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate-context",
+      "text": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate-context",
+      "text": "Convert images to plotter-friendly hatched patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate-context",
+      "text": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vpype-pixelart",
+      "status": "candidate-context",
+      "text": "Pixel art plotting in vpype"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype-pixelart",
+      "status": "candidate-context",
+      "text": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "abey79/vpype",
       "status": "candidate",
       "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt-examples",
+      "status": "candidate",
+      "text": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plottertools/hatched",
+      "status": "candidate",
+      "text": "<img src=\"https://i.imgur.com/QLlBpNU.png\" width=300 /> <img src=\"https://i.imgur.com/fRIrPV2.jpg\" width=300 />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype-pixelart",
+      "status": "candidate",
+      "text": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art."
     }
   ],
   "candidate_related_terms": [],
@@ -322,11 +376,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "abey79/vpype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "plottertools/hatched"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "abey79/vpype-pixelart"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "target": "moyangzhan/langchain4j-aideepin-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "target": "moyangzhan/langchain4j-aideepin-admin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "target": "bsorrentino/langgraph4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "target": "apache/age",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "target": "ai-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "target": "graphrag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "target": "knowlege-base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moyangzhan/langchain4j-aideepin",
+      "target": "langchain4j",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:16:12.350486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\uff08\u804a\u5929\u3001\u7ed8\u753b\u3001\u77e5\u8bc6\u5e93\u3001\u5de5\u4f5c\u6d41\u3001 MCP\u670d\u52a1\u5e02\u573a\u3001\u8bed\u97f3\u8f93\u5165\u8f93\u51fa\u3001\u957f\u671f\u8bb0\u5fc6\uff09 | Ai-based productivity tools (Chat,Draw,RAG,Workflow,MCP marketplace, ASR,TTS, Long-term memory etc)",
+    "fork": false,
+    "full_name": "moyangzhan/langchain4j-aideepin",
+    "html_url": "https://github.com/moyangzhan/langchain4j-aideepin",
+    "language": "Java",
+    "pushed_at": "2026-04-30T12:29:44Z",
+    "stargazers_count": 1263,
+    "topics": [
+      "ai-agent",
+      "ai-workflow",
+      "graphrag",
+      "knowlege-base",
+      "langchain4j",
+      "mcp",
+      "rag"
+    ],
+    "updated_at": "2026-05-01T03:02:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/age",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bsorrentino/langgraph4j",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moyangzhan/langchain4j-aideepin-admin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moyangzhan/langchain4j-aideepin-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-workflow"
+    },
+    {
+      "context_snippet": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphrag"
+    },
+    {
+      "context_snippet": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowlege-base"
+    },
+    {
+      "context_snippet": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain4j"
+    }
+  ]
+}

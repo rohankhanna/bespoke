@@ -1,12 +1,17 @@
 {
   "component": "gerrymanoim/pr-prefix-labeler@v3",
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "gerrymanoim/libpy_simdjson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "quantopian/libpy"
     }
   ]
 }

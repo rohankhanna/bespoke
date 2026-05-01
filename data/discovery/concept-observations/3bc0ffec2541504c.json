@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Configure and deploy Team based multi-tenant EKS clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Terraform module which creates multi-tenancy resources on Amazon EKS."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Terraform module which creates multi-tenancy resources on Amazon EKS."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terraform-module",
+      "sense_id": "terraform-module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terraform-module",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terraform-module",
+  "observation_id": "3bc0ffec2541504c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "terraform-module",
+  "source_context_snippet": "Terraform module which creates multi-tenancy resources on Amazon EKS.",
+  "source_file": null,
+  "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+  "source_repo_description": "Configure and deploy Team based multi-tenant EKS clusters."
+}

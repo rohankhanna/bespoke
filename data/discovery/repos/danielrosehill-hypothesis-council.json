@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:14:10.188431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3457
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hypothesis-testing variant of the LLM council pattern \u2014 3 diverse models (Sonnet, Grok, MiniMax) via OpenRouter, Sonar grounding, Typst report",
+    "fork": false,
+    "full_name": "danielrosehill/Hypothesis-Council",
+    "html_url": "https://github.com/danielrosehill/Hypothesis-Council",
+    "language": "Python",
+    "pushed_at": "2026-04-23T10:28:19Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-23T10:28:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

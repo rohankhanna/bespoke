@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/args",
+      "target": "taywee/args",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/args",
+      "target": "philsquared/catch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:13:59.054702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "  A simple header-only C++ argument parser library. Supposed to be flexible and powerful, and attempts to be compatible with the functionality of the Python standard argparse library (though not necessarily the API).",
+    "fork": true,
+    "full_name": "DiligentGraphics/args",
+    "html_url": "https://github.com/DiligentGraphics/args",
+    "language": "C++",
+    "pushed_at": "2026-03-03T02:10:41Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-03T02:10:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philsquared/catch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taywee/args",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

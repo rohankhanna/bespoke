@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:05:48.706435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1831
+    },
+    {
+      "path": "go.mod",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "chromedp-proxy is a logging proxy for Chrome DevTools Protocol clients.",
+    "fork": false,
+    "full_name": "chromedp/chromedp-proxy",
+    "html_url": "https://github.com/chromedp/chromedp-proxy",
+    "language": "Go",
+    "pushed_at": "2026-03-21T00:41:42Z",
+    "stargazers_count": 139,
+    "topics": [],
+    "updated_at": "2026-03-29T19:07:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

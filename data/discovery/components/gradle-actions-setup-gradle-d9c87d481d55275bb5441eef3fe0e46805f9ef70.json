@@ -1,0 +1,12 @@
+{
+  "component": "gradle/actions/setup-gradle@d9c87d481d55275bb5441eef3fe0e46805f9ef70",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-run-test.yml",
+      "source_repo": "pulumi/pulumi"
+    }
+  ]
+}

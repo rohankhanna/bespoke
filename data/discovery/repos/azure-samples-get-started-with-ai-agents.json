@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "Azure/setup-azd@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml"
+    },
+    {
+      "component": "microsoft/template-validation-action@v0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "target": "Azure/setup-azd@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "target": "Deploy to Azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "target": "microsoft/template-validation-action@v0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "target": "Template Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "target": "ai-azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "target": "azd-templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:57.116215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16539
+    },
+    {
+      "path": ".github/workflows/azure-dev.yml",
+      "size": 3550
+    },
+    {
+      "path": ".github/workflows/template-validation.yml",
+      "size": 2835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Basic sample for deploying AI agents web app with Azure AI Foundry and SDKs",
+    "fork": false,
+    "full_name": "Azure-Samples/get-started-with-ai-agents",
+    "html_url": "https://github.com/Azure-Samples/get-started-with-ai-agents",
+    "language": "Bicep",
+    "pushed_at": "2026-04-29T23:32:21Z",
+    "stargazers_count": 324,
+    "topics": [
+      "ai-azd-templates",
+      "azd-templates"
+    ],
+    "updated_at": "2026-04-30T02:43:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy to Azure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "term": "Deploy to Azure"
+    },
+    {
+      "context_snippet": "Template Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-validation.yml",
+      "term": "Template Validation"
+    },
+    {
+      "context_snippet": "The agent leverages Foundry Agent Service and utilizes file search for knowledge retrieval from uploaded files, enabling it to generate responses with citations. The solution also includes built-in monitoring capabilities with tracing to ensure easier troubleshooting and optimiz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-azd-templates"
+    },
+    {
+      "context_snippet": "The agent leverages Foundry Agent Service and utilizes file search for knowledge retrieval from uploaded files, enabling it to generate responses with citations. The solution also includes built-in monitoring capabilities with tracing to ensure easier troubleshooting and optimiz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azd-templates"
+    }
+  ]
+}

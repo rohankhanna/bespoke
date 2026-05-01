@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:33:34.221856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4088
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "dingjiansw101/AerialDetection",
+    "html_url": "https://github.com/dingjiansw101/AerialDetection",
+    "language": "Python",
+    "pushed_at": "2021-10-29T23:11:39Z",
+    "stargazers_count": 830,
+    "topics": [],
+    "updated_at": "2026-04-21T05:54:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

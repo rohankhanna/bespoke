@@ -1,0 +1,17 @@
+{
+  "component": "mdn/workflows/.github/workflows/idle.yml@main",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/idle.yml",
+      "source_repo": "mdn/markdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mark-as-idle-issues-pr.yml",
+      "source_repo": "mdn/yari"
+    }
+  ]
+}

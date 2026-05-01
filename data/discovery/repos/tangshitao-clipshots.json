@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tangshitao/ClipShots",
+      "target": "tangshitao/clipshots_basline",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:14.717187+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ClipShots is the first large-scale dataset for shot boundary detection collected from Youtube and Weibo covering more than 20 categories, including sports, TV shows, animals, etc.",
+    "fork": false,
+    "full_name": "Tangshitao/ClipShots",
+    "html_url": "https://github.com/Tangshitao/ClipShots",
+    "language": "Python",
+    "pushed_at": "2021-11-09T01:18:55Z",
+    "stargazers_count": 125,
+    "topics": [],
+    "updated_at": "2026-03-13T09:31:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tangshitao/clipshots_basline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

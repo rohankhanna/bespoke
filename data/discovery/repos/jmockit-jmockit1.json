@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmockit/jmockit1",
+      "target": "codebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmockit/jmockit1",
+      "target": "codecoverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmockit/jmockit1",
+      "target": "integration-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmockit/jmockit1",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmockit/jmockit1",
+      "target": "mocking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmockit/jmockit1",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmockit/jmockit1",
+      "target": "unittesting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:03.041567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Advanced Java library for integration testing, mocking, faking, and code coverage",
+    "fork": false,
+    "full_name": "jmockit/jmockit1",
+    "html_url": "https://github.com/jmockit/jmockit1",
+    "language": "Java",
+    "pushed_at": "2025-06-20T19:24:22Z",
+    "stargazers_count": 473,
+    "topics": [
+      "codebase",
+      "codecoverage",
+      "integration-testing",
+      "java",
+      "mocking",
+      "testing",
+      "unittesting"
+    ],
+    "updated_at": "2026-03-15T01:11:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codebase"
+    },
+    {
+      "context_snippet": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codecoverage"
+    },
+    {
+      "context_snippet": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integration-testing"
+    },
+    {
+      "context_snippet": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mocking"
+    },
+    {
+      "context_snippet": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unittesting"
+    }
+  ]
+}

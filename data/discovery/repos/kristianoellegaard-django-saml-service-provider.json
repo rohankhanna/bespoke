@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:33:23.076804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easily let users sign in via SAML 2.0 to your django app. Based on python-saml",
+    "fork": false,
+    "full_name": "KristianOellegaard/django-saml-service-provider",
+    "html_url": "https://github.com/KristianOellegaard/django-saml-service-provider",
+    "language": "Python",
+    "pushed_at": "2022-11-17T22:23:48Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2024-09-12T12:40:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

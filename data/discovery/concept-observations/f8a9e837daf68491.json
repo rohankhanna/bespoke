@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Check the browser compatibility of your code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020396,
+      "status": "candidate",
+      "text": "fiberfill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020395,
+      "status": "candidate",
+      "text": "fibrefill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020394,
+      "status": "candidate",
+      "text": "filler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020393,
+      "status": "candidate",
+      "text": "fillup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020392,
+      "status": "candidate",
+      "text": "polyfoam"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polyfill",
+      "sense_id": "polyfill#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "polyfill",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "polyfill",
+  "observation_id": "f8a9e837daf68491",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "polyfill",
+  "source_context_snippet": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "amilajack/eslint-plugin-compat",
+  "source_repo_description": "Check the browser compatibility of your code"
+}

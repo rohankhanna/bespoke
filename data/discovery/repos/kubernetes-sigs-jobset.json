@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/jobset",
+      "target": "batch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/jobset",
+      "target": "k8s-sig-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/jobset",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:25:51.725655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7584
+    },
+    {
+      "path": "Dockerfile",
+      "size": 588
+    },
+    {
+      "path": "go.mod",
+      "size": 5178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JobSet: a k8s native API for distributed ML training and HPC workloads",
+    "fork": false,
+    "full_name": "kubernetes-sigs/jobset",
+    "html_url": "https://github.com/kubernetes-sigs/jobset",
+    "language": "Python",
+    "pushed_at": "2026-04-27T05:10:07Z",
+    "stargazers_count": 323,
+    "topics": [
+      "batch",
+      "k8s",
+      "k8s-sig-apps",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-23T20:55:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GoReport Widget]][GoReport Status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "batch"
+    },
+    {
+      "context_snippet": "[![GoReport Widget]][GoReport Status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-apps"
+    },
+    {
+      "context_snippet": "[![GoReport Widget]][GoReport Status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

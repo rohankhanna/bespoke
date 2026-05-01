@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-Interface",
+      "target": "alisson-anjos/yue-exllamav2-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-Interface",
+      "target": "joeljuvel/yue-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-Interface",
+      "target": "mozer/yue-extend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-Interface",
+      "target": "alissonpereiraanjos/yue-interface",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "alisson-anjos/YuE-Interface"
+}

@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "erlef/setup-beam@61e01a43a562a89bfc54c7f9a378ff67b03e4a21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "msharp/elixir-statistics",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "msharp/elixir-statistics",
+      "target": "erlef/setup-beam@61e01a43a562a89bfc54c7f9a378ff67b03e4a21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "msharp/elixir-statistics",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "msharp/elixir-statistics",
+      "target": "Elixir CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:20:14.066985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1768
+    },
+    {
+      "path": ".github/workflows/elixir.yml",
+      "size": 1012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Statistical functions and distributions for Elixir",
+    "fork": false,
+    "full_name": "msharp/elixir-statistics",
+    "html_url": "https://github.com/msharp/elixir-statistics",
+    "language": "Elixir",
+    "pushed_at": "2024-01-05T04:29:29Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-01-20T05:29:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Elixir CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elixir.yml",
+      "term": "Elixir CI"
+    }
+  ]
+}

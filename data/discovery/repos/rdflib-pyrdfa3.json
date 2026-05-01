@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/pyrdfa3",
+      "target": "html5lib/html5lib-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/pyrdfa3",
+      "target": "rdflib/rdflib-jsonld.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:13:45.566994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2790
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RDFa 1.1 distiller/parser library: can extract RDFa 1.1 (and RDFa 1.0, if properly set via a @version attribute) from (X)HTML, SVG, or XML in general. The module can be used to produce serialized versions of the extracted graph, or simply an RDFLib Graph.",
+    "fork": false,
+    "full_name": "RDFLib/pyrdfa3",
+    "html_url": "https://github.com/RDFLib/pyrdfa3",
+    "language": "HTML",
+    "pushed_at": "2022-06-21T04:14:37Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2025-12-08T22:40:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "html5lib/html5lib-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdflib/rdflib-jsonld.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

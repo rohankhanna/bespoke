@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hden/cuid",
+      "target": "ericelliott/cuid.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:20:20.737043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collision-resistant ids for clojure and clojurescript.",
+    "fork": false,
+    "full_name": "hden/cuid",
+    "html_url": "https://github.com/hden/cuid",
+    "language": "Clojure",
+    "pushed_at": "2025-12-14T01:36:40Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-12-14T01:36:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericelliott/cuid.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

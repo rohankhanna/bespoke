@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/trysterollup",
+      "target": "dmotz/trystero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/trysterollup",
+      "target": "hchiam/learning-webrtc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:15:48.194706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1020
+    },
+    {
+      "path": "package.json",
+      "size": 1121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "trysterollup - make serverless multiplayer web games, with the Gamepad API, plus WebRTC via trystero, rolled up in a convenience wrapper game controller",
+    "fork": false,
+    "full_name": "hchiam/trysterollup",
+    "html_url": "https://github.com/hchiam/trysterollup",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-26T18:46:26Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-10-24T04:58:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmotz/trystero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-webrtc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

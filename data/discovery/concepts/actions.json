@@ -418,6 +418,18 @@
       "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
       "status": "candidate-context",
       "text": "> **Note**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate-context",
+      "text": "Scan Haskell code with HLint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate-context",
+      "text": "This is a GitHub action which scans Haskell code using [HLint]"
     }
   ],
   "candidate_glosses": [
@@ -624,6 +636,12 @@
       "source_repo": "py-cov-action/python-coverage-comment-action-v2-example",
       "status": "candidate",
       "text": "> **Note**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-scan",
+      "status": "candidate",
+      "text": "This is a GitHub action which scans Haskell code using [HLint]"
     }
   ],
   "candidate_related_terms": [
@@ -937,11 +955,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "haskell-actions/hlint-scan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

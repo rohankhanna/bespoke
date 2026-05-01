@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gautamkrishnar/keepalive-workflow@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "litex-hub/pythondata-auto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "litex-hub/pythondata-auto",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "litex-hub/pythondata-auto",
+      "target": "gautamkrishnar/keepalive-workflow@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:32:36.341761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 162
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scripts which automate the creation of the `litex.data` Python modules from various git repositories.",
+    "fork": false,
+    "full_name": "litex-hub/pythondata-auto",
+    "html_url": "https://github.com/litex-hub/pythondata-auto",
+    "language": "Python",
+    "pushed_at": "2025-02-20T13:12:31Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-09-20T03:40:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

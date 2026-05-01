@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "hrnet/dekr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "hrnet/higher-hrnet-human-pose-estimation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "microsoft/human-pose-estimation.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "coco-keypoints-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "deep-high-resolution-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "high-resolution-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "mpii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "mpii-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "target": "mscoco-keypoint",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch"
+}

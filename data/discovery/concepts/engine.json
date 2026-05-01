@@ -91,6 +91,30 @@
       "source_repo": "hecrj/coffee",
       "status": "candidate-context",
       "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate-context",
+      "text": "Cocos simplifies game creation and distribution with Cocos Creator, a free, open-source, cross-platform game engine. Empowering millions of developers to create high-performance, engaging 2D/3D games and instant web entertainment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwent/pgbouncerhero",
+      "status": "candidate-context",
+      "text": "A dashboard for your PgBouncers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwent/pgbouncerhero",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/pgbouncerhero.svg)](https://badge.fury.io/rb/pgbouncerhero)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "hecrj/coffee",
       "status": "candidate",
       "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos/cocos-engine",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwent/pgbouncerhero",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/pgbouncerhero.svg)](https://badge.fury.io/rb/pgbouncerhero)"
     }
   ],
   "candidate_related_terms": [
@@ -254,11 +290,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kwent/pgbouncerhero"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

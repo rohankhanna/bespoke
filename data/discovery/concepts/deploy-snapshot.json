@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy Snapshot"
+    "Deploy Snapshot",
+    "Deploy snapshot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "detekt/detekt",
       "status": "candidate-context",
       "text": "Deploy Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfc Record and replay OkHttp network interaction in your tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate-context",
+      "text": "Deploy snapshot"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "detekt/detekt",
       "status": "candidate",
       "text": "Deploy Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate",
+      "text": "Deploy snapshot"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +107,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/deploy-snapshot.yaml",
       "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/deploy_snapshot.yml",
+      "source_repo": "airbnb/okreplay"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

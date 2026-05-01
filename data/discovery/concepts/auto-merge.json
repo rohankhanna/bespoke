@@ -1,7 +1,8 @@
 {
   "aliases": [
     "auto-merge",
-    "Auto Merge"
+    "Auto Merge",
+    "Auto-merge"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -128,6 +129,78 @@
       "source_repo": "sclorg/postgresql-container",
       "status": "candidate-context",
       "text": "Auto Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/bob",
+      "status": "candidate-context",
+      "text": "(Deprecated) Builder of Bits, powered MDN's interactive examples 2018\u20132025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/bob",
+      "status": "candidate-context",
+      "text": "\"auto-merge\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/content",
+      "status": "candidate-context",
+      "text": "The official source for MDN Web Docs content. Home to over 14,000 pages of documentation about HTML, CSS, JS, HTTP, Web APIs, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/content",
+      "status": "candidate-context",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate-context",
+      "text": "7 community-maintained translations of MDN Web Docs in ES, FR, JA, KO, PT-BR, RU, and ZH, to learn and contribute in your native language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate-context",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Headless browser for Go for TDD workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gost-dom/webref",
+      "status": "candidate-context",
+      "text": "Library for exposing web specifications in native Go types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/webref",
+      "status": "candidate-context",
+      "text": "Auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/yari",
+      "status": "candidate-context",
+      "text": "The platform code behind MDN Web Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/yari",
+      "status": "candidate-context",
+      "text": "auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +263,42 @@
       "source_repo": "sclorg/postgresql-container",
       "status": "candidate",
       "text": "Auto Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/bob",
+      "status": "candidate",
+      "text": "\"auto-merge\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/content",
+      "status": "candidate",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/translated-content",
+      "status": "candidate",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate",
+      "text": "Auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/webref",
+      "status": "candidate",
+      "text": "Auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/yari",
+      "status": "candidate",
+      "text": "auto-merge"
     }
   ],
   "candidate_related_terms": [
@@ -299,11 +408,53 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "sclorg/postgresql-container"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/content"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/translated-content"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "gost-dom/browser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "gost-dom/webref"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/yari"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

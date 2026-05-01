@@ -105,6 +105,18 @@
       "source_repo": "Homebrew/homebrew-cask",
       "status": "candidate-context",
       "text": "Actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate-context",
+      "text": "pinact is a CLI to edit GitHub Workflow and Composite action files and pin versions of Actions and Reusable Workflows. pinact can also update their versions and verify version annotations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate-context",
+      "text": "actionlint"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +167,12 @@
       "source_repo": "Homebrew/homebrew-cask",
       "status": "candidate",
       "text": "Actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate",
+      "text": "actionlint"
     }
   ],
   "candidate_related_terms": [],
@@ -210,11 +228,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/actionlint.yml",
       "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/pinact"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

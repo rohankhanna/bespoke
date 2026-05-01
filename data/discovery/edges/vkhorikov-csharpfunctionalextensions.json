@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "nitrodevs/csharpfunctionalextensions.fluentassertions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "co-it/csharpfunctionalextensions.httpresults",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "almaraubel/csharpfunctionalextensions.analyzers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "razenpok/csharpfunctionalextensions.unitask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "entity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "maybe-monad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "result",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "value-object",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "vkhorikov/CSharpFunctionalExtensions"
+}

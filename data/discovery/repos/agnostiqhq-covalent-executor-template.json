@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:16:10.896864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1554
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 911
+    },
+    {
+      "path": "requirements.txt",
+      "size": 697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Template repository used to create new Covalent executors",
+    "fork": false,
+    "full_name": "AgnostiqHQ/covalent-executor-template",
+    "html_url": "https://github.com/AgnostiqHQ/covalent-executor-template",
+    "language": "Python",
+    "pushed_at": "2026-04-13T18:14:57Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-03-21T21:53:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

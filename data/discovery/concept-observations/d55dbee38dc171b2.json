@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Source framework for voice and multimodal conversational AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1><div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1><div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969261,
+      "status": "candidate",
+      "text": "chats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969260,
+      "status": "candidate",
+      "text": "chatroom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969259,
+      "status": "candidate",
+      "text": "chat room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969258,
+      "status": "candidate",
+      "text": "chatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969257,
+      "status": "candidate",
+      "text": "robots"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatbots",
+      "sense_id": "chatbots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatbots",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatbots",
+  "observation_id": "d55dbee38dc171b2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "chatbots",
+  "source_context_snippet": "<h1><div align=\"center\">",
+  "source_file": null,
+  "source_repo": "pipecat-ai/pipecat",
+  "source_repo_description": "Open Source framework for voice and multimodal conversational AI"
+}

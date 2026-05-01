@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:34:50.340431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository provides a set of reinforcement learning tasks for Booster robots using Isaac Lab.",
+    "fork": false,
+    "full_name": "BoosterRobotics/booster_train",
+    "html_url": "https://github.com/BoosterRobotics/booster_train",
+    "language": "Python",
+    "pushed_at": "2026-04-02T11:17:33Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-28T12:51:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

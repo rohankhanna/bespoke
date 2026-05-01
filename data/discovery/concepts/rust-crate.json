@@ -67,6 +67,18 @@
       "source_repo": "mozilla/uniffi-rs",
       "status": "candidate-context",
       "text": "UniFFI is a toolkit for building cross-platform software components in Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate-context",
+      "text": "A Rust library crate with types for safe MMIO device access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate-context",
+      "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "mozilla/uniffi-rs",
       "status": "candidate",
       "text": "UniFFI is a toolkit for building cross-platform software components in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate",
+      "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "mozilla/uniffi-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/safe-mmio"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

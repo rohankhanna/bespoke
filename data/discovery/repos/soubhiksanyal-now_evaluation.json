@@ -1,0 +1,316 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "rubikplayer/flame-fitting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "rubikplayer/flame-fitting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "2d-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "3d-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "3d-face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "3d-landmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "3d-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "benchmark-datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "face-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "face-reconstruction-challenge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "flame-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "now-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "single-image-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "target": "triplet-loss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:05:54.180698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8308
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2889
+    },
+    {
+      "path": "requirements.txt",
+      "size": 114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the official repository for evaluation on the NoW Benchmark Dataset. The goal of the NoW benchmark is to introduce a standard evaluation metric to measure the accuracy and robustness of 3D face reconstruction methods from a single image under variations in viewing angle, lighting, and common occlusions.",
+    "fork": false,
+    "full_name": "soubhiksanyal/now_evaluation",
+    "html_url": "https://github.com/soubhiksanyal/now_evaluation",
+    "language": "Python",
+    "pushed_at": "2025-02-23T21:31:12Z",
+    "stargazers_count": 116,
+    "topics": [
+      "2d-3d",
+      "3d-data",
+      "3d-face-alignment",
+      "3d-landmarks",
+      "3d-mesh",
+      "3d-reconstruction",
+      "benchmark-datasets",
+      "computer-vision",
+      "face",
+      "face-alignment",
+      "face-reconstruction",
+      "face-reconstruction-challenge",
+      "flame",
+      "flame-model",
+      "now-evaluation",
+      "python",
+      "python3",
+      "single-image-reconstruction",
+      "triplet-loss"
+    ],
+    "updated_at": "2026-03-29T19:39:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubikplayer/flame-fitting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubikplayer/flame-fitting",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-3d"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-data"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-alignment"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-landmarks"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-mesh"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark-datasets"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-reconstruction"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-reconstruction-challenge"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-model"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "now-evaluation"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-reconstruction"
+    },
+    {
+      "context_snippet": "The original README continues below:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triplet-loss"
+    }
+  ]
+}

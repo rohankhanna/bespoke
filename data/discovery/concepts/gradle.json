@@ -145,6 +145,78 @@
       "source_repo": "bndtools/bnd",
       "status": "candidate-context",
       "text": "[![bnd](https://user-images.githubusercontent.com/200494/226292967-963bd722-96d9-4a46-9658-4699962032b0.png)](https://bnd.bndtools.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Gradle plugin for building plugins for JetBrains IDEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/smithy-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Smithy plugin for Gradle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy-gradle-plugin",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/awslabs/smithy-gradle-plugin/workflows/ci/badge.svg)](https://github.com/awslabs/smithy-gradle-plugin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradle/actions",
+      "status": "candidate-context",
+      "text": "A collection of GitHub Actions to accelerate your Gradle Builds on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/actions",
+      "status": "candidate-context",
+      "text": "This repository contains a set of GitHub Actions that are useful for building Gradle projects on GitHub."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojurephant/sample-clojurephant-clj-app",
+      "status": "candidate-context",
+      "text": "Sample project using clojurephant to build a Clojure application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/sample-clojurephant-clj-app",
+      "status": "candidate-context",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure application."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojurephant/sample-clojurephant-clj-lib",
+      "status": "candidate-context",
+      "text": "Sample project using clojurephant to build a Clojure library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/sample-clojurephant-clj-lib",
+      "status": "candidate-context",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "status": "candidate-context",
+      "text": "Sample project using clojurephant to build a ClojureScript app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "status": "candidate-context",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app."
     }
   ],
   "candidate_glosses": [
@@ -219,6 +291,42 @@
       "source_repo": "bndtools/bnd",
       "status": "candidate",
       "text": "[![bnd](https://user-images.githubusercontent.com/200494/226292967-963bd722-96d9-4a46-9658-4699962032b0.png)](https://bnd.bndtools.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/smithy-gradle-plugin",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/awslabs/smithy-gradle-plugin/workflows/ci/badge.svg)](https://github.com/awslabs/smithy-gradle-plugin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/actions",
+      "status": "candidate",
+      "text": "This repository contains a set of GitHub Actions that are useful for building Gradle projects on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/sample-clojurephant-clj-app",
+      "status": "candidate",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/sample-clojurephant-clj-lib",
+      "status": "candidate",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app",
+      "status": "candidate",
+      "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app."
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +442,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "bndtools/bnd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-gradle-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gradle/actions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-clj-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-clj-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-cljs-app"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

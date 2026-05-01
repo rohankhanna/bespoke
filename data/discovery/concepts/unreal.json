@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "unreal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate-context",
+      "text": "Unreal Engine plugin to work with SVG files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate-context",
+      "text": "A free and open source SVG importer for Unreal Engine 5"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate-context",
+      "text": "An UnrealEngine Plugin for parsing YAML Files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate-context",
+      "text": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate",
+      "text": "A free and open source SVG importer for Unreal Engine 5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate",
+      "text": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001859,
+      "status": "candidate",
+      "text": "unsubstantial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001688,
+      "status": "candidate",
+      "text": "insubstantial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000244,
+      "status": "candidate",
+      "text": "false"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999559,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998336,
+      "status": "candidate",
+      "text": "unlifelike"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59039,
+      "status": "candidate",
+      "text": "ethereal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39042,
+      "status": "candidate",
+      "text": "phantom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29041,
+      "status": "candidate",
+      "text": "faux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23040,
+      "status": "candidate",
+      "text": "airy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "fictitious"
+    }
+  ],
+  "canonical_name": "unreal",
+  "concept_id": "unreal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "etodanik/SvgBooga"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unreal",
+      "sense_id": "unreal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

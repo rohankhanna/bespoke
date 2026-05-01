@@ -230,6 +230,30 @@
       "source_repo": "Apicurio/apicurio-registry",
       "status": "candidate-context",
       "text": "Publish Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/json",
+      "status": "candidate-context",
+      "text": "JSON for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/json",
+      "status": "candidate-context",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "Publish documentation"
     }
   ],
   "candidate_glosses": [
@@ -346,6 +370,18 @@
       "source_repo": "Apicurio/apicurio-registry",
       "status": "candidate",
       "text": "Publish Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/json",
+      "status": "candidate",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate",
+      "text": "Publish documentation"
     }
   ],
   "candidate_related_terms": [
@@ -635,11 +671,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish_documentation.yml",
+      "source_repo": "DiligentGraphics/json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs-update.yml",
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure/co-op-translator"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

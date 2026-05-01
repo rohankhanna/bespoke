@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "@antora/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/site-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antora/lunr-extension",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "shimataro/ssh-key-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Deep-Symmetry/github-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "Xotl/cool-github-releases@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "deep-symmetry/afterglow-max",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "ableton/push-interface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "aamedina/tools.usb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "d0kt0r0/espgrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "@antora/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "@antora/site-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "@antora/lunr-extension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "DeLaGuardo/setup-clojure@13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "Deep-Symmetry/github-version-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "Xotl/cool-github-releases@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uberjar.yml",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "Create \u00fcberjar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "dmx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "lighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "live-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "midi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:20:23.520296+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51706
+    },
+    {
+      "path": "package.json",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/uberjar.yml",
+      "size": 3376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A live-coding lighting controller, building on the Open Lighting Architecture with Clojure and bits of Overtone.",
+    "fork": false,
+    "full_name": "Deep-Symmetry/afterglow",
+    "html_url": "https://github.com/Deep-Symmetry/afterglow",
+    "language": "Clojure",
+    "pushed_at": "2025-12-21T05:12:00Z",
+    "stargazers_count": 470,
+    "topics": [
+      "clojure",
+      "controller",
+      "dmx512",
+      "lighting",
+      "live-coding",
+      "midi"
+    ],
+    "updated_at": "2026-04-29T08:03:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aamedina/tools.usb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ableton/push-interface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d0kt0r0/espgrid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/afterglow-max",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create \u00fcberjar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/uberjar.yml",
+      "term": "Create \u00fcberjar"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controller"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dmx512"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lighting"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "live-coding"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    }
+  ]
+}

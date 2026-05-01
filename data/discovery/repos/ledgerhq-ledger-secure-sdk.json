@@ -1,0 +1,396 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_all_c_apps.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_all_c_apps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_all_c_apps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_all_c_apps.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-device-rust-sdk/.github/workflows/reusable_build_sdk.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_rust.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-device-rust-sdk/.github/workflows/reusable_build_all_apps.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_screenshots.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "Auto Cherry-pick PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_all_c_apps.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_all_c_apps.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_rust.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "LedgerHQ/ledger-device-rust-sdk/.github/workflows/reusable_build_sdk.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_rust.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "LedgerHQ/ledger-device-rust-sdk/.github/workflows/reusable_build_all_apps.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk_libraries.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "ClusterFuzzLite cron tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "Run Clang Static Analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_screenshots.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "target": "Documentation generation & update",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:22:37.181640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7642
+    },
+    {
+      "path": ".github/workflows/auto-cherry-pick.yml",
+      "size": 2290
+    },
+    {
+      "path": ".github/workflows/build_all_c_apps.yml",
+      "size": 3235
+    },
+    {
+      "path": ".github/workflows/build_rust.yml",
+      "size": 1529
+    },
+    {
+      "path": ".github/workflows/build_sdk_libraries.yml",
+      "size": 2784
+    },
+    {
+      "path": ".github/workflows/cflite_cron.yml",
+      "size": 1241
+    },
+    {
+      "path": ".github/workflows/cflite_pr.yml",
+      "size": 1822
+    },
+    {
+      "path": ".github/workflows/check_clang_static_analyzer.yml",
+      "size": 1137
+    },
+    {
+      "path": ".github/workflows/create_screenshots.yml",
+      "size": 962
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Device app kit",
+    "fork": false,
+    "full_name": "LedgerHQ/ledger-secure-sdk",
+    "html_url": "https://github.com/LedgerHQ/ledger-secure-sdk",
+    "language": "C",
+    "pushed_at": "2026-04-29T16:18:38Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2026-04-29T16:07:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto Cherry-pick PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "term": "Auto Cherry-pick PRs"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite cron tasks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "term": "ClusterFuzzLite cron tasks"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "context_snippet": "Run Clang Static Analyzer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml",
+      "term": "Run Clang Static Analyzer"
+    },
+    {
+      "context_snippet": "Documentation generation & update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation generation & update"
+    }
+  ]
+}

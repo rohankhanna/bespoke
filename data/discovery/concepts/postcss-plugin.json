@@ -19,6 +19,30 @@
       "source_repo": "2createStudio/postcss-sprites",
       "status": "candidate-context",
       "text": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MohammadYounes/rtlcss",
+      "status": "candidate-context",
+      "text": "Framework for transforming  Cascading Style Sheets (CSS) from Left-To-Right (LTR) to Right-To-Left (RTL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MohammadYounes/rtlcss",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate-context",
+      "text": "A PostCSS plugin to extend postcss-import path resolver to allow glob usage as path, e.g. @import-glob \"**/*.css\";"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate-context",
+      "text": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "2createStudio/postcss-sprites",
       "status": "candidate",
       "text": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MohammadYounes/rtlcss",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate",
+      "text": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "2createStudio/postcss-sprites"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MohammadYounes/rtlcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

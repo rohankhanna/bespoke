@@ -1,0 +1,552 @@
+{
+  "components": [
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_avalonia.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_core.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_maui.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/msbuild-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_uno.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wpf.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/msbuild-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/deploy-nuget.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/deploy-nuget.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/deploy-nuget-from-release.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/deploy-nuget-from-release.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "brianlagunas/sponsor-action@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sponsor-actions.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/msbuild-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    },
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/generate-release.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "prismlibrary/prism-documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "prismlibrary/prism-samples-wpf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "prismlibrary/prism-samples-forms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avaloniacommunity/prism.avalonia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_avalonia.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_core.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_maui.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_uno.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/msbuild-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wpf.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/msbuild-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/deploy-nuget.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "Prism CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/deploy-nuget-from-release.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "Publish Prism Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sponsor-actions.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "brianlagunas/sponsor-action@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/msbuild-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "avantipoint/workflow-templates/.github/workflows/generate-release.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/start-release.yml",
+      "source_repo": "PrismLibrary/Prism",
+      "target": "Start NuGet Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism",
+      "target": "mvvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism",
+      "target": "visual-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism",
+      "target": "xamarin-forms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism",
+      "target": "xamarin-studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:19:32.124474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13183
+    },
+    {
+      "path": ".github/workflows/build_avalonia.yml",
+      "size": 646
+    },
+    {
+      "path": ".github/workflows/build_core.yml",
+      "size": 575
+    },
+    {
+      "path": ".github/workflows/build_maui.yml",
+      "size": 691
+    },
+    {
+      "path": ".github/workflows/build_uno.yml",
+      "size": 993
+    },
+    {
+      "path": ".github/workflows/build_wpf.yml",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5556
+    },
+    {
+      "path": ".github/workflows/publish-release.yml",
+      "size": 522
+    },
+    {
+      "path": ".github/workflows/sponsor-actions.yml",
+      "size": 368
+    },
+    {
+      "path": ".github/workflows/start-release.yml",
+      "size": 4019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Xamarin Forms, and Uno / Win UI Applications..",
+    "fork": false,
+    "full_name": "PrismLibrary/Prism",
+    "html_url": "https://github.com/PrismLibrary/Prism",
+    "language": "C#",
+    "pushed_at": "2026-04-24T13:38:05Z",
+    "stargazers_count": 6770,
+    "topics": [
+      "c-sharp",
+      "hacktoberfest",
+      "mvvm",
+      "prism",
+      "visual-studio",
+      "wpf",
+      "xamarin-forms",
+      "xamarin-studio"
+    ],
+    "updated_at": "2026-04-30T15:11:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avaloniacommunity/prism.avalonia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prismlibrary/prism-documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prismlibrary/prism-samples-forms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prismlibrary/prism-samples-wpf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Prism CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Prism CI"
+    },
+    {
+      "context_snippet": "Publish Prism Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "term": "Publish Prism Release"
+    },
+    {
+      "context_snippet": "Start NuGet Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/start-release.yml",
+      "term": "Start NuGet Release"
+    },
+    {
+      "context_snippet": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mvvm"
+    },
+    {
+      "context_snippet": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism"
+    },
+    {
+      "context_snippet": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    },
+    {
+      "context_snippet": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin-forms"
+    },
+    {
+      "context_snippet": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin-studio"
+    }
+  ]
+}

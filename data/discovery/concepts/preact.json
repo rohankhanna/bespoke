@@ -151,6 +151,42 @@
       "source_repo": "preactjs-templates/default",
       "status": "candidate-context",
       "text": "![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate-context",
+      "text": "Preact adapter for the Enzyme UI testing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate-context",
+      "text": "This is an adapter to support using the [Enzyme](https://enzymejs.github.io/enzyme/) UI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate-context",
+      "text": "Render preact components with access to the produced virtual dom for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate-context",
+      "text": "preact-render-spy is a package designed to cover many of the use cases for testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs-templates/typescript",
+      "status": "candidate-context",
+      "text": "The TypeScript template for Preact CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs-templates/typescript",
+      "status": "candidate-context",
+      "text": "- This is a TypeScript version of the default template for"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "preactjs-templates/default",
       "status": "candidate",
       "text": "![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate",
+      "text": "This is an adapter to support using the [Enzyme](https://enzymejs.github.io/enzyme/) UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate",
+      "text": "preact-render-spy is a package designed to cover many of the use cases for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs-templates/typescript",
+      "status": "candidate",
+      "text": "- This is a TypeScript version of the default template for"
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +430,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/enzyme-adapter-preact-pure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mzgoddard/preact-render-spy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs-templates/typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

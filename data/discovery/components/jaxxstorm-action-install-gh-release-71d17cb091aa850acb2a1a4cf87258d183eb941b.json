@@ -1,12 +1,17 @@
 {
   "component": "jaxxstorm/action-install-gh-release@71d17cb091aa850acb2a1a4cf87258d183eb941b",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/compatibility-report.yml",
       "source_repo": "newrelic/node-newrelic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-run-test.yml",
+      "source_repo": "pulumi/pulumi"
     }
   ]
 }

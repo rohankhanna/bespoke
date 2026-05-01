@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LAION-AI/LAION-SAFETY",
+      "target": "unitaryai/detoxify",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:13:24.355976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3047
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open toolbox for NSFW & toxicity detection",
+    "fork": false,
+    "full_name": "LAION-AI/LAION-SAFETY",
+    "html_url": "https://github.com/LAION-AI/LAION-SAFETY",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-10-14T15:00:30Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-03-30T14:34:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitaryai/detoxify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

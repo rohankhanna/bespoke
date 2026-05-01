@@ -1,0 +1,294 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "adonovan/spaghetti",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "amanbolat/zederr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "alexbeauchemin/gobadge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "alexkohler/unimport",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "code-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "compilers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:20:32.922403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 179019
+    },
+    {
+      "path": "go.mod",
+      "size": 154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udda9 Tools for Go projects",
+    "fork": false,
+    "full_name": "nikolaydubina/go-recipes",
+    "html_url": "https://github.com/nikolaydubina/go-recipes",
+    "language": "Go",
+    "pushed_at": "2026-04-03T11:43:53Z",
+    "stargazers_count": 4482,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "benchmarking",
+      "code-generation",
+      "code-visualization",
+      "command-line-tool",
+      "compilers",
+      "data-visualization",
+      "developer-tools",
+      "documentation",
+      "go",
+      "golang",
+      "profiling",
+      "static-analysis",
+      "tests",
+      "visualization"
+    ],
+    "updated_at": "2026-04-29T13:18:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adonovan/spaghetti",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexbeauchemin/gobadge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/unimport",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amanbolat/zederr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-visualization"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compilers"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiling"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tests"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "falcoframework/Falco.Htmx",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "falcoframework/Falco.Htmx",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "falcoframework/Falco.Htmx",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.Htmx",
+      "target": "falco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.Htmx",
+      "target": "htmx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:24:52.107173+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Falco + htmx = \u2764\ufe0f",
+    "fork": false,
+    "full_name": "falcoframework/Falco.Htmx",
+    "html_url": "https://github.com/falcoframework/Falco.Htmx",
+    "language": "F#",
+    "pushed_at": "2025-12-22T10:06:18Z",
+    "stargazers_count": 75,
+    "topics": [
+      "falco",
+      "htmx"
+    ],
+    "updated_at": "2026-01-31T04:21:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "falco"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htmx"
+    }
+  ]
+}

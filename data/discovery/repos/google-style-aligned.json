@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:28:03.627893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2343
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Official code for \"Style Aligned Image Generation via Shared Attention\"",
+    "fork": false,
+    "full_name": "google/style-aligned",
+    "html_url": "https://github.com/google/style-aligned",
+    "language": "Python",
+    "pushed_at": "2023-12-29T21:26:34Z",
+    "stargazers_count": 1318,
+    "topics": [],
+    "updated_at": "2026-04-18T07:08:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -25,6 +25,18 @@
       "source_repo": "Lyceum/LyceumMuJoCo.jl",
       "status": "candidate-context",
       "text": "UpdateCompat"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lyceum/LyceumBase.jl",
+      "status": "candidate-context",
+      "text": "A set of common definitions and interfaces for the Lyceum ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumBase.jl",
+      "status": "candidate-context",
+      "text": "UpdateCompat"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "status": "candidate",
+      "text": "UpdateCompat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumBase.jl",
       "status": "candidate",
       "text": "UpdateCompat"
     }
@@ -70,11 +88,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/compat.yml",
       "source_repo": "Lyceum/LyceumMuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/compat.yml",
+      "source_repo": "Lyceum/LyceumBase.jl"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

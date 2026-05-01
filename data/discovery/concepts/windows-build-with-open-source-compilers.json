@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Build with open source compilers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lexxmark/winflexbison",
+      "status": "candidate-context",
+      "text": "Main winflexbision repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lexxmark/winflexbison",
+      "status": "candidate-context",
+      "text": "Windows Build with open source compilers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lexxmark/winflexbison",
+      "status": "candidate",
+      "text": "Windows Build with open source compilers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45258,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35266,
+      "status": "candidate",
+      "text": "aerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33369,
+      "status": "candidate",
+      "text": "distro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33345,
+      "status": "candidate",
+      "text": "netbsd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33231,
+      "status": "candidate",
+      "text": "foss"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Build with open source compilers",
+  "concept_id": "windows-build-with-open-source-compilers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Build with open source compilers",
+      "sense_id": "windows-build-with-open-source-compilers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

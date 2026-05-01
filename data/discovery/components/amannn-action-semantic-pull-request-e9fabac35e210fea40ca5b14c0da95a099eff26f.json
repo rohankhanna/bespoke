@@ -1,0 +1,12 @@
+{
+  "component": "amannn/action-semantic-pull-request@e9fabac35e210fea40ca5b14c0da95a099eff26f",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_title.yml",
+      "source_repo": "firebase/FirebaseUI-Flutter"
+    }
+  ]
+}

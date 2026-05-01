@@ -67,6 +67,18 @@
       "source_repo": "ldclabs/KIP",
       "status": "candidate-context",
       "text": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "Agentic AI Framework for Java Developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "ldclabs/KIP",
       "status": "candidate",
       "text": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ldclabs/KIP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-ai-alibaba"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

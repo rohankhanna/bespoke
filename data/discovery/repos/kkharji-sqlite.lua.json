@@ -66,28 +66,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kkharji/sqlite.lua",
-      "target": "kkharji/impatient.nvim",
+      "target": "nvim-telescope/telescope-smart-history.nvim",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kkharji/sqlite.lua",
-      "target": "kkharji/lispdocs.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kkharji/sqlite.lua",
-      "target": "nvim-telescope/telescope-cheat.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kkharji/sqlite.lua",
-      "target": "lintaoamons/bookmarks.nvim",
+      "target": "nvim-telescope/telescope-frecency.nvim",
       "target_type": "repository"
     },
     {
@@ -231,7 +217,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:08:16.057277+00:00",
+  "fetched_at": "2026-05-01T08:29:25.638579+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -277,22 +263,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kkharji/impatient.nvim",
+      "full_name": "nvim-telescope/telescope-frecency.nvim",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kkharji/lispdocs.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lintaoamons/bookmarks.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvim-telescope/telescope-cheat.nvim",
+      "full_name": "nvim-telescope/telescope-smart-history.nvim",
       "source_file": "README.md"
     }
   ],

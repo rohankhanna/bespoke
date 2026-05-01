@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NoviScl/AdvRACE",
+      "target": "robinjia/adversarial-squad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NoviScl/AdvRACE",
+      "target": "miyyer/scpn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NoviScl/AdvRACE",
+      "target": "thunlp/sememepso-attack",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:03:12.785935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3054
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "NoviScl/AdvRACE",
+    "html_url": "https://github.com/NoviScl/AdvRACE",
+    "language": "Python",
+    "pushed_at": "2021-06-06T02:16:50Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-04-15T06:09:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miyyer/scpn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robinjia/adversarial-squad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thunlp/sememepso-attack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

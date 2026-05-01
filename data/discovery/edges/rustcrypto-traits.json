@@ -1,0 +1,300 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aead.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "aead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cipher.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cipher.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cipher.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cipher.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cipher.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "cipher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-common.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-common.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-common.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto-common.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crypto-common.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "crypto-common",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crypto.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crypto.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/digest.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/digest.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/digest.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/digest.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/digest.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "digest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elliptic-curve.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elliptic-curve.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elliptic-curve.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elliptic-curve.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elliptic-curve.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elliptic-curve.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elliptic-curve.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "elliptic-curve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kdf.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kdf.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kdf.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kdf.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kdf.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "kdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kem.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kem.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kem.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kem.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "RustCrypto/actions/.github/workflows/minimal-versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kem.yml",
+      "source_repo": "RustCrypto/traits",
+      "target": "kem",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "RustCrypto/traits"
+}

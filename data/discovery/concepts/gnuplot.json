@@ -19,6 +19,30 @@
       "source_repo": "bheisler/criterion.rs",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juanluisbaptiste/apachebench-graphs",
+      "status": "candidate-context",
+      "text": "Helper script for apachebench load testing tool to automatically create tsv and csv results using gnuplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juanluisbaptiste/apachebench-graphs",
+      "status": "candidate-context",
+      "text": "Helper scripts for apachebench to automate the plotting of test results."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate-context",
+      "text": "Gnuplot wrapper for Ruby/Numo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate-context",
+      "text": "<div class=\"row\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "bheisler/criterion.rs",
       "status": "candidate",
       "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juanluisbaptiste/apachebench-graphs",
+      "status": "candidate",
+      "text": "Helper scripts for apachebench to automate the plotting of test results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gnuplot",
+      "status": "candidate",
+      "text": "<div class=\"row\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bheisler/criterion.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "juanluisbaptiste/apachebench-graphs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gnuplot"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

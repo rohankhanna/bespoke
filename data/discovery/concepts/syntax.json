@@ -55,6 +55,42 @@
       "source_repo": "microsoft/tsdoc",
       "status": "candidate-context",
       "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish color palette."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate-context",
+      "text": "nord \u2014 An arctic, north-bluish color palette"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate-context",
+      "text": "A proposal for adding a useful pipe operator to JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate-context",
+      "text": "* **Stage**: 2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate-context",
+      "text": "Stylelint plugin to validate CSS syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "microsoft/tsdoc",
       "status": "candidate",
       "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate",
+      "text": "nord \u2014 An arctic, north-bluish color palette"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate",
+      "text": "* **Stage**: 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +217,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "microsoft/tsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/nord"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-pipeline-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "csstree/stylelint-validator"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

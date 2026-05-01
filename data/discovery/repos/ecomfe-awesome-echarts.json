@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/awesome-echarts",
+      "target": "alixdehghani/echarts-for-angular",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/awesome-echarts",
+      "target": "bherbruck/svelte-echarts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/awesome-echarts",
+      "target": "ambit-tsai/echarts-for-vue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/awesome-echarts",
+      "target": "abel533/echarts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:06.186202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Awesome list of  Apache ECharts",
+    "fork": false,
+    "full_name": "ecomfe/awesome-echarts",
+    "html_url": "https://github.com/ecomfe/awesome-echarts",
+    "language": null,
+    "pushed_at": "2025-01-16T04:29:51Z",
+    "stargazers_count": 1552,
+    "topics": [],
+    "updated_at": "2026-04-27T01:52:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abel533/echarts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alixdehghani/echarts-for-angular",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambit-tsai/echarts-for-vue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bherbruck/svelte-echarts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Asynchronous router for Storeon. It provides possibility for prefetch the data, lazy load, navigation cancellation,  and routes modification on the fly.   "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://badge.fury.io/js/storeon-async-router.svg)](https://badge.fury.io/js/storeon-async-router)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/storeon-async-router.svg)](https://badge.fury.io/js/storeon-async-router)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026778,
+      "status": "candidate",
+      "text": "mob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018874,
+      "status": "candidate",
+      "text": "expel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018724,
+      "status": "candidate",
+      "text": "spread-eagle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996363,
+      "status": "candidate",
+      "text": "rabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986096,
+      "status": "candidate",
+      "text": "discomfiture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "routing",
+      "sense_id": "routing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "routing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "routing",
+  "observation_id": "20cbc7c7847e51a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "routing",
+  "source_context_snippet": "[![npm version](https://badge.fury.io/js/storeon-async-router.svg)](https://badge.fury.io/js/storeon-async-router)",
+  "source_file": null,
+  "source_repo": "majo44/storeon-async-router",
+  "source_repo_description": "Asynchronous router for Storeon. It provides possibility for prefetch the data, lazy load, navigation cancellation,  and routes modification on the fly.   "
+}

@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/GeoDream",
+      "target": "baaivision/uni3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/GeoDream",
+      "target": "bytedance/mvdream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/GeoDream",
+      "target": "one-2-3-45/one-2-3-45",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/GeoDream",
+      "target": "cvlab-columbia/zero123",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/GeoDream",
+      "target": "3d-aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/GeoDream",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/GeoDream",
+      "target": "text-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:30:50.081490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13420
+    },
+    {
+      "path": "requirements.txt",
+      "size": 736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GeoDream: Disentangling 2D and Geometric Priors for High-Fidelity and Consistent 3D Generation",
+    "fork": false,
+    "full_name": "baaivision/GeoDream",
+    "html_url": "https://github.com/baaivision/GeoDream",
+    "language": "Python",
+    "pushed_at": "2024-01-22T02:11:45Z",
+    "stargazers_count": 497,
+    "topics": [
+      "3d",
+      "3d-aigc",
+      "3d-generation",
+      "text-to-3d"
+    ],
+    "updated_at": "2026-04-08T08:56:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baaivision/uni3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/mvdream",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvlab-columbia/zero123",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "one-2-3-45/one-2-3-45",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-aigc"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDETR/H-Deformable-DETR",
+      "target": "expedit-largescale-vision-transformer/expedit-sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDETR/H-Deformable-DETR",
+      "target": "hdetr/h-detic-lvis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDETR/H-Deformable-DETR",
+      "target": "hdetr/h-deformable-detr-mmdet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDETR/H-Deformable-DETR",
+      "target": "hdetr/h-mask-deformable-detr",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "HDETR/H-Deformable-DETR"
+}

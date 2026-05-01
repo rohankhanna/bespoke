@@ -5,18 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "instantX-research/Regional-Prompting-FLUX",
-      "target": "yangling0818/rpg-diffusionmaster",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "instantX-research/Regional-Prompting-FLUX",
       "target": "antonioo-c/regional-prompting-flux",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T18:43:04.250425+00:00",
+  "fetched_at": "2026-05-01T08:12:16.450884+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -41,11 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "antonioo-c/regional-prompting-flux",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yangling0818/rpg-diffusionmaster",
       "source_file": "README.md"
     }
   ],

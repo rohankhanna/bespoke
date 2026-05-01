@@ -571,7 +571,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/close-stale.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/stale@5bef64f19d7facfb25b37b414482c7164d639639",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
       "target_type": "component"
     },
     {
@@ -620,14 +620,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -648,7 +648,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "jestjs/jest",
-      "target": "codecov/codecov-action@ad3126e916f78f00edff4ed0317cf185271ccc2d",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
       "target_type": "component"
     },
     {
@@ -662,14 +662,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pkg-pr-new.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pkg-pr-new.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -683,14 +683,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-cache.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-cache.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -704,14 +704,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-nightly.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-nightly.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -792,6 +792,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "jestjs/jest"
 }

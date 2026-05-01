@@ -45,6 +45,18 @@
       "source_repo": "dorssel/usbipd-win",
       "status": "candidate-context",
       "text": "winget"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotenvx/dotenvx",
+      "status": "candidate-context",
+      "text": "a secure dotenv\u2013from the creator of `dotenv`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotenvx/dotenvx",
+      "status": "candidate-context",
+      "text": "[![dotenvx](https://dotenvx.com/banner.png)](https://dotenvx.com)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "dorssel/usbipd-win",
       "status": "candidate",
       "text": "winget"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotenvx/dotenvx",
+      "status": "candidate",
+      "text": "[![dotenvx](https://dotenvx.com/banner.png)](https://dotenvx.com)"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/winget.yml",
       "source_repo": "dorssel/usbipd-win"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotenvx/dotenvx"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

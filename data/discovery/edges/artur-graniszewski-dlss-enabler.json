@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "optiscaler/optiscaler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "milliewalky/setup-7-zip@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "Minionguyjpro/Inno-Setup-Action@v1.2.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-installer.yml",
+      "source_repo": "artur-graniszewski/DLSS-Enabler",
+      "target": "Build DLSS-Enabler Installer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "artur-graniszewski/DLSS-Enabler"
+}

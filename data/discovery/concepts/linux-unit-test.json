@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux Unit Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner",
+      "status": "candidate-context",
+      "text": "Static provisioner of local volumes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner",
+      "status": "candidate-context",
+      "text": "Linux Unit Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner",
+      "status": "candidate",
+      "text": "Linux Unit Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25893,
+      "status": "candidate",
+      "text": "megaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25823,
+      "status": "candidate",
+      "text": "cis-trans test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24703,
+      "status": "candidate",
+      "text": "debian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23653,
+      "status": "candidate",
+      "text": "tux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22682,
+      "status": "candidate",
+      "text": "lie"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux Unit Test",
+  "concept_id": "linux-unit-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux Unit Test",
+      "sense_id": "linux-unit-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

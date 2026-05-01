@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "andymckay/get-gist-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "rymndhng/release-on-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "HTR United Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "french",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "ground-truth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "typewritten",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "HTR-United/tapuscorpus"
+}

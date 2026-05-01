@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sass-loader"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/sass-loader",
+      "status": "candidate-context",
+      "text": "Compiles Sass to CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/sass-loader",
+      "status": "candidate-context",
+      "text": "sass-loader"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/sass-loader",
+      "status": "candidate",
+      "text": "sass-loader"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sass-loader",
+  "concept_id": "sass-loader",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "webpack/sass-loader"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "sass-loader",
+      "sense_id": "sass-loader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

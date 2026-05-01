@@ -118,6 +118,18 @@
       "source_repo": "eaplatanios/triton",
       "status": "candidate-context",
       "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hynek/argon2-cffi-bindings",
+      "status": "candidate-context",
+      "text": "Low-level Python CFFI Bindings for Argon2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi-bindings",
+      "status": "candidate-context",
+      "text": "Wheels"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +184,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "eaplatanios/triton",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hynek/argon2-cffi-bindings",
       "status": "candidate",
       "text": "Wheels"
     }
@@ -331,11 +349,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "hynek/argon2-cffi-bindings"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "absadiki/pywhispercpp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

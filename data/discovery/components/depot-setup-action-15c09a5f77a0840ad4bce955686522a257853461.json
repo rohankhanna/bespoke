@@ -1,7 +1,7 @@
 {
   "component": "depot/setup-action@15c09a5f77a0840ad4bce955686522a257853461",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

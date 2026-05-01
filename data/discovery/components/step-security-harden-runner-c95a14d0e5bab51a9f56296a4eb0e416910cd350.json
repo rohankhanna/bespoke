@@ -1,0 +1,32 @@
+{
+  "component": "step-security/harden-runner@c95a14d0e5bab51a9f56296a4eb0e416910cd350",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "anolilab/unplugin-favicons"
+    }
+  ]
+}

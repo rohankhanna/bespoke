@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:10:43.822865+00:00",
+  "fetched_at": "2026-05-01T09:12:05.930424+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,14 +93,14 @@
     "html_url": "https://github.com/ScoopInstaller/Scoop",
     "language": "PowerShell",
     "pushed_at": "2026-04-27T14:01:34Z",
-    "stargazers_count": 24033,
+    "stargazers_count": 24038,
     "topics": [
       "installer",
       "powershell",
       "scoop",
       "windows"
     ],
-    "updated_at": "2026-04-30T12:58:24Z"
+    "updated_at": "2026-05-01T06:52:41Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "docs-deploy"
+    "docs-deploy",
+    "Docs Deploy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,30 @@
       "source_repo": "elastic/elasticsearch",
       "status": "candidate-context",
       "text": "docs-deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/logstash",
+      "status": "candidate-context",
+      "text": "Logstash - transport and process your logs, events, or other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash",
+      "status": "candidate-context",
+      "text": "docs-deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Next-gen browser and mobile automation test framework for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate-context",
+      "text": "Docs Deploy"
     }
   ],
   "candidate_glosses": [
@@ -63,9 +88,57 @@
       "source_repo": "elastic/elasticsearch",
       "status": "candidate",
       "text": "docs-deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/logstash",
+      "status": "candidate",
+      "text": "docs-deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/webdriverio",
+      "status": "candidate",
+      "text": "Docs Deploy"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10579,
+      "status": "candidate",
+      "text": "gps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "after"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "anesthetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "annals"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "docs-deploy",
   "concept_id": "docs-deploy",
@@ -88,11 +161,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/docs-deploy.yml",
       "source_repo": "elastic/elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/logstash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "webdriverio/webdriverio"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

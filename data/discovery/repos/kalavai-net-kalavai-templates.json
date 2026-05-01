@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kalavai-net/kalavai-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kalavai-net/kalavai-templates",
+      "target": "helm/chart-releaser-action@v1.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kalavai-net/kalavai-templates",
+      "target": "Release Charts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:28:51.484929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 999
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kalavai-net/kalavai-templates",
+    "html_url": "https://github.com/kalavai-net/kalavai-templates",
+    "language": "Shell",
+    "pushed_at": "2026-05-01T07:45:12Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-01T07:45:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Charts"
+    }
+  ]
+}

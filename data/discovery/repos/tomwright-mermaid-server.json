@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/cache@v3.0.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "TomWright/mermaid-server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "TomWright/mermaid-server",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "TomWright/mermaid-server",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "TomWright/mermaid-server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "TomWright/mermaid-server",
+      "target": "actions/cache@v3.0.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "TomWright/mermaid-server",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server",
+      "target": "diagram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server",
+      "target": "diagram-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server",
+      "target": "mermaid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server",
+      "target": "mermaid-charting-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server",
+      "target": "mermaid-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server",
+      "target": "mermaid-diagrams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server",
+      "target": "mermaidjs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:10:29.067974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1340
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1743
+    },
+    {
+      "path": "go.mod",
+      "size": 151
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 774
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go implementation of a HTTP server to allow remote generation of mermaid-js diagrams without any pre-requisites installed locally.",
+    "fork": false,
+    "full_name": "TomWright/mermaid-server",
+    "html_url": "https://github.com/TomWright/mermaid-server",
+    "language": "Go",
+    "pushed_at": "2024-12-20T22:08:02Z",
+    "stargazers_count": 433,
+    "topics": [
+      "diagram",
+      "diagram-generator",
+      "http",
+      "mermaid",
+      "mermaid-charting-language",
+      "mermaid-cli",
+      "mermaid-diagrams",
+      "mermaidjs"
+    ],
+    "updated_at": "2026-04-30T05:35:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagram"
+    },
+    {
+      "context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagram-generator"
+    },
+    {
+      "context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mermaid"
+    },
+    {
+      "context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mermaid-charting-language"
+    },
+    {
+      "context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mermaid-cli"
+    },
+    {
+      "context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mermaid-diagrams"
+    },
+    {
+      "context_snippet": "Use mermaid-js to generate diagrams in a HTTP endpoint.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mermaidjs"
+    }
+  ]
+}

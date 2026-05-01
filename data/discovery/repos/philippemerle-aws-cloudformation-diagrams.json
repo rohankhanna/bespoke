@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-setup-and-generate.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-setup-and-generate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "aws-cloudformation/aws-cloudformation-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-setup-and-generate.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-setup-and-generate.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-setup-and-generate.yml",
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "Build & Generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "diagrams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philippemerle/AWS-CloudFormation-Diagrams",
+      "target": "graphviz",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:06:49.042687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10783
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1341
+    },
+    {
+      "path": ".github/workflows/run-setup-and-generate.yml",
+      "size": 1419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open source tool to generate AWS infrastructure diagrams from AWS CloudFormation templates",
+    "fork": false,
+    "full_name": "philippemerle/AWS-CloudFormation-Diagrams",
+    "html_url": "https://github.com/philippemerle/AWS-CloudFormation-Diagrams",
+    "language": "Python",
+    "pushed_at": "2026-03-17T16:41:48Z",
+    "stargazers_count": 46,
+    "topics": [
+      "aws",
+      "cloudformation",
+      "diagrams",
+      "graphviz",
+      "python"
+    ],
+    "updated_at": "2026-04-23T22:29:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-templates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Build & Generate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-setup-and-generate.yml",
+      "term": "Build & Generate"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/philippemerle/AWS-CloudFormation-Diagrams)](https://github.com/philippemerle/AWS-CloudFormation-Diagrams/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/philippemerle/AWS-CloudFormation-Diagrams)](https://github.com/philippemerle/AWS-CloudFormation-Diagrams/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagrams"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/philippemerle/AWS-CloudFormation-Diagrams)](https://github.com/philippemerle/AWS-CloudFormation-Diagrams/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphviz"
+    }
+  ]
+}

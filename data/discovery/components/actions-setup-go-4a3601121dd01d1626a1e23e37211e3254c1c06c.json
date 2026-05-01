@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1917,6 +1917,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "goreleaser/nfpm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_coverage.yaml",
+      "source_repo": "kubernetes-sigs/lws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "kubernetes-sigs/lws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/all_plugins.yaml",
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fips-bindings-generator.yml",
+      "source_repo": "aws/aws-lc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "golangci/go-printf-func-name"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "golangci/go-printf-func-name"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "source_repo": "suzuki-shunsuke/pinact"
     }
   ]
 }

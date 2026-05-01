@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternRobotics/HugWBC",
-      "target": "leggedrobotics/rsl_rl",
+      "target": "unitreerobotics/unitree_mujoco",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternRobotics/HugWBC",
-      "target": "leggedrobotics/legged_gym",
+      "target": "unitreerobotics/unitree_sdk2_python",
       "target_type": "repository"
     },
     {
@@ -30,7 +30,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T01:09:10.797631+00:00",
+  "fetched_at": "2026-05-01T10:10:11.595717+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -64,12 +64,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "leggedrobotics/legged_gym",
+      "full_name": "unitreerobotics/unitree_mujoco",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "leggedrobotics/rsl_rl",
+      "full_name": "unitreerobotics/unitree_sdk2_python",
       "source_file": "README.md"
     }
   ],

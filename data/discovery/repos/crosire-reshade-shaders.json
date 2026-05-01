@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:31:52.833004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "slim",
+    "description": "A collection of post-processing shaders written for ReShade.",
+    "fork": false,
+    "full_name": "crosire/reshade-shaders",
+    "html_url": "https://github.com/crosire/reshade-shaders",
+    "language": "HLSL",
+    "pushed_at": "2026-04-24T21:54:52Z",
+    "stargazers_count": 1162,
+    "topics": [],
+    "updated_at": "2026-04-24T13:35:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

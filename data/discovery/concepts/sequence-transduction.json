@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sequence-transduction"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate-context",
+      "text": "Fast + Non-Autoregressive Grammatical Error Correction using BERT. Code and Pre-trained models for paper \"Parallel Iterative Edit Models for Local Sequence Transduction\": www.aclweb.org/anthology/D19-1435.pdf (EMNLP-IJCNLP 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate-context",
+      "text": "Fast Grammatical Error Correction using BERT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate",
+      "text": "Fast Grammatical Error Correction using BERT"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sequence-transduction",
+  "concept_id": "sequence-transduction",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sequence-transduction",
+      "sense_id": "sequence-transduction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

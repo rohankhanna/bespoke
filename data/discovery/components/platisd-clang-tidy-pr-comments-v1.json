@@ -1,12 +1,17 @@
 {
   "component": "platisd/clang-tidy-pr-comments@v1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/clang-tidy-review.yml",
       "source_repo": "async-profiler/async-profiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-pr-comments-manually.yaml",
+      "source_repo": "autowarefoundation/autoware_core"
     }
   ]
 }

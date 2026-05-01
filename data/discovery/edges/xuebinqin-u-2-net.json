@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xuebinqin/U-2-Net",
-      "target": "norod/u-2-net-styletransfer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xuebinqin/U-2-Net",
       "target": "nathanua/u-2-net",
       "target_type": "repository"
     },
@@ -19,6 +12,13 @@
       "source_file": "README.md",
       "source_repo": "xuebinqin/U-2-Net",
       "target": "dennisbappert/u-2-net-portrait",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuebinqin/U-2-Net",
+      "target": "peko/nn-lineart",
       "target_type": "repository"
     },
     {
@@ -78,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "xuebinqin/U-2-Net"
 }

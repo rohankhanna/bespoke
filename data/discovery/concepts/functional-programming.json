@@ -91,6 +91,54 @@
       "source_repo": "lefou/LambdaTest",
       "status": "candidate-context",
       "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Suor/funcy",
+      "status": "candidate-context",
+      "text": "A fancy and practical functional tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Suor/funcy",
+      "status": "candidate-context",
+      "text": "Funcy |Build Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seangwright/typescript-functional-extensions",
+      "status": "candidate-context",
+      "text": "A TypeScript implementation of the C# library CSharpFunctionalExtensions, including synchronous and asynchronous Maybe and Result monads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seangwright/typescript-functional-extensions",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/typescript-functional-extensions.png)](https://nodei.co/npm/typescript-functional-extensions/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gcanti/fp-ts",
+      "status": "candidate-context",
+      "text": "Functional programming in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gcanti/fp-ts",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "status": "candidate-context",
+      "text": "Functional extensions for C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "status": "candidate-context",
+      "text": "\ufeff# Functional Extensions for C&#35;"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "lefou/LambdaTest",
       "status": "candidate",
       "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Suor/funcy",
+      "status": "candidate",
+      "text": "Funcy |Build Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seangwright/typescript-functional-extensions",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/typescript-functional-extensions.png)](https://nodei.co/npm/typescript-functional-extensions/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gcanti/fp-ts",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "status": "candidate",
+      "text": "\ufeff# Functional Extensions for C&#35;"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +256,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "lefou/LambdaTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Suor/funcy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "seangwright/typescript-functional-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gcanti/fp-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

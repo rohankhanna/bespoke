@@ -67,6 +67,42 @@
       "source_repo": "soulteary/amazing-openai-api",
       "status": "candidate-context",
       "text": "![](.github/assets/aoa.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-builtin",
+      "status": "candidate-context",
+      "text": "A simple chat application that integrates Microsoft Entra ID for user authentication. Designed for deployment on Azure Container Apps with the Azure Developer CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-builtin",
+      "status": "candidate-context",
+      "text": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/openai-chat-app-entra-auth-builtin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/openai-chat-app-quickstart",
+      "status": "candidate-context",
+      "text": "A simple chat application that uses managed identity for Azure OpenAI access. Designed for deployment on Azure Container Apps with the Azure Developer CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-quickstart",
+      "status": "candidate-context",
+      "text": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/openai-chat-app-quickstart)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate-context",
+      "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "soulteary/amazing-openai-api",
       "status": "candidate",
       "text": "![](.github/assets/aoa.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-builtin",
+      "status": "candidate",
+      "text": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/openai-chat-app-entra-auth-builtin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-quickstart",
+      "status": "candidate",
+      "text": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/openai-chat-app-quickstart)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/co-op-translator",
+      "status": "candidate",
+      "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "soulteary/amazing-openai-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-builtin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/openai-chat-app-quickstart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

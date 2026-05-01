@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "enforce-conventions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate-context",
+      "text": "A mighty CSS linter that helps you avoid errors and enforce conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/stylelint?logo=npm&logoColor=fff)](https://www.npmjs.com/package/stylelint)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/stylelint?logo=npm&logoColor=fff)](https://www.npmjs.com/package/stylelint)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "enforce-conventions",
+  "concept_id": "enforce-conventions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "stylelint/stylelint"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "enforce-conventions",
+      "sense_id": "enforce-conventions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

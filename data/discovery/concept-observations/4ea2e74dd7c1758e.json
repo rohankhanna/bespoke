@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vector Remap Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Generated Docs Freshness"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Generated Docs Freshness"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26599,
+      "status": "candidate",
+      "text": "candle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26599,
+      "status": "candidate",
+      "text": "sniff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21693,
+      "status": "candidate",
+      "text": "cauchy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21693,
+      "status": "candidate",
+      "text": "clearing house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21693,
+      "status": "candidate",
+      "text": "ohio"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Generated Docs Freshness",
+      "sense_id": "check-generated-docs-freshness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-generated-docs-freshness",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-generated-docs-freshness",
+  "observation_id": "4ea2e74dd7c1758e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Check Generated Docs Freshness",
+  "source_context_snippet": "Check Generated Docs Freshness",
+  "source_file": ".github/workflows/check_generated_docs.yml",
+  "source_repo": "vectordotdev/vrl",
+  "source_repo_description": "Vector Remap Language"
+}

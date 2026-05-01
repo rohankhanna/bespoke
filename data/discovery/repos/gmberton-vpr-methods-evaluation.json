@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "amaralibey/gsv-cities",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "amaralibey/mixvpr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "anyloc/anyloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "amaralibey/bag-of-queries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "geolocalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "place-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "visual-geo-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "target": "visual-place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:13:02.568950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6692
+    },
+    {
+      "path": "requirements.txt",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wrapper for 10+ VPR models. Use any SOTA VPR model just by changing one parameter",
+    "fork": false,
+    "full_name": "gmberton/VPR-methods-evaluation",
+    "html_url": "https://github.com/gmberton/VPR-methods-evaluation",
+    "language": "Python",
+    "pushed_at": "2026-04-23T04:48:05Z",
+    "stargazers_count": 190,
+    "topics": [
+      "benchmark",
+      "computer-vision",
+      "geolocalization",
+      "image-retrieval",
+      "localization",
+      "place-recognition",
+      "visual-geo-localization",
+      "visual-place-recognition"
+    ],
+    "updated_at": "2026-04-23T07:53:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaralibey/bag-of-queries",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaralibey/gsv-cities",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaralibey/mixvpr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anyloc/anyloc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geolocalization"
+    },
+    {
+      "context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "place-recognition"
+    },
+    {
+      "context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-geo-localization"
+    },
+    {
+      "context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-place-recognition"
+    }
+  ]
+}

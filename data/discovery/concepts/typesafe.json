@@ -19,6 +19,18 @@
       "source_repo": "carueda/cfg",
       "status": "candidate-context",
       "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/router",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/router",
+      "status": "candidate-context",
+      "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "carueda/cfg",
       "status": "candidate",
       "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/router",
+      "status": "candidate",
+      "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "carueda/cfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/router"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

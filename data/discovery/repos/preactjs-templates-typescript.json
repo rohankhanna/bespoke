@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "preactjs-templates/typescript",
+      "target": "developit/preact-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs-templates/typescript",
+      "target": "preact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preactjs-templates/typescript",
+      "target": "preact-cli-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:16:01.694987+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The TypeScript template for Preact CLI",
+    "fork": false,
+    "full_name": "preactjs-templates/typescript",
+    "html_url": "https://github.com/preactjs-templates/typescript",
+    "language": "TypeScript",
+    "pushed_at": "2023-03-11T06:12:10Z",
+    "stargazers_count": 112,
+    "topics": [
+      "preact",
+      "preact-cli-template",
+      "typescript"
+    ],
+    "updated_at": "2025-02-11T21:34:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "developit/preact-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- This is a TypeScript version of the default template for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact"
+    },
+    {
+      "context_snippet": "- This is a TypeScript version of the default template for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact-cli-template"
+    }
+  ]
+}

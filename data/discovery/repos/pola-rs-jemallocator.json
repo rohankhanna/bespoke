@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pola-rs/jemallocator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:39.469266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3892
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 94
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust allocator using jemalloc as a backend",
+    "fork": true,
+    "full_name": "pola-rs/jemallocator",
+    "html_url": "https://github.com/pola-rs/jemallocator",
+    "language": null,
+    "pushed_at": "2025-04-17T08:10:56Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-16T13:03:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

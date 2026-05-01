@@ -611,6 +611,66 @@
       "source_repo": "cloudflare/cloudflared",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "A high-level API for programmatically interacting with web pages through WebDriver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/pg_tokenizer.rs",
+      "status": "candidate-context",
+      "text": "PostgreSQL tokenizer extension for full-text search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/pg_tokenizer.rs",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord-bm25",
+      "status": "candidate-context",
+      "text": "Native BM25 Ranking Index in PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord-bm25",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the shaderc library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Agreon/styco",
+      "status": "candidate-context",
+      "text": "Transform Tags with style-props to styled components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agreon/styco",
+      "status": "candidate-context",
+      "text": "check"
     }
   ],
   "candidate_glosses": [
@@ -919,6 +979,36 @@
       "source_repo": "cloudflare/cloudflared",
       "status": "candidate",
       "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonhoo/fantoccini",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/pg_tokenizer.rs",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord-bm25",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agreon/styco",
+      "status": "candidate",
+      "text": "check"
     }
   ],
   "candidate_related_terms": [
@@ -1411,11 +1501,59 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/check.yaml",
       "source_repo": "cloudflare/cloudflared"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "jonhoo/fantoccini"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tensorchord/pg_tokenizer.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tensorchord/VectorChord-bm25"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "google/shaderc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "Agreon/styco"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

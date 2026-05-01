@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/save@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -482,6 +482,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "jakudlaty/tsid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jelly-beam/rebar3_ex_doc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "borkdude/edamame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "QwikDev/qwik"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/fb303"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/wangle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/wangle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/wangle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebookincubator/fizz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebookincubator/fizz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebookincubator/fizz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nvd_scan.yml",
+      "source_repo": "dakrone/cheshire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/end2end_test.yml",
+      "source_repo": "lightly-ai/lightly-studio"
     }
   ]
 }

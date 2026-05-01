@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjeavons/zxcvbn-php",
+      "target": "lowe/zxcvbn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjeavons/zxcvbn-php",
+      "target": "dreyer/php-zxcvbn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bjeavons/zxcvbn-php",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bjeavons/zxcvbn-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:18:04.756060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3100
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Realistic PHP password strength estimate library based on Zxcvbn JS",
+    "fork": false,
+    "full_name": "bjeavons/zxcvbn-php",
+    "html_url": "https://github.com/bjeavons/zxcvbn-php",
+    "language": "PHP",
+    "pushed_at": "2025-02-24T16:48:21Z",
+    "stargazers_count": 871,
+    "topics": [],
+    "updated_at": "2026-04-14T20:35:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dreyer/php-zxcvbn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lowe/zxcvbn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

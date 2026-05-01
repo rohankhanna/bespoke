@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "vue-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs-templates/webpack",
+      "target": "mishoo/uglifyjs2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs-templates/webpack",
+      "target": "ben-eb/cssnano",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs-templates/webpack",
+      "target": "tmpvar/jsdom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vuejs-templates/webpack",
+      "target": "vue-cli",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:18:31.448174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3348
+    },
+    {
+      "path": "package.json",
+      "size": 350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A full-featured Webpack + vue-loader setup with hot reload, linting, testing & css extraction.",
+    "fork": false,
+    "full_name": "vuejs-templates/webpack",
+    "html_url": "https://github.com/vuejs-templates/webpack",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-01T12:48:02Z",
+    "stargazers_count": 9653,
+    "topics": [],
+    "updated_at": "2026-04-21T12:58:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ben-eb/cssnano",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mishoo/uglifyjs2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmpvar/jsdom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

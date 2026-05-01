@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/anli",
+      "target": "easonnie/combine-fever-nsmn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:03:13.602635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Adversarial Natural Language Inference Benchmark",
+    "fork": false,
+    "full_name": "facebookresearch/anli",
+    "html_url": "https://github.com/facebookresearch/anli",
+    "language": "Python",
+    "pushed_at": "2022-05-12T04:34:20Z",
+    "stargazers_count": 398,
+    "topics": [],
+    "updated_at": "2026-04-20T22:57:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "easonnie/combine-fever-nsmn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

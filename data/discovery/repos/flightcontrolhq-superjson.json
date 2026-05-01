@@ -85,14 +85,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "flightcontrolhq/superjson",
-      "target": "rich-harris/devalue",
+      "target": "yahoo/serialize-javascript",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "flightcontrolhq/superjson",
-      "target": "iccicci/next-json",
+      "target": "rich-harris/devalue",
       "target_type": "repository"
     },
     {
@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:51:26.348706+00:00",
+  "fetched_at": "2026-05-01T08:18:14.240649+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -240,7 +240,7 @@
     "html_url": "https://github.com/flightcontrolhq/superjson",
     "language": "TypeScript",
     "pushed_at": "2026-02-09T10:53:34Z",
-    "stargazers_count": 5251,
+    "stargazers_count": 5250,
     "topics": [
       "blitzjs",
       "hacktoberfest",
@@ -248,7 +248,7 @@
       "json",
       "superjson"
     ],
-    "updated_at": "2026-04-29T04:58:51Z"
+    "updated_at": "2026-05-01T04:12:45Z"
   },
   "repo_links": [
     {
@@ -263,12 +263,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iccicci/next-json",
+      "full_name": "rich-harris/devalue",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rich-harris/devalue",
+      "full_name": "yahoo/serialize-javascript",
       "source_file": "README.md"
     }
   ],

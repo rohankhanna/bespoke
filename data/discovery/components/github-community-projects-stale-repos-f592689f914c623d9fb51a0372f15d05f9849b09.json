@@ -1,0 +1,12 @@
+{
+  "component": "github-community-projects/stale-repos@f592689f914c623d9fb51a0372f15d05f9849b09",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale_repos.yml",
+      "source_repo": "10up/.github"
+    }
+  ]
+}

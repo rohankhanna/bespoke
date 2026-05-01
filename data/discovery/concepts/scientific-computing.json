@@ -139,6 +139,42 @@
       "source_repo": "scikit-optimize/scikit-optimize",
       "status": "candidate-context",
       "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate-context",
+      "text": "Ruby/Numo::NArray - New NArray class library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate-context",
+      "text": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "A flyweight in situ visualization and analysis runtime for multi-physics HPC simulations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "Ascent"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate-context",
+      "text": "GSL interface for Ruby/Numo::NArray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate-context",
+      "text": "[GitHub](https://github.com/ruby-numo/numo-gsl) |"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "scikit-optimize/scikit-optimize",
       "status": "candidate",
       "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-narray",
+      "status": "candidate",
+      "text": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ruby-numo/numo-narray/HEAD?filepath=100-narray-exercises.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate",
+      "text": "Ascent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-numo/numo-gsl",
+      "status": "candidate",
+      "text": "[GitHub](https://github.com/ruby-numo/numo-gsl) |"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +358,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-narray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ruby-numo/numo-gsl"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

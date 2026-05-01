@@ -103,6 +103,18 @@
       "source_repo": "aboutcode-org/scancode.io",
       "status": "candidate-context",
       "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KVM-VMI/kvm-vmi",
+      "status": "candidate-context",
+      "text": "KVM-based Virtual Machine Introspection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KVM-VMI/kvm-vmi",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "aboutcode-org/scancode.io",
       "status": "candidate",
       "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KVM-VMI/kvm-vmi",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "aboutcode-org/scancode.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "KVM-VMI/kvm-vmi"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

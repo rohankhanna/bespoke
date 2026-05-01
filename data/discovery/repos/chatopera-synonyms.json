@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatopera/Synonyms",
+      "target": "hailiang-wang/llm-get-started",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatopera/Synonyms",
+      "target": "l11x0m7/book-of-qna-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatopera/Synonyms",
+      "target": "rare-technologies/gensim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatopera/Synonyms",
+      "target": "fssqawj/sentencesim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatopera/Synonyms",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatopera/Synonyms",
+      "target": "synonyms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:12:16.264265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":herb: \u4e2d\u6587\u8fd1\u4e49\u8bcd\uff1a\u804a\u5929\u673a\u5668\u4eba\uff0c\u667a\u80fd\u95ee\u7b54\u5de5\u5177\u5305",
+    "fork": false,
+    "full_name": "chatopera/Synonyms",
+    "html_url": "https://github.com/chatopera/Synonyms",
+    "language": "Python",
+    "pushed_at": "2026-02-01T02:48:25Z",
+    "stargazers_count": 5102,
+    "topics": [
+      "ai",
+      "chatbot",
+      "nlp",
+      "synonyms"
+    ],
+    "updated_at": "2026-04-30T06:56:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fssqawj/sentencesim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hailiang-wang/llm-get-started",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "l11x0m7/book-of-qna-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rare-technologies/gensim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synonyms"
+    }
+  ]
+}

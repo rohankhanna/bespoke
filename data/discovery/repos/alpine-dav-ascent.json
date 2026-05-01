@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_cuda.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_gcc.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_gcc.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_hip.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_icc.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_macos.yml"
+    },
+    {
+      "component": "mpi4py/setup-mpi@dbbb80b116bea57fc1788daf7dbbf7ab3df3a0f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_win.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_win.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_win.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_win.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_cuda.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_gcc.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_hip.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_icc.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_macos.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_win.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "mpi4py/setup-mpi@dbbb80b116bea57fc1788daf7dbbf7ab3df3a0f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_win.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_win.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ascent_win.yml",
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "data-viz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "parallel-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "radiuss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:16:42.332312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1346
+    },
+    {
+      "path": ".github/workflows/build_ascent_cuda.yml",
+      "size": 1776
+    },
+    {
+      "path": ".github/workflows/build_ascent_gcc.yml",
+      "size": 6012
+    },
+    {
+      "path": ".github/workflows/build_ascent_hip.yml",
+      "size": 1777
+    },
+    {
+      "path": ".github/workflows/build_ascent_icc.yml",
+      "size": 3330
+    },
+    {
+      "path": ".github/workflows/build_ascent_macos.yml",
+      "size": 1398
+    },
+    {
+      "path": ".github/workflows/build_ascent_win.yml",
+      "size": 2006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A flyweight in situ visualization and analysis runtime for multi-physics HPC simulations",
+    "fork": false,
+    "full_name": "Alpine-DAV/ascent",
+    "html_url": "https://github.com/Alpine-DAV/ascent",
+    "language": "C++",
+    "pushed_at": "2026-04-28T21:33:04Z",
+    "stargazers_count": 242,
+    "topics": [
+      "analysis",
+      "cuda",
+      "data-viz",
+      "hpc",
+      "mpi",
+      "parallel-computing",
+      "radiuss",
+      "rendering",
+      "scientific-computing"
+    ],
+    "updated_at": "2026-04-27T16:59:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ascent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "Ascent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Ascent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-viz"
+    },
+    {
+      "context_snippet": "Ascent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-computing"
+    },
+    {
+      "context_snippet": "Ascent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radiuss"
+    },
+    {
+      "context_snippet": "Ascent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "Ascent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

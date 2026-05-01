@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build and publish docs"
+    "Build and publish docs",
+    "Build and Publish Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -13,6 +14,18 @@
       "source_repo": "crc-org/engineering-docs",
       "status": "candidate-context",
       "text": "Build and publish docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate-context",
+      "text": "streamline the fine-tuning process for multimodal models: PaliGemma 2, Florence-2, and Qwen2.5-VL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate-context",
+      "text": "Build and Publish Docs"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +34,12 @@
       "source_repo": "crc-org/engineering-docs",
       "status": "candidate",
       "text": "Build and publish docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/maestro",
+      "status": "candidate",
+      "text": "Build and Publish Docs"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +89,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/gh-pages.yaml",
       "source_repo": "crc-org/engineering-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "roboflow/maestro"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

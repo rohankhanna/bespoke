@@ -84,7 +84,7 @@
   "normalized_form": "build-windows-2022",
   "observation_id": "2cbf9b99e19fb4cb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Build Windows 2022",
   "source_context_snippet": "Build Windows 2022",
   "source_file": ".github/workflows/build-windows-2022.yml",

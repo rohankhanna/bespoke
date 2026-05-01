@@ -103,6 +103,18 @@
       "source_repo": "HRNet/HRFormer",
       "status": "candidate-context",
       "text": "<img src='HRFormer-20-fps.gif' align=\"center\" width=1024>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iflytek/VLE",
+      "status": "candidate-context",
+      "text": "VLE: Vision-Language Encoder (VLE: \u89c6\u89c9-\u8bed\u8a00\u591a\u6a21\u6001\u9884\u8bad\u7ec3\u6a21\u578b)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/VLE",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587**](README_ZH.md) | [**English**](https://github.com/iflytek/VLE)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "HRNet/HRFormer",
       "status": "candidate",
       "text": "<img src='HRFormer-20-fps.gif' align=\"center\" width=1024>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/VLE",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587**](README_ZH.md) | [**English**](https://github.com/iflytek/VLE)"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +298,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "HRNet/HRFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/VLE"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

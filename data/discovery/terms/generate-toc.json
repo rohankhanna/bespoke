@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "af-74413592/agentscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "agentscope-ai/agentscope"
+    }
+  ],
+  "term": "Generate TOC"
+}

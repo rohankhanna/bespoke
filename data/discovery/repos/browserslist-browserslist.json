@@ -166,13 +166,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "browserslist/browserslist",
-      "target": "amilajack/eslint-plugin-compat",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "browserslist/browserslist",
       "target": "ben-eb/caniuse-lite",
       "target_type": "repository"
     },
@@ -180,14 +173,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "browserslist/browserslist",
-      "target": "browserslist/browserslist-ga-export",
+      "target": "browserslist/browserslist-useragent-regexp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "browserslist/browserslist",
-      "target": "browserslist/browserslist-ga",
+      "target": "browserslist/browserslist-useragent-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "browserslist/browserslist",
+      "target": "browserslist/browserslist-plausible",
       "target_type": "repository"
     },
     {
@@ -387,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:48:01.561467+00:00",
+  "fetched_at": "2026-05-01T08:15:59.988181+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -423,22 +423,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "amilajack/eslint-plugin-compat",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "ben-eb/caniuse-lite",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "browserslist/browserslist-ga",
+      "full_name": "browserslist/browserslist-plausible",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "browserslist/browserslist-ga-export",
+      "full_name": "browserslist/browserslist-useragent-regexp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "browserslist/browserslist-useragent-ruby",
       "source_file": "README.md"
     }
   ],

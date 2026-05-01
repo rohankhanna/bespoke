@@ -427,6 +427,30 @@
       "source_repo": "openlit/openlit",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "status": "candidate-context",
+      "text": "Collection of examples of how to use Model Context Protocol with AWS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "status": "candidate-context",
+      "text": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amirbarda/MagicClay",
+      "status": "candidate-context",
+      "text": "Official implementation of MagicClay: Sculpting Meshes with Generative Neural Fields (Siggraph Asia 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amirbarda/MagicClay",
+      "status": "candidate-context",
+      "text": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +663,18 @@
       "source_repo": "openlit/openlit",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/sample-agentic-ai-demos",
+      "status": "candidate",
+      "text": "Collection of examples of how to build Agentic AI with AWS, including Model Context Protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amirbarda/MagicClay",
+      "status": "candidate",
+      "text": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |"
     }
   ],
   "candidate_related_terms": [],
@@ -904,11 +940,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/sample-agentic-ai-demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "amirbarda/MagicClay"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

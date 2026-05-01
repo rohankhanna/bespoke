@@ -1,0 +1,365 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.8.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "charliermarsh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "Lint via pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "pypa/gh-action-pypi-publish@v1.8.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "complex-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "graph-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "graph-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "graph-analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "graph-datastructures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "graph-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "graph-theory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "graph-theory-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "graphblas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-graphblas/graphblas-algorithms",
+      "target": "pydata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:16:35.525624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7739
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10940
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 425
+    },
+    {
+      "path": ".github/workflows/publish_pypi.yml",
+      "size": 1065
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Graph algorithms written in GraphBLAS",
+    "fork": false,
+    "full_name": "python-graphblas/graphblas-algorithms",
+    "html_url": "https://github.com/python-graphblas/graphblas-algorithms",
+    "language": "Python",
+    "pushed_at": "2026-04-06T17:13:42Z",
+    "stargazers_count": 93,
+    "topics": [
+      "complex-networks",
+      "graph-algorithms",
+      "graph-analysis",
+      "graph-analytics",
+      "graph-datastructures",
+      "graph-library",
+      "graph-theory",
+      "graph-theory-algorithms",
+      "graphblas",
+      "pydata",
+      "python"
+    ],
+    "updated_at": "2026-02-06T22:49:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charliermarsh/ruff",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint via pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint via pre-commit"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complex-networks"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-algorithms"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-analysis"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-analytics"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-datastructures"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-library"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-theory"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-theory-algorithms"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphblas"
+    },
+    {
+      "context_snippet": "![GraphBLAS Algorithms](https://raw.githubusercontent.com/python-graphblas/graphblas-algorithms/main/docs/_static/img/logo-name-medium.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pydata"
+    }
+  ]
+}

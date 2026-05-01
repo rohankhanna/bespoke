@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-link",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecomfe/echarts-stat",
+      "target": "ecomfe/echarts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-stat",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ecomfe/echarts-stat",
+      "target": "webpack-link",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:09.427880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22659
+    },
+    {
+      "path": "package.json",
+      "size": 573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Statistics tool for Apache ECharts",
+    "fork": false,
+    "full_name": "ecomfe/echarts-stat",
+    "html_url": "https://github.com/ecomfe/echarts-stat",
+    "language": "HTML",
+    "pushed_at": "2024-03-12T02:40:42Z",
+    "stargazers_count": 635,
+    "topics": [],
+    "updated_at": "2026-05-01T08:14:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ecomfe/echarts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

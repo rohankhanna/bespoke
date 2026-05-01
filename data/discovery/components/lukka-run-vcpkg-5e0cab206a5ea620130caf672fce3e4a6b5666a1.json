@@ -1,0 +1,17 @@
+{
+  "component": "lukka/run-vcpkg@5e0cab206a5ea620130caf672fce3e4a6b5666a1",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "oneapi-src/unified-memory-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "mvvm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate-context",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Xamarin Forms, and Uno / Win UI Applications.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate-context",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "Prism Avalonia UI framework. Super charge your cross-platform apps with IoC, navigation, and more! Sponsored by Suess Labs. Prism is based on Microsoft patterns and practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "> ## Announcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate-context",
+      "text": "A collection of small samples using MaterialDesignInXaml. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate-context",
+      "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate",
+      "text": "> ## Announcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples",
+      "status": "candidate",
+      "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021440,
+      "status": "candidate",
+      "text": "vmci"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021439,
+      "status": "candidate",
+      "text": "vrml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021438,
+      "status": "candidate",
+      "text": "jvmdi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021437,
+      "status": "candidate",
+      "text": "vdm-sl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021436,
+      "status": "candidate",
+      "text": "llvm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mvvm",
+  "concept_id": "mvvm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Keboo/MaterialDesignInXaml.Examples"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mvvm",
+      "sense_id": "mvvm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

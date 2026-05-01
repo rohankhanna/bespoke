@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -106,6 +106,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "better-auth/better-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "firebase/FirebaseUI-Flutter"
     }
   ],
   "term": "E2E"

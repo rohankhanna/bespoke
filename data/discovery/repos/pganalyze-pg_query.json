@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pganalyze/pg_query",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pganalyze/pg_query",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:23:06.777139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6777
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ruby extension to parse, deparse and normalize SQL queries using the PostgreSQL query parser",
+    "fork": false,
+    "full_name": "pganalyze/pg_query",
+    "html_url": "https://github.com/pganalyze/pg_query",
+    "language": "C",
+    "pushed_at": "2026-01-27T06:11:35Z",
+    "stargazers_count": 871,
+    "topics": [],
+    "updated_at": "2026-04-30T07:43:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "6gsn/marine",
+      "target": "sarulab-speech/jsut-label",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "6gsn/marine",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "6gsn/marine",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:28:30.062525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2722
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 383
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "6gsn/marine",
+    "html_url": "https://github.com/6gsn/marine",
+    "language": "Python",
+    "pushed_at": "2022-09-20T01:26:27Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2025-12-09T05:31:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sarulab-speech/jsut-label",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,332 @@
+{
+  "components": [
+    {
+      "component": "ros-tooling/setup-ros@87aeba050fd62d0ee5d5fdf4b6c9f847892ea864",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ROS2-package-CI.yaml"
+    },
+    {
+      "component": "ros-tooling/action-ros-ci@1ff2c804b4c2383146d8cd8444dfda64ab4bf7ac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ROS2-package-CI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@c7d193f32edcb7bfad88892161225aeda64e9392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@c7d193f32edcb7bfad88892161225aeda64e9392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@c7d193f32edcb7bfad88892161225aeda64e9392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ROS2-package-CI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "ros-tooling/setup-ros@87aeba050fd62d0ee5d5fdf4b6c9f847892ea864",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ROS2-package-CI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "ros-tooling/action-ros-ci@1ff2c804b4c2383146d8cd8444dfda64ab4bf7ac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildsCI.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "realsenseai/librealsense",
+      "target": "actions/upload-artifact@c7d193f32edcb7bfad88892161225aeda64e9392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "camera-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "developer-kits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "hardware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense",
+      "target": "librealsense",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:25.531600+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-ROS2-package-CI.yaml",
+      "size": 1583
+    },
+    {
+      "path": ".github/workflows/buildsCI.yaml",
+      "size": 22673
+    },
+    {
+      "path": ".github/workflows/cppcheck-parse.py",
+      "size": 2530
+    },
+    {
+      "path": ".github/workflows/cppcheck_run.log",
+      "size": 80619
+    },
+    {
+      "path": ".github/workflows/cppcheck_run.parsed.log",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/static_analysis.yaml",
+      "size": 13783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RealSense SDK",
+    "fork": false,
+    "full_name": "realsenseai/librealsense",
+    "html_url": "https://github.com/realsenseai/librealsense",
+    "language": "C++",
+    "pushed_at": "2026-04-30T18:43:36Z",
+    "stargazers_count": 8718,
+    "topics": [
+      "camera-api",
+      "computer-vision",
+      "developer-kits",
+      "hardware",
+      "library",
+      "librealsense",
+      "sdk"
+    ],
+    "updated_at": "2026-05-01T08:24:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build_lrs_ROS2_package",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-api"
+    },
+    {
+      "context_snippet": "build_lrs_ROS2_package",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "build_lrs_ROS2_package",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-kits"
+    },
+    {
+      "context_snippet": "build_lrs_ROS2_package",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardware"
+    },
+    {
+      "context_snippet": "build_lrs_ROS2_package",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "build_lrs_ROS2_package",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librealsense"
+    }
+  ]
+}

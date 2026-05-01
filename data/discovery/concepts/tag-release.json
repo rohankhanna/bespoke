@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Tag Release",
-    "tag-release"
+    "tag-release",
+    "Tag release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "praw-dev/.github",
       "status": "candidate-context",
       "text": "Tag Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invertase/melos",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0b  A tool for managing Dart projects with multiple packages. With IntelliJ and Vscode IDE support. Supports automated versioning, changelogs & publishing via Conventional Commits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invertase/melos",
+      "status": "candidate-context",
+      "text": "Tag release"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "praw-dev/.github",
       "status": "candidate",
       "text": "Tag Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invertase/melos",
+      "status": "candidate",
+      "text": "Tag release"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +144,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/tag_release.yml",
       "source_repo": "praw-dev/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "invertase/melos"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

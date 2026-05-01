@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neosr-project/neosr",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neosr-project/neosr",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neosr-project/neosr",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:34:26.010930+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 2347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "neosr is an open-source framework for training super-resolution models.",
+    "fork": false,
+    "full_name": "neosr-project/neosr",
+    "html_url": "https://github.com/neosr-project/neosr",
+    "language": "Python",
+    "pushed_at": "2025-06-02T01:58:02Z",
+    "stargazers_count": 312,
+    "topics": [
+      "image-restoration",
+      "machine-learning",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-27T18:49:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

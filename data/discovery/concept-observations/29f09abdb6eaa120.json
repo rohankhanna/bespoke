@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Example sketches for JRubyArt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generative-art",
+      "sense_id": "generative-art#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generative-art",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generative-art",
+  "observation_id": "29f09abdb6eaa120",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "generative-art",
+  "source_context_snippet": "Replaces `AppRender` with `GfxRender`, and removal of bashisms in autorun Rakefiles",
+  "source_file": null,
+  "source_repo": "ruby-processing/JRubyArt-examples",
+  "source_repo_description": "Example sketches for JRubyArt"
+}

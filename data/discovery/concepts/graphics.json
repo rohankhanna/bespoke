@@ -427,6 +427,66 @@
       "source_repo": "LuisaGroup/LuisaCompute",
       "status": "candidate-context",
       "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the shaderc library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate-context",
+      "text": "shaderc-rs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate-context",
+      "text": "Vulkan-lite GPU API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate-context",
+      "text": "[![crates](https://img.shields.io/crates/v/sierra.svg?style=for-the-badge&label=sierra)](https://crates.io/crates/sierra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate-context",
+      "text": "NumPy, TensorFlow and PyTorch implementation of human body SMPL model and infant body SMIL model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate-context",
+      "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "C++ implementation of Lie Groups using Eigen."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate-context",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
     }
   ],
   "candidate_glosses": [
@@ -639,6 +699,36 @@
       "source_repo": "LuisaGroup/LuisaCompute",
       "status": "candidate",
       "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate",
+      "text": "shaderc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakarumych/sierra",
+      "status": "candidate",
+      "text": "[![crates](https://img.shields.io/crates/v/sierra.svg?style=for-the-badge&label=sierra)](https://crates.io/crates/sierra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate",
+      "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strasdat/Sophus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/luisa-compute-rs",
+      "status": "candidate",
+      "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
     }
   ],
   "candidate_related_terms": [
@@ -914,11 +1004,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/shaderc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zakarumych/sierra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CalciferZh/SMPL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "strasdat/Sophus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/luisa-compute-rs"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:32:40.635536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4414
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "FirebaseExtended/firestoreodm-flutter",
+    "html_url": "https://github.com/FirebaseExtended/firestoreodm-flutter",
+    "language": "Dart",
+    "pushed_at": "2025-02-23T13:50:56Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-28T06:04:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pr-welcome.yml",
       "source_repo": "lobehub/lobe-chat-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-welcome.yml",
+      "source_repo": "umijs/dumi"
     }
   ],
   "term": "PR Welcome"

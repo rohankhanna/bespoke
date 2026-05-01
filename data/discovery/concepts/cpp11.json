@@ -211,6 +211,18 @@
       "source_repo": "microsoft/cpprestsdk",
       "status": "candidate-context",
       "text": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate-context",
+      "text": "Simple, fast, accurate single-header microbenchmarking functionality for C++11/14/17/20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "microsoft/cpprestsdk",
       "status": "candidate",
       "text": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinus/nanobench",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +478,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "martinus/nanobench"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

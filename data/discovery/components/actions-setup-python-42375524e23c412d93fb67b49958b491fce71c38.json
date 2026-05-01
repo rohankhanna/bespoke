@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "AcademySoftwareFoundation/OpenTimelineIO"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_py_tools.yml",
+      "source_repo": "espressif/arduino-esp32"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "espressif/arduino-esp32"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pre-release.yml",
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-test-release.yml",
+      "source_repo": "roboflow/maestro"
     }
   ]
 }

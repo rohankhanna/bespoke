@@ -1,0 +1,201 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "ruc-nlpir/deepagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "ruc-nlpir/search-o1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "unclecode/crawl4ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "deepresearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "deepsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "deepseek-r1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "gaia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "gpqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "reportgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "target": "webwalker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:32:51.880742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17858
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025] \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability",
+    "fork": false,
+    "full_name": "RUC-NLPIR/WebThinker",
+    "html_url": "https://github.com/RUC-NLPIR/WebThinker",
+    "language": "Python",
+    "pushed_at": "2025-12-08T03:40:49Z",
+    "stargazers_count": 1438,
+    "topics": [
+      "deepresearch",
+      "deepsearch",
+      "deepseek-r1",
+      "gaia",
+      "gpqa",
+      "hle",
+      "o1",
+      "o3",
+      "qwq",
+      "reasoning",
+      "reportgen",
+      "research",
+      "webwalker"
+    ],
+    "updated_at": "2026-04-30T08:39:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruc-nlpir/deepagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruc-nlpir/search-o1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unclecode/crawl4ai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepresearch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepsearch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek-r1"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaia"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpqa"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reportgen"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webwalker"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:06:28.973169+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The kernel DCO and Signed-off-by split out in a project-agnostic branch",
+    "fork": false,
+    "full_name": "wking/signed-off-by",
+    "html_url": "https://github.com/wking/signed-off-by",
+    "language": null,
+    "pushed_at": "2024-03-05T18:05:17Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2024-11-10T05:28:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

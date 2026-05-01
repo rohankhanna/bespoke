@@ -86,14 +86,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "brunch/clean-css-brunch",
+      "target": "shinnn/broccoli-clean-css",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "scniro/gulp-clean-css",
+      "target": "brunch/clean-css-brunch",
       "target_type": "repository"
     },
     {
@@ -107,7 +107,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "lasso-js/lasso",
+      "target": "start-runner/clean-css",
       "target_type": "repository"
     },
     {
@@ -258,7 +258,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:31:42.336590+00:00",
+  "fetched_at": "2026-05-01T07:17:31.674474+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -311,12 +311,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lasso-js/lasso",
+      "full_name": "shinnn/broccoli-clean-css",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "scniro/gulp-clean-css",
+      "full_name": "start-runner/clean-css",
       "source_file": "README.md"
     }
   ],

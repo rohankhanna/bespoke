@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Squad Label Enforce"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate-context",
+      "text": "Five lessons, learn how to really apply AI to your .NET Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate-context",
+      "text": "Squad Label Enforce"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate",
+      "text": "Squad Label Enforce"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17876,
+      "status": "candidate",
+      "text": "firing party"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17806,
+      "status": "candidate",
+      "text": "police"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17781,
+      "status": "candidate",
+      "text": "algonquin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17781,
+      "status": "candidate",
+      "text": "antonomasia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17781,
+      "status": "candidate",
+      "text": "assertively"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Squad Label Enforce",
+  "concept_id": "squad-label-enforce",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/squad-label-enforce.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Squad Label Enforce",
+      "sense_id": "squad-label-enforce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

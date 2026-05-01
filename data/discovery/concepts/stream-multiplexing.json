@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "stream-multiplexing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtaci/smux",
+      "status": "candidate-context",
+      "text": "A stream multiplexing library for Golang with minimal memory usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtaci/smux",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/smux.png\" alt=\"smux\" height=\"35px\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtaci/smux",
+      "status": "candidate",
+      "text": "<img src=\"assets/smux.png\" alt=\"smux\" height=\"35px\" />"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "stream-multiplexing",
+  "concept_id": "stream-multiplexing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "xtaci/smux"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stream-multiplexing",
+      "sense_id": "stream-multiplexing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

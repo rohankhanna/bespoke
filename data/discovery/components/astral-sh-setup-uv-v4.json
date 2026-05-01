@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -352,6 +352,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "viser-project/viser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml",
+      "source_repo": "pipecat-ai/pipecat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-compatibility.yaml",
+      "source_repo": "pipecat-ai/pipecat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "MyoHub/myosuite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "MyoHub/myosuite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples"
     }
   ]
 }

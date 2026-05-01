@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unitreerobotics/unitree_sdk2_python",
+      "target": "eclipse-cyclonedds/cyclonedds",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:28.379711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5550
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 89
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python interface for unitree sdk2",
+    "fork": false,
+    "full_name": "unitreerobotics/unitree_sdk2_python",
+    "html_url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "language": "Python",
+    "pushed_at": "2026-04-30T08:26:24Z",
+    "stargazers_count": 670,
+    "topics": [],
+    "updated_at": "2026-04-30T08:26:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse-cyclonedds/cyclonedds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "image-stylization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Norod/U-2-Net-StyleTransfer",
+      "status": "candidate-context",
+      "text": "U-2-Net: U Square Net - Modified for paired image training of style transfer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Norod/U-2-Net-StyleTransfer",
+      "status": "candidate-context",
+      "text": "<p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Norod/U-2-Net-StyleTransfer",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "image-stylization",
+  "concept_id": "image-stylization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Norod/U-2-Net-StyleTransfer"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-stylization",
+      "sense_id": "image-stylization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

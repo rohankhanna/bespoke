@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "XRV CI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "chest-radiographs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "chest-xray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "chest-xray-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "cxr-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "medical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "medical-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "medical-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "medical-image-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "medical-image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "medical-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "torchxrayvision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:03.314163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17189
+    },
+    {
+      "path": "requirements.txt",
+      "size": 106
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders.",
+    "fork": false,
+    "full_name": "mlmed/torchxrayvision",
+    "html_url": "https://github.com/mlmed/torchxrayvision",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-18T05:39:41Z",
+    "stargazers_count": 1140,
+    "topics": [
+      "chest-radiographs",
+      "chest-xray",
+      "chest-xray-images",
+      "cxr",
+      "cxr-images",
+      "dataset",
+      "deep-learning",
+      "foundation-models",
+      "image-classification",
+      "machine-learning",
+      "medical",
+      "medical-ai",
+      "medical-application",
+      "medical-image-analysis",
+      "medical-image-processing",
+      "medical-imaging",
+      "pytorch",
+      "torchxrayvision",
+      "transfer-learning"
+    ],
+    "updated_at": "2026-04-30T14:32:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "XRV CI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "XRV CI Tests"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chest-radiographs"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chest-xray"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chest-xray-images"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxr-images"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-ai"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-application"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-analysis"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-processing"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-imaging"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchxrayvision"
+    },
+    {
+      "context_snippet": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

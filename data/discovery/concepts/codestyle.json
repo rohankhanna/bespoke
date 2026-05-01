@@ -1,7 +1,8 @@
 {
   "aliases": [
     "codestyle",
-    "CodeStyle"
+    "CodeStyle",
+    "Codestyle"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,30 @@
       "source_repo": "ilyachur/cmake4vim",
       "status": "candidate-context",
       "text": "CodeStyle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiffEqML/torchdyn",
+      "status": "candidate-context",
+      "text": "A PyTorch library entirely dedicated to neural differential equations, implicit models and related numerical methods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiffEqML/torchdyn",
+      "status": "candidate-context",
+      "text": "Codestyle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilyachur/gtest-vim",
+      "status": "candidate-context",
+      "text": "GTest integration to vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/gtest-vim",
+      "status": "candidate-context",
+      "text": "CodeStyle"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +69,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ilyachur/cmake4vim",
+      "status": "candidate",
+      "text": "CodeStyle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiffEqML/torchdyn",
+      "status": "candidate",
+      "text": "Codestyle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/gtest-vim",
       "status": "candidate",
       "text": "CodeStyle"
     }
@@ -65,11 +102,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "ilyachur/cmake4vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "DiffEqML/torchdyn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "ilyachur/gtest-vim"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

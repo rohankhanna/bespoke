@@ -19,18 +19,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "instantX-research/InstantID",
-      "target": "instantx-research/instantid-rome",
+      "target": "siliconflow/onediff",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "instantX-research/InstantID",
-      "target": "sdbds/instantid-for-windows",
+      "target": "zho-zho-zho/comfyui-instantid",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T00:53:51.040209+00:00",
+  "fetched_at": "2026-05-01T09:26:01.454531+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -64,12 +64,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "instantx-research/instantid-rome",
+      "full_name": "siliconflow/onediff",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sdbds/instantid-for-windows",
+      "full_name": "zho-zho-zho/comfyui-instantid",
       "source_file": "README.md"
     }
   ],

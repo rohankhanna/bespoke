@@ -433,20 +433,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "wamp-proto/wamp-xbr",
-      "target": "ethereum/web3.py",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "wamp-proto/wamp-xbr",
-      "target": "pypy/pypy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml.orig",
       "source_repo": "wamp-proto/wamp-xbr",
@@ -650,7 +636,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:48:51.172052+00:00",
+  "fetched_at": "2026-05-01T09:08:08.674859+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -707,16 +693,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "crossbario/xbr-protocol",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ethereum/web3.py",
-      "source_file": "pyproject.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pypy/pypy",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

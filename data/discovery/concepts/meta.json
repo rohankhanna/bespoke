@@ -43,6 +43,18 @@
       "source_repo": "zopefoundation/meta",
       "status": "candidate-context",
       "text": "``zope.meta``"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate-context",
+      "text": "\ud83d\ude38 Soothing pastel theme for the high-spirited!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "zopefoundation/meta",
       "status": "candidate",
       "text": "``zope.meta``"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "zopefoundation/meta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/catppuccin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

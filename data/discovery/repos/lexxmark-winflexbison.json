@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@98e68e10c96dffcb7bfed8b2144541a66b49aa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "westes/flex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "meyerd/flex-bison-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "KyleMayes/install-llvm-action@98e68e10c96dffcb7bfed8b2144541a66b49aa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "Windows Build with open source compilers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison",
+      "target": "bison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison",
+      "target": "flex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison",
+      "target": "gnu-bison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison",
+      "target": "winflexbison",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:35:07.581533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1569
+    },
+    {
+      "path": ".github/workflows/os_windows.yaml",
+      "size": 1980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Main winflexbision repository",
+    "fork": false,
+    "full_name": "lexxmark/winflexbison",
+    "html_url": "https://github.com/lexxmark/winflexbison",
+    "language": "C",
+    "pushed_at": "2026-03-04T11:21:24Z",
+    "stargazers_count": 472,
+    "topics": [
+      "bison",
+      "flex",
+      "gnu-bison",
+      "winflexbison"
+    ],
+    "updated_at": "2026-04-23T07:36:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meyerd/flex-bison-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "westes/flex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Windows Build with open source compilers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "term": "Windows Build with open source compilers"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/58lcjnr0mb9uc8c8/branch/master?svg=true)](https://ci.appveyor.com/project/lexxmark/winflexbison/branch/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bison"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/58lcjnr0mb9uc8c8/branch/master?svg=true)](https://ci.appveyor.com/project/lexxmark/winflexbison/branch/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flex"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/58lcjnr0mb9uc8c8/branch/master?svg=true)](https://ci.appveyor.com/project/lexxmark/winflexbison/branch/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnu-bison"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/58lcjnr0mb9uc8c8/branch/master?svg=true)](https://ci.appveyor.com/project/lexxmark/winflexbison/branch/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winflexbison"
+    }
+  ]
+}

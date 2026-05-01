@@ -1,0 +1,103 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957646,
+      "status": "candidate",
+      "text": "riata"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957594,
+      "status": "candidate",
+      "text": "lariat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963305,
+      "status": "candidate",
+      "text": "reata"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961033,
+      "status": "candidate",
+      "text": "rope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29765017,
+      "status": "candidate",
+      "text": "aso"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lasso",
+      "sense_id": "lasso#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11031,
+      "status": "candidate",
+      "text": "lariat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5018,
+      "status": "candidate",
+      "text": "riata"
+    }
+  ],
+  "concept_id": "lasso",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lasso",
+  "observation_id": "f75e693f9039efd6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "lasso",
+  "source_context_snippet": "[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)",
+  "source_file": null,
+  "source_repo": "pajaydev/lasso-unpack",
+  "source_repo_description": null
+}

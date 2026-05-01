@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/MS-SVConv",
+      "target": "mit-spark/teaser-plusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/MS-SVConv",
+      "target": "rusty1s/pytorch_geometric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/MS-SVConv",
+      "target": "humanpose1/deeppointcloud-benchmarks",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:26:52.309084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compute descriptors for 3D point cloud registration using a multi scale sparse voxel architecture ",
+    "fork": false,
+    "full_name": "humanpose1/MS-SVConv",
+    "html_url": "https://github.com/humanpose1/MS-SVConv",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-03-21T10:56:16Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2026-02-09T10:59:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humanpose1/deeppointcloud-benchmarks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-spark/teaser-plusplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rusty1s/pytorch_geometric",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

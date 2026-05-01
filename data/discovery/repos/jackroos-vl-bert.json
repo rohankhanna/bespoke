@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jackroos/VL-BERT",
+      "target": "jackroos/apex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jackroos/VL-BERT",
+      "target": "facebookresearch/pythia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jackroos/VL-BERT",
+      "target": "lichengunc/mattnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jackroos/VL-BERT",
+      "target": "jessevig/bertviz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT",
+      "target": "iclr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT",
+      "target": "pre-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT",
+      "target": "vision-and-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT",
+      "target": "vl-bert",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:13.100143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6586
+    },
+    {
+      "path": "requirements.txt",
+      "size": 217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for ICLR 2020 paper \"VL-BERT: Pre-training of Generic Visual-Linguistic Representations\".",
+    "fork": false,
+    "full_name": "jackroos/VL-BERT",
+    "html_url": "https://github.com/jackroos/VL-BERT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-22T22:33:35Z",
+    "stargazers_count": 746,
+    "topics": [
+      "bert",
+      "iclr2020",
+      "pre-training",
+      "pytorch",
+      "representation-learning",
+      "self-supervised-learning",
+      "vision-and-language",
+      "vl-bert"
+    ],
+    "updated_at": "2025-10-10T08:46:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/pythia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jackroos/apex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jessevig/bertviz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lichengunc/mattnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "By",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "By",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iclr2020"
+    },
+    {
+      "context_snippet": "By",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-training"
+    },
+    {
+      "context_snippet": "By",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "By",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "By",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "By",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    },
+    {
+      "context_snippet": "By",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vl-bert"
+    }
+  ]
+}

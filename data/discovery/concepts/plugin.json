@@ -988,6 +988,150 @@
       "source_repo": "benelan/neotest-stenciljs",
       "status": "candidate-context",
       "text": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate-context",
+      "text": "A secure webpack plugin that supports dotenv and other environment variables and only exposes what you choose and use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ozsie/detekt-maven-plugin",
+      "status": "candidate-context",
+      "text": "Maven wrapper for detekt cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ozsie/detekt-maven-plugin",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Ozsie/detekt-maven-plugin/actions/workflows/maven.yml/badge.svg)](https://github.com/Ozsie/detekt-maven-plugin/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate-context",
+      "text": "Draw pretty micro benchmarking charts in HTML and allow to export them as png for benchee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate-context",
+      "text": "Formatter for [benchee](//github.com/PragTob/benchee) to produce some standalone HTML with nice graphs, a data table etc. from your benchee benchmarking results :) Also allows you to export PNG images, the graphs are also somewhat explorable thanks to [plotly.js](https://plot.ly\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate-context",
+      "text": "Check the browser compatibility of your code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/code-shot.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to shot code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/code-shot.nvim",
+      "status": "candidate-context",
+      "text": "**_To use version v1.0.0, set branch to v1._**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/cp-image.nvim",
+      "status": "candidate-context",
+      "text": "Quickly insert image in neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/cp-image.nvim",
+      "status": "candidate-context",
+      "text": "Paste the image from the clipboard and insert the reference code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/dap-utils.nvim",
+      "status": "candidate-context",
+      "text": "Better use of nvim-dap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/dap-utils.nvim",
+      "status": "candidate-context",
+      "text": "Utilities to provide a better experience for using `nvim-dap`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-vite/vite-plugin-electron",
+      "status": "candidate-context",
+      "text": ":electron: Electron\u26a1\ufe0fVite core repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/vite-plugin-electron",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "Generate favicons for your project with caching for blazing fast rebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate-context",
+      "text": "A minimal demo of eslint-plugin-compat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate-context",
+      "text": "eslint-plugin-compat-demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate-context",
+      "text": "Session manager for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate-context",
+      "text": "Provides multi-session management capabilities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate-context",
+      "text": "Stylelint plugin to validate CSS syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
     }
   ],
   "candidate_glosses": [
@@ -1482,6 +1626,78 @@
       "source_repo": "benelan/neotest-stenciljs",
       "status": "candidate",
       "text": "This plugin provides a [StencilJS](https://stenciljs.com) adapter for the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ozsie/detekt-maven-plugin",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Ozsie/detekt-maven-plugin/actions/workflows/maven.yml/badge.svg)](https://github.com/Ozsie/detekt-maven-plugin/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencheeorg/benchee_html",
+      "status": "candidate",
+      "text": "Formatter for [benchee](//github.com/PragTob/benchee) to produce some standalone HTML with nice graphs, a data table etc. from your benchee benchmarking results :) Also allows you to export PNG images, the graphs are also somewhat explorable thanks to [plotly.js](https://plot.ly\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/code-shot.nvim",
+      "status": "candidate",
+      "text": "**_To use version v1.0.0, set branch to v1._**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/cp-image.nvim",
+      "status": "candidate",
+      "text": "Paste the image from the clipboard and insert the reference code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/dap-utils.nvim",
+      "status": "candidate",
+      "text": "Utilities to provide a better experience for using `nvim-dap`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-vite/vite-plugin-electron",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate",
+      "text": "eslint-plugin-compat-demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate",
+      "text": "Provides multi-session management capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
     }
   ],
   "candidate_related_terms": [
@@ -2149,11 +2365,107 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mrsteele/dotenv-webpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Ozsie/detekt-maven-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/code-shot.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/cp-image.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/dap-utils.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "electron-vite/vite-plugin-electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/multiple-session.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "csstree/stylelint-validator"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

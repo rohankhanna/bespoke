@@ -19,6 +19,18 @@
       "source_repo": "rbenv/rbenv",
       "status": "candidate-context",
       "text": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rvm/rvm",
+      "status": "candidate-context",
+      "text": "Ruby enVironment Manager (RVM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvm/rvm",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rbenv/rbenv",
       "status": "candidate",
       "text": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvm/rvm",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +70,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rvm/rvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/rbenv"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

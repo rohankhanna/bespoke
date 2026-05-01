@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -499,6 +501,42 @@
       "source_repo": "apache/ignite-3",
       "status": "candidate-context",
       "text": "Apache Ignite 3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pycontribs/jira",
+      "status": "candidate-context",
+      "text": "Python Jira library. Development chat available on https://matrix.to/#/#pycontribs:matrix.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycontribs/jira",
+      "status": "candidate-context",
+      "text": "cloud"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate-context",
+      "text": "The OpenAPI v3 specification for DigitalOcean's public API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate-context",
+      "text": "![Spec Main](https://github.com/digitalocean/apiv2-openapi/workflows/Spec%20Main/badge.svg) ![Status](https://img.shields.io/badge/Status-Early%20Availability-blue)"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +785,24 @@
       "source_repo": "apache/ignite-3",
       "status": "candidate",
       "text": "Apache Ignite 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pycontribs/jira",
+      "status": "candidate",
+      "text": "cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "digitalocean/openapi",
+      "status": "candidate",
+      "text": "![Spec Main](https://github.com/digitalocean/apiv2-openapi/workflows/Spec%20Main/badge.svg) ![Status](https://img.shields.io/badge/Status-Early%20Availability-blue)"
     }
   ],
   "candidate_related_terms": [
@@ -1108,11 +1164,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "apache/ignite-3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/jira_cloud_ci.yml",
+      "source_repo": "pycontribs/jira"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

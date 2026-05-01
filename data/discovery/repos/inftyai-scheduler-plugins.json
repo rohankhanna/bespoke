@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-golang-ci.yaml@v0.1.18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-workflow.yaml"
+    },
+    {
+      "component": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes-init.yaml@v0.1.18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-workflow-init.yaml"
+    },
+    {
+      "component": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes.yaml@v0.1.18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-workflow.yaml",
+      "source_repo": "InftyAI/scheduler-plugins",
+      "target": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-golang-ci.yaml@v0.1.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang-workflow.yaml",
+      "source_repo": "InftyAI/scheduler-plugins",
+      "target": "CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-workflow-init.yaml",
+      "source_repo": "InftyAI/scheduler-plugins",
+      "target": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes-init.yaml@v0.1.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-workflow-init.yaml",
+      "source_repo": "InftyAI/scheduler-plugins",
+      "target": "Initialization Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kube-workflow.yaml",
+      "source_repo": "InftyAI/scheduler-plugins",
+      "target": "kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes.yaml@v0.1.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-workflow.yaml",
+      "source_repo": "InftyAI/scheduler-plugins",
+      "target": "Event Workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:25:17.768190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1032
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1287
+    },
+    {
+      "path": "go.mod",
+      "size": 6903
+    },
+    {
+      "path": ".github/workflows/golang-workflow.yaml",
+      "size": 198
+    },
+    {
+      "path": ".github/workflows/kube-workflow-init.yaml",
+      "size": 232
+    },
+    {
+      "path": ".github/workflows/kube-workflow.yaml",
+      "size": 389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scheduler-Plugins maintains a list of kubernetes scheduler plugins used in InftyAI community.",
+    "fork": false,
+    "full_name": "InftyAI/scheduler-plugins",
+    "html_url": "https://github.com/InftyAI/scheduler-plugins",
+    "language": "Go",
+    "pushed_at": "2025-06-16T07:20:33Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-07-28T03:54:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang-workflow.yaml",
+      "term": "CI Workflow"
+    },
+    {
+      "context_snippet": "Initialization Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-workflow-init.yaml",
+      "term": "Initialization Workflow"
+    },
+    {
+      "context_snippet": "Event Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kube-workflow.yaml",
+      "term": "Event Workflow"
+    }
+  ]
+}

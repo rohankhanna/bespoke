@@ -19,6 +19,18 @@
       "source_repo": "v-iashin/video_features",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "naver/kapture",
+      "status": "candidate-context",
+      "text": "kapture is a file format as well as a set of tools for manipulating datasets, and in particular Visual Localization and Structure from Motion data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naver/kapture",
+      "status": "candidate-context",
+      "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "v-iashin/video_features",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naver/kapture",
+      "status": "candidate",
+      "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "v-iashin/video_features"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "naver/kapture"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

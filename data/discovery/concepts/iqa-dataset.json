@@ -19,6 +19,18 @@
       "source_repo": "HaomingCai/PIPAL-dataset",
       "status": "candidate-context",
       "text": "<a href=\"https://www.jasongt.com\" target=\"_blank\">Jinjin Gu</a>,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of IQA papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "HaomingCai/PIPAL-dataset",
       "status": "candidate",
       "text": "<a href=\"https://www.jasongt.com\" target=\"_blank\">Jinjin Gu</a>,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate",
+      "text": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "HaomingCai/PIPAL-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

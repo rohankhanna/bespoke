@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/dap-utils.nvim",
+      "target": "niuiic/multiple-session.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/dap-utils.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/dap-utils.nvim",
+      "target": "nvim-dap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/dap-utils.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:19:09.390596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Better use of nvim-dap",
+    "fork": false,
+    "full_name": "niuiic/dap-utils.nvim",
+    "html_url": "https://github.com/niuiic/dap-utils.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-05-11T04:36:12Z",
+    "stargazers_count": 40,
+    "topics": [
+      "neovim",
+      "nvim-dap",
+      "plugin"
+    ],
+    "updated_at": "2025-10-22T02:03:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niuiic/multiple-session.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Utilities to provide a better experience for using `nvim-dap`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Utilities to provide a better experience for using `nvim-dap`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-dap"
+    },
+    {
+      "context_snippet": "Utilities to provide a better experience for using `nvim-dap`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

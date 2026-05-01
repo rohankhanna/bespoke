@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "pen-plotter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "pixel-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype-pixelart",
+      "target": "vector-graphics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:44.150111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4456
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 129
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 728
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pixel art plotting in vpype",
+    "fork": false,
+    "full_name": "abey79/vpype-pixelart",
+    "html_url": "https://github.com/abey79/vpype-pixelart",
+    "language": "Python",
+    "pushed_at": "2025-08-06T09:29:13Z",
+    "stargazers_count": 95,
+    "topics": [
+      "generative-art",
+      "pen-plotter",
+      "pixel-art",
+      "vector-graphics"
+    ],
+    "updated_at": "2026-03-10T08:42:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pen-plotter"
+    },
+    {
+      "context_snippet": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-art"
+    },
+    {
+      "context_snippet": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-graphics"
+    }
+  ]
+}

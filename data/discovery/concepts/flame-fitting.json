@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "flame-fitting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "Tensorflow framework for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 2D or 3D keypoints, and how to generate textured head meshes from Images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "Example code for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 3D keypoints and 3D scans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "status": "candidate-context",
+      "text": "Convert from Basel Face Model (BFM) to the FLAME head model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "status": "candidate-context",
+      "text": "This repository demonstrates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/BFM_to_FLAME",
+      "status": "candidate",
+      "text": "This repository demonstrates"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "flame-fitting",
+  "concept_id": "flame-fitting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/TF_FLAME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/BFM_to_FLAME"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flame-fitting",
+      "sense_id": "flame-fitting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

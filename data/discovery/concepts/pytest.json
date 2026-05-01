@@ -443,6 +443,18 @@
       "source_repo": "viser-project/viser",
       "status": "candidate-context",
       "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "OpenTinker is an RL-as-a-Service infrastructure for foundation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate-context",
+      "text": "Pytest"
     }
   ],
   "candidate_glosses": [
@@ -661,6 +673,12 @@
       "source_repo": "viser-project/viser",
       "status": "candidate",
       "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-tinker/OpenTinker",
+      "status": "candidate",
+      "text": "Pytest"
     }
   ],
   "candidate_related_terms": [
@@ -1082,11 +1100,65 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "codespell-project/codespell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "verbiiyo/rigl-torch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "open-tinker/OpenTinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "open-tinker/OpenTinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

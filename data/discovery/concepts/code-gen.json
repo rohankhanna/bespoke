@@ -13,6 +13,18 @@
       "source_repo": "aorwall/moatless-tools",
       "status": "candidate-context",
       "text": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "status": "candidate-context",
+      "text": "Updated AI assisted dev repo template (swap preferred CLI!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "status": "candidate-context",
+      "text": "**Version**: October 2025"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "aorwall/moatless-tools",
       "status": "candidate",
       "text": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+      "status": "candidate",
+      "text": "**Version**: October 2025"
     }
   ],
   "candidate_related_terms": [],
@@ -34,11 +52,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "aorwall/moatless-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Repo-Template-Oct-2025"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

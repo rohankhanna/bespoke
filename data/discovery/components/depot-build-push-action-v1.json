@@ -1,12 +1,22 @@
 {
   "component": "depot/build-push-action@v1",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yml.disabled",
       "source_repo": "getzep/zep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.parallel.yml",
+      "source_repo": "roboflow/inference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.cpu.slim.yml",
+      "source_repo": "roboflow/inference"
     }
   ]
 }

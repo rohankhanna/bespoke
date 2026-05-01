@@ -1,0 +1,110 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains all the necessary scripts and tools to build [Mandrel](https://github.com/graalvm/mandrel)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains all the necessary scripts and tools to build [Mandrel](https://github.com/graalvm/mandrel)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023642,
+      "status": "candidate",
+      "text": "arbor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018351,
+      "status": "candidate",
+      "text": "spindle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29896094,
+      "status": "candidate",
+      "text": "mandril"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19954931,
+      "status": "candidate",
+      "text": "chuck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19742257,
+      "status": "candidate",
+      "text": "continent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mandrel",
+      "sense_id": "mandrel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19047,
+      "status": "candidate",
+      "text": "arbor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17049,
+      "status": "candidate",
+      "text": "spindle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2016,
+      "status": "candidate",
+      "text": "mandril"
+    }
+  ],
+  "concept_id": "mandrel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mandrel",
+  "observation_id": "48b8048ec507494f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "mandrel",
+  "source_context_snippet": "This repo contains all the necessary scripts and tools to build [Mandrel](https://github.com/graalvm/mandrel).",
+  "source_file": null,
+  "source_repo": "graalvm/mandrel-packaging",
+  "source_repo_description": null
+}

@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-webdoc-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-webdoc-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-webdoc-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-webdoc-deploy.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-webdoc-deploy.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-webdoc-deploy.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "Test Docs Copy and Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/webdoc-deploy.yml",
+      "source_repo": "THUDM/CogKit",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogKit",
+      "target": "cogvideox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogKit",
+      "target": "finetune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogKit",
+      "target": "text2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogKit",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:27:24.595156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1266
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1913
+    },
+    {
+      "path": ".github/workflows/python-lint.yml",
+      "size": 516
+    },
+    {
+      "path": ".github/workflows/test-webdoc-deploy.yml",
+      "size": 1333
+    },
+    {
+      "path": ".github/workflows/webdoc-deploy.yml",
+      "size": 2236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Finetuning and inference tools for the CogView4 and CogVideoX model series.",
+    "fork": false,
+    "full_name": "THUDM/CogKit",
+    "html_url": "https://github.com/THUDM/CogKit",
+    "language": "Python",
+    "pushed_at": "2025-05-14T13:20:45Z",
+    "stargazers_count": 126,
+    "topics": [
+      "cogvideox",
+      "finetune",
+      "text2",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-23T12:55:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test Docs Copy and Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-webdoc-deploy.yml",
+      "term": "Test Docs Copy and Build"
+    },
+    {
+      "context_snippet": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cogvideox"
+    },
+    {
+      "context_snippet": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finetune"
+    },
+    {
+      "context_snippet": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2"
+    },
+    {
+      "context_snippet": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

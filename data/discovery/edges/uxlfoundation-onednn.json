@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "intel/llvm",
+      "target": "oneapi-src/level-zero",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "intel/ittapi",
+      "target": "radeonopencompute/rocm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "khronosgroup/opencl-headers",
+      "target": "rocmsoftwareplatform/miopen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "intel/metrics-discovery",
+      "target": "rocmsoftwareplatform/rocblas",
       "target_type": "repository"
     },
     {
@@ -351,6 +351,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "uxlfoundation/oneDNN"
 }

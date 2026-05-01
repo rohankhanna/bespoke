@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/ASLFeat",
+      "target": "lzx551402/fm-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/ASLFeat",
+      "target": "hlzz/libvot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/ASLFeat",
+      "target": "ahojnnes/local-feature-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/ASLFeat",
+      "target": "dhzs/tf-deformable-conv-layer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:26:10.645834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10835
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of CVPR'20 paper - ASLFeat: Learning Local Features of Accurate Shape and Localization",
+    "fork": false,
+    "full_name": "lzx551402/ASLFeat",
+    "html_url": "https://github.com/lzx551402/ASLFeat",
+    "language": "Python",
+    "pushed_at": "2023-04-12T14:36:04Z",
+    "stargazers_count": 316,
+    "topics": [],
+    "updated_at": "2026-04-24T15:57:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahojnnes/local-feature-evaluation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dhzs/tf-deformable-conv-layer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hlzz/libvot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzx551402/fm-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

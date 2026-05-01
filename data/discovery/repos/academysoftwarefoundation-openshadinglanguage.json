@@ -113,13 +113,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
-      "target": "laikastudios/oslshaderwriting",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/analysis.yml",
       "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
@@ -351,7 +344,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:42:42.729518+00:00",
+  "fetched_at": "2026-05-01T08:12:41.821512+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -406,13 +399,7 @@
     ],
     "updated_at": "2026-04-26T08:01:47Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "laikastudios/oslshaderwriting",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Analysis",

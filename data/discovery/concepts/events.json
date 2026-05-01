@@ -127,6 +127,18 @@
       "source_repo": "0no-co/wonka",
       "status": "candidate-context",
       "text": "A tiny but capable push & pull stream library for TypeScript and Flow,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate-context",
+      "text": "Collect and aggregate Telemetry events over time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "0no-co/wonka",
       "status": "candidate",
       "text": "A tiny but capable push & pull stream library for TypeScript and Flow,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry_metrics",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/beam-telemetry/telemetry_metrics/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +310,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vectordotdev/vector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry_metrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "0no-co/wonka"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

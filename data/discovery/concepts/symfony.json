@@ -55,6 +55,30 @@
       "source_repo": "symfony/symfony",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/contracts",
+      "status": "candidate-context",
+      "text": "A set of abstractions extracted out of the Symfony components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/contracts",
+      "status": "candidate-context",
+      "text": "Symfony Contracts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/demo",
+      "status": "candidate-context",
+      "text": "Symfony Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/demo",
+      "status": "candidate-context",
+      "text": "Symfony Demo Application"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "symfony/symfony",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://symfony.com\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/contracts",
+      "status": "candidate",
+      "text": "Symfony Contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/demo",
+      "status": "candidate",
+      "text": "Symfony Demo Application"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "symfony/symfony"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "symfony/contracts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "symfony/demo"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

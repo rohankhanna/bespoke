@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mermaid-diagrams"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate-context",
+      "text": "Go implementation of a HTTP server to allow remote generation of mermaid-js diagrams without any pre-requisites installed locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate-context",
+      "text": "Use mermaid-js to generate diagrams in a HTTP endpoint."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TomWright/mermaid-server",
+      "status": "candidate",
+      "text": "Use mermaid-js to generate diagrams in a HTTP endpoint."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mermaid-diagrams",
+  "concept_id": "mermaid-diagrams",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TomWright/mermaid-server"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mermaid-diagrams",
+      "sense_id": "mermaid-diagrams#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

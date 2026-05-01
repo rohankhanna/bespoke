@@ -1,12 +1,27 @@
 {
   "component": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dotnet-maui.yml",
       "source_repo": "sandrohanea/whisper.net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml",
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
+      "source_repo": "firebase/flutterfire"
     }
   ]
 }

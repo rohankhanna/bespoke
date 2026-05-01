@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An arctic, north-bluish color palette."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "nord \u2014 An arctic, north-bluish color palette"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "nord \u2014 An arctic, north-bluish color palette"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048224,
+      "status": "candidate",
+      "text": "phrase structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048224,
+      "status": "candidate",
+      "text": "sentence structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048223,
+      "status": "candidate",
+      "text": "syntactical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047489,
+      "status": "candidate",
+      "text": "syntactic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032794,
+      "status": "candidate",
+      "text": "directed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "syntax",
+      "sense_id": "syntax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "phrase structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "sentence structure"
+    }
+  ],
+  "concept_id": "syntax",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "syntax",
+  "observation_id": "885e50a2ebf19f88",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "syntax",
+  "source_context_snippet": "nord \u2014 An arctic, north-bluish color palette",
+  "source_file": null,
+  "source_repo": "nordtheme/nord",
+  "source_repo_description": "An arctic, north-bluish color palette."
+}

@@ -93,13 +93,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "hermit-os/hermit-rs",
-      "target": "hermit-os/tokio",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "hermit-os/hermit-rs",
@@ -212,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:03:31.387609+00:00",
+  "fetched_at": "2026-05-01T08:26:22.452594+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -255,13 +248,7 @@
     ],
     "updated_at": "2026-04-30T07:20:48Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hermit-os/tokio",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish container image",

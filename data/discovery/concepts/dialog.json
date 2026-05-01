@@ -55,6 +55,18 @@
       "source_repo": "golsun/DialogRPT",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate-context",
+      "text": "A tiny, neat C library that portably invokes native file open and save dialogs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate-context",
+      "text": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "golsun/DialogRPT",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate",
+      "text": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt."
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "golsun/DialogRPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlabbe/nativefiledialog"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

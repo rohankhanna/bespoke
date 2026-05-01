@@ -127,6 +127,18 @@
       "source_repo": "JingyunLiang/FKP",
       "status": "candidate-context",
       "text": "This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of \"Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video\", CVPR 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "status": "candidate-context",
+      "text": "| Qualtitative result | Paper teaser video |"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "JingyunLiang/FKP",
       "status": "candidate",
       "text": "This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/TCMR_RELEASE",
+      "status": "candidate",
+      "text": "| Qualtitative result | Paper teaser video |"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "JingyunLiang/FKP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hongsukchoi/TCMR_RELEASE"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

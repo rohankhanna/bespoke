@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MattesGroeger/vim-bookmarks",
+      "target": "thinca/vim-qfreplace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MattesGroeger/vim-bookmarks",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MattesGroeger/vim-bookmarks",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MattesGroeger/vim-bookmarks",
+      "target": "mattesgroeger/vim-plug",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:45.657655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16000
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim bookmark plugin",
+    "fork": false,
+    "full_name": "MattesGroeger/vim-bookmarks",
+    "html_url": "https://github.com/MattesGroeger/vim-bookmarks",
+    "language": "Vim script",
+    "pushed_at": "2026-04-08T07:47:16Z",
+    "stargazers_count": 1083,
+    "topics": [],
+    "updated_at": "2026-04-26T08:49:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattesgroeger/vim-plug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinca/vim-qfreplace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

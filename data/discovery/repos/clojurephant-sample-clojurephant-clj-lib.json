@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-clj-lib",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-clj-lib",
+      "target": "clojurephant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojurephant/sample-clojurephant-clj-lib",
+      "target": "gradle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:24:12.062411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Sample project using clojurephant to build a Clojure library.",
+    "fork": false,
+    "full_name": "clojurephant/sample-clojurephant-clj-lib",
+    "html_url": "https://github.com/clojurephant/sample-clojurephant-clj-lib",
+    "language": "Clojure",
+    "pushed_at": "2025-04-14T00:05:49Z",
+    "stargazers_count": 0,
+    "topics": [
+      "clojure",
+      "clojurephant",
+      "gradle"
+    ],
+    "updated_at": "2025-11-06T23:12:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurephant"
+    },
+    {
+      "context_snippet": "Sample project using [clojurephant](https://github.com/clojurephant) to build a Clojure library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    }
+  ]
+}

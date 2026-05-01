@@ -1,0 +1,201 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "mistral-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "multimodality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "pinecone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "spring-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "spring-ai-demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "spring-ai-example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "spring-boot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "stock-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "piomin/spring-ai-showcase",
+      "target": "vector-store",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:15:24.003406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sample Spring AI Application with several use cases",
+    "fork": false,
+    "full_name": "piomin/spring-ai-showcase",
+    "html_url": "https://github.com/piomin/spring-ai-showcase",
+    "language": "Java",
+    "pushed_at": "2026-02-19T17:40:39Z",
+    "stargazers_count": 70,
+    "topics": [
+      "llm",
+      "mistral-ai",
+      "multimodal-large-language-models",
+      "multimodality",
+      "ollama",
+      "openai",
+      "pinecone",
+      "rag",
+      "retrieval-augmented-generation",
+      "spring-ai",
+      "spring-ai-demo",
+      "spring-ai-example",
+      "spring-boot",
+      "stock-api",
+      "vector-store"
+    ],
+    "updated_at": "2026-04-21T04:25:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral-ai"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodality"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinecone"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai-demo"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai-example"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stock-api"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-store"
+    }
+  ]
+}

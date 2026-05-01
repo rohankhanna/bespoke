@@ -1,0 +1,547 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/rdflib",
+      "target": "rdflib/pylode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/rdflib",
+      "target": "rdflib/pyrdfa3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/rdflib",
+      "target": "rdflib/pymicrodata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/rdflib",
+      "target": "rdflib/owl-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "arduino/setup-task@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "dorny/test-reporter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "Test Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "arduino/setup-task@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "RDFLib/rdflib",
+      "target": "Validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "json-ld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "linked-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "namespace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "nquads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "ntriples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "rdf-xml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "rdflib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "semantic-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "serializer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "sparql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "turtle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/rdflib",
+      "target": "turtle-rdf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:05:03.258859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10614
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9119
+    },
+    {
+      "path": ".github/workflows/docker-images.yaml",
+      "size": 2558
+    },
+    {
+      "path": ".github/workflows/test-report.yml",
+      "size": 634
+    },
+    {
+      "path": ".github/workflows/validate.yaml",
+      "size": 5970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.",
+    "fork": false,
+    "full_name": "RDFLib/rdflib",
+    "html_url": "https://github.com/RDFLib/rdflib",
+    "language": "Python",
+    "pushed_at": "2026-04-27T06:03:14Z",
+    "stargazers_count": 2436,
+    "topics": [
+      "graph",
+      "json-ld",
+      "linked-data",
+      "n3",
+      "namespace",
+      "nquads",
+      "ntriples",
+      "parser",
+      "pypi",
+      "python",
+      "python-library",
+      "rdf",
+      "rdf-xml",
+      "rdflib",
+      "semantic-web",
+      "serializer",
+      "sparql",
+      "turtle",
+      "turtle-rdf",
+      "uri"
+    ],
+    "updated_at": "2026-04-30T21:26:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdflib/owl-rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdflib/pylode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdflib/pymicrodata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdflib/pyrdfa3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-images.yaml",
+      "term": "Docker Images"
+    },
+    {
+      "context_snippet": "\"Test Report\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-report.yml",
+      "term": "Test Report"
+    },
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yaml",
+      "term": "Validate"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-ld"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linked-data"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "namespace"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nquads"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ntriples"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdf-xml"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdflib"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-web"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serializer"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparql"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turtle"
+    },
+    {
+      "context_snippet": "![](docs/_static/RDFlib.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turtle-rdf"
+    }
+  ]
+}

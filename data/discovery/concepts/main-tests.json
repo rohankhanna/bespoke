@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Main Tests"
+    "Main Tests",
+    "Main tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "graphql/graphiql",
       "status": "candidate-context",
       "text": "Main Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate-context",
+      "text": "Simple, high-performance event-driven HTTP client+server for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate-context",
+      "text": "Main tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "graphql/graphiql",
       "status": "candidate",
       "text": "Main Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate",
+      "text": "Main tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/main-test.yml",
       "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "http-kit/http-kit"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

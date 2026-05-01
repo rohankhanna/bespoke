@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhangXInFD/soundstorm-speechtokenizer",
+      "target": "lucidrains/soundstorm-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:27:32.921240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of SoundStorm built upon SpeechTokenizer. ",
+    "fork": false,
+    "full_name": "ZhangXInFD/soundstorm-speechtokenizer",
+    "html_url": "https://github.com/ZhangXInFD/soundstorm-speechtokenizer",
+    "language": "Python",
+    "pushed_at": "2023-11-02T06:28:11Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-04-19T18:40:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/soundstorm-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

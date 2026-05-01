@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmark a pull request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "Distributed High-Performance Symbolic Regression in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "Benchmark a pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate",
+      "text": "Benchmark a pull request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21831,
+      "status": "candidate",
+      "text": "tie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21790,
+      "status": "candidate",
+      "text": "tied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21790,
+      "status": "candidate",
+      "text": "ties"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21750,
+      "status": "candidate",
+      "text": "refer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21710,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmark a pull request",
+  "concept_id": "benchmark-a-pull-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/benchmark_pr.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark a pull request",
+      "sense_id": "benchmark-a-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

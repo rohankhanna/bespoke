@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_samples.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_samples.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_samples.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_samples.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_samples.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "target": "Check Sample Code Compilation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:15:48.707760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7216
+    },
+    {
+      "path": ".github/workflows/check_samples.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/run_tests.yml",
+      "size": 2693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Alibaba Cloud OSS SDK for Java V2",
+    "fork": false,
+    "full_name": "aliyun/alibabacloud-oss-java-sdk-v2",
+    "html_url": "https://github.com/aliyun/alibabacloud-oss-java-sdk-v2",
+    "language": "Java",
+    "pushed_at": "2026-04-29T10:39:44Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-29T03:34:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Sample Code Compilation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_samples.yml",
+      "term": "Check Sample Code Compilation"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "term": "Run tests"
+    }
+  ]
+}

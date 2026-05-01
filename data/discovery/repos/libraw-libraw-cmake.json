@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LibRaw/LibRaw-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:31:04.023135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1526
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LibRaw cmake scripts, contributed by users, unmaintained by LibRaw",
+    "fork": false,
+    "full_name": "LibRaw/LibRaw-cmake",
+    "html_url": "https://github.com/LibRaw/LibRaw-cmake",
+    "language": "CMake",
+    "pushed_at": "2024-04-15T06:52:22Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2025-10-17T11:53:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "amannn/action-semantic-pull-request@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/directories@v1.8.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "clowdhaus/terraform-min-max@v1.2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.8.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.8.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "clowdhaus/terraform-min-max@v1.2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.8.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issue-pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "amannn/action-semantic-pull-request@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "clowdhaus/terraform-composite-actions/directories@v1.8.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "clowdhaus/terraform-min-max@v1.2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "clowdhaus/terraform-composite-actions/pre-commit@v1.8.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issue-pr.yaml",
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "aws-eks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "eks-addons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-ia/terraform-aws-eks-blueprints-addon",
+      "target": "terraform-module",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:32:29.344587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19142
+    },
+    {
+      "path": ".github/workflows/pr-title.yaml",
+      "size": 686
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 4807
+    },
+    {
+      "path": ".github/workflows/stale-issue-pr.yaml",
+      "size": 1198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Terraform AWS module which creates an EKS addon (helm release + IRSA)",
+    "fork": false,
+    "full_name": "aws-ia/terraform-aws-eks-blueprints-addon",
+    "html_url": "https://github.com/aws-ia/terraform-aws-eks-blueprints-addon",
+    "language": "HCL",
+    "pushed_at": "2024-10-15T20:46:28Z",
+    "stargazers_count": 74,
+    "topics": [
+      "aws-eks",
+      "eks-addons",
+      "terraform-module"
+    ],
+    "updated_at": "2026-04-29T22:09:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'PR title'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "term": "PR title"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Terraform module which provisions an addon ([Helm release](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release)) and an [IAM role for service accounts (IRSA)](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-eks"
+    },
+    {
+      "context_snippet": "Terraform module which provisions an addon ([Helm release](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release)) and an [IAM role for service accounts (IRSA)](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eks-addons"
+    },
+    {
+      "context_snippet": "Terraform module which provisions an addon ([Helm release](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release)) and an [IAM role for service accounts (IRSA)](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-module"
+    }
+  ]
+}

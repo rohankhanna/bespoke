@@ -2506,6 +2506,186 @@
       "source_repo": "2KAbhishek/utils.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/cp-image.nvim",
+      "status": "candidate-context",
+      "text": "Quickly insert image in neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/cp-image.nvim",
+      "status": "candidate-context",
+      "text": "Paste the image from the clipboard and insert the reference code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/dap-utils.nvim",
+      "status": "candidate-context",
+      "text": "Better use of nvim-dap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/dap-utils.nvim",
+      "status": "candidate-context",
+      "text": "Utilities to provide a better experience for using `nvim-dap`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilyachur/gtest-vim",
+      "status": "candidate-context",
+      "text": "GTest integration to vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/gtest-vim",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "Lualine component for cmake4vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "cmake4vim integration for telescope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "Git integration for buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/lewis6991/gitsigns.nvim/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lewis6991/gitsigns.nvim/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "A wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "LSP-format.nvim is a wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight, fast and async formatting and linting plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate-context",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/xiaoshihou514/guard.nvim?logo=lua&color=green)](https://luarocks.org/modules/xiaoshihou514/guard.nvim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "pre-configured CLI (linters, formatters) -> LSP (IDE) adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Freed-Wu/coc-write-good",
+      "status": "candidate-context",
+      "text": "Port vscode-write-good to coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Freed-Wu/coc-write-good",
+      "status": "candidate-context",
+      "text": "Provides a [write-good](https://github.com/btford/write-good) linter extension for [Visual Studio Code](https://code.visualstudio.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate-context",
+      "text": "Improve startup time for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate-context",
+      "text": "As of Neovim 0.9, this plugin is no longer required. Instead run:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "IDE-like breadcrumbs, out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "comfysage/artio.nvim",
+      "status": "candidate-context",
+      "text": ":bear: minimal extui fuzzy finder for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comfysage/artio.nvim",
+      "status": "candidate-context",
+      "text": "A minimal, nature-infused file picker for Neovim using ui2."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for silicon in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate-context",
+      "text": "Session manager for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate-context",
+      "text": "Provides multi-session management capabilities."
     }
   ],
   "candidate_glosses": [
@@ -3780,6 +3960,96 @@
       "source_repo": "2KAbhishek/utils.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/cp-image.nvim",
+      "status": "candidate",
+      "text": "Paste the image from the clipboard and insert the reference code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/dap-utils.nvim",
+      "status": "candidate",
+      "text": "Utilities to provide a better experience for using `nvim-dap`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilyachur/gtest-vim",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
+      "status": "candidate",
+      "text": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate",
+      "text": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/lewis6991/gitsigns.nvim/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lewis6991/gitsigns.nvim/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate",
+      "text": "LSP-format.nvim is a wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/xiaoshihou514/guard.nvim?logo=lua&color=green)](https://luarocks.org/modules/xiaoshihou514/guard.nvim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Freed-Wu/coc-write-good",
+      "status": "candidate",
+      "text": "Provides a [write-good](https://github.com/btford/write-good) linter extension for [Visual Studio Code](https://code.visualstudio.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate",
+      "text": "As of Neovim 0.9, this plugin is no longer required. Instead run:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate",
+      "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comfysage/artio.nvim",
+      "status": "candidate",
+      "text": "A minimal, nature-infused file picker for Neovim using ui2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/multiple-session.nvim",
+      "status": "candidate",
+      "text": "Provides multi-session management capabilities."
     }
   ],
   "candidate_related_terms": [],
@@ -5737,11 +6007,251 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/utils.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/cp-image.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/dap-utils.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ilyachur/gtest-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/gitsigns.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-reineke/lsp-format.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/guard.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Freed-Wu/coc-write-good"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/impatient.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kkharji/sqlite.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Bekaboo/dropbar.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "comfysage/artio.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "krivahtoo/silicon.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/multiple-session.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

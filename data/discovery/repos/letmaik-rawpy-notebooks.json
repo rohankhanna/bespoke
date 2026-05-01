@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letmaik/rawpy-notebooks",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letmaik/rawpy-notebooks",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letmaik/rawpy-notebooks",
+      "target": "rawpy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:31:02.042928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 394
+    },
+    {
+      "path": "requirements.txt",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of Jupyter notebooks using rawpy",
+    "fork": false,
+    "full_name": "letmaik/rawpy-notebooks",
+    "html_url": "https://github.com/letmaik/rawpy-notebooks",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-09T20:31:22Z",
+    "stargazers_count": 30,
+    "topics": [
+      "image-processing",
+      "jupyter",
+      "python",
+      "rawpy"
+    ],
+    "updated_at": "2025-09-26T04:01:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rawpy"
+    }
+  ]
+}

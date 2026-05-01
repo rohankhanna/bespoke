@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Lightning-AI/litgpt",
+      "target": "bsc-ltc/salamandra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/litgpt",
       "target": "timdettmers/bitsandbytes",
       "target_type": "repository"
     },
@@ -155,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "Lightning-AI/litgpt"
 }

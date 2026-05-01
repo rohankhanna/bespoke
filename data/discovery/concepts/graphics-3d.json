@@ -19,6 +19,18 @@
       "source_repo": "ecumene/rust-sloth",
       "status": "candidate-context",
       "text": "![pikachu](models/demo/pikachu.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate-context",
+      "text": "NumPy, TensorFlow and PyTorch implementation of human body SMPL model and infant body SMIL model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate-context",
+      "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ecumene/rust-sloth",
       "status": "candidate",
       "text": "![pikachu](models/demo/pikachu.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CalciferZh/SMPL",
+      "status": "candidate",
+      "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "ecumene/rust-sloth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CalciferZh/SMPL"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

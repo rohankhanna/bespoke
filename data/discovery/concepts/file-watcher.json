@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "file-watcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate-context",
+      "text": "A file watcher and development tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate-context",
+      "text": "Steel Overseer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate",
+      "text": "Steel Overseer"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "file-watcher",
+  "concept_id": "file-watcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "schell/steeloverseer"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "file-watcher",
+      "sense_id": "file-watcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

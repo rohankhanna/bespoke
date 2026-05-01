@@ -178,6 +178,18 @@
       "source_repo": "codota/tabnine-nvim",
       "status": "candidate-context",
       "text": "Chat"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shazow/ssh-chat",
+      "status": "candidate-context",
+      "text": "Chat over SSH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shazow/ssh-chat",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "codota/tabnine-nvim",
       "status": "candidate",
       "text": "Chat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shazow/ssh-chat",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)"
     }
   ],
   "candidate_related_terms": [
@@ -427,11 +445,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/chat.yaml",
       "source_repo": "codota/tabnine-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "shazow/ssh-chat"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

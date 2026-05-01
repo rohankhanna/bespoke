@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:31:03.153630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LibRaw is a library for reading RAW files from digital cameras",
+    "fork": false,
+    "full_name": "LibRaw/LibRaw",
+    "html_url": "https://github.com/LibRaw/LibRaw",
+    "language": "C++",
+    "pushed_at": "2026-04-27T18:34:17Z",
+    "stargazers_count": 1474,
+    "topics": [],
+    "updated_at": "2026-05-01T04:52:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "IDEA-Research/DINO-X-API",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/T-Rex",
+      "status": "candidate-context",
+      "text": "[ECCV2024] API code for T-Rex2: Towards Generic Object Detection via Text-Visual Prompt Synergy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/T-Rex",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "IDEA-Research/DINO-X-API",
       "status": "candidate",
       "text": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/T-Rex",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "IDEA-Research/DINO-X-API"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/T-Rex"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

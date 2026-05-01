@@ -1285,6 +1285,102 @@
       "source_repo": "2KAbhishek/utils.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "Git integration for buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/lewis6991/gitsigns.nvim/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lewis6991/gitsigns.nvim/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "A wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "LSP-format.nvim is a wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight, fast and async formatting and linting plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate-context",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/xiaoshihou514/guard.nvim?logo=lua&color=green)](https://luarocks.org/modules/xiaoshihou514/guard.nvim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2a-42/nvim-lelwel",
+      "status": "candidate-context",
+      "text": "Vim/Neovim plugin for lelwel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/nvim-lelwel",
+      "status": "candidate-context",
+      "text": "Vim/Neovim syntax highlighting for [lelwel](https://github.com/0x2a-42/lelwel)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate-context",
+      "text": "Improve startup time for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate-context",
+      "text": "As of Neovim 0.9, this plugin is no longer required. Instead run:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "IDE-like breadcrumbs, out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "comfysage/artio.nvim",
+      "status": "candidate-context",
+      "text": ":bear: minimal extui fuzzy finder for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comfysage/artio.nvim",
+      "status": "candidate-context",
+      "text": "A minimal, nature-infused file picker for Neovim using ui2."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for silicon in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1929,6 +2025,54 @@
       "source_repo": "2KAbhishek/utils.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/lewis6991/gitsigns.nvim/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lewis6991/gitsigns.nvim/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate",
+      "text": "LSP-format.nvim is a wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/guard.nvim",
+      "status": "candidate",
+      "text": "[![LuaRocks](https://img.shields.io/luarocks/v/xiaoshihou514/guard.nvim?logo=lua&color=green)](https://luarocks.org/modules/xiaoshihou514/guard.nvim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/nvim-lelwel",
+      "status": "candidate",
+      "text": "Vim/Neovim syntax highlighting for [lelwel](https://github.com/0x2a-42/lelwel)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/impatient.nvim",
+      "status": "candidate",
+      "text": "As of Neovim 0.9, this plugin is no longer required. Instead run:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate",
+      "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "comfysage/artio.nvim",
+      "status": "candidate",
+      "text": "A minimal, nature-infused file picker for Neovim using ui2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2800,11 +2944,101 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/utils.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/gitsigns.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-reineke/lsp-format.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/guard.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "0x2a-42/nvim-lelwel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/impatient.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Bekaboo/dropbar.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "comfysage/artio.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "krivahtoo/silicon.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

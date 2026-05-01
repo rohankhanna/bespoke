@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andersontr15/clean-code-javascript-es",
+      "target": "danielstjules/buddy.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andersontr15/clean-code-javascript-es",
+      "target": "petkaantonov/bluebird",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:15:46.930720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 56785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clean Code traducido al Espa\u00f1ol ",
+    "fork": false,
+    "full_name": "andersontr15/clean-code-javascript-es",
+    "html_url": "https://github.com/andersontr15/clean-code-javascript-es",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-17T21:54:27Z",
+    "stargazers_count": 3524,
+    "topics": [],
+    "updated_at": "2026-04-30T01:30:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielstjules/buddy.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petkaantonov/bluebird",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

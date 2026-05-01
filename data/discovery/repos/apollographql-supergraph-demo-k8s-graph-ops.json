@@ -1,0 +1,363 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-gitops.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-gitops.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "cirrus-actions/rebase@1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supergraph-build-webhook.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supergraph-build-webhook.yml"
+    },
+    {
+      "component": "peter-evans/enable-pull-request-automerge@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supergraph-build-webhook.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "apollographql/supergraph-demo-gitops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "apollographql/supergraph-demo-k8s-graphops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "fluxcd/flux2-kustomize-helm-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "fluxcd/flux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-gitops.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-gitops.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "CI GitOps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "cirrus-actions/rebase@1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supergraph-build-webhook.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supergraph-build-webhook.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/supergraph-build-webhook.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "peter-evans/enable-pull-request-automerge@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/supergraph-build-webhook.yml",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "Supergraph Build Webhook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "continous-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "federation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "gitops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "subgraphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "target": "supergraph-router",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:18:09.571324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37221
+    },
+    {
+      "path": ".github/workflows/ci-gitops.yml",
+      "size": 6666
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 5997
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "size": 2507
+    },
+    {
+      "path": ".github/workflows/supergraph-build-webhook.yml",
+      "size": 5018
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Archived: GitOps config repo for an Apollo GraphQL federated graph with a supergraph router and subgraph services deployed to Kubernetes.",
+    "fork": false,
+    "full_name": "apollographql/supergraph-demo-k8s-graph-ops",
+    "html_url": "https://github.com/apollographql/supergraph-demo-k8s-graph-ops",
+    "language": "Shell",
+    "pushed_at": "2023-01-04T07:05:00Z",
+    "stargazers_count": 27,
+    "topics": [
+      "cloud-native",
+      "continous-deployment",
+      "federation",
+      "gitops",
+      "graphql",
+      "kubernetes",
+      "subgraphs",
+      "supergraph-router"
+    ],
+    "updated_at": "2026-02-13T18:43:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/supergraph-demo-gitops",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/supergraph-demo-k8s-graphops",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fluxcd/flux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fluxcd/flux2-kustomize-helm-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI GitOps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-gitops.yml",
+      "term": "CI GitOps"
+    },
+    {
+      "context_snippet": "Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "term": "Rebase"
+    },
+    {
+      "context_snippet": "Supergraph Build Webhook",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/supergraph-build-webhook.yml",
+      "term": "Supergraph Build Webhook"
+    },
+    {
+      "context_snippet": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continous-deployment"
+    },
+    {
+      "context_snippet": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federation"
+    },
+    {
+      "context_snippet": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitops"
+    },
+    {
+      "context_snippet": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subgraphs"
+    },
+    {
+      "context_snippet": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supergraph-router"
+    }
+  ]
+}

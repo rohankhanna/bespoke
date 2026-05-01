@@ -1,0 +1,29 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:08:57.921434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A template project using CMake & BLT to build a RAJA application",
+    "fork": false,
+    "full_name": "llnl/RAJA-project-template",
+    "html_url": "https://github.com/llnl/RAJA-project-template",
+    "language": "C++",
+    "pushed_at": "2022-12-20T16:28:10Z",
+    "stargazers_count": 10,
+    "topics": [
+      "cpp"
+    ],
+    "updated_at": "2026-01-19T15:04:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

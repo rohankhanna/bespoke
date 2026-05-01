@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "target": "avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:24:35.937696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3624
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Samples that demonstrate how to use various Prism features with WPF",
+    "fork": false,
+    "full_name": "PrismLibrary/Prism-Samples-Wpf",
+    "html_url": "https://github.com/PrismLibrary/Prism-Samples-Wpf",
+    "language": "C#",
+    "pushed_at": "2024-08-26T18:07:24Z",
+    "stargazers_count": 1801,
+    "topics": [
+      "prism",
+      "samples",
+      "wpf"
+    ],
+    "updated_at": "2026-04-22T01:47:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism"
+    },
+    {
+      "context_snippet": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    }
+  ]
+}

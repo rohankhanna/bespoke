@@ -84,7 +84,7 @@
   "normalized_form": "add-issues-and-prs-to-project",
   "observation_id": "bc4f0ed688a3c2cd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Add issues and PRs to project",
   "source_context_snippet": "Add issues and PRs to project",
   "source_file": ".github/workflows/add-to-project.yaml",

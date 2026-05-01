@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "azure/reliable-web-app-pattern-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.template.bicep.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.template.bicep.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.template.bicep.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "microsoft/ps-rule@v2.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.template.bicep.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.template.terraform.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.template.terraform.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "hashicorp/setup-terraform@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.template.terraform.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform.terraform-dependencies.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scenario1.bicep.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scenario1.terraform.yml",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "app-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "app-service-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "bicep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "landing-zone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "landing-zone-accelerator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "Azure/appservice-landing-zone-accelerator"
+}

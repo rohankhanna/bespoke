@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "snapshot"
+    "snapshot",
+    "Snapshot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -57,6 +58,12 @@
       "source_repo": "15r10nk/inline-snapshot",
       "status": "candidate-context",
       "text": "<!-- -8<- [start:Header] -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshwooding/vite-plugin-react-docgen-typescript",
+      "status": "candidate-context",
+      "text": "Snapshot"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +90,12 @@
       "source_repo": "15r10nk/inline-snapshot",
       "status": "candidate",
       "text": "<!-- -8<- [start:Header] -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshwooding/vite-plugin-react-docgen-typescript",
+      "status": "candidate",
+      "text": "Snapshot"
     }
   ],
   "candidate_related_terms": [
@@ -200,11 +213,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "joshwooding/vite-plugin-react-docgen-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

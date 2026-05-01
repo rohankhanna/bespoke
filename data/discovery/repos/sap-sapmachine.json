@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-alpine-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "Build (alpine-linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "Build (cross-compile)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gh-pages.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gh-pages.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gh-pages.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gh-pages.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-gh-pages.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "Build and deploy sapmachine.io page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "Build (linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "Build (macos)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "Build (windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "SapMachine GHA Sanity Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "SAP/SapMachine",
+      "target": "Wiki Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP/SapMachine",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP/SapMachine",
+      "target": "javase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP/SapMachine",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP/SapMachine",
+      "target": "openjdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:46.124898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2328
+    },
+    {
+      "path": ".github/workflows/build-alpine-linux.yml",
+      "size": 4028
+    },
+    {
+      "path": ".github/workflows/build-cross-compile.yml",
+      "size": 7839
+    },
+    {
+      "path": ".github/workflows/build-gh-pages.yml",
+      "size": 1982
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 6060
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 4437
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 5511
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 17978
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 9561
+    },
+    {
+      "path": ".github/workflows/wiki.yml",
+      "size": 977
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "sapmachine",
+    "description": "An OpenJDK release maintained and supported by SAP",
+    "fork": false,
+    "full_name": "SAP/SapMachine",
+    "html_url": "https://github.com/SAP/SapMachine",
+    "language": "Java",
+    "pushed_at": "2026-05-01T01:08:06Z",
+    "stargazers_count": 607,
+    "topics": [
+      "java",
+      "javase",
+      "jdk",
+      "jse",
+      "jvm",
+      "open-source",
+      "openjdk"
+    ],
+    "updated_at": "2026-04-29T03:38:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Build (alpine-linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "term": "Build (alpine-linux)"
+    },
+    {
+      "context_snippet": "'Build (cross-compile)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "term": "Build (cross-compile)"
+    },
+    {
+      "context_snippet": "Build and deploy sapmachine.io page",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-gh-pages.yml",
+      "term": "Build and deploy sapmachine.io page"
+    },
+    {
+      "context_snippet": "'Build (linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build (linux)"
+    },
+    {
+      "context_snippet": "'Build (macos)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "Build (macos)"
+    },
+    {
+      "context_snippet": "'Build (windows)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Build (windows)"
+    },
+    {
+      "context_snippet": "'SapMachine GHA Sanity Checks'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "SapMachine GHA Sanity Checks"
+    },
+    {
+      "context_snippet": "'Run tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "'Wiki Update'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "term": "Wiki Update"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?label=Downloads%20of%20Latest%20Release)](https://sapmachine.io/#download) [![DockerPulls](https://img.shields.io/docker/pulls/_/sapmachine?label=Docker%20Pulls)](https://hub.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?label=Downloads%20of%20Latest%20Release)](https://sapmachine.io/#download) [![DockerPulls](https://img.shields.io/docker/pulls/_/sapmachine?label=Docker%20Pulls)](https://hub.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javase"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?label=Downloads%20of%20Latest%20Release)](https://sapmachine.io/#download) [![DockerPulls](https://img.shields.io/docker/pulls/_/sapmachine?label=Docker%20Pulls)](https://hub.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "[![GitHub release (latest by date)](https://img.shields.io/github/downloads/sap/sapmachine/latest/total?label=Downloads%20of%20Latest%20Release)](https://sapmachine.io/#download) [![DockerPulls](https://img.shields.io/docker/pulls/_/sapmachine?label=Docker%20Pulls)](https://hub.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openjdk"
+    }
+  ]
+}

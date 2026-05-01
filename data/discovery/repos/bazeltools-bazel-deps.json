@@ -66,14 +66,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazeltools/bazel-deps",
-      "target": "twitter/scalding",
+      "target": "pgr0ss/bazel-deps",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazeltools/bazel-deps",
-      "target": "pgr0ss/bazel-deps",
+      "target": "eclipse/aether-demo",
       "target_type": "repository"
     },
     {
@@ -140,7 +140,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:45:20.634367+00:00",
+  "fetched_at": "2026-05-01T08:31:54.336160+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -172,12 +172,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pgr0ss/bazel-deps",
+      "full_name": "eclipse/aether-demo",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "twitter/scalding",
+      "full_name": "pgr0ss/bazel-deps",
       "source_file": "README.md"
     }
   ],

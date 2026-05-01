@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/liblinear",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/liblinear",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/liblinear",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/liblinear",
+      "target": "Build wheels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:47.227025+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/wheel.yml",
+      "size": 1276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LIBLINEAR -- A Library for Large Linear Classification",
+    "fork": false,
+    "full_name": "cjlin1/liblinear",
+    "html_url": "https://github.com/cjlin1/liblinear",
+    "language": "C++",
+    "pushed_at": "2025-12-29T11:32:11Z",
+    "stargazers_count": 1047,
+    "topics": [],
+    "updated_at": "2026-04-14T21:22:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel.yml",
+      "term": "Build wheels"
+    }
+  ]
+}

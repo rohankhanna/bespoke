@@ -391,6 +391,30 @@
       "source_repo": "VITA-Group/Q-GaLore",
       "status": "candidate-context",
       "text": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zhen-Dong/HAWQ",
+      "status": "candidate-context",
+      "text": "Quantization library for PyTorch. Support low-precision and mixed-precision quantization, with hardware implementation through TVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/HAWQ",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hahnyuan/PB-LLM",
+      "status": "candidate-context",
+      "text": "PB-LLM: Partially Binarized Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hahnyuan/PB-LLM",
+      "status": "candidate-context",
+      "text": "**[Yuzhang Shang*](https://42shawn.github.io/), [Zhihang Yuan*](http://hahnyuan.com/), Qiang Wu, [Zhen Dong](https://dong-zhen.com/)** (* Equal Contribution)"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +609,18 @@
       "source_repo": "VITA-Group/Q-GaLore",
       "status": "candidate",
       "text": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/HAWQ",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hahnyuan/PB-LLM",
+      "status": "candidate",
+      "text": "**[Yuzhang Shang*](https://42shawn.github.io/), [Zhihang Yuan*](http://hahnyuan.com/), Qiang Wu, [Zhen Dong](https://dong-zhen.com/)** (* Equal Contribution)"
     }
   ],
   "candidate_related_terms": [
@@ -1056,11 +1092,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/HAWQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hahnyuan/PB-LLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

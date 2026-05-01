@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/DIoU",
+      "target": "zzh-tju/diou-darknet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/DIoU",
+      "target": "zzh-tju/diou-ssd-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/DIoU",
+      "target": "zzh-tju/diou-pytorch-detectron",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:33:38.750246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression (AAAI 2020)",
+    "fork": false,
+    "full_name": "Zzh-tju/DIoU",
+    "html_url": "https://github.com/Zzh-tju/DIoU",
+    "language": "MATLAB",
+    "pushed_at": "2023-12-31T07:52:07Z",
+    "stargazers_count": 321,
+    "topics": [],
+    "updated_at": "2026-04-26T04:03:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zzh-tju/diou-darknet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zzh-tju/diou-pytorch-detectron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zzh-tju/diou-ssd-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,292 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "mmacklin/tinsel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "erichlof/three.js-pathtracing-renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "nvpro-samples/optix_advanced_samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "mmp/pbrt-v3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "bsdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "disney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "path-tracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "path-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "pathtracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "pathtracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "ray-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "raytracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "tracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knightcrawler25/GLSL-PathTracer",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:07.087788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A toy physically based GPU path tracer (C++/OpenGL/GLSL)",
+    "fork": false,
+    "full_name": "knightcrawler25/GLSL-PathTracer",
+    "html_url": "https://github.com/knightcrawler25/GLSL-PathTracer",
+    "language": "C++",
+    "pushed_at": "2024-02-09T17:38:14Z",
+    "stargazers_count": 2047,
+    "topics": [
+      "bsdf",
+      "bvh",
+      "disney",
+      "glsl",
+      "gpu",
+      "linux",
+      "opengl",
+      "path",
+      "path-tracer",
+      "path-tracing",
+      "pathtracer",
+      "pathtracing",
+      "ray",
+      "ray-tracing",
+      "raytracer",
+      "tracer",
+      "tracing",
+      "windows"
+    ],
+    "updated_at": "2026-04-30T13:29:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erichlof/three.js-pathtracing-renderer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmacklin/tinsel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmp/pbrt-v3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvpro-samples/optix_advanced_samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bsdf"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disney"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path-tracer"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path-tracing"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pathtracer"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pathtracing"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ray-tracing"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raytracer"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracer"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    },
+    {
+      "context_snippet": "GLSL-PathTracer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

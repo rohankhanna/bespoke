@@ -127,6 +127,42 @@
       "source_repo": "cssnano/cssnano",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MohammadYounes/rtlcss",
+      "status": "candidate-context",
+      "text": "Framework for transforming  Cascading Style Sheets (CSS) from Left-To-Right (LTR) to Right-To-Left (RTL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MohammadYounes/rtlcss",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate-context",
+      "text": "A mighty CSS linter that helps you avoid errors and enforce conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/stylelint?logo=npm&logoColor=fff)](https://www.npmjs.com/package/stylelint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate-context",
+      "text": "A PostCSS plugin to extend postcss-import path resolver to allow glob usage as path, e.g. @import-glob \"**/*.css\";"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate-context",
+      "text": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "cssnano/cssnano",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MohammadYounes/rtlcss",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/stylelint?logo=npm&logoColor=fff)](https://www.npmjs.com/package/stylelint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate",
+      "text": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +346,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cssnano/cssnano"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MohammadYounes/rtlcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "stylelint/stylelint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

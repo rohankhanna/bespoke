@@ -1,0 +1,12 @@
+{
+  "component": "autowarefoundation/autoware-github-actions/check-file-existence@v1",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-pr-comments-manually.yaml",
+      "source_repo": "autowarefoundation/autoware_core"
+    }
+  ]
+}

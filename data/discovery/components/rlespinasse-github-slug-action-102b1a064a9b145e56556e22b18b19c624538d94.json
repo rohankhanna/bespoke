@@ -1,0 +1,12 @@
+{
+  "component": "rlespinasse/github-slug-action@102b1a064a9b145e56556e22b18b19c624538d94",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/app-services-api-guidelines"
+    }
+  ]
+}

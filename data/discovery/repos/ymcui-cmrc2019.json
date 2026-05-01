@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2019",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2019",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2019",
+      "target": "question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2019",
+      "target": "reading-comprehension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:12:20.623664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Sentence Cloze Dataset for Chinese Machine Reading Comprehension (CMRC 2019)",
+    "fork": false,
+    "full_name": "ymcui/cmrc2019",
+    "html_url": "https://github.com/ymcui/cmrc2019",
+    "language": "Python",
+    "pushed_at": "2022-10-24T18:14:07Z",
+    "stargazers_count": 126,
+    "topics": [
+      "bert",
+      "natural-language-processing",
+      "question-answering",
+      "reading-comprehension"
+    ],
+    "updated_at": "2026-02-20T11:57:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reading-comprehension"
+    }
+  ]
+}

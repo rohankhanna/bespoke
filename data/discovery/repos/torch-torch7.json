@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "torch/torch7",
+      "target": "torch/nn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "torch/torch7",
+      "target": "torch/cutorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "torch/torch7",
+      "target": "torch/optim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "torch/torch7",
+      "target": "soumith/cvpr2015",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:17:28.962883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "http://torch.ch",
+    "fork": false,
+    "full_name": "torch/torch7",
+    "html_url": "https://github.com/torch/torch7",
+    "language": "C",
+    "pushed_at": "2025-03-31T20:16:24Z",
+    "stargazers_count": 9117,
+    "topics": [],
+    "updated_at": "2026-04-29T05:52:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soumith/cvpr2015",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "torch/cutorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "torch/nn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "torch/optim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

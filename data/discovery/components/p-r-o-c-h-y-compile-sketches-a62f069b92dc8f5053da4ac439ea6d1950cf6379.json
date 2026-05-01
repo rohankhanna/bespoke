@@ -1,0 +1,17 @@
+{
+  "component": "P-R-O-C-H-Y/compile-sketches@a62f069b92dc8f5053da4ac439ea6d1950cf6379",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/allboards.yml",
+      "source_repo": "espressif/arduino-esp32"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/boards.yml",
+      "source_repo": "espressif/arduino-esp32"
+    }
+  ]
+}

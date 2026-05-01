@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "uni-app\u6846\u67b6\u6f14\u793a\u793a\u4f8b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`uni-app`\u6846\u67b6\u793a\u4f8b\uff0c\u4e00\u5957\u4ee3\u7801\uff0c\u540c\u65f6\u53d1\u884c\u5230iOS\u3001Android\u3001H5\u3001\u5c0f\u7a0b\u5e8f\u7b49\u591a\u4e2a\u5e73\u53f0\uff0c\u8bf7\u4f7f\u7528\u624b\u673a\u5728\u4e0b\u65b9\u626b\u7801\u5feb\u901f\u4f53\u9a8c`uni-app`\u7684\u5f3a\u5927\u529f\u80fd\u3002[\u5b98\u65b9\u6587\u6863](https://uniapp.dcloud.net.cn/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`uni-app`\u6846\u67b6\u793a\u4f8b\uff0c\u4e00\u5957\u4ee3\u7801\uff0c\u540c\u65f6\u53d1\u884c\u5230iOS\u3001Android\u3001H5\u3001\u5c0f\u7a0b\u5e8f\u7b49\u591a\u4e2a\u5e73\u53f0\uff0c\u8bf7\u4f7f\u7528\u624b\u673a\u5728\u4e0b\u65b9\u626b\u7801\u5feb\u901f\u4f53\u9a8c`uni-app`\u7684\u5f3a\u5927\u529f\u80fd\u3002[\u5b98\u65b9\u6587\u6863](https://uniapp.dcloud.net.cn/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944050,
+      "status": "candidate",
+      "text": "crossbreed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944029,
+      "status": "candidate",
+      "text": "crossbred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39795145,
+      "status": "candidate",
+      "text": "crossed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39733028,
+      "status": "candidate",
+      "text": "loanblend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944064,
+      "status": "candidate",
+      "text": "interbred"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hybrid",
+      "sense_id": "hybrid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "crossed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3033,
+      "status": "candidate",
+      "text": "crossbreed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "crossbred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "intercrossed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "loanblend"
+    }
+  ],
+  "concept_id": "hybrid",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hybrid",
+  "observation_id": "9b742698ba39e3cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "hybrid",
+  "source_context_snippet": "`uni-app`\u6846\u67b6\u793a\u4f8b\uff0c\u4e00\u5957\u4ee3\u7801\uff0c\u540c\u65f6\u53d1\u884c\u5230iOS\u3001Android\u3001H5\u3001\u5c0f\u7a0b\u5e8f\u7b49\u591a\u4e2a\u5e73\u53f0\uff0c\u8bf7\u4f7f\u7528\u624b\u673a\u5728\u4e0b\u65b9\u626b\u7801\u5feb\u901f\u4f53\u9a8c`uni-app`\u7684\u5f3a\u5927\u529f\u80fd\u3002[\u5b98\u65b9\u6587\u6863](https://uniapp.dcloud.net.cn/)",
+  "source_file": null,
+  "source_repo": "dcloudio/hello-uniapp",
+  "source_repo_description": "uni-app\u6846\u67b6\u6f14\u793a\u793a\u4f8b"
+}

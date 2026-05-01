@@ -84,7 +84,7 @@
   "normalized_form": "generate-issue-and-pr-metrics",
   "observation_id": "5f87b50266d5b072",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Generate Issue and PR Metrics",
   "source_context_snippet": "Generate Issue and PR Metrics",
   "source_file": ".github/workflows/issue-metrics.yml",

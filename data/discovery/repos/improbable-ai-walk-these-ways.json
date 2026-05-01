@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "target": "improbable-ai/unitree_legged_sdk.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "target": "sim-to-real",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Improbable-AI/walk-these-ways",
+      "target": "unitree",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:12.210329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sim-to-real RL training and deployment tools for the Unitree Go1 robot.",
+    "fork": false,
+    "full_name": "Improbable-AI/walk-these-ways",
+    "html_url": "https://github.com/Improbable-AI/walk-these-ways",
+    "language": "Python",
+    "pushed_at": "2024-06-16T22:12:27Z",
+    "stargazers_count": 1344,
+    "topics": [
+      "go1",
+      "reinforcement-learning",
+      "robotics",
+      "sim-to-real",
+      "unitree"
+    ],
+    "updated_at": "2026-04-29T01:51:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "improbable-ai/unitree_legged_sdk.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "1. [Overview](#overview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "1. [Overview](#overview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "1. [Overview](#overview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sim-to-real"
+    },
+    {
+      "context_snippet": "1. [Overview](#overview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unitree"
+    }
+  ]
+}

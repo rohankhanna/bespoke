@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracyone/program_font",
+      "target": "consola",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracyone/program_font",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracyone/program_font",
+      "target": "programmer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:08:22.754220+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "fonts for programmer",
+    "fork": false,
+    "full_name": "tracyone/program_font",
+    "html_url": "https://github.com/tracyone/program_font",
+    "language": "Shell",
+    "pushed_at": "2025-11-29T03:11:45Z",
+    "stargazers_count": 135,
+    "topics": [
+      "consola",
+      "font",
+      "programmer"
+    ],
+    "updated_at": "2026-03-03T08:08:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "fonts for programmer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consola"
+    },
+    {
+      "context_snippet": "fonts for programmer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "fonts for programmer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programmer"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ckb-next/ckb-next",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ckb-next/ckb-next",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:17:46.616024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2366
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RGB Driver for Linux",
+    "fork": false,
+    "full_name": "ckb-next/ckb-next",
+    "html_url": "https://github.com/ckb-next/ckb-next",
+    "language": "C++",
+    "pushed_at": "2026-04-30T18:03:18Z",
+    "stargazers_count": 3618,
+    "topics": [],
+    "updated_at": "2026-04-30T18:03:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

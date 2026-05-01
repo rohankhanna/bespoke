@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "automatic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate-context",
+      "text": "ERRor ANnotation Toolkit: Automatically extract and classify grammatical errors in parallel original and corrected sentences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate-context",
+      "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate",
+      "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959308,
+      "status": "candidate",
+      "text": "self-regulating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958769,
+      "status": "candidate",
+      "text": "self-acting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947703,
+      "status": "candidate",
+      "text": "reflex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939961,
+      "status": "candidate",
+      "text": "involuntary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919842,
+      "status": "candidate",
+      "text": "reflexive"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18047,
+      "status": "candidate",
+      "text": "involuntary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18039,
+      "status": "candidate",
+      "text": "reflexive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8051,
+      "status": "candidate",
+      "text": "reflex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3024,
+      "status": "candidate",
+      "text": "automated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "automatonlike"
+    }
+  ],
+  "canonical_name": "automatic",
+  "concept_id": "automatic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chrisjbryant/errant"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "automatic",
+      "sense_id": "automatic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

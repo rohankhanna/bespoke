@@ -1,0 +1,351 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "dcarbone/install-jq-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml"
+    },
+    {
+      "component": "Azure/login@v1.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml"
+    },
+    {
+      "component": "dcarbone/install-jq-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml"
+    },
+    {
+      "component": "Azure/login@v1.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "dcarbone/install-jq-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-dev.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "Azure/login@v1.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "dcarbone/install-jq-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-azure-teardown.yml",
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "Azure/login@v1.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-app-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-app-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-cache-redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-frontdoor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-keyvault",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-private-endpoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "azure-sql-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "bicep-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/reliable-web-app-pattern-dotnet",
+      "target": "reference-implementation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:11.975211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12510
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2514
+    },
+    {
+      "path": ".github/workflows/azure-dev.yml",
+      "size": 1533
+    },
+    {
+      "path": ".github/workflows/scheduled-azure-dev.yml",
+      "size": 3064
+    },
+    {
+      "path": ".github/workflows/scheduled-azure-teardown.yml",
+      "size": 2725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET.",
+    "fork": false,
+    "full_name": "Azure/reliable-web-app-pattern-dotnet",
+    "html_url": "https://github.com/Azure/reliable-web-app-pattern-dotnet",
+    "language": "Bicep",
+    "pushed_at": "2025-12-18T20:10:33Z",
+    "stargazers_count": 458,
+    "topics": [
+      "architecture",
+      "azd-templates",
+      "azure",
+      "azure-app-configuration",
+      "azure-app-service",
+      "azure-cache-redis",
+      "azure-frontdoor",
+      "azure-keyvault",
+      "azure-private-endpoints",
+      "azure-sql-database",
+      "bicep-templates",
+      "dotnet",
+      "microsoft",
+      "reference-implementation"
+    ],
+    "updated_at": "2026-04-24T00:27:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azd-templates"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-app-configuration"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-app-service"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-cache-redis"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-frontdoor"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-keyvault"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-private-endpoints"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-sql-database"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bicep-templates"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reference-implementation"
+    }
+  ]
+}

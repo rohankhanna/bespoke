@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "rebar3-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jelly-beam/rebar3_ex_doc",
+      "status": "candidate-context",
+      "text": "rebar3 plugin for generating docs with ex_doc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jelly-beam/rebar3_ex_doc",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/starbelly/rebar3_ex_doc/actions/workflows/ci.yml/badge.svg)](https://github.com/starbelly/rebar3_ex_doc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erlef/rebar3_hex",
+      "status": "candidate-context",
+      "text": "Rebar3 Hex library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/rebar3_hex",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/erlef/rebar3_hex/actions/workflows/ci.yml/badge.svg)](https://github.com/erlef/rebar3_hex/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jelly-beam/rebar3_ex_doc",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/starbelly/rebar3_ex_doc/actions/workflows/ci.yml/badge.svg)](https://github.com/starbelly/rebar3_ex_doc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/rebar3_hex",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/erlef/rebar3_hex/actions/workflows/ci.yml/badge.svg)](https://github.com/erlef/rebar3_hex/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rebar3-plugin",
+  "concept_id": "rebar3-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jelly-beam/rebar3_ex_doc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "erlef/rebar3_hex"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rebar3-plugin",
+      "sense_id": "rebar3-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/inter-branch-merge-flow.yml",
       "source_repo": "dotnet/msbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/branch-snap.yml",
+      "source_repo": "dotnet/vscode-csharp"
     }
   ]
 }

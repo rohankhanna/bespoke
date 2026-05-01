@@ -175,6 +175,18 @@
       "source_repo": "OpenGVLab/InternGPT",
       "status": "candidate-context",
       "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate-context",
+      "text": "Efficient vision foundation models for high-resolution generation and perception."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "OpenGVLab/InternGPT",
       "status": "candidate",
       "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/efficientvit",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +370,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "OpenGVLab/InternGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/efficientvit"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

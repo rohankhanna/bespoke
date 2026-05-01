@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "tarides/changelog-check-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "tarides/pr-number-action@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-number.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "tarides/dune-release",
+      "target": "tarides/changelog-check-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "tarides/dune-release",
+      "target": "Changelog check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-number.yml",
+      "source_repo": "tarides/dune-release",
+      "target": "tarides/pr-number-action@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-number.yml",
+      "source_repo": "tarides/dune-release",
+      "target": "PR number update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tarides/dune-release",
+      "target": "opam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tarides/dune-release",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:11:32.590314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7433
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 281
+    },
+    {
+      "path": ".github/workflows/pr-number.yml",
+      "size": 185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Streamlining the release of dune packages to opam",
+    "fork": false,
+    "full_name": "tarides/dune-release",
+    "html_url": "https://github.com/tarides/dune-release",
+    "language": "OCaml",
+    "pushed_at": "2026-03-26T14:14:15Z",
+    "stargazers_count": 120,
+    "topics": [
+      "opam",
+      "release"
+    ],
+    "updated_at": "2026-04-14T07:47:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Changelog check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Changelog check"
+    },
+    {
+      "context_snippet": "PR number update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-number.yml",
+      "term": "PR number update"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Focaml.ci.dev%2Fbadge%2Ftarides%2Fdune-release%2Fmain&logo=ocaml)](https://ocaml.ci.dev/github/tarides/dune-release)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opam"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Focaml.ci.dev%2Fbadge%2Ftarides%2Fdune-release%2Fmain&logo=ocaml)](https://ocaml.ci.dev/github/tarides/dune-release)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "release"
+    }
+  ]
+}

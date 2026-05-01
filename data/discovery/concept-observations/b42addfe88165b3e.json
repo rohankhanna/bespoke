@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LeaderWorkerSet: An API for deploying a group of pods as a unit of replication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Send Unit Test Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Send Unit Test Coverage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30741,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30685,
+      "status": "candidate",
+      "text": "rates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30656,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30344,
+      "status": "candidate",
+      "text": "area"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29882,
+      "status": "candidate",
+      "text": "get"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Send Unit Test Coverage",
+      "sense_id": "send-unit-test-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "send-unit-test-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "send-unit-test-coverage",
+  "observation_id": "b42addfe88165b3e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Send Unit Test Coverage",
+  "source_context_snippet": "Send Unit Test Coverage",
+  "source_file": ".github/workflows/test_coverage.yaml",
+  "source_repo": "kubernetes-sigs/lws",
+  "source_repo_description": "LeaderWorkerSet: An API for deploying a group of pods as a unit of replication"
+}

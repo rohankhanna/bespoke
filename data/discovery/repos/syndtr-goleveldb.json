@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syndtr/goleveldb",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syndtr/goleveldb",
+      "target": "leveldb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:14:40.031173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2333
+    },
+    {
+      "path": "go.mod",
+      "size": 373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LevelDB key/value database in Go.",
+    "fork": false,
+    "full_name": "syndtr/goleveldb",
+    "html_url": "https://github.com/syndtr/goleveldb",
+    "language": "Go",
+    "pushed_at": "2024-05-14T20:40:52Z",
+    "stargazers_count": 6327,
+    "topics": [
+      "database",
+      "go",
+      "leveldb"
+    ],
+    "updated_at": "2026-04-26T14:43:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is an implementation of the [LevelDB key/value database](https://github.com/google/leveldb) in the [Go programming language](https://go.dev).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "This is an implementation of the [LevelDB key/value database](https://github.com/google/leveldb) in the [Go programming language](https://go.dev).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leveldb"
+    }
+  ]
+}

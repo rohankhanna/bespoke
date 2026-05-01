@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/geodesc",
+      "target": "dagnyt/hardnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/geodesc",
+      "target": "hlzz/mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/geodesc",
+      "target": "hpatches/hpatches-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/geodesc",
+      "target": "ahojnnes/local-feature-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lzx551402/geodesc",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lzx551402/geodesc",
+      "target": "eccv-2018",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:26:11.260589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of ECCV'18 paper -  GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints",
+    "fork": false,
+    "full_name": "lzx551402/geodesc",
+    "html_url": "https://github.com/lzx551402/geodesc",
+    "language": "Python",
+    "pushed_at": "2021-06-06T03:51:39Z",
+    "stargazers_count": 193,
+    "topics": [
+      "deep-learning",
+      "eccv-2018"
+    ],
+    "updated_at": "2024-12-24T13:25:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahojnnes/local-feature-evaluation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dagnyt/hardnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hlzz/mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpatches/hpatches-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv-2018"
+    }
+  ]
+}

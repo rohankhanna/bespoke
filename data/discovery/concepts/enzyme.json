@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "enzyme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate-context",
+      "text": "Preact adapter for the Enzyme UI testing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate-context",
+      "text": "This is an adapter to support using the [Enzyme](https://enzymejs.github.io/enzyme/) UI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate",
+      "text": "This is an adapter to support using the [Enzyme](https://enzymejs.github.io/enzyme/) UI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046156,
+      "status": "candidate",
+      "text": "protein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046144,
+      "status": "candidate",
+      "text": "phosphatase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043693,
+      "status": "candidate",
+      "text": "enzymic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043636,
+      "status": "candidate",
+      "text": "enzymatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038707,
+      "status": "candidate",
+      "text": "trandolapril"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "enzyme",
+  "concept_id": "enzyme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/enzyme-adapter-preact-pure"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "enzyme",
+      "sense_id": "enzyme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

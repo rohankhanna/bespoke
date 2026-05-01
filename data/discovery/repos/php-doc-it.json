@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "php/doc-it",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "php/doc-it",
+      "target": "Build Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:09:53.054768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Italian translation of the PHP documentation",
+    "fork": false,
+    "full_name": "php/doc-it",
+    "html_url": "https://github.com/php/doc-it",
+    "language": "HTML",
+    "pushed_at": "2026-03-11T09:11:06Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-03-11T09:11:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Test"
+    }
+  ]
+}

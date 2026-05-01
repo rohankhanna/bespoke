@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "electron-store",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-builder",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
+      "target": "sysadminsmedia/homebox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
+      "target": "electron-store",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
+      "target": "electron-builder",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:40.344575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3348
+    },
+    {
+      "path": "package.json",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Linux Electron desktop wrapper for Homebox",
+    "fork": false,
+    "full_name": "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
+    "html_url": "https://github.com/danielrosehill/Homebox-Desktop-Wrapper-AppImage",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-24T15:37:45Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-01-10T23:41:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sysadminsmedia/homebox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

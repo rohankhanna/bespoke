@@ -55,6 +55,42 @@
       "source_repo": "chaofengc/IQA-PyTorch",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate-context",
+      "text": "PaQ2PiQ in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of IQA papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "status": "candidate-context",
+      "text": "Comparison of IQA models in Perceptual Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "status": "candidate-context",
+      "text": "This repository re-implemented the existing IQA models with PyTorch, including"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "chaofengc/IQA-PyTorch",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/paq2piq",
+      "status": "candidate",
+      "text": "PyTorch implementation of [PaQ2PiQ](https://github.com/baidut/PaQ-2-PiQ)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate",
+      "text": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dingkeyan93/IQA-optimization",
+      "status": "candidate",
+      "text": "This repository re-implemented the existing IQA models with PyTorch, including"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "chaofengc/IQA-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "baidut/paq2piq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dingkeyan93/IQA-optimization"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

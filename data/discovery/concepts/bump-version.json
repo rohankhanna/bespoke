@@ -129,6 +129,18 @@
       "source_repo": "solidjs-community/storybook",
       "status": "candidate-context",
       "text": "Bump Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate-context",
+      "text": "Car Rental Platform with Mobile App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate-context",
+      "text": "bump-version"
     }
   ],
   "candidate_glosses": [
@@ -191,6 +203,12 @@
       "source_repo": "solidjs-community/storybook",
       "status": "candidate",
       "text": "Bump Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate",
+      "text": "bump-version"
     }
   ],
   "candidate_related_terms": [
@@ -408,11 +426,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "aelassas/bookcars"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

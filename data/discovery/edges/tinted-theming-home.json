@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinted-theming/home",
-      "target": "aarowill/base16-alacritty",
+      "target": "afq984/base16-xfce4-terminal",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinted-theming/home",
-      "target": "adre5577/contour-tinted",
+      "target": "agausmann/base16-wofi-colors",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinted-theming/home",
-      "target": "aarowill/base16-gnome-terminal",
+      "target": "atelierbram/base16-prism",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinted-theming/home",
-      "target": "4e554c4c/base16-halloy",
+      "target": "andreyvpng/just-colors",
       "target_type": "repository"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "tinted-theming/home"
 }

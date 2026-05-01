@@ -19,12 +19,30 @@
       "source_repo": "charmbracelet/catwalk",
       "status": "candidate-context",
       "text": "Update Providers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leandrocp/req_embed",
+      "status": "candidate-context",
+      "text": "Req plugin to fetch oEmbed resources and a Phoenix Component to embed rich content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leandrocp/req_embed",
+      "status": "candidate-context",
+      "text": "Update Providers"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "charmbracelet/catwalk",
+      "status": "candidate",
+      "text": "Update Providers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leandrocp/req_embed",
       "status": "candidate",
       "text": "Update Providers"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "charmbracelet/catwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update-providers.yml",
+      "source_repo": "leandrocp/req_embed"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

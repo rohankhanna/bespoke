@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Version Plugin Reference"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Version Plugin Reference"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "agglutination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "allies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "allu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "ally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "annex"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version Plugin Reference",
+      "sense_id": "version-plugin-reference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "version-plugin-reference",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "version-plugin-reference",
+  "observation_id": "ce191fa190fc12bb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Version Plugin Reference",
+  "source_context_snippet": "Version Plugin Reference",
+  "source_file": ".github/workflows/vpr.yml",
+  "source_repo": "elastic/logstash-docs",
+  "source_repo_description": null
+}

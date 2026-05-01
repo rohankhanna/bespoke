@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "github/contributors@9c4c2b60e7a339d2a2ad6cd3274aeb3b5be55be2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mdn/mdn-community",
+      "target": "mdn/bob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mdn/mdn-community",
+      "target": "mdn/content",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mdn/mdn-community",
+      "target": "mdn/markdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mdn/mdn-community",
+      "target": "mdn/translated-content",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "mdn/mdn-community",
+      "target": "github/contributors@9c4c2b60e7a339d2a2ad6cd3274aeb3b5be55be2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "mdn/mdn-community",
+      "target": "Monthly contributor report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdn/mdn-community",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdn/mdn-community",
+      "target": "feedback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdn/mdn-community",
+      "target": "governance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:07:34.802174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8494
+    },
+    {
+      "path": ".github/workflows/contributors.yml",
+      "size": 2849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A place to provide feedback and suggestions for MDN Web Docs",
+    "fork": false,
+    "full_name": "mdn/mdn-community",
+    "html_url": "https://github.com/mdn/mdn-community",
+    "language": null,
+    "pushed_at": "2026-04-28T10:36:43Z",
+    "stargazers_count": 153,
+    "topics": [
+      "community",
+      "feedback",
+      "governance",
+      "mdn"
+    ],
+    "updated_at": "2026-05-01T07:01:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mdn/bob",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mdn/content",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mdn/markdown",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mdn/translated-content",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Monthly contributor report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributors.yml",
+      "term": "Monthly contributor report"
+    },
+    {
+      "context_snippet": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feedback"
+    },
+    {
+      "context_snippet": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "governance"
+    }
+  ]
+}

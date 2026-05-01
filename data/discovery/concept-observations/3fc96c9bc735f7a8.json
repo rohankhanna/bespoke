@@ -84,7 +84,7 @@
   "normalized_form": "auto-label-issues-by-package",
   "observation_id": "3fc96c9bc735f7a8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Auto Label Issues by Package",
   "source_context_snippet": "Auto Label Issues by Package",
   "source_file": ".github/workflows/auto-label-by-package.yml",

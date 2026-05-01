@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "proxyquire",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-readme-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LinusU/node-cachedir",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LinusU/node-cachedir",
+      "target": "proxyquire",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LinusU/node-cachedir",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LinusU/node-cachedir",
+      "target": "ts-readme-generator",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:25:36.348737+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get a directory for your caching needs",
+    "fork": false,
+    "full_name": "LinusU/node-cachedir",
+    "html_url": "https://github.com/LinusU/node-cachedir",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-24T13:21:32Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2023-09-27T16:11:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

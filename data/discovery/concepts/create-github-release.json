@@ -4,7 +4,8 @@
     "Create GitHub Release",
     "Create Github Release",
     "create-github-release",
-    "create github release"
+    "create github release",
+    "Create github release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -359,6 +360,60 @@
       "source_repo": "facebook/pyrefly",
       "status": "candidate-context",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate-context",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "scripts to automate change case management in Salesforce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/code-analyzer",
+      "status": "candidate-context",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/dev-config",
+      "status": "candidate-context",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate-context",
+      "text": "Official C# support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Headless browser for Go for TDD workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Create github release"
     }
   ],
   "candidate_glosses": [
@@ -541,6 +596,42 @@
       "source_repo": "facebook/pyrefly",
       "status": "candidate",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/code-analyzer",
+      "status": "candidate",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/dev-config",
+      "status": "candidate",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/vscode-csharp",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate",
+      "text": "Create github release"
     }
   ],
   "candidate_related_terms": [
@@ -782,11 +873,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/create_release.yml",
       "source_repo": "facebook/pyrefly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "forcedotcom/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "forcedotcom/change-case-management"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "forcedotcom/code-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "forcedotcom/dev-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "dotnet/vscode-csharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "gost-dom/browser"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "tidelift/alignment-action@8d7700fe795fc01179c1f9fa05b72a089873027d",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tidelift-alignment.yml",
+      "source_repo": "Automattic/mongoose"
+    }
+  ]
+}

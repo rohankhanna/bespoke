@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/glue-factory",
+      "target": "cvg/gluestick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/glue-factory",
+      "target": "rpautrat/homography_est",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/glue-factory",
+      "target": "magicleap/superpointpretrainednetwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/glue-factory",
+      "target": "cvlab-epfl/disk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "cvg/glue-factory",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "cvg/glue-factory",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "cvg/glue-factory",
+      "target": "Format and Lint Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "cvg/glue-factory",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "cvg/glue-factory",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/glue-factory",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/glue-factory",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/glue-factory",
+      "target": "iccv2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/glue-factory",
+      "target": "image-matching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:55.577355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15863
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/code-quality.yml",
+      "size": 677
+    },
+    {
+      "path": ".github/workflows/python-tests.yml",
+      "size": 899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Training library for local feature detection and matching",
+    "fork": false,
+    "full_name": "cvg/glue-factory",
+    "html_url": "https://github.com/cvg/glue-factory",
+    "language": "Python",
+    "pushed_at": "2025-11-04T13:50:04Z",
+    "stargazers_count": 1085,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "iccv2023",
+      "image-matching"
+    ],
+    "updated_at": "2026-04-28T01:36:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvg/gluestick",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvlab-epfl/disk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magicleap/superpointpretrainednetwork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rpautrat/homography_est",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Format and Lint Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "term": "Format and Lint Checks"
+    },
+    {
+      "context_snippet": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2023"
+    },
+    {
+      "context_snippet": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matching"
+    }
+  ]
+}

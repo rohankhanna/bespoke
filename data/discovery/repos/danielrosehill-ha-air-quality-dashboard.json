@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/HA-Air-Quality-Dashboard",
+      "target": "guykh/ims-custom-component",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:37.614810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Air quality monitoring dashboard for Home Assistant",
+    "fork": false,
+    "full_name": "danielrosehill/HA-Air-Quality-Dashboard",
+    "html_url": "https://github.com/danielrosehill/HA-Air-Quality-Dashboard",
+    "language": null,
+    "pushed_at": "2025-04-24T03:51:48Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-06T19:35:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guykh/ims-custom-component",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -79,6 +79,42 @@
       "source_repo": "cloudflare/cloudflared",
       "status": "candidate-context",
       "text": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/vite-ssr",
+      "status": "candidate-context",
+      "text": "Use Vite for server side rendering in Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vite-ssr",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/workers-sdk",
+      "status": "candidate-context",
+      "text": "\u26c5\ufe0f Home to Wrangler, the CLI for Cloudflare Workers\u00ae"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/workers-sdk",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Cloudflare Workers SDK</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate-context",
+      "text": "Edge-side rendering and fullstack Vite framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate-context",
+      "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "cloudflare/cloudflared",
       "status": "candidate",
       "text": "Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vite-ssr",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/workers-sdk",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Cloudflare Workers SDK</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate",
+      "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +250,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "cloudflare/cloudflared"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/vite-ssr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/workers-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/vitedge"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

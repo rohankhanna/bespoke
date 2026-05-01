@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "bundle-me",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lasso-unpack",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "opener",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "randomcolor",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "evmar/webtreemap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "bundle-me",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "lasso-unpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "opener",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "randomcolor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "bundle-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "lasso",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "lasso-bundle-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "lasso-marko",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pajaydev/lasso-analyzer",
+      "target": "lasso-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:17:22.464197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1832
+    },
+    {
+      "path": "package.json",
+      "size": 842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " \ud83d\udcca Analyzing bundles created by Lasso js.",
+    "fork": false,
+    "full_name": "pajaydev/lasso-analyzer",
+    "html_url": "https://github.com/pajaydev/lasso-analyzer",
+    "language": "JavaScript",
+    "pushed_at": "2021-05-10T17:06:16Z",
+    "stargazers_count": 4,
+    "topics": [
+      "bundle-analyzer",
+      "lasso",
+      "lasso-bundle-analyzer",
+      "lasso-marko",
+      "lasso-plugin"
+    ],
+    "updated_at": "2023-03-04T05:22:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evmar/webtreemap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-analyzer.svg)](https://badge.fury.io/js/lasso-analyzer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bundle-analyzer"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-analyzer.svg)](https://badge.fury.io/js/lasso-analyzer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lasso"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-analyzer.svg)](https://badge.fury.io/js/lasso-analyzer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lasso-bundle-analyzer"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-analyzer.svg)](https://badge.fury.io/js/lasso-analyzer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lasso-marko"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/lasso-analyzer.svg)](https://badge.fury.io/js/lasso-analyzer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lasso-plugin"
+    }
+  ]
+}

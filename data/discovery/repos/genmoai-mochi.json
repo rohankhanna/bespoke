@@ -5,32 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "genmoai/mochi",
-      "target": "kijai/comfyui-mochiwrapper",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "genmoai/mochi",
-      "target": "logtd/comfyui-mochiedit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "genmoai/mochi",
-      "target": "xdit-project/mochi-xdit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "genmoai/mochi",
       "target": "genmoai/models",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T01:03:24.417367+00:00",
+  "fetched_at": "2026-05-01T09:32:07.549104+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -63,21 +42,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "genmoai/models",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kijai/comfyui-mochiwrapper",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "logtd/comfyui-mochiedit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xdit-project/mochi-xdit",
       "source_file": "README.md"
     }
   ],

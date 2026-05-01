@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "target": "lintaoamons/coolstuffes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "target": "default",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:29.620035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5048
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 669
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create temporary playground files effortlessly. Find them later without worrying about filenames or locations.",
+    "fork": false,
+    "full_name": "LintaoAmons/scratch.nvim",
+    "html_url": "https://github.com/LintaoAmons/scratch.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-09-08T02:11:01Z",
+    "stargazers_count": 273,
+    "topics": [
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-04-14T09:52:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintaoamons/coolstuffes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "default",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "default"
+    },
+    {
+      "context_snippet": "Create temporary playground files effortlessly. Find them later without worrying about filenames or locations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

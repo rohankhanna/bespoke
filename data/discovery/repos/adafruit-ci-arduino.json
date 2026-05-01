@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "features/actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "adafruit/adafruit_bme280_library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "arduino-libraries/servo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "arduino-libraries/ethernet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/ci-arduino",
+      "target": "Github Arduino Library CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:19.295877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5694
+    },
+    {
+      "path": ".github/workflows/githubci.yml",
+      "size": 450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A script that will install all of the common dependencies for testing Arduino library builds using Github Actions",
+    "fork": false,
+    "full_name": "adafruit/ci-arduino",
+    "html_url": "https://github.com/adafruit/ci-arduino",
+    "language": "Python",
+    "pushed_at": "2026-04-15T13:33:26Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-04-02T15:10:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adafruit/adafruit_bme280_library",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arduino-libraries/ethernet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arduino-libraries/servo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "features/actions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Github Arduino Library CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "term": "Github Arduino Library CI"
+    }
+  ]
+}

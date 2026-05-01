@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CLI for document conversion for scientific documents, powered by Mathpix OCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Document conversion for scientific documents."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Document conversion for scientific documents."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "format-converter",
+      "sense_id": "format-converter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "format-converter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "format-converter",
+  "observation_id": "aeb0d9eadeab70b3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "format-converter",
+  "source_context_snippet": "Document conversion for scientific documents.",
+  "source_file": null,
+  "source_repo": "Mathpix/mpx-cli",
+  "source_repo_description": "CLI for document conversion for scientific documents, powered by Mathpix OCR"
+}

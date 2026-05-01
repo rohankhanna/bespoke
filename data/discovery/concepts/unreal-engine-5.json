@@ -19,6 +19,30 @@
       "source_repo": "nfrechette/acl-ue4-plugin",
       "status": "candidate-context",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate-context",
+      "text": "Unreal Engine plugin to work with SVG files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate-context",
+      "text": "A free and open source SVG importer for Unreal Engine 5"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate-context",
+      "text": "An UnrealEngine Plugin for parsing YAML Files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate-context",
+      "text": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "nfrechette/acl-ue4-plugin",
       "status": "candidate",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etodanik/SvgBooga",
+      "status": "candidate",
+      "text": "A free and open source SVG importer for Unreal Engine 5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwindgassen/UnrealYAML",
+      "status": "candidate",
+      "text": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "nfrechette/acl-ue4-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "etodanik/SvgBooga"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jwindgassen/UnrealYAML"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

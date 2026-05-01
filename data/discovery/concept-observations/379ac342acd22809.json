@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Industry leading face manipulation platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FaceFusion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FaceFusion"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940015,
+      "status": "candidate",
+      "text": "deepfaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940014,
+      "status": "candidate",
+      "text": "photofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940013,
+      "status": "candidate",
+      "text": "fakement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940012,
+      "status": "candidate",
+      "text": "fulldive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940011,
+      "status": "candidate",
+      "text": "fakemail"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deepfake",
+      "sense_id": "deepfake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deepfake",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deepfake",
+  "observation_id": "379ac342acd22809",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "deepfake",
+  "source_context_snippet": "FaceFusion",
+  "source_file": null,
+  "source_repo": "facefusion/facefusion",
+  "source_repo_description": "Industry leading face manipulation platform"
+}

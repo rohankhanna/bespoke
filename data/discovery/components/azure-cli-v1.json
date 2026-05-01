@@ -1,7 +1,7 @@
 {
   "component": "azure/CLI@v1",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/infra-ci.yaml",
       "source_repo": "Azure-Samples/agent-openai-java-banking-assistant"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lza-deployment.yml",
+      "source_repo": "Azure/aca-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/contoso-creative-writer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice"
     }
   ]
 }

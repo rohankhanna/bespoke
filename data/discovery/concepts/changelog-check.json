@@ -122,6 +122,54 @@
       "source_repo": "rojo-rbx/rojo",
       "status": "candidate-context",
       "text": "Changelog Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "Context sensitive completion for OCaml in Vim and Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tarides/dune-release",
+      "status": "candidate-context",
+      "text": "Streamlining the release of dune packages to opam"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarides/dune-release",
+      "status": "candidate-context",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/ocaml-lsp",
+      "status": "candidate-context",
+      "text": "OCaml Language Server Protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-lsp",
+      "status": "candidate-context",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate-context",
+      "text": "Changelog check"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +238,30 @@
       "source_repo": "rojo-rbx/rojo",
       "status": "candidate",
       "text": "Changelog Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarides/dune-release",
+      "status": "candidate",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml-lsp",
+      "status": "candidate",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate",
+      "text": "Changelog check"
     }
   ],
   "candidate_related_terms": [
@@ -299,11 +371,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "rojo-rbx/rojo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/changelog.yml.x",
+      "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "ocaml/merlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "tarides/dune-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "ocaml/ocaml-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "ocamllabs/vscode-ocaml-platform"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

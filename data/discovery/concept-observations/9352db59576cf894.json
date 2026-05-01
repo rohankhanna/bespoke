@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ruby enVironment Manager (RVM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mruby",
+      "sense_id": "mruby#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mruby",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mruby",
+  "observation_id": "9352db59576cf894",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "mruby",
+  "source_context_snippet": "[![Tests](https://github.com/rvm/rvm/actions/workflows/specs.yml/badge.svg?branch=master)](https://github.com/rvm/rvm/actions/workflows/specs.yml)",
+  "source_file": null,
+  "source_repo": "rvm/rvm",
+  "source_repo_description": "Ruby enVironment Manager (RVM)"
+}

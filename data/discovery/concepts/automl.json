@@ -115,6 +115,30 @@
       "source_repo": "MilesCranmer/PySR",
       "status": "candidate-context",
       "text": "[//]: # (Logo:)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "Distributed High-Performance Symbolic Regression in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "Streamlining reinforcement learning with RLOps. State-of-the-art RL algorithms and tools, with 10x faster training through evolutionary hyperparameter optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "MilesCranmer/PySR",
       "status": "candidate",
       "text": "[//]: # (Logo:)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +268,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "MilesCranmer/PySR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgileRL/AgileRL"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

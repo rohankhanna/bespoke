@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "solver"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coin-or/pulp",
+      "status": "candidate-context",
+      "text": "A python Linear Programming API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/pulp",
+      "status": "candidate-context",
+      "text": "pulp"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/pulp",
+      "status": "candidate",
+      "text": "pulp"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018780,
+      "status": "candidate",
+      "text": "problemsolver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018779,
+      "status": "candidate",
+      "text": "resolver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018778,
+      "status": "candidate",
+      "text": "solutionist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018777,
+      "status": "candidate",
+      "text": "resolutionist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018776,
+      "status": "candidate",
+      "text": "simplificator"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "solver",
+  "concept_id": "solver",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "coin-or/pulp"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "solver",
+      "sense_id": "solver#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

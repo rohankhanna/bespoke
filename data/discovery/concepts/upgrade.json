@@ -38,6 +38,18 @@
       "source_repo": "filecoin-project/github-mgmt",
       "status": "candidate-context",
       "text": "Upgrade"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "status": "candidate-context",
+      "text": "An adaptation of the JSR-310 backport for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "status": "candidate-context",
+      "text": "upgrade"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +70,12 @@
       "source_repo": "filecoin-project/github-mgmt",
       "status": "candidate",
       "text": "Upgrade"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JakeWharton/ThreeTenABP",
+      "status": "candidate",
+      "text": "upgrade"
     }
   ],
   "candidate_related_terms": [
@@ -167,11 +185,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/upgrade.yml",
       "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/upgrade.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/upgrade.yaml",
+      "source_repo": "JakeWharton/ThreeTenABP"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

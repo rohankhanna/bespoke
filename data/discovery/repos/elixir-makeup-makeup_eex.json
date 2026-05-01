@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-elixir@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_eex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-makeup/makeup_eex",
+      "target": "erlef/setup-elixir@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:23:48.190928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 755
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(H)EEx lexer for Makeup",
+    "fork": false,
+    "full_name": "elixir-makeup/makeup_eex",
+    "html_url": "https://github.com/elixir-makeup/makeup_eex",
+    "language": "Elixir",
+    "pushed_at": "2025-02-09T16:03:35Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-10-24T21:49:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:23:25.671963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 395
+    },
+    {
+      "path": "requirements.txt",
+      "size": 161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wrapper node to use Geowizard in ComfyUI",
+    "fork": false,
+    "full_name": "kijai/ComfyUI-Geowizard",
+    "html_url": "https://github.com/kijai/ComfyUI-Geowizard",
+    "language": "Python",
+    "pushed_at": "2024-12-16T19:33:54Z",
+    "stargazers_count": 127,
+    "topics": [],
+    "updated_at": "2026-04-04T17:37:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

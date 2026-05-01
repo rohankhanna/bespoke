@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official code of the paper \"Align Deep Features for Oriented Object Detection\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](demo/network.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](demo/network.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aerial-image-detection",
+      "sense_id": "aerial-image-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aerial-image-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aerial-image-detection",
+  "observation_id": "024eaff6070110d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "aerial-image-detection",
+  "source_context_snippet": "![](demo/network.png)",
+  "source_file": null,
+  "source_repo": "csuhan/s2anet",
+  "source_repo_description": "Official code of the paper \"Align Deep Features for Oriented Object Detection\""
+}

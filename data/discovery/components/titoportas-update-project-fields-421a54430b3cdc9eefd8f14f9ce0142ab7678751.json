@@ -1,0 +1,12 @@
+{
+  "component": "titoportas/update-project-fields@421a54430b3cdc9eefd8f14f9ce0142ab7678751",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-core-team.yml",
+      "source_repo": "QwikDev/qwik"
+    }
+  ]
+}

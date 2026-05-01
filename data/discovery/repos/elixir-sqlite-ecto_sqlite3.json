@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-sqlite/ecto_sqlite3",
+      "target": "elixir-sqlite/exqlite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-sqlite/ecto_sqlite3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-sqlite/ecto_sqlite3",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-sqlite/ecto_sqlite3",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:19:18.500636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3234
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " An Ecto SQLite3 adapter.",
+    "fork": false,
+    "full_name": "elixir-sqlite/ecto_sqlite3",
+    "html_url": "https://github.com/elixir-sqlite/ecto_sqlite3",
+    "language": "Elixir",
+    "pushed_at": "2026-03-27T21:48:38Z",
+    "stargazers_count": 335,
+    "topics": [],
+    "updated_at": "2026-04-26T12:09:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-sqlite/exqlite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

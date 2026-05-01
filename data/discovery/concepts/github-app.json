@@ -19,6 +19,18 @@
       "source_repo": "integrations/slack",
       "status": "candidate-context",
       "text": "The GitHub integration for Slack gives you and your teams full"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcoapp/app",
+      "status": "candidate-context",
+      "text": "GitHub App that enforces the Developer Certificate of Origin (DCO) on Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcoapp/app",
+      "status": "candidate-context",
+      "text": "a GitHub Integration built with [probot](https://github.com/probot/probot) that enforces the [Developer Certificate of Origin](https://developercertificate.org/) (DCO) on Pull Requests. It requires all commit messages to contain the `Signed-off-by` line with an email address tha\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "integrations/slack",
       "status": "candidate",
       "text": "The GitHub integration for Slack gives you and your teams full"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcoapp/app",
+      "status": "candidate",
+      "text": "a GitHub Integration built with [probot](https://github.com/probot/probot) that enforces the [Developer Certificate of Origin](https://developercertificate.org/) (DCO) on Pull Requests. It requires all commit messages to contain the `Signed-off-by` line with an email address tha\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "integrations/slack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dcoapp/app"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

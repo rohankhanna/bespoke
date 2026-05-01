@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:34:01.874897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for our work on micro-budget training of large-scale diffusion models.",
+    "fork": false,
+    "full_name": "SonyResearch/micro_diffusion",
+    "html_url": "https://github.com/SonyResearch/micro_diffusion",
+    "language": "Python",
+    "pushed_at": "2025-01-12T20:19:19Z",
+    "stargazers_count": 1570,
+    "topics": [],
+    "updated_at": "2026-04-30T21:48:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

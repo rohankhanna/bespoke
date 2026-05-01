@@ -19,13 +19,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Polly-Contrib/Simmy",
-      "target": "vany0114/chaos-injection-using-simmy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Polly-Contrib/Simmy",
       "target": "bjartnes/bounded-disturbances",
       "target_type": "repository"
     },
@@ -100,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:07:55.950794+00:00",
+  "fetched_at": "2026-05-01T10:24:39.974208+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -146,11 +139,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "polly-contrib/polly.contrib.simmydemo_webapi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vany0114/chaos-injection-using-simmy",
       "source_file": "README.md"
     }
   ],

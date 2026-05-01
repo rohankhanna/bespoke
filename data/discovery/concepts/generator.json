@@ -271,6 +271,30 @@
       "source_repo": "hey-api/openapi-ts",
       "status": "candidate-context",
       "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate-context",
+      "text": "\ud83e\ude84 Generate Kysely types directly from your Prisma schema!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate-context",
+      "text": "![Prisma Kysely](assets/logo-hero.png)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "hey-api/openapi-ts",
       "status": "candidate",
       "text": "openapi-ts-monorepo \u2014 Public @hey-api monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/csstree",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"111\" height=\"111\" alt=\"CSSTree logo\" src=\"assets/csstree-logo-rounded.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valtyr/prisma-kysely",
+      "status": "candidate",
+      "text": "![Prisma Kysely](assets/logo-hero.png)"
     }
   ],
   "candidate_related_terms": [
@@ -631,11 +667,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hey-api/openapi-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "csstree/csstree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "valtyr/prisma-kysely"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

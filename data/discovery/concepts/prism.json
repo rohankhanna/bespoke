@@ -1,0 +1,204 @@
+{
+  "aliases": [
+    "prism"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate-context",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Xamarin Forms, and Uno / Win UI Applications.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate-context",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "Prism Avalonia UI framework. Super charge your cross-platform apps with IoC, navigation, and more! Sponsored by Suess Labs. Prism is based on Microsoft patterns and practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "> ## Announcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate-context",
+      "text": "Home of the Prism Docs Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate-context",
+      "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "status": "candidate-context",
+      "text": "Samples that demonstrate how to use various Prism features with Xamarin.Forms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "status": "candidate-context",
+      "text": "Samples that demonstrate how to use various Prism features with Xamarin.Forms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "status": "candidate-context",
+      "text": "Samples that demonstrate how to use various Prism features with WPF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "status": "candidate-context",
+      "text": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism",
+      "status": "candidate",
+      "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate",
+      "text": "> ## Announcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Documentation",
+      "status": "candidate",
+      "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "status": "candidate",
+      "text": "Samples that demonstrate how to use various Prism features with Xamarin.Forms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "status": "candidate",
+      "text": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939017,
+      "status": "candidate",
+      "text": "optical prism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939016,
+      "status": "candidate",
+      "text": "angle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924791,
+      "status": "candidate",
+      "text": "prismatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29912110,
+      "status": "candidate",
+      "text": "lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910203,
+      "status": "candidate",
+      "text": "light"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "optical prism"
+    }
+  ],
+  "canonical_name": "prism",
+  "concept_id": "prism",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Forms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prism",
+      "sense_id": "prism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

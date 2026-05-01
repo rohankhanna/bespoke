@@ -118,6 +118,30 @@
       "source_repo": "ninenines/gun",
       "status": "candidate-context",
       "text": "Check Gun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bluehouse-Technology/grpc",
+      "status": "candidate-context",
+      "text": "Erlang library for GRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bluehouse-Technology/grpc",
+      "status": "candidate-context",
+      "text": "An implementation of a gRPC server in Erlang."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate-context",
+      "text": "A Google Protobuf implementation with enif (Erlang nif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml/badge.svg)](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "ninenines/gun",
       "status": "candidate",
       "text": "Check Gun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bluehouse-Technology/grpc",
+      "status": "candidate",
+      "text": "An implementation of a gRPC server in Erlang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml/badge.svg)](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +307,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ninenines/gun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Bluehouse-Technology/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jinganix/enif_protobuf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:29:01.199437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3636
+    },
+    {
+      "path": "requirements.txt",
+      "size": 148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official code for BEVStereo",
+    "fork": false,
+    "full_name": "Megvii-BaseDetection/BEVStereo",
+    "html_url": "https://github.com/Megvii-BaseDetection/BEVStereo",
+    "language": "Python",
+    "pushed_at": "2022-09-22T02:53:01Z",
+    "stargazers_count": 281,
+    "topics": [],
+    "updated_at": "2026-04-22T17:35:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

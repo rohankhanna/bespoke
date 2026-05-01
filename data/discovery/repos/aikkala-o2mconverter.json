@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aikkala/O2MConverter",
+      "target": "opensim-org/opensim-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:35:58.171115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenSim to MuJoCo XML converter",
+    "fork": false,
+    "full_name": "aikkala/O2MConverter",
+    "html_url": "https://github.com/aikkala/O2MConverter",
+    "language": "Python",
+    "pushed_at": "2023-08-10T17:47:16Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-17T13:49:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opensim-org/opensim-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

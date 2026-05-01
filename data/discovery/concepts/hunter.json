@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "hunter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qdrvm/hunter-binary-cache",
+      "status": "candidate-context",
+      "text": "This repository is used to store hunter binary cache for Soramitsu Repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrvm/hunter-binary-cache",
+      "status": "candidate-context",
+      "text": "This repository is used to store hunter binary cache for Soramitsu Repositories."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrvm/hunter-binary-cache",
+      "status": "candidate",
+      "text": "This repository is used to store hunter binary cache for Soramitsu Repositories."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042510,
+      "status": "candidate",
+      "text": "huntsman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042862,
+      "status": "candidate",
+      "text": "hunting watch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042861,
+      "status": "candidate",
+      "text": "hunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042843,
+      "status": "candidate",
+      "text": "hunting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021377,
+      "status": "candidate",
+      "text": "harvester"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1013,
+      "status": "candidate",
+      "text": "hunting watch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "huntsman"
+    }
+  ],
+  "canonical_name": "hunter",
+  "concept_id": "hunter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "qdrvm/hunter-binary-cache"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hunter",
+      "sense_id": "hunter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

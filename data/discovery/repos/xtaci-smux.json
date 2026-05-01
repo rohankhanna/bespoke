@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtaci/smux",
+      "target": "xtaci/kcptun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtaci/smux",
+      "target": "hashicorp/yamux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/smux",
+      "target": "stream-multiplexing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:54.403895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6093
+    },
+    {
+      "path": "go.mod",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A stream multiplexing library for Golang with minimal memory usage.",
+    "fork": false,
+    "full_name": "xtaci/smux",
+    "html_url": "https://github.com/xtaci/smux",
+    "language": "Go",
+    "pushed_at": "2026-03-13T09:50:01Z",
+    "stargazers_count": 1575,
+    "topics": [
+      "stream-multiplexing"
+    ],
+    "updated_at": "2026-05-01T01:08:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/yamux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xtaci/kcptun",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"assets/smux.png\" alt=\"smux\" height=\"35px\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-multiplexing"
+    }
+  ]
+}

@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PaddlePaddle/PaddleSpeech",
-      "target": "745165806/paddlespeechtask",
+      "target": "gitycc/g2pw",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PaddlePaddle/PaddleSpeech",
-      "target": "chenkui164/fastasr",
+      "target": "jerryuhoo/vtubertalk",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PaddlePaddle/PaddleSpeech",
-      "target": "escaticzheng/ps3.9wheel-install",
+      "target": "apps/dependabot",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PaddlePaddle/PaddleSpeech",
-      "target": "chinobing/fastapi-paddlespeech-audio-to-text",
+      "target": "heyudage/voicetyping",
       "target_type": "repository"
     },
     {
@@ -148,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "PaddlePaddle/PaddleSpeech"
 }

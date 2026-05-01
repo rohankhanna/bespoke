@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "princeton-vl/lietorch",
+      "target": "strasdat/sophus",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:23:24.935039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4218
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "princeton-vl/lietorch",
+    "html_url": "https://github.com/princeton-vl/lietorch",
+    "language": "Cuda",
+    "pushed_at": "2025-05-10T03:09:41Z",
+    "stargazers_count": 831,
+    "topics": [],
+    "updated_at": "2026-04-26T09:03:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strasdat/sophus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -691,6 +691,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close_stale.yml",
       "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Automattic/mongoose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/git-hygiene.yml",
+      "source_repo": "aws/aws-sdk-pandas"
     }
   ],
   "term": "Close stale issues"

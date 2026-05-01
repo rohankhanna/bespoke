@@ -769,6 +769,42 @@
       "source_repo": "dunglas/mercure",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate-context",
+      "text": "Archived: GitOps config repo for an Apollo GraphQL federated graph with a supergraph router and subgraph services deployed to Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate-context",
+      "text": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate-context",
+      "text": "\ud83c\udfae  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "status": "candidate-context",
+      "text": "Falco GraphQL Sample \ud83d\udc23\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "status": "candidate-context",
+      "text": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org)."
     }
   ],
   "candidate_glosses": [
@@ -1155,6 +1191,24 @@
       "source_repo": "dunglas/mercure",
       "status": "candidate",
       "text": "<h1 align=\"center\"><a href=\"https://mercure.rocks\"><img src=\"public/mercure.svg\" alt=\"Mercure: Real-time Made Easy\" title=\"Live Updates Made Easy\"></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
+      "status": "candidate",
+      "text": "**The code in this repository is experimental and has been provided for reference purposes only. It is not actively maintained and has been archived.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/falco_graphql_sample",
+      "status": "candidate",
+      "text": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org)."
     }
   ],
   "candidate_related_terms": [
@@ -1792,11 +1846,71 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "canduma/canduma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "canduma/canduma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/falco_graphql_sample"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

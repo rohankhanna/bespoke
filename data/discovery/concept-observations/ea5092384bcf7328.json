@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Helper script for apachebench load testing tool to automatically create tsv and csv results using gnuplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Helper scripts for apachebench to automate the plotting of test results."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Helper scripts for apachebench to automate the plotting of test results."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stress-testing",
+      "sense_id": "stress-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stress-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stress-testing",
+  "observation_id": "ea5092384bcf7328",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "stress-testing",
+  "source_context_snippet": "Helper scripts for apachebench to automate the plotting of test results.",
+  "source_file": null,
+  "source_repo": "juanluisbaptiste/apachebench-graphs",
+  "source_repo_description": "Helper script for apachebench load testing tool to automatically create tsv and csv results using gnuplot"
+}

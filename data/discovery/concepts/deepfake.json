@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "deepfake"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facefusion/facefusion",
+      "status": "candidate-context",
+      "text": "Industry leading face manipulation platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facefusion/facefusion",
+      "status": "candidate-context",
+      "text": "FaceFusion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facefusion/facefusion",
+      "status": "candidate",
+      "text": "FaceFusion"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940015,
+      "status": "candidate",
+      "text": "deepfaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940014,
+      "status": "candidate",
+      "text": "photofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940013,
+      "status": "candidate",
+      "text": "fakement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940012,
+      "status": "candidate",
+      "text": "fulldive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19940011,
+      "status": "candidate",
+      "text": "fakemail"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "deepfake",
+  "concept_id": "deepfake",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "facefusion/facefusion"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deepfake",
+      "sense_id": "deepfake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

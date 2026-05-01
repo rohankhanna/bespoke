@@ -19,12 +19,30 @@
       "source_repo": "abetlen/llama-cpp-python",
       "status": "candidate-context",
       "text": "Publish to TestPyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omry/omegaconf",
+      "status": "candidate-context",
+      "text": "Flexible Python configuration system. The last one you will ever need."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omry/omegaconf",
+      "status": "candidate-context",
+      "text": "Publish to TestPyPI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "abetlen/llama-cpp-python",
+      "status": "candidate",
+      "text": "Publish to TestPyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omry/omegaconf",
       "status": "candidate",
       "text": "Publish to TestPyPI"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/publish-to-test.yaml",
       "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish_test.yml",
+      "source_repo": "omry/omegaconf"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

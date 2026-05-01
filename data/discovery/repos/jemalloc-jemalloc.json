@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_formatting.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd-ci.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_formatting.yaml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_formatting.yaml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "Check Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "FreeBSD CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "macOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "dsaltares/fetch-gh-release-asset@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "Static Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "jemalloc/jemalloc",
+      "target": "Windows CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:16:49.958299+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/check_formatting.yaml",
+      "size": 271
+    },
+    {
+      "path": ".github/workflows/freebsd-ci.yml",
+      "size": 1698
+    },
+    {
+      "path": ".github/workflows/linux-ci.yml",
+      "size": 25297
+    },
+    {
+      "path": ".github/workflows/macos-ci.yml",
+      "size": 7315
+    },
+    {
+      "path": ".github/workflows/static_analysis.yaml",
+      "size": 2651
+    },
+    {
+      "path": ".github/workflows/windows-ci.yml",
+      "size": 4241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": null,
+    "fork": false,
+    "full_name": "jemalloc/jemalloc",
+    "html_url": "https://github.com/jemalloc/jemalloc",
+    "language": "C",
+    "pushed_at": "2026-04-30T22:07:35Z",
+    "stargazers_count": 10843,
+    "topics": [],
+    "updated_at": "2026-05-01T08:47:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Check Formatting'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_formatting.yaml",
+      "term": "Check Formatting"
+    },
+    {
+      "context_snippet": "FreeBSD CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd-ci.yml",
+      "term": "FreeBSD CI"
+    },
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "macOS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "macOS CI"
+    },
+    {
+      "context_snippet": "'Static Analysis'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "term": "Static Analysis"
+    },
+    {
+      "context_snippet": "Windows CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "term": "Windows CI"
+    }
+  ]
+}

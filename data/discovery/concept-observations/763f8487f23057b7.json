@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools for handling multimodal data in machine learning projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "black"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "black"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963793,
+      "status": "candidate",
+      "text": "pitch-black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963629,
+      "status": "candidate",
+      "text": "pitch-dark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955589,
+      "status": "candidate",
+      "text": "bleak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954103,
+      "status": "candidate",
+      "text": "calamitous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953592,
+      "status": "candidate",
+      "text": "disastrous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "black",
+      "sense_id": "black#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72045,
+      "status": "candidate",
+      "text": "mordant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 69042,
+      "status": "candidate",
+      "text": "grim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64040,
+      "status": "candidate",
+      "text": "bleak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47045,
+      "status": "candidate",
+      "text": "evil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46046,
+      "status": "candidate",
+      "text": "wicked"
+    }
+  ],
+  "concept_id": "black",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "black",
+  "observation_id": "763f8487f23057b7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "black",
+  "source_context_snippet": "black",
+  "source_file": ".github/workflows/black.yml",
+  "source_repo": "lhotse-speech/lhotse",
+  "source_repo_description": "Tools for handling multimodal data in machine learning projects."
+}

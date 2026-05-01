@@ -1,12 +1,22 @@
 {
   "component": "elastic/oblt-actions/updatecli/run@v1",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/updatecli-compose.yml",
       "source_repo": "elastic/elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-java-version.yml",
+      "source_repo": "elastic/logstash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-logstash.yml",
+      "source_repo": "elastic/logstash"
     }
   ]
 }

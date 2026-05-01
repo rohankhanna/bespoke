@@ -115,14 +115,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "quickwit-oss/tantivy",
-      "target": "quickwit-oss/tantivy-cli",
+      "target": "rustmailer/bichon",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "quickwit-oss/tantivy",
-      "target": "quickwit-oss/tantivy-py",
+      "target": "fulmicoton-dd/datasketches-rust",
       "target_type": "repository"
     },
     {
@@ -273,7 +273,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:58:45.188495+00:00",
+  "fetched_at": "2026-05-01T10:13:55.830941+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -309,13 +309,13 @@
     "full_name": "quickwit-oss/tantivy",
     "html_url": "https://github.com/quickwit-oss/tantivy",
     "language": "Rust",
-    "pushed_at": "2026-04-29T20:04:40Z",
-    "stargazers_count": 15108,
+    "pushed_at": "2026-04-30T20:04:22Z",
+    "stargazers_count": 15113,
     "topics": [
       "rust",
       "search-engine"
     ],
-    "updated_at": "2026-04-30T15:54:03Z"
+    "updated_at": "2026-05-01T08:39:45Z"
   },
   "repo_links": [
     {
@@ -330,13 +330,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "quickwit-oss/tantivy-cli",
+      "full_name": "rustmailer/bichon",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "quickwit-oss/tantivy-py",
-      "source_file": "README.md"
+      "full_name": "fulmicoton-dd/datasketches-rust",
+      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

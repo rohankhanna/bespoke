@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -287,6 +287,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-docs.yml",
       "source_repo": "insitro/redun"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate_document.yml",
+      "source_repo": "VOICEVOX/voicevox_core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "maciejhirsz/logos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "zalo/mujoco_wasm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "llnl/Adiak"
     }
   ]
 }

@@ -69,6 +69,18 @@
       "source_repo": "sigstore/sigstore-python",
       "status": "candidate-context",
       "text": "Conformance Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "Async runtime for Rust where correctness is structural: region-owned tasks, cancel-correct protocols, capability-gated effects, and deterministic replay testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "Conformance Tests"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sigstore/sigstore-python",
+      "status": "candidate",
+      "text": "Conformance Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
       "status": "candidate",
       "text": "Conformance Tests"
     }
@@ -174,11 +192,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/conformance.yml",
       "source_repo": "sigstore/sigstore-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "Dicklesworthstone/asupersync"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -25,6 +25,18 @@
       "source_repo": "anthropics/anthropic-sdk-ruby",
       "status": "candidate-context",
       "text": "Publish Gem"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Publish Gem"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +49,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "anthropics/anthropic-sdk-ruby",
+      "status": "candidate",
+      "text": "Publish Gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
       "status": "candidate",
       "text": "Publish Gem"
     }
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/publish-gem.yml",
       "source_repo": "anthropics/anthropic-sdk-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/publish_gem.yml",
+      "source_repo": "collectiveidea/audited"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

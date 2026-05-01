@@ -37,6 +37,18 @@
       "source_repo": "klowrey/MuJoCo.jl",
       "status": "candidate-context",
       "text": "Register Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/Bibliography.jl",
+      "status": "candidate-context",
+      "text": "General bibliography manager in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/Bibliography.jl",
+      "status": "candidate-context",
+      "text": "Register Package"
     }
   ],
   "candidate_glosses": [
@@ -55,6 +67,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "klowrey/MuJoCo.jl",
+      "status": "candidate",
+      "text": "Register Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/Bibliography.jl",
       "status": "candidate",
       "text": "Register Package"
     }
@@ -118,11 +136,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/register.yml",
       "source_repo": "klowrey/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/register.yml",
+      "source_repo": "Humans-of-Julia/Bibliography.jl"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

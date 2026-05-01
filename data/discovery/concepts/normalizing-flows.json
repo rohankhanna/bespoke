@@ -13,6 +13,18 @@
       "source_repo": "danielward27/flowjax",
       "status": "candidate-context",
       "text": "![FlowJAX](/docs/_static/logo_light.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "status": "candidate-context",
+      "text": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "status": "candidate-context",
+      "text": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "danielward27/flowjax",
       "status": "candidate",
       "text": "![FlowJAX](/docs/_static/logo_light.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kamenbliznashki/normalizing_flows",
+      "status": "candidate",
+      "text": "Pytorch implementations of density estimation algorithms: BNAF, Glow, MAF, RealNVP, planar flows"
     }
   ],
   "candidate_related_terms": [],
@@ -34,11 +52,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "danielward27/flowjax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kamenbliznashki/normalizing_flows"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

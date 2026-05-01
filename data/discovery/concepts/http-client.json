@@ -307,6 +307,18 @@
       "source_repo": "sindresorhus/ky",
       "status": "candidate-context",
       "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate-context",
+      "text": "Simple, high-performance event-driven HTTP client+server for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate-context",
+      "text": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "sindresorhus/ky",
       "status": "candidate",
       "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "http-kit/http-kit",
+      "status": "candidate",
+      "text": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>"
     }
   ],
   "candidate_related_terms": [],
@@ -634,11 +652,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/ky"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "http-kit/http-kit"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

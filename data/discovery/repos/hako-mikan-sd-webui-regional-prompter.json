@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hako-mikan/sd-webui-regional-prompter",
+      "target": "hako-mikan/sd-webui-lora-block-weight",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:17.236066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "set prompt to divided region",
+    "fork": false,
+    "full_name": "hako-mikan/sd-webui-regional-prompter",
+    "html_url": "https://github.com/hako-mikan/sd-webui-regional-prompter",
+    "language": "Python",
+    "pushed_at": "2025-11-28T14:29:01Z",
+    "stargazers_count": 1805,
+    "topics": [],
+    "updated_at": "2026-04-26T06:55:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hako-mikan/sd-webui-lora-block-weight",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

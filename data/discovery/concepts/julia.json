@@ -385,6 +385,78 @@
       "source_repo": "JuliaPackaging/Yggdrasil",
       "status": "candidate-context",
       "text": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "Distributed High-Performance Symbolic Regression in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaRegistries/Registrator.jl",
+      "status": "candidate-context",
+      "text": "Julia package registration bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/Registrator.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/JuliaRegistries/Registrator.jl.svg?branch=master)](https://travis-ci.com/JuliaRegistries/Registrator.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/BumpStdlibs.jl",
+      "status": "candidate-context",
+      "text": "Update the hashes and checksums of all Julia stdlibs in just four clicks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/BumpStdlibs.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLang.github.io/BumpStdlibs.jl/stable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "A code formatter for Julia with rules set in stone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate-context",
+      "text": "*A code formatter with rules set in stone.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate-context",
+      "text": "Scientific reports/literate programming for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/JunoLab/Weave.jl/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings to the FFTW library for fast Fourier transforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -579,6 +651,42 @@
       "source_repo": "JuliaPackaging/Yggdrasil",
       "status": "candidate",
       "text": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/Registrator.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/JuliaRegistries/Registrator.jl.svg?branch=master)](https://travis-ci.com/JuliaRegistries/Registrator.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/BumpStdlibs.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLang.github.io/BumpStdlibs.jl/stable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fredrikekre/Runic.jl",
+      "status": "candidate",
+      "text": "*A code formatter with rules set in stone.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunoLab/Weave.jl",
+      "status": "candidate",
+      "text": "![CI](https://github.com/JunoLab/Weave.jl/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FFTW.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -832,11 +940,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "JuliaPackaging/Yggdrasil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JuliaRegistries/Registrator.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/BumpStdlibs.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fredrikekre/Runic.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JunoLab/Weave.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JuliaMath/FFTW.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

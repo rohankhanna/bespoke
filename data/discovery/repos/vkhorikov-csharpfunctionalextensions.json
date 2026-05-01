@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "nitrodevs/csharpfunctionalextensions.fluentassertions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "co-it/csharpfunctionalextensions.httpresults",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "almaraubel/csharpfunctionalextensions.analyzers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "razenpok/csharpfunctionalextensions.unitask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "entity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "maybe-monad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "result",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vkhorikov/CSharpFunctionalExtensions",
+      "target": "value-object",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:25:00.267929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27714
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Functional extensions for C#",
+    "fork": false,
+    "full_name": "vkhorikov/CSharpFunctionalExtensions",
+    "html_url": "https://github.com/vkhorikov/CSharpFunctionalExtensions",
+    "language": "C#",
+    "pushed_at": "2026-03-02T15:22:16Z",
+    "stargazers_count": 2797,
+    "topics": [
+      "csharp",
+      "entity",
+      "functional-programming",
+      "maybe-monad",
+      "result",
+      "value-object"
+    ],
+    "updated_at": "2026-04-29T10:08:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "almaraubel/csharpfunctionalextensions.analyzers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "co-it/csharpfunctionalextensions.httpresults",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nitrodevs/csharpfunctionalextensions.fluentassertions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "razenpok/csharpfunctionalextensions.unitask",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ufeff# Functional Extensions for C&#35;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "\ufeff# Functional Extensions for C&#35;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "entity"
+    },
+    {
+      "context_snippet": "\ufeff# Functional Extensions for C&#35;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "\ufeff# Functional Extensions for C&#35;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maybe-monad"
+    },
+    {
+      "context_snippet": "\ufeff# Functional Extensions for C&#35;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "result"
+    },
+    {
+      "context_snippet": "\ufeff# Functional Extensions for C&#35;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "value-object"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "roots/discourse-topic-github-release-action@557d74ea05b6cc0c47f555c1d5d28a89d904005b",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/announce-lts-rc.yml",
+      "source_repo": "jenkinsci/jenkins"
+    }
+  ]
+}

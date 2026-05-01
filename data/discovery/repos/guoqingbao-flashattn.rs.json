@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:27:42.374130+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Flash Attention V2/V3 Binding for Rust",
+    "fork": false,
+    "full_name": "guoqingbao/flashattn.rs",
+    "html_url": "https://github.com/guoqingbao/flashattn.rs",
+    "language": "C++",
+    "pushed_at": "2026-03-20T11:10:16Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-17T14:22:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

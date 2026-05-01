@@ -1431,6 +1431,294 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate-context",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate-context",
+      "text": "A collection of awesome things regarding React ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate-context",
+      "text": "A collection of awesome things regarding the React ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Framework-agnostic devtools panel for handling TanStack libraries devtools and your custom devtool plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/form",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Headless, performant, and type-safe form state management for TS/JS, React, Vue, Angular, Solid, and Lit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/form",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate-context",
+      "text": "A curated list of awesome styled-components resources \ud83d\udc85 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate-context",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muhajirdev/monad-ui",
+      "status": "candidate-context",
+      "text": "Utility First CSS-in-JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhajirdev/monad-ui",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD014 MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "priceline/design-system",
+      "status": "candidate-context",
+      "text": "Priceline.com Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priceline/design-system",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/priceline/design-system/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate-context",
+      "text": "React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate-context",
+      "text": "> React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate-context",
+      "text": "A desktop application for managing Docker database containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "A dynamic windowed scrolling table component for react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "![HighTable](hightable.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate-context",
+      "text": "\ud83e\udd49 useful helpers for react-three-fiber"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate-context",
+      "text": "[![Storybook](https://img.shields.io/static/v1?message=Storybook&style=flat&colorA=000000&colorB=000000&label=&logo=storybook&logoColor=ffffff)](https://drei.pmnd.rs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/react-three-fiber",
+      "status": "candidate-context",
+      "text": "\ud83c\udde8\ud83c\udded A React renderer for Three.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/react-three-fiber",
+      "status": "candidate-context",
+      "text": "react-three-fiber--root"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "\ud83d\udc3b Bear necessities for state management in React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "Examples for using Connect with various TypeScript web frameworks and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "examples-es"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comcast/react-data-grid",
+      "status": "candidate-context",
+      "text": "Feature-rich and customizable data grid React component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comcast/react-data-grid",
+      "status": "candidate-context",
+      "text": "[![npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate-context",
+      "text": "Car Rental Platform with Mobile App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/aelassas/bookcars/actions/workflows/build.yml/badge.svg)](https://github.com/aelassas/bookcars/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate-context",
+      "text": "Scan for React performance issues and eliminate slow renders in your app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate-context",
+      "text": "React Scan automatically detects performance issues in your React app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/visx",
+      "status": "candidate-context",
+      "text": "\ud83d\udc2f visx | visualization components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/visx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate-context",
+      "text": "A desktop application that allows users to locally test and debug chat bots built with the Bot Framework SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate-context",
+      "text": "**Bot Framework Emulator being retired in favor of Agents Playground**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/reactesse-ssr-template",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Opinionated React + Vite Starter Template with SSR in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/reactesse-ssr-template",
+      "status": "candidate-context",
+      "text": "> React + Vite + SSR template based on [@antfu](https://github.com/antfu)'s [Vitesse](https://github.com/antfu/vitesse) with [`vite-ssr`](https://github.com/frandiox/vite-ssr)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate-context",
+      "text": "Edge-side rendering and fullstack Vite framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate-context",
+      "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/router",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/router",
+      "status": "candidate-context",
+      "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/store",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Framework agnostic, type-safe store w/ reactive framework adapters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/store",
+      "status": "candidate-context",
+      "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate-context",
+      "text": "Responsive React Flexbox (CSS Flexible Box Layout Module) grid system based heavily on the standard CSS API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
     }
   ],
   "candidate_glosses": [
@@ -2147,6 +2435,150 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate",
+      "text": "A collection of awesome things regarding the React ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/devtools",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/form",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muhajirdev/monad-ui",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD014 MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priceline/design-system",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/priceline/design-system/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate",
+      "text": "> React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate",
+      "text": "![HighTable](hightable.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/drei",
+      "status": "candidate",
+      "text": "[![Storybook](https://img.shields.io/static/v1?message=Storybook&style=flat&colorA=000000&colorB=000000&label=&logo=storybook&logoColor=ffffff)](https://drei.pmnd.rs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/react-three-fiber",
+      "status": "candidate",
+      "text": "react-three-fiber--root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate",
+      "text": "examples-es"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comcast/react-data-grid",
+      "status": "candidate",
+      "text": "[![npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aelassas/bookcars",
+      "status": "candidate",
+      "text": "[![build](https://github.com/aelassas/bookcars/actions/workflows/build.yml/badge.svg)](https://github.com/aelassas/bookcars/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenybai/react-scan",
+      "status": "candidate",
+      "text": "React Scan automatically detects performance issues in your React app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/visx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate",
+      "text": "**Bot Framework Emulator being retired in favor of Agents Playground**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/reactesse-ssr-template",
+      "status": "candidate",
+      "text": "> React + Vite + SSR template based on [@antfu](https://github.com/antfu)'s [Vitesse](https://github.com/antfu/vitesse) with [`vite-ssr`](https://github.com/frandiox/vite-ssr)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitedge",
+      "status": "candidate",
+      "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/router",
+      "status": "candidate",
+      "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/store",
+      "status": "candidate",
+      "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -3213,11 +3645,215 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ant-design/ant-design"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "styled-components/awesome-styled-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "muhajirdev/monad-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "priceline/design-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AbianS/docker-db-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hightable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/drei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/react-three-fiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/zustand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/examples-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Comcast/react-data-grid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aelassas/bookcars"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aidenybai/react-scan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/visx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/BotFramework-Emulator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/reactesse-ssr-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/vitedge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/appwrite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/store"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

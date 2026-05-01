@@ -82,6 +82,18 @@
       "source_repo": "2KAbhishek/octohub.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcoapp/app",
+      "status": "candidate-context",
+      "text": "GitHub App that enforces the Developer Certificate of Origin (DCO) on Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcoapp/app",
+      "status": "candidate-context",
+      "text": "Stats"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "2KAbhishek/octohub.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcoapp/app",
+      "status": "candidate",
+      "text": "Stats"
     }
   ],
   "candidate_related_terms": [
@@ -259,11 +277,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/stats.yml",
       "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "dcoapp/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "all-contributors/app"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weaviate/healthsearch-demo",
+      "target": "theskumar/python-dotenv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:51.984046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Discover Healthsearch: Unlocking Health with Semantic Search \u2728",
+    "fork": false,
+    "full_name": "weaviate/healthsearch-demo",
+    "html_url": "https://github.com/weaviate/healthsearch-demo",
+    "language": "TypeScript",
+    "pushed_at": "2023-07-24T12:25:06Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-04-08T11:39:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theskumar/python-dotenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

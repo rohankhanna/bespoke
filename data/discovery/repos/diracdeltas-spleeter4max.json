@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:36:49.169531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "separate audio in ableton into stems using Spleeter",
+    "fork": false,
+    "full_name": "diracdeltas/spleeter4max",
+    "html_url": "https://github.com/diracdeltas/spleeter4max",
+    "language": "JavaScript",
+    "pushed_at": "2021-12-26T22:29:29Z",
+    "stargazers_count": 610,
+    "topics": [],
+    "updated_at": "2026-04-18T16:05:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

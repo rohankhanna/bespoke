@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IssueAssign.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stack-update.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stack-update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stack-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-sha.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-sha.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Oryx",
+      "target": "azure/app-service-announcements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IssueAssign.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/IssueAssign.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "Auto Assign Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stack-update.yml",
+      "source_repo": "microsoft/Oryx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stack-update.yml",
+      "source_repo": "microsoft/Oryx",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-stack-update.yml",
+      "source_repo": "microsoft/Oryx",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-stack-update.yml",
+      "source_repo": "microsoft/Oryx",
+      "target": "Auto Stack Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor-versions.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "Manual workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-sha.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-sha.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-sha.yaml",
+      "source_repo": "microsoft/Oryx",
+      "target": "Validate SHA Hashes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Oryx",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Oryx",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Oryx",
+      "target": "container-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Oryx",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:53.256779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8024
+    },
+    {
+      "path": ".github/workflows/IssueAssign.yaml",
+      "size": 542
+    },
+    {
+      "path": ".github/workflows/auto-stack-update.yml",
+      "size": 1492
+    },
+    {
+      "path": ".github/workflows/monitor-versions.yaml",
+      "size": 1047
+    },
+    {
+      "path": ".github/workflows/unit-tests.yaml",
+      "size": 2263
+    },
+    {
+      "path": ".github/workflows/validate-sha.yaml",
+      "size": 3871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build your repo automatically.",
+    "fork": false,
+    "full_name": "microsoft/Oryx",
+    "html_url": "https://github.com/microsoft/Oryx",
+    "language": "C#",
+    "pushed_at": "2026-05-01T01:18:51Z",
+    "stargazers_count": 869,
+    "topics": [
+      "azure",
+      "build",
+      "container-builder",
+      "nodejs",
+      "python"
+    ],
+    "updated_at": "2026-04-30T10:33:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/app-service-announcements",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto Assign Issue\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/IssueAssign.yaml",
+      "term": "Auto Assign Issue"
+    },
+    {
+      "context_snippet": "Auto Stack Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-stack-update.yml",
+      "term": "Auto Stack Update"
+    },
+    {
+      "context_snippet": "Manual workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor-versions.yaml",
+      "term": "Manual workflow"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "Validate SHA Hashes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-sha.yaml",
+      "term": "Validate SHA Hashes"
+    },
+    {
+      "context_snippet": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Oryx/Oryx-Nightly?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=10393&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Oryx/Oryx-Nightly?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=10393&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Oryx/Oryx-Nightly?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=10393&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-builder"
+    },
+    {
+      "context_snippet": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Oryx/Oryx-Nightly?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=10393&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

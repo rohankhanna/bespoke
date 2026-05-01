@@ -121,13 +121,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pocojang/nuxt-realworld",
-      "target": "gothinkster/vue-realworld-example-app",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "pocojang/nuxt-realworld",
       "target": "devjang/nuxt-realworld",
@@ -323,7 +316,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T00:41:15.933133+00:00",
+  "fetched_at": "2026-05-01T09:18:28.943864+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -360,11 +353,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "gothinkster/realworld",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gothinkster/vue-realworld-example-app",
       "source_file": "README.md"
     },
     {

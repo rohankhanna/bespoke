@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:23:37.934607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NaturalCodeBench (Findings of ACL 2024)",
+    "fork": false,
+    "full_name": "THUDM/NaturalCodeBench",
+    "html_url": "https://github.com/THUDM/NaturalCodeBench",
+    "language": "Python",
+    "pushed_at": "2024-10-14T04:36:12Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-04-04T16:17:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

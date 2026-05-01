@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build locales coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "Virtual whiteboard for sketching hand-drawn like diagrams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "Build locales coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate",
+      "text": "Build locales coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19857,
+      "status": "candidate",
+      "text": "eaves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19326,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19326,
+      "status": "candidate",
+      "text": "balancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19326,
+      "status": "candidate",
+      "text": "built-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19326,
+      "status": "candidate",
+      "text": "circuit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build locales coverage",
+  "concept_id": "build-locales-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/locales-coverage.yml",
+      "source_repo": "excalidraw/excalidraw"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build locales coverage",
+      "sense_id": "build-locales-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

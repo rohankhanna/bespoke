@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/PaddlePaddle-MobileFaceNets",
+      "target": "yeyupiaoling/paddlepaddle-mtcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-MobileFaceNets",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-MobileFaceNets",
+      "target": "mobilefacenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PaddlePaddle-MobileFaceNets",
+      "target": "mtcnn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:08:24.326651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2699
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PaddlePaddle\u5b9e\u73b0\u7684\u4eba\u8138\u8bc6\u522b\u6a21\u578bMobileFaceNets\uff0c\u5728\u9884\u6d4b\u7684\u662f\u4f7f\u7528MTCNN\u68c0\u6d4b\u4eba\u8138\uff0c\u7136\u540eMobileFaceNets\u6a21\u578b\u8bc6\u522b\u3002",
+    "fork": false,
+    "full_name": "yeyupiaoling/PaddlePaddle-MobileFaceNets",
+    "html_url": "https://github.com/yeyupiaoling/PaddlePaddle-MobileFaceNets",
+    "language": "Python",
+    "pushed_at": "2022-01-13T09:42:00Z",
+    "stargazers_count": 61,
+    "topics": [
+      "face-recognition",
+      "mobilefacenet",
+      "mtcnn"
+    ],
+    "updated_at": "2025-11-27T13:07:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/paddlepaddle-mtcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u53c2\u8003\u4e86[ArcFace](https://arxiv.org/abs/1801.07698)\u7684\u635f\u5931\u51fd\u6570\uff0c\u540c\u65f6\u53c2\u8003\u4e86[PP-OCRv2](https://arxiv.org/abs/2109.03144)\u6a21\u578b\u7ed3\u6784\uff0c\u610f\u5728\u5f00\u53d1\u4e00\u4e2a\u6a21\u578b\u8f83\u5c0f\uff0c\u4f46\u8bc6\u522b\u51c6\u786e\u7387\u8f83\u9ad8\u4e14\u63a8\u7406\u901f\u5ea6\u5feb\u7684\u4e00\u79cd\u4eba\u8138\u8bc6\u522b\u9879\u76ee\uff0c\u8be5\u9879\u76ee\u8bad\u7ec3\u6570\u636e\u4f7f\u7528emore\u6570\u636e\u96c6\uff0c\u4e00\u5171\u670985742\u4e2a\u4eba\uff0c\u51715822653\u5f20\u56fe\u7247\uff0c\u4f7f\u7528lfw-align-128\u6570\u636e\u96c6\u4f5c\u4e3a\u6d4b\u8bd5\u6570\u636e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u53c2\u8003\u4e86[ArcFace](https://arxiv.org/abs/1801.07698)\u7684\u635f\u5931\u51fd\u6570\uff0c\u540c\u65f6\u53c2\u8003\u4e86[PP-OCRv2](https://arxiv.org/abs/2109.03144)\u6a21\u578b\u7ed3\u6784\uff0c\u610f\u5728\u5f00\u53d1\u4e00\u4e2a\u6a21\u578b\u8f83\u5c0f\uff0c\u4f46\u8bc6\u522b\u51c6\u786e\u7387\u8f83\u9ad8\u4e14\u63a8\u7406\u901f\u5ea6\u5feb\u7684\u4e00\u79cd\u4eba\u8138\u8bc6\u522b\u9879\u76ee\uff0c\u8be5\u9879\u76ee\u8bad\u7ec3\u6570\u636e\u4f7f\u7528emore\u6570\u636e\u96c6\uff0c\u4e00\u5171\u670985742\u4e2a\u4eba\uff0c\u51715822653\u5f20\u56fe\u7247\uff0c\u4f7f\u7528lfw-align-128\u6570\u636e\u96c6\u4f5c\u4e3a\u6d4b\u8bd5\u6570\u636e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilefacenet"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u53c2\u8003\u4e86[ArcFace](https://arxiv.org/abs/1801.07698)\u7684\u635f\u5931\u51fd\u6570\uff0c\u540c\u65f6\u53c2\u8003\u4e86[PP-OCRv2](https://arxiv.org/abs/2109.03144)\u6a21\u578b\u7ed3\u6784\uff0c\u610f\u5728\u5f00\u53d1\u4e00\u4e2a\u6a21\u578b\u8f83\u5c0f\uff0c\u4f46\u8bc6\u522b\u51c6\u786e\u7387\u8f83\u9ad8\u4e14\u63a8\u7406\u901f\u5ea6\u5feb\u7684\u4e00\u79cd\u4eba\u8138\u8bc6\u522b\u9879\u76ee\uff0c\u8be5\u9879\u76ee\u8bad\u7ec3\u6570\u636e\u4f7f\u7528emore\u6570\u636e\u96c6\uff0c\u4e00\u5171\u670985742\u4e2a\u4eba\uff0c\u51715822653\u5f20\u56fe\u7247\uff0c\u4f7f\u7528lfw-align-128\u6570\u636e\u96c6\u4f5c\u4e3a\u6d4b\u8bd5\u6570\u636e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mtcnn"
+    }
+  ]
+}

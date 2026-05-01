@@ -127,6 +127,18 @@
       "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
       "status": "candidate-context",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to integrate with Tailwind CSS V3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to integrate with [Tailwind CSS](https://tailwindcss.com/) V3."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "aliezzahn/rsbuild-plugin-markdown-loader",
       "status": "candidate",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate",
+      "text": "An Rsbuild plugin to integrate with [Tailwind CSS](https://tailwindcss.com/) V3."
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +280,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "rstackjs/awesome-rstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

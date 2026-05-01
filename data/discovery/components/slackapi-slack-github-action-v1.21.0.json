@@ -1,0 +1,12 @@
+{
+  "component": "slackapi/slack-github-action@v1.21.0",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "forcedotcom/dev-config"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MinusZoneAI/ComfyUI-FluxExt-MZ",
+      "target": "comfyanonymous/comfyui_bitsandbytes_nf4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MinusZoneAI/ComfyUI-FluxExt-MZ",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MinusZoneAI/ComfyUI-FluxExt-MZ",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:27:05.612331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tool nodes related to flux1",
+    "fork": false,
+    "full_name": "MinusZoneAI/ComfyUI-FluxExt-MZ",
+    "html_url": "https://github.com/MinusZoneAI/ComfyUI-FluxExt-MZ",
+    "language": "Python",
+    "pushed_at": "2024-08-16T18:57:07Z",
+    "stargazers_count": 345,
+    "topics": [
+      "comfyui",
+      "comfyui-nodes"
+    ],
+    "updated_at": "2026-04-24T16:29:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui_bitsandbytes_nf4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![image](https://github.com/user-attachments/assets/237b5fd8-d5ab-47bf-8fd8-0f0f09b0dbde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "![image](https://github.com/user-attachments/assets/237b5fd8-d5ab-47bf-8fd8-0f0f09b0dbde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    }
+  ]
+}

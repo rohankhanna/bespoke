@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "hidream-ai/hidream-i1",
+      "target": "liewfeng/teacache",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "genmoai/mochi",
+      "target": "tencent/hunyuanvideo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "iamcreateai/ruyi-models",
+      "target": "lldacing/comfyui_patches_ll",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "kijai/comfyui-hunyuanvideowrapper",
+      "target": "mingxiangl/teacache-xdit",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:18:23.638963+00:00",
+  "fetched_at": "2026-05-01T10:27:17.300668+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -123,22 +123,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "genmoai/mochi",
+      "full_name": "liewfeng/teacache",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hidream-ai/hidream-i1",
+      "full_name": "lldacing/comfyui_patches_ll",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iamcreateai/ruyi-models",
+      "full_name": "mingxiangl/teacache-xdit",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kijai/comfyui-hunyuanvideowrapper",
+      "full_name": "tencent/hunyuanvideo",
       "source_file": "README.md"
     }
   ],

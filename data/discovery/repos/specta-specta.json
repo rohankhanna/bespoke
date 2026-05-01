@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "specta/specta",
+      "target": "specta/expecta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "specta/specta",
+      "target": "hamcrest/ochamcrest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "specta/specta",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta/specta",
+      "target": "bdd-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta/specta",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta/specta",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta/specta",
+      "target": "xcode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:26:54.315774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6918
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A light-weight TDD / BDD framework for Objective-C & Cocoa",
+    "fork": false,
+    "full_name": "specta/specta",
+    "html_url": "https://github.com/specta/specta",
+    "language": "Objective-C",
+    "pushed_at": "2022-02-27T13:22:51Z",
+    "stargazers_count": 2315,
+    "topics": [
+      "bdd-framework",
+      "objective-c",
+      "testing",
+      "xcode"
+    ],
+    "updated_at": "2026-04-30T09:02:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hamcrest/ochamcrest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "specta/expecta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A light-weight TDD / BDD framework for Objective-C.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bdd-framework"
+    },
+    {
+      "context_snippet": "A light-weight TDD / BDD framework for Objective-C.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "A light-weight TDD / BDD framework for Objective-C.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "A light-weight TDD / BDD framework for Objective-C.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    }
+  ]
+}

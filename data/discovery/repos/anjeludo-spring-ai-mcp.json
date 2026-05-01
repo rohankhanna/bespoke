@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anjeludo/spring-ai-mcp",
+      "target": "piomin/spring-ai-showcase",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:07:11.385315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sample Spring AI Applications",
+    "fork": true,
+    "full_name": "anjeludo/spring-ai-mcp",
+    "html_url": "https://github.com/anjeludo/spring-ai-mcp",
+    "language": "Java",
+    "pushed_at": "2025-03-23T19:54:59Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-16T19:59:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "piomin/spring-ai-showcase",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

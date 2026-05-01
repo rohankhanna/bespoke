@@ -79,6 +79,18 @@
       "source_repo": "yuhonas/free-exercise-db",
       "status": "candidate-context",
       "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "Aggregates compute from spare GPU capacity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "yuhonas/free-exercise-db",
       "status": "candidate",
       "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "yuhonas/free-exercise-db"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kalavai-net/kalavai-client"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

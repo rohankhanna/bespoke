@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foxoman/zed-nim",
+      "target": "pmunch/nimlsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "foxoman/zed-nim",
+      "target": "stisa/jupyternim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foxoman/zed-nim",
+      "target": "nim-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foxoman/zed-nim",
+      "target": "zed-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "foxoman/zed-nim",
+      "target": "zed-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:31.068765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3197
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nim support for Zed Editor",
+    "fork": false,
+    "full_name": "foxoman/zed-nim",
+    "html_url": "https://github.com/foxoman/zed-nim",
+    "language": "Tree-sitter Query",
+    "pushed_at": "2026-04-20T19:10:13Z",
+    "stargazers_count": 43,
+    "topics": [
+      "nim",
+      "nim-lang",
+      "zed-editor",
+      "zed-extension"
+    ],
+    "updated_at": "2026-04-20T19:10:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pmunch/nimlsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stisa/jupyternim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Nim extension for Zed Editor",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nim-lang"
+    },
+    {
+      "context_snippet": "Nim extension for Zed Editor",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zed-editor"
+    },
+    {
+      "context_snippet": "Nim extension for Zed Editor",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zed-extension"
+    }
+  ]
+}

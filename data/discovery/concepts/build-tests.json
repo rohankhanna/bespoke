@@ -2,7 +2,8 @@
   "aliases": [
     "Build & Tests",
     "Build Tests",
-    "Build tests"
+    "Build tests",
+    "\ud83d\udd28 Build \u203a Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -81,6 +82,18 @@
       "source_repo": "sparkle-project/Sparkle",
       "status": "candidate-context",
       "text": "Build & Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate-context",
+      "text": "Free cross-platform password manager compatible with KeePass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate-context",
+      "text": "'\ud83d\udd28 Build \u203a Tests'"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +132,12 @@
       "source_repo": "sparkle-project/Sparkle",
       "status": "candidate",
       "text": "Build & Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb",
+      "status": "candidate",
+      "text": "'\ud83d\udd28 Build \u203a Tests'"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +217,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "sparkle-project/Sparkle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-tests.yml",
+      "source_repo": "keeweb/keeweb"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

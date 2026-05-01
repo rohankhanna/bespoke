@@ -1,0 +1,769 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd_vm_check.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@9a8e4351a4a0dc6238e7c69276dcbf6c03bea576",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd_vm_check.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@9a8e4351a4a0dc6238e7c69276dcbf6c03bea576",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd_vm_check.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@9a8e4351a4a0dc6238e7c69276dcbf6c03bea576",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd_vm_check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "signpath/github-action-submit-signing-request@3f9250c56651ff692d6729a2fbb0603a42d7d322",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@6149ea5740be74af77f260b9db67e633f6b0a9a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@6149ea5740be74af77f260b9db67e633f6b0a9a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@6149ea5740be74af77f260b9db67e633f6b0a9a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@6149ea5740be74af77f260b9db67e633f6b0a9a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml"
+    },
+    {
+      "component": "ClementTsang/skip-duplicate-actions@41b0a75f656d455934ffa6a46b779d8d996ac47c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clear_workflow_cache.yml"
+    },
+    {
+      "component": "ClementTsang/skip-duplicate-actions@41b0a75f656d455934ffa6a46b779d8d996ac47c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@e28ff129e5465c2c0dcc6f003fc735cb6ae0c673",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@e28ff129e5465c2c0dcc6f003fc735cb6ae0c673",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@e28ff129e5465c2c0dcc6f003fc735cb6ae0c673",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ClementTsang/skip-duplicate-actions@41b0a75f656d455934ffa6a46b779d8d996ac47c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementTsang/bottom",
+      "target": "xxxserxxx/gotop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementTsang/bottom",
+      "target": "htop-dev/htop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementTsang/bottom",
+      "target": "marverix/gah",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementTsang/bottom",
+      "target": "conda-forge/bottom-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd_vm_check.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd_vm_check.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "vmactions/openbsd-vm@9a8e4351a4a0dc6238e7c69276dcbf6c03bea576",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd_vm_check.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "bsd vm check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "signpath/github-action-submit-signing-request@3f9250c56651ff692d6729a2fbb0603a42d7d322",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_releases.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/attest-build-provenance@6149ea5740be74af77f260b9db67e633f6b0a9a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_releases.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "build releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "ClementTsang/skip-duplicate-actions@41b0a75f656d455934ffa6a46b779d8d996ac47c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "ClementTsang/cargo-action@2438cc5f3ba4e971289fffca2a00dedea6911f14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clear_workflow_cache.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear_workflow_cache.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "clear workflow cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "ClementTsang/skip-duplicate-actions@41b0a75f656d455934ffa6a46b779d8d996ac47c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "codecov/codecov-action@e28ff129e5465c2c0dcc6f003fc735cb6ae0c673",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "ClementTsang/skip-duplicate-actions@41b0a75f656d455934ffa6a46b779d8d996ac47c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ClementTsang/bottom",
+      "target": "nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementTsang/bottom",
+      "target": "bottom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementTsang/bottom",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementTsang/bottom",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementTsang/bottom",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementTsang/bottom",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:17:49.103791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46646
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 7101
+    },
+    {
+      "path": ".github/workflows/bsd_vm_check.yml",
+      "size": 2515
+    },
+    {
+      "path": ".github/workflows/build_releases.yml",
+      "size": 23104
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 14977
+    },
+    {
+      "path": ".github/workflows/clear_workflow_cache.yml",
+      "size": 1690
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 4015
+    },
+    {
+      "path": ".github/workflows/deployment.yml",
+      "size": 4429
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1854
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 6034
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Yet another cross-platform graphical process/system monitor.",
+    "fork": false,
+    "full_name": "ClementTsang/bottom",
+    "html_url": "https://github.com/ClementTsang/bottom",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T05:54:36Z",
+    "stargazers_count": 13260,
+    "topics": [
+      "bottom",
+      "btm",
+      "cli",
+      "cross-platform",
+      "monitoring",
+      "rust",
+      "terminal",
+      "top",
+      "tui"
+    ],
+    "updated_at": "2026-05-01T05:11:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/bottom-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "htop-dev/htop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marverix/gah",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xxxserxxx/gotop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"bsd vm check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd_vm_check.yml",
+      "term": "bsd vm check"
+    },
+    {
+      "context_snippet": "\"build releases\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_releases.yml",
+      "term": "build releases"
+    },
+    {
+      "context_snippet": "\"clear workflow cache\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear_workflow_cache.yml",
+      "term": "clear workflow cache"
+    },
+    {
+      "context_snippet": "codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "codecov"
+    },
+    {
+      "context_snippet": "deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "nightly"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bottom"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

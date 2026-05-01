@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem.yml"
+    },
+    {
+      "component": "oxidize-rb/actions/setup-ruby-and-rust@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem.yml"
+    },
+    {
+      "component": "oxidize-rb/cross-gem-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "oxidize-rb/actions/setup-ruby-and-rust@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem.yml",
+      "source_repo": "matsadler/halton-rb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem.yml",
+      "source_repo": "matsadler/halton-rb",
+      "target": "oxidize-rb/actions/setup-ruby-and-rust@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem.yml",
+      "source_repo": "matsadler/halton-rb",
+      "target": "oxidize-rb/cross-gem-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem.yml",
+      "source_repo": "matsadler/halton-rb",
+      "target": "Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "matsadler/halton-rb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "matsadler/halton-rb",
+      "target": "oxidize-rb/actions/setup-ruby-and-rust@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "matsadler/halton-rb",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matsadler/halton-rb",
+      "target": "halton-sequence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matsadler/halton-rb",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matsadler/halton-rb",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:17:10.564109+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 37
+    },
+    {
+      "path": ".github/workflows/gem.yml",
+      "size": 1005
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Ruby library, written in Rust, for generating Halton sequences",
+    "fork": false,
+    "full_name": "matsadler/halton-rb",
+    "html_url": "https://github.com/matsadler/halton-rb",
+    "language": "Ruby",
+    "pushed_at": "2023-08-11T04:35:50Z",
+    "stargazers_count": 11,
+    "topics": [
+      "halton-sequence",
+      "ruby",
+      "rust"
+    ],
+    "updated_at": "2025-06-18T00:14:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gem",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem.yml",
+      "term": "Gem"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"ext/halton\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "halton-sequence"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"ext/halton\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"ext/halton\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

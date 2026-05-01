@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veorq/SipHash",
+      "target": "cbreeden/fxhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veorq/SipHash",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veorq/SipHash",
+      "target": "message-authentication-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veorq/SipHash",
+      "target": "pseudorandom-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veorq/SipHash",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:22:28.569142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4551
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-speed secure pseudorandom function for short messages ",
+    "fork": false,
+    "full_name": "veorq/SipHash",
+    "html_url": "https://github.com/veorq/SipHash",
+    "language": "C",
+    "pushed_at": "2026-03-07T07:30:07Z",
+    "stargazers_count": 757,
+    "topics": [
+      "c",
+      "cryptography",
+      "message-authentication-code",
+      "pseudorandom-functions",
+      "security"
+    ],
+    "updated_at": "2026-04-27T06:39:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbreeden/fxhash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "[![License:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "message-authentication-code"
+    },
+    {
+      "context_snippet": "[![License:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pseudorandom-functions"
+    },
+    {
+      "context_snippet": "[![License:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

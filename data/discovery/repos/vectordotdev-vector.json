@@ -174,13 +174,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vectordotdev/vector",
-      "target": "vectordotdev/vector-test-harness",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "vectordotdev/vector",
       "target": "rust-embedded/cross",
@@ -190,14 +183,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "vectordotdev/vector",
-      "target": "vectordotdev/heim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "vectordotdev/vector",
-      "target": "msxdos/ntapi",
+      "target": "vectordotdev/vrl",
       "target_type": "repository"
     },
     {
@@ -509,7 +495,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:59:14.611791+00:00",
+  "fetched_at": "2026-05-01T07:06:04.642572+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -561,8 +547,8 @@
     "full_name": "vectordotdev/vector",
     "html_url": "https://github.com/vectordotdev/vector",
     "language": "Rust",
-    "pushed_at": "2026-04-30T15:56:26Z",
-    "stargazers_count": 21743,
+    "pushed_at": "2026-05-01T05:42:30Z",
+    "stargazers_count": 21747,
     "topics": [
       "agent",
       "cloud-native",
@@ -583,19 +569,9 @@
       "telemetry",
       "traces"
     ],
-    "updated_at": "2026-04-30T13:59:48Z"
+    "updated_at": "2026-05-01T05:08:49Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vectordotdev/vector-test-harness",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "msxdos/ntapi",
-      "source_file": "Cargo.toml"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "rust-embedded/cross",
@@ -603,7 +579,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "vectordotdev/heim",
+      "full_name": "vectordotdev/vrl",
       "source_file": "Cargo.toml"
     }
   ],

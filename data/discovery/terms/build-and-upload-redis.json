@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-redis-231.yaml",
+      "source_repo": "beclab/Olares"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-redis.yaml",
+      "source_repo": "beclab/Olares"
+    }
+  ],
+  "term": "Build and Upload Redis"
+}

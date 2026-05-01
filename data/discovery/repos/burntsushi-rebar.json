@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/rebar",
+      "target": "burntsushi/aho-corasick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/rebar",
+      "target": "akoumjian/datefinder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/rebar",
+      "target": "charliermarsh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/rebar",
+      "target": "burntsushi/ucd-generate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:24:52.521509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 98037
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A biased barometer for gauging the relative speed of some regex engines on a curated set of tasks.",
+    "fork": false,
+    "full_name": "BurntSushi/rebar",
+    "html_url": "https://github.com/BurntSushi/rebar",
+    "language": "Python",
+    "pushed_at": "2025-12-20T12:36:13Z",
+    "stargazers_count": 300,
+    "topics": [],
+    "updated_at": "2026-04-25T21:12:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akoumjian/datefinder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/aho-corasick",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/ucd-generate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charliermarsh/ruff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

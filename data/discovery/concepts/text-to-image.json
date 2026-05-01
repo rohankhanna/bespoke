@@ -175,6 +175,30 @@
       "source_repo": "FoundationVision/Liquid",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YangLing0818/IterComp",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YangLing0818/IterComp",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171) (**ICLR 2025**)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/imagen-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/imagen-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./imagen.png\" width=\"450px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "FoundationVision/Liquid",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YangLing0818/IterComp",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171) (**ICLR 2025**)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/imagen-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./imagen.png\" width=\"450px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +388,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "FoundationVision/Liquid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "YangLing0818/IterComp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/imagen-pytorch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

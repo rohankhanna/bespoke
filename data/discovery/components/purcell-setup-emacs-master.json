@@ -1,7 +1,7 @@
 {
   "component": "purcell/setup-emacs@master",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -197,6 +197,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-emacs.yml",
       "source_repo": "ocaml-community/utop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bbatsov/neocaml"
     }
   ]
 }

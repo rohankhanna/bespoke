@@ -1,7 +1,9 @@
 {
   "aliases": [
     "ci-test",
-    "CI Test"
+    "CI Test",
+    "CI: Test",
+    "CI-TEST"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +46,42 @@
       "source_repo": "SeanNaren/deepspeech.pytorch",
       "status": "candidate-context",
       "text": "ci-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "status": "candidate-context",
+      "text": "Voicevox Core\u306e\u30e9\u30c3\u30d1\u30fc\u30e9\u30a4\u30d6\u30e9\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "status": "candidate-context",
+      "text": "'CI: Test'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/karpenter-provider-aws",
+      "status": "candidate-context",
+      "text": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/karpenter-provider-aws",
+      "status": "candidate-context",
+      "text": "CI-TEST"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/karpenter-provider-azure",
+      "status": "candidate-context",
+      "text": "AKS Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/karpenter-provider-azure",
+      "status": "candidate-context",
+      "text": "CI-TEST"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +102,24 @@
       "source_repo": "SeanNaren/deepspeech.pytorch",
       "status": "candidate",
       "text": "ci-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sh1ma/voicevoxcore.go",
+      "status": "candidate",
+      "text": "'CI: Test'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/karpenter-provider-aws",
+      "status": "candidate",
+      "text": "CI-TEST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/karpenter-provider-azure",
+      "status": "candidate",
+      "text": "CI-TEST"
     }
   ],
   "candidate_related_terms": [
@@ -101,6 +157,41 @@
       "score": 15264,
       "status": "candidate",
       "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
     }
   ],
   "candidate_synonyms": [],
@@ -125,11 +216,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/ci-test.yml",
       "source_repo": "SeanNaren/deepspeech.pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "sh1ma/voicevoxcore.go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "source_repo": "aws/karpenter-provider-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "Azure/karpenter-provider-azure"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -70,6 +70,30 @@
       "source_repo": "jose-elias-alvarez/null-ls.nvim",
       "status": "candidate-context",
       "text": "autogen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate-context",
+      "text": "12 Lessons to Get Started Building AI Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate-context",
+      "text": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgentOps-AI/agentops",
+      "status": "candidate-context",
+      "text": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentOps-AI/agentops",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "jose-elias-alvarez/null-ls.nvim",
       "status": "candidate",
       "text": "autogen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ai-agents-for-beginners",
+      "status": "candidate",
+      "text": "![AI Agents for Beginners](./images/repo-thumbnailv2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentOps-AI/agentops",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -169,11 +205,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/autogen.yaml",
       "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ai-agents-for-beginners"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/autogen.yaml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgentOps-AI/agentops"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

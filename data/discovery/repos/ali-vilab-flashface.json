@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:23:44.297743+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ali-vilab/FlashFace",
+    "html_url": "https://github.com/ali-vilab/FlashFace",
+    "language": "Python",
+    "pushed_at": "2024-09-17T03:16:29Z",
+    "stargazers_count": 436,
+    "topics": [],
+    "updated_at": "2026-04-11T04:10:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LTH14/JiT",
+      "target": "lth14/torch-fidelity",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:37:24.330850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of JiT https://arxiv.org/abs/2511.13720",
+    "fork": false,
+    "full_name": "LTH14/JiT",
+    "html_url": "https://github.com/LTH14/JiT",
+    "language": "Python",
+    "pushed_at": "2025-12-08T07:11:31Z",
+    "stargazers_count": 2281,
+    "topics": [],
+    "updated_at": "2026-04-29T17:43:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lth14/torch-fidelity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

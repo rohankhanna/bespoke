@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azureai-assistant-tool",
+      "target": "jhakulin/realtime-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "Azure-Samples/azureai-assistant-tool",
+      "target": "jhakulin/realtime-ai",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:59.362841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15883
+    },
+    {
+      "path": "requirements.txt",
+      "size": 428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Azure AI Assistant Tool is experimental Python application and middleware designed to simplify the development, experimentation, testing, and debugging of OpenAI assistants.",
+    "fork": false,
+    "full_name": "Azure-Samples/azureai-assistant-tool",
+    "html_url": "https://github.com/Azure-Samples/azureai-assistant-tool",
+    "language": "Python",
+    "pushed_at": "2025-03-25T02:48:27Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-03-29T21:14:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhakulin/realtime-ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhakulin/realtime-ai",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

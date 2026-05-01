@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "enif"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate-context",
+      "text": "A Google Protobuf implementation with enif (Erlang nif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml/badge.svg)](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jinganix/enif_protobuf",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml/badge.svg)](https://github.com/jinganix/enif_protobuf/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005781,
+      "status": "candidate",
+      "text": "algenib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005780,
+      "status": "candidate",
+      "text": "nihal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005779,
+      "status": "candidate",
+      "text": "arneb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005778,
+      "status": "candidate",
+      "text": "beetlejuice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005777,
+      "status": "candidate",
+      "text": "wazn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "enif",
+  "concept_id": "enif",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jinganix/enif_protobuf"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "enif",
+      "sense_id": "enif#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

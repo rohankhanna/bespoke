@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "kapture is a file format as well as a set of tools for manipulating datasets, and in particular Visual Localization and Structure from Motion data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "kapture-release-pypi"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "kapture-release-pypi"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "kapture-release-pypi",
+      "sense_id": "kapture-release-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kapture-release-pypi",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kapture-release-pypi",
+  "observation_id": "e769b77b7af1318a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "kapture-release-pypi",
+  "source_context_snippet": "kapture-release-pypi",
+  "source_file": ".github/workflows/kapture-release-pypi.yml",
+  "source_repo": "naver/kapture",
+  "source_repo_description": "kapture is a file format as well as a set of tools for manipulating datasets, and in particular Visual Localization and Structure from Motion data."
+}

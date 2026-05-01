@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vbenjs/vue-vben-admin",
-      "target": "vuejs/vue",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vbenjs/vue-vben-admin",
@@ -347,7 +340,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "SamKirkland/FTP-Deploy-Action@v4.3.6",
+      "target": "SamKirkland/FTP-Deploy-Action@v4.4.0",
       "target_type": "component"
     },
     {
@@ -484,6 +477,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "vbenjs/vue-vben-admin"
 }

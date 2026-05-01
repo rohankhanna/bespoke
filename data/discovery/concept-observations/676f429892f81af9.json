@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of the Wave-U-Net for audio source separation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio-processing",
+      "sense_id": "audio-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "audio-processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "audio-processing",
+  "observation_id": "676f429892f81af9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "audio-processing",
+  "source_context_snippet": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation.",
+  "source_file": null,
+  "source_repo": "f90/Wave-U-Net",
+  "source_repo_description": "Implementation of the Wave-U-Net for audio source separation"
+}

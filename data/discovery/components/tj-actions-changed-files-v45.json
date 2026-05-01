@@ -1,7 +1,7 @@
 {
   "component": "tj-actions/changed-files@v45",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-tasks.yaml",
       "source_repo": "Danau5tin/terminal-bench-fork"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-scan.yml",
+      "source_repo": "keeweb/keeweb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-demos.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples"
     }
   ]
 }

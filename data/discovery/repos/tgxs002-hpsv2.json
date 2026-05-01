@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tgxs002/HPSv2",
+      "target": "thudm/imagereward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tgxs002/HPSv2",
+      "target": "tgxs002/align_sd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tgxs002/HPSv2",
+      "target": "yuvalkirstain/pickscore",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:08:55.282676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15774
+    },
+    {
+      "path": "requirements.txt",
+      "size": 200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Human Preference Score v2: A Solid Benchmark for Evaluating Human Preferences of Text-to-Image Synthesis",
+    "fork": false,
+    "full_name": "tgxs002/HPSv2",
+    "html_url": "https://github.com/tgxs002/HPSv2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-24T11:30:24Z",
+    "stargazers_count": 664,
+    "topics": [],
+    "updated_at": "2026-04-24T07:21:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tgxs002/align_sd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/imagereward",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuvalkirstain/pickscore",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

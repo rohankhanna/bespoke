@@ -60,6 +60,30 @@
       "source_repo": "retorquere/zotero-better-bibtex",
       "status": "candidate-context",
       "text": "automated tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "status": "candidate-context",
+      "text": "Update your plugin readme and assets in the WordPress.org repository outside of new releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "status": "candidate-context",
+      "text": "Automated Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "status": "candidate-context",
+      "text": "Build a zip archive of your WordPress.org plugin using GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "status": "candidate-context",
+      "text": "Automated Tests"
     }
   ],
   "candidate_glosses": [
@@ -86,6 +110,18 @@
       "source_repo": "retorquere/zotero-better-bibtex",
       "status": "candidate",
       "text": "automated tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-asset-update",
+      "status": "candidate",
+      "text": "Automated Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "status": "candidate",
+      "text": "Automated Tests"
     }
   ],
   "candidate_related_terms": [
@@ -165,11 +201,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "cargo-bins/cargo-quickinstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "10up/action-wordpress-plugin-asset-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

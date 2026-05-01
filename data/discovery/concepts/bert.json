@@ -403,6 +403,78 @@
       "source_repo": "iflytek/MiniRBT",
       "status": "candidate-context",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate-context",
+      "text": "Fast + Non-Autoregressive Grammatical Error Correction using BERT. Code and Pre-trained models for paper \"Parallel Iterative Edit Models for Local Sequence Transduction\": www.aclweb.org/anthology/D19-1435.pdf (EMNLP-IJCNLP 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate-context",
+      "text": "Fast Grammatical Error Correction using BERT"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate-context",
+      "text": "Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using \u26a1 Pytorch Lightning and \ud83e\udd17 Transformers. For access to our API, please email us at contact@unitary.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate-context",
+      "text": "Code for ICLR 2020 paper \"VL-BERT: Pre-training of Generic Visual-Linguistic Representations\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate-context",
+      "text": "By"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate-context",
+      "text": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension  (CMRC 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate-context",
+      "text": "A Sentence Cloze Dataset for Chinese Machine Reading Comprehension (CMRC 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/PERT",
+      "status": "candidate-context",
+      "text": "PERT: Pre-training BERT with Permuted Language Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/PERT",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587**](https://github.com/ymcui/PERT) | [**English**](https://github.com/ymcui/PERT/blob/main/README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +675,42 @@
       "source_repo": "iflytek/MiniRBT",
       "status": "candidate",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate",
+      "text": "Fast Grammatical Error Correction using BERT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitaryai/detoxify",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackroos/VL-BERT",
+      "status": "candidate",
+      "text": "By"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2018",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README_CN.md) | [**English**](./README.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/cmrc2019",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/PERT",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587**](https://github.com/ymcui/PERT) | [**English**](https://github.com/ymcui/PERT/blob/main/README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -886,11 +994,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "iflytek/MiniRBT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "unitaryai/detoxify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jackroos/VL-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2018"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/cmrc2019"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/PERT"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

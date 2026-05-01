@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -271,6 +271,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "securego/gosec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ozsie/detekt-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "DiligentGraphics/imgui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/static_analysis.yaml",
+      "source_repo": "jemalloc/jemalloc"
     }
   ],
   "term": "Static Analysis"

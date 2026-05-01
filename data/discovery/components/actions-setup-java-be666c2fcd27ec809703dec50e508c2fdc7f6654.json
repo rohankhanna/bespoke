@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -842,6 +842,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rebuild.yml",
       "source_repo": "bndtools/bnd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-init-script-check.yml",
+      "source_repo": "gradle/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "raphw/byte-buddy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add_plugin_placeholder_in_vpr.yml",
+      "source_repo": "elastic/logstash-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs-pre90.yml",
+      "source_repo": "elastic/logstash-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reference_docs90.yml",
+      "source_repo": "elastic/logstash-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vpr.yml",
+      "source_repo": "elastic/logstash-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/athena-databricks-connector.yml",
+      "source_repo": "awslabs/nx-neptune"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/athena-s3vector-connector.yml",
+      "source_repo": "awslabs/nx-neptune"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "firebase/FirebaseUI-Flutter"
     }
   ]
 }

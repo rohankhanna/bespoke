@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Create Release Branch",
-    "Create release branch"
+    "Create release branch",
+    "create-release-branch"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,12 @@
       "source_repo": "hazelcast/hazelcast-cpp-client",
       "status": "candidate-context",
       "text": "Create release branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/code-analyzer",
+      "status": "candidate-context",
+      "text": "create-release-branch"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +125,12 @@
       "source_repo": "hazelcast/hazelcast-cpp-client",
       "status": "candidate",
       "text": "Create release branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/code-analyzer",
+      "status": "candidate",
+      "text": "create-release-branch"
     }
   ],
   "candidate_related_terms": [
@@ -233,11 +246,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/create_release_branch.yml",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create-release-branch.yml",
+      "source_repo": "forcedotcom/code-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create_release_branch.yml",
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

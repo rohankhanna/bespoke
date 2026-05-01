@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NumPy, TensorFlow and PyTorch implementation of human body SMPL model and infant body SMIL model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015239,
+      "status": "candidate",
+      "text": "consistence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012778,
+      "status": "candidate",
+      "text": "personify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010877,
+      "status": "candidate",
+      "text": "consistency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39883895,
+      "status": "candidate",
+      "text": "torso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39834197,
+      "status": "candidate",
+      "text": "trunk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "body",
+      "sense_id": "body#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14033,
+      "status": "candidate",
+      "text": "personify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13051,
+      "status": "candidate",
+      "text": "consistency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8057,
+      "status": "candidate",
+      "text": "trunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8021,
+      "status": "candidate",
+      "text": "consistence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7042,
+      "status": "candidate",
+      "text": "torso"
+    }
+  ],
+  "concept_id": "body",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "body",
+  "observation_id": "ff88167998de46f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "body",
+  "source_context_snippet": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp).",
+  "source_file": null,
+  "source_repo": "CalciferZh/SMPL",
+  "source_repo_description": "NumPy, TensorFlow and PyTorch implementation of human body SMPL model and infant body SMIL model."
+}

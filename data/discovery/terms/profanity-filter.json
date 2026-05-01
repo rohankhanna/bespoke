@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/profanity-filter.yml",
       "source_repo": "Azure-Samples/azure-search-openai-demo-csharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/profanity-filter.yml",
+      "source_repo": "microsoft/Generative-AI-for-beginners-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/profanity.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript"
     }
   ],
   "term": "Profanity filter"

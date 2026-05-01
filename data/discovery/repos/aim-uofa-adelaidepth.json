@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/AdelaiDepth",
+      "target": "yvanyin/diversedepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/AdelaiDepth",
+      "target": "yvanyin/vnl_monocular_depth_prediction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/AdelaiDepth",
+      "target": "3d-scene-shape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/AdelaiDepth",
+      "target": "depth-prediction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:23:23.701853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo contains the projects: 'Virtual Normal', 'DiverseDepth', and '3D Scene Shape'. They aim to solve the monocular depth estimation, 3D scene reconstruction from single image problems. ",
+    "fork": false,
+    "full_name": "aim-uofa/AdelaiDepth",
+    "html_url": "https://github.com/aim-uofa/AdelaiDepth",
+    "language": "Python",
+    "pushed_at": "2023-11-10T08:14:10Z",
+    "stargazers_count": 1106,
+    "topics": [
+      "3d-scene-shape",
+      "depth-prediction"
+    ],
+    "updated_at": "2026-04-17T03:45:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yvanyin/diversedepth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yvanyin/vnl_monocular_depth_prediction",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rDLZBtiUgsFJrrL-xOgTVWxj6PMK9swq?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-scene-shape"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rDLZBtiUgsFJrrL-xOgTVWxj6PMK9swq?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-prediction"
+    }
+  ]
+}

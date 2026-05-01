@@ -3931,6 +3931,342 @@
       "source_repo": "microsoft/CameraTraps",
       "status": "candidate-context",
       "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate-context",
+      "text": "LLama.cpp rust bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate-context",
+      "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate-context",
+      "text": "Numo::Liblinear is a Ruby gem binding to the LIBLINEAR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate-context",
+      "text": "Numo::Libsvm is a Ruby gem binding to the LIBSVM "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-libsvm/workflows/build/badge.svg)](https://github.com/yoshoku/numo-libsvm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate-context",
+      "text": "Aim \ud83d\udcab \u2014 An easy-to-use & supercharged open-source experiment tracker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "All-in-one training for vision models (YOLO, ViTs, RT-DETR, DINOv3): pretraining, fine-tuning, distillation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parlance/ctcdecode",
+      "status": "candidate-context",
+      "text": "PyTorch CTC Decoder bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance/ctcdecode",
+      "status": "candidate-context",
+      "text": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "Distributed High-Performance Symbolic Regression in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/hypernerf",
+      "status": "candidate-context",
+      "text": "Code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/hypernerf",
+      "status": "candidate-context",
+      "text": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/nerfies",
+      "status": "candidate-context",
+      "text": "This is the code for Deformable Neural Radiance Fields, a.k.a. Nerfies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/nerfies",
+      "status": "candidate-context",
+      "text": "This is the code for Nerfies: Deformable Neural Radiance Fields."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate-context",
+      "text": "ONNX-compatible LightGlue: Local Feature Matching at Light Speed. Supports TensorRT, OpenVINO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate-context",
+      "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "pix2tex: Using a ViT to convert images of equations into LaTeX code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate-context",
+      "text": "Cool vision, learning, and graphics papers on Cats!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate-context",
+      "text": "As reported by Cisco, 90% of net traffic will be visual, and indeed, most of the visual data are cat photos and videos. Thus, understanding, modeling, and synthesizing our feline friends becomes a more and more critical research problem these days, especially for our cat lovers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "status": "candidate-context",
+      "text": "Web labeling tool for bitmap images and point clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "status": "candidate-context",
+      "text": "A web based labeling tool for creating AI training data sets (2D and 3D)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "Improved Residual Networks (https://arxiv.org/pdf/2004.04989.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "Turn any computer or edge device into a command center for your computer vision projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate-context",
+      "text": "neosr is an open-source framework for training super-resolution models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate-context",
+      "text": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "Streamlining reinforcement learning with RLOps. State-of-the-art RL algorithms and tools, with 10x faster training through evolutionary hyperparameter optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "[![Unit-tests](https://github.com/pytorch/rl/actions/workflows/test-linux.yml/badge.svg)](https://github.com/pytorch/rl/actions/workflows/test-linux.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate-context",
+      "text": "MyoSuite is a collection of environments/tasks to be solved by musculoskeletal models simulated with the MuJoCo physics engine and wrapped in the OpenAI gym API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate-context",
+      "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conservationtechlab/animl-r",
+      "status": "candidate-context",
+      "text": "Animl comprises a variety of machine learning tools for analyzing ecological data. The package includes a set of functions to classify subjects within camera trap field data and can handle both images and videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conservationtechlab/animl-r",
+      "status": "candidate-context",
+      "text": "Animl comprises a variety of machine learning tools for analyzing ecological data. The package includes a set of functions to classify subjects within camera trap field data and can handle both images and videos."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate-context",
+      "text": "A collection of useful mathematical functions in Elixir with a slant towards statistics, linear algebra and machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/safwank/Numerix.svg?branch=master)](https://travis-ci.org/safwank/Numerix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "status": "candidate-context",
+      "text": "One-click Portable Windows installation of 'AI-Toolkit by Ostris'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "Ruby language bindings for LIBSVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate-context",
+      "text": "Tools for handling multimodal data in machine learning projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate-context",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate-context",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
     }
   ],
   "candidate_glosses": [
@@ -5895,6 +6231,174 @@
       "source_repo": "microsoft/CameraTraps",
       "status": "candidate",
       "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnostiqHQ/covalent",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate",
+      "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-liblinear",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-liblinear/workflows/build/badge.svg)](https://github.com/yoshoku/numo-liblinear/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yoshoku/numo-libsvm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/yoshoku/numo-libsvm/workflows/build/badge.svg)](https://github.com/yoshoku/numo-libsvm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimhubio/aim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10%7C3.11%7C3.12%7C3.13-blue.svg)](https://docs.lightly.ai/train/stable/installation.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance/ctcdecode",
+      "status": "candidate",
+      "text": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroautomata/SymbolicRegression.jl",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/hypernerf",
+      "status": "candidate",
+      "text": "This is the code for \"HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/nerfies",
+      "status": "candidate",
+      "text": "This is the code for Nerfies: Deformable Neural Radiance Fields."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate",
+      "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CatPapers",
+      "status": "candidate",
+      "text": "As reported by Cisco, 90% of net traffic will be visual, and indeed, most of the visual data are cat photos and videos. Thus, understanding, modeling, and synthesizing our feline friends becomes a more and more critical research problem these days, especially for our cat lovers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "status": "candidate",
+      "text": "A web based labeling tool for creating AI training data sets (2D and 3D)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neosr-project/neosr",
+      "status": "candidate",
+      "text": "[project] name = \"neosr\" version = \"1.0.0\" description = \"neosr is an open-source framework for training super-resolution models. It provides a comprehensive and reproducible environment for achieving state-of-the-art image restoration results, making it suitable for both the en\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate",
+      "text": "[![Unit-tests](https://github.com/pytorch/rl/actions/workflows/test-linux.yml/badge.svg)](https://github.com/pytorch/rl/actions/workflows/test-linux.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MyoHub/myosuite",
+      "status": "candidate",
+      "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conservationtechlab/animl-r",
+      "status": "candidate",
+      "text": "Animl comprises a variety of machine learning tools for analyzing ecological data. The package includes a set of functions to classify subjects within camera trap field data and can handle both images and videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "safwank/Numerix",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/safwank/Numerix.svg?branch=master)](https://travis-ci.org/safwank/Numerix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "febeling/rb-libsvm",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rb-libsvm.svg)](http://badge.fury.io/rb/rb-libsvm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhotse-speech/lhotse",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archinetai/a-unet",
+      "status": "candidate",
+      "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
     }
   ],
   "candidate_related_terms": [],
@@ -8872,11 +9376,365 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "microsoft/CameraTraps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgnostiqHQ/covalent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdrokz/rust-llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-liblinear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yoshoku/numo-libsvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "skforecast/skforecast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aimhubio/aim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly-train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "parlance/ctcdecode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/hypernerf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/nerfies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fabio-sim/LightGlue-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-blecher/LaTeX-OCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/CatPapers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "iduta/iresnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "neosr-project/neosr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AgileRL/AgileRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/rl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MyoHub/myosuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "conservationtechlab/animl-r"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "safwank/Numerix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Tavris1/AI-Toolkit-Easy-Install"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "febeling/rb-libsvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lhotse-speech/lhotse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "archinetai/a-unet"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

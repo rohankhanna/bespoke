@@ -1,7 +1,7 @@
 {
   "component": "cross-platform-actions/action@233156312992f3f169d8d0c633c21d12a5d30455",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-tests.yml",
       "source_repo": "rollup/rollup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver"
     }
   ]
 }

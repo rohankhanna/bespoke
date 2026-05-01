@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "westes/flex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "meyerd/flex-bison-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "KyleMayes/install-llvm-action@98e68e10c96dffcb7bfed8b2144541a66b49aa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os_windows.yaml",
+      "source_repo": "lexxmark/winflexbison",
+      "target": "Windows Build with open source compilers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison",
+      "target": "bison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison",
+      "target": "flex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison",
+      "target": "gnu-bison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison",
+      "target": "winflexbison",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "lexxmark/winflexbison"
+}

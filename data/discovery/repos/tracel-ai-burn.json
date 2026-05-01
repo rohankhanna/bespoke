@@ -698,7 +698,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:11:00.748538+00:00",
+  "fetched_at": "2026-05-01T10:27:46.937535+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -750,8 +750,8 @@
     "full_name": "tracel-ai/burn",
     "html_url": "https://github.com/tracel-ai/burn",
     "language": "Rust",
-    "pushed_at": "2026-04-29T20:16:20Z",
-    "stargazers_count": 14969,
+    "pushed_at": "2026-04-30T20:09:16Z",
+    "stargazers_count": 14973,
     "topics": [
       "autodiff",
       "cross-platform",
@@ -772,7 +772,7 @@
       "wasm",
       "webgpu"
     ],
-    "updated_at": "2026-04-30T13:16:25Z"
+    "updated_at": "2026-04-30T21:35:23Z"
   },
   "repo_links": [
     {

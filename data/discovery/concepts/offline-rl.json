@@ -19,6 +19,18 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate-context",
       "text": "[![build](https://github.com/Farama-Foundation/Minari/actions/workflows/build.yml/badge.svg)](https://github.com/Farama-Foundation/Minari/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "An offline deep reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img align=\"center\" width=\"300px\" src=\"assets/logo.png\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate",
       "text": "[![build](https://github.com/Farama-Foundation/Minari/actions/workflows/build.yml/badge.svg)](https://github.com/Farama-Foundation/Minari/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d3rlpy",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img align=\"center\" width=\"300px\" src=\"assets/logo.png\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "Farama-Foundation/Minari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "takuseno/d3rlpy"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

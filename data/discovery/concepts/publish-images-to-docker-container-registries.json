@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish images to Docker container registries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiidateam/aiida-core",
+      "status": "candidate-context",
+      "text": "The official repository for the AiiDA code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiidateam/aiida-core",
+      "status": "candidate-context",
+      "text": "Publish images to Docker container registries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiidateam/aiida-core",
+      "status": "candidate",
+      "text": "Publish images to Docker container registries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30979,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30924,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23895,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22222,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22222,
+      "status": "candidate",
+      "text": "filming"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish images to Docker container registries",
+  "concept_id": "publish-images-to-docker-container-registries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "aiidateam/aiida-core"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish images to Docker container registries",
+      "sense_id": "publish-images-to-docker-container-registries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

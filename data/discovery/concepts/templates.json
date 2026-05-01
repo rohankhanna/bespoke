@@ -175,6 +175,30 @@
       "source_repo": "ellisonleao/nvim-plugin-template",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate-context",
+      "text": "An OWL ontology documentation tool using Python and templating, based on LODE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate-context",
+      "text": "![pyLODE logo](https://raw.githubusercontent.com/RDFLib/pyLODE/master/img/pyLODE-250.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juanluisbaptiste/apachebench-graphs",
+      "status": "candidate-context",
+      "text": "Helper script for apachebench load testing tool to automatically create tsv and csv results using gnuplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juanluisbaptiste/apachebench-graphs",
+      "status": "candidate-context",
+      "text": "Helper scripts for apachebench to automate the plotting of test results."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "ellisonleao/nvim-plugin-template",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/pyLODE",
+      "status": "candidate",
+      "text": "![pyLODE logo](https://raw.githubusercontent.com/RDFLib/pyLODE/master/img/pyLODE-250.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juanluisbaptiste/apachebench-graphs",
+      "status": "candidate",
+      "text": "Helper scripts for apachebench to automate the plotting of test results."
     }
   ],
   "candidate_related_terms": [
@@ -394,11 +430,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ellisonleao/nvim-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/pyLODE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "juanluisbaptiste/apachebench-graphs"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

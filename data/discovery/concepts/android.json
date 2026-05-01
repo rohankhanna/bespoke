@@ -1252,6 +1252,102 @@
       "source_repo": "crossbario/autobahn-java",
       "status": "candidate-context",
       "text": "Client library providing [WAMP](http://wamp-proto.org/) on Java 8 ([Netty](https://netty.io/)) and Android, plus (secure) WebSocket for Android."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfc Record and replay OkHttp network interaction in your tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate-context",
+      "text": "Build/Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate-context",
+      "text": "Compile Rust projects with the Android NDK without hassle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate-context",
+      "text": "[<img alt=\"CI\" src=\"https://github.com/bbqsrc/cargo-ndk/actions/workflows/ci.yml/badge.svg\">](https://github.com/bbqsrc/cargo-ndk/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate-context",
+      "text": "A cross-platform framework using Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate-context",
+      "text": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate-context",
+      "text": "A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate-context",
+      "text": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate-context",
+      "text": "umbrella project for emulation of smart card readers or smart cards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate-context",
+      "text": "Virtual Smart Card Architecture is an umbrella project for various"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate-context",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "status": "candidate-context",
+      "text": "Pipecat example applications. Use and learn from these patterns to build your own voice AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "status": "candidate-context",
+      "text": "android"
     }
   ],
   "candidate_glosses": [
@@ -1896,6 +1992,54 @@
       "source_repo": "crossbario/autobahn-java",
       "status": "candidate",
       "text": "Client library providing [WAMP](http://wamp-proto.org/) on Java 8 ([Netty](https://netty.io/)) and Android, plus (secure) WebSocket for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/okreplay",
+      "status": "candidate",
+      "text": "Build/Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate",
+      "text": "[<img alt=\"CI\" src=\"https://github.com/bbqsrc/cargo-ndk/actions/workflows/ci.yml/badge.svg\">](https://github.com/bbqsrc/cargo-ndk/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate",
+      "text": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Konloch/bytecode-viewer",
+      "status": "candidate",
+      "text": "Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate",
+      "text": "Virtual Smart Card Architecture is an umbrella project for various"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/appwrite",
+      "status": "candidate",
+      "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pipecat-ai/pipecat-examples",
+      "status": "candidate",
+      "text": "android"
     }
   ],
   "candidate_related_terms": [
@@ -2728,11 +2872,89 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/okreplay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bbqsrc/cargo-ndk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Konloch/bytecode-viewer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/appwrite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "pipecat-ai/pipecat-examples"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

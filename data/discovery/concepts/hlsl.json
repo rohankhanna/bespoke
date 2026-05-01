@@ -67,6 +67,18 @@
       "source_repo": "Blinue/Magpie",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the shaderc library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate-context",
+      "text": "shaderc-rs"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Blinue/Magpie",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc-rs",
+      "status": "candidate",
+      "text": "shaderc-rs"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Blinue/Magpie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/shaderc-rs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

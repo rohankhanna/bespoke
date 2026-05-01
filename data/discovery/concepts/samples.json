@@ -171,6 +171,66 @@
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
       "status": "candidate-context",
       "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate-context",
+      "text": "A collection of awesome things regarding React ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate-context",
+      "text": "A collection of awesome things regarding the React ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate-context",
+      "text": "Samples for the various Swagger projects under swagger-api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate-context",
+      "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate-context",
+      "text": "Join a time-traveling adventure where you meet history\u2019s legends while learning Generative AI technologies! \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "status": "candidate-context",
+      "text": "Samples that demonstrate how to use various Prism features with Xamarin.Forms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "status": "candidate-context",
+      "text": "Samples that demonstrate how to use various Prism features with Xamarin.Forms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "status": "candidate-context",
+      "text": "Samples that demonstrate how to use various Prism features with WPF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "status": "candidate-context",
+      "text": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept."
     }
   ],
   "candidate_glosses": [
@@ -263,6 +323,36 @@
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples",
       "status": "candidate",
       "text": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate",
+      "text": "A collection of awesome things regarding the React ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-samples",
+      "status": "candidate",
+      "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Samples-Forms",
+      "status": "candidate",
+      "text": "Samples that demonstrate how to use various Prism features with Xamarin.Forms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf",
+      "status": "candidate",
+      "text": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept."
     }
   ],
   "candidate_related_terms": [
@@ -396,11 +486,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "GoogleCloudPlatform/nodejs-docs-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/generative-ai-with-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Forms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PrismLibrary/Prism-Samples-Wpf"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

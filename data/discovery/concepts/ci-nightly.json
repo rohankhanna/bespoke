@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CI (nightly)"
+    "CI (nightly)",
+    "CI-nightly"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "actix/examples",
       "status": "candidate-context",
       "text": "CI (nightly)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate-context",
+      "text": "Port of mustache.js to julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate-context",
+      "text": "CI-nightly"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "actix/examples",
       "status": "candidate",
       "text": "CI (nightly)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/Mustache.jl",
+      "status": "candidate",
+      "text": "CI-nightly"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ci-nightly.yml",
       "source_repo": "actix/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-nightly.yml",
+      "source_repo": "jverzani/Mustache.jl"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

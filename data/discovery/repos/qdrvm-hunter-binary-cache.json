@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qdrvm/hunter-binary-cache",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qdrvm/hunter-binary-cache",
+      "target": "hunter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:10:37.215688+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository is used to store hunter binary cache for Soramitsu Repositories.",
+    "fork": false,
+    "full_name": "qdrvm/hunter-binary-cache",
+    "html_url": "https://github.com/qdrvm/hunter-binary-cache",
+    "language": "CMake",
+    "pushed_at": "2025-09-02T16:10:50Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cache",
+      "hunter"
+    ],
+    "updated_at": "2025-06-18T11:54:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is used to store hunter binary cache for Soramitsu Repositories.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "This repository is used to store hunter binary cache for Soramitsu Repositories.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunter"
+    }
+  ]
+}

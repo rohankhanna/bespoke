@@ -19,6 +19,18 @@
       "source_repo": "izelnakri/paper_trail",
       "status": "candidate-context",
       "text": "[![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "izelnakri/paper_trail",
       "status": "candidate",
       "text": "[![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate",
+      "text": "Audited"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "izelnakri/paper_trail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

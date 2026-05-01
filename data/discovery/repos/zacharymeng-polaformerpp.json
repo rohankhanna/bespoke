@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:30:34.791362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extension of PolaFormer",
+    "fork": false,
+    "full_name": "ZacharyMeng/PolaFormerPP",
+    "html_url": "https://github.com/ZacharyMeng/PolaFormerPP",
+    "language": "Python",
+    "pushed_at": "2025-10-26T05:54:43Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-03-07T06:08:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

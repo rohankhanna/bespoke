@@ -67,6 +67,18 @@
       "source_repo": "EzequielRamis/zimdjson",
       "status": "candidate-context",
       "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theseyan/lmdbx-zig",
+      "status": "candidate-context",
+      "text": "Zig bindings for libMDBX (a fork of LMDB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theseyan/lmdbx-zig",
+      "status": "candidate-context",
+      "text": "Zig bindings for [libMDBX](https://libmdbx.dqdkfa.ru/) (a fork of LMDB)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "EzequielRamis/zimdjson",
       "status": "candidate",
       "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theseyan/lmdbx-zig",
+      "status": "candidate",
+      "text": "Zig bindings for [libMDBX](https://libmdbx.dqdkfa.ru/) (a fork of LMDB)."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "EzequielRamis/zimdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "theseyan/lmdbx-zig"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

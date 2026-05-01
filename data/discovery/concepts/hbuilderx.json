@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hbuilderx"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate-context",
+      "text": "A cross-platform framework using Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate-context",
+      "text": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcloudio/uni-app",
+      "status": "candidate",
+      "text": "<p>\u7b80\u4f53\u4e2d\u6587 | <a href=\"./README_en-US.md\">English</a></p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hbuilderx",
+  "concept_id": "hbuilderx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dcloudio/uni-app"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hbuilderx",
+      "sense_id": "hbuilderx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

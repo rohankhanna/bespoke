@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:34:25.262601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4041
+    },
+    {
+      "path": "requirements.txt",
+      "size": 167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IGConv: Implicit Grid Convolution for Multi-Scale Image Super-Resolution",
+    "fork": false,
+    "full_name": "dslisleedh/IGConv",
+    "html_url": "https://github.com/dslisleedh/IGConv",
+    "language": "Python",
+    "pushed_at": "2024-11-15T08:42:08Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-04-13T04:01:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

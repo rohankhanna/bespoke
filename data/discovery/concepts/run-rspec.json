@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Run RSpec"
+    "Run RSpec",
+    "Run Rspec"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "rspec/rspec",
       "status": "candidate-context",
       "text": "Run RSpec"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sevenc-nanashi/voicevox.rb",
+      "status": "candidate-context",
+      "text": "voicevox_core\u306e\u975e\u516c\u5f0f\u30e9\u30c3\u30d1\u30fc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sevenc-nanashi/voicevox.rb",
+      "status": "candidate-context",
+      "text": "Run Rspec"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "rspec/rspec",
       "status": "candidate",
       "text": "Run RSpec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sevenc-nanashi/voicevox.rb",
+      "status": "candidate",
+      "text": "Run Rspec"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/rspec.yml",
       "source_repo": "rspec/rspec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sevenc-nanashi/voicevox.rb"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

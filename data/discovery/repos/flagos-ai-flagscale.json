@@ -83,34 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flagos-ai/FlagScale",
-      "target": "flagos-ai/transformerengine-fl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flagos-ai/FlagScale",
-      "target": "flagos-ai/flagos-robo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flagos-ai/FlagScale",
-      "target": "flagos-ai/megatron-lm-fl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flagos-ai/FlagScale",
-      "target": "flagos-ai/verl-fl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_tests_common.yml",
       "source_repo": "flagos-ai/FlagScale",
@@ -230,7 +202,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:21:24.067274+00:00",
+  "fetched_at": "2026-05-01T08:13:16.830307+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -287,28 +259,7 @@
     "topics": [],
     "updated_at": "2026-04-24T09:10:49Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "flagos-ai/flagos-robo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "flagos-ai/megatron-lm-fl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "flagos-ai/transformerengine-fl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "flagos-ai/verl-fl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Common All Tests",

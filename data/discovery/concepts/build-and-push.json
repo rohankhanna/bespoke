@@ -20,6 +20,12 @@
       "source_repo": "HumanSignal/label-studio-ml-backend",
       "status": "candidate-context",
       "text": "\"Build and Push\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "korewaChino/koboldCppDocker",
+      "status": "candidate-context",
+      "text": "Build and Push"
     }
   ],
   "candidate_glosses": [
@@ -28,6 +34,12 @@
       "source_repo": "HumanSignal/label-studio-ml-backend",
       "status": "candidate",
       "text": "\"Build and Push\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "korewaChino/koboldCppDocker",
+      "status": "candidate",
+      "text": "Build and Push"
     }
   ],
   "candidate_related_terms": [
@@ -83,11 +95,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "HumanSignal/label-studio-ml-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "korewaChino/koboldCppDocker"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

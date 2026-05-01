@@ -258,6 +258,20 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cargo-generate/cargo-generate",
+      "target": "topics/cargo-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cargo-generate/cargo-generate",
+      "target": "username-on-github/mytemplate",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "cargo-generate/cargo-generate",
@@ -566,7 +580,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:41:52.751037+00:00",
+  "fetched_at": "2026-05-01T09:18:54.865076+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -618,8 +632,8 @@
     "full_name": "cargo-generate/cargo-generate",
     "html_url": "https://github.com/cargo-generate/cargo-generate",
     "language": "Rust",
-    "pushed_at": "2026-04-23T00:15:37Z",
-    "stargazers_count": 2401,
+    "pushed_at": "2026-04-27T23:31:53Z",
+    "stargazers_count": 2404,
     "topics": [
       "cargo",
       "cargo-generate",
@@ -629,9 +643,20 @@
       "template-generator",
       "template-project"
     ],
-    "updated_at": "2026-04-22T18:02:08Z"
+    "updated_at": "2026-04-30T17:55:21Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "topics/cargo-generate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "username-on-github/mytemplate",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "Build",

@@ -79,6 +79,18 @@
       "source_repo": "JIA-Lab-research/Stratified-Transformer",
       "status": "candidate-context",
       "text": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of \"Learning to Estimate Robust 3D Human Mesh from In-the-Wild Crowded Scenes\", CVPR 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "status": "candidate-context",
+      "text": "![front_figur](./assets/front_figure.png)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "JIA-Lab-research/Stratified-Transformer",
       "status": "candidate",
       "text": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+      "status": "candidate",
+      "text": "![front_figur](./assets/front_figure.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +196,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hongsukchoi/3DCrowdNet_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

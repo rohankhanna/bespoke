@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChrisDud0257/AFINE",
+      "target": "yangxy/pasd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:20.914627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official code for our CVPR 2025 paper: \"Toward Generalized Image Quality Assessment: Relaxing the Perfect Reference Quality Assumption\"",
+    "fork": false,
+    "full_name": "ChrisDud0257/AFINE",
+    "html_url": "https://github.com/ChrisDud0257/AFINE",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-15T04:49:30Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-04-30T02:40:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangxy/pasd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

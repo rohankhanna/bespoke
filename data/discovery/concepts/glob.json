@@ -139,6 +139,18 @@
       "source_repo": "dmtrKovalenko/zlob",
       "status": "candidate-context",
       "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate-context",
+      "text": "A PostCSS plugin to extend postcss-import path resolver to allow glob usage as path, e.g. @import-glob \"**/*.css\";"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate-context",
+      "text": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "dmtrKovalenko/zlob",
       "status": "candidate",
       "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob",
+      "status": "candidate",
+      "text": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +508,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dimitrinicolas/postcss-import-ext-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

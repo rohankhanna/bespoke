@@ -154,6 +154,30 @@
       "source_repo": "drduh/config",
       "status": "candidate-context",
       "text": "Miscellaneous scripts and program configuration files used in:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "pre-configured CLI (linters, formatters) -> LSP (IDE) adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate-context",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "status": "candidate-context",
+      "text": "Simplifies getting the right configuration options for a request using loaded configurations from files to manage options for experiments or flights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "status": "candidate-context",
+      "text": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect."
     }
   ],
   "candidate_glosses": [
@@ -228,6 +252,18 @@
       "source_repo": "drduh/config",
       "status": "candidate",
       "text": "Miscellaneous scripts and program configuration files used in:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml",
+      "status": "candidate",
+      "text": "`efm-langserver` wraps CLIs and serves them over [LSP](https://microsoft.github.io/language-server-protocol/) for integration into code editors. It requires tool definitions to specify how to call the executable and parse the output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "status": "candidate",
+      "text": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect."
     }
   ],
   "candidate_related_terms": [
@@ -361,11 +397,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/config.yml",
       "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llllvvuu/efm-tool-definitions.yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "juharris/dotnet-OptionsProvider"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

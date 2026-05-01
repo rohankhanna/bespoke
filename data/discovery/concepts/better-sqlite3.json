@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "better-sqlite3"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate-context",
+      "text": "Electron\u26a1\ufe0fVite samples, includes C/C++ addons | \u6837\u677f\u4ee3\u7801\u96c6\u5408\uff0c\u5305\u542b C/C++ \u6269\u5c55"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate-context",
+      "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caoxiemeihao/electron-vite-samples",
+      "status": "candidate",
+      "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "better-sqlite3",
+  "concept_id": "better-sqlite3",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "caoxiemeihao/electron-vite-samples"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "better-sqlite3",
+      "sense_id": "better-sqlite3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

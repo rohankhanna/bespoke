@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "shx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/automerge.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/create-github-release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/publishTypedoc.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failureNotifications.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/actions/getPreReleaseTag@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/npmPublish.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml"
+    },
+    {
+      "component": "salesforcecli/pr-notification-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slackprnotification.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/validatePR.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "salesforcecli/github-workflows/.github/workflows/automerge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "salesforcecli/github-workflows/.github/workflows/create-github-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "salesforcecli/github-workflows/.github/workflows/publishTypedoc.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "create-github-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "slackapi/slack-github-action@v1.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "failureNotifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "salesforcecli/github-workflows/.github/actions/getPreReleaseTag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "salesforcecli/github-workflows/.github/workflows/npmPublish.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slackprnotification.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "salesforcecli/pr-notification-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slackprnotification.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "Slack pull request open notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "salesforcecli/github-workflows/.github/workflows/validatePR.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "forcedotcom/dev-config",
+      "target": "pr-validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:18:36.437895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 624
+    },
+    {
+      "path": "package.json",
+      "size": 884
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 204
+    },
+    {
+      "path": ".github/workflows/create-github-release.yml",
+      "size": 1189
+    },
+    {
+      "path": ".github/workflows/failureNotifications.yml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/onRelease.yml",
+      "size": 922
+    },
+    {
+      "path": ".github/workflows/slackprnotification.yml",
+      "size": 1014
+    },
+    {
+      "path": ".github/workflows/validate-pr.yml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "forcedotcom/dev-config",
+    "html_url": "https://github.com/forcedotcom/dev-config",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-26T19:38:19Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-03-26T19:38:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "automerge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "term": "automerge"
+    },
+    {
+      "context_snippet": "create-github-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "term": "create-github-release"
+    },
+    {
+      "context_snippet": "failureNotifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "term": "failureNotifications"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onRelease.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "Slack pull request open notification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slackprnotification.yml",
+      "term": "Slack pull request open notification"
+    },
+    {
+      "context_snippet": "pr-validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "term": "pr-validation"
+    }
+  ]
+}

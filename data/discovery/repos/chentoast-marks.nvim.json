@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chentoast/marks.nvim",
+      "target": "kshenoy/vim-signature",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chentoast/marks.nvim",
+      "target": "mattesgroeger/vim-bookmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "chentoast/marks.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "chentoast/marks.nvim",
+      "target": "leafo/gh-actions-lua@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "chentoast/marks.nvim",
+      "target": "leafo/gh-actions-luarocks@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "chentoast/marks.nvim",
+      "target": "LuaCheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:44.262271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7906
+    },
+    {
+      "path": ".github/workflows/luacheck.yml",
+      "size": 458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A better user experience for viewing and interacting with Vim marks.",
+    "fork": false,
+    "full_name": "chentoast/marks.nvim",
+    "html_url": "https://github.com/chentoast/marks.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-05-13T23:32:46Z",
+    "stargazers_count": 1157,
+    "topics": [],
+    "updated_at": "2026-04-29T05:23:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kshenoy/vim-signature",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattesgroeger/vim-bookmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "LuaCheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "term": "LuaCheck"
+    }
+  ]
+}

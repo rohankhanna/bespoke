@@ -57,6 +57,18 @@
       "source_repo": "RustCrypto/password-hashes",
       "status": "candidate-context",
       "text": "argon2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate-context",
+      "text": "Node.js bindings for Argon2 hashing algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate-context",
+      "text": "[![Financial contributors on Open Collective][opencollective-image]][opencollective-url]"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "RustCrypto/password-hashes",
       "status": "candidate",
       "text": "argon2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranisalt/node-argon2",
+      "status": "candidate",
+      "text": "[![Financial contributors on Open Collective][opencollective-image]][opencollective-url]"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +174,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/argon2.yml",
       "source_repo": "RustCrypto/password-hashes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ranisalt/node-argon2"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

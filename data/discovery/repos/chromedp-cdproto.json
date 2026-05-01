@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromedp/cdproto",
+      "target": "chromedp/cdproto-gen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "chromedp/cdproto",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "chromedp/cdproto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "chromedp/cdproto",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:14:27.042028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1303
+    },
+    {
+      "path": "go.mod",
+      "size": 164
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Package cdproto contains the generated commands, types, and events for the Chrome DevTools Protocol domains.",
+    "fork": false,
+    "full_name": "chromedp/cdproto",
+    "html_url": "https://github.com/chromedp/cdproto",
+    "language": null,
+    "pushed_at": "2026-04-27T01:31:51Z",
+    "stargazers_count": 178,
+    "topics": [],
+    "updated_at": "2026-04-28T10:10:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromedp/cdproto-gen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

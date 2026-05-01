@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unreal Engine plugin to work with SVG files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A free and open source SVG importer for Unreal Engine 5"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A free and open source SVG importer for Unreal Engine 5"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001859,
+      "status": "candidate",
+      "text": "unsubstantial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001688,
+      "status": "candidate",
+      "text": "insubstantial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000244,
+      "status": "candidate",
+      "text": "false"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999559,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998336,
+      "status": "candidate",
+      "text": "unlifelike"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unreal",
+      "sense_id": "unreal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59039,
+      "status": "candidate",
+      "text": "ethereal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39042,
+      "status": "candidate",
+      "text": "phantom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29041,
+      "status": "candidate",
+      "text": "faux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23040,
+      "status": "candidate",
+      "text": "airy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "fictitious"
+    }
+  ],
+  "concept_id": "unreal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unreal",
+  "observation_id": "7ba69282c10eccc8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "unreal",
+  "source_context_snippet": "A free and open source SVG importer for Unreal Engine 5",
+  "source_file": null,
+  "source_repo": "etodanik/SvgBooga",
+  "source_repo_description": "Unreal Engine plugin to work with SVG files"
+}

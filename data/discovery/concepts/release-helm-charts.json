@@ -45,6 +45,18 @@
       "source_repo": "kubeflow/spark-operator",
       "status": "candidate-context",
       "text": "Release Helm charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner",
+      "status": "candidate-context",
+      "text": "Static provisioner of local volumes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner",
+      "status": "candidate-context",
+      "text": "Release Helm Charts"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "kubeflow/spark-operator",
       "status": "candidate",
       "text": "Release Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner",
+      "status": "candidate",
+      "text": "Release Helm Charts"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/release-helm-charts.yaml",
       "source_repo": "kubeflow/spark-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/helm-chart-release.yml",
+      "source_repo": "kubernetes-sigs/sig-storage-local-static-provisioner"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

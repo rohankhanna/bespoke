@@ -340,28 +340,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "pypi/warehouse",
-      "target": "bpython/bpython",
+      "target": "nedbat/coveragepy",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "pypi/warehouse",
-      "target": "backblaze/b2-sdk-python",
+      "target": "ecordell/pymacaroons",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "pypi/warehouse",
-      "target": "celery/celery",
+      "target": "pylons/pyramid",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "pypi/warehouse",
-      "target": "di/packaging_legacy",
+      "target": "evansd/whitenoise",
       "target_type": "repository"
     },
     {
@@ -487,7 +487,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/node-ci.yml",
       "source_repo": "pypi/warehouse",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -526,6 +526,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "pypi/warehouse"
 }

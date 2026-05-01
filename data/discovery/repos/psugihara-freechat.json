@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psugihara/FreeChat",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:25:31.196425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "llama.cpp based AI chat app for macOS",
+    "fork": false,
+    "full_name": "psugihara/FreeChat",
+    "html_url": "https://github.com/psugihara/FreeChat",
+    "language": "Swift",
+    "pushed_at": "2024-11-25T17:19:47Z",
+    "stargazers_count": 500,
+    "topics": [],
+    "updated_at": "2026-04-21T00:30:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

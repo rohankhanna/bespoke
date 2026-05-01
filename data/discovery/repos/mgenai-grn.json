@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MGenAI/GRN",
+      "target": "lth14/torch-fidelity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MGenAI/GRN",
+      "target": "lth14/jit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:08:54.549010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generative Refinement Networks for Visual Synthesis",
+    "fork": false,
+    "full_name": "MGenAI/GRN",
+    "html_url": "https://github.com/MGenAI/GRN",
+    "language": "Python",
+    "pushed_at": "2026-04-29T13:56:06Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-04-30T05:04:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lth14/jit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lth14/torch-fidelity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

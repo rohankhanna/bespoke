@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -894,6 +894,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "PixarAnimationStudios/OpenUSD"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/voicevox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_preview_pages.yml",
+      "source_repo": "VOICEVOX/voicevox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_version.yml",
+      "source_repo": "VOICEVOX/voicevox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "VOICEVOX/voicevox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yaml",
+      "source_repo": "kubernetes-sigs/lws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AcademySoftwareFoundation/openfx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "reduxjs/redux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/size.yaml",
+      "source_repo": "reduxjs/redux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "reduxjs/redux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-binaries.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-sdks.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-dev-release.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-info.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-performance-gate.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-prepare-release.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-run-test.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ocapn-guile-interop.yml",
+      "source_repo": "endojs/endo"
     }
   ]
 }

@@ -175,6 +175,18 @@
       "source_repo": "tuist/XcodeProj",
       "status": "candidate-context",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "specta/specta",
+      "status": "candidate-context",
+      "text": "A light-weight TDD / BDD framework for Objective-C & Cocoa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta/specta",
+      "status": "candidate-context",
+      "text": "A light-weight TDD / BDD framework for Objective-C."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "tuist/XcodeProj",
       "status": "candidate",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta/specta",
+      "status": "candidate",
+      "text": "A light-weight TDD / BDD framework for Objective-C."
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +424,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "specta/specta"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

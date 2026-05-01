@@ -67,6 +67,54 @@
       "source_repo": "soubhiksanyal/RingNet",
       "status": "candidate-context",
       "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is a implementation of the 3D FLAME model in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate-context",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate-context",
+      "text": "This is the official repository for evaluation on the NoW Benchmark Dataset. The goal of the NoW benchmark is to introduce a standard evaluation metric to measure the accuracy and robustness of 3D face reconstruction methods from a single image under variations in viewing angle, lighting, and common occlusions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate-context",
+      "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "Tensorflow framework for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 2D or 3D keypoints, and how to generate textured head meshes from Images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate-context",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "Example code for the FLAME 3D head model. The code demonstrates how to sample 3D heads from the model, fit the model to 3D keypoints and 3D scans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate-context",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "soubhiksanyal/RingNet",
       "status": "candidate",
       "text": "![alt text](https://github.com/soubhiksanyal/RingNet/blob/master/gif/celeba_reconstruction.gif?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/FLAME_PyTorch",
+      "status": "candidate",
+      "text": "This is an implementation of the [FLAME](http://flame.is.tue.mpg.de/) 3D head model in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soubhiksanyal/now_evaluation",
+      "status": "candidate",
+      "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/TF_FLAME",
+      "status": "candidate",
+      "text": "This is an official Tensorflow-based [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rubikplayer/flame-fitting",
+      "status": "candidate",
+      "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +280,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "soubhiksanyal/RingNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/FLAME_PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "soubhiksanyal/now_evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/TF_FLAME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Rubikplayer/flame-fitting"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "react-data-grid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comcast/react-data-grid",
+      "status": "candidate-context",
+      "text": "Feature-rich and customizable data grid React component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comcast/react-data-grid",
+      "status": "candidate-context",
+      "text": "[![npm-badge]][npm-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comcast/react-data-grid",
+      "status": "candidate",
+      "text": "[![npm-badge]][npm-url]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "react-data-grid",
+  "concept_id": "react-data-grid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Comcast/react-data-grid"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "react-data-grid",
+      "sense_id": "react-data-grid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

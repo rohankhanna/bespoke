@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check_generated_vrl_docs.yml",
       "source_repo": "openobserve/vector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "reduxjs/redux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c3-e2e.yml",
+      "source_repo": "cloudflare/workers-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-e2e-tests-non-root.yaml",
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-code-nonroot.yaml",
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-code-root.yaml",
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-code-smoke-nonroot.yaml",
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "anolilab/unplugin-favicons"
     }
   ]
 }

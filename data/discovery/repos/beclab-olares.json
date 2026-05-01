@@ -1,0 +1,737 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-redis-231.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-redis.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-redis.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu2204.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wsl2326.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "fjogeleit/http-request-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "eball/poll-check-endpoint@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_build_main.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_build_main.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beclab/Olares",
+      "target": "beclab/apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beclab/Olares",
+      "target": "authelia/authelia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beclab/Olares",
+      "target": "haiwen/seafile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beclab/Olares",
+      "target": "grgalex/nvshare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-redis-231.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-redis-231.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "Build and Upload Redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-redis.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-redis.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "Build and Upload Redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu2204.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu2204.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "Build and Upload WSL Ubuntu2204",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wsl2326.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wsl2326.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "Build and Upload WSL MSI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "azure/setup-helm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "helm/chart-testing-action@v2.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "fjogeleit/http-request-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "eball/poll-check-endpoint@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "azure/setup-helm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-lint-check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "helm/chart-testing-action@v2.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-lint-check.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "Lint Check Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_build_main.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_build_main.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/module_appservice_build_main.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "App-Service Build test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "Publish app-service to Dockerhub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml",
+      "source_repo": "beclab/Olares",
+      "target": "Publish image-service to Dockerhub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "ai-privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "edge-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "home-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "home-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "home-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "homelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "homeserver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "local-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "model-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "personal-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beclab/Olares",
+      "target": "self-hosted",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:38.046946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10308
+    },
+    {
+      "path": ".github/workflows/build-redis-231.yaml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/build-redis.yaml",
+      "size": 1816
+    },
+    {
+      "path": ".github/workflows/build-ubuntu2204.yaml",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/build-wsl2326.yaml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "size": 10064
+    },
+    {
+      "path": ".github/workflows/daily-lint-check.yaml",
+      "size": 840
+    },
+    {
+      "path": ".github/workflows/module_appservice_build_main.yaml",
+      "size": 874
+    },
+    {
+      "path": ".github/workflows/module_appservice_publish_docker.yaml",
+      "size": 2084
+    },
+    {
+      "path": ".github/workflows/module_appservice_publish_imageservice.yaml",
+      "size": 2115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Olares: An Open-Source Personal Cloud to Reclaim Your Data",
+    "fork": false,
+    "full_name": "beclab/Olares",
+    "html_url": "https://github.com/beclab/Olares",
+    "language": "Go",
+    "pushed_at": "2026-05-01T01:21:34Z",
+    "stargazers_count": 4493,
+    "topics": [
+      "ai-agents",
+      "ai-privacy",
+      "edge-ai",
+      "home-automation",
+      "home-cloud",
+      "home-server",
+      "homelab",
+      "homeserver",
+      "kubernetes",
+      "local-ai",
+      "mcp",
+      "model-serving",
+      "personal-cloud",
+      "self-hosted"
+    ],
+    "updated_at": "2026-05-01T07:05:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "authelia/authelia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beclab/apps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grgalex/nvshare",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haiwen/seafile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Upload Redis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-redis-231.yaml",
+      "term": "Build and Upload Redis"
+    },
+    {
+      "context_snippet": "Build and Upload Redis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-redis.yaml",
+      "term": "Build and Upload Redis"
+    },
+    {
+      "context_snippet": "Build and Upload WSL Ubuntu2204",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu2204.yaml",
+      "term": "Build and Upload WSL Ubuntu2204"
+    },
+    {
+      "context_snippet": "Build and Upload WSL MSI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wsl2326.yaml",
+      "term": "Build and Upload WSL MSI"
+    },
+    {
+      "context_snippet": "Lint and Test Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "term": "Lint and Test Charts"
+    },
+    {
+      "context_snippet": "Lint Check Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-lint-check.yaml",
+      "term": "Lint Check Charts"
+    },
+    {
+      "context_snippet": "App-Service Build test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/module_appservice_build_main.yaml",
+      "term": "App-Service Build test"
+    },
+    {
+      "context_snippet": "Publish app-service to Dockerhub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml",
+      "term": "Publish app-service to Dockerhub"
+    },
+    {
+      "context_snippet": "Publish image-service to Dockerhub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml",
+      "term": "Publish image-service to Dockerhub"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-privacy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-automation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-cloud"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-server"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homelab"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homeserver"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-serving"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personal-cloud"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    }
+  ]
+}

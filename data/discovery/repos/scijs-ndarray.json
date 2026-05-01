@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "iota-array",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-buffer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "permutation-rank",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "invert-permutation",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scijs/ndarray",
+      "target": "scijs/scijs-ndarray-for-matlab-users",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scijs/ndarray",
+      "target": "chrisdickinson/beefy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scijs/ndarray",
+      "target": "mikolalysenko/typedarray-pool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scijs/ndarray",
+      "target": "mikolalysenko/ndarray-experiments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "scijs/ndarray",
+      "target": "iota-array",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "scijs/ndarray",
+      "target": "is-buffer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "scijs/ndarray",
+      "target": "permutation-rank",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "scijs/ndarray",
+      "target": "dup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "scijs/ndarray",
+      "target": "invert-permutation",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "scijs/ndarray",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:19:35.743350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9628
+    },
+    {
+      "path": "package.json",
+      "size": 1315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcc8 Multidimensional arrays for JavaScript",
+    "fork": false,
+    "full_name": "scijs/ndarray",
+    "html_url": "https://github.com/scijs/ndarray",
+    "language": "JavaScript",
+    "pushed_at": "2022-01-29T18:00:01Z",
+    "stargazers_count": 1245,
+    "topics": [],
+    "updated_at": "2026-04-26T15:06:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisdickinson/beefy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikolalysenko/ndarray-experiments",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikolalysenko/typedarray-pool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scijs/scijs-ndarray-for-matlab-users",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

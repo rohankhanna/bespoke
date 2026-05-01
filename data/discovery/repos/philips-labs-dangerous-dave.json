@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "@abandonware/noble",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ascii-table",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "circular-buffer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hex2ascii",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-beacon-scanner",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-trilateration",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "single-line-log",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philips-labs/dangerous-dave",
+      "target": "futomi/node-beacon-scanner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "philips-labs/dangerous-dave",
+      "target": "@abandonware/noble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "philips-labs/dangerous-dave",
+      "target": "ascii-table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "philips-labs/dangerous-dave",
+      "target": "circular-buffer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "philips-labs/dangerous-dave",
+      "target": "hex2ascii",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "philips-labs/dangerous-dave",
+      "target": "node-beacon-scanner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "philips-labs/dangerous-dave",
+      "target": "node-trilateration",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "philips-labs/dangerous-dave",
+      "target": "single-line-log",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:14:27.709564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1004
+    },
+    {
+      "path": "package.json",
+      "size": 354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Dangerous Dave",
+    "fork": false,
+    "full_name": "philips-labs/dangerous-dave",
+    "html_url": "https://github.com/philips-labs/dangerous-dave",
+    "language": "Python",
+    "pushed_at": "2022-03-30T07:44:54Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-07-25T01:49:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "futomi/node-beacon-scanner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

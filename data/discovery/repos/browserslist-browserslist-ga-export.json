@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "browserslist-ga",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "csvtojson",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fast-glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "crlf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/browserslist-ga-export",
+      "target": "browserslist-ga",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/browserslist-ga-export",
+      "target": "csvtojson",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/browserslist-ga-export",
+      "target": "fast-glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/browserslist-ga-export",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/browserslist-ga-export",
+      "target": "crlf",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:17:49.083434+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 911
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate browserslist-stats.json using Browserslist-GA without logging into a Google Account.",
+    "fork": false,
+    "full_name": "browserslist/browserslist-ga-export",
+    "html_url": "https://github.com/browserslist/browserslist-ga-export",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-03T02:31:44Z",
+    "stargazers_count": 73,
+    "topics": [],
+    "updated_at": "2026-02-25T09:51:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1901,6 +1901,114 @@
       "source_repo": "beached/daw_json_link",
       "status": "candidate-context",
       "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/realcugan-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "real-cugan converter ncnn version, runs fast on intel / amd / nvidia / apple-silicon GPU with vulkan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/realcugan-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": ":exclamation: :exclamation: :exclamation: This software is in the early development stage, it may bite your cat"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/waifu2x-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "waifu2x converter ncnn version, runs fast on intel / amd / nvidia / apple-silicon GPU with vulkan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/waifu2x-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/nihui/waifu2x-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate-context",
+      "text": "A tiny, neat C library that portably invokes native file open and save dialogs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate-context",
+      "text": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/json",
+      "status": "candidate-context",
+      "text": "JSON for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/json",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate-context",
+      "text": "BusKill's main CLI/GUI app for arming/disarming/configuring the BusKill laptop kill cord"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate-context",
+      "text": "A desktop application for managing Docker database containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jackielii/skhd.zig",
+      "status": "candidate-context",
+      "text": "Simple Hotkey Daemon for macOS, ported from skhd by koekeishiya"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackielii/skhd.zig",
+      "status": "candidate-context",
+      "text": "Simple Hotkey Daemon for macOS, ported from [skhd](https://github.com/koekeishiya/skhd) to Zig."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "Streamlining reinforcement learning with RLOps. State-of-the-art RL algorithms and tools, with 10x faster training through evolutionary hyperparameter optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate-context",
+      "text": "macOS"
     }
   ],
   "candidate_glosses": [
@@ -2863,6 +2971,60 @@
       "source_repo": "beached/daw_json_link",
       "status": "candidate",
       "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/realcugan-ncnn-vulkan",
+      "status": "candidate",
+      "text": ":exclamation: :exclamation: :exclamation: This software is in the early development stage, it may bite your cat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/waifu2x-ncnn-vulkan",
+      "status": "candidate",
+      "text": "![CI](https://github.com/nihui/waifu2x-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlabbe/nativefiledialog",
+      "status": "candidate",
+      "text": "A tiny, neat C library that portably invokes native file open, folder select and save dialogs. Write dialog code once and have it pop up native dialogs on all supported platforms. Avoid linking large dependencies like wxWidgets and qt."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/json",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BusKill/buskill-app",
+      "status": "candidate",
+      "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbianS/docker-db-manager",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackielii/skhd.zig",
+      "status": "candidate",
+      "text": "Simple Hotkey Daemon for macOS, ported from [skhd](https://github.com/koekeishiya/skhd) to Zig."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgileRL/AgileRL",
+      "status": "candidate",
+      "text": "macOS"
     }
   ],
   "candidate_related_terms": [
@@ -4196,11 +4358,113 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nihui/realcugan-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nihui/waifu2x-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlabbe/nativefiledialog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "DiligentGraphics/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "BusKill/buskill-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AbianS/docker-db-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jackielii/skhd.zig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/macos-tests.yml",
+      "source_repo": "AgileRL/AgileRL"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

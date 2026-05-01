@@ -2,7 +2,8 @@
   "aliases": [
     "Build macOS",
     "Build MacOS",
-    "build-macos"
+    "build-macos",
+    "Build (macos)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -129,6 +130,30 @@
       "source_repo": "getlantern/lantern",
       "status": "candidate-context",
       "text": "Build macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate-context",
+      "text": "Runtime environment based on OpenJDK for running IntelliJ Platform-based products on Windows, macOS, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate-context",
+      "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate-context",
+      "text": "An OpenJDK release maintained and supported by SAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate-context",
+      "text": "'Build (macos)'"
     }
   ],
   "candidate_glosses": [
@@ -191,6 +216,18 @@
       "source_repo": "getlantern/lantern",
       "status": "candidate",
       "text": "Build macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate",
+      "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate",
+      "text": "'Build (macos)'"
     }
   ],
   "candidate_related_terms": [
@@ -228,6 +265,41 @@
       "score": 4424,
       "status": "candidate",
       "text": "accrete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
     }
   ],
   "candidate_synonyms": [],
@@ -432,11 +504,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "SAP/SapMachine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

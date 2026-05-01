@@ -1,0 +1,12 @@
+{
+  "component": "andymckay/labeler@3a4296e9dcdf9576b0456050db78cfd34853f260",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new-issues.yml",
+      "source_repo": "mdn/content"
+    }
+  ]
+}

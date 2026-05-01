@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "pipecat-ai/docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "pipecat-ai/docs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "pipecat-ai/docs",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "pipecat-ai/docs",
+      "target": "Check for Broken Links",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:36:38.124038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1303
+    },
+    {
+      "path": ".github/workflows/broken-links.yml",
+      "size": 1405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Pipecat docs repo",
+    "fork": false,
+    "full_name": "pipecat-ai/docs",
+    "html_url": "https://github.com/pipecat-ai/docs",
+    "language": "MDX",
+    "pushed_at": "2026-04-30T20:01:55Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-28T16:41:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check for Broken Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/broken-links.yml",
+      "term": "Check for Broken Links"
+    }
+  ]
+}

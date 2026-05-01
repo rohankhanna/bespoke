@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "shogo82148/actions-upload-release-asset@ee2ae851dc5d938b90075b3ef12c540abfd1ee72",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/scp-action@ff85246acaad7bdce478db94a363cd2bf7c90345",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/ssh-action@0ff4204d59e8e51228ff73bce53f80d53301dee2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "Homebrew/actions/setup-homebrew@996ddca5fc18b6bef4882270edbe9ef95bfffd87",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "shogo82148/actions-upload-release-asset@ee2ae851dc5d938b90075b3ef12c540abfd1ee72",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/scp-action@ff85246acaad7bdce478db94a363cd2bf7c90345",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_mac_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/ssh-action@0ff4204d59e8e51228ff73bce53f80d53301dee2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "shogo82148/actions-upload-release-asset@ee2ae851dc5d938b90075b3ef12c540abfd1ee72",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/scp-action@ff85246acaad7bdce478db94a363cd2bf7c90345",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/ssh-action@0ff4204d59e8e51228ff73bce53f80d53301dee2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_win_clang_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_win_clang_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_win_clang_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_win_clang_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_win_clang_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_win_clang_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "shogo82148/actions-upload-release-asset@ee2ae851dc5d938b90075b3ef12c540abfd1ee72",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_win_clang_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/scp-action@ff85246acaad7bdce478db94a363cd2bf7c90345",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_meta_win_clang_portable.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/ssh-action@0ff4204d59e8e51228ff73bce53f80d53301dee2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "\ud83c\udfd7\ufe0f Build jellyfin-ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "appleboy/ssh-action@0ff4204d59e8e51228ff73bce53f80d53301dee2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "\ud83d\ude80 Build and Publish jellyfin-ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jellyfin/jellyfin-ffmpeg",
+      "target": "ffmpeg",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "jellyfin/jellyfin-ffmpeg"
+}

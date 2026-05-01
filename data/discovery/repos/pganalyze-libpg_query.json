@@ -41,21 +41,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pganalyze/libpg_query",
-      "target": "alculquicondor/psqlparse",
+      "target": "dani-maarouf/psqlparse2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pganalyze/libpg_query",
-      "target": "ankane/pghero",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pganalyze/libpg_query",
-      "target": "ankane/dexter",
+      "target": "gjalves/pgscope",
       "target_type": "repository"
     },
     {
@@ -63,6 +56,13 @@
       "source_file": "README.md",
       "source_repo": "pganalyze/libpg_query",
       "target": "aanari/pg-materialize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pganalyze/libpg_query",
+      "target": "cwida/duckdb",
       "target_type": "repository"
     },
     {
@@ -94,7 +94,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T16:06:24.748437+00:00",
+  "fetched_at": "2026-05-01T10:23:05.446539+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -127,17 +127,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alculquicondor/psqlparse",
+      "full_name": "cwida/duckdb",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ankane/dexter",
+      "full_name": "dani-maarouf/psqlparse2",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ankane/pghero",
+      "full_name": "gjalves/pgscope",
       "source_file": "README.md"
     }
   ],

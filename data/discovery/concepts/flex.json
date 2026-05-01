@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "flex"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lexxmark/winflexbison",
+      "status": "candidate-context",
+      "text": "Main winflexbision repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lexxmark/winflexbison",
+      "status": "candidate-context",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/58lcjnr0mb9uc8c8/branch/master?svg=true)](https://ci.appveyor.com/project/lexxmark/winflexbison/branch/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate-context",
+      "text": "Responsive React Flexbox (CSS Flexible Box Layout Module) grid system based heavily on the standard CSS API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lexxmark/winflexbison",
+      "status": "candidate",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/58lcjnr0mb9uc8c8/branch/master?svg=true)](https://ci.appveyor.com/project/lexxmark/winflexbison/branch/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036818,
+      "status": "candidate",
+      "text": "flexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034939,
+      "status": "candidate",
+      "text": "bending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034684,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018361,
+      "status": "candidate",
+      "text": "flection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954118,
+      "status": "candidate",
+      "text": "inflection"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19043,
+      "status": "candidate",
+      "text": "inflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17053,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "flection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3037,
+      "status": "candidate",
+      "text": "flexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "bending"
+    }
+  ],
+  "canonical_name": "flex",
+  "concept_id": "flex",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lexxmark/winflexbison"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flex",
+      "sense_id": "flex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

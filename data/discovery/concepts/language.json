@@ -391,6 +391,18 @@
       "source_repo": "bakpakin/Fennel",
       "status": "candidate-context",
       "text": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iflytek/VLE",
+      "status": "candidate-context",
+      "text": "VLE: Vision-Language Encoder (VLE: \u89c6\u89c9-\u8bed\u8a00\u591a\u6a21\u6001\u9884\u8bad\u7ec3\u6a21\u578b)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/VLE",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587**](README_ZH.md) | [**English**](https://github.com/iflytek/VLE)"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "bakpakin/Fennel",
       "status": "candidate",
       "text": "[Fennel][1] is a lisp that compiles to Lua. It aims to be easy to use,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/VLE",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587**](README_ZH.md) | [**English**](https://github.com/iflytek/VLE)"
     }
   ],
   "candidate_related_terms": [
@@ -940,11 +958,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/VLE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

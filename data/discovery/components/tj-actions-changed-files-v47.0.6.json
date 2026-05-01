@@ -1,0 +1,37 @@
+{
+  "component": "tj-actions/changed-files@v47.0.6",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bug-report-template.yml",
+      "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gherkin-lint.yml",
+      "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "activeadmin/activeadmin"
+    }
+  ]
+}

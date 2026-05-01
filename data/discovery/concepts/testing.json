@@ -1139,6 +1139,138 @@
       "source_repo": "lefou/LambdaTest",
       "status": "candidate-context",
       "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llnl/blt",
+      "status": "candidate-context",
+      "text": "A streamlined CMake build system foundation for developing HPC software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/blt",
+      "status": "candidate-context",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jmockit/jmockit1",
+      "status": "candidate-context",
+      "text": "Advanced Java library for integration testing, mocking, faking, and code coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmockit/jmockit1",
+      "status": "candidate-context",
+      "text": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate-context",
+      "text": "Compile Rust projects with the Android NDK without hassle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate-context",
+      "text": "[<img alt=\"CI\" src=\"https://github.com/bbqsrc/cargo-ndk/actions/workflows/ci.yml/badge.svg\">](https://github.com/bbqsrc/cargo-ndk/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate-context",
+      "text": "Community maintained modules for Testcontainers for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs-modules-community/workflows/Continuous%20Integration/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate-context",
+      "text": "Preact adapter for the Enzyme UI testing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate-context",
+      "text": "This is an adapter to support using the [Enzyme](https://enzymejs.github.io/enzyme/) UI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate-context",
+      "text": "Render preact components with access to the produced virtual dom for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate-context",
+      "text": "preact-render-spy is a package designed to cover many of the use cases for testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/sdk",
+      "status": "candidate-context",
+      "text": "A library to provide abstractions to access common utilities when developing Dioxus applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/sdk",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate-context",
+      "text": "A Matcher Framework for Swift and Objective-C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "specta/specta",
+      "status": "candidate-context",
+      "text": "A light-weight TDD / BDD framework for Objective-C & Cocoa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta/specta",
+      "status": "candidate-context",
+      "text": "A light-weight TDD / BDD framework for Objective-C."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate-context",
+      "text": "Node filesystem spies and mocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate-context",
+      "text": "Spy on filesystem calls. Create file system mocks. Use for testing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "Headless browser for Go for TDD workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
     }
   ],
   "candidate_glosses": [
@@ -1705,6 +1837,72 @@
       "source_repo": "lefou/LambdaTest",
       "status": "candidate",
       "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llnl/blt",
+      "status": "candidate",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmockit/jmockit1",
+      "status": "candidate",
+      "text": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbqsrc/cargo-ndk",
+      "status": "candidate",
+      "text": "[<img alt=\"CI\" src=\"https://github.com/bbqsrc/cargo-ndk/actions/workflows/ci.yml/badge.svg\">](https://github.com/bbqsrc/cargo-ndk/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-rs-modules-community",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/testcontainers/testcontainers-rs-modules-community/workflows/Continuous%20Integration/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/enzyme-adapter-preact-pure",
+      "status": "candidate",
+      "text": "This is an adapter to support using the [Enzyme](https://enzymejs.github.io/enzyme/) UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzgoddard/preact-render-spy",
+      "status": "candidate",
+      "text": "preact-render-spy is a package designed to cover many of the use cases for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/sdk",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Quick/Nimble",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml/badge.svg)](https://github.com/Quick/Nimble/actions/workflows/ci-xcode.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta/specta",
+      "status": "candidate",
+      "text": "A light-weight TDD / BDD framework for Objective-C."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/spyfs",
+      "status": "candidate",
+      "text": "Spy on filesystem calls. Create file system mocks. Use for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gost-dom/browser",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -2475,11 +2673,113 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "llnl/blt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jmockit/jmockit1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bbqsrc/cargo-ndk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-rs-modules-community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/enzyme-adapter-preact-pure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mzgoddard/preact-render-spy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Quick/Nimble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "specta/specta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/spyfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gost-dom/browser"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

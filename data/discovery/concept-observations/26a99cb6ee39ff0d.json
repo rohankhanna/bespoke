@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples demonstrating usage of Spring AI & Spring AI Alibaba \ud83d\udcdc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SAA Playground Docker Build and Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SAA Playground Docker Build and Publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30981,
+      "status": "candidate",
+      "text": "gambling den"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30981,
+      "status": "candidate",
+      "text": "gambling hell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30981,
+      "status": "candidate",
+      "text": "gambling house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30981,
+      "status": "candidate",
+      "text": "gaming house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30981,
+      "status": "candidate",
+      "text": "summon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SAA Playground Docker Build and Publish",
+      "sense_id": "saa-playground-docker-build-and-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "saa-playground-docker-build-and-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "saa-playground-docker-build-and-publish",
+  "observation_id": "26a99cb6ee39ff0d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "SAA Playground Docker Build and Publish",
+  "source_context_snippet": "SAA Playground Docker Build and Publish",
+  "source_file": ".github/workflows/saa-playground-docker-publish.yml",
+  "source_repo": "spring-ai-alibaba/examples",
+  "source_repo_description": "Examples demonstrating usage of Spring AI & Spring AI Alibaba \ud83d\udcdc"
+}

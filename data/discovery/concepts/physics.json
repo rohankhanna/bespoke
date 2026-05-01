@@ -67,6 +67,18 @@
       "source_repo": "JamieMair/MuJoCo.jl",
       "status": "candidate-context",
       "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalo/mujoco_wasm",
+      "status": "candidate-context",
+      "text": "Simulate and Render MuJoCo Models in the Browser!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalo/mujoco_wasm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "JamieMair/MuJoCo.jl",
       "status": "candidate",
       "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalo/mujoco_wasm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -199,11 +217,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zalo/mujoco_wasm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

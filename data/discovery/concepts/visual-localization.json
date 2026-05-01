@@ -31,6 +31,30 @@
       "source_repo": "gmberton/MegaLoc",
       "status": "candidate-context",
       "text": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate-context",
+      "text": "ONNX-compatible LightGlue: Local Feature Matching at Light Speed. Supports TensorRT, OpenVINO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate-context",
+      "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "naver/kapture",
+      "status": "candidate-context",
+      "text": "kapture is a file format as well as a set of tools for manipulating datasets, and in particular Visual Localization and Structure from Motion data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naver/kapture",
+      "status": "candidate-context",
+      "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "gmberton/MegaLoc",
       "status": "candidate",
       "text": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/LightGlue-ONNX",
+      "status": "candidate",
+      "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naver/kapture",
+      "status": "candidate",
+      "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "gmberton/MegaLoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fabio-sim/LightGlue-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "naver/kapture"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

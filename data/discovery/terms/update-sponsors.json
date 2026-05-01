@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/sponsors.yml",
       "source_repo": "cheeriojs/cheerio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update-sponsors.yml",
+      "source_repo": "vuejs/router"
     }
   ],
   "term": "Update sponsors"

@@ -139,6 +139,42 @@
       "source_repo": "ricardofbarros/linter-js-standard",
       "status": "candidate-context",
       "text": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "Context sensitive completion for OCaml in Vim and Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f Default branch recently renamed to `main`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1000ch/atom-csso",
+      "status": "candidate-context",
+      "text": "Minify CSS with CSSO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1000ch/atom-csso",
+      "status": "candidate-context",
+      "text": "csso \u2014 Minify CSS with CSSO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate-context",
+      "text": "An Atom linter interface for write-good."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate-context",
+      "text": "Naive linter for English prose for developers who can't write good and wanna"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "ricardofbarros/linter-js-standard",
       "status": "candidate",
       "text": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/merlin",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f Default branch recently renamed to `main`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1000ch/atom-csso",
+      "status": "candidate",
+      "text": "csso \u2014 Minify CSS with CSSO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate",
+      "text": "Naive linter for English prose for developers who can't write good and wanna"
     }
   ],
   "candidate_related_terms": [
@@ -435,11 +489,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ocaml/merlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "1000ch/atom-csso"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

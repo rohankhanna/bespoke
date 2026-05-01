@@ -1,0 +1,288 @@
+{
+  "components": [
+    {
+      "component": "cssnano",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "last-call-webpack-plugin",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-object-rest-spread",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-polyfill",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "extract-text-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "style-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "webpack-contrib/css-minimizer-webpack-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "cssnano",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "last-call-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "babel-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "babel-plugin-transform-object-rest-spread",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "babel-polyfill",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "babel-preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "css-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "extract-text-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "style-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "css-assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "css-processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "minimisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "minimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "minimizes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NMFR/optimize-css-assets-webpack-plugin",
+      "target": "webpack-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:06:50.826763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2790
+    },
+    {
+      "path": "package.json",
+      "size": 1256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Webpack plugin to optimize \\ minimize CSS assets.",
+    "fork": false,
+    "full_name": "NMFR/optimize-css-assets-webpack-plugin",
+    "html_url": "https://github.com/NMFR/optimize-css-assets-webpack-plugin",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-07T17:53:46Z",
+    "stargazers_count": 1137,
+    "topics": [
+      "css-assets",
+      "css-processor",
+      "minimisation",
+      "minimization",
+      "minimizes",
+      "webpack-plugin"
+    ],
+    "updated_at": "2026-04-02T21:43:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webpack-contrib/css-minimizer-webpack-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-assets"
+    },
+    {
+      "context_snippet": "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-processor"
+    },
+    {
+      "context_snippet": "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimisation"
+    },
+    {
+      "context_snippet": "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimization"
+    },
+    {
+      "context_snippet": "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimizes"
+    },
+    {
+      "context_snippet": "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webpack-plugin"
+    }
+  ]
+}

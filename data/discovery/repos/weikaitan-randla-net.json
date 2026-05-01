@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:26:36.368927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Toronto-3D and OpenGF dataset code on RandLA-Net",
+    "fork": true,
+    "full_name": "WeikaiTan/RandLA-Net",
+    "html_url": "https://github.com/WeikaiTan/RandLA-Net",
+    "language": "Python",
+    "pushed_at": "2023-03-28T17:24:40Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-19T14:23:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

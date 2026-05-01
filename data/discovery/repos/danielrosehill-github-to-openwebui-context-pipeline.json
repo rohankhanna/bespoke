@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-knowledge.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-knowledge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+      "target": "username/github-to-openwebui-context-pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-knowledge.yml",
+      "source_repo": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-knowledge.yml",
+      "source_repo": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-knowledge.yml",
+      "source_repo": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+      "target": "Sync Knowledge to OpenWebUI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:34.706957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5662
+    },
+    {
+      "path": ".github/workflows/sync-knowledge.yml",
+      "size": 1611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Model data pipeline from a Github repository to Open Web UI knowledge using actions",
+    "fork": false,
+    "full_name": "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+    "html_url": "https://github.com/danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+    "language": "Python",
+    "pushed_at": "2025-03-21T00:09:53Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-15T20:26:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "username/github-to-openwebui-context-pipeline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync Knowledge to OpenWebUI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-knowledge.yml",
+      "term": "Sync Knowledge to OpenWebUI"
+    }
+  ]
+}

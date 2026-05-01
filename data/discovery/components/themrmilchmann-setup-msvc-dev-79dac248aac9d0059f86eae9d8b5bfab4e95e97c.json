@@ -1,0 +1,12 @@
+{
+  "component": "TheMrMilchmann/setup-msvc-dev@79dac248aac9d0059f86eae9d8b5bfab4e95e97c",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable_basic.yml",
+      "source_repo": "oneapi-src/unified-memory-framework"
+    }
+  ]
+}

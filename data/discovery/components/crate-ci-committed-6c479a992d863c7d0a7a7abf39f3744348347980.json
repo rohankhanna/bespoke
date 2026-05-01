@@ -1,0 +1,12 @@
+{
+  "component": "crate-ci/committed@6c479a992d863c7d0a7a7abf39f3744348347980",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/committed.yml",
+      "source_repo": "crate-ci/cargo-release"
+    }
+  ]
+}

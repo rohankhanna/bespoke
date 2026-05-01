@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:27:11.005301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "WangYueFt/detr3d",
+    "html_url": "https://github.com/WangYueFt/detr3d",
+    "language": "Python",
+    "pushed_at": "2022-12-22T03:12:25Z",
+    "stargazers_count": 905,
+    "topics": [],
+    "updated_at": "2026-04-30T09:17:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

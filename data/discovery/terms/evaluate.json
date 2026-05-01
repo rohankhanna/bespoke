@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jonschlinkert/eval-estree-expression"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/evaluations.yaml",
+      "source_repo": "Azure-Samples/contoso-chat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/evaluate.yml",
+      "source_repo": "Azure-Samples/contoso-creative-writer"
     }
   ],
   "term": "Evaluate"

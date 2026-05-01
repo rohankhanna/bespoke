@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Linter",
-    "linter"
+    "linter",
+    "\ud83d\udc40 Linter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -1330,6 +1331,138 @@
       "source_repo": "hadolint/hadolint",
       "status": "candidate-context",
       "text": "[![GPL-3 licensed][license-img]][license]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "Agentic AI Framework for Java Developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "\ud83d\udc40 Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpro-nl/knip",
+      "status": "candidate-context",
+      "text": "\u2702\ufe0f  Find unused files, dependencies and exports in your JavaScript and TypeScript projects. Knip it before you ship it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpro-nl/knip",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate-context",
+      "text": "A 45% faster alternative to node:querystring module "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate-context",
+      "text": "linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adefossez/demucs",
+      "status": "candidate-context",
+      "text": "Code for the paper Hybrid Spectrogram and Waveform Source Separation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adefossez/demucs",
+      "status": "candidate-context",
+      "text": "linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate-context",
+      "text": "A mighty CSS linter that helps you avoid errors and enforce conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/stylelint?logo=npm&logoColor=fff)](https://www.npmjs.com/package/stylelint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gsingh93/trace",
+      "status": "candidate-context",
+      "text": "A Rust procedural macro for tracing function execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gsingh93/trace",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate-context",
+      "text": "An Atom linter interface for write-good."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate-context",
+      "text": "Naive linter for English prose for developers who can't write good and wanna"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "\ud83e\uddec Repository for third party middlewares with dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate-context",
+      "text": "VSCode extension to integrate hadolint, a Dockerfile linter, into VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/ExiaSR/vscode-hadolint.svg?branch=master)](https://travis-ci.com/ExiaSR/vscode-hadolint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "status": "candidate-context",
+      "text": "Spring AI Alibaba DataAgent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "status": "candidate-context",
+      "text": "\ud83d\udc40 Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "A high-determinism, code-free 'Prompt Programing'  studio built with Java \u4e00\u4e2a\u9ad8\u786e\u5b9a\u6027\u7684 \u65e0\u4ee3\u7801 'Prompt\u7f16\u7a0b'\u5de5\u4f5c\u7ad9\uff0c\u4ee5 Java \u7f16\u5199"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "\ud83d\udc40 Linter"
     }
   ],
   "candidate_glosses": [
@@ -1992,6 +2125,72 @@
       "source_repo": "hadolint/hadolint",
       "status": "candidate",
       "text": "[![GPL-3 licensed][license-img]][license]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate",
+      "text": "\ud83d\udc40 Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpro-nl/knip",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adefossez/demucs",
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stylelint/stylelint",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/stylelint?logo=npm&logoColor=fff)](https://www.npmjs.com/package/stylelint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gsingh93/trace",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomLinter/linter-write-good",
+      "status": "candidate",
+      "text": "Naive linter for English prose for developers who can't write good and wanna"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofiber/contrib",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaellzc/vscode-hadolint",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/ExiaSR/vscode-hadolint.svg?branch=master)](https://travis-ci.com/ExiaSR/vscode-hadolint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "status": "candidate",
+      "text": "\ud83d\udc40 Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate",
+      "text": "\ud83d\udc40 Linter"
     }
   ],
   "candidate_related_terms": [
@@ -3211,11 +3410,137 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/CPUTests.yml",
       "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "alibaba/spring-ai-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpro-nl/knip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "anonrig/fast-querystring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "adefossez/demucs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "stylelint/stylelint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gsingh93/trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gofiber/contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vlajos/misspell-fixer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

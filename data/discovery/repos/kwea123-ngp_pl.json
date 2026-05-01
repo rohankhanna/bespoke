@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/ngp_pl",
+      "target": "ashawkey/torch-ngp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/ngp_pl",
+      "target": "facebookresearch/nsvf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl",
+      "target": "instant-ngp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl",
+      "target": "novel-view-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/ngp_pl",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:30:41.962135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8703
+    },
+    {
+      "path": "requirements.txt",
+      "size": 164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)",
+    "fork": false,
+    "full_name": "kwea123/ngp_pl",
+    "html_url": "https://github.com/kwea123/ngp_pl",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-16T01:03:45Z",
+    "stargazers_count": 1289,
+    "topics": [
+      "3d-reconstruction",
+      "cuda",
+      "instant-ngp",
+      "nerf",
+      "novel-view-synthesis",
+      "pytorch",
+      "pytorch-lightning"
+    ],
+    "updated_at": "2026-04-01T17:55:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashawkey/torch-ngp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/nsvf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instant-ngp"
+    },
+    {
+      "context_snippet": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novel-view-synthesis"
+    },
+    {
+      "context_snippet": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    }
+  ]
+}

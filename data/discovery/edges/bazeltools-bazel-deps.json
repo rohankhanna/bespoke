@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazeltools/bazel-deps",
-      "target": "twitter/scalding",
+      "target": "pgr0ss/bazel-deps",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazeltools/bazel-deps",
-      "target": "pgr0ss/bazel-deps",
+      "target": "eclipse/aether-demo",
       "target_type": "repository"
     },
     {
@@ -78,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "bazeltools/bazel-deps"
 }

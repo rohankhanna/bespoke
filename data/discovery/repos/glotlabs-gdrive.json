@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_macos.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_windows.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_windows.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "prasmussen/google-apis-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_linux.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "Build and upload release (linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_macos.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_macos.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_macos.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "Build and upload release (macos)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_windows.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_windows.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_windows.yaml",
+      "source_repo": "glotlabs/gdrive",
+      "target": "Build and upload release (windows)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:11:12.224013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3074
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 833
+    },
+    {
+      "path": ".github/workflows/release_linux.yaml",
+      "size": 1147
+    },
+    {
+      "path": ".github/workflows/release_macos.yaml",
+      "size": 967
+    },
+    {
+      "path": ".github/workflows/release_windows.yaml",
+      "size": 1072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Drive CLI Client",
+    "fork": false,
+    "full_name": "glotlabs/gdrive",
+    "html_url": "https://github.com/glotlabs/gdrive",
+    "language": "Rust",
+    "pushed_at": "2024-08-03T18:23:43Z",
+    "stargazers_count": 2053,
+    "topics": [],
+    "updated_at": "2026-04-29T23:36:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prasmussen/google-apis-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and upload release (linux)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_linux.yaml",
+      "term": "Build and upload release (linux)"
+    },
+    {
+      "context_snippet": "Build and upload release (macos)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_macos.yaml",
+      "term": "Build and upload release (macos)"
+    },
+    {
+      "context_snippet": "Build and upload release (windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_windows.yaml",
+      "term": "Build and upload release (windows)"
+    }
+  ]
+}

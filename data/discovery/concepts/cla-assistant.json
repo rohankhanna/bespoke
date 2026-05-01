@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CLA Assistant"
+    "CLA Assistant",
+    "\ud83d\udcc3 CLA Assistant"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -343,6 +344,30 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate-context",
       "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord-bm25",
+      "status": "candidate-context",
+      "text": "Native BM25 Ranking Index in PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord-bm25",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "A high-determinism, code-free 'Prompt Programing'  studio built with Java \u4e00\u4e2a\u9ad8\u786e\u5b9a\u6027\u7684 \u65e0\u4ee3\u7801 'Prompt\u7f16\u7a0b'\u5de5\u4f5c\u7ad9\uff0c\u4ee5 Java \u7f16\u5199"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "\"\ud83d\udcc3 CLA Assistant\""
     }
   ],
   "candidate_glosses": [
@@ -513,6 +538,18 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate",
       "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord-bm25",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate",
+      "text": "\"\ud83d\udcc3 CLA Assistant\""
     }
   ],
   "candidate_related_terms": [
@@ -802,11 +839,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "tensorchord/VectorChord-bm25"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

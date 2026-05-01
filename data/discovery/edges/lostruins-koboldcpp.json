@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "korewachino/koboldcppdocker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "noneabove1182/koboldcpp-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "mmwillet/tts.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "lostruins/lite.koboldai.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Linux OldPC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux-rocm.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "KoboldCpp Linux ROCm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-linux.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-macos.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Jimver/cuda-toolkit@v0.2.35",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-win-oldpc.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Windows OldPC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Jimver/cuda-toolkit@v0.2.35",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kcpp-build-release-win.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-autoguess.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-autoguess.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-autoguess.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "AutoGuess Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-unofficial-arm64.yaml",
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "Koboldcpp Linux ARM64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "gemma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "ggml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "koboldai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "koboldcpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LostRuins/koboldcpp",
+      "target": "mistral",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "LostRuins/koboldcpp"
+}

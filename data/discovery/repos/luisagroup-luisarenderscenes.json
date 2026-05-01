@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:10:10.781917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scenes for LuisaRender",
+    "fork": false,
+    "full_name": "LuisaGroup/LuisaRenderScenes",
+    "html_url": "https://github.com/LuisaGroup/LuisaRenderScenes",
+    "language": "Python",
+    "pushed_at": "2023-11-24T07:30:17Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-02-24T02:32:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

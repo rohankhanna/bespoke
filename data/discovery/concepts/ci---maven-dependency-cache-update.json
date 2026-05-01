@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI - Maven Dependency Cache Update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate-context",
+      "text": "Apache Pulsar Adapters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate-context",
+      "text": "CI - Maven Dependency Cache Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-adapters",
+      "status": "candidate",
+      "text": "CI - Maven Dependency Cache Update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29281,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25640,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25588,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25582,
+      "status": "candidate",
+      "text": "arms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25575,
+      "status": "candidate",
+      "text": "meg"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - Maven Dependency Cache Update",
+  "concept_id": "ci---maven-dependency-cache-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml",
+      "source_repo": "apache/pulsar-adapters"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - Maven Dependency Cache Update",
+      "sense_id": "ci---maven-dependency-cache-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

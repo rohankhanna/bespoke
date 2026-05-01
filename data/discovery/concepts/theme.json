@@ -517,6 +517,102 @@
       "source_repo": "catppuccin/nvim",
       "status": "candidate-context",
       "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "Google's Material Design in XAML & WPF, for C# & VB.Net. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate-context",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "A framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish color palette."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate-context",
+      "text": "nord \u2014 An arctic, north-bluish color palette"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chriskempson/tomorrow-theme",
+      "status": "candidate-context",
+      "text": "Tomorrow Theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskempson/tomorrow-theme",
+      "status": "candidate-context",
+      "text": "After having spent several years using, tweaking and refining a personal editor theme since 2005, I decided it was time to publicly release \"Tomorrow Theme\" on the _14th of February 2011_. Tomorrow theme is a colourful theme with muted colours and sensible syntax highlighting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dempfi/ayu",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8\ud83d\udd8c Modern, bright color theme for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dempfi/ayu",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate-context",
+      "text": "\ud83d\ude38 Soothing pastel theme for the high-spirited!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thomaspark/bootswatch",
+      "status": "candidate-context",
+      "text": "Themes for Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thomaspark/bootswatch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate-context",
+      "text": "Theming .NET WinForms, C# or VB.Net, to Google's Material Design Principles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate-context",
+      "text": "MaterialSkin for .NET WinForms"
     }
   ],
   "candidate_glosses": [
@@ -771,6 +867,54 @@
       "source_repo": "catppuccin/nvim",
       "status": "candidate",
       "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahApps/MahApps.Metro",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/nord",
+      "status": "candidate",
+      "text": "nord \u2014 An arctic, north-bluish color palette"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskempson/tomorrow-theme",
+      "status": "candidate",
+      "text": "After having spent several years using, tweaking and refining a personal editor theme since 2005, I decided it was time to publicly release \"Tomorrow Theme\" on the _14th of February 2011_. Tomorrow theme is a colourful theme with muted colours and sensible syntax highlighting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dempfi/ayu",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/catppuccin",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thomaspark/bootswatch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnaceMaes/MaterialSkin",
+      "status": "candidate",
+      "text": "MaterialSkin for .NET WinForms"
     }
   ],
   "candidate_related_terms": [
@@ -1240,11 +1384,89 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MahApps/MahApps.Metro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/nord"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/home"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chriskempson/tomorrow-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dempfi/ayu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/catppuccin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "thomaspark/bootswatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "IgnaceMaes/MaterialSkin"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

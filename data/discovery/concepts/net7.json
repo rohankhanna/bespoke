@@ -19,6 +19,18 @@
       "source_repo": "clibequilibrium/Tracy-CSharp",
       "status": "candidate-context",
       "text": "![](Header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "Prism Avalonia UI framework. Super charge your cross-platform apps with IoC, navigation, and more! Sponsored by Suess Labs. Prism is based on Microsoft patterns and practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate-context",
+      "text": "> ## Announcement"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "clibequilibrium/Tracy-CSharp",
       "status": "candidate",
       "text": "![](Header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "status": "candidate",
+      "text": "> ## Announcement"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "clibequilibrium/Tracy-CSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

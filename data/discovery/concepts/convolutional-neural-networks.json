@@ -103,6 +103,30 @@
       "source_repo": "bloc97/Anime4K",
       "status": "candidate-context",
       "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filipradenovic/cnnimageretrieval-pytorch",
+      "status": "candidate-context",
+      "text": "CNN Image Retrieval in PyTorch: Training and evaluating CNNs for Image Retrieval in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filipradenovic/cnnimageretrieval-pytorch",
+      "status": "candidate-context",
+      "text": "This is a Python toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "Improved Residual Networks (https://arxiv.org/pdf/2004.04989.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "bloc97/Anime4K",
       "status": "candidate",
       "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filipradenovic/cnnimageretrieval-pytorch",
+      "status": "candidate",
+      "text": "This is a Python toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iduta/iresnet",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +280,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "filipradenovic/cnnimageretrieval-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "iduta/iresnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

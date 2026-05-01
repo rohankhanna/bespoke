@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:26:53.064047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6053
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A benchmark for point clouds registration algorithms",
+    "fork": false,
+    "full_name": "iralabdisco/point_clouds_registration_benchmark",
+    "html_url": "https://github.com/iralabdisco/point_clouds_registration_benchmark",
+    "language": "Python",
+    "pushed_at": "2023-10-11T13:56:38Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-04-29T12:51:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

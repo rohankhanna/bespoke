@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "target": "aws-cloudformation/cloudformation-guard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "target": "aws-cloudformation/rain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "target": "aws-cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/aws-cloudformation-templates",
+      "target": "cloudformation-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:14:55.046826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5374
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of useful CloudFormation templates ",
+    "fork": false,
+    "full_name": "aws-cloudformation/aws-cloudformation-templates",
+    "html_url": "https://github.com/aws-cloudformation/aws-cloudformation-templates",
+    "language": "Python",
+    "pushed_at": "2026-03-26T08:00:05Z",
+    "stargazers_count": 5167,
+    "topics": [
+      "aws-cloudformation",
+      "cloudformation-template"
+    ],
+    "updated_at": "2026-05-01T08:38:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/cloudformation-guard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/rain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "This repository contains sample CloudFormation templates that you can use",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cloudformation"
+    },
+    {
+      "context_snippet": "This repository contains sample CloudFormation templates that you can use",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation-template"
+    }
+  ]
+}

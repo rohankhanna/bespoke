@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/OWL-RL",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/OWL-RL",
+      "target": "owl-rl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/OWL-RL",
+      "target": "rdflib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/OWL-RL",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:13:41.093859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3037
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple implementation of the OWL2 RL Profile on top of RDFLib: it expands the graph with all possible triples that OWL RL defines. It can be used together with RDFLib to expand an RDFLib Graph object, or as a stand alone service with its own serialization.",
+    "fork": false,
+    "full_name": "RDFLib/OWL-RL",
+    "html_url": "https://github.com/RDFLib/OWL-RL",
+    "language": "HTML",
+    "pushed_at": "2026-03-30T22:59:30Z",
+    "stargazers_count": 169,
+    "topics": [
+      "inference",
+      "owl",
+      "owl-rl",
+      "python",
+      "rdf",
+      "rdflib",
+      "reasoning"
+    ],
+    "updated_at": "2026-04-27T20:56:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "|Original Author DOI| |PyPI badge|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "|Original Author DOI| |PyPI badge|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "owl-rl"
+    },
+    {
+      "context_snippet": "|Original Author DOI| |PyPI badge|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdflib"
+    },
+    {
+      "context_snippet": "|Original Author DOI| |PyPI badge|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    }
+  ]
+}

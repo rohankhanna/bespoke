@@ -127,6 +127,30 @@
       "source_repo": "dropwizard/dropwizard",
       "status": "candidate-context",
       "text": "Dropwizard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate-context",
+      "text": "A functional-first toolkit for building brilliant ASP.NET Core applications using F#."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate-context",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.svg)](https://www.nuget.org/packages/Falco)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Pylons/pyramid",
+      "status": "candidate-context",
+      "text": "Pyramid - A Python web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pylons/pyramid",
+      "status": "candidate-context",
+      "text": "Pyramid"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "dropwizard/dropwizard",
       "status": "candidate",
       "text": "Dropwizard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falcoframework/Falco",
+      "status": "candidate",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.svg)](https://www.nuget.org/packages/Falco)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pylons/pyramid",
+      "status": "candidate",
+      "text": "Pyramid"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Pylons/pyramid"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "olikraus/u8g2",
       "status": "candidate-context",
       "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate-context",
+      "text": "Volatile access to memory mapped hardware registers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "olikraus/u8g2",
       "status": "candidate",
       "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "olikraus/u8g2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-embedded/volatile-register"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Desktop launcher to install and use Holochain apps locally (Electron version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'release-lair-binaries'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'release-lair-binaries'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release-lair-binaries",
+      "sense_id": "release-lair-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-lair-binaries",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-lair-binaries",
+  "observation_id": "7d71982b08cf19e6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "release-lair-binaries",
+  "source_context_snippet": "'release-lair-binaries'",
+  "source_file": ".github/workflows/lair-binaries.yaml",
+  "source_repo": "holochain/launcher",
+  "source_repo_description": "Desktop launcher to install and use Holochain apps locally (Electron version)"
+}

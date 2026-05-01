@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "@trojs/openapi-dereference",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "openapi-types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/json-schema",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-schema",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "janwilmake/oapis",
+      "target": "janwilmake/openapisearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis",
+      "target": "@trojs/openapi-dereference",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis",
+      "target": "openapi-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis",
+      "target": "@types/js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis",
+      "target": "@types/json-schema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis",
+      "target": "json-schema",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:14:11.794307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 801
+    },
+    {
+      "path": "package.json",
+      "size": 273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "OpenAPI Processing API",
+    "fork": false,
+    "full_name": "janwilmake/oapis",
+    "html_url": "https://github.com/janwilmake/oapis",
+    "language": "TypeScript",
+    "pushed_at": "2026-01-28T14:24:14Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-01-28T14:24:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janwilmake/openapisearch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

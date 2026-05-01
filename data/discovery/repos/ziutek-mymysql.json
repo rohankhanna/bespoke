@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:14:37.314254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20866
+    },
+    {
+      "path": "go.mod",
+      "size": 42
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MySQL Client API written entirely in Go",
+    "fork": false,
+    "full_name": "ziutek/mymysql",
+    "html_url": "https://github.com/ziutek/mymysql",
+    "language": "Go",
+    "pushed_at": "2024-07-04T02:35:48Z",
+    "stargazers_count": 735,
+    "topics": [],
+    "updated_at": "2026-04-01T18:57:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/G-CASCADE",
+      "target": "sldgroup/pp-sam",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:42.614781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5122
+    },
+    {
+      "path": "requirements.txt",
+      "size": 328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "SLDGroup/G-CASCADE",
+    "html_url": "https://github.com/SLDGroup/G-CASCADE",
+    "language": "Python",
+    "pushed_at": "2025-11-26T18:56:29Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-05-01T03:45:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/pp-sam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

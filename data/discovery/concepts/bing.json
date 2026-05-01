@@ -19,6 +19,18 @@
       "source_repo": "searxng/searxng",
       "status": "candidate-context",
       "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
+      "status": "candidate-context",
+      "text": "A creative writing multi-agent solution to help users write articles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "searxng/searxng",
       "status": "candidate",
       "text": ".. SPDX-License-Identifier: AGPL-3.0-or-later"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/contoso-creative-writer",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "searxng/searxng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/contoso-creative-writer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

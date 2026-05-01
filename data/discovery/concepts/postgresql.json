@@ -427,6 +427,66 @@
       "source_repo": "sclorg/postgresql-container",
       "status": "candidate-context",
       "text": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate-context",
+      "text": "A type-safe TypeScript SQL query builder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate-context",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate-context",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/age",
+      "status": "candidate-context",
+      "text": "Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/age",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/pgsync",
+      "status": "candidate-context",
+      "text": "Sync data from one Postgres database to another"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/pgsync",
+      "status": "candidate-context",
+      "text": "Sync data from one Postgres database to another (like `pg_dump`/`pg_restore`). Designed for:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwent/pgbouncerhero",
+      "status": "candidate-context",
+      "text": "A dashboard for your PgBouncers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwent/pgbouncerhero",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/pgbouncerhero.svg)](https://badge.fury.io/rb/pgbouncerhero)"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +699,36 @@
       "source_repo": "sclorg/postgresql-container",
       "status": "candidate",
       "text": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kysely-org/kysely",
+      "status": "candidate",
+      "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma",
+      "status": "candidate",
+      "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/age",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/pgsync",
+      "status": "candidate",
+      "text": "Sync data from one Postgres database to another (like `pg_dump`/`pg_restore`). Designed for:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwent/pgbouncerhero",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/pgbouncerhero.svg)](https://badge.fury.io/rb/pgbouncerhero)"
     }
   ],
   "candidate_related_terms": [
@@ -981,11 +1071,59 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "apache/age"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ankane/pgsync"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kwent/pgbouncerhero"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yaml",
+      "source_repo": "r9y9/hts_engine_API",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:28:30.962767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 980
+    },
+    {
+      "path": ".github/workflows/ccpp.yaml",
+      "size": 943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fork of hts_engine_API",
+    "fork": false,
+    "full_name": "r9y9/hts_engine_API",
+    "html_url": "https://github.com/r9y9/hts_engine_API",
+    "language": "C",
+    "pushed_at": "2022-02-05T13:42:55Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-11-26T23:22:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

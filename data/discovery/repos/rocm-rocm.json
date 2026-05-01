@@ -18,34 +18,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/ROCm",
-      "target": "rocm/rocm-libraries",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/ROCm",
-      "target": "rocm/amdmigraphx",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/ROCm",
-      "target": "rocm/mivisionx",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/ROCm",
-      "target": "rocm/rocgdb",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue_retrieval.yml",
       "source_repo": "ROCm/ROCm",
@@ -88,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:55:22.985734+00:00",
+  "fetched_at": "2026-05-01T10:17:24.312832+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -112,35 +84,14 @@
     "full_name": "ROCm/ROCm",
     "html_url": "https://github.com/ROCm/ROCm",
     "language": "Shell",
-    "pushed_at": "2026-04-23T19:59:47Z",
-    "stargazers_count": 6413,
+    "pushed_at": "2026-04-28T16:24:55Z",
+    "stargazers_count": 6439,
     "topics": [
       "documentation"
     ],
-    "updated_at": "2026-04-24T01:48:56Z"
+    "updated_at": "2026-05-01T03:37:54Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/amdmigraphx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/mivisionx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/rocgdb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/rocm-libraries",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Issue retrieval",

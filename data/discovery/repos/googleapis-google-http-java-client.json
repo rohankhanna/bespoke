@@ -118,20 +118,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-http-java-client",
-      "target": "googleapis/google-oauth-java-client",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-http-java-client",
-      "target": "googleapis/google-api-java-client",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approve-readme.yaml",
       "source_repo": "googleapis/google-http-java-client",
@@ -251,7 +237,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:03:46.147697+00:00",
+  "fetched_at": "2026-05-01T07:03:56.510923+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -292,22 +278,11 @@
     "html_url": "https://github.com/googleapis/google-http-java-client",
     "language": "Java",
     "pushed_at": "2026-04-20T20:46:31Z",
-    "stargazers_count": 1434,
+    "stargazers_count": 1433,
     "topics": [],
-    "updated_at": "2026-04-22T14:49:45Z"
+    "updated_at": "2026-04-24T06:04:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/google-api-java-client",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/google-oauth-java-client",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "auto-merge-readme",

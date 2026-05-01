@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:13:50.540056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Immediate mode 3D gizmo for scene editing and other controls based on Dear Imgui",
+    "fork": false,
+    "full_name": "CedricGuillemet/ImGuizmo",
+    "html_url": "https://github.com/CedricGuillemet/ImGuizmo",
+    "language": "C++",
+    "pushed_at": "2026-04-27T08:04:14Z",
+    "stargazers_count": 3871,
+    "topics": [],
+    "updated_at": "2026-05-01T07:33:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

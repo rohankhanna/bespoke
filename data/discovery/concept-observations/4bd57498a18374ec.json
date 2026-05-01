@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Runtime code generation for the Java virtual machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Scorecards"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Scorecards"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19698492,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9705659,
+      "status": "candidate",
+      "text": "boxes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9705659,
+      "status": "candidate",
+      "text": "dashboards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9705659,
+      "status": "candidate",
+      "text": "fiches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9705659,
+      "status": "candidate",
+      "text": "scoreboards"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scorecards",
+      "sense_id": "scorecards#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scorecards",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scorecards",
+  "observation_id": "4bd57498a18374ec",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Scorecards",
+  "source_context_snippet": "Scorecards",
+  "source_file": ".github/workflows/scorecards.yml",
+  "source_repo": "raphw/byte-buddy",
+  "source_repo_description": "Runtime code generation for the Java virtual machine."
+}

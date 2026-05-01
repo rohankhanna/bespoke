@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "CI-.NET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "target": "options",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "juharris/dotnet-OptionsProvider"
+}

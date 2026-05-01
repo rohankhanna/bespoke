@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KVM-based Virtual Machine Introspection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979668,
+      "status": "candidate",
+      "text": "snare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976478,
+      "status": "candidate",
+      "text": "entrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975653,
+      "status": "candidate",
+      "text": "ensnare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973727,
+      "status": "candidate",
+      "text": "trammel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970509,
+      "status": "candidate",
+      "text": "pin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trap",
+      "sense_id": "trap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19065,
+      "status": "candidate",
+      "text": "hole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18024,
+      "status": "candidate",
+      "text": "ambuscade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16046,
+      "status": "candidate",
+      "text": "snare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14031,
+      "status": "candidate",
+      "text": "ensnare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9040,
+      "status": "candidate",
+      "text": "ambush"
+    }
+  ],
+  "concept_id": "trap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trap",
+  "observation_id": "d6f349b91347ab9f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "trap",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "KVM-VMI/kvm-vmi",
+  "source_repo_description": "KVM-based Virtual Machine Introspection"
+}

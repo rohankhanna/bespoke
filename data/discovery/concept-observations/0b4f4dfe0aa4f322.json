@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HunyuanVideo-I2V: A Customizable Image-to-Video Model based on HunyuanVideo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- ## **HunyuanVideo** -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- ## **HunyuanVideo** -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-to-video-generation",
+      "sense_id": "image-to-video-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-to-video-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-to-video-generation",
+  "observation_id": "0b4f4dfe0aa4f322",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "image-to-video-generation",
+  "source_context_snippet": "<!-- ## **HunyuanVideo** -->",
+  "source_file": null,
+  "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V",
+  "source_repo_description": "HunyuanVideo-I2V: A Customizable Image-to-Video Model based on HunyuanVideo"
+}

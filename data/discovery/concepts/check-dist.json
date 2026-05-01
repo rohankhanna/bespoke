@@ -31,6 +31,18 @@
       "source_repo": "actions/setup-node",
       "status": "candidate-context",
       "text": "Check dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-repo-automator",
+      "status": "candidate-context",
+      "text": "GitHub Action to automate common repo operations like validate PR description, changelog, and credits."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-repo-automator",
+      "status": "candidate-context",
+      "text": "Check dist"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "actions/setup-node",
+      "status": "candidate",
+      "text": "Check dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-repo-automator",
       "status": "candidate",
       "text": "Check dist"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/check-dist.yml",
       "source_repo": "actions/setup-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check-dist.yml",
+      "source_repo": "10up/action-repo-automator"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

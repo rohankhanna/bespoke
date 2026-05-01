@@ -201,6 +201,18 @@
       "source_repo": "nikitabobko/brew-install-path",
       "status": "candidate-context",
       "text": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotenvx/dotenvx",
+      "status": "candidate-context",
+      "text": "a secure dotenv\u2013from the creator of `dotenv`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotenvx/dotenvx",
+      "status": "candidate-context",
+      "text": "[![dotenvx](https://dotenvx.com/banner.png)](https://dotenvx.com)"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +311,12 @@
       "source_repo": "nikitabobko/brew-install-path",
       "status": "candidate",
       "text": "Homebrew 4.6.4 introduced a breaking change that disabled the possibility of installing formulas/casks from paths."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotenvx/dotenvx",
+      "status": "candidate",
+      "text": "[![dotenvx](https://dotenvx.com/banner.png)](https://dotenvx.com)"
     }
   ],
   "candidate_related_terms": [
@@ -570,11 +588,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dotenvx/dotenvx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

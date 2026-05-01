@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/JDet",
+      "target": "csuhan/s2anet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/JDet",
+      "target": "jbwang1997/obbdetection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/JDet",
+      "target": "dingjiansw101/aerialdetection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/JDet",
+      "target": "captain-whu/dota_devkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jittor/JDet",
+      "target": "aerial-image-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jittor/JDet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jittor/JDet",
+      "target": "jittor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jittor/JDet",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jittor/JDet",
+      "target": "oriented-object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:04:43.511356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18080
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JDet is an object detection benchmark based on Jittor. Mainly focus on aerial image object detection (oriented object detection).",
+    "fork": false,
+    "full_name": "Jittor/JDet",
+    "html_url": "https://github.com/Jittor/JDet",
+    "language": "Python",
+    "pushed_at": "2025-03-02T18:40:09Z",
+    "stargazers_count": 209,
+    "topics": [
+      "aerial-image-detection",
+      "deep-learning",
+      "jittor",
+      "object-detection",
+      "oriented-object-detection"
+    ],
+    "updated_at": "2026-04-02T06:45:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "captain-whu/dota_devkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csuhan/s2anet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingjiansw101/aerialdetection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jbwang1997/obbdetection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aerial-image-detection"
+    },
+    {
+      "context_snippet": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jittor"
+    },
+    {
+      "context_snippet": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "JDet is an object detection benchmark based on [Jittor](https://github.com/Jittor/jittor), and mainly focus on aerial image object detection (oriented object detection).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oriented-object-detection"
+    }
+  ]
+}

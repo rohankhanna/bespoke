@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aergonaut/pronto-goodcheck",
+      "target": "sider/goodcheck",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:08:32.669067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pronto runner for Goodcheck",
+    "fork": false,
+    "full_name": "aergonaut/pronto-goodcheck",
+    "html_url": "https://github.com/aergonaut/pronto-goodcheck",
+    "language": "Ruby",
+    "pushed_at": "2022-09-14T18:20:48Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2020-03-16T18:27:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sider/goodcheck",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:21:26.438420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Contains bnd workspace template fragments for bndtools.",
+    "fork": false,
+    "full_name": "bndtools/workspace-templates",
+    "html_url": "https://github.com/bndtools/workspace-templates",
+    "language": "Java",
+    "pushed_at": "2026-04-19T16:22:06Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-19T16:22:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

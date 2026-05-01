@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/air-quality-toolkit-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-background-removal-plugin",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-ai-model-research-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-batch-optical-archivist-plugin",
       "target_type": "repository"
     },
     {
@@ -64,11 +64,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:58:16.784356+00:00",
+  "fetched_at": "2026-05-01T09:14:00.038670+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 86559
+      "size": 91090
     },
     {
       "path": "package.json",
@@ -84,16 +84,21 @@
     "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-04-30T19:55:07Z",
-    "stargazers_count": 430,
+    "pushed_at": "2026-04-30T21:46:51Z",
+    "stargazers_count": 432,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-30T19:55:31Z"
+    "updated_at": "2026-04-30T21:46:55Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/air-quality-toolkit-plugin",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-agent-blueprints",
@@ -107,11 +112,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-background-removal-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-batch-optical-archivist-plugin",
       "source_file": "README.md"
     }
   ],

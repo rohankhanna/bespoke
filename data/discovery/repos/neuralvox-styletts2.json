@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuralVox/StyleTTS2",
+      "target": "fakerybakery/styletts2-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuralVox/StyleTTS2",
+      "target": "yl4579/auxiliaryasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuralVox/StyleTTS2",
+      "target": "yl4579/pitchextractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuralVox/StyleTTS2",
+      "target": "rishikksh20/istftnet-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:29:19.746596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18640
+    },
+    {
+      "path": "requirements.txt",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "NeuralVox/StyleTTS2",
+    "html_url": "https://github.com/NeuralVox/StyleTTS2",
+    "language": "Python",
+    "pushed_at": "2024-04-27T02:24:47Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-03-17T07:53:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fakerybakery/styletts2-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rishikksh20/istftnet-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yl4579/auxiliaryasr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yl4579/pitchextractor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

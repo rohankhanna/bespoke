@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicahParks/jwkset",
+      "target": "micahparks/jcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jwkset",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jwkset",
+      "target": "jwks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jwkset",
+      "target": "jwks-endpoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jwkset",
+      "target": "jwks-rsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jwkset",
+      "target": "jwkset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jwkset",
+      "target": "rfc7517",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:18:35.364595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5223
+    },
+    {
+      "path": "go.mod",
+      "size": 484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A JWK and JWK Set implementation. An auto-caching JWK Set HTTP client is provided. Generate, validate, and inspect JWKs. Self-host this project's website: https://jwkset.com",
+    "fork": false,
+    "full_name": "MicahParks/jwkset",
+    "html_url": "https://github.com/MicahParks/jwkset",
+    "language": "Go",
+    "pushed_at": "2026-04-17T23:44:50Z",
+    "stargazers_count": 81,
+    "topics": [
+      "go",
+      "golang",
+      "jwk",
+      "jwks",
+      "jwks-endpoint",
+      "jwks-rsa",
+      "jwkset",
+      "rfc7517"
+    ],
+    "updated_at": "2026-04-17T23:44:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micahparks/jcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/jwkset.svg)](https://pkg.go.dev/github.com/MicahParks/jwkset)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/jwkset.svg)](https://pkg.go.dev/github.com/MicahParks/jwkset)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwks"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/jwkset.svg)](https://pkg.go.dev/github.com/MicahParks/jwkset)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwks-endpoint"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/jwkset.svg)](https://pkg.go.dev/github.com/MicahParks/jwkset)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwks-rsa"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/jwkset.svg)](https://pkg.go.dev/github.com/MicahParks/jwkset)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwkset"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/jwkset.svg)](https://pkg.go.dev/github.com/MicahParks/jwkset)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc7517"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EfficientMedNeXt",
+      "target": "masilab/effidec3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EfficientMedNeXt",
+      "target": "masilab/3dux-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EfficientMedNeXt",
+      "target": "project-monai/research-contributions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EfficientMedNeXt",
+      "target": "mic-dkfz/mednext",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "SLDGroup/EfficientMedNeXt"
+}

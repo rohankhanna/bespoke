@@ -115,6 +115,18 @@
       "source_repo": "Pixelworlds/opnsense-mcp-server",
       "status": "candidate-context",
       "text": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "Aggregates compute from spare GPU capacity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate-context",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "Pixelworlds/opnsense-mcp-server",
       "status": "candidate",
       "text": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kalavai-net/kalavai-client",
+      "status": "candidate",
+      "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
     }
   ],
   "candidate_related_terms": [
@@ -276,11 +294,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Pixelworlds/opnsense-mcp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kalavai-net/kalavai-client"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

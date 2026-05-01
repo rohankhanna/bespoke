@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-Interface",
+      "target": "alisson-anjos/yue-exllamav2-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-Interface",
+      "target": "joeljuvel/yue-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-Interface",
+      "target": "mozer/yue-extend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-Interface",
+      "target": "alissonpereiraanjos/yue-interface",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:45.568590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23503
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2583
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YuE: Open Full-song Generation Foundation Model, something similar to Suno.ai but open",
+    "fork": true,
+    "full_name": "alisson-anjos/YuE-Interface",
+    "html_url": "https://github.com/alisson-anjos/YuE-Interface",
+    "language": "Python",
+    "pushed_at": "2025-04-30T00:14:57Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2026-04-26T00:48:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alisson-anjos/yue-exllamav2-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alissonpereiraanjos/yue-interface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joeljuvel/yue-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozer/yue-extend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

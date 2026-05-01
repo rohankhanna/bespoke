@@ -46,6 +46,18 @@
       "source_repo": "akuity/kargo",
       "status": "candidate-context",
       "text": "Governance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/mdn-community",
+      "status": "candidate-context",
+      "text": "A place to provide feedback and suggestions for MDN Web Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-community",
+      "status": "candidate-context",
+      "text": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing."
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "akuity/kargo",
       "status": "candidate",
       "text": "Governance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-community",
+      "status": "candidate",
+      "text": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing."
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/governance.yaml",
       "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdn/mdn-community"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

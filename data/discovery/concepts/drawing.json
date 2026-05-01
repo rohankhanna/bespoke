@@ -31,6 +31,18 @@
       "source_repo": "a-e-k/canvas_ity",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "Virtual whiteboard for sketching hand-drawn like diagrams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate-context",
+      "text": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "a-e-k/canvas_ity",
       "status": "candidate",
       "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excalidraw/excalidraw",
+      "status": "candidate",
+      "text": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "a-e-k/canvas_ity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "excalidraw/excalidraw"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

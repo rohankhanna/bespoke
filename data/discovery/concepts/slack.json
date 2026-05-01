@@ -67,6 +67,18 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate-context",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate-context",
+      "text": "PARTY OR DIE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main.svg?style=shield)](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmhobbs/cultofthepartyparrot.com",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main.svg?style=shield)](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main)"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jmhobbs/cultofthepartyparrot.com"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

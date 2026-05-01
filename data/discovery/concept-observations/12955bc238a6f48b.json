@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043608,
+      "status": "candidate",
+      "text": "doll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039663,
+      "status": "candidate",
+      "text": "babe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035655,
+      "status": "candidate",
+      "text": "baby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20031191,
+      "status": "candidate",
+      "text": "dearie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030224,
+      "status": "candidate",
+      "text": "sweetheart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dolly",
+      "sense_id": "dolly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "doll"
+    }
+  ],
+  "concept_id": "dolly",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dolly",
+  "observation_id": "12955bc238a6f48b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "dolly",
+  "source_context_snippet": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them",
+  "source_file": null,
+  "source_repo": "BrutPitt/imGuIZMO.quat",
+  "source_repo_description": "ImGui GIZMO widget - quaternions based 3D object manipulator: it permits, via mouse, to manipulate objects by translating, rotating, or scaling them "
+}

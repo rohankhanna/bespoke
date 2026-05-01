@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:29:20.058064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis",
+    "fork": false,
+    "full_name": "DS4SD/DocLayNet",
+    "html_url": "https://github.com/DS4SD/DocLayNet",
+    "language": null,
+    "pushed_at": "2023-02-01T06:44:02Z",
+    "stargazers_count": 431,
+    "topics": [],
+    "updated_at": "2026-04-24T02:18:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

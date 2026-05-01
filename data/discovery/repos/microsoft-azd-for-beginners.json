@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AZD-for-beginners",
+      "target": "azure-samples/agent-openai-python-prompty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AZD-for-beginners",
+      "target": "azure-samples/contoso-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AZD-for-beginners",
+      "target": "azure-samples/container-apps-store-api-microservice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AZD-for-beginners",
+      "target": "azure-samples/container-apps-jobs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:49.180217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Welcome to the comprehensive guide for Azure Developer CLI (azd)! This repository is designed to help developers at all levels from students to professional developers learn and master Azure Developer CLI for efficient cloud deployments.",
+    "fork": false,
+    "full_name": "microsoft/AZD-for-beginners",
+    "html_url": "https://github.com/microsoft/AZD-for-beginners",
+    "language": "CSS",
+    "pushed_at": "2026-04-21T20:57:37Z",
+    "stargazers_count": 127,
+    "topics": [],
+    "updated_at": "2026-05-01T05:45:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/agent-openai-python-prompty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/container-apps-jobs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/container-apps-store-api-microservice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/contoso-chat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

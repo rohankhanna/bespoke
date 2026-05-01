@@ -92,6 +92,18 @@
       "source_repo": "gvergnaud/hotscript",
       "status": "candidate-context",
       "text": "Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eemeli/prettier-plugin-properties",
+      "status": "candidate-context",
+      "text": "Prettier plugin for .properties files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/prettier-plugin-properties",
+      "status": "candidate-context",
+      "text": "Node.js"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gvergnaud/hotscript",
+      "status": "candidate",
+      "text": "Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/prettier-plugin-properties",
       "status": "candidate",
       "text": "Node.js"
     }
@@ -221,11 +239,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "gvergnaud/hotscript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "eemeli/prettier-plugin-properties"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

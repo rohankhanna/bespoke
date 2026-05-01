@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "synonyms"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatopera/Synonyms",
+      "status": "candidate-context",
+      "text": ":herb: \u4e2d\u6587\u8fd1\u4e49\u8bcd\uff1a\u804a\u5929\u673a\u5668\u4eba\uff0c\u667a\u80fd\u95ee\u7b54\u5de5\u5177\u5305"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatopera/Synonyms",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatopera/Synonyms",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/synonyms.svg)](https://pypi.python.org/pypi/synonyms) [![PyPI download month](https://img.shields.io/pypi/dm/synonyms.svg)](https://pypi.python.org/pypi/synonyms/) [![](https://img.shields.io/pypi/pyversions/synonyms.svg)](https://pypi.org/\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51367,
+      "status": "candidate",
+      "text": "equivalent word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "incomes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "ones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "thesaurus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51365,
+      "status": "candidate",
+      "text": "counterparts"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "synonyms",
+  "concept_id": "synonyms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chatopera/Synonyms"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synonyms",
+      "sense_id": "synonyms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

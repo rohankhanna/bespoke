@@ -55,6 +55,18 @@
       "source_repo": "guochengqian/PointNeXt",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pointnext-revisiting-pointnet-with-improved/semantic-segmentation-on-s3dis)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis?p=pointnext-revisiting-pointnet-with-improved)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "status": "candidate-context",
+      "text": "Web labeling tool for bitmap images and point clouds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "status": "candidate-context",
+      "text": "A web based labeling tool for creating AI training data sets (2D and 3D)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "guochengqian/PointNeXt",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pointnext-revisiting-pointnet-with-improved/semantic-segmentation-on-s3dis)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis?p=pointnext-revisiting-pointnet-with-improved)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",
+      "status": "candidate",
+      "text": "A web based labeling tool for creating AI training data sets (2D and 3D)."
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

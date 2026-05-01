@@ -94,6 +94,18 @@
       "source_repo": "tweag/cabal",
       "status": "candidate-context",
       "text": "Bootstrap"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thomaspark/bootswatch",
+      "status": "candidate-context",
+      "text": "Themes for Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thomaspark/bootswatch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "tweag/cabal",
       "status": "candidate",
       "text": "Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thomaspark/bootswatch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -223,11 +241,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/bootstrap.yml",
       "source_repo": "tweag/cabal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "thomaspark/bootswatch"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

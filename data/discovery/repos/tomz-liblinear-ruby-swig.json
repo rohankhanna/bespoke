@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:29:50.266292+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the Ruby interface to LIBLINEAR (much more efficient than LIBSVM for text classification and other large linear classifications)",
+    "fork": false,
+    "full_name": "tomz/liblinear-ruby-swig",
+    "html_url": "https://github.com/tomz/liblinear-ruby-swig",
+    "language": "C++",
+    "pushed_at": "2023-06-27T00:26:40Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2024-04-15T22:02:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

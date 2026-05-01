@@ -1,0 +1,512 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/co-op-review.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/co-op-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/co-op-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-title-prefix.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/co-op-translator",
+      "target": "microsoft/langchain4j-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/co-op-translator",
+      "target": "microsoft/mcp-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/co-op-translator",
+      "target": "microsoft/generative-ai-for-beginners-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/co-op-translator",
+      "target": "microsoft/generative-ai-for-beginners-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/co-op-review.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/co-op-review.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/co-op-review.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/co-op-review.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "Co-op review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "Publish documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-title-prefix.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-pr.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-pr.yml",
+      "source_repo": "Azure/co-op-translator",
+      "target": "Label pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "azure-ai-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "azure-openai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "co-op-translator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "markdown-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "multilingual-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/co-op-translator",
+      "target": "python-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:17.353790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16712
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2050
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3984
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1505
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1198
+    },
+    {
+      "path": ".github/workflows/co-op-review.yml",
+      "size": 3061
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 1399
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1454
+    },
+    {
+      "path": ".github/workflows/label-title-prefix.yml",
+      "size": 2407
+    },
+    {
+      "path": ".github/workflows/labeler-pr.yml",
+      "size": 558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services",
+    "fork": false,
+    "full_name": "Azure/co-op-translator",
+    "html_url": "https://github.com/Azure/co-op-translator",
+    "language": "Python",
+    "pushed_at": "2026-05-01T05:57:01Z",
+    "stargazers_count": 612,
+    "topics": [
+      "azure",
+      "azure-ai-vision",
+      "azure-openai",
+      "co-op-translator",
+      "image-translation",
+      "localization",
+      "markdown-translation",
+      "multilingual-translation",
+      "open-source",
+      "python-package"
+    ],
+    "updated_at": "2026-05-01T05:57:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-for-beginners-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-for-beginners-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/langchain4j-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mcp-for-beginners",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Co-op review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/co-op-review.yml",
+      "term": "Co-op review"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "Publish documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Publish documentation"
+    },
+    {
+      "context_snippet": "Label pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-pr.yml",
+      "term": "Label pull request"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-ai-vision"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-openai"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "co-op-translator"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-translation"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-translation"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual-translation"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-package"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/gqn-datasets",
+      "target": "deepmind/lab",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:51.200959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4047
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Datasets used to train Generative Query Networks (GQNs) in the \u2018Neural Scene Representation and Rendering\u2019 paper.",
+    "fork": false,
+    "full_name": "google-deepmind/gqn-datasets",
+    "html_url": "https://github.com/google-deepmind/gqn-datasets",
+    "language": "Python",
+    "pushed_at": "2022-02-27T19:18:00Z",
+    "stargazers_count": 274,
+    "topics": [],
+    "updated_at": "2026-04-22T16:37:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/lab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

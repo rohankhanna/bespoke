@@ -1,0 +1,529 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "aiidateam/github-action-benchmark@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test.yml"
+    },
+    {
+      "component": "docker/bake-action@v6.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/bake-action@v6.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "akhilerm/tag-push-action@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "aiidateam/plumpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "aiidateam/archive-path",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "aiidateam/github-action-benchmark@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "Performance benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-code.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-code.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "ci-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "docker/bake-action@v6.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-test.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "Build & Test Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "docker/bake-action@v6.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "akhilerm/tag-push-action@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "aiidateam/aiida-core",
+      "target": "Publish images to Docker container registries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "aiida",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "computational-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "data-provenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "provenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "scheduler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "workflow-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiidateam/aiida-core",
+      "target": "workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:08:31.428544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6326
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 20854
+    },
+    {
+      "path": ".github/workflows/benchmark-config.json",
+      "size": 2194
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 2436
+    },
+    {
+      "path": ".github/workflows/check_release_tag.py",
+      "size": 1344
+    },
+    {
+      "path": ".github/workflows/ci-code.yml",
+      "size": 6013
+    },
+    {
+      "path": ".github/workflows/daemon_tests.sh",
+      "size": 529
+    },
+    {
+      "path": ".github/workflows/docker-build-test.yml",
+      "size": 1964
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 3106
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 3163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repository for the AiiDA code",
+    "fork": false,
+    "full_name": "aiidateam/aiida-core",
+    "html_url": "https://github.com/aiidateam/aiida-core",
+    "language": "Python",
+    "pushed_at": "2026-05-01T02:05:24Z",
+    "stargazers_count": 561,
+    "topics": [
+      "aiida",
+      "computational-science",
+      "data-provenance",
+      "database",
+      "provenance",
+      "scheduler",
+      "ssh",
+      "workflow",
+      "workflow-engine",
+      "workflows"
+    ],
+    "updated_at": "2026-04-30T20:26:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiidateam/archive-path",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiidateam/plumpy",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Performance benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Performance benchmarks"
+    },
+    {
+      "context_snippet": "ci-code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-code.yml",
+      "term": "ci-code"
+    },
+    {
+      "context_snippet": "Build & Test Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-test.yml",
+      "term": "Build & Test Docker Images"
+    },
+    {
+      "context_snippet": "Publish images to Docker container registries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Publish images to Docker container registries"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiida"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-science"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-provenance"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "provenance"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduler"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow-engine"
+    },
+    {
+      "context_snippet": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflows"
+    }
+  ]
+}

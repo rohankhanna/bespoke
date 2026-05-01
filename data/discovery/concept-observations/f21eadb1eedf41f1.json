@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Wrapper for 10+ VPR models. Use any SOTA VPR model just by changing one parameter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016613,
+      "status": "candidate",
+      "text": "geopositioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016612,
+      "status": "candidate",
+      "text": "geoposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016611,
+      "status": "candidate",
+      "text": "geoplacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016610,
+      "status": "candidate",
+      "text": "locality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016609,
+      "status": "candidate",
+      "text": "georeferencing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geolocalization",
+      "sense_id": "geolocalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geolocalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geolocalization",
+  "observation_id": "f21eadb1eedf41f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "geolocalization",
+  "source_context_snippet": "This repo allows you to easily test almost any SOTA VPR model within a minute.",
+  "source_file": null,
+  "source_repo": "gmberton/VPR-methods-evaluation",
+  "source_repo_description": "Wrapper for 10+ VPR models. Use any SOTA VPR model just by changing one parameter"
+}

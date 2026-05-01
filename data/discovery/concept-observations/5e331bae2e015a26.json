@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CSSO plugin for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "csso",
+      "sense_id": "csso#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "csso",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "csso",
+  "observation_id": "5e331bae2e015a26",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "csso",
+  "source_context_snippet": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }",
+  "source_file": null,
+  "source_repo": "1000ch/Sublime-csso",
+  "source_repo_description": "CSSO plugin for Sublime Text"
+}

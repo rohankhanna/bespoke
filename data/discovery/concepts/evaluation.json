@@ -271,6 +271,18 @@
       "source_repo": "jkkummerfeld/text2sql-data",
       "status": "candidate-context",
       "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate-context",
+      "text": "ERRor ANnotation Toolkit: Automatically extract and classify grammatical errors in parallel original and corrected sentences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate-context",
+      "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "jkkummerfeld/text2sql-data",
       "status": "candidate",
       "text": "This repository contains data and code for building and evaluating systems that map sentences to SQL, developed as part of:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisjbryant/errant",
+      "status": "candidate",
+      "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
     }
   ],
   "candidate_related_terms": [
@@ -607,11 +625,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chrisjbryant/errant"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

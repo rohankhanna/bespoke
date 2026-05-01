@@ -19,6 +19,18 @@
       "source_repo": "dropwizard/dropwizard",
       "status": "candidate-context",
       "text": "Dropwizard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "status": "candidate-context",
+      "text": "Hibernate mapping for Joda-Time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "status": "candidate-context",
+      "text": "Joda-Time Contributions area - Hibernate support"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dropwizard/dropwizard",
       "status": "candidate",
       "text": "Dropwizard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodaOrg/joda-time-hibernate",
+      "status": "candidate",
+      "text": "Joda-Time Contributions area - Hibernate support"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "JodaOrg/joda-time-hibernate"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

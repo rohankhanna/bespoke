@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hercules-ci/flake-parts",
+      "target": "hercules-ci/flake.parts-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hercules-ci/flake-parts",
+      "target": "nix-community/nixd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hercules-ci/flake-parts",
+      "target": "juspay/hyperswitch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hercules-ci/flake-parts",
+      "target": "recap-utr/nlp-service",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hercules-ci/flake-parts",
+      "target": "flake-parts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hercules-ci/flake-parts",
+      "target": "flakes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hercules-ci/flake-parts",
+      "target": "nix-modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hercules-ci/flake-parts",
+      "target": "nixos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:22.724152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2744\ufe0f Simplify Nix Flakes with the module system",
+    "fork": false,
+    "full_name": "hercules-ci/flake-parts",
+    "html_url": "https://github.com/hercules-ci/flake-parts",
+    "language": "Nix",
+    "pushed_at": "2026-04-01T23:52:15Z",
+    "stargazers_count": 1332,
+    "topics": [
+      "flake-parts",
+      "flakes",
+      "nix",
+      "nix-modules",
+      "nixos"
+    ],
+    "updated_at": "2026-04-30T20:05:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hercules-ci/flake.parts-website",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juspay/hyperswitch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nix-community/nixd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "recap-utr/nlp-service",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "_Core of a distributed framework for writing Nix Flakes._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake-parts"
+    },
+    {
+      "context_snippet": "_Core of a distributed framework for writing Nix Flakes._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flakes"
+    },
+    {
+      "context_snippet": "_Core of a distributed framework for writing Nix Flakes._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nix-modules"
+    },
+    {
+      "context_snippet": "_Core of a distributed framework for writing Nix Flakes._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos"
+    }
+  ]
+}

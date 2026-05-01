@@ -19,6 +19,18 @@
       "source_repo": "mxmlnkn/ratarmount",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate-context",
+      "text": "Use multiple fs modules at once"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate-context",
+      "text": "Creates a union of multiple `fs` file systems."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mxmlnkn/ratarmount",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/unionfs",
+      "status": "candidate",
+      "text": "Creates a union of multiple `fs` file systems."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mxmlnkn/ratarmount"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "streamich/unionfs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

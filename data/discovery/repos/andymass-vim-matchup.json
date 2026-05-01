@@ -60,14 +60,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "andymass/vim-matchup",
-      "target": "raimondi/delimitmate",
+      "target": "gregsexton/matchtag",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "andymass/vim-matchup",
-      "target": "gregsexton/matchtag",
+      "target": "rhysd/vim-textobj-anyblock",
       "target_type": "repository"
     },
     {
@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:01:15.058285+00:00",
+  "fetched_at": "2026-05-01T08:24:43.584974+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -265,7 +265,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "raimondi/delimitmate",
+      "full_name": "rhysd/vim-textobj-anyblock",
       "source_file": "README.md"
     }
   ],

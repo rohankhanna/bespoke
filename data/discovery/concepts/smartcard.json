@@ -31,6 +31,18 @@
       "source_repo": "OpenSC/OpenSC",
       "status": "candidate-context",
       "text": "Manual pages for the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate-context",
+      "text": "umbrella project for emulation of smart card readers or smart cards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate-context",
+      "text": "Virtual Smart Card Architecture is an umbrella project for various"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "OpenSC/OpenSC",
       "status": "candidate",
       "text": "Manual pages for the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frankmorgner/vsmartcard",
+      "status": "candidate",
+      "text": "Virtual Smart Card Architecture is an umbrella project for various"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "OpenSC/OpenSC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frankmorgner/vsmartcard"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

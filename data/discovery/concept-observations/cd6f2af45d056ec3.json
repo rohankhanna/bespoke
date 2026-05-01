@@ -84,7 +84,7 @@
   "normalized_form": "render-pr",
   "observation_id": "cd6f2af45d056ec3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Render PR",
   "source_context_snippet": "Render PR",
   "source_file": ".github/workflows/render-pr.yml",

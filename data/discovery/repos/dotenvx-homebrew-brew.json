@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dotenvx/homebrew-brew",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dotenvx/homebrew-brew",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dotenvx/homebrew-brew",
+      "target": "Node CI Suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:12:51.983030+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 542
+    },
+    {
+      "path": "package.json",
+      "size": 3
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "install `dotenvx` via homebrew",
+    "fork": false,
+    "full_name": "dotenvx/homebrew-brew",
+    "html_url": "https://github.com/dotenvx/homebrew-brew",
+    "language": "Ruby",
+    "pushed_at": "2026-04-27T15:52:07Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-27T15:52:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Node CI Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Node CI Suite"
+    }
+  ]
+}

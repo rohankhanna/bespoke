@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/libsvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/libsvm",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/libsvm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "cjlin1/libsvm",
+      "target": "Build wheels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:29:51.533718+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/wheel.yml",
+      "size": 1276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LIBSVM -- A Library for Support Vector Machines",
+    "fork": false,
+    "full_name": "cjlin1/libsvm",
+    "html_url": "https://github.com/cjlin1/libsvm",
+    "language": "Java",
+    "pushed_at": "2025-12-29T11:23:20Z",
+    "stargazers_count": 4704,
+    "topics": [],
+    "updated_at": "2026-05-01T04:36:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel.yml",
+      "term": "Build wheels"
+    }
+  ]
+}

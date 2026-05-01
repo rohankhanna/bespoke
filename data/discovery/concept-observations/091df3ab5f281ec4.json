@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch CTC Decoder bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ctc-loss",
+      "sense_id": "ctc-loss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ctc-loss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ctc-loss",
+  "observation_id": "091df3ab5f281ec4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "ctc-loss",
+  "source_context_snippet": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch.",
+  "source_file": null,
+  "source_repo": "parlance/ctcdecode",
+  "source_repo_description": "PyTorch CTC Decoder bindings"
+}

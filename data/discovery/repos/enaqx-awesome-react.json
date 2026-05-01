@@ -1,0 +1,193 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enaqx/awesome-react",
+      "target": "aidenybai/react-scan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enaqx/awesome-react",
+      "target": "adazzle/react-data-grid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enaqx/awesome-react",
+      "target": "airbnb/visx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enaqx/awesome-react",
+      "target": "aelassas/bookcars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react",
+      "target": "react-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react",
+      "target": "react-tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react",
+      "target": "samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:12:36.581948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of awesome things regarding React ecosystem",
+    "fork": false,
+    "full_name": "enaqx/awesome-react",
+    "html_url": "https://github.com/enaqx/awesome-react",
+    "language": null,
+    "pushed_at": "2026-03-27T01:20:52Z",
+    "stargazers_count": 73091,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "javascript",
+      "react",
+      "react-apps",
+      "react-native",
+      "react-tutorial",
+      "samples",
+      "tutorial",
+      "typescript"
+    ],
+    "updated_at": "2026-05-01T07:11:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adazzle/react-data-grid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aelassas/bookcars",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidenybai/react-scan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airbnb/visx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A collection of awesome things regarding the React ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "A collection of awesome things regarding the React ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "A collection of awesome things regarding the React ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "A collection of awesome things regarding the React ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-apps"
+    },
+    {
+      "context_snippet": "A collection of awesome things regarding the React ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "A collection of awesome things regarding the React ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-tutorial"
+    },
+    {
+      "context_snippet": "A collection of awesome things regarding the React ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    },
+    {
+      "context_snippet": "A collection of awesome things regarding the React ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

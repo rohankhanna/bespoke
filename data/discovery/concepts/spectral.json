@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "spectral"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SchwarzIT/api-linter-rules",
+      "status": "candidate-context",
+      "text": "Schwarz API rule definitions for the Spectral API linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchwarzIT/api-linter-rules",
+      "status": "candidate-context",
+      "text": "[![SIT](https://img.shields.io/badge/SIT-awesome-blueviolet.svg)](https://jobs.schwarz)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchwarzIT/api-linter-rules",
+      "status": "candidate",
+      "text": "[![SIT](https://img.shields.io/badge/SIT-awesome-blueviolet.svg)](https://jobs.schwarz)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912232,
+      "status": "candidate",
+      "text": "ghostlike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912229,
+      "status": "candidate",
+      "text": "ghostly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912051,
+      "status": "candidate",
+      "text": "phantasmal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39909265,
+      "status": "candidate",
+      "text": "spiritual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39908912,
+      "status": "candidate",
+      "text": "apparitional"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35022,
+      "status": "candidate",
+      "text": "phantasmal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19039,
+      "status": "candidate",
+      "text": "supernatural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17032,
+      "status": "candidate",
+      "text": "ghostly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11039,
+      "status": "candidate",
+      "text": "spiritual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6020,
+      "status": "candidate",
+      "text": "apparitional"
+    }
+  ],
+  "canonical_name": "spectral",
+  "concept_id": "spectral",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SchwarzIT/api-linter-rules"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spectral",
+      "sense_id": "spectral#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

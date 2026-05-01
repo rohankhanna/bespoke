@@ -115,6 +115,30 @@
       "source_repo": "nvpro-samples/vk_raytrace",
       "status": "candidate-context",
       "text": "This project has been archived. The successor version is the [glTF renderer](https://github.com/nvpro-samples/vk_gltf_renderer)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate-context",
+      "text": "An open-source JavaScript library for world-class 3D globes and maps :earth_americas:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/CesiumGS/cesium/actions/workflows/dev.yml/badge.svg)](https://github.com/CesiumGS/cesium/actions/workflows/dev.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "status": "candidate-context",
+      "text": "Tool for generating various glTF assets for importer validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "status": "candidate-context",
+      "text": "This is a C# Visual Studio project for generating various glTF 2.0 assets for validating glTF 2.0 importers."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "nvpro-samples/vk_raytrace",
       "status": "candidate",
       "text": "This project has been archived. The successor version is the [glTF renderer](https://github.com/nvpro-samples/vk_gltf_renderer)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/cesium",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/CesiumGS/cesium/actions/workflows/dev.yml/badge.svg)](https://github.com/CesiumGS/cesium/actions/workflows/dev.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/glTF-Asset-Generator",
+      "status": "candidate",
+      "text": "This is a C# Visual Studio project for generating various glTF 2.0 assets for validating glTF 2.0 importers."
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +268,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nvpro-samples/vk_raytrace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CesiumGS/cesium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/glTF-Asset-Generator"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

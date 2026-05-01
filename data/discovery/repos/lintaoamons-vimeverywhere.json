@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:29:30.678485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learn one vim, Use everywhere.",
+    "fork": false,
+    "full_name": "LintaoAmons/VimEverywhere",
+    "html_url": "https://github.com/LintaoAmons/VimEverywhere",
+    "language": "Lua",
+    "pushed_at": "2025-02-23T02:17:50Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-02-24T03:00:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "cmake4vim integration for telescope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cmake4vim",
+      "sense_id": "cmake4vim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cmake4vim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cmake4vim",
+  "observation_id": "d6105be41dd64e4c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "cmake4vim",
+  "source_context_snippet": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim).",
+  "source_file": null,
+  "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+  "source_repo_description": "cmake4vim integration for telescope"
+}

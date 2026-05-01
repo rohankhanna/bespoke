@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@12.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@12.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graal-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "Graal tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "http-kit/http-kit",
+      "target": "Main tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "http-kit/http-kit",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "http-kit/http-kit",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "http-kit/http-kit",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "http-kit/http-kit",
+      "target": "http-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "http-kit/http-kit",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:24:20.735860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4277
+    },
+    {
+      "path": ".github/workflows/graal-tests.yml",
+      "size": 816
+    },
+    {
+      "path": ".github/workflows/main-tests.yml",
+      "size": 644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple, high-performance event-driven HTTP client+server for Clojure",
+    "fork": false,
+    "full_name": "http-kit/http-kit",
+    "html_url": "https://github.com/http-kit/http-kit",
+    "language": "Java",
+    "pushed_at": "2026-04-08T10:03:52Z",
+    "stargazers_count": 2572,
+    "topics": [
+      "async",
+      "clojure",
+      "http-client",
+      "http-server",
+      "websockets"
+    ],
+    "updated_at": "2026-04-22T14:50:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Graal tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graal-tests.yml",
+      "term": "Graal tests"
+    },
+    {
+      "context_snippet": "Main tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-tests.yml",
+      "term": "Main tests"
+    },
+    {
+      "context_snippet": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-server"
+    },
+    {
+      "context_snippet": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

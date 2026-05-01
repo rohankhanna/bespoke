@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AppSignal instrumentation for Plug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AppSignal's Plug instrumentation instruments calls to Plug applications to"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AppSignal's Plug instrumentation instruments calls to Plug applications to"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924958,
+      "status": "candidate",
+      "text": "spark plug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915368,
+      "status": "candidate",
+      "text": "fireplug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913763,
+      "status": "candidate",
+      "text": "sparking plug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912978,
+      "status": "candidate",
+      "text": "fire hydrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890168,
+      "status": "candidate",
+      "text": "stopper"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plug",
+      "sense_id": "plug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35045,
+      "status": "candidate",
+      "text": "secure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23057,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23053,
+      "status": "candidate",
+      "text": "jade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12050,
+      "status": "candidate",
+      "text": "quid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11049,
+      "status": "candidate",
+      "text": "wad"
+    }
+  ],
+  "concept_id": "plug",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plug",
+  "observation_id": "6565aac0da8e961c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "plug",
+  "source_context_snippet": "AppSignal's Plug instrumentation instruments calls to Plug applications to",
+  "source_file": null,
+  "source_repo": "appsignal/appsignal-elixir-plug",
+  "source_repo_description": "AppSignal instrumentation for Plug"
+}

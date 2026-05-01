@@ -103,6 +103,30 @@
       "source_repo": "sublimehq/Packages",
       "status": "candidate-context",
       "text": "These packages are developed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1000ch/Sublime-csso",
+      "status": "candidate-context",
+      "text": "CSSO plugin for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1000ch/Sublime-csso",
+      "status": "candidate-context",
+      "text": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dempfi/ayu",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8\ud83d\udd8c Modern, bright color theme for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dempfi/ayu",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "sublimehq/Packages",
       "status": "candidate",
       "text": "These packages are developed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1000ch/Sublime-csso",
+      "status": "candidate",
+      "text": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dempfi/ayu",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +250,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sublimelsp/LSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "1000ch/Sublime-csso"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dempfi/ayu"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

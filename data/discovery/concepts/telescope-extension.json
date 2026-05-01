@@ -19,6 +19,18 @@
       "source_repo": "scottmckendry/pick-resession.nvim",
       "status": "candidate-context",
       "text": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "cmake4vim integration for telescope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate-context",
+      "text": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "scottmckendry/pick-resession.nvim",
       "status": "candidate",
       "text": "A picker plugin for the wonderful [resession.nvim](https://github.com/stevearc/resession.nvim) plugin, with support for both Telescope and Snacks pickers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim",
+      "status": "candidate",
+      "text": "Integration for [cmake4vim](https://github.com/ilyachur/cmake4vim) with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "scottmckendry/pick-resession.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "SantinoKeupp/telescope-cmake4vim.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

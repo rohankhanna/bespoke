@@ -67,6 +67,18 @@
       "source_repo": "mfussenegger/nvim-lint",
       "status": "candidate-context",
       "text": "An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate-context",
+      "text": "Stylelint plugin to validate CSS syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "mfussenegger/nvim-lint",
       "status": "candidate",
       "text": "An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstree/stylelint-validator",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "csstree/stylelint-validator"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

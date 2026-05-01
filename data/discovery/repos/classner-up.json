@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "classner/up",
+      "target": "eldar/deepcut-cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "classner/up",
+      "target": "thewebmonks/demo-2d3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "classner/up",
+      "target": "kaiminghe/deep-residual-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "classner/up",
+      "target": "classner/clustertools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:11:50.502534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5710
+    },
+    {
+      "path": "requirements.txt",
+      "size": 164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official code repository for the paper \"Unite the People \u2013 Closing the Loop Between 3D and 2D Human Representations\".",
+    "fork": false,
+    "full_name": "classner/up",
+    "html_url": "https://github.com/classner/up",
+    "language": "Python",
+    "pushed_at": "2024-04-30T23:19:46Z",
+    "stargazers_count": 305,
+    "topics": [],
+    "updated_at": "2026-03-17T15:38:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eldar/deepcut-cnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiminghe/deep-residual-networks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thewebmonks/demo-2d3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "classner/clustertools",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

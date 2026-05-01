@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/publish_package.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_package.yml"
     },
@@ -157,7 +157,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_package.yml",
       "source_repo": "Comfy-Org/comfy-cli",
-      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "target_type": "component"
     },
     {
@@ -301,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:42:17.596872+00:00",
+  "fetched_at": "2026-05-01T08:11:57.514830+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -349,7 +349,7 @@
     "full_name": "Comfy-Org/comfy-cli",
     "html_url": "https://github.com/Comfy-Org/comfy-cli",
     "language": "Python",
-    "pushed_at": "2026-04-30T13:15:21Z",
+    "pushed_at": "2026-05-01T07:28:36Z",
     "stargazers_count": 769,
     "topics": [
       "ai",
@@ -357,7 +357,7 @@
       "command-line",
       "stable-diffusion"
     ],
-    "updated_at": "2026-04-30T13:15:42Z"
+    "updated_at": "2026-05-01T07:28:39Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "balazik/comfyui-pulid-flux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "lldacing/comfyui_patches_ll",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "chengzeyi/comfy-wavespeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "city96/comfyui-gguf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:34:23.085689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9658
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 615
+    },
+    {
+      "path": "requirements.txt",
+      "size": 267
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 647
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "lldacing/ComfyUI_PuLID_Flux_ll",
+    "html_url": "https://github.com/lldacing/ComfyUI_PuLID_Flux_ll",
+    "language": "Python",
+    "pushed_at": "2025-11-07T05:19:50Z",
+    "stargazers_count": 463,
+    "topics": [],
+    "updated_at": "2026-04-27T13:25:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "balazik/comfyui-pulid-flux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chengzeyi/comfy-wavespeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "city96/comfyui-gguf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lldacing/comfyui_patches_ll",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

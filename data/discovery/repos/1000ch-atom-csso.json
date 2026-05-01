@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "csso-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "execa",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1000ch/atom-csso",
+      "target": "csso-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1000ch/atom-csso",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1000ch/atom-csso",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1000ch/atom-csso",
+      "target": "atom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1000ch/atom-csso",
+      "target": "atom-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1000ch/atom-csso",
+      "target": "csso",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:17:49.700299+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minify CSS with CSSO",
+    "fork": false,
+    "full_name": "1000ch/atom-csso",
+    "html_url": "https://github.com/1000ch/atom-csso",
+    "language": "JavaScript",
+    "pushed_at": "2021-08-02T20:40:13Z",
+    "stargazers_count": 2,
+    "topics": [
+      "atom",
+      "atom-plugin",
+      "css",
+      "csso"
+    ],
+    "updated_at": "2021-04-13T01:19:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "csso \u2014 Minify CSS with CSSO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom"
+    },
+    {
+      "context_snippet": "csso \u2014 Minify CSS with CSSO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom-plugin"
+    },
+    {
+      "context_snippet": "csso \u2014 Minify CSS with CSSO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csso"
+    }
+  ]
+}

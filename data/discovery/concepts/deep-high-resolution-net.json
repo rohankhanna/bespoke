@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "deep-high-resolution-net"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "status": "candidate-context",
+      "text": "This is an official implementation of facial landmark detection for our TPAMI paper \"Deep High-Resolution Representation Learning for Visual Recognition\". https://arxiv.org/abs/1908.07919"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "status": "candidate-context",
+      "text": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate-context",
+      "text": "The project is an official implementation of our CVPR2019 paper \"Deep High-Resolution Representation Learning for Human Pose Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate-context",
+      "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "status": "candidate",
+      "text": "- [2020/03/13] Our paper is accepted by TPAMI: [Deep High-Resolution Representation Learning for Visual Recognition](https://arxiv.org/pdf/1908.07919.pdf)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
+      "status": "candidate",
+      "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "deep-high-resolution-net",
+  "concept_id": "deep-high-resolution-net",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HRNet/HRNet-Facial-Landmark-Detection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-high-resolution-net",
+      "sense_id": "deep-high-resolution-net#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

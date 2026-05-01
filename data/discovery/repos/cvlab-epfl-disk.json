@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvlab-epfl/disk",
+      "target": "mihaidusmanu/d2-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvlab-epfl/disk",
+      "target": "jatentaki/torch-dimcheck",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:12:57.223069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9405
+    },
+    {
+      "path": "requirements.txt",
+      "size": 147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Disk code release",
+    "fork": false,
+    "full_name": "cvlab-epfl/disk",
+    "html_url": "https://github.com/cvlab-epfl/disk",
+    "language": "Python",
+    "pushed_at": "2023-12-15T10:17:26Z",
+    "stargazers_count": 376,
+    "topics": [],
+    "updated_at": "2026-04-07T09:41:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jatentaki/torch-dimcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mihaidusmanu/d2-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -99,6 +99,30 @@
       "source_repo": "KhronosGroup/OpenCL-ICD-Loader",
       "status": "candidate-context",
       "text": "Presubmit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate-context",
+      "text": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate-context",
+      "text": "presubmit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ulfjack/ryu",
+      "status": "candidate-context",
+      "text": "Converts floating point numbers to decimal strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ulfjack/ryu",
+      "status": "candidate-context",
+      "text": "Presubmit"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +171,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KhronosGroup/OpenCL-ICD-Loader",
+      "status": "candidate",
+      "text": "Presubmit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "status": "candidate",
+      "text": "presubmit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ulfjack/ryu",
       "status": "candidate",
       "text": "Presubmit"
     }
@@ -234,11 +270,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "ulfjack/ryu"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

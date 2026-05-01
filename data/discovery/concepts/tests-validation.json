@@ -19,12 +19,30 @@
       "source_repo": "jupyterlab/extension-cookiecutter-ts",
       "status": "candidate-context",
       "text": "Tests validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/extension-template",
+      "status": "candidate-context",
+      "text": "A `copier` template for JupyterLab extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-template",
+      "status": "candidate-context",
+      "text": "Tests validation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "jupyterlab/extension-cookiecutter-ts",
+      "status": "candidate",
+      "text": "Tests validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/extension-template",
       "status": "candidate",
       "text": "Tests validation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/check-tests.yml",
       "source_repo": "jupyterlab/extension-cookiecutter-ts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check-tests.yml",
+      "source_repo": "jupyterlab/extension-template"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

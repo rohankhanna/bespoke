@@ -43,6 +43,30 @@
       "source_repo": "acacode/swagger-typescript-api",
       "status": "candidate-context",
       "text": "Builds, tests & co"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mirage/ocaml-uri",
+      "status": "candidate-context",
+      "text": "RFC3986 URI parsing library for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/ocaml-uri",
+      "status": "candidate-context",
+      "text": "Builds, tests & co"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
+      "status": "candidate-context",
+      "text": "Builds, tests & co"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "acacode/swagger-typescript-api",
+      "status": "candidate",
+      "text": "Builds, tests & co"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/ocaml-uri",
+      "status": "candidate",
+      "text": "Builds, tests & co"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocamllabs/vscode-ocaml-platform",
       "status": "candidate",
       "text": "Builds, tests & co"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "acacode/swagger-typescript-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-uri"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocamllabs/vscode-ocaml-platform"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

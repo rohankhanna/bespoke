@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Boards Test - Remote trigger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/arduino-esp32",
+      "status": "candidate-context",
+      "text": "Arduino core for the ESP32"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/arduino-esp32",
+      "status": "candidate-context",
+      "text": "Boards Test - Remote trigger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/arduino-esp32",
+      "status": "candidate",
+      "text": "Boards Test - Remote trigger"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27913,
+      "status": "candidate",
+      "text": "plank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27873,
+      "status": "candidate",
+      "text": "fear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27873,
+      "status": "candidate",
+      "text": "fired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27856,
+      "status": "candidate",
+      "text": "den"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27856,
+      "status": "candidate",
+      "text": "drn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Boards Test - Remote trigger",
+  "concept_id": "boards-test---remote-trigger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/allboards.yml",
+      "source_repo": "espressif/arduino-esp32"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Boards Test - Remote trigger",
+      "sense_id": "boards-test---remote-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

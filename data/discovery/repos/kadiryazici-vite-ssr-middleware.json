@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-ssr",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-router",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-ssr",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-router",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kadiryazici/vite-ssr-middleware",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kadiryazici/vite-ssr-middleware",
+      "target": "vite-ssr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kadiryazici/vite-ssr-middleware",
+      "target": "vue-router",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "kadiryazici/vite-ssr-middleware",
+      "target": "vite-ssr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "kadiryazici/vite-ssr-middleware",
+      "target": "vue-router",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:30:33.135569+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Middleware Support For https://github.com/frandiox/vite-ssr",
+    "fork": false,
+    "full_name": "kadiryazici/vite-ssr-middleware",
+    "html_url": "https://github.com/kadiryazici/vite-ssr-middleware",
+    "language": "TypeScript",
+    "pushed_at": "2021-08-21T04:11:48Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2024-10-26T21:32:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

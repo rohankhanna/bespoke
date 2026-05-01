@@ -144,14 +144,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "release-drafter/release-drafter@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "target": "release-drafter/release-drafter@563bf132657a13ded0b01fcb723c5a58cdd824e2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "release-drafter/release-drafter/autolabeler@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "target": "release-drafter/release-drafter/autolabeler@563bf132657a13ded0b01fcb723c5a58cdd824e2",
       "target_type": "component"
     },
     {
@@ -246,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "ultrajson/ultrajson"
 }

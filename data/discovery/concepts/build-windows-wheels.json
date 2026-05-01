@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build Windows Wheels"
+    "Build Windows Wheels",
+    "build-windows-wheels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,30 @@
       "source_repo": "pytorch/vision",
       "status": "candidate-context",
       "text": "Build Windows Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate-context",
+      "text": "Build Windows Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate-context",
+      "text": "SPlisHSPlasH is an open-source library for the physically-based simulation of fluids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate-context",
+      "text": "build-windows-wheels"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +70,18 @@
       "source_repo": "pytorch/vision",
       "status": "candidate",
       "text": "Build Windows Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/rl",
+      "status": "candidate",
+      "text": "Build Windows Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate",
+      "text": "build-windows-wheels"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +137,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/build-wheels-windows.yml",
       "source_repo": "pytorch/vision"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/rl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-windows-wheels.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

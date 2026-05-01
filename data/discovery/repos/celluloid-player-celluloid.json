@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml"
+    },
+    {
+      "component": "pixta-dev/repository-mirroring-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "celluloid-player/celluloid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "celluloid-player/celluloid",
+      "target": "pixta-dev/repository-mirroring-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "celluloid-player/celluloid",
+      "target": "Mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "celluloid-player/celluloid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "celluloid-player/celluloid",
+      "target": "cachix/install-nix-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "celluloid-player/celluloid",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celluloid-player/celluloid",
+      "target": "audio-player",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celluloid-player/celluloid",
+      "target": "celluloid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celluloid-player/celluloid",
+      "target": "gnome-mpv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celluloid-player/celluloid",
+      "target": "gtk4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celluloid-player/celluloid",
+      "target": "libadwaita",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celluloid-player/celluloid",
+      "target": "media-player",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celluloid-player/celluloid",
+      "target": "video-player",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:17:43.861338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5811
+    },
+    {
+      "path": ".github/workflows/mirror.yaml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple GTK+ frontend for mpv",
+    "fork": false,
+    "full_name": "celluloid-player/celluloid",
+    "html_url": "https://github.com/celluloid-player/celluloid",
+    "language": "C",
+    "pushed_at": "2026-04-27T18:02:28Z",
+    "stargazers_count": 1410,
+    "topics": [
+      "audio-player",
+      "c",
+      "celluloid",
+      "gnome-mpv",
+      "gtk",
+      "gtk4",
+      "libadwaita",
+      "media-player",
+      "mpv",
+      "video-player"
+    ],
+    "updated_at": "2026-04-30T03:28:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yaml",
+      "term": "Mirror"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-player"
+    },
+    {
+      "context_snippet": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "celluloid"
+    },
+    {
+      "context_snippet": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnome-mpv"
+    },
+    {
+      "context_snippet": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtk4"
+    },
+    {
+      "context_snippet": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libadwaita"
+    },
+    {
+      "context_snippet": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media-player"
+    },
+    {
+      "context_snippet": "Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. Celluloid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-player"
+    }
+  ]
+}

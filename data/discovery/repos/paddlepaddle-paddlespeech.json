@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PaddlePaddle/PaddleSpeech",
-      "target": "745165806/paddlespeechtask",
+      "target": "gitycc/g2pw",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PaddlePaddle/PaddleSpeech",
-      "target": "chenkui164/fastasr",
+      "target": "jerryuhoo/vtubertalk",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PaddlePaddle/PaddleSpeech",
-      "target": "escaticzheng/ps3.9wheel-install",
+      "target": "apps/dependabot",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PaddlePaddle/PaddleSpeech",
-      "target": "chinobing/fastapi-paddlespeech-audio-to-text",
+      "target": "heyudage/voicetyping",
       "target_type": "repository"
     },
     {
@@ -149,7 +149,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:45:49.752142+00:00",
+  "fetched_at": "2026-05-01T10:36:52.062198+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -166,7 +166,7 @@
     "html_url": "https://github.com/PaddlePaddle/PaddleSpeech",
     "language": "Python",
     "pushed_at": "2026-04-15T11:10:22Z",
-    "stargazers_count": 12591,
+    "stargazers_count": 12593,
     "topics": [
       "asr",
       "code-switch",
@@ -189,27 +189,27 @@
       "wav2vec2",
       "whisper"
     ],
-    "updated_at": "2026-04-29T15:38:56Z"
+    "updated_at": "2026-04-29T23:11:07Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "745165806/paddlespeechtask",
+      "full_name": "apps/dependabot",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chenkui164/fastasr",
+      "full_name": "gitycc/g2pw",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chinobing/fastapi-paddlespeech-audio-to-text",
+      "full_name": "heyudage/voicetyping",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "escaticzheng/ps3.9wheel-install",
+      "full_name": "jerryuhoo/vtubertalk",
       "source_file": "README.md"
     }
   ],

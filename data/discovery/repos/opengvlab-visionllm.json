@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/VisionLLM",
+      "target": "generalist-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/VisionLLM",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/VisionLLM",
+      "target": "object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:39.292515+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VisionLLM Series",
+    "fork": false,
+    "full_name": "OpenGVLab/VisionLLM",
+    "html_url": "https://github.com/OpenGVLab/VisionLLM",
+    "language": "Python",
+    "pushed_at": "2025-02-27T08:31:04Z",
+    "stargazers_count": 1144,
+    "topics": [
+      "generalist-model",
+      "large-language-models",
+      "object-detection"
+    ],
+    "updated_at": "2026-04-23T13:54:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalist-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    }
+  ]
+}

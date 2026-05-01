@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jiro4989/setup-nim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snej/nimdbx",
+      "target": "nimterop/nimterop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "snej/nimdbx",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "snej/nimdbx",
+      "target": "jiro4989/setup-nim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "snej/nimdbx",
+      "target": "BuildAndTest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snej/nimdbx",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snej/nimdbx",
+      "target": "key-value-store",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:31:45.017549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8881
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Fast persistent key-value store for Nim, based on libmdbx",
+    "fork": false,
+    "full_name": "snej/nimdbx",
+    "html_url": "https://github.com/snej/nimdbx",
+    "language": "C",
+    "pushed_at": "2023-04-08T20:28:17Z",
+    "stargazers_count": 85,
+    "topics": [
+      "database",
+      "key-value-store",
+      "nim"
+    ],
+    "updated_at": "2026-01-25T14:51:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nimterop/nimterop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BuildAndTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "BuildAndTest"
+    },
+    {
+      "context_snippet": "**April 2023:** In light of statements made by Leonid Yuriev in the [libmdx README](https://abf.io/erthink/libmdbx/blob/master/README.md), I'm abandoning this project and archiving the repo. Namely:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "**April 2023:** In light of statements made by Leonid Yuriev in the [libmdx README](https://abf.io/erthink/libmdbx/blob/master/README.md), I'm abandoning this project and archiving the repo. Namely:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value-store"
+    }
+  ]
+}

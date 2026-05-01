@@ -361,6 +361,54 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate-context",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/AuxiliaryASR",
+      "status": "candidate-context",
+      "text": "Joint CTC-S2S Phoneme-level ASR for Voice Conversion and TTS (Text-Mel Alignment)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/AuxiliaryASR",
+      "status": "candidate-context",
+      "text": "This repo contains the training code for Phoneme-level ASR for Voice Conversion (VC) and TTS (Text-Mel Alignment) used in [StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) and [StyleTTS](https://github.com/yl4579/StyleTTS)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifeiteng/vall-e",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of VALL-E(Zero-Shot Text-To-Speech), Reproduced Demo https://lifeiteng.github.io/valle/index.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifeiteng/vall-e",
+      "status": "candidate-context",
+      "text": "Language : \ud83c\uddfa\ud83c\uddf8 | [\ud83c\udde8\ud83c\uddf3](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/PitchExtractor",
+      "status": "candidate-context",
+      "text": "Deep Neural Pitch Extractor for Voice Conversion and TTS Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/PitchExtractor",
+      "status": "candidate-context",
+      "text": "This repo contains the training code for deep neural pitch extractor for Voice Conversion (VC) and TTS used in [StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) and [StyleTTS](https://github.com/yl4579/StyleTTS). This is the F0 network in StarGANv2-VC and pitch extractor in\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate-context",
+      "text": "Official Implementation of StyleTTS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate-context",
+      "text": "> Text-to-Speech (TTS) has recently seen great progress in synthesizing high-quality speech owing to the rapid development of parallel TTS systems, but producing speech with naturalistic prosodic variations, speaking styles and emotional tones remains challenging. Moreover, sinc\u2026"
     }
   ],
   "candidate_glosses": [
@@ -543,6 +591,30 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/AuxiliaryASR",
+      "status": "candidate",
+      "text": "This repo contains the training code for Phoneme-level ASR for Voice Conversion (VC) and TTS (Text-Mel Alignment) used in [StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) and [StyleTTS](https://github.com/yl4579/StyleTTS)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifeiteng/vall-e",
+      "status": "candidate",
+      "text": "Language : \ud83c\uddfa\ud83c\uddf8 | [\ud83c\udde8\ud83c\uddf3](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/PitchExtractor",
+      "status": "candidate",
+      "text": "This repo contains the training code for deep neural pitch extractor for Voice Conversion (VC) and TTS used in [StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) and [StyleTTS](https://github.com/yl4579/StyleTTS). This is the F0 network in StarGANv2-VC and pitch extractor in\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate",
+      "text": "> Text-to-Speech (TTS) has recently seen great progress in synthesizing high-quality speech owing to the rapid development of parallel TTS systems, but producing speech with naturalistic prosodic variations, speaking styles and emotional tones remains challenging. Moreover, sinc\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -730,11 +802,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/AuxiliaryASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/PitchExtractor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StyleTTS"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -158,6 +158,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "redis/redis-om-python",
+      "target": "redis-om/redis-om-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-python",
+      "target": "redis-om/redis-om-spring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-python",
       "target": "samuelcolvin/pydantic",
       "target_type": "repository"
     },
@@ -379,7 +393,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T00:42:09.017974+00:00",
+  "fetched_at": "2026-05-01T09:19:20.154309+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -427,7 +441,7 @@
     "full_name": "redis/redis-om-python",
     "html_url": "https://github.com/redis/redis-om-python",
     "language": "Python",
-    "pushed_at": "2026-04-30T06:59:37Z",
+    "pushed_at": "2026-05-01T07:01:45Z",
     "stargazers_count": 1307,
     "topics": [
       "asyncio",
@@ -441,6 +455,16 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "redis-developer/redis-om-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-om/redis-om-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-om/redis-om-spring",
       "source_file": "README.md"
     },
     {

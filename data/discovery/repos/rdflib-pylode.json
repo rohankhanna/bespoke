@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/pyLODE",
+      "target": "essepuntato/lode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RDFLib/pyLODE",
+      "target": "fair-impact/mod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "RDFLib/pyLODE",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "RDFLib/pyLODE",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "RDFLib/pyLODE",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "RDFLib/pyLODE",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/pyLODE",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/pyLODE",
+      "target": "jinja2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/pyLODE",
+      "target": "lode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RDFLib/pyLODE",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:13:43.245336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13828
+    },
+    {
+      "path": "Dockerfile",
+      "size": 120
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1514
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "size": 717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An OWL ontology documentation tool using Python and templating, based on LODE",
+    "fork": false,
+    "full_name": "RDFLib/pyLODE",
+    "html_url": "https://github.com/RDFLib/pyLODE",
+    "language": "Python",
+    "pushed_at": "2026-04-29T00:25:39Z",
+    "stargazers_count": 214,
+    "topics": [
+      "documentation",
+      "jinja2",
+      "lode",
+      "owl",
+      "python",
+      "rdf",
+      "templates"
+    ],
+    "updated_at": "2026-04-29T00:25:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "essepuntato/lode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fair-impact/mod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "![pyLODE logo](https://raw.githubusercontent.com/RDFLib/pyLODE/master/img/pyLODE-250.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "![pyLODE logo](https://raw.githubusercontent.com/RDFLib/pyLODE/master/img/pyLODE-250.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jinja2"
+    },
+    {
+      "context_snippet": "![pyLODE logo](https://raw.githubusercontent.com/RDFLib/pyLODE/master/img/pyLODE-250.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lode"
+    },
+    {
+      "context_snippet": "![pyLODE logo](https://raw.githubusercontent.com/RDFLib/pyLODE/master/img/pyLODE-250.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    }
+  ]
+}

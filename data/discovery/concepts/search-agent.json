@@ -31,6 +31,18 @@
       "source_repo": "pat-jj/s3",
       "status": "candidate-context",
       "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pat-jj/DeepRetrieval",
+      "status": "candidate-context",
+      "text": "[COLM\u201925] DeepRetrieval \u2014 \ud83d\udd25 Training Search Agent by RLVR with Retrieval Outcome"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pat-jj/DeepRetrieval",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "pat-jj/s3",
       "status": "candidate",
       "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pat-jj/DeepRetrieval",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pat-jj/DeepRetrieval"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

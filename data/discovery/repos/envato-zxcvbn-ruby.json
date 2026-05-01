@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "envato/zxcvbn-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "envato/zxcvbn-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:23:14.507254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7493
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby port of Dropbox's zxcvbn javascript lib",
+    "fork": false,
+    "full_name": "envato/zxcvbn-ruby",
+    "html_url": "https://github.com/envato/zxcvbn-ruby",
+    "language": "Ruby",
+    "pushed_at": "2026-01-15T05:29:13Z",
+    "stargazers_count": 335,
+    "topics": [],
+    "updated_at": "2026-03-11T07:27:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

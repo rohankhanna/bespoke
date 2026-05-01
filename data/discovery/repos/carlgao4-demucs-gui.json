@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:08:03.107162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8726
+    },
+    {
+      "path": "requirements.txt",
+      "size": 254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GUI for music separation AI demucs",
+    "fork": false,
+    "full_name": "CarlGao4/Demucs-Gui",
+    "html_url": "https://github.com/CarlGao4/Demucs-Gui",
+    "language": "Python",
+    "pushed_at": "2025-06-20T05:38:11Z",
+    "stargazers_count": 1096,
+    "topics": [],
+    "updated_at": "2026-04-30T11:46:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

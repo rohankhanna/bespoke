@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:11:03.966485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1971
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1666
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for the code of a KubeCon NA 2023 talk about how to train Llama2 on Argo Workflows via Hera",
+    "fork": false,
+    "full_name": "flaviuvadan/kubecon_na_23_llama2_finetune",
+    "html_url": "https://github.com/flaviuvadan/kubecon_na_23_llama2_finetune",
+    "language": "Python",
+    "pushed_at": "2024-02-20T15:30:24Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-01-16T04:07:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

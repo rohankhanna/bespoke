@@ -73,6 +73,54 @@
       "source_repo": "dwyl/learn-redux",
       "status": "candidate-context",
       "text": "![learn-redux-header](https://cloud.githubusercontent.com/assets/194400/12328626/12f025de-bad4-11e5-9ebd-c0994b8f2f24.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/redux",
+      "status": "candidate-context",
+      "text": "A JS library for predictable global state management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux",
+      "status": "candidate-context",
+      "text": "Redux is a JS library for predictable and maintainable global state management."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "\ud83d\udc3b Bear necessities for state management in React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyrilluce/saga-duck",
+      "status": "candidate-context",
+      "text": "extensible and composable duck for redux-saga"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyrilluce/saga-duck",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate-context",
+      "text": "A desktop application that allows users to locally test and debug chat bots built with the Bot Framework SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate-context",
+      "text": "**Bot Framework Emulator being retired in favor of Agents Playground**"
     }
   ],
   "candidate_glosses": [
@@ -111,6 +159,30 @@
       "source_repo": "dwyl/learn-redux",
       "status": "candidate",
       "text": "![learn-redux-header](https://cloud.githubusercontent.com/assets/194400/12328626/12f025de-bad4-11e5-9ebd-c0994b8f2f24.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux",
+      "status": "candidate",
+      "text": "Redux is a JS library for predictable and maintainable global state management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/zustand",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyrilluce/saga-duck",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Emulator",
+      "status": "candidate",
+      "text": "**Bot Framework Emulator being retired in favor of Agents Playground**"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +292,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dwyl/learn-redux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "reduxjs/redux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/zustand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cyrilluce/saga-duck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/BotFramework-Emulator"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -382,6 +382,90 @@
       "source_repo": "brave-intl/publishers",
       "status": "candidate-context",
       "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate-context",
+      "text": "Track changes to your rails models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate-context",
+      "text": "[![Build Status][4]][5]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "status": "candidate-context",
+      "text": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u30b3\u30a2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "status": "candidate-context",
+      "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "The easiest, and most secure way to access and protect all of your infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate-context",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate-context",
+      "text": "get better errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/package-json",
+      "status": "candidate-context",
+      "text": "Programmatic API to update package.json"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/package-json",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdn36/arrow-rs-object-store",
+      "status": "candidate-context",
+      "text": "Rust object_store crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdn36/arrow-rs-object-store",
+      "status": "candidate-context",
+      "text": "audit"
     }
   ],
   "candidate_glosses": [
@@ -570,6 +654,48 @@
       "source_repo": "brave-intl/publishers",
       "status": "candidate",
       "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate",
+      "text": "[![Build Status][4]][5]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/voicevox_core",
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gravitational/teleport",
+      "status": "candidate",
+      "text": "Teleport provides connectivity, authentication, access controls and audit for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate",
+      "text": "Audited"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/json-parse-even-better-errors",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/package-json",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdn36/arrow-rs-object-store",
+      "status": "candidate",
+      "text": "audit"
     }
   ],
   "candidate_related_terms": [
@@ -929,11 +1055,65 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "paper-trail-gem/paper_trail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "VOICEVOX/voicevox_core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "npm/json-parse-even-better-errors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "npm/package-json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "kdn36/arrow-rs-object-store"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

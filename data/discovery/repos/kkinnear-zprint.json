@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "kkinnear/clj-toolbox@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml",
+      "source_repo": "kkinnear/zprint",
+      "target": "actions/checkout@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml",
+      "source_repo": "kkinnear/zprint",
+      "target": "kkinnear/clj-toolbox@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml",
+      "source_repo": "kkinnear/zprint",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-branch.yml",
+      "source_repo": "kkinnear/zprint",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "kkinnear/zprint",
+      "target": "actions/checkout@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "kkinnear/zprint",
+      "target": "kkinnear/clj-toolbox@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "kkinnear/zprint",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "kkinnear/zprint",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:24:17.095066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16803
+    },
+    {
+      "path": ".github/workflows/main-branch.yml",
+      "size": 4251
+    },
+    {
+      "path": ".github/workflows/pull-request.yml",
+      "size": 3683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Executables, uberjar, and library to beautifully format Clojure and Clojurescript source code and s-expressions.",
+    "fork": false,
+    "full_name": "kkinnear/zprint",
+    "html_url": "https://github.com/kkinnear/zprint",
+    "language": "Clojure",
+    "pushed_at": "2025-05-14T17:02:32Z",
+    "stargazers_count": 621,
+    "topics": [],
+    "updated_at": "2026-04-03T00:36:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

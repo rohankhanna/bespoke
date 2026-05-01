@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:05:49.549946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4880
+    },
+    {
+      "path": "go.mod",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "chromedp code examples.",
+    "fork": false,
+    "full_name": "chromedp/examples",
+    "html_url": "https://github.com/chromedp/examples",
+    "language": "Go",
+    "pushed_at": "2026-03-23T21:41:34Z",
+    "stargazers_count": 1251,
+    "topics": [],
+    "updated_at": "2026-04-24T09:40:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

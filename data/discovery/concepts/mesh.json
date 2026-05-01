@@ -31,6 +31,18 @@
       "source_repo": "mikedh/trimesh",
       "status": "candidate-context",
       "text": "[![trimesh](https://trimesh.org/_static/images/logotype-a.svg)](http://trimesh.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate-context",
+      "text": "open Multi-View Stereo reconstruction library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate-context",
+      "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mikedh/trimesh",
       "status": "candidate",
       "text": "[![trimesh](https://trimesh.org/_static/images/logotype-a.svg)](http://trimesh.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdcseacave/openMVS",
+      "status": "candidate",
+      "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mikedh/trimesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cdcseacave/openMVS"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

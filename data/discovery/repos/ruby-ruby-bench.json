@@ -73,20 +73,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ruby/ruby-bench",
-      "target": "shopify/yjit-metrics",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ruby/ruby-bench",
-      "target": "topfunky/gruff",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ruby/ruby-bench",
@@ -136,7 +122,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:57:07.313463+00:00",
+  "fetched_at": "2026-05-01T09:09:45.735619+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -166,18 +152,7 @@
     ],
     "updated_at": "2026-04-26T05:42:06Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "shopify/yjit-metrics",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "topfunky/gruff",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Test benchmarks",

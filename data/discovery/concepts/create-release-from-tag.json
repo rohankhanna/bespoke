@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Create release from tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate-context",
+      "text": "\ud83d\udfea AppSignal for Elixir package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate-context",
+      "text": "\"Create release from tag\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate-context",
+      "text": "AppSignal instrumentation for the Phoenix framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate-context",
+      "text": "\"Create release from tag\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-elixir-plug",
+      "status": "candidate-context",
+      "text": "AppSignal instrumentation for Plug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-plug",
+      "status": "candidate-context",
+      "text": "\"Create release from tag\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate",
+      "text": "\"Create release from tag\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-phoenix",
+      "status": "candidate",
+      "text": "\"Create release from tag\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-elixir-plug",
+      "status": "candidate",
+      "text": "\"Create release from tag\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31992,
+      "status": "candidate",
+      "text": "have"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31970,
+      "status": "candidate",
+      "text": "stand by"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31932,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31895,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31895,
+      "status": "candidate",
+      "text": "fire escape"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create release from tag",
+  "concept_id": "create-release-from-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create_release_from_tag.yml",
+      "source_repo": "appsignal/appsignal-elixir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create_release_from_tag.yml",
+      "source_repo": "appsignal/appsignal-elixir-phoenix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/create_release_from_tag.yml",
+      "source_repo": "appsignal/appsignal-elixir-plug"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create release from tag",
+      "sense_id": "create-release-from-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

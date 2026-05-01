@@ -84,7 +84,7 @@
   "normalized_form": "run-pre-commit",
   "observation_id": "f7b9fbcfd86c8741",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Run pre-commit",
   "source_context_snippet": "Run pre-commit",
   "source_file": ".github/workflows/pre-commit.yml",

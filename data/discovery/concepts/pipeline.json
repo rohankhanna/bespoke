@@ -136,6 +136,30 @@
       "source_repo": "f4pga/prjxray",
       "status": "candidate-context",
       "text": "Pipeline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate-context",
+      "text": "A file watcher and development tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate-context",
+      "text": "Steel Overseer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate-context",
+      "text": "A proposal for adding a useful pipe operator to JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate-context",
+      "text": "* **Stage**: 2"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +228,18 @@
       "source_repo": "f4pga/prjxray",
       "status": "candidate",
       "text": "Pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schell/steeloverseer",
+      "status": "candidate",
+      "text": "Steel Overseer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-pipeline-operator",
+      "status": "candidate",
+      "text": "* **Stage**: 2"
     }
   ],
   "candidate_related_terms": [
@@ -371,11 +407,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "kharchenkolab/dropEst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ai-bot-pro/pipeline-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "schell/steeloverseer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-pipeline-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kharchenkolab/dropEst"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

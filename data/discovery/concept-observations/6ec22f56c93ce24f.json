@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The reactive client store for your API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Auto Issue Fix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Auto Issue Fix"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31024,
+      "status": "candidate",
+      "text": "club"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30941,
+      "status": "candidate",
+      "text": "redd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30941,
+      "status": "candidate",
+      "text": "step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30930,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30914,
+      "status": "candidate",
+      "text": "saddle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Auto Issue Fix",
+      "sense_id": "claude-auto-issue-fix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-auto-issue-fix",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-auto-issue-fix",
+  "observation_id": "6ec22f56c93ce24f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Claude Auto Issue Fix",
+  "source_context_snippet": "Claude Auto Issue Fix",
+  "source_file": ".github/workflows/reproduce-and-fix-issue-claude.yml",
+  "source_repo": "TanStack/db",
+  "source_repo_description": "The reactive client store for your API."
+}

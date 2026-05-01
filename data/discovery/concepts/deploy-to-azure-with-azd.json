@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy to Azure with azd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/openai-chat-app-quickstart",
+      "status": "candidate-context",
+      "text": "A simple chat application that uses managed identity for Azure OpenAI access. Designed for deployment on Azure Container Apps with the Azure Developer CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-quickstart",
+      "status": "candidate-context",
+      "text": "Deploy to Azure with azd"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-quickstart",
+      "status": "candidate",
+      "text": "Deploy to Azure with azd"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "cyanine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "dye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "gayle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "murder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy to Azure with azd",
+  "concept_id": "deploy-to-azure-with-azd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-quickstart"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to Azure with azd",
+      "sense_id": "deploy-to-azure-with-azd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

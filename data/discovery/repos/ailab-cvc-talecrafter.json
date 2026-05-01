@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "AILab-CVC/TaleCrafter",
-      "target": "kongzhecn/omg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AILab-CVC/TaleCrafter",
       "target": "videocrafter/talecrafter",
       "target_type": "repository"
     },
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T00:56:56.977370+00:00",
+  "fetched_at": "2026-05-01T09:27:52.765422+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,11 +64,6 @@
     "updated_at": "2026-04-08T08:58:07Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kongzhecn/omg",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "videocrafter/talecrafter",

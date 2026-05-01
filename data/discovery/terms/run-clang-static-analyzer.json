@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-secure-sdk"
+    }
+  ],
+  "term": "Run Clang Static Analyzer"
+}

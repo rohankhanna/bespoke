@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ui-components",
+      "sense_id": "ui-components#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ui-components",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ui-components",
+  "observation_id": "3a8964f56d280b9d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "ui-components",
+  "source_context_snippet": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:",
+  "source_file": null,
+  "source_repo": "hardcodet/wpf-notifyicon",
+  "source_repo_description": "NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform"
+}

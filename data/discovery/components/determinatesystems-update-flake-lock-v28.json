@@ -1,7 +1,7 @@
 {
   "component": "DeterminateSystems/update-flake-lock@v28",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nix-update-flake-lock.yml",
       "source_repo": "Alexays/Waybar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "ocamllabs/vscode-ocaml-platform"
     }
   ]
 }

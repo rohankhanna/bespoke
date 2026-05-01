@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Pytorch implementation of \"Learning to Estimate Robust 3D Human Mesh from In-the-Wild Crowded Scenes\", CVPR 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![front_figur](./assets/front_figure.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![front_figur](./assets/front_figure.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-human-mesh",
+      "sense_id": "3d-human-mesh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-human-mesh",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-human-mesh",
+  "observation_id": "26eaf5aeaa4f86ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "3d-human-mesh",
+  "source_context_snippet": "![front_figur](./assets/front_figure.png)",
+  "source_file": null,
+  "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
+  "source_repo_description": "Official Pytorch implementation of \"Learning to Estimate Robust 3D Human Mesh from In-the-Wild Crowded Scenes\", CVPR 2022"
+}

@@ -226,6 +226,36 @@
       "source_repo": "numpy/numpydoc",
       "status": "candidate-context",
       "text": "Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "Network Analysis in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/github-mgmt",
+      "status": "candidate-context",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate-context",
+      "text": "A networkx backend that uses joblib to run graph algorithms in parallel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate-context",
+      "text": "Labels"
     }
   ],
   "candidate_glosses": [
@@ -358,6 +388,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "numpy/numpydoc",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/github-mgmt",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/nx-parallel",
       "status": "candidate",
       "text": "Labels"
     }
@@ -601,11 +649,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/label-check.yml",
+      "source_repo": "networkx/networkx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/label-check.yaml",
+      "source_repo": "networkx/nx-parallel"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adambard/learnxinyminutes-docs",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adambard/learnxinyminutes-docs",
+      "target": "Trigger site build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adambard/learnxinyminutes-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adambard/learnxinyminutes-docs",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adambard/learnxinyminutes-docs",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:31.850576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1828
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 439
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code documentation written as code! How novel and totally my idea!",
+    "fork": false,
+    "full_name": "adambard/learnxinyminutes-docs",
+    "html_url": "https://github.com/adambard/learnxinyminutes-docs",
+    "language": "Markdown",
+    "pushed_at": "2026-04-14T04:41:07Z",
+    "stargazers_count": 12243,
+    "topics": [],
+    "updated_at": "2026-05-01T06:19:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Trigger site build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Trigger site build"
+    }
+  ]
+}

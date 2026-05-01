@@ -19,6 +19,18 @@
       "source_repo": "gmberton/MegaLoc",
       "status": "candidate-context",
       "text": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate-context",
+      "text": "Wrapper for 10+ VPR models. Use any SOTA VPR model just by changing one parameter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate-context",
+      "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gmberton/MegaLoc",
       "status": "candidate",
       "text": "An image retrieval model for any localization task, which achieves SOTA on most VPR datasets, including indoor and outdoor ones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/VPR-methods-evaluation",
+      "status": "candidate",
+      "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "gmberton/MegaLoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-methods-evaluation"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

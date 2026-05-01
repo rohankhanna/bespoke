@@ -80,6 +80,30 @@
       "source_repo": "grpc-ecosystem/grpc-health-probe",
       "status": "candidate-context",
       "text": "Dependabot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack-dev-middleware",
+      "status": "candidate-context",
+      "text": "A development middleware for webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-dev-middleware",
+      "status": "candidate-context",
+      "text": "Dependabot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "Repository for webpack documentation and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "Dependabot"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +140,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "status": "candidate",
+      "text": "Dependabot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-dev-middleware",
+      "status": "candidate",
+      "text": "Dependabot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
       "status": "candidate",
       "text": "Dependabot"
     }
@@ -167,11 +203,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/dependabot.yml",
       "source_repo": "grpc-ecosystem/grpc-health-probe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "webpack/webpack-dev-middleware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "webpack/webpack.js.org"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

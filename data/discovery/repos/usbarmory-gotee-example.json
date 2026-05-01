@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/GoTEE-example",
+      "target": "usbarmory/usbarmory-debian-base_image",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:09:40.530617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12389
+    },
+    {
+      "path": "go.mod",
+      "size": 1295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GoTEE - example application",
+    "fork": false,
+    "full_name": "usbarmory/GoTEE-example",
+    "html_url": "https://github.com/usbarmory/GoTEE-example",
+    "language": "Go",
+    "pushed_at": "2026-04-10T09:59:42Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-10T09:59:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usbarmory/usbarmory-debian-base_image",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

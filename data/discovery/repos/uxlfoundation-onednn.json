@@ -176,28 +176,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "intel/llvm",
+      "target": "oneapi-src/level-zero",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "intel/ittapi",
+      "target": "radeonopencompute/rocm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "khronosgroup/opencl-headers",
+      "target": "rocmsoftwareplatform/miopen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "intel/metrics-discovery",
+      "target": "rocmsoftwareplatform/rocblas",
       "target_type": "repository"
     },
     {
@@ -523,7 +523,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:04:41.974960+00:00",
+  "fetched_at": "2026-05-01T07:09:48.367964+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -575,8 +575,8 @@
     "full_name": "uxlfoundation/oneDNN",
     "html_url": "https://github.com/uxlfoundation/oneDNN",
     "language": "C++",
-    "pushed_at": "2026-04-30T02:03:11Z",
-    "stargazers_count": 3985,
+    "pushed_at": "2026-05-01T05:38:21Z",
+    "stargazers_count": 3984,
     "topics": [
       "aarch64",
       "amx",
@@ -597,27 +597,27 @@
       "x86-64",
       "xe-architecture"
     ],
-    "updated_at": "2026-04-30T02:02:04Z"
+    "updated_at": "2026-04-30T17:14:55Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "intel/ittapi",
+      "full_name": "oneapi-src/level-zero",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "intel/llvm",
+      "full_name": "radeonopencompute/rocm",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "intel/metrics-discovery",
+      "full_name": "rocmsoftwareplatform/miopen",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "khronosgroup/opencl-headers",
+      "full_name": "rocmsoftwareplatform/rocblas",
       "source_file": "README.md"
     }
   ],

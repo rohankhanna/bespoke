@@ -2,7 +2,8 @@
   "aliases": [
     "Build Linux",
     "build-linux",
-    "Build-Linux"
+    "Build-Linux",
+    "Build (linux)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -105,6 +106,42 @@
       "source_repo": "lesismal/arpc",
       "status": "candidate-context",
       "text": "build-linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate-context",
+      "text": "Runtime environment based on OpenJDK for running IntelliJ Platform-based products on Windows, macOS, and Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate-context",
+      "text": "'Build (linux)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate-context",
+      "text": "An OpenJDK release maintained and supported by SAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate-context",
+      "text": "'Build (linux)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate-context",
+      "text": "SPlisHSPlasH is an open-source library for the physically-based simulation of fluids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate-context",
+      "text": "build-linux"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +192,24 @@
       "source_repo": "lesismal/arpc",
       "status": "candidate",
       "text": "build-linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/JetBrainsRuntime",
+      "status": "candidate",
+      "text": "'Build (linux)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/SapMachine",
+      "status": "candidate",
+      "text": "'Build (linux)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate",
+      "text": "build-linux"
     }
   ],
   "candidate_related_terms": [
@@ -192,6 +247,41 @@
       "score": 12656,
       "status": "candidate",
       "text": "knoppix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
     }
   ],
   "candidate_synonyms": [],
@@ -318,11 +408,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "JetBrains/JetBrainsRuntime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "SAP/SapMachine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

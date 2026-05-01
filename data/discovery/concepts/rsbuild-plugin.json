@@ -19,6 +19,18 @@
       "source_repo": "rstackjs/rsbuild-plugin-template",
       "status": "candidate-context",
       "text": "Example plugin for Rsbuild."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to integrate with Tailwind CSS V3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate-context",
+      "text": "An Rsbuild plugin to integrate with [Tailwind CSS](https://tailwindcss.com/) V3."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rstackjs/rsbuild-plugin-template",
       "status": "candidate",
       "text": "Example plugin for Rsbuild."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss",
+      "status": "candidate",
+      "text": "An Rsbuild plugin to integrate with [Tailwind CSS](https://tailwindcss.com/) V3."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "rstackjs/rsbuild-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/rsbuild-plugin-tailwindcss"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andythigpen/nvim-coverage",
+      "target": "simplecov-ruby/simplecov",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andythigpen/nvim-coverage",
+      "target": "vim-test/vim-test",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:30:37.232293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Displays test coverage data in the sign column",
+    "fork": false,
+    "full_name": "andythigpen/nvim-coverage",
+    "html_url": "https://github.com/andythigpen/nvim-coverage",
+    "language": "Lua",
+    "pushed_at": "2024-12-18T15:42:58Z",
+    "stargazers_count": 432,
+    "topics": [],
+    "updated_at": "2026-04-20T05:56:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simplecov-ruby/simplecov",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-test/vim-test",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

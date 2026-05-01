@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Trigger events and automate shows in response to events on Pioneer CDJs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create \u00fcberjar and native installers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create \u00fcberjar and native installers"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14576,
+      "status": "candidate",
+      "text": "death seat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14576,
+      "status": "candidate",
+      "text": "gee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14576,
+      "status": "candidate",
+      "text": "haw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14576,
+      "status": "candidate",
+      "text": "sheetrock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9887,
+      "status": "candidate",
+      "text": "mother"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create \u00fcberjar and native installers",
+      "sense_id": "create-berjar-and-native-installers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-berjar-and-native-installers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-berjar-and-native-installers",
+  "observation_id": "9cea69aa5ee19978",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Create \u00fcberjar and native installers",
+  "source_context_snippet": "Create \u00fcberjar and native installers",
+  "source_file": ".github/workflows/uberjar.yml",
+  "source_repo": "Deep-Symmetry/beat-link-trigger",
+  "source_repo_description": "Trigger events and automate shows in response to events on Pioneer CDJs"
+}

@@ -274,6 +274,30 @@
       "source_repo": "better-auth/better-auth",
       "status": "candidate-context",
       "text": "Demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "symfony/demo",
+      "status": "candidate-context",
+      "text": "Symfony Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/demo",
+      "status": "candidate-context",
+      "text": "Symfony Demo Application"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate-context",
+      "text": "A minimal demo of eslint-plugin-compat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate-context",
+      "text": "eslint-plugin-compat-demo"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +432,18 @@
       "source_repo": "better-auth/better-auth",
       "status": "candidate",
       "text": "Demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "symfony/demo",
+      "status": "candidate",
+      "text": "Symfony Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate",
+      "text": "eslint-plugin-compat-demo"
     }
   ],
   "candidate_related_terms": [
@@ -733,11 +769,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "symfony/demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat-demo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

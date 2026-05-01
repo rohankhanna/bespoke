@@ -1,12 +1,17 @@
 {
   "component": "DeterminateSystems/update-flake-lock@v24",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-flake-lock.yml",
       "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "ocaml/ocaml-lsp"
     }
   ]
 }

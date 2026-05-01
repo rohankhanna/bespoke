@@ -68,13 +68,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "datalab-to/marker",
-      "target": "vikparuchuri/texify",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "datalab-to/marker",
       "target": "vikparuchuri/marker",
@@ -179,7 +172,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:59:54.051051+00:00",
+  "fetched_at": "2026-05-01T09:14:55.755617+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -220,9 +213,9 @@
     "html_url": "https://github.com/datalab-to/marker",
     "language": "Python",
     "pushed_at": "2026-04-24T18:33:10Z",
-    "stargazers_count": 34559,
+    "stargazers_count": 34580,
     "topics": [],
-    "updated_at": "2026-04-30T18:13:19Z"
+    "updated_at": "2026-05-01T08:11:56Z"
   },
   "repo_links": [
     {
@@ -233,11 +226,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "vikparuchuri/surya",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vikparuchuri/texify",
       "source_file": "README.md"
     },
     {

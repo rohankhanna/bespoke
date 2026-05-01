@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:46:02.345713+00:00",
+  "fetched_at": "2026-05-01T08:23:54.391845+00:00",
   "fetched_files": [
     {
       "path": ".github/workflows/vint.yml",
@@ -79,7 +79,7 @@
     "html_url": "https://github.com/preservim/nerdtree",
     "language": "Vim Script",
     "pushed_at": "2025-09-26T16:07:39Z",
-    "stargazers_count": 20073,
+    "stargazers_count": 20075,
     "topics": [
       "file-management",
       "file-manager",
@@ -87,7 +87,7 @@
       "vim-plugin",
       "vim-plugins"
     ],
-    "updated_at": "2026-04-22T23:28:32Z"
+    "updated_at": "2026-05-01T08:15:42Z"
   },
   "repo_links": [],
   "terms": [

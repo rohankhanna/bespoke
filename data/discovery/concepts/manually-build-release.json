@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manually Build Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate-context",
+      "text": "Next generation GUIDs. Collision-resistant ids optimized for horizontal scaling and performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate-context",
+      "text": "Manually Build Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gordon-code/cuid2",
+      "status": "candidate",
+      "text": "Manually Build Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20058,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027,
+      "status": "candidate",
+      "text": "clap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027,
+      "status": "candidate",
+      "text": "handy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995,
+      "status": "candidate",
+      "text": "hand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manually Build Release",
+  "concept_id": "manually-build-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "gordon-code/cuid2"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manually Build Release",
+      "sense_id": "manually-build-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

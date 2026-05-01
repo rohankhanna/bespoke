@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "connectrpc/connect-es",
-      "target": "bufbuild/protobuf-es",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "connectrpc/connect-es",
-      "target": "connectrpc/connect-playwright-es",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "connectrpc/connect-es",
-      "target": "connectrpc/connect-go",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "connectrpc/connect-es",
-      "target": "connectrpc/conformance",
+      "target": "connectrpc/examples-es",
       "target_type": "repository"
     },
     {
@@ -330,6 +309,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "connectrpc/connect-es"
 }

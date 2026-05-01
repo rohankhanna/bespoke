@@ -195,6 +195,18 @@
       "source_repo": "smithy-lang/smithy-examples",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate-context",
+      "text": "Awesome Smithy is a curated list of awesome build-tools, code-generators, examples, and other resources related to the Smithy IDL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate-context",
+      "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -293,6 +305,12 @@
       "source_repo": "smithy-lang/smithy-examples",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/smithy-lang/smithy-examples/workflows/integ/badge.svg)](https://github.com/smithy-lang/smithy-examples/actions/workflows/integ.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate",
+      "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [],
@@ -402,11 +420,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "smithy-lang/smithy-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

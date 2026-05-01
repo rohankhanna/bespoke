@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/Comfyui-MusePose",
+      "target": "tmelyralab/musev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/Comfyui-MusePose",
+      "target": "tmelyralab/musetalk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "TMElyralab/Comfyui-MusePose",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "TMElyralab/Comfyui-MusePose",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "TMElyralab/Comfyui-MusePose",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:10:20.391896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2807
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1327
+    },
+    {
+      "path": "requirements.txt",
+      "size": 671
+    },
+    {
+      "path": ".github/workflows/publish_action.yml",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "TMElyralab/Comfyui-MusePose",
+    "html_url": "https://github.com/TMElyralab/Comfyui-MusePose",
+    "language": "Python",
+    "pushed_at": "2024-07-31T06:21:52Z",
+    "stargazers_count": 428,
+    "topics": [],
+    "updated_at": "2026-04-12T10:52:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmelyralab/musetalk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmelyralab/musev",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

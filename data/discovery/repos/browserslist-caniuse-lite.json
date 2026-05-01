@@ -108,13 +108,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "browserslist/caniuse-lite",
-      "target": "fyrd/caniuse",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "browserslist/caniuse-lite",
@@ -262,7 +255,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:50:48.965821+00:00",
+  "fetched_at": "2026-05-01T07:17:45.588820+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -290,18 +283,12 @@
     "full_name": "browserslist/caniuse-lite",
     "html_url": "https://github.com/browserslist/caniuse-lite",
     "language": "JavaScript",
-    "pushed_at": "2026-04-22T06:22:44Z",
+    "pushed_at": "2026-04-26T07:11:20Z",
     "stargazers_count": 611,
     "topics": [],
-    "updated_at": "2026-04-22T06:22:50Z"
+    "updated_at": "2026-04-26T07:11:24Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fyrd/caniuse",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Check",

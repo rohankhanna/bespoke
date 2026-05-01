@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Closing Issues For Inactivity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate-context",
+      "text": "Instant-loading web apps, without effort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate-context",
+      "text": "Closing Issues For Inactivity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwikDev/qwik",
+      "status": "candidate",
+      "text": "Closing Issues For Inactivity"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18179,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18179,
+      "status": "candidate",
+      "text": "stops"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18012,
+      "status": "candidate",
+      "text": "stay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17999,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17977,
+      "status": "candidate",
+      "text": "rest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Closing Issues For Inactivity",
+  "concept_id": "closing-issues-for-inactivity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/closing-issues.yml",
+      "source_repo": "QwikDev/qwik"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Closing Issues For Inactivity",
+      "sense_id": "closing-issues-for-inactivity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

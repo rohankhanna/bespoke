@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bpftrace/bpftrace",
-      "target": "libbpf/libbpf",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bpftrace/bpftrace",
-      "target": "bpftrace/user-tools",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/binary.yml",
       "source_repo": "bpftrace/bpftrace",
@@ -309,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "bpftrace/bpftrace"
 }

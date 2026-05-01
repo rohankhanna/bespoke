@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "windowed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "A dynamic windowed scrolling table component for react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "![HighTable](hightable.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate",
+      "text": "![HighTable](hightable.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985152,
+      "status": "candidate",
+      "text": "windowpane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29857600,
+      "status": "candidate",
+      "text": "raggedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985416,
+      "status": "candidate",
+      "text": "windowy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985415,
+      "status": "candidate",
+      "text": "dented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985414,
+      "status": "candidate",
+      "text": "jalousied"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "windowed",
+  "concept_id": "windowed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hightable"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windowed",
+      "sense_id": "windowed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

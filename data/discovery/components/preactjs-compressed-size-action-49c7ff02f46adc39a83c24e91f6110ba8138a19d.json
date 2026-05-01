@@ -1,0 +1,12 @@
+{
+  "component": "preactjs/compressed-size-action@49c7ff02f46adc39a83c24e91f6110ba8138a19d",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compressed-size.yml",
+      "source_repo": "pmndrs/zustand"
+    }
+  ]
+}

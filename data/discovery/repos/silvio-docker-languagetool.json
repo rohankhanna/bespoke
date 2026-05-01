@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "silvio/docker-languagetool",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "silvio/docker-languagetool",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "silvio/docker-languagetool",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "silvio/docker-languagetool",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "silvio/docker-languagetool",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "silvio/docker-languagetool",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "silvio/docker-languagetool",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "silvio/docker-languagetool",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "silvio/docker-languagetool",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "silvio/docker-languagetool",
+      "target": "languagetool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:27:56.198935+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 400
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1024
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dockerfile for LanguageTool",
+    "fork": false,
+    "full_name": "silvio/docker-languagetool",
+    "html_url": "https://github.com/silvio/docker-languagetool",
+    "language": "Makefile",
+    "pushed_at": "2025-10-10T06:47:19Z",
+    "stargazers_count": 207,
+    "topics": [
+      "docker",
+      "dockerfile",
+      "languagetool"
+    ],
+    "updated_at": "2026-04-17T21:06:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "# SPDX-License-Identifier: LGPL-3.0-or-later FROM docker.io/library/eclipse-temurin:19 # see Makefile.version ARG VERSION ARG UNPACKED_VERSION LABEL maintainer=\"Silvio Fricke <silvio.fricke@gmail.com>\" ADD ./LanguageTool-\"${UNPACKED_VERSION}\" /LanguageTool-\"${UNPACKED_VERSION}\" \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "languagetool"
+    }
+  ]
+}

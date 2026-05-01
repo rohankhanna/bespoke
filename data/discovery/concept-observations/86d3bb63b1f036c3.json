@@ -84,7 +84,7 @@
   "normalized_form": "dependency-compatibility-tests",
   "observation_id": "86d3bb63b1f036c3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "Dependency compatibility tests",
   "source_context_snippet": "Dependency compatibility tests",
   "source_file": ".github/workflows/compatibility.yml",

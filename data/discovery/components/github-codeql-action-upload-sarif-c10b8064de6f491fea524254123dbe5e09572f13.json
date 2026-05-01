@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -222,6 +222,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "transparency-dev/armored-witness-os"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "vectordotdev/vrl"
     }
   ]
 }

@@ -703,6 +703,66 @@
       "source_repo": "veggiemonk/awesome-docker",
       "status": "candidate-context",
       "text": "> A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate-context",
+      "text": "A collection of awesome things regarding React ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate-context",
+      "text": "A collection of awesome things regarding the React ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate-context",
+      "text": "Awesome Smithy is a curated list of awesome build-tools, code-generators, examples, and other resources related to the Smithy IDL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate-context",
+      "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate-context",
+      "text": "A curated list of awesome styled-components resources \ud83d\udc85 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate-context",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "\ud83e\udda9 Tools for Go projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of IQA papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)"
     }
   ],
   "candidate_glosses": [
@@ -1047,6 +1107,36 @@
       "source_repo": "veggiemonk/awesome-docker",
       "status": "candidate",
       "text": "> A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enaqx/awesome-react",
+      "status": "candidate",
+      "text": "A collection of awesome things regarding the React ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smithy-lang/awesome-smithy",
+      "status": "candidate",
+      "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/awesome-styled-components",
+      "status": "candidate",
+      "text": "[<img alt=\"styled-components\" src=\"https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png\" height=\"75px\" align=\"right\"/>](https://styled-components.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikolaydubina/go-recipes",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udda9 Go Recipes</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "status": "candidate",
+      "text": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)"
     }
   ],
   "candidate_related_terms": [
@@ -1504,11 +1594,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "enaqx/awesome-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/awesome-smithy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "styled-components/awesome-styled-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "nikolaydubina/go-recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

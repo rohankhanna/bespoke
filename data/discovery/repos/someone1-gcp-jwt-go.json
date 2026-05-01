@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:18:34.500975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8654
+    },
+    {
+      "path": "go.mod",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Google Cloud Platform (Cloud KMS, IAM API, AppEngine App Identity API) jwt-go implementations",
+    "fork": false,
+    "full_name": "someone1/gcp-jwt-go",
+    "html_url": "https://github.com/someone1/gcp-jwt-go",
+    "language": "Go",
+    "pushed_at": "2023-05-16T09:34:24Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2025-11-10T08:36:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

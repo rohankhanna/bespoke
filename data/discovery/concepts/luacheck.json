@@ -92,6 +92,18 @@
       "source_repo": "jeffzi/llscheck",
       "status": "candidate-context",
       "text": "Luacheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chentoast/marks.nvim",
+      "status": "candidate-context",
+      "text": "A better user experience for viewing and interacting with Vim marks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chentoast/marks.nvim",
+      "status": "candidate-context",
+      "text": "LuaCheck"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +148,12 @@
       "source_repo": "jeffzi/llscheck",
       "status": "candidate",
       "text": "Luacheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chentoast/marks.nvim",
+      "status": "candidate",
+      "text": "LuaCheck"
     }
   ],
   "candidate_related_terms": [],
@@ -191,11 +209,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/luacheck.yml",
       "source_repo": "jeffzi/llscheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "chentoast/marks.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

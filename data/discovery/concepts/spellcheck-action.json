@@ -19,12 +19,30 @@
       "source_repo": "theimpossibleastronaut/rmw",
       "status": "candidate-context",
       "text": "Spellcheck Action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate-context",
+      "text": "Join a time-traveling adventure where you meet history\u2019s legends while learning Generative AI technologies! \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate-context",
+      "text": "Spellcheck Action"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate",
+      "text": "Spellcheck Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/generative-ai-with-javascript",
       "status": "candidate",
       "text": "Spellcheck Action"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/spellcheck.yml",
       "source_repo": "theimpossibleastronaut/rmw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "microsoft/generative-ai-with-javascript"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

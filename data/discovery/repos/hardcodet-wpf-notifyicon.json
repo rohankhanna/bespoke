@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "target": "ui-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hardcodet/wpf-notifyicon",
+      "target": "xaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:23:04.642376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform",
+    "fork": false,
+    "full_name": "hardcodet/wpf-notifyicon",
+    "html_url": "https://github.com/hardcodet/wpf-notifyicon",
+    "language": "C#",
+    "pushed_at": "2024-10-16T21:41:32Z",
+    "stargazers_count": 968,
+    "topics": [
+      "csharp",
+      "dotnet",
+      "ui-components",
+      "wpf",
+      "xaml"
+    ],
+    "updated_at": "2026-04-24T08:48:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ui-components"
+    },
+    {
+      "context_snippet": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xaml"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/configure-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "unum-cloud/ukv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "unum-cloud/ucset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "actions/configure-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "acid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "binary-search-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "binary-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "in-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "in-memory-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "lock-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "metaprogramming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable",
+      "target": "transactional-memory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:25:31.212153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4806
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "If only std::set was a DBMS: collection of templated ACID in-memory exception-free thread-safe and concurrent containers in a header-only library",
+    "fork": false,
+    "full_name": "ashvardanian/SmashTable",
+    "html_url": "https://github.com/ashvardanian/SmashTable",
+    "language": "C++",
+    "pushed_at": "2025-10-30T15:44:29Z",
+    "stargazers_count": 44,
+    "topics": [
+      "acid",
+      "binary-search-tree",
+      "binary-tree",
+      "concurrency",
+      "cpp",
+      "in-memory",
+      "in-memory-database",
+      "lock-free",
+      "metaprogramming",
+      "transactional-memory"
+    ],
+    "updated_at": "2026-01-17T05:33:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unum-cloud/ucset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unum-cloud/ukv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acid"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-search-tree"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-tree"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory-database"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lock-free"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metaprogramming"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transactional-memory"
+    }
+  ]
+}

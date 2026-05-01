@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:08:19.100751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A No-Recurrence Sequence-to-Sequence Model for Speech Recognition",
+    "fork": false,
+    "full_name": "ZhengkunTian/OpenTransformer",
+    "html_url": "https://github.com/ZhengkunTian/OpenTransformer",
+    "language": "Python",
+    "pushed_at": "2022-07-21T01:25:09Z",
+    "stargazers_count": 378,
+    "topics": [],
+    "updated_at": "2026-04-09T07:17:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

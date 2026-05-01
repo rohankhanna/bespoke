@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:19:35.153140+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Kudu is the engine behind git/hg deployments, WebJobs, and various other features in Azure Web Sites. It can also run outside of Azure.",
+    "fork": false,
+    "full_name": "projectkudu/kudu",
+    "html_url": "https://github.com/projectkudu/kudu",
+    "language": "C#",
+    "pushed_at": "2024-09-04T17:33:18Z",
+    "stargazers_count": 3145,
+    "topics": [],
+    "updated_at": "2026-04-16T14:39:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

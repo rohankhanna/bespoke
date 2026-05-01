@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alculquicondor/psqlparse",
+      "target": "lfittl/libpg_query",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:17:58.082580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1125
+    },
+    {
+      "path": "requirements.txt",
+      "size": 27
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A python module that gives access to PostgreSQL's query parser, for turning SQL into a parse tree.",
+    "fork": false,
+    "full_name": "alculquicondor/psqlparse",
+    "html_url": "https://github.com/alculquicondor/psqlparse",
+    "language": "Python",
+    "pushed_at": "2022-09-15T13:58:09Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-03-30T07:41:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lfittl/libpg_query",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

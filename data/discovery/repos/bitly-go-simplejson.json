@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bitly/go-simplejson",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bitly/go-simplejson",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bitly/go-simplejson",
+      "target": "Go package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:07:17.635968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 643
+    },
+    {
+      "path": "go.mod",
+      "size": 47
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a Go package to interact with arbitrary JSON",
+    "fork": false,
+    "full_name": "bitly/go-simplejson",
+    "html_url": "https://github.com/bitly/go-simplejson",
+    "language": "Go",
+    "pushed_at": "2024-04-08T09:37:30Z",
+    "stargazers_count": 3745,
+    "topics": [],
+    "updated_at": "2026-04-21T13:49:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Go package"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDETR/H-Deformable-DETR",
+      "target": "expedit-largescale-vision-transformer/expedit-sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDETR/H-Deformable-DETR",
+      "target": "hdetr/h-detic-lvis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDETR/H-Deformable-DETR",
+      "target": "hdetr/h-deformable-detr-mmdet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HDETR/H-Deformable-DETR",
+      "target": "hdetr/h-mask-deformable-detr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:17.106462+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23815
+    },
+    {
+      "path": "requirements.txt",
+      "size": 40
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR2023] This is an official implementation of paper \"DETRs with Hybrid Matching\".",
+    "fork": false,
+    "full_name": "HDETR/H-Deformable-DETR",
+    "html_url": "https://github.com/HDETR/H-Deformable-DETR",
+    "language": "Python",
+    "pushed_at": "2023-04-14T01:13:17Z",
+    "stargazers_count": 278,
+    "topics": [],
+    "updated_at": "2026-04-01T17:05:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "expedit-largescale-vision-transformer/expedit-sam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hdetr/h-deformable-detr-mmdet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hdetr/h-detic-lvis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hdetr/h-mask-deformable-detr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

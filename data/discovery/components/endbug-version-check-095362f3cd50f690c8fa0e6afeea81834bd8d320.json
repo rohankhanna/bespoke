@@ -1,0 +1,12 @@
+{
+  "component": "EndBug/version-check@095362f3cd50f690c8fa0e6afeea81834bd8d320",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "oxc-project/oxc-resolver"
+    }
+  ]
+}

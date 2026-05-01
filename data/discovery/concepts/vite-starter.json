@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "vite-starter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/reactesse-ssr-template",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Opinionated React + Vite Starter Template with SSR in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/reactesse-ssr-template",
+      "status": "candidate-context",
+      "text": "> React + Vite + SSR template based on [@antfu](https://github.com/antfu)'s [Vitesse](https://github.com/antfu/vitesse) with [`vite-ssr`](https://github.com/frandiox/vite-ssr)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/vitesse-ssr-template",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Opinionated Vue + Vite Starter Template with SSR in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitesse-ssr-template",
+      "status": "candidate-context",
+      "text": "> Vue + Vite + SSR template based on [@antfu](https://github.com/antfu)'s [Vitesse](https://github.com/antfu/vitesse) with [`vite-ssr`](https://github.com/frandiox/vite-ssr)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/reactesse-ssr-template",
+      "status": "candidate",
+      "text": "> React + Vite + SSR template based on [@antfu](https://github.com/antfu)'s [Vitesse](https://github.com/antfu/vitesse) with [`vite-ssr`](https://github.com/frandiox/vite-ssr)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitesse-ssr-template",
+      "status": "candidate",
+      "text": "> Vue + Vite + SSR template based on [@antfu](https://github.com/antfu)'s [Vitesse](https://github.com/antfu/vitesse) with [`vite-ssr`](https://github.com/frandiox/vite-ssr)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vite-starter",
+  "concept_id": "vite-starter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/reactesse-ssr-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/vitesse-ssr-template"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vite-starter",
+      "sense_id": "vite-starter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

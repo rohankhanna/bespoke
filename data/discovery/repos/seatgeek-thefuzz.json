@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "seatgeek/thefuzz",
+      "target": "maxbachmann/rapidfuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seatgeek/thefuzz",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seatgeek/thefuzz",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seatgeek/thefuzz",
+      "target": "The Fuzz",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:14:53.677919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3086
+    },
+    {
+      "path": "requirements.txt",
+      "size": 186
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fuzzy String Matching in Python",
+    "fork": false,
+    "full_name": "seatgeek/thefuzz",
+    "html_url": "https://github.com/seatgeek/thefuzz",
+    "language": "Python",
+    "pushed_at": "2025-03-03T17:02:53Z",
+    "stargazers_count": 3616,
+    "topics": [],
+    "updated_at": "2026-04-30T09:00:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maxbachmann/rapidfuzz",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "The Fuzz"
+    }
+  ]
+}

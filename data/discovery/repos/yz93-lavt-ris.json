@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yz93/LAVT-RIS",
+      "target": "miriambellver/refvos",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:28:59.116340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15130
+    },
+    {
+      "path": "requirements.txt",
+      "size": 167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "yz93/LAVT-RIS",
+    "html_url": "https://github.com/yz93/LAVT-RIS",
+    "language": "Python",
+    "pushed_at": "2023-04-13T15:47:22Z",
+    "stargazers_count": 233,
+    "topics": [],
+    "updated_at": "2026-04-15T13:23:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miriambellver/refvos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csstree/SublimeLinter-contrib-csstree",
+      "target": "csstree/validator",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:35:56.041679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This linter plugin for SublimeLinter provides an interface to csstree-validator.",
+    "fork": false,
+    "full_name": "csstree/SublimeLinter-contrib-csstree",
+    "html_url": "https://github.com/csstree/SublimeLinter-contrib-csstree",
+    "language": "Python",
+    "pushed_at": "2022-09-02T23:00:58Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2021-01-01T06:11:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csstree/validator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

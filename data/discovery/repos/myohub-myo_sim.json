@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MyoHub/myo_sim",
+      "target": "facebookresearch/myosuite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MyoHub/myo_sim",
+      "target": "elladyr/myo_sim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MyoHub/myo_sim",
+      "target": "cherylwang20/myo_sim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MyoHub/myo_sim",
+      "target": "biomechanics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MyoHub/myo_sim",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MyoHub/myo_sim",
+      "target": "muscle-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:35:58.790016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Musculoskeletal Models in MuJoCo",
+    "fork": false,
+    "full_name": "MyoHub/myo_sim",
+    "html_url": "https://github.com/MyoHub/myo_sim",
+    "language": "Python",
+    "pushed_at": "2026-02-23T04:48:53Z",
+    "stargazers_count": 176,
+    "topics": [
+      "biomechanics",
+      "mujoco",
+      "muscle-model"
+    ],
+    "updated_at": "2026-04-21T12:12:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cherylwang20/myo_sim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elladyr/myo_sim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/myosuite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`MyoSim` is the library of MuJoCo Musculoskeletal Models of [MyoSuite](https://github.com/facebookresearch/myoSuite).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biomechanics"
+    },
+    {
+      "context_snippet": "`MyoSim` is the library of MuJoCo Musculoskeletal Models of [MyoSuite](https://github.com/facebookresearch/myoSuite).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "`MyoSim` is the library of MuJoCo Musculoskeletal Models of [MyoSuite](https://github.com/facebookresearch/myoSuite).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "muscle-model"
+    }
+  ]
+}

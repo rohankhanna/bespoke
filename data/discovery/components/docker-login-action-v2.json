@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v2",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -867,6 +867,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tabulapdf/tabula"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dotenvx/dotenvx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h2o/h2o"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "holochain/holochain-serialization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_docker.yaml",
+      "source_repo": "beclab/Olares"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml",
+      "source_repo": "beclab/Olares"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "korewaChino/koboldCppDocker"
     }
   ]
 }

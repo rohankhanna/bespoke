@@ -19,18 +19,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Ha0Tang/HCANet",
-      "target": "minar09/cp-vton-plus",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Ha0Tang/HCANet",
       "target": "ha0tang/guided-i2i-translation-papers",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T00:52:46.010172+00:00",
+  "fetched_at": "2026-05-01T09:25:45.432570+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -64,11 +57,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ha0tang/xingvton",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "minar09/cp-vton-plus",
       "source_file": "README.md"
     },
     {

@@ -1,0 +1,362 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-security-scan.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-security-scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-security-scan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-unit-tests-coverage.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-unit-tests-coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-unit-tests-coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-unit-tests-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-clang.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-msi-package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi-static.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi-static.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi-static.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi-static.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static-n-1.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static-n-1.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static-n-1.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static-n-1.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static-n-1.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "oneapi-src/level-zero-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-security-scan.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-security-scan.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-security-scan.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-unit-tests-coverage.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-unit-tests-coverage.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings-sysman-python-unit-tests-coverage.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-clang.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-msi-package.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi-static.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi-static.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi-static.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multi.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static-n-1.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static-n-1.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick-static.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-quick.yml",
+      "source_repo": "oneapi-src/level-zero",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneapi-src/level-zero",
+      "target": "oneapi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:17:22.484862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8800
+    },
+    {
+      "path": ".github/workflows/bindings-sysman-python-security-scan.yml",
+      "size": 1277
+    },
+    {
+      "path": ".github/workflows/bindings-sysman-python-unit-tests-coverage.yml",
+      "size": 12482
+    },
+    {
+      "path": ".github/workflows/build-clang.yml",
+      "size": 1169
+    },
+    {
+      "path": ".github/workflows/build-msi-package.yml",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/build-multi-static.yml",
+      "size": 6427
+    },
+    {
+      "path": ".github/workflows/build-multi.yml",
+      "size": 6542
+    },
+    {
+      "path": ".github/workflows/build-quick-static-n-1.yml",
+      "size": 3558
+    },
+    {
+      "path": ".github/workflows/build-quick-static.yml",
+      "size": 2128
+    },
+    {
+      "path": ".github/workflows/build-quick.yml",
+      "size": 2568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "oneAPI Level Zero Specification Headers and Loader",
+    "fork": false,
+    "full_name": "oneapi-src/level-zero",
+    "html_url": "https://github.com/oneapi-src/level-zero",
+    "language": "C++",
+    "pushed_at": "2026-04-28T19:16:17Z",
+    "stargazers_count": 315,
+    "topics": [
+      "oneapi"
+    ],
+    "updated_at": "2026-04-28T19:16:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-src/level-zero-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the following components of oneAPI:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneapi"
+    }
+  ]
+}

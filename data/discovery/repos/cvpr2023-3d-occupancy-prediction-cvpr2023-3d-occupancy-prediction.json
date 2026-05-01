@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "target": "occupancy-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:29:03.722159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CVPR2023-Occupancy-Prediction-Challenge",
+    "fork": false,
+    "full_name": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+    "html_url": "https://github.com/CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+    "language": "Python",
+    "pushed_at": "2023-07-31T15:07:23Z",
+    "stargazers_count": 875,
+    "topics": [
+      "autonomous-vehicles",
+      "computer-vision",
+      "dataset",
+      "occupancy-detection"
+    ],
+    "updated_at": "2026-04-30T10:00:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-detection"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:08:38.566713+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "This library has moved to https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-logging",
+    "fork": false,
+    "full_name": "googleapis/python-logging",
+    "html_url": "https://github.com/googleapis/python-logging",
+    "language": null,
+    "pushed_at": "2026-02-26T17:08:02Z",
+    "stargazers_count": 143,
+    "topics": [],
+    "updated_at": "2026-04-30T21:57:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

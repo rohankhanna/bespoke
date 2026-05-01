@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "venantius/vim-cljfmt",
+      "target": "gmarik/vundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "venantius/vim-cljfmt",
+      "target": "venantius/vim-eastwood",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:24:17.732667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Vim plugin for cljfmt, the Clojure formatting tool.",
+    "fork": false,
+    "full_name": "venantius/vim-cljfmt",
+    "html_url": "https://github.com/venantius/vim-cljfmt",
+    "language": "Vim script",
+    "pushed_at": "2023-04-02T04:17:29Z",
+    "stargazers_count": 156,
+    "topics": [],
+    "updated_at": "2026-04-05T18:22:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "venantius/vim-eastwood",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

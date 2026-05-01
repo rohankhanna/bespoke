@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:32:58.554371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "csjgg/ags-cookbook",
+    "html_url": "https://github.com/csjgg/ags-cookbook",
+    "language": null,
+    "pushed_at": "2026-04-08T09:25:14Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-21T12:32:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

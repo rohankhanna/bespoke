@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lewis6991/impatient.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lewis6991/impatient.nvim",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewis6991/impatient.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewis6991/impatient.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewis6991/impatient.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:23.581329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35856
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Improve startup time for Neovim",
+    "fork": false,
+    "full_name": "lewis6991/impatient.nvim",
+    "html_url": "https://github.com/lewis6991/impatient.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-05-05T08:47:45Z",
+    "stargazers_count": 1175,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim"
+    ],
+    "updated_at": "2026-04-18T04:27:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "As of Neovim 0.9, this plugin is no longer required. Instead run:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "As of Neovim 0.9, this plugin is no longer required. Instead run:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "As of Neovim 0.9, this plugin is no longer required. Instead run:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

@@ -4,21 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dropbox/zxcvbn",
-      "target": "bitzesty/zxcvbn-js",
+      "target": "dwolfhub/zxcvbn-python",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dropbox/zxcvbn",
-      "target": "dropbox/zxcvbn-ios",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dropbox/zxcvbn",
-      "target": "bjeavons/zxcvbn-php",
+      "target": "gosimplellc/nbvcxz",
       "target_type": "repository"
     },
     {
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "dropbox/zxcvbn",
       "target": "cryptosense/ocaml-zxcvbn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dropbox/zxcvbn",
+      "target": "ghostbar/angular-zxcvbn",
       "target_type": "repository"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "dropbox/zxcvbn"
 }

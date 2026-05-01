@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "PR Validation"
+    "PR Validation",
+    "pr-validation",
+    "PR validation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -79,6 +81,54 @@
       "source_repo": "appium/appium-inspector",
       "status": "candidate-context",
       "text": "PR Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate-context",
+      "text": "pr-validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "scripts to automate change case management in Salesforce"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate-context",
+      "text": "pr-validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/dev-config",
+      "status": "candidate-context",
+      "text": "pr-validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate-context",
+      "text": "Apache Pulsar C++ client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate-context",
+      "text": "PR validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "Apache Pulsar NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate-context",
+      "text": "PR validation"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +167,36 @@
       "source_repo": "appium/appium-inspector",
       "status": "candidate",
       "text": "PR Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/agents",
+      "status": "candidate",
+      "text": "pr-validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/change-case-management",
+      "status": "candidate",
+      "text": "pr-validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "forcedotcom/dev-config",
+      "status": "candidate",
+      "text": "pr-validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-cpp",
+      "status": "candidate",
+      "text": "PR validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pulsar-client-node",
+      "status": "candidate",
+      "text": "PR validation"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +300,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/PR_validation.yml",
       "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/PR_validation.yml",
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "forcedotcom/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "forcedotcom/change-case-management"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "forcedotcom/dev-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-pr-validation.yaml",
+      "source_repo": "apache/pulsar-client-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-pr-validation.yml",
+      "source_repo": "apache/pulsar-client-node"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "super-linter/super-linter",
       "status": "candidate-context",
       "text": "Dependabot automation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to install as a GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/super-linter",
+      "status": "candidate-context",
+      "text": "Dependabot automation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Dependabot automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/super-linter",
       "status": "candidate",
       "text": "Dependabot automation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/dependabot-automation.yaml",
       "source_repo": "super-linter/super-linter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/dependabot-automation.yaml",
+      "source_repo": "github/super-linter"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

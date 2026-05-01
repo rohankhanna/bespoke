@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dask-dataframes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "status": "candidate-context",
+      "text": "A Delta Lake reader for Dask"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "status": "candidate-context",
+      "text": "Reading and writing to Delta Lake using Dask engine."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask-contrib/dask-deltatable",
+      "status": "candidate",
+      "text": "Reading and writing to Delta Lake using Dask engine."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dask-dataframes",
+  "concept_id": "dask-dataframes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "dask-contrib/dask-deltatable"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dask-dataframes",
+      "sense_id": "dask-dataframes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Docs Copy and Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate-context",
+      "text": "Finetuning and inference tools for the CogView4 and CogVideoX model series."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate-context",
+      "text": "Test Docs Copy and Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate",
+      "text": "Test Docs Copy and Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33135,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31645,
+      "status": "candidate",
+      "text": "record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31640,
+      "status": "candidate",
+      "text": "accounting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31640,
+      "status": "candidate",
+      "text": "documented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31640,
+      "status": "candidate",
+      "text": "show"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Docs Copy and Build",
+  "concept_id": "test-docs-copy-and-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test-webdoc-deploy.yml",
+      "source_repo": "THUDM/CogKit"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Docs Copy and Build",
+      "sense_id": "test-docs-copy-and-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

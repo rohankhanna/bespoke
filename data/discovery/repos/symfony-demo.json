@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end_tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end_tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end_tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "docker://ghcr.io/php-cs-fixer/php-cs-fixer:3-php8.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end_tests.yaml",
+      "source_repo": "symfony/demo",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end_tests.yaml",
+      "source_repo": "symfony/demo",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/end_to_end_tests.yaml",
+      "source_repo": "symfony/demo",
+      "target": "End to End Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "symfony/demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "symfony/demo",
+      "target": "docker://ghcr.io/php-cs-fixer/php-cs-fixer:3-php8.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "symfony/demo",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "symfony/demo",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "symfony/demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "symfony/demo",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "symfony/demo",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/demo",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/demo",
+      "target": "symfony",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "symfony/demo",
+      "target": "symfony-application",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:26:32.237356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2158
+    },
+    {
+      "path": ".github/workflows/end_to_end_tests.yaml",
+      "size": 6885
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 3010
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 1387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Symfony Demo Application",
+    "fork": false,
+    "full_name": "symfony/demo",
+    "html_url": "https://github.com/symfony/demo",
+    "language": "PHP",
+    "pushed_at": "2026-04-18T10:39:43Z",
+    "stargazers_count": 2604,
+    "topics": [
+      "demo",
+      "php",
+      "symfony",
+      "symfony-application"
+    ],
+    "updated_at": "2026-04-30T10:47:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "End to End Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/end_to_end_tests.yaml",
+      "term": "End to End Tests"
+    },
+    {
+      "context_snippet": "\"Lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "\"Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Symfony Demo Application",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "Symfony Demo Application",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony"
+    },
+    {
+      "context_snippet": "Symfony Demo Application",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony-application"
+    }
+  ]
+}

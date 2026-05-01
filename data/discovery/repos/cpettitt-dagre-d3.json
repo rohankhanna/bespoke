@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:10:22.608898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo was taken over for responsible disclosure. No malicious content is served.",
+    "fork": false,
+    "full_name": "cpettitt/dagre-d3",
+    "html_url": "https://github.com/cpettitt/dagre-d3",
+    "language": null,
+    "pushed_at": "2025-10-18T02:42:54Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-22T17:08:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

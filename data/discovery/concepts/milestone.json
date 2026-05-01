@@ -31,6 +31,30 @@
       "source_repo": "numpy/numpydoc",
       "status": "candidate-context",
       "text": "Milestone"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "Network Analysis in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate-context",
+      "text": "Milestone"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate-context",
+      "text": "A networkx backend that uses joblib to run graph algorithms in parallel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/nx-parallel",
+      "status": "candidate-context",
+      "text": "Milestone"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "numpy/numpydoc",
+      "status": "candidate",
+      "text": "Milestone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/networkx",
+      "status": "candidate",
+      "text": "Milestone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "networkx/nx-parallel",
       "status": "candidate",
       "text": "Milestone"
     }
@@ -108,11 +144,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/milestone-merged-prs.yml",
       "source_repo": "numpy/numpydoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "networkx/networkx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "networkx/nx-parallel"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

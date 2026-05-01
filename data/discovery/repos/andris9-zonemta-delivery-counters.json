@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "redis",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "andris9/zonemta-delivery-counters",
+      "target": "redis",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:16:46.818789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 961
+    },
+    {
+      "path": "package.json",
+      "size": 265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Delivery counters plugin for ZoneMTA",
+    "fork": false,
+    "full_name": "andris9/zonemta-delivery-counters",
+    "html_url": "https://github.com/andris9/zonemta-delivery-counters",
+    "language": "JavaScript",
+    "pushed_at": "2022-06-19T17:08:44Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-09-08T17:17:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

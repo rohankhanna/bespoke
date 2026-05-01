@@ -43,6 +43,18 @@
       "source_repo": "grammarly/gector",
       "status": "candidate-context",
       "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate-context",
+      "text": "Fast + Non-Autoregressive Grammatical Error Correction using BERT. Code and Pre-trained models for paper \"Parallel Iterative Edit Models for Local Sequence Transduction\": www.aclweb.org/anthology/D19-1435.pdf (EMNLP-IJCNLP 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate-context",
+      "text": "Fast Grammatical Error Correction using BERT"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "grammarly/gector",
       "status": "candidate",
       "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awasthiabhijeet/PIE",
+      "status": "candidate",
+      "text": "Fast Grammatical Error Correction using BERT"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "grammarly/gector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "awasthiabhijeet/PIE"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

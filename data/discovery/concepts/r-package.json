@@ -151,6 +151,18 @@
       "source_repo": "eddelbuettel/ldlasb",
       "status": "candidate-context",
       "text": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ropensci/tabulapdf",
+      "status": "candidate-context",
+      "text": "Bindings for Tabula PDF Table Extractor Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/tabulapdf",
+      "status": "candidate-context",
+      "text": "[![R-CMD-check](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "eddelbuettel/ldlasb",
       "status": "candidate",
       "text": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/tabulapdf",
+      "status": "candidate",
+      "text": "[![R-CMD-check](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -322,11 +340,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ropensci/tabulapdf"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

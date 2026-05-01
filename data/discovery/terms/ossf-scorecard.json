@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yaml",
+      "source_repo": "haskell-actions/hlint-scan"
     }
   ],
   "term": "OSSF Scorecard"

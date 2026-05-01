@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Netflix/go-expect",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Netflix/go-expect",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Netflix/go-expect",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "Netflix/go-expect",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Netflix/go-expect",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Netflix/go-expect",
+      "target": "expect",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:06.755944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1853
+    },
+    {
+      "path": "go.mod",
+      "size": 125
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "an expect-like golang library to automate control of terminal or console based programs.",
+    "fork": false,
+    "full_name": "Netflix/go-expect",
+    "html_url": "https://github.com/Netflix/go-expect",
+    "language": "Go",
+    "pushed_at": "2024-06-15T04:55:13Z",
+    "stargazers_count": 474,
+    "topics": [
+      "automation",
+      "cli",
+      "expect"
+    ],
+    "updated_at": "2026-04-12T20:31:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Go](https://github.com/Netflix/go-expect/workflows/Go/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "![Go](https://github.com/Netflix/go-expect/workflows/Go/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expect"
+    }
+  ]
+}

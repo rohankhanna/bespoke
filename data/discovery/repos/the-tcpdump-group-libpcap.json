@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap",
+      "target": "berkeley-packet-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap",
+      "target": "bsd-packet-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap",
+      "target": "libpcap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap",
+      "target": "packet-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap",
+      "target": "pcap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap",
+      "target": "pcapng",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-tcpdump-group/libpcap",
+      "target": "sniffer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:52.215430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3457
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "the LIBpcap interface to various kernel packet capture mechanism",
+    "fork": false,
+    "full_name": "the-tcpdump-group/libpcap",
+    "html_url": "https://github.com/the-tcpdump-group/libpcap",
+    "language": "C",
+    "pushed_at": "2026-04-27T16:45:29Z",
+    "stargazers_count": 3097,
+    "topics": [
+      "berkeley-packet-filter",
+      "bpf",
+      "bsd-packet-filter",
+      "libpcap",
+      "packet-capture",
+      "pcap",
+      "pcapng",
+      "sniffer"
+    ],
+    "updated_at": "2026-05-01T02:21:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**To report a security issue please send an e-mail to security@tcpdump.org.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "berkeley-packet-filter"
+    },
+    {
+      "context_snippet": "**To report a security issue please send an e-mail to security@tcpdump.org.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bsd-packet-filter"
+    },
+    {
+      "context_snippet": "**To report a security issue please send an e-mail to security@tcpdump.org.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libpcap"
+    },
+    {
+      "context_snippet": "**To report a security issue please send an e-mail to security@tcpdump.org.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packet-capture"
+    },
+    {
+      "context_snippet": "**To report a security issue please send an e-mail to security@tcpdump.org.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pcap"
+    },
+    {
+      "context_snippet": "**To report a security issue please send an e-mail to security@tcpdump.org.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pcapng"
+    },
+    {
+      "context_snippet": "**To report a security issue please send an e-mail to security@tcpdump.org.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sniffer"
+    }
+  ]
+}

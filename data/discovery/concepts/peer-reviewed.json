@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "peer-reviewed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ropensci/tabulapdf",
+      "status": "candidate-context",
+      "text": "Bindings for Tabula PDF Table Extractor Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/tabulapdf",
+      "status": "candidate-context",
+      "text": "[![R-CMD-check](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/tabulapdf",
+      "status": "candidate",
+      "text": "[![R-CMD-check](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29820184,
+      "status": "candidate",
+      "text": "refereed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29817803,
+      "status": "candidate",
+      "text": "reading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29774790,
+      "status": "candidate",
+      "text": "reliable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29761964,
+      "status": "candidate",
+      "text": "studied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29756123,
+      "status": "candidate",
+      "text": "peer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "peer-reviewed",
+  "concept_id": "peer-reviewed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ropensci/tabulapdf"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "peer-reviewed",
+      "sense_id": "peer-reviewed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

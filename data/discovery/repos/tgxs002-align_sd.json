@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tgxs002/align_sd",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:37:26.178534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7600
+    },
+    {
+      "path": "requirements.txt",
+      "size": 131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Better Aligning Text-to-Image Models with Human Preference. ICCV 2023",
+    "fork": false,
+    "full_name": "tgxs002/align_sd",
+    "html_url": "https://github.com/tgxs002/align_sd",
+    "language": "Python",
+    "pushed_at": "2023-07-14T05:43:58Z",
+    "stargazers_count": 295,
+    "topics": [
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-16T13:29:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![teaser](assets/github_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

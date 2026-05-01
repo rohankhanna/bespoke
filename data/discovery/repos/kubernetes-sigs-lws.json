@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yaml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@406322ec52dd7b488e48c1c4b82e2a8b3a1bf630",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_coverage.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "codespell-project/actions-codespell@406322ec52dd7b488e48c1c4b82e2a8b3a1bf630",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_coverage.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_coverage.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_coverage.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "Send Unit Test Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "Trivy vulnerability scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/lws",
+      "target": "sig-apps",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:25:28.180941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3617
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1048
+    },
+    {
+      "path": "go.mod",
+      "size": 4954
+    },
+    {
+      "path": ".github/workflows/codespell.yaml",
+      "size": 741
+    },
+    {
+      "path": ".github/workflows/test_coverage.yaml",
+      "size": 785
+    },
+    {
+      "path": ".github/workflows/trivy.yaml",
+      "size": 1288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LeaderWorkerSet: An API for deploying a group of pods as a unit of replication",
+    "fork": false,
+    "full_name": "kubernetes-sigs/lws",
+    "html_url": "https://github.com/kubernetes-sigs/lws",
+    "language": "Go",
+    "pushed_at": "2026-04-30T16:25:27Z",
+    "stargazers_count": 712,
+    "topics": [
+      "llm-inference",
+      "sig-apps"
+    ],
+    "updated_at": "2026-04-30T16:25:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yaml",
+      "term": "codespell"
+    },
+    {
+      "context_snippet": "Send Unit Test Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_coverage.yaml",
+      "term": "Send Unit Test Coverage"
+    },
+    {
+      "context_snippet": "Trivy vulnerability scanner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yaml",
+      "term": "Trivy vulnerability scanner"
+    },
+    {
+      "context_snippet": "[![GoReport Widget]][GoReport Status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "[![GoReport Widget]][GoReport Status]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sig-apps"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:26:38.752819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sources of TeaVM website",
+    "fork": false,
+    "full_name": "konsoletyper/teavm-site",
+    "html_url": "https://github.com/konsoletyper/teavm-site",
+    "language": "Java",
+    "pushed_at": "2026-04-18T13:57:43Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-18T13:57:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

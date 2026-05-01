@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisjbryant/errant",
+      "target": "annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisjbryant/errant",
+      "target": "automatic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisjbryant/errant",
+      "target": "classifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisjbryant/errant",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisjbryant/errant",
+      "target": "grammatical-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:03:18.281475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ERRor ANnotation Toolkit: Automatically extract and classify grammatical errors in parallel original and corrected sentences.",
+    "fork": false,
+    "full_name": "chrisjbryant/errant",
+    "html_url": "https://github.com/chrisjbryant/errant",
+    "language": "Python",
+    "pushed_at": "2024-03-26T11:16:25Z",
+    "stargazers_count": 462,
+    "topics": [
+      "annotation",
+      "automatic",
+      "classifier",
+      "evaluation",
+      "grammatical-framework"
+    ],
+    "updated_at": "2026-03-27T18:56:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotation"
+    },
+    {
+      "context_snippet": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic"
+    },
+    {
+      "context_snippet": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classifier"
+    },
+    {
+      "context_snippet": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammatical-framework"
+    }
+  ]
+}

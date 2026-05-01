@@ -43,6 +43,30 @@
       "source_repo": "Azure/bicep-deploy",
       "status": "candidate-context",
       "text": "This repository offers a GitHub Action for automating the deployment and management of Azure resources using ARM Templates or Bicep files. It integrates smoothly into GitHub workflows, allowing developers to manage Azure infrastructure directly within their CI/CD pipelines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "The Azure App Service landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure App Service at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate-context",
+      "text": "This repository provides both enterprise architecture guidelines and a reference implementation for deploying Azure App Service solutions in multi-tenant and App Service Environment scenarios. It includes best practices, considerations, and deployable artifacts for implementing \u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "Azure/bicep-deploy",
       "status": "candidate",
       "text": "This repository offers a GitHub Action for automating the deployment and management of Azure resources using ARM Templates or Bicep files. It integrates smoothly into GitHub workflows, allowing developers to manage Azure infrastructure directly within their CI/CD pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aca-landing-zone-accelerator",
+      "status": "candidate",
+      "text": "Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in [Azure landing zones](ht\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/appservice-landing-zone-accelerator",
+      "status": "candidate",
+      "text": "This repository provides both enterprise architecture guidelines and a reference implementation for deploying Azure App Service solutions in multi-tenant and App Service Environment scenarios. It includes best practices, considerations, and deployable artifacts for implementing \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Azure/bicep-deploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/aca-landing-zone-accelerator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Azure/appservice-landing-zone-accelerator"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

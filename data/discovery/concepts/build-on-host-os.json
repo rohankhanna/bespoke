@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build on host OS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp8266/Arduino",
+      "status": "candidate-context",
+      "text": "ESP8266 core for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp8266/Arduino",
+      "status": "candidate-context",
+      "text": "Build on host OS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp8266/Arduino",
+      "status": "candidate",
+      "text": "Build on host OS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18554,
+      "status": "candidate",
+      "text": "pyx"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "casted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "eib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "extension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "rib"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build on host OS",
+  "concept_id": "build-on-host-os",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/build-host.yml",
+      "source_repo": "esp8266/Arduino"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build on host OS",
+      "sense_id": "build-on-host-os#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

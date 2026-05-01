@@ -1,0 +1,17 @@
+{
+  "component": "microsoft/template-validation-action@v0.3.2",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/get-started-with-ai-agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/template-validation.yml",
+      "source_repo": "Azure-Samples/azureai-travel-agent-python"
+    }
+  ]
+}

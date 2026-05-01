@@ -43,6 +43,30 @@
       "source_repo": "sdras/ecommerce-netlify",
       "status": "candidate-context",
       "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "A dynamic windowed scrolling table component for react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "![HighTable](hightable.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate-context",
+      "text": "Responsive React Flexbox (CSS Flexible Box Layout Module) grid system based heavily on the standard CSS API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "sdras/ecommerce-netlify",
       "status": "candidate",
       "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate",
+      "text": "![HighTable](hightable.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronvanston/react-flexa",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/aaronvanston/react-flexa.svg?branch=master)](https://travis-ci.org/aaronvanston/react-flexa) [![npm version](https://badge.fury.io/js/react-flexa.svg)](https://badge.fury.io/js/react-flexa) [![codecov](https://codecov.io/gh/aaronvanston/rea\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "sdras/ecommerce-netlify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hightable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aaronvanston/react-flexa"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

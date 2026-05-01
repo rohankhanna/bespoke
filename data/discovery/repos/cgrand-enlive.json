@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cgrand/enlive",
+      "target": "clojure-cookbook/clojure-cookbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cgrand/enlive",
+      "target": "ifesdjeen/enlive-ring",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:21:03.141035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a selector-based (\u00e0 la CSS) templating and transformation system for Clojure",
+    "fork": false,
+    "full_name": "cgrand/enlive",
+    "html_url": "https://github.com/cgrand/enlive",
+    "language": "Clojure",
+    "pushed_at": "2022-01-17T12:51:48Z",
+    "stargazers_count": 1618,
+    "topics": [],
+    "updated_at": "2026-04-15T03:17:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-cookbook/clojure-cookbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ifesdjeen/enlive-ring",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

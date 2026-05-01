@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern_check.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern_check.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v2.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern_check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern_check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern_check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fern_check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "Fern Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "Follow Merge: Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "Gitleaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "docs-route-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "thollander/actions-comment-pull-request@v2.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "preview-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "HumanSignal/label-studio-client-generator",
+      "target": "Publish Docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:25:36.487153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3022
+    },
+    {
+      "path": ".github/workflows/fern_check.yml",
+      "size": 983
+    },
+    {
+      "path": ".github/workflows/follow-merge-dispatch.yml",
+      "size": 2234
+    },
+    {
+      "path": ".github/workflows/gitleaks.yml",
+      "size": 2529
+    },
+    {
+      "path": ".github/workflows/link-check.yml",
+      "size": 1241
+    },
+    {
+      "path": ".github/workflows/preview-docs.yml",
+      "size": 1256
+    },
+    {
+      "path": ".github/workflows/publish_docs.yml",
+      "size": 572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "HumanSignal/label-studio-client-generator",
+    "html_url": "https://github.com/HumanSignal/label-studio-client-generator",
+    "language": "MDX",
+    "pushed_at": "2026-04-30T18:49:08Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T18:49:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Fern Check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fern_check.yml",
+      "term": "Fern Check"
+    },
+    {
+      "context_snippet": "'Follow Merge: Dispatch'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/follow-merge-dispatch.yml",
+      "term": "Follow Merge: Dispatch"
+    },
+    {
+      "context_snippet": "\"Gitleaks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "term": "Gitleaks"
+    },
+    {
+      "context_snippet": "docs-route-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yml",
+      "term": "docs-route-check"
+    },
+    {
+      "context_snippet": "preview-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "term": "preview-docs"
+    },
+    {
+      "context_snippet": "\"Publish Docs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "term": "Publish Docs"
+    }
+  ]
+}

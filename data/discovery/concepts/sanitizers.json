@@ -43,6 +43,18 @@
       "source_repo": "RustAudio/cpal",
       "status": "candidate-context",
       "text": "Sanitizers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sheredom/ubench.h",
+      "status": "candidate-context",
+      "text": "\u23f1\ufe0f single header benchmark framework for C and C++ "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheredom/ubench.h",
+      "status": "candidate-context",
+      "text": "Sanitizers"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "RustAudio/cpal",
+      "status": "candidate",
+      "text": "Sanitizers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheredom/ubench.h",
       "status": "candidate",
       "text": "Sanitizers"
     }
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/sanitizers.yml",
       "source_repo": "RustAudio/cpal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "source_repo": "sheredom/ubench.h"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

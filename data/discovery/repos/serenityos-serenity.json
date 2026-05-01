@@ -1,0 +1,417 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-container.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-container.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-container.yml"
+    },
+    {
+      "component": "IdanHo/action-discord@754598254f288e6d8e9fca637832e3c163515ba8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pull-requests.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pull-requests.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lagom-template.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lagom-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lagom-template.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintcommits.yml"
+    },
+    {
+      "component": "IdanHo/comment-on-pr@63ea2bf352997c66e524b8b5be7a79163fb3a88a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintcommits.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-container.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-container.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-container.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-container.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "Build Dev Container Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "IdanHo/action-discord@754598254f288e6d8e9fca637832e3c163515ba8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "Discord notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pull-requests.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pull-requests.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pull-requests.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "Pull request labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lagom-template.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lagom-template.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lagom-template.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "Lagom Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintcommits.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintcommits.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "IdanHo/comment-on-pr@63ea2bf352997c66e524b8b5be7a79163fb3a88a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lintcommits.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "Commit linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manpages.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "Generate man pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "Nightly CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-requests-label-workflows.yml",
+      "source_repo": "SerenityOS/serenity",
+      "target": "Label Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity",
+      "target": "desktop-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity",
+      "target": "kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity",
+      "target": "operating-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SerenityOS/serenity",
+      "target": "unix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:18.352468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11002
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1533
+    },
+    {
+      "path": ".github/workflows/dev-container.yml",
+      "size": 968
+    },
+    {
+      "path": ".github/workflows/discord.yml",
+      "size": 935
+    },
+    {
+      "path": ".github/workflows/label-pull-requests.yml",
+      "size": 904
+    },
+    {
+      "path": ".github/workflows/lagom-template.yml",
+      "size": 7756
+    },
+    {
+      "path": ".github/workflows/lintcommits.yml",
+      "size": 4237
+    },
+    {
+      "path": ".github/workflows/manpages.yml",
+      "size": 901
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/pull-requests-label-workflows.yml",
+      "size": 399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Serenity Operating System \ud83d\udc1e",
+    "fork": false,
+    "full_name": "SerenityOS/serenity",
+    "html_url": "https://github.com/SerenityOS/serenity",
+    "language": "C++",
+    "pushed_at": "2026-05-01T06:54:43Z",
+    "stargazers_count": 33118,
+    "topics": [
+      "browser",
+      "c-plus-plus",
+      "desktop-environment",
+      "kernel",
+      "operating-system",
+      "os",
+      "unix"
+    ],
+    "updated_at": "2026-05-01T06:54:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Build Dev Container Image'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-container.yml",
+      "term": "Build Dev Container Image"
+    },
+    {
+      "context_snippet": "Discord notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "term": "Discord notifications"
+    },
+    {
+      "context_snippet": "Pull request labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pull-requests.yml",
+      "term": "Pull request labeler"
+    },
+    {
+      "context_snippet": "Lagom Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lagom-template.yml",
+      "term": "Lagom Template"
+    },
+    {
+      "context_snippet": "Commit linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lintcommits.yml",
+      "term": "Commit linter"
+    },
+    {
+      "context_snippet": "Generate man pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manpages.yml",
+      "term": "Generate man pages"
+    },
+    {
+      "context_snippet": "Nightly CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly CI"
+    },
+    {
+      "context_snippet": "Label Workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-requests-label-workflows.yml",
+      "term": "Label Workflows"
+    },
+    {
+      "context_snippet": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-environment"
+    },
+    {
+      "context_snippet": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel"
+    },
+    {
+      "context_snippet": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operating-system"
+    },
+    {
+      "context_snippet": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    }
+  ]
+}

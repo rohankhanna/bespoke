@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/corefx",
+      "target": "dotnet/announcements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/corefx",
+      "target": "coreclr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/corefx",
+      "target": "corefx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/corefx",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/corefx",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/corefx",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/corefx",
+      "target": "dotnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/corefx",
+      "target": "microsoft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:14:26.278844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "archive",
+    "description": "This repo is used for servicing PR's for .NET Core 2.1 and 3.1. Please visit us at https://github.com/dotnet/runtime ",
+    "fork": false,
+    "full_name": "dotnet/corefx",
+    "html_url": "https://github.com/dotnet/corefx",
+    "language": null,
+    "pushed_at": "2023-01-21T00:07:42Z",
+    "stargazers_count": 17504,
+    "topics": [
+      "coreclr",
+      "corefx",
+      "csharp",
+      "dotnet",
+      "dotnet-core",
+      "dotnetcore",
+      "microsoft"
+    ],
+    "updated_at": "2026-04-29T19:39:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/announcements",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Going forward, the .NET team is using https://github.com/dotnet/runtime to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreclr"
+    },
+    {
+      "context_snippet": "Going forward, the .NET team is using https://github.com/dotnet/runtime to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corefx"
+    },
+    {
+      "context_snippet": "Going forward, the .NET team is using https://github.com/dotnet/runtime to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "Going forward, the .NET team is using https://github.com/dotnet/runtime to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "Going forward, the .NET team is using https://github.com/dotnet/runtime to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "Going forward, the .NET team is using https://github.com/dotnet/runtime to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnetcore"
+    },
+    {
+      "context_snippet": "Going forward, the .NET team is using https://github.com/dotnet/runtime to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    }
+  ]
+}

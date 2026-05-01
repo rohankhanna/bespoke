@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Generative-AI-for-beginners-java",
+      "target": "microsoft/langchain-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Generative-AI-for-beginners-java",
+      "target": "microsoft/mcp-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Generative-AI-for-beginners-java",
+      "target": "microsoft/generative-ai-with-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Generative-AI-for-beginners-java",
+      "target": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:34.173910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12029
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learn Generative AI fundamentals through Java programming.",
+    "fork": false,
+    "full_name": "microsoft/Generative-AI-for-beginners-java",
+    "html_url": "https://github.com/microsoft/Generative-AI-for-beginners-java",
+    "language": "Java",
+    "pushed_at": "2026-04-20T15:23:18Z",
+    "stargazers_count": 398,
+    "topics": [],
+    "updated_at": "2026-04-30T18:44:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-with-javascript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/langchain-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mcp-for-beginners",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/benchmark-prevent-performance-degradations.yml",
       "source_repo": "hashicorp/vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "kysely-org/kysely"
     }
   ],
   "term": "Bench"

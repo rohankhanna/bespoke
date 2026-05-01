@@ -43,6 +43,18 @@
       "source_repo": "songquanpeng/wechat-server",
       "status": "candidate-context",
       "text": "Build GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4pga/prjxray-db",
+      "status": "candidate-context",
+      "text": "Project X-Ray Database: XC7 Series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray-db",
+      "status": "candidate-context",
+      "text": "Build GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "songquanpeng/wechat-server",
+      "status": "candidate",
+      "text": "Build GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4pga/prjxray-db",
       "status": "candidate",
       "text": "Build GitHub Pages"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/github-pages.yml",
       "source_repo": "songquanpeng/wechat-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "f4pga/prjxray-db"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

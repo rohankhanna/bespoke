@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dotenvx/dotenvx.sh",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dotenvx/dotenvx.sh",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:12:49.710908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1360
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "install `dotenvx` via curl",
+    "fork": false,
+    "full_name": "dotenvx/dotenvx.sh",
+    "html_url": "https://github.com/dotenvx/dotenvx.sh",
+    "language": "Shell",
+    "pushed_at": "2026-04-27T15:52:28Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-27T15:52:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

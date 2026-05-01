@@ -172,6 +172,30 @@
       "source_repo": "facebookresearch/playtorch",
       "status": "candidate-context",
       "text": "NPM Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "status": "candidate-context",
+      "text": "Design guidelines for App Services APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "status": "candidate-context",
+      "text": "npm-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/yari",
+      "status": "candidate-context",
+      "text": "The platform code behind MDN Web Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/yari",
+      "status": "candidate-context",
+      "text": "NPM Publish"
     }
   ],
   "candidate_glosses": [
@@ -256,6 +280,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "facebookresearch/playtorch",
+      "status": "candidate",
+      "text": "NPM Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/app-services-api-guidelines",
+      "status": "candidate",
+      "text": "npm-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/yari",
       "status": "candidate",
       "text": "NPM Publish"
     }
@@ -385,11 +421,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "facebookresearch/playtorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "facebookresearch/playtorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/app-services-api-guidelines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "mdn/yari"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

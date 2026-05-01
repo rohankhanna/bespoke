@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "awslabs/smithy-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "Java Format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "Manual CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_dafny.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "Dafny Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "PR CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "Push CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smithy-dafny-conversion.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smithy-dafny-conversion.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smithy-dafny-conversion.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "dafny-lang/setup-dafny-action@v1.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smithy-dafny-conversion.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smithy-dafny-conversion.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "smithy-dafny-conversion workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smithy-polymorph.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smithy-polymorph.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smithy-polymorph.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "dafny-lang/setup-dafny-action@v1.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smithy-polymorph.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smithy-polymorph.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "smithy-dafny-codegen-cli workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_dafny_verification.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_dafny_verification.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_dafny_verification.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "dafny-lang/setup-dafny-action@v1.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_dafny_verification.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_dafny_verification.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_models_dafny_verification.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "Library Dafny verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_go_tests.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_go_tests.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_go_tests.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "dafny-lang/setup-dafny-action@v1.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_go_tests.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_go_tests.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models_go_tests.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_models_go_tests.yml",
+      "source_repo": "smithy-lang/smithy-dafny",
+      "target": "Library Go tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "smithy-lang/smithy-dafny"
+}

@@ -19,6 +19,18 @@
       "source_repo": "ljharb/qs",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate-context",
+      "text": "A 45% faster alternative to node:querystring module "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/anonrig/fast-querystring/workflows/test/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ljharb/qs",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anonrig/fast-querystring",
+      "status": "candidate",
+      "text": "![Test](https://github.com/anonrig/fast-querystring/workflows/test/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ljharb/qs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "anonrig/fast-querystring"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

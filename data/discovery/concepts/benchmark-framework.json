@@ -31,6 +31,18 @@
       "source_repo": "Infleqtion/client-superstaq",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sheredom/ubench.h",
+      "status": "candidate-context",
+      "text": "\u23f1\ufe0f single header benchmark framework for C and C++ "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheredom/ubench.h",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/sheredom/ubench.h/workflows/CMake/badge.svg)](https://github.com/sheredom/ubench.h/actions)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Infleqtion/client-superstaq",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheredom/ubench.h",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/sheredom/ubench.h/workflows/CMake/badge.svg)](https://github.com/sheredom/ubench.h/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Infleqtion/client-superstaq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "sheredom/ubench.h"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

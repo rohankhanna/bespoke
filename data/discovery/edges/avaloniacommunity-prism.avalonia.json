@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "damiansuess/learn.prismavaloniaoutlookish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "damiansuess/learn.prismlibrary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "crackanddie/abdrakov.container",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "crackanddie/hypocrite.services",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "avalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "dependency-injection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "dotnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "mvvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "net10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "net6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "net7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "net8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "net9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "prism-avalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "prismavalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "suess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "suesslabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AvaloniaCommunity/Prism.Avalonia",
+      "target": "xeno-innovations",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "AvaloniaCommunity/Prism.Avalonia"
+}

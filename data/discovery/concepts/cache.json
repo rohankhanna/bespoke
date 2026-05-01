@@ -346,6 +346,54 @@
       "source_repo": "apache/ignite-3",
       "status": "candidate-context",
       "text": "Apache Ignite 3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qdrvm/hunter-binary-cache",
+      "status": "candidate-context",
+      "text": "This repository is used to store hunter binary cache for Soramitsu Repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrvm/hunter-binary-cache",
+      "status": "candidate-context",
+      "text": "This repository is used to store hunter binary cache for Soramitsu Repositories."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "Get the global cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate-context",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "a robust, scalable, and maintained set of caching packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate-context",
+      "text": "[<img align=\"center\" src=\"https://cacheable.org/logo.svg\" alt=\"Cacheable\" />](https://github.com/jaredwray/cacheable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/find-cache-directory",
+      "status": "candidate-context",
+      "text": "Finds the common standard cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/find-cache-directory",
+      "status": "candidate-context",
+      "text": "find-cache-directory \u2014 Finds the common standard cache directory"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +564,30 @@
       "source_repo": "apache/ignite-3",
       "status": "candidate",
       "text": "Apache Ignite 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrvm/hunter-binary-cache",
+      "status": "candidate",
+      "text": "This repository is used to store hunter binary cache for Soramitsu Repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ehmicky/global-cache-dir",
+      "status": "candidate",
+      "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/global-cache-dir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredwray/cacheable",
+      "status": "candidate",
+      "text": "[<img align=\"center\" src=\"https://cacheable.org/logo.svg\" alt=\"Cacheable\" />](https://github.com/jaredwray/cacheable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/find-cache-directory",
+      "status": "candidate",
+      "text": "find-cache-directory \u2014 Finds the common standard cache directory"
     }
   ],
   "candidate_related_terms": [
@@ -817,11 +889,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "apache/ignite-3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "qdrvm/hunter-binary-cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ehmicky/global-cache-dir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jaredwray/cacheable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/find-cache-directory"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

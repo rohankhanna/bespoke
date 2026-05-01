@@ -1,0 +1,509 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "haskell-actions/setup@f9150cb1d140e9a9271700670baa38991e6fa25c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yaml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yaml"
+    },
+    {
+      "component": "hadolint/hadolint-action@2332a7b74a6de0dda2e2221d575162eba76ba5e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yaml"
+    },
+    {
+      "component": "haskell-actions/hlint-scan@abd8bbb55afd1ec2c86bc28e081c1ca49037dd9c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ormolu.yaml"
+    },
+    {
+      "component": "haskell-actions/run-ormolu@c5eec49879ee294be01c787bcbf7b5a373a37060",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ormolu.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yaml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "microsoft/sarif-tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "haskell-actions/setup@f9150cb1d140e9a9271700670baa38991e6fa25c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "hadolint/hadolint-action@2332a7b74a6de0dda2e2221d575162eba76ba5e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hadolint.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "Hadolint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "haskell-actions/hlint-scan@abd8bbb55afd1ec2c86bc28e081c1ca49037dd9c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hlint.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "HLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ormolu.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ormolu.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "haskell-actions/run-ormolu@c5eec49879ee294be01c787bcbf7b5a373a37060",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ormolu.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "Ormolu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yaml",
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "OSSF Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "code-scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell-actions/hlint-scan",
+      "target": "lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:30:16.123054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4765
+    },
+    {
+      "path": "Dockerfile",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1502
+    },
+    {
+      "path": ".github/workflows/coverage.yaml",
+      "size": 193
+    },
+    {
+      "path": ".github/workflows/dependency.yaml",
+      "size": 309
+    },
+    {
+      "path": ".github/workflows/hadolint.yaml",
+      "size": 1461
+    },
+    {
+      "path": ".github/workflows/hlint.yaml",
+      "size": 483
+    },
+    {
+      "path": ".github/workflows/ormolu.yaml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1726
+    },
+    {
+      "path": ".github/workflows/scorecard.yaml",
+      "size": 2001
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scan Haskell code with HLint.",
+    "fork": false,
+    "full_name": "haskell-actions/hlint-scan",
+    "html_url": "https://github.com/haskell-actions/hlint-scan",
+    "language": "Haskell",
+    "pushed_at": "2026-05-01T05:32:07Z",
+    "stargazers_count": 23,
+    "topics": [
+      "actions",
+      "code-scanning",
+      "haskell",
+      "lint"
+    ],
+    "updated_at": "2026-04-12T03:38:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/sarif-tutorials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Dependency Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency.yaml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Hadolint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hadolint.yaml",
+      "term": "Hadolint"
+    },
+    {
+      "context_snippet": "HLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hlint.yaml",
+      "term": "HLint"
+    },
+    {
+      "context_snippet": "Ormolu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ormolu.yaml",
+      "term": "Ormolu"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "OSSF Scorecard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yaml",
+      "term": "OSSF Scorecard"
+    },
+    {
+      "context_snippet": "This is a GitHub action which scans Haskell code using [HLint]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "This is a GitHub action which scans Haskell code using [HLint]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-scanning"
+    },
+    {
+      "context_snippet": "This is a GitHub action which scans Haskell code using [HLint]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "This is a GitHub action which scans Haskell code using [HLint]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    }
+  ]
+}

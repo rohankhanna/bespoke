@@ -1,0 +1,509 @@
+{
+  "components": [
+    {
+      "component": "elastic/oblt-actions/github/backport-active@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-active.yml"
+    },
+    {
+      "component": "elastic/oblt-actions/elastic/active-branches@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-java-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-java-version.yml"
+    },
+    {
+      "component": "elastic/oblt-actions/updatecli/run@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-java-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-logstash.yml"
+    },
+    {
+      "component": "elastic/oblt-actions/updatecli/run@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-logstash.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalog-info.yml"
+    },
+    {
+      "component": "elastic/oblt-actions/elastic/validate-catalog@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalog-info.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml"
+    },
+    {
+      "component": "anchore/scan-action@e1165082ffb1fe366ebaf02d8526e7c4989ea9d2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml"
+    },
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-build.yml"
+    },
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml"
+    },
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-preview-cleanup.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_release_notes.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_release_notes.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elastic/logstash",
+      "target": "logstash-plugins/logstash-output-elasticsearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elastic/logstash",
+      "target": "sstephenson/rbenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elastic/logstash",
+      "target": "ninjudd/drip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/logstash-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-active.yml",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/oblt-actions/github/backport-active@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-active.yml",
+      "source_repo": "elastic/logstash",
+      "target": "Backport to active branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-java-version.yml",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/oblt-actions/elastic/active-branches@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-java-version.yml",
+      "source_repo": "elastic/logstash",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-java-version.yml",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/oblt-actions/updatecli/run@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-java-version.yml",
+      "source_repo": "elastic/logstash",
+      "target": "bump-java-version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-logstash.yml",
+      "source_repo": "elastic/logstash",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-logstash.yml",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/oblt-actions/updatecli/run@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-logstash.yml",
+      "source_repo": "elastic/logstash",
+      "target": "bump-logstash-version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalog-info.yml",
+      "source_repo": "elastic/logstash",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalog-info.yml",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/oblt-actions/elastic/validate-catalog@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/catalog-info.yml",
+      "source_repo": "elastic/logstash",
+      "target": "catalog-info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml",
+      "source_repo": "elastic/logstash",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml",
+      "source_repo": "elastic/logstash",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml",
+      "source_repo": "elastic/logstash",
+      "target": "anchore/scan-action@e1165082ffb1fe366ebaf02d8526e7c4989ea9d2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml",
+      "source_repo": "elastic/logstash",
+      "target": "Scan for vulnerabilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/docs-actions/.github/workflows/docs-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/logstash",
+      "target": "docs-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/logstash",
+      "target": "docs-deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/logstash",
+      "target": "elastic/docs-actions/.github/workflows/docs-preview-cleanup.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/logstash",
+      "target": "docs-preview-cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_release_notes.yml",
+      "source_repo": "elastic/logstash",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_release_notes.yml",
+      "source_repo": "elastic/logstash",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_release_notes.yml",
+      "source_repo": "elastic/logstash",
+      "target": "Release Notes Draft generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/logstash",
+      "target": "etl-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/logstash",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/logstash",
+      "target": "jruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/logstash",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/logstash",
+      "target": "real-time-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/logstash",
+      "target": "streaming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:07:45.817197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10085
+    },
+    {
+      "path": ".github/workflows/backport-active.yml",
+      "size": 720
+    },
+    {
+      "path": ".github/workflows/bump-java-version.yml",
+      "size": 1063
+    },
+    {
+      "path": ".github/workflows/bump-logstash.yml",
+      "size": 1148
+    },
+    {
+      "path": ".github/workflows/catalog-info.yml",
+      "size": 356
+    },
+    {
+      "path": ".github/workflows/critical_vulnerability_scan.yml",
+      "size": 816
+    },
+    {
+      "path": ".github/workflows/docs-build.yml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/docs-deploy.yml",
+      "size": 356
+    },
+    {
+      "path": ".github/workflows/docs-preview-cleanup.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/gen_release_notes.yml",
+      "size": 1702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Logstash - transport and process your logs, events, or other data",
+    "fork": false,
+    "full_name": "elastic/logstash",
+    "html_url": "https://github.com/elastic/logstash",
+    "language": "Java",
+    "pushed_at": "2026-04-30T19:08:30Z",
+    "stargazers_count": 14845,
+    "topics": [
+      "etl-framework",
+      "java",
+      "jruby",
+      "logging",
+      "real-time-processing",
+      "streaming"
+    ],
+    "updated_at": "2026-05-01T01:00:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elastic/logstash-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logstash-plugins/logstash-output-elasticsearch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninjudd/drip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sstephenson/rbenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport to active branches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-active.yml",
+      "term": "Backport to active branches"
+    },
+    {
+      "context_snippet": "bump-java-version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-java-version.yml",
+      "term": "bump-java-version"
+    },
+    {
+      "context_snippet": "bump-logstash-version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-logstash.yml",
+      "term": "bump-logstash-version"
+    },
+    {
+      "context_snippet": "catalog-info",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/catalog-info.yml",
+      "term": "catalog-info"
+    },
+    {
+      "context_snippet": "Scan for vulnerabilities",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/critical_vulnerability_scan.yml",
+      "term": "Scan for vulnerabilities"
+    },
+    {
+      "context_snippet": "docs-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "term": "docs-build"
+    },
+    {
+      "context_snippet": "docs-deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "term": "docs-deploy"
+    },
+    {
+      "context_snippet": "docs-preview-cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "term": "docs-preview-cleanup"
+    },
+    {
+      "context_snippet": "Release Notes Draft generator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_release_notes.yml",
+      "term": "Release Notes Draft generator"
+    },
+    {
+      "context_snippet": "Logstash is part of the [Elastic Stack](https://www.elastic.co/products) along with Beats, Elasticsearch and Kibana. Logstash is a server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "etl-framework"
+    },
+    {
+      "context_snippet": "Logstash is part of the [Elastic Stack](https://www.elastic.co/products) along with Beats, Elasticsearch and Kibana. Logstash is a server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Logstash is part of the [Elastic Stack](https://www.elastic.co/products) along with Beats, Elasticsearch and Kibana. Logstash is a server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jruby"
+    },
+    {
+      "context_snippet": "Logstash is part of the [Elastic Stack](https://www.elastic.co/products) along with Beats, Elasticsearch and Kibana. Logstash is a server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "Logstash is part of the [Elastic Stack](https://www.elastic.co/products) along with Beats, Elasticsearch and Kibana. Logstash is a server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time-processing"
+    },
+    {
+      "context_snippet": "Logstash is part of the [Elastic Stack](https://www.elastic.co/products) along with Beats, Elasticsearch and Kibana. Logstash is a server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T07:24:38.442170+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A small Rust library + binary that serves pre-built OpenAI-API compatible Chat UI",
+    "fork": false,
+    "full_name": "guoqingbao/rustchatui",
+    "html_url": "https://github.com/guoqingbao/rustchatui",
+    "language": "Rust",
+    "pushed_at": "2026-01-14T11:34:46Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-01-15T09:21:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

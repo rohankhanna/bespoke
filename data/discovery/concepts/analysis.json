@@ -226,6 +226,42 @@
       "source_repo": "EricLBuehler/mistral.rs",
       "status": "candidate-context",
       "text": "Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate-context",
+      "text": "Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate-context",
+      "text": "Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-lc-rs",
+      "status": "candidate-context",
+      "text": "aws-lc-rs is a cryptographic library using AWS-LC for its cryptographic operations. The library strives to be API-compatible with the popular Rust library named ring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-lc-rs",
+      "status": "candidate-context",
+      "text": "analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "A flyweight in situ visualization and analysis runtime for multi-physics HPC simulations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate-context",
+      "text": "Ascent"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +372,24 @@
       "source_repo": "EricLBuehler/mistral.rs",
       "status": "candidate",
       "text": "Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO",
+      "status": "candidate",
+      "text": "Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-lc-rs",
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpine-DAV/ascent",
+      "status": "candidate",
+      "text": "Ascent"
     }
   ],
   "candidate_related_terms": [
@@ -527,11 +581,41 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "aws/aws-lc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Alpine-DAV/ascent"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

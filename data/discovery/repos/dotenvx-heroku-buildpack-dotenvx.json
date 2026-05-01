@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotenvx/heroku-buildpack-dotenvx",
+      "target": "dotenvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotenvx/heroku-buildpack-dotenvx",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotenvx/heroku-buildpack-dotenvx",
+      "target": "heroku-buildpack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:12:50.306077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "install `dotenvx` to heroku",
+    "fork": false,
+    "full_name": "dotenvx/heroku-buildpack-dotenvx",
+    "html_url": "https://github.com/dotenvx/heroku-buildpack-dotenvx",
+    "language": "Shell",
+    "pushed_at": "2024-06-14T02:46:39Z",
+    "stargazers_count": 2,
+    "topics": [
+      "dotenvx",
+      "heroku",
+      "heroku-buildpack"
+    ],
+    "updated_at": "2025-02-23T15:49:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![dotenvx](https://dotenvx.com/better-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotenvx"
+    },
+    {
+      "context_snippet": "![dotenvx](https://dotenvx.com/better-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "![dotenvx](https://dotenvx.com/better-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-buildpack"
+    }
+  ]
+}

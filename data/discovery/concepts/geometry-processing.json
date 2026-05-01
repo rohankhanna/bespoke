@@ -19,6 +19,30 @@
       "source_repo": "charlesq34/pointnet",
       "status": "candidate-context",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/Grassmann.jl",
+      "status": "candidate-context",
+      "text": "\u27e8Grassmann-Clifford-Hodge\u27e9 differential geometric algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Grassmann.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amirbarda/MagicClay",
+      "status": "candidate-context",
+      "text": "Official implementation of MagicClay: Sculpting Meshes with Generative Neural Fields (Siggraph Asia 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amirbarda/MagicClay",
+      "status": "candidate-context",
+      "text": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "charlesq34/pointnet",
       "status": "candidate",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Grassmann.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amirbarda/MagicClay",
+      "status": "candidate",
+      "text": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "charlesq34/pointnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/Grassmann.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "amirbarda/MagicClay"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

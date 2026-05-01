@@ -1,0 +1,317 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/keyword-check.yml"
+    },
+    {
+      "component": "AMD-ROCm-Internal/rocm_ci_infra/.github/workflows/kws.yml@mainline",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kws-caller.yml"
+    },
+    {
+      "component": "ROCm/rocm-docs-core/.github/workflows/linting.yml@develop",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-validate.yml"
+    },
+    {
+      "component": "AMD-ROCm-Internal/rocm_ci_infra/.github/workflows/rocm_ci.yml@mainline",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm-ci-caller.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr-description.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr-description.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ROCm/hip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ROCm/hip",
+      "target": "Clang format check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/keyword-check.yml",
+      "source_repo": "ROCm/hip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/keyword-check.yml",
+      "source_repo": "ROCm/hip",
+      "target": "Keywords checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kws-caller.yml",
+      "source_repo": "ROCm/hip",
+      "target": "AMD-ROCm-Internal/rocm_ci_infra/.github/workflows/kws.yml@mainline",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kws-caller.yml",
+      "source_repo": "ROCm/hip",
+      "target": "Rocm Validation Suite KWS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/hip",
+      "target": "ROCm/rocm-docs-core/.github/workflows/linting.yml@develop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/hip",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-validate.yml",
+      "source_repo": "ROCm/hip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title-validate.yml",
+      "source_repo": "ROCm/hip",
+      "target": "Validate PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm-ci-caller.yml",
+      "source_repo": "ROCm/hip",
+      "target": "AMD-ROCm-Internal/rocm_ci_infra/.github/workflows/rocm_ci.yml@mainline",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm-ci-caller.yml",
+      "source_repo": "ROCm/hip",
+      "target": "ROCm CI Caller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr-description.yml",
+      "source_repo": "ROCm/hip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr-description.yml",
+      "source_repo": "ROCm/hip",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr-description.yml",
+      "source_repo": "ROCm/hip",
+      "target": "Validate PR desription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/hip",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/hip",
+      "target": "hip-kernel-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/hip",
+      "target": "hip-portability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/hip",
+      "target": "hip-runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/hip",
+      "target": "hipify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:24:20.254714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 276
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 606
+    },
+    {
+      "path": ".github/workflows/keyword-check.yml",
+      "size": 2116
+    },
+    {
+      "path": ".github/workflows/kws-caller.yml",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/linting.yml",
+      "size": 308
+    },
+    {
+      "path": ".github/workflows/pr-title-validate.yml",
+      "size": 1443
+    },
+    {
+      "path": ".github/workflows/rocm-ci-caller.yml",
+      "size": 1979
+    },
+    {
+      "path": ".github/workflows/validate-pr-description.yml",
+      "size": 533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "HIP: C++ Heterogeneous-Compute Interface for Portability",
+    "fork": false,
+    "full_name": "ROCm/hip",
+    "html_url": "https://github.com/ROCm/hip",
+    "language": "C++",
+    "pushed_at": "2026-04-16T17:18:54Z",
+    "stargazers_count": 4332,
+    "topics": [
+      "cuda",
+      "hip",
+      "hip-kernel-language",
+      "hip-portability",
+      "hip-runtime",
+      "hipify"
+    ],
+    "updated_at": "2026-04-30T01:29:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Clang format check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "Clang format check"
+    },
+    {
+      "context_snippet": "Keywords checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/keyword-check.yml",
+      "term": "Keywords checker"
+    },
+    {
+      "context_snippet": "Rocm Validation Suite KWS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kws-caller.yml",
+      "term": "Rocm Validation Suite KWS"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "Validate PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title-validate.yml",
+      "term": "Validate PR Title"
+    },
+    {
+      "context_snippet": "ROCm CI Caller",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm-ci-caller.yml",
+      "term": "ROCm CI Caller"
+    },
+    {
+      "context_snippet": "Validate PR desription",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr-description.yml",
+      "term": "Validate PR desription"
+    },
+    {
+      "context_snippet": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hip-kernel-language"
+    },
+    {
+      "context_snippet": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hip-portability"
+    },
+    {
+      "context_snippet": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hip-runtime"
+    },
+    {
+      "context_snippet": "**HIP is a C++ runtime API and kernel language for AMD GPUs. It allows developers to create portable applications by providing a programming interface that is similar to NVIDIA CUDA, making it straightforward to port existing NVIDIA CUDA code to run on AMD hardware.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hipify"
+    }
+  ]
+}

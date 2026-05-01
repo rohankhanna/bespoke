@@ -157,6 +157,18 @@
       "source_repo": "carueda/cfg",
       "status": "candidate-context",
       "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/envy",
+      "status": "candidate-context",
+      "text": "deserialize env vars into typesafe structs with rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy",
+      "status": "candidate-context",
+      "text": "> deserialize environment variables into typesafe structs"
     }
   ],
   "candidate_glosses": [
@@ -237,6 +249,12 @@
       "source_repo": "carueda/cfg",
       "status": "candidate",
       "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy",
+      "status": "candidate",
+      "text": "> deserialize environment variables into typesafe structs"
     }
   ],
   "candidate_related_terms": [
@@ -387,11 +405,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "carueda/cfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "softprops/envy"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

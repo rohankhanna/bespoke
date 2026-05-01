@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emard/Minimig_ECS",
+      "target": "robinsonb5/minimig_tc64",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:06:31.568618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimig project example for FleaFPGA Ohm Experimenter Board",
+    "fork": true,
+    "full_name": "emard/Minimig_ECS",
+    "html_url": "https://github.com/emard/Minimig_ECS",
+    "language": "VHDL",
+    "pushed_at": "2022-05-17T18:19:01Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2025-11-24T11:11:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robinsonb5/minimig_tc64",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

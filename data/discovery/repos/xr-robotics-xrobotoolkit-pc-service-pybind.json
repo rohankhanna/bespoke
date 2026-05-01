@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:10:21.299361+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "XR-Robotics/XRoboToolkit-PC-Service-Pybind",
+    "html_url": "https://github.com/XR-Robotics/XRoboToolkit-PC-Service-Pybind",
+    "language": "C++",
+    "pushed_at": "2025-12-25T23:10:52Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-30T22:26:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "target": "flagopen/robobrain-x0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "target": "flagopen/flagscale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "target": "flageval-baai/flagevalmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "target": "flagopen/robo-dopamine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "target": "embodied-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "target": "multimodel-large-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:13:13.645654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19310
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RoboBrain 2.5: Advanced version of RoboBrain. Depth in Sight, Time in Mind. \ud83c\udf89\ud83c\udf89\ud83c\udf89",
+    "fork": false,
+    "full_name": "FlagOpen/RoboBrain2.5",
+    "html_url": "https://github.com/FlagOpen/RoboBrain2.5",
+    "language": "Python",
+    "pushed_at": "2026-02-28T20:04:25Z",
+    "stargazers_count": 873,
+    "topics": [
+      "embodied-ai",
+      "multimodel-large-language-model"
+    ],
+    "updated_at": "2026-04-29T15:38:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flageval-baai/flagevalmm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/flagscale",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/robo-dopamine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/robobrain-x0",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embodied-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodel-large-language-model"
+    }
+  ]
+}

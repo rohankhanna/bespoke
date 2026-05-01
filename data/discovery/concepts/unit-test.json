@@ -159,6 +159,30 @@
       "source_repo": "JuliaDocs/DemoCards.jl",
       "status": "candidate-context",
       "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate-context",
+      "text": "CredHub centralizes and secures credential generation, storage, lifecycle management, and access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate-context",
+      "text": "unit-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly-studio",
+      "status": "candidate-context",
+      "text": "Curate, Annotate, and Manage Your Data in LightlyStudio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-studio",
+      "status": "candidate-context",
+      "text": "Unit Test"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +269,18 @@
       "source_repo": "JuliaDocs/DemoCards.jl",
       "status": "candidate",
       "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate",
+      "text": "unit-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly-studio",
+      "status": "candidate",
+      "text": "Unit Test"
     }
   ],
   "candidate_related_terms": [
@@ -474,11 +510,35 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/UnitTests.yml",
       "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/test_and_release.yml",
+      "source_repo": "lightly-ai/lightly-studio"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

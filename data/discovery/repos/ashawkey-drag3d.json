@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashawkey/Drag3D",
+      "target": "xingangpan/draggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashawkey/Drag3D",
+      "target": "nv-tlabs/get3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashawkey/Drag3D",
+      "target": "lxgw/lxgwwenkai",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:36.083812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3564
+    },
+    {
+      "path": "requirements.txt",
+      "size": 232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DragGAN meets GET3D for interactive mesh generation and editing.",
+    "fork": false,
+    "full_name": "ashawkey/Drag3D",
+    "html_url": "https://github.com/ashawkey/Drag3D",
+    "language": "Python",
+    "pushed_at": "2023-06-05T02:32:14Z",
+    "stargazers_count": 464,
+    "topics": [],
+    "updated_at": "2026-04-20T03:23:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nv-tlabs/get3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingangpan/draggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

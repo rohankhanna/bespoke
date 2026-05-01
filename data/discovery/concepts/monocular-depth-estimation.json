@@ -151,6 +151,30 @@
       "source_repo": "aim-uofa/FrozenRecon",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate-context",
+      "text": "The repo for \"Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image\" and \"Metric3Dv2: A Versatile Monocular Geometric Foundation Model...\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate-context",
+      "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/MoGe",
+      "status": "candidate-context",
+      "text": "[CVPR'25 Oral] MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MoGe",
+      "status": "candidate-context",
+      "text": "MoGe is a powerful model for recovering 3D geometry from monocular open-domain images, including metric point maps, metric depth maps, normal maps and camera FOV. ***Check our websites ([MoGe-1](https://wangrc.site/MoGePage), [MoGe-2](https://wangrc.site/MoGe2Page)) for videos a\u2026"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "aim-uofa/FrozenRecon",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/Metric3D",
+      "status": "candidate",
+      "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MoGe",
+      "status": "candidate",
+      "text": "MoGe is a powerful model for recovering 3D geometry from monocular open-domain images, including metric point maps, metric depth maps, normal maps and camera FOV. ***Check our websites ([MoGe-1](https://wangrc.site/MoGePage), [MoGe-2](https://wangrc.site/MoGe2Page)) for videos a\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +340,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "aim-uofa/FrozenRecon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/Metric3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/MoGe"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

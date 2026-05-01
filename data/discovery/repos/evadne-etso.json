@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evadne/etso",
+      "target": "erlef/website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evadne/etso",
+      "target": "wojtekmach/ets_ecto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evadne/etso",
+      "target": "evadne/ets-playground",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evadne/etso",
+      "target": "ecto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evadne/etso",
+      "target": "ecto-adapter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evadne/etso",
+      "target": "elixir",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:19:19.143510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Ecto 3 adapter allowing use of Ecto schemas held in ETS tables",
+    "fork": false,
+    "full_name": "evadne/etso",
+    "html_url": "https://github.com/evadne/etso",
+    "language": "Elixir",
+    "pushed_at": "2026-01-08T05:52:29Z",
+    "stargazers_count": 384,
+    "topics": [
+      "ecto",
+      "ecto-adapter",
+      "elixir",
+      "ets"
+    ],
+    "updated_at": "2025-11-08T14:55:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erlef/website",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evadne/ets-playground",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wojtekmach/ets_ecto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Etso** is an [ETS][erlang-ets] adapter, allowing you to use `Ecto` schemas with ETS tables.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecto"
+    },
+    {
+      "context_snippet": "**Etso** is an [ETS][erlang-ets] adapter, allowing you to use `Ecto` schemas with ETS tables.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecto-adapter"
+    },
+    {
+      "context_snippet": "**Etso** is an [ETS][erlang-ets] adapter, allowing you to use `Ecto` schemas with ETS tables.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    }
+  ]
+}

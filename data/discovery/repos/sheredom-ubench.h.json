@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "sheredom/ubench.h",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "sheredom/ubench.h",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "source_repo": "sheredom/ubench.h",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "source_repo": "sheredom/ubench.h",
+      "target": "Sanitizers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sheredom/ubench.h",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sheredom/ubench.h",
+      "target": "benchmark-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:16:57.680709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8663
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 2978
+    },
+    {
+      "path": ".github/workflows/sanitizers.yaml",
+      "size": 1703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u23f1\ufe0f single header benchmark framework for C and C++ ",
+    "fork": false,
+    "full_name": "sheredom/ubench.h",
+    "html_url": "https://github.com/sheredom/ubench.h",
+    "language": "C++",
+    "pushed_at": "2026-03-08T18:22:06Z",
+    "stargazers_count": 255,
+    "topics": [
+      "benchmark",
+      "benchmark-framework",
+      "c",
+      "cpp"
+    ],
+    "updated_at": "2026-04-15T05:44:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    },
+    {
+      "context_snippet": "Sanitizers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitizers.yaml",
+      "term": "Sanitizers"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/sheredom/ubench.h/workflows/CMake/badge.svg)](https://github.com/sheredom/ubench.h/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/sheredom/ubench.h/workflows/CMake/badge.svg)](https://github.com/sheredom/ubench.h/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark-framework"
+    }
+  ]
+}

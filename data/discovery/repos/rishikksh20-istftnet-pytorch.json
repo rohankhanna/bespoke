@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rishikksh20/iSTFTNet-pytorch",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rishikksh20/iSTFTNet-pytorch",
+      "target": "vocoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:29:20.514126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 995
+    },
+    {
+      "path": "requirements.txt",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "iSTFTNet : Fast and Lightweight Mel-spectrogram Vocoder Incorporating Inverse Short-time Fourier Transform",
+    "fork": false,
+    "full_name": "rishikksh20/iSTFTNet-pytorch",
+    "html_url": "https://github.com/rishikksh20/iSTFTNet-pytorch",
+    "language": "Python",
+    "pushed_at": "2025-07-15T07:43:15Z",
+    "stargazers_count": 276,
+    "topics": [
+      "speech-synthesis",
+      "tts",
+      "vocoder"
+    ],
+    "updated_at": "2026-04-21T11:52:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo try to implement [iSTFTNet : Fast and Lightweight Mel-spectrogram Vocoder Incorporating Inverse Short-time Fourier Transform](https://arxiv.org/pdf/2203.02395.pdf) specifically model `C8C8I`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "This repo try to implement [iSTFTNet : Fast and Lightweight Mel-spectrogram Vocoder Incorporating Inverse Short-time Fourier Transform](https://arxiv.org/pdf/2203.02395.pdf) specifically model `C8C8I`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    }
+  ]
+}

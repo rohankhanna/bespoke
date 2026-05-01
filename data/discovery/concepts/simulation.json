@@ -247,6 +247,30 @@
       "source_repo": "erizmr/SPH_Taichi",
       "status": "candidate-context",
       "text": "A high-performance implementation of Smooth Particle Hydrodynamics (SPH) simulator in [Taichi](https://github.com/taichi-dev/taichi). (working in progress)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate-context",
+      "text": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate-context",
+      "text": "<!-- OpenSim Logo -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate-context",
+      "text": "SPlisHSPlasH is an open-source library for the physically-based simulation of fluids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "erizmr/SPH_Taichi",
       "status": "candidate",
       "text": "A high-performance implementation of Smooth Particle Hydrodynamics (SPH) simulator in [Taichi](https://github.com/taichi-dev/taichi). (working in progress)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opensim-org/opensim-core",
+      "status": "candidate",
+      "text": "<!-- OpenSim Logo -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">"
     }
   ],
   "candidate_related_terms": [
@@ -616,11 +652,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "erizmr/SPH_Taichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "opensim-org/opensim-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

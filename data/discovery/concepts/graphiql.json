@@ -19,6 +19,18 @@
       "source_repo": "graphql/graphiql",
       "status": "candidate-context",
       "text": "<!-- @format -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate-context",
+      "text": "\ud83c\udfae  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "graphql/graphiql",
       "status": "candidate",
       "text": "<!-- @format -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-playground",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-playground"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -32,6 +32,18 @@
       "source_repo": "cheeriojs/cheerio",
       "status": "candidate-context",
       "text": "Update Sponsors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/router",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 The official router for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/router",
+      "status": "candidate-context",
+      "text": "Update sponsors"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "cheeriojs/cheerio",
       "status": "candidate",
       "text": "Update Sponsors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/router",
+      "status": "candidate",
+      "text": "Update sponsors"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/sponsors.yml",
       "source_repo": "cheeriojs/cheerio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/update-sponsors.yml",
+      "source_repo": "vuejs/router"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

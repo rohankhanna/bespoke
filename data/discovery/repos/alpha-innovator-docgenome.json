@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-Innovator/DocGenome",
+      "target": "unimodal4reasoning/docgenome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-Innovator/DocGenome",
+      "target": "alpha-innovator/docparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-Innovator/DocGenome",
+      "target": "document-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-Innovator/DocGenome",
+      "target": "paper-annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alpha-Innovator/DocGenome",
+      "target": "question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:29:18.825083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DocGenome: An Open Large-scale Scientific Document Benchmark for Training and Testing Multi-modal Large Models",
+    "fork": false,
+    "full_name": "Alpha-Innovator/DocGenome",
+    "html_url": "https://github.com/Alpha-Innovator/DocGenome",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-01-13T14:41:51Z",
+    "stargazers_count": 153,
+    "topics": [
+      "document-understanding",
+      "paper-annotation",
+      "question-answering"
+    ],
+    "updated_at": "2026-03-23T07:56:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-innovator/docparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unimodal4reasoning/docgenome",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-understanding"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper-annotation"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2406.11633-b31b1b.svg)](https://arxiv.org/abs/2406.11633)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    }
+  ]
+}

@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "linebender/resvg",
-      "target": "linebender/resvg-test-suite",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "linebender/resvg",
-      "target": "linebender/simplecss",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "linebender/resvg",
-      "target": "razrfalcon/fontdb",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "linebender/resvg",
-      "target": "razrfalcon/pico-args",
+      "target": "razrfalcon/roxmltree",
       "target_type": "repository"
     },
     {
@@ -127,6 +106,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "linebender/resvg"
 }

@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "friendlyanon/fetch-core-count@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "friendlyanon/fetch-core-count@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "friendlyanon/fetch-core-count@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "jk-jeon/grisu-exact",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "miloyip/dtoa-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "jk-jeon/dtoa-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "ulfjack/ryu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "friendlyanon/fetch-core-count@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "Cross-Compilation CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os.yml",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os.yml",
+      "source_repo": "jk-jeon/dragonbox",
+      "target": "OS Continuous Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:21:01.693520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24089
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1883
+    },
+    {
+      "path": ".github/workflows/cross.yml",
+      "size": 1607
+    },
+    {
+      "path": ".github/workflows/os.yml",
+      "size": 594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference implementation of Dragonbox in C++",
+    "fork": false,
+    "full_name": "jk-jeon/dragonbox",
+    "html_url": "https://github.com/jk-jeon/dragonbox",
+    "language": "C++",
+    "pushed_at": "2025-10-03T21:31:58Z",
+    "stargazers_count": 807,
+    "topics": [],
+    "updated_at": "2026-04-09T16:48:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jk-jeon/dtoa-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jk-jeon/grisu-exact",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miloyip/dtoa-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ulfjack/ryu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Cross-Compilation CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross.yml",
+      "term": "Cross-Compilation CI"
+    },
+    {
+      "context_snippet": "OS Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os.yml",
+      "term": "OS Continuous Integration"
+    }
+  ]
+}

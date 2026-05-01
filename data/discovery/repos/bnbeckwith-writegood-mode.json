@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bnbeckwith/writegood-mode",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bnbeckwith/writegood-mode",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bnbeckwith/writegood-mode",
+      "target": "emacs-mode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:28:24.395345+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minor mode for Emacs to improve English writing",
+    "fork": false,
+    "full_name": "bnbeckwith/writegood-mode",
+    "html_url": "https://github.com/bnbeckwith/writegood-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2022-12-14T04:23:39Z",
+    "stargazers_count": 502,
+    "topics": [
+      "emacs",
+      "emacs-lisp",
+      "emacs-mode"
+    ],
+    "updated_at": "2026-04-28T18:19:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Minor mode for Emacs to improve English writing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "Minor mode for Emacs to improve English writing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "Minor mode for Emacs to improve English writing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-mode"
+    }
+  ]
+}

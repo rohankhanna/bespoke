@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast and memory-efficient exact attention - Windows wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build flash-attention Wheels for Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build flash-attention Wheels for Windows"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18992,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17979,
+      "status": "candidate",
+      "text": "sash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17899,
+      "status": "candidate",
+      "text": "aeronautics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17899,
+      "status": "candidate",
+      "text": "engineering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17899,
+      "status": "candidate",
+      "text": "frame"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build flash-attention Wheels for Windows",
+      "sense_id": "build-flash-attention-wheels-for-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-flash-attention-wheels-for-windows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-flash-attention-wheels-for-windows",
+  "observation_id": "d9493dff7cdb29c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "Build flash-attention Wheels for Windows",
+  "source_context_snippet": "Build flash-attention Wheels for Windows",
+  "source_file": ".github/workflows/build-wheels.yml",
+  "source_repo": "jllllll/flash-attention",
+  "source_repo_description": "Fast and memory-efficient exact attention - Windows wheels"
+}

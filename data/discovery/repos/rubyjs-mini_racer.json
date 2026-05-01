@@ -38,6 +38,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rubyjs/mini_racer",
+      "target": "oracle/truffleruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rubyjs/mini_racer",
       "target": "cowboyd/libv8",
       "target_type": "repository"
     },
@@ -46,13 +53,6 @@
       "source_file": "README.md",
       "source_repo": "rubyjs/mini_racer",
       "target": "cowboyd/therubyrhino",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rubyjs/mini_racer",
-      "target": "mozilla/rhino",
       "target_type": "repository"
     },
     {
@@ -77,7 +77,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T01:01:46.292639+00:00",
+  "fetched_at": "2026-05-01T07:17:39.506470+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -124,7 +124,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mozilla/rhino",
+      "full_name": "oracle/truffleruby",
       "source_file": "README.md"
     }
   ],

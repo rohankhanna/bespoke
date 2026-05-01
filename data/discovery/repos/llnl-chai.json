@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/CHAI",
+      "target": "data-abstraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/CHAI",
+      "target": "memory-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/CHAI",
+      "target": "portability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/CHAI",
+      "target": "radiuss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llnl/CHAI",
+      "target": "raja",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:08:56.219128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2387
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Copy-hiding array abstraction to automatically migrate data between memory spaces",
+    "fork": false,
+    "full_name": "llnl/CHAI",
+    "html_url": "https://github.com/llnl/CHAI",
+    "language": "C++",
+    "pushed_at": "2026-04-14T20:46:25Z",
+    "stargazers_count": 111,
+    "topics": [
+      "blt",
+      "cpp",
+      "data-abstraction",
+      "gpu",
+      "memory-management",
+      "portability",
+      "radiuss",
+      "raja"
+    ],
+    "updated_at": "2026-04-09T20:18:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-abstraction"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-management"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portability"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radiuss"
+    },
+    {
+      "context_snippet": "[comment]: # (#################################################################)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raja"
+    }
+  ]
+}

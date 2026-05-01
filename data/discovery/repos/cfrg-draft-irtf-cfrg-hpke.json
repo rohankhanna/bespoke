@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfrg/draft-irtf-cfrg-hpke",
+      "target": "cisco/go-hpke",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfrg/draft-irtf-cfrg-hpke",
+      "target": "cloudflare/circl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfrg/draft-irtf-cfrg-hpke",
+      "target": "cisco/mlspp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfrg/draft-irtf-cfrg-hpke",
+      "target": "ctz/hpke-py",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:31:04.943699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hybrid Public Key Encryption",
+    "fork": false,
+    "full_name": "cfrg/draft-irtf-cfrg-hpke",
+    "html_url": "https://github.com/cfrg/draft-irtf-cfrg-hpke",
+    "language": "Makefile",
+    "pushed_at": "2024-07-10T14:22:12Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2025-06-12T23:15:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cisco/go-hpke",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cisco/mlspp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudflare/circl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ctz/hpke-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

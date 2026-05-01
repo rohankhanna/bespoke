@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T09:29:13.597321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Repo For OMG-LLaVA and OMG-Seg codebase [CVPR-24 and NeurIPS-24]",
+    "fork": false,
+    "full_name": "lxtGH/OMG-Seg",
+    "html_url": "https://github.com/lxtGH/OMG-Seg",
+    "language": "Python",
+    "pushed_at": "2025-10-15T13:07:49Z",
+    "stargazers_count": 1346,
+    "topics": [],
+    "updated_at": "2026-04-30T12:53:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,427 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ascend.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ascend.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coreml.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ort.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ort.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-snpe.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-torchscript.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-torchscript.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "open-mmlab/mmclassification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "open-mmlab/mmediting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ascend.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ascend.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ascend.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "backend-ascend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coreml.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-coreml.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "backend-coreml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ncnn.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "backend-ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ort.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ort.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ort.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "backend-ort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "backend-pplnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-snpe.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-snpe.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "backend-snpe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-torchscript.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-torchscript.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-torchscript.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "backend-ort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HuangJunJie2017/mmdeploy",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:29:06.658493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9561
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    },
+    {
+      "path": ".github/workflows/backend-ascend.yml",
+      "size": 2021
+    },
+    {
+      "path": ".github/workflows/backend-coreml.yml",
+      "size": 2507
+    },
+    {
+      "path": ".github/workflows/backend-ncnn.yml",
+      "size": 2820
+    },
+    {
+      "path": ".github/workflows/backend-ort.yml",
+      "size": 1690
+    },
+    {
+      "path": ".github/workflows/backend-pplnn.yml",
+      "size": 1118
+    },
+    {
+      "path": ".github/workflows/backend-snpe.yml",
+      "size": 1962
+    },
+    {
+      "path": ".github/workflows/backend-torchscript.yml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 7499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "HuangJunJie2017/mmdeploy",
+    "html_url": "https://github.com/HuangJunJie2017/mmdeploy",
+    "language": "Python",
+    "pushed_at": "2022-11-13T03:34:05Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-02-02T01:40:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmclassification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmediting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "backend-ascend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ascend.yml",
+      "term": "backend-ascend"
+    },
+    {
+      "context_snippet": "backend-coreml",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-coreml.yml",
+      "term": "backend-coreml"
+    },
+    {
+      "context_snippet": "backend-ncnn",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ncnn.yml",
+      "term": "backend-ncnn"
+    },
+    {
+      "context_snippet": "backend-ort",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ort.yml",
+      "term": "backend-ort"
+    },
+    {
+      "context_snippet": "backend-pplnn",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "term": "backend-pplnn"
+    },
+    {
+      "context_snippet": "backend-snpe",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-snpe.yml",
+      "term": "backend-snpe"
+    },
+    {
+      "context_snippet": "backend-ort",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-torchscript.yml",
+      "term": "backend-ort"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

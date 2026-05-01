@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ERRor ANnotation Toolkit: Automatically extract and classify grammatical errors in parallel original and corrected sentences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grammatical-framework",
+      "sense_id": "grammatical-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grammatical-framework",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grammatical-framework",
+  "observation_id": "5da09a6b30598370",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_text": "grammatical-framework",
+  "source_context_snippet": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:",
+  "source_file": null,
+  "source_repo": "chrisjbryant/errant",
+  "source_repo_description": "ERRor ANnotation Toolkit: Automatically extract and classify grammatical errors in parallel original and corrected sentences."
+}

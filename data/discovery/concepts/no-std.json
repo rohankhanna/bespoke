@@ -67,6 +67,30 @@
       "source_repo": "time-rs/time",
       "status": "candidate-context",
       "text": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate-context",
+      "text": "Volatile access to memory mapped hardware registers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate-context",
+      "text": "A Rust library crate with types for safe MMIO device access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate-context",
+      "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "time-rs/time",
       "status": "candidate",
       "text": "[![minimum rustc: 1.88.0](https://img.shields.io/badge/minimum%20rustc-1.88.0-yellowgreen?logo=rust&style=flat-square)](https://www.whatrustisit.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/volatile-register",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/d/volatile-register.svg)](https://crates.io/crates/volatile-register)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/safe-mmio",
+      "status": "candidate",
+      "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "time-rs/time"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rust-embedded/volatile-register"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "google/safe-mmio"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

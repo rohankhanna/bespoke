@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clearml/clearml",
-      "target": "google/python-fire",
+      "target": "clearml/trains-pycharm-plugin",
       "target_type": "repository"
     },
     {
@@ -163,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:41:35.179456+00:00",
+  "fetched_at": "2026-05-01T08:11:25.560197+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -191,8 +191,8 @@
     "full_name": "clearml/clearml",
     "html_url": "https://github.com/clearml/clearml",
     "language": "Python",
-    "pushed_at": "2026-04-30T11:38:46Z",
-    "stargazers_count": 6653,
+    "pushed_at": "2026-04-30T20:06:16Z",
+    "stargazers_count": 6654,
     "topics": [
       "ai",
       "clearml",
@@ -211,12 +211,12 @@
       "version",
       "version-control"
     ],
-    "updated_at": "2026-04-30T11:38:50Z"
+    "updated_at": "2026-04-30T21:41:02Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "google/python-fire",
+      "full_name": "clearml/trains-pycharm-plugin",
       "source_file": "README.md"
     }
   ],

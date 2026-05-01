@@ -79,6 +79,30 @@
       "source_repo": "DmitryTsepelev/store_model",
       "status": "candidate-context",
       "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate-context",
+      "text": "Track changes to your rails models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate-context",
+      "text": "[![Build Status][4]][5]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate-context",
+      "text": "Audited"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "DmitryTsepelev/store_model",
       "status": "candidate",
       "text": "**StoreModel** gem allows you to wrap JSON-backed DB columns with ActiveModel-like classes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paper-trail-gem/paper_trail",
+      "status": "candidate",
+      "text": "[![Build Status][4]][5]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collectiveidea/audited",
+      "status": "candidate",
+      "text": "Audited"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "DmitryTsepelev/store_model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "paper-trail-gem/paper_trail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "collectiveidea/audited"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

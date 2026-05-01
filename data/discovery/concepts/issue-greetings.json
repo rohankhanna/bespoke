@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue greetings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate-context",
+      "text": "Issue greetings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/notebooks",
+      "status": "candidate",
+      "text": "Issue greetings"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13134,
+      "status": "candidate",
+      "text": "regard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12893,
+      "status": "candidate",
+      "text": "regards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12893,
+      "status": "candidate",
+      "text": "respect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12890,
+      "status": "candidate",
+      "text": "passed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12649,
+      "status": "candidate",
+      "text": "card"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue greetings",
+  "concept_id": "issue-greetings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/issue-greetings.yml",
+      "source_repo": "roboflow/notebooks"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue greetings",
+      "sense_id": "issue-greetings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

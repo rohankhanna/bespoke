@@ -8,6 +8,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggerganov/whisper.spm",
+      "target": "ggeragnov/whisper.spm",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/swift.yml",
       "source_repo": "ggerganov/whisper.spm",
@@ -22,6 +29,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
   "source_repo": "ggerganov/whisper.spm"
 }

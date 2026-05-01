@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udd0d Check Chinese Content in Lynxe"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "A high-determinism, code-free 'Prompt Programing'  studio built with Java \u4e00\u4e2a\u9ad8\u786e\u5b9a\u6027\u7684 \u65e0\u4ee3\u7801 'Prompt\u7f16\u7a0b'\u5de5\u4f5c\u7ad9\uff0c\u4ee5 Java \u7f16\u5199"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d Check Chinese Content in Lynxe"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate",
+      "text": "\ud83d\udd0d Check Chinese Content in Lynxe"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27519,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27119,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26388,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18695,
+      "status": "candidate",
+      "text": "oil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18113,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udd0d Check Chinese Content in Lynxe",
+  "concept_id": "check-chinese-content-in-lynxe",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/check-chinese-content.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd0d Check Chinese Content in Lynxe",
+      "sense_id": "check-chinese-content-in-lynxe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

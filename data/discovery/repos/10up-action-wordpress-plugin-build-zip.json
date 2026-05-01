@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "10up/action-wordpress-plugin-deploy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "wp-cli/dist-archive-command",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "Release Pull Request Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "10up/action-wordpress-plugin-build-zip",
+      "target": "Automated Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:22:11.911312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5824
+    },
+    {
+      "path": ".github/workflows/close-stale-issues.yml",
+      "size": 1672
+    },
+    {
+      "path": ".github/workflows/release-pull-request.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Build a zip archive of your WordPress.org plugin using GitHub Actions",
+    "fork": false,
+    "full_name": "10up/action-wordpress-plugin-build-zip",
+    "html_url": "https://github.com/10up/action-wordpress-plugin-build-zip",
+    "language": "Shell",
+    "pushed_at": "2026-04-08T18:48:14Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-04-29T22:08:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "10up/action-wordpress-plugin-deploy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wp-cli/dist-archive-command",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Release Pull Request Automation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pull-request.yml",
+      "term": "Release Pull Request Automation"
+    },
+    {
+      "context_snippet": "Automated Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Automated Tests"
+    }
+  ]
+}

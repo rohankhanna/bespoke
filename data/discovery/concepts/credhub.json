@@ -19,6 +19,42 @@
       "source_repo": "pivotal/credhub-release",
       "status": "candidate-context",
       "text": "CredHub Release provides a BOSH Release for [CredHub](https://github.com/cloudfoundry-incubator/credhub)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate-context",
+      "text": "CredHub centralizes and secures credential generation, storage, lifecycle management, and access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate-context",
+      "text": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "status": "candidate-context",
+      "text": "This repo provides acceptance tests for CredHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "status": "candidate-context",
+      "text": "CredHub manages credentials like passwords, certificates, ssh keys, rsa keys, strings (arbitrary values) and CAs. CredHub provides a CLI and API to get, set, generate and securely store such credentials."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "status": "candidate-context",
+      "text": "CredHub CLI provides a command line interface to interact with CredHub servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "status": "candidate-context",
+      "text": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "pivotal/credhub-release",
       "status": "candidate",
       "text": "CredHub Release provides a BOSH Release for [CredHub](https://github.com/cloudfoundry-incubator/credhub)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub",
+      "status": "candidate",
+      "text": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub-acceptance-tests",
+      "status": "candidate",
+      "text": "CredHub manages credentials like passwords, certificates, ssh keys, rsa keys, strings (arbitrary values) and CAs. CredHub provides a CLI and API to get, set, generate and securely store such credentials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/credhub-cli",
+      "status": "candidate",
+      "text": "[![slack.cloudfoundry.org](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "pivotal/credhub-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-acceptance-tests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/credhub-cli"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

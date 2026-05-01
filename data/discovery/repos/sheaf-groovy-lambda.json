@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:30:12.019425+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VS Code color theme optimised for Haskell, based on Gruvbox Material.",
+    "fork": false,
+    "full_name": "sheaf/groovy-lambda",
+    "html_url": "https://github.com/sheaf/groovy-lambda",
+    "language": null,
+    "pushed_at": "2022-04-17T15:53:33Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-09-26T17:44:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

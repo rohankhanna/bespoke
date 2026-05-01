@@ -591,6 +591,66 @@
       "source_repo": "WeikaiTan/Toronto-3D",
       "status": "candidate-context",
       "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HTR-United/tapuscorpus",
+      "status": "candidate-context",
+      "text": "Ground Truth for French 20th century typewritten documents collected on Gallica and Europeana"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTR-United/tapuscorpus",
+      "status": "candidate-context",
+      "text": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "pix2tex: Using a ViT to convert images of equations into LaTeX code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "A dynamic windowed scrolling table component for react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate-context",
+      "text": "![HighTable](hightable.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate-context",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "status": "candidate-context",
+      "text": "CVPR2023-Occupancy-Prediction-Challenge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -887,6 +947,36 @@
       "source_repo": "WeikaiTan/Toronto-3D",
       "status": "candidate",
       "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTR-United/tapuscorpus",
+      "status": "candidate",
+      "text": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-blecher/LaTeX-OCR",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/github/license/lukas-blecher/LaTeX-OCR)](https://github.com/lukas-blecher/LaTeX-OCR) [![Documentation Status](https://readthedocs.org/projects/pix2tex/badge/?version=latest)](https://pix2tex.readthedocs.io/en/latest/?badge=latest) [![PyPI](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hightable",
+      "status": "candidate",
+      "text": "![HighTable](hightable.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlmed/torchxrayvision",
+      "status": "candidate",
+      "text": "\ud83d\udea8 Paper now online! [https://arxiv.org/abs/2111.00595](https://arxiv.org/abs/2111.00595)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1236,11 +1326,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "WeikaiTan/Toronto-3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-blecher/LaTeX-OCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hightable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mlmed/torchxrayvision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

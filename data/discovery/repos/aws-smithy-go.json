@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_diff_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_diff_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/smithy-go",
+      "target": "aws/aws-sdk-go-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_diff_check.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_diff_check.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "Codegen Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "Go Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "crazy-max/ghaction-github-labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "aws/smithy-go",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/smithy-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/smithy-go",
+      "target": "smithy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:19:22.210020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4597
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/api_diff_check.yml",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/codegen.yml",
+      "size": 986
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 527
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Smithy code generators for Go (in development)",
+    "fork": false,
+    "full_name": "aws/smithy-go",
+    "html_url": "https://github.com/aws/smithy-go",
+    "language": "Java",
+    "pushed_at": "2026-05-01T01:20:37Z",
+    "stargazers_count": 245,
+    "topics": [
+      "golang",
+      "smithy"
+    ],
+    "updated_at": "2026-04-30T04:46:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-sdk-go-v2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Codegen Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yml",
+      "term": "Codegen Tests"
+    },
+    {
+      "context_snippet": "Go Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Go Tests"
+    },
+    {
+      "context_snippet": "github",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "github"
+    },
+    {
+      "context_snippet": "[![Go Build Status](https://github.com/aws/smithy-go/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/aws/smithy-go/actions/workflows/go.yml)[![Codegen Build Status](https://github.com/aws/smithy-go/actions/workflows/codegen.yml/badge.svg?branch=main)](https:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Build Status](https://github.com/aws/smithy-go/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/aws/smithy-go/actions/workflows/go.yml)[![Codegen Build Status](https://github.com/aws/smithy-go/actions/workflows/codegen.yml/badge.svg?branch=main)](https:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smithy"
+    }
+  ]
+}

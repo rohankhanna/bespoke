@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aliyun/aliyun-oss-java-sdk",
+      "target": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:07:42.229268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Aliyun OSS SDK for Java",
+    "fork": false,
+    "full_name": "aliyun/aliyun-oss-java-sdk",
+    "html_url": "https://github.com/aliyun/aliyun-oss-java-sdk",
+    "language": "Java",
+    "pushed_at": "2026-02-11T01:18:58Z",
+    "stargazers_count": 1266,
+    "topics": [],
+    "updated_at": "2026-04-17T00:31:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliyun/alibabacloud-oss-java-sdk-v2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

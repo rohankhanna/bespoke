@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_tcp_proxy",
+      "target": "samnet-dev/paqctl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_tcp_proxy",
+      "target": "gfw-knocker/gfw_resist_tls_proxy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:13:50.188175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "knock up GFW IP blockage",
+    "fork": false,
+    "full_name": "GFW-knocker/gfw_resist_tcp_proxy",
+    "html_url": "https://github.com/GFW-knocker/gfw_resist_tcp_proxy",
+    "language": "Python",
+    "pushed_at": "2026-02-07T03:12:12Z",
+    "stargazers_count": 320,
+    "topics": [],
+    "updated_at": "2026-05-01T01:36:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfw-knocker/gfw_resist_tls_proxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samnet-dev/paqctl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

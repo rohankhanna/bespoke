@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v4",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/flake-update.yml",
       "source_repo": "90-008/nix-cargo-integration"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvimdev/guard.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "catppuccin/catppuccin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "krivahtoo/silicon.nvim"
     }
   ]
 }

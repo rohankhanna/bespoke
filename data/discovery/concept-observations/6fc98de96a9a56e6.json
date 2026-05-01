@@ -84,7 +84,7 @@
   "normalized_form": "build-and-publish-dlrover-controller-image",
   "observation_id": "6fc98de96a9a56e6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "build and publish dlrover controller image",
   "source_context_snippet": "build and publish dlrover controller image",
   "source_file": ".github/workflows/image_dlrover_controller.yml",

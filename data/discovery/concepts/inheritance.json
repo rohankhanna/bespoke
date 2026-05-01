@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "inheritance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "status": "candidate-context",
+      "text": "Clean Code concepts adapted for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "status": "candidate-context",
+      "text": "1. [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trylovetom/clean-code-javascript",
+      "status": "candidate-context",
+      "text": ":bathtub: Clean Code concepts adapted for JavaScript \uff08\u7121\u7455\u7684\u7a0b\u5f0f\u78bc JavaScript\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trylovetom/clean-code-javascript",
+      "status": "candidate-context",
+      "text": "> \u539f\u4f5c\uff1a [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanmcdermott/clean-code-javascript",
+      "status": "candidate",
+      "text": "1. [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trylovetom/clean-code-javascript",
+      "status": "candidate",
+      "text": "> \u539f\u4f5c\uff1a [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)<br>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044748,
+      "status": "candidate",
+      "text": "heritage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046799,
+      "status": "candidate",
+      "text": "legacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046646,
+      "status": "candidate",
+      "text": "bequest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046612,
+      "status": "candidate",
+      "text": "probate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046561,
+      "status": "candidate",
+      "text": "intestacy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "heritage"
+    }
+  ],
+  "canonical_name": "inheritance",
+  "concept_id": "inheritance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ryanmcdermott/clean-code-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "trylovetom/clean-code-javascript"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inheritance",
+      "sense_id": "inheritance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

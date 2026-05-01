@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "chyok/ollama-gui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "chyok/ollama-gui",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "chyok/ollama-gui",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "ollama-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "ollama-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "ollama-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "ollama-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "ollama-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "single-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "tkinter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyok/ollama-gui",
+      "target": "tkinter-gui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:26:26.433526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3195
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A single-file tkinter-based Ollama GUI project with no external dependencies.",
+    "fork": false,
+    "full_name": "chyok/ollama-gui",
+    "html_url": "https://github.com/chyok/ollama-gui",
+    "language": "Python",
+    "pushed_at": "2025-11-20T04:26:03Z",
+    "stargazers_count": 261,
+    "topics": [
+      "llm",
+      "ollama",
+      "ollama-app",
+      "ollama-chat",
+      "ollama-gui",
+      "ollama-interface",
+      "ollama-ui",
+      "single-file",
+      "tkinter",
+      "tkinter-gui"
+    ],
+    "updated_at": "2026-04-29T02:54:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama-app"
+    },
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama-chat"
+    },
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama-gui"
+    },
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama-interface"
+    },
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama-ui"
+    },
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-file"
+    },
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tkinter"
+    },
+    {
+      "context_snippet": "![GitHub License](https://img.shields.io/github/license/chyok/ollama-gui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tkinter-gui"
+    }
+  ]
+}

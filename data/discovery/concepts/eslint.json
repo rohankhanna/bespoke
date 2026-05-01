@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "eslint"
+    "eslint",
+    "ESLint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -429,6 +430,78 @@
       "source_repo": "viser-project/viser",
       "status": "candidate-context",
       "text": "eslint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate-context",
+      "text": "Check the browser compatibility of your code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/config",
+      "status": "candidate-context",
+      "text": "Configuration and tools for publishing and maintaining high-quality JavaScript packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/config",
+      "status": "candidate-context",
+      "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc-eslint",
+      "status": "candidate-context",
+      "text": "Eslint extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-eslint",
+      "status": "candidate-context",
+      "text": "coc-eslint \u2014 Eslint extension for coc.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate-context",
+      "text": "Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate-context",
+      "text": "The administration framework for Ruby on Rails applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate-context",
+      "text": "ESLint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate-context",
+      "text": "A minimal demo of eslint-plugin-compat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate-context",
+      "text": "eslint-plugin-compat-demo"
     }
   ],
   "candidate_glosses": [
@@ -641,6 +714,42 @@
       "source_repo": "viser-project/viser",
       "status": "candidate",
       "text": "eslint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml/badge.svg)](https://github.com/amilajack/eslint-plugin-compat/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/config",
+      "status": "candidate",
+      "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-eslint",
+      "status": "candidate",
+      "text": "coc-eslint \u2014 Eslint extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ts-safeql/safeql",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/activeadmin",
+      "status": "candidate",
+      "text": "ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amilajack/eslint-plugin-compat-demo",
+      "status": "candidate",
+      "text": "eslint-plugin-compat-demo"
     }
   ],
   "candidate_related_terms": [
@@ -1134,11 +1243,71 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/eslint.yml",
       "source_repo": "viser-project/viser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "neoclide/coc-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ts-safeql/safeql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "amilajack/eslint-plugin-compat-demo"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

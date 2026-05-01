@@ -226,6 +226,18 @@
       "source_repo": "microsoft/openpai-runtime",
       "status": "candidate-context",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/openpairuntime/openpai-runtime)](https://hub.docker.com/repository/docker/openpairuntime/openpai-runtime) [![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/microsoft/openpai-runtime/CI/master)](\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "Async runtime for Rust where correctness is structural: region-owned tasks, cancel-correct protocols, capability-gated effects, and deterministic replay testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +348,12 @@
       "source_repo": "microsoft/openpai-runtime",
       "status": "candidate",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/openpairuntime/openpai-runtime)](https://hub.docker.com/repository/docker/openpairuntime/openpai-runtime) [![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/microsoft/openpai-runtime/CI/master)](\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/asupersync",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -571,11 +589,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/asupersync"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "scientific-python/attach-next-milestone-action@bc07be829f693829263e57d5e8489f4e57d3d420",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "networkx/nx-parallel"
+    }
+  ]
+}

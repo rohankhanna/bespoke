@@ -631,6 +631,42 @@
       "source_repo": "bennyyip/plugpac.vim",
       "status": "candidate-context",
       "text": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "status": "candidate-context",
+      "text": "A plugin of NERDTree showing git status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "status": "candidate-context",
+      "text": "nerdtree-git-plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "A wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate-context",
+      "text": "LSP-format.nvim is a wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x2a-42/nvim-lelwel",
+      "status": "candidate-context",
+      "text": "Vim/Neovim plugin for lelwel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/nvim-lelwel",
+      "status": "candidate-context",
+      "text": "Vim/Neovim syntax highlighting for [lelwel](https://github.com/0x2a-42/lelwel)."
     }
   ],
   "candidate_glosses": [
@@ -945,6 +981,24 @@
       "source_repo": "bennyyip/plugpac.vim",
       "status": "candidate",
       "text": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xuyuanp/nerdtree-git-plugin",
+      "status": "candidate",
+      "text": "nerdtree-git-plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/lsp-format.nvim",
+      "status": "candidate",
+      "text": "LSP-format.nvim is a wrapper around Neovims native LSP formatting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x2a-42/nvim-lelwel",
+      "status": "candidate",
+      "text": "Vim/Neovim syntax highlighting for [lelwel](https://github.com/0x2a-42/lelwel)."
     }
   ],
   "candidate_related_terms": [],
@@ -1450,11 +1504,59 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vim-airline/vim-airline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "preservim/nerdtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Xuyuanp/nerdtree-git-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "lukas-reineke/lsp-format.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "0x2a-42/nvim-lelwel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

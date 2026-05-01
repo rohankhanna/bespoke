@@ -48,7 +48,7 @@
   "normalized_form": "rustc-pull",
   "observation_id": "f685c692e6f74171",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_at": "2026-05-01T07:02:51.781400+00:00",
   "observed_text": "rustc-pull",
   "source_context_snippet": "rustc-pull",
   "source_file": ".github/workflows/rustc-pull.yml",

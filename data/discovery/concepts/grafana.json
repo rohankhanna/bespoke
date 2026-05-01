@@ -115,6 +115,18 @@
       "source_repo": "openlit/openlit",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akoutmos/prom_ex",
+      "status": "candidate-context",
+      "text": "An Elixir Prometheus metrics collection library built on top of Telemetry with accompanying Grafana dashboards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akoutmos/prom_ex",
+      "status": "candidate-context",
+      "text": "<!--START-->"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "openlit/openlit",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akoutmos/prom_ex",
+      "status": "candidate",
+      "text": "<!--START-->"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +286,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "openlit/openlit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "akoutmos/prom_ex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

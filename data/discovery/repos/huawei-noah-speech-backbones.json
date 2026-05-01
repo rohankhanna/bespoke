@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:27:53.941337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1075
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab.",
+    "fork": false,
+    "full_name": "huawei-noah/Speech-Backbones",
+    "html_url": "https://github.com/huawei-noah/Speech-Backbones",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-09-18T08:22:42Z",
+    "stargazers_count": 603,
+    "topics": [
+      "speech-processing",
+      "speech-recognition",
+      "speech-synthesis"
+    ],
+    "updated_at": "2026-04-27T07:38:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    }
+  ]
+}

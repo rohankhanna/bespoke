@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "CI-.NET"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "status": "candidate-context",
+      "text": "Simplifies getting the right configuration options for a request using loaded configurations from files to manage options for experiments or flights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "status": "candidate-context",
+      "text": "CI-.NET"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juharris/dotnet-OptionsProvider",
+      "status": "candidate",
+      "text": "CI-.NET"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "CI-.NET",
+  "concept_id": "ci-.net",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/ci-dotnet.yml",
+      "source_repo": "juharris/dotnet-OptionsProvider"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI-.NET",
+      "sense_id": "ci-.net#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

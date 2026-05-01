@@ -355,6 +355,54 @@
       "source_repo": "modelscope/FunCodec",
       "status": "candidate-context",
       "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "status": "candidate-context",
+      "text": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "status": "candidate-context",
+      "text": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rishikksh20/iSTFTNet-pytorch",
+      "status": "candidate-context",
+      "text": "iSTFTNet : Fast and Lightweight Mel-spectrogram Vocoder Incorporating Inverse Short-time Fourier Transform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rishikksh20/iSTFTNet-pytorch",
+      "status": "candidate-context",
+      "text": "This repo try to implement [iSTFTNet : Fast and Lightweight Mel-spectrogram Vocoder Incorporating Inverse Short-time Fourier Transform](https://arxiv.org/pdf/2203.02395.pdf) specifically model `C8C8I`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate-context",
+      "text": "StarGANv2-VC: A Diverse, Unsupervised, Non-parallel Framework for Natural-Sounding Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate-context",
+      "text": "> We present an unsupervised non-parallel many-to-many voice conversion (VC) method using a generative adversarial network (GAN) called StarGAN v2. Using a combination of adversarial source classifier loss and perceptual loss, our model significantly outperforms previous VC mode\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate-context",
+      "text": "Official Implementation of StyleTTS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate-context",
+      "text": "> Text-to-Speech (TTS) has recently seen great progress in synthesizing high-quality speech owing to the rapid development of parallel TTS systems, but producing speech with naturalistic prosodic variations, speaking styles and emotional tones remains challenging. Moreover, sinc\u2026"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +579,30 @@
       "source_repo": "modelscope/FunCodec",
       "status": "candidate",
       "text": "This project is still working on progress. To make FunCodec better, please let me know your concerns and feel free to comment them in the `Issues` part."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huawei-noah/Speech-Backbones",
+      "status": "candidate",
+      "text": "This is the main repository of open-sourced speech technology by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rishikksh20/iSTFTNet-pytorch",
+      "status": "candidate",
+      "text": "This repo try to implement [iSTFTNet : Fast and Lightweight Mel-spectrogram Vocoder Incorporating Inverse Short-time Fourier Transform](https://arxiv.org/pdf/2203.02395.pdf) specifically model `C8C8I`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StarGANv2-VC",
+      "status": "candidate",
+      "text": "> We present an unsupervised non-parallel many-to-many voice conversion (VC) method using a generative adversarial network (GAN) called StarGAN v2. Using a combination of adversarial source classifier loss and perceptual loss, our model significantly outperforms previous VC mode\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS",
+      "status": "candidate",
+      "text": "> Text-to-Speech (TTS) has recently seen great progress in synthesizing high-quality speech owing to the rapid development of parallel TTS systems, but producing speech with naturalistic prosodic variations, speaking styles and emotional tones remains challenging. Moreover, sinc\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -754,11 +826,53 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "huawei-noah/Speech-Backbones"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "rishikksh20/iSTFTNet-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StarGANv2-VC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StyleTTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

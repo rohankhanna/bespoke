@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "amap-ml/q-hawkeye",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "amap-ml/realqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "abhijay9/shifttolerant-lpips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "aimerykong/deepimageaestheticsanalysis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "blind-image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
+      "target": "iqa-dataset",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:27:19.350199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A comprehensive collection of IQA papers",
+    "fork": false,
+    "full_name": "chaofengc/Awesome-Image-Quality-Assessment",
+    "html_url": "https://github.com/chaofengc/Awesome-Image-Quality-Assessment",
+    "language": "TeX",
+    "pushed_at": "2026-04-29T11:38:15Z",
+    "stargazers_count": 1504,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "blind-image-quality-assessment",
+      "image-quality-assessment",
+      "iqa",
+      "iqa-dataset"
+    ],
+    "updated_at": "2026-04-30T07:33:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhijay9/shifttolerant-lpips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aimerykong/deepimageaestheticsanalysis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amap-ml/q-hawkeye",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amap-ml/realqa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blind-image-quality-assessment"
+    },
+    {
+      "context_snippet": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-quality-assessment"
+    },
+    {
+      "context_snippet": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iqa-dataset"
+    }
+  ]
+}

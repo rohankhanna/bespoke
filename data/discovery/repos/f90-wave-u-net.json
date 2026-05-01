@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f90/Wave-U-Net",
+      "target": "f90/wave-u-net-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f90/Wave-U-Net",
+      "target": "satvik-venkatesh/wave-u-net-tf2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f90/Wave-U-Net",
+      "target": "sigsep/sigsep-mus-2018",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f90/Wave-U-Net",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f90/Wave-U-Net",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f90/Wave-U-Net",
+      "target": "mit-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f90/Wave-U-Net",
+      "target": "waveform-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:36:47.752953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10524
+    },
+    {
+      "path": "requirements.txt",
+      "size": 153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of the Wave-U-Net for audio source separation",
+    "fork": false,
+    "full_name": "f90/Wave-U-Net",
+    "html_url": "https://github.com/f90/Wave-U-Net",
+    "language": "Python",
+    "pushed_at": "2023-03-24T22:32:47Z",
+    "stargazers_count": 939,
+    "topics": [
+      "audio-processing",
+      "deep-learning",
+      "mit-license",
+      "waveform-analysis"
+    ],
+    "updated_at": "2026-05-01T04:20:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f90/wave-u-net-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "satvik-venkatesh/wave-u-net-tf2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigsep/sigsep-mus-2018",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-license"
+    },
+    {
+      "context_snippet": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waveform-analysis"
+    }
+  ]
+}

@@ -66,21 +66,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dropbox/zxcvbn",
-      "target": "bitzesty/zxcvbn-js",
+      "target": "dwolfhub/zxcvbn-python",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dropbox/zxcvbn",
-      "target": "dropbox/zxcvbn-ios",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dropbox/zxcvbn",
-      "target": "bjeavons/zxcvbn-php",
+      "target": "gosimplellc/nbvcxz",
       "target_type": "repository"
     },
     {
@@ -88,6 +81,13 @@
       "source_file": "README.md",
       "source_repo": "dropbox/zxcvbn",
       "target": "cryptosense/ocaml-zxcvbn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dropbox/zxcvbn",
+      "target": "ghostbar/angular-zxcvbn",
       "target_type": "repository"
     },
     {
@@ -175,7 +175,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T16:06:26.245603+00:00",
+  "fetched_at": "2026-05-01T10:23:18.555036+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -196,21 +196,11 @@
     "html_url": "https://github.com/dropbox/zxcvbn",
     "language": "CoffeeScript",
     "pushed_at": "2024-08-19T09:54:34Z",
-    "stargazers_count": 15950,
+    "stargazers_count": 15951,
     "topics": [],
-    "updated_at": "2026-04-30T13:52:27Z"
+    "updated_at": "2026-04-30T19:22:57Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bitzesty/zxcvbn-js",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bjeavons/zxcvbn-php",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "cryptosense/ocaml-zxcvbn",
@@ -218,7 +208,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dropbox/zxcvbn-ios",
+      "full_name": "dwolfhub/zxcvbn-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ghostbar/angular-zxcvbn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gosimplellc/nbvcxz",
       "source_file": "README.md"
     }
   ],

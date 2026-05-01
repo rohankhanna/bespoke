@@ -130,6 +130,54 @@
       "source_repo": "apache/singa",
       "status": "candidate-context",
       "text": "conda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate-context",
+      "text": " Tibanna helps you run your genomic pipelines on Amazon cloud (AWS). It is used by the 4DN DCIC (4D Nucleome Data Coordination and Integration Center) to process data. Tibanna supports CWL/WDL (w/ docker), Snakemake (w/ conda) and custom Docker/shell command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate-context",
+      "text": "[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![Build Status](https://travis-ci.org/4dn-dcic/tibanna.svg?branch=master)](https://travis-ci.org/4dn-dcic/tibanna) [![Code Quality](https://api.codacy.com/pro\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "Deezer source separation library including pretrained models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate-context",
+      "text": "conda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate-context",
+      "text": "Open source Structure-from-Motion pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate-context",
+      "text": "Conda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate-context",
+      "text": "Powerful system-level package manager for Linux, macOS and Windows written in Rust \u2013 building on top of the Conda ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate-context",
+      "text": "<h1>"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +240,30 @@
       "source_repo": "apache/singa",
       "status": "candidate",
       "text": "conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4dn-dcic/tibanna",
+      "status": "candidate",
+      "text": "[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![Build Status](https://travis-ci.org/4dn-dcic/tibanna.svg?branch=master)](https://travis-ci.org/4dn-dcic/tibanna) [![Code Quality](https://api.codacy.com/pro\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deezer/spleeter",
+      "status": "candidate",
+      "text": "conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapillary/OpenSfM",
+      "status": "candidate",
+      "text": "Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/pixi",
+      "status": "candidate",
+      "text": "<h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -259,11 +331,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/conda.yaml",
       "source_repo": "apache/singa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "4dn-dcic/tibanna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "deezer/spleeter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "mapillary/OpenSfM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "prefix-dev/pixi"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

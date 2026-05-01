@@ -7,16 +7,9 @@
       "source_repo": "zai-org/CodeGeeX4",
       "target": "thudm/glm-4",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/CodeGeeX4",
-      "target": "thudm/naturalcodebench",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T16:10:33.026448+00:00",
+  "fetched_at": "2026-05-01T10:26:58.856467+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -41,11 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "thudm/glm-4",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "thudm/naturalcodebench",
       "source_file": "README.md"
     }
   ],

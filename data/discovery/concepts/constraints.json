@@ -43,6 +43,18 @@
       "source_repo": "Masterminds/semver",
       "status": "candidate-context",
       "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coin-or/pulp",
+      "status": "candidate-context",
+      "text": "A python Linear Programming API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/pulp",
+      "status": "candidate-context",
+      "text": "pulp"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Masterminds/semver",
       "status": "candidate",
       "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/pulp",
+      "status": "candidate",
+      "text": "pulp"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Masterminds/semver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "coin-or/pulp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

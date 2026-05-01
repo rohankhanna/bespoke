@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml"
+    },
+    {
+      "component": "azure/CLI@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "features/actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "docker/metadata-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "azure/CLI@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "container-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/container-apps-store-api-microservice",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:21:26.816754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5459
+    },
+    {
+      "path": ".github/workflows/build-and-deploy.yaml",
+      "size": 4422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample microservices solution using Azure Container Apps, Dapr, Cosmos DB, and Azure API Management",
+    "fork": false,
+    "full_name": "Azure-Samples/container-apps-store-api-microservice",
+    "html_url": "https://github.com/Azure-Samples/container-apps-store-api-microservice",
+    "language": "Shell",
+    "pushed_at": "2024-04-22T07:50:00Z",
+    "stargazers_count": 354,
+    "topics": [
+      "container-apps",
+      "containers",
+      "microservices",
+      "serverless"
+    ],
+    "updated_at": "2026-04-25T20:41:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "features/actions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy.yaml",
+      "term": "Build and Deploy"
+    },
+    {
+      "context_snippet": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-apps"
+    },
+    {
+      "context_snippet": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "This repository was created to help users deploy a microservice-based sample application to Azure Container Apps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

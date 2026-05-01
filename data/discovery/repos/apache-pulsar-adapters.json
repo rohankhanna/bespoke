@@ -1,0 +1,389 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml"
+    },
+    {
+      "component": "apache/pulsar-test-infra/paths-filter@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "apache/pulsar-test-infra/paths-filter@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml"
+    },
+    {
+      "component": "apache/pulsar-test-infra/paths-filter@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "apache/flink-connector-pulsar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "apache/pulsar-test-infra/paths-filter@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "CI - Maven Dependency Cache Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "apache/pulsar-test-infra/paths-filter@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "CI - Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "apache/pulsar-test-infra/paths-filter@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "source_repo": "apache/pulsar-adapters",
+      "target": "CI - Unit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "apache-kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "apache-spark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "apache-storm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "event-streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "messaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "pulsar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "queuing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/pulsar-adapters",
+      "target": "streaming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:32:13.319586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1617
+    },
+    {
+      "path": ".github/workflows/ci-maven-cache-update.yaml",
+      "size": 3987
+    },
+    {
+      "path": ".github/workflows/integration-test.yaml",
+      "size": 4143
+    },
+    {
+      "path": ".github/workflows/unit-test.yaml",
+      "size": 3014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Pulsar Adapters",
+    "fork": false,
+    "full_name": "apache/pulsar-adapters",
+    "html_url": "https://github.com/apache/pulsar-adapters",
+    "language": "Java",
+    "pushed_at": "2024-12-20T09:54:42Z",
+    "stargazers_count": 24,
+    "topics": [
+      "apache-kafka",
+      "apache-spark",
+      "apache-storm",
+      "event-streaming",
+      "messaging",
+      "pubsub",
+      "pulsar",
+      "queuing",
+      "streaming"
+    ],
+    "updated_at": "2024-12-20T09:54:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/flink-connector-pulsar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI - Maven Dependency Cache Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-maven-cache-update.yaml",
+      "term": "CI - Maven Dependency Cache Update"
+    },
+    {
+      "context_snippet": "CI - Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "term": "CI - Integration"
+    },
+    {
+      "context_snippet": "CI - Unit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "term": "CI - Unit"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-kafka"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-spark"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-storm"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-streaming"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messaging"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pubsub"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pulsar"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queuing"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    }
+  ]
+}

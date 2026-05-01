@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "kubeflow/fairing",
+      "target": "googlecloudplatform/docker-credential-gcr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:27:30.302517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1138
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2103
+    },
+    {
+      "path": "requirements.txt",
+      "size": 563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python SDK for building, training, and deploying ML models",
+    "fork": false,
+    "full_name": "kubeflow/fairing",
+    "html_url": "https://github.com/kubeflow/fairing",
+    "language": "Jsonnet",
+    "pushed_at": "2022-04-11T05:28:47Z",
+    "stargazers_count": 337,
+    "topics": [],
+    "updated_at": "2025-09-08T14:41:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/docker-credential-gcr",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

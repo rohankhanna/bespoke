@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WangYueFt/dgcnn",
+      "target": "antao97/dgcnn.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WangYueFt/dgcnn",
+      "target": "jiawei-ren/modelnet-c",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:26:35.712373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "WangYueFt/dgcnn",
+    "html_url": "https://github.com/WangYueFt/dgcnn",
+    "language": "Python",
+    "pushed_at": "2022-05-20T07:11:52Z",
+    "stargazers_count": 1832,
+    "topics": [],
+    "updated_at": "2026-04-30T13:20:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antao97/dgcnn.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiawei-ren/modelnet-c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

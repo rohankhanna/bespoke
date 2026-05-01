@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CopilotAdventures",
+      "target": "githubcopilot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:15:50.217327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub Copilot coding adventures",
+    "fork": false,
+    "full_name": "microsoft/CopilotAdventures",
+    "html_url": "https://github.com/microsoft/CopilotAdventures",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-02T23:43:30Z",
+    "stargazers_count": 533,
+    "topics": [
+      "githubcopilot"
+    ],
+    "updated_at": "2026-04-30T21:36:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"#\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "githubcopilot"
+    }
+  ]
+}

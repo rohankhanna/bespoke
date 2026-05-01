@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "atlasnet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "status": "candidate-context",
+      "text": "Pytorch Implementation for the project : `3D-CODED` and `Learning Elementary Structure`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "status": "candidate-context",
+      "text": "**3D-CODED : 3D Correspondences by Deep Deformation** <br>Thibault Groueix, Matthew Fisher, Vladimir G. Kim , Bryan C. Russell, Mathieu Aubry <br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "status": "candidate",
+      "text": "**3D-CODED : 3D Correspondences by Deep Deformation** <br>Thibault Groueix, Matthew Fisher, Vladimir G. Kim , Bryan C. Russell, Mathieu Aubry <br>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "atlasnet",
+  "concept_id": "atlasnet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ThibaultGROUEIX/3D-CODED"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atlasnet",
+      "sense_id": "atlasnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

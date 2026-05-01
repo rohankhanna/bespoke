@@ -277,6 +277,60 @@
       "source_repo": "LintaoAmons/bookmarks.nvim",
       "status": "candidate-context",
       "text": "- Simple: Add, Rename and Remove bookmarks with only one command, less shortcuts more productivity."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LintaoAmons/cd-project.nvim",
+      "status": "candidate-context",
+      "text": "I tried quite a lot `Project Management` plugins. In the end, I found all I need is just an easier way to `cd` to another project directory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/cd-project.nvim",
+      "status": "candidate-context",
+      "text": "I tried quite a lot `Project Management` plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/context-menu.nvim",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "status": "candidate-context",
+      "text": "Create temporary playground files effortlessly. Find them later without worrying about filenames or locations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "status": "candidate-context",
+      "text": "Create temporary playground files effortlessly. Find them later without worrying about filenames or locations."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "IDE-like breadcrumbs, out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for silicon in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -417,6 +471,36 @@
       "source_repo": "LintaoAmons/bookmarks.nvim",
       "status": "candidate",
       "text": "- Simple: Add, Rename and Remove bookmarks with only one command, less shortcuts more productivity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/cd-project.nvim",
+      "status": "candidate",
+      "text": "I tried quite a lot `Project Management` plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/context-menu.nvim",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LintaoAmons/scratch.nvim",
+      "status": "candidate",
+      "text": "Create temporary playground files effortlessly. Find them later without worrying about filenames or locations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bekaboo/dropbar.nvim",
+      "status": "candidate",
+      "text": "<h1 align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krivahtoo/silicon.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -622,11 +706,59 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "LintaoAmons/bookmarks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LintaoAmons/cd-project.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LintaoAmons/context-menu.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LintaoAmons/scratch.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Bekaboo/dropbar.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "krivahtoo/silicon.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

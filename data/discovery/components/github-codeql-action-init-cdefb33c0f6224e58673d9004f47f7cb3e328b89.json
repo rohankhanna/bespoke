@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "aws/karpenter-provider-aws"
+    }
+  ]
+}

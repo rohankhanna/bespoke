@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Levanter & Haliax Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate-context",
+      "text": "Named Tensors for Legible Deep Learning in JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate-context",
+      "text": "Run Levanter & Haliax Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marin-community/haliax",
+      "status": "candidate",
+      "text": "Run Levanter & Haliax Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26810,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26810,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26749,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15186,
+      "status": "candidate",
+      "text": "levant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10429,
+      "status": "candidate",
+      "text": "gallop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Levanter & Haliax Tests",
+  "concept_id": "run-levanter-haliax-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/run_quick_levanter_tests.yaml",
+      "source_repo": "marin-community/haliax"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Levanter & Haliax Tests",
+      "sense_id": "run-levanter-haliax-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

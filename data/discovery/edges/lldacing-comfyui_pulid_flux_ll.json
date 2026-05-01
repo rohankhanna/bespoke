@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "balazik/comfyui-pulid-flux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "lldacing/comfyui_patches_ll",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "chengzeyi/comfy-wavespeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "city96/comfyui-gguf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "lldacing/ComfyUI_PuLID_Flux_ll"
+}

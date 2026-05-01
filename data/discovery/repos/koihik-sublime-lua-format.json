@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T08:28:13.591857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Koihik/sublime-lua-format",
+    "html_url": "https://github.com/Koihik/sublime-lua-format",
+    "language": "Python",
+    "pushed_at": "2024-01-04T19:01:35Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-01-02T02:49:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "parlance/ctcdecode",
+      "target": "paddlepaddle/deepspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance/ctcdecode",
+      "target": "beam-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance/ctcdecode",
+      "target": "ctc-loss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance/ctcdecode",
+      "target": "decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance/ctcdecode",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance/ctcdecode",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:08:11.744073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6659
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch CTC Decoder bindings",
+    "fork": false,
+    "full_name": "parlance/ctcdecode",
+    "html_url": "https://github.com/parlance/ctcdecode",
+    "language": "C++",
+    "pushed_at": "2024-04-04T14:03:05Z",
+    "stargazers_count": 858,
+    "topics": [
+      "beam-search",
+      "ctc",
+      "ctc-loss",
+      "decoder",
+      "machine-learning",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-16T12:45:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/deepspeech",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beam-search"
+    },
+    {
+      "context_snippet": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctc-loss"
+    },
+    {
+      "context_snippet": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decoder"
+    },
+    {
+      "context_snippet": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

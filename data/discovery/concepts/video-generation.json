@@ -427,6 +427,90 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate-context",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Wan-Video/Wan2.2",
+      "status": "candidate-context",
+      "text": "Wan: Open and Advanced Large-Scale Video Generative Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Wan-Video/Wan2.2",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/InfinityStar",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025 Oral]Infinity\u2b50\ufe0f: Uni\ufb01ed Spacetime AutoRegressive Modeling for Visual Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/InfinityStar",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate-context",
+      "text": "[ICCV 2025 & ICCV 2025 RIWM Outstanding Paper] Aether: Geometric-Aware Unified World Modeling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate-context",
+      "text": "Code for FreeTraj, a tuning-free method for trajectory-controllable video generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate-context",
+      "text": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Phantom-video/Phantom",
+      "status": "candidate-context",
+      "text": "Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Phantom-video/Phantom",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate-context",
+      "text": "Official implementation for \"RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers\" (ICML 2025) , UltraViCo (ICLR 2026) and UltraImage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate-context",
+      "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate-context",
+      "text": "Finetuning and inference tools for the CogView4 and CogVideoX model series."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate-context",
+      "text": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +723,48 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Wan-Video/Wan2.2",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/InfinityStar",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternRobotics/Aether",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthur-qiu/FreeTraj",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2406.16863'><img src='https://img.shields.io/badge/arXiv-2406.16863-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Phantom-video/Phantom",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/DiT-Extrapolation",
+      "status": "candidate",
+      "text": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogKit",
+      "status": "candidate",
+      "text": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -886,11 +1012,77 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Wan-Video/Wan2.2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/InfinityStar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "arthur-qiu/FreeTraj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Phantom-video/Phantom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/CogKit"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

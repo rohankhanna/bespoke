@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "andymckay/get-gist-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "rymndhng/release-on-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "andymckay/get-gist-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "rymndhng/release-on-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/htr-united.yml",
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "HTR United Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "french",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "ground-truth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTR-United/tapuscorpus",
+      "target": "typewritten",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:15:00.072329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4097
+    },
+    {
+      "path": ".github/workflows/htr-united.yml",
+      "size": 3789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ground Truth for French 20th century typewritten documents collected on Gallica and Europeana",
+    "fork": false,
+    "full_name": "HTR-United/tapuscorpus",
+    "html_url": "https://github.com/HTR-United/tapuscorpus",
+    "language": null,
+    "pushed_at": "2024-07-10T15:53:33Z",
+    "stargazers_count": 5,
+    "topics": [
+      "dataset",
+      "french",
+      "ground-truth",
+      "htr",
+      "typewritten"
+    ],
+    "updated_at": "2025-03-30T16:34:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "HTR United Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/htr-united.yml",
+      "term": "HTR United Workflow"
+    },
+    {
+      "context_snippet": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "french"
+    },
+    {
+      "context_snippet": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ground-truth"
+    },
+    {
+      "context_snippet": "[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://sandbox.zenodo.org/badge/331648244.svg)](https://sandbox.zenodo.org/badge/latestdoi/331648244)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typewritten"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Phantom-video/HuMo",
+      "target": "fudan-generative-vision/openhumanvid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Phantom-video/HuMo",
+      "target": "iceclear/seedvr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Phantom-video/HuMo",
+      "target": "memoavatar/memo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Phantom-video/HuMo",
+      "target": "fudan-generative-vision/hallo3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:27:34.051148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16381
+    },
+    {
+      "path": "requirements.txt",
+      "size": 288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HuMo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning",
+    "fork": false,
+    "full_name": "Phantom-video/HuMo",
+    "html_url": "https://github.com/Phantom-video/HuMo",
+    "language": "Python",
+    "pushed_at": "2026-01-25T17:14:34Z",
+    "stargazers_count": 1217,
+    "topics": [],
+    "updated_at": "2026-04-29T23:53:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudan-generative-vision/hallo3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudan-generative-vision/openhumanvid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iceclear/seedvr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "memoavatar/memo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

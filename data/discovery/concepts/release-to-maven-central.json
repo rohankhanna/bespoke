@@ -31,6 +31,18 @@
       "source_repo": "spring-projects/spring-ai",
       "status": "candidate-context",
       "text": "Release to Maven Central"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kherud/java-llama.cpp",
+      "status": "candidate-context",
+      "text": "Java Bindings for llama.cpp - A Port of Facebook's LLaMA model in C/C++ "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kherud/java-llama.cpp",
+      "status": "candidate-context",
+      "text": "Release to Maven Central"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "spring-projects/spring-ai",
+      "status": "candidate",
+      "text": "Release to Maven Central"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kherud/java-llama.cpp",
       "status": "candidate",
       "text": "Release to Maven Central"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/maven-central-release.yml",
       "source_repo": "spring-projects/spring-ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kherud/java-llama.cpp"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

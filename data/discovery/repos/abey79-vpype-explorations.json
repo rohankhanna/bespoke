@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T10:11:41.831924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2966
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 89
+    },
+    {
+      "path": "requirements.txt",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My generative/plotter art explorations, packaged as vpype plug-ins.",
+    "fork": false,
+    "full_name": "abey79/vpype-explorations",
+    "html_url": "https://github.com/abey79/vpype-explorations",
+    "language": "Python",
+    "pushed_at": "2022-04-27T08:33:07Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-02-10T17:14:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "libmdbx"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theseyan/lmdbx-zig",
+      "status": "candidate-context",
+      "text": "Zig bindings for libMDBX (a fork of LMDB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theseyan/lmdbx-zig",
+      "status": "candidate-context",
+      "text": "Zig bindings for [libMDBX](https://libmdbx.dqdkfa.ru/) (a fork of LMDB)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theseyan/lmdbx-zig",
+      "status": "candidate",
+      "text": "Zig bindings for [libMDBX](https://libmdbx.dqdkfa.ru/) (a fork of LMDB)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "libmdbx",
+  "concept_id": "libmdbx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "theseyan/lmdbx-zig"
+    }
+  ],
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "libmdbx",
+      "sense_id": "libmdbx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

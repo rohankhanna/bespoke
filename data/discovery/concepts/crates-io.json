@@ -19,6 +19,18 @@
       "source_repo": "vaporif/rvx",
       "status": "candidate-context",
       "text": "[![Check](https://github.com/vaporif/rvx/actions/workflows/check.yml/badge.svg)](https://github.com/vaporif/rvx/actions/workflows/check.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate-context",
+      "text": "LLama.cpp rust bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate-context",
+      "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vaporif/rvx",
       "status": "candidate",
       "text": "[![Check](https://github.com/vaporif/rvx/actions/workflows/check.yml/badge.svg)](https://github.com/vaporif/rvx/actions/workflows/check.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdrokz/rust-llama.cpp",
+      "status": "candidate",
+      "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "vaporif/rvx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mdrokz/rust-llama.cpp"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

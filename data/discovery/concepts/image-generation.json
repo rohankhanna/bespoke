@@ -523,6 +523,54 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate-context",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/BitVAE",
+      "status": "candidate-context",
+      "text": "official training and inference code of bitwise tokenizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/BitVAE",
+      "status": "candidate-context",
+      "text": "The training and inference code of bitwise tokenizer used by [Infinity](https://github.com/FoundationVision/Infinity)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate-context",
+      "text": "[CVPR 2024] Official implementation of FreeDrag: Feature Dragging for Reliable Point-based Image Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kongzhecn/OMG",
+      "status": "candidate-context",
+      "text": "[ECCV 2024] OMG: Occlusion-friendly Personalized Multi-concept Generation In Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kongzhecn/OMG",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/FreeScale",
+      "status": "candidate-context",
+      "text": "[ICCV 2025] Code for FreeScale, a tuning-free method for higher-resolution visual generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/FreeScale",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +831,30 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/BitVAE",
+      "status": "candidate",
+      "text": "The training and inference code of bitwise tokenizer used by [Infinity](https://github.com/FoundationVision/Infinity)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LPengYang/FreeDrag",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kongzhecn/OMG",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/FreeScale",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1156,11 +1228,47 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "MiniMax-AI/MiniMax-MCP-JS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/BitVAE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "LPengYang/FreeDrag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "kongzhecn/OMG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/FreeScale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

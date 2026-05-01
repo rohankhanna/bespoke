@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "assimp/assimp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "qnzhou/pymesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "fxia22/pointgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "gulvarol/surreal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "3d-correspondences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "atlasnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibaultGROUEIX/3D-CODED",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "source_repo": "ThibaultGROUEIX/3D-CODED"
+}

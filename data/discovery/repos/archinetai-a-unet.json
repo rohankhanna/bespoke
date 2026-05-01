@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "archinetai/a-unet",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "archinetai/a-unet",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "archinetai/a-unet",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archinetai/a-unet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archinetai/a-unet",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archinetai/a-unet",
+      "target": "unet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:31:53.802083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4687
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch.",
+    "fork": false,
+    "full_name": "archinetai/a-unet",
+    "html_url": "https://github.com/archinetai/a-unet",
+    "language": "Python",
+    "pushed_at": "2023-06-12T22:27:06Z",
+    "stargazers_count": 89,
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "unet"
+    ],
+    "updated_at": "2025-11-19T11:30:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unet"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "espressif/shared-github-dangerjs@fb17367fd3e8ff7412603b8e946d9b19ffdb2d7f",
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/arduino-esp32"
+    }
+  ]
+}

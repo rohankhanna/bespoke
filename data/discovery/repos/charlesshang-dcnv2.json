@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CharlesShang/DCNv2",
+      "target": "deformable-convolutional-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CharlesShang/DCNv2",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:33:36.428600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 913
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deformable Convolutional Networks v2 with Pytorch",
+    "fork": false,
+    "full_name": "CharlesShang/DCNv2",
+    "html_url": "https://github.com/CharlesShang/DCNv2",
+    "language": "C++",
+    "pushed_at": "2024-04-25T06:55:55Z",
+    "stargazers_count": 1322,
+    "topics": [
+      "cnn",
+      "deformable-convolutional-networks",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T03:02:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "```bash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deformable-convolutional-networks"
+    },
+    {
+      "context_snippet": "```bash",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

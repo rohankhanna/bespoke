@@ -139,6 +139,30 @@
       "source_repo": "amazon-science/auto-cot",
       "status": "candidate-context",
       "text": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025] \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RDFLib/OWL-RL",
+      "status": "candidate-context",
+      "text": "A simple implementation of the OWL2 RL Profile on top of RDFLib: it expands the graph with all possible triples that OWL RL defines. It can be used together with RDFLib to expand an RDFLib Graph object, or as a stand alone service with its own serialization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/OWL-RL",
+      "status": "candidate-context",
+      "text": "|Original Author DOI| |PyPI badge|"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "amazon-science/auto-cot",
       "status": "candidate",
       "text": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/WebThinker",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RDFLib/OWL-RL",
+      "status": "candidate",
+      "text": "|Original Author DOI| |PyPI badge|"
     }
   ],
   "candidate_related_terms": [
@@ -393,11 +429,29 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "zai-org/GLM-V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "RDFLib/OWL-RL"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

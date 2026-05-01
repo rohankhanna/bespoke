@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "real-stanford/diffusion_policy",
+      "target": "intelrealsense/librealsense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "real-stanford/diffusion_policy",
+      "target": "arise-initiative/robomimic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "real-stanford/diffusion_policy",
+      "target": "google-research/ibc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "real-stanford/diffusion_policy",
+      "target": "google-research/relay-policy-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "real-stanford/diffusion_policy",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T10:10:22.157530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[RSS 2023] Diffusion Policy Visuomotor Policy Learning via Action Diffusion",
+    "fork": false,
+    "full_name": "real-stanford/diffusion_policy",
+    "html_url": "https://github.com/real-stanford/diffusion_policy",
+    "language": "Python",
+    "pushed_at": "2024-12-24T19:48:03Z",
+    "stargazers_count": 4083,
+    "topics": [
+      "robotics"
+    ],
+    "updated_at": "2026-04-30T18:28:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arise-initiative/robomimic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/ibc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/relay-policy-learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelrealsense/librealsense",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[[Project page]](https://diffusion-policy.cs.columbia.edu/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

@@ -157,6 +157,30 @@
       "source_repo": "MiniMax-AI/MiniMax-AI.github.io",
       "status": "candidate-context",
       "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TencentCloudADP/youtu-tip",
+      "status": "candidate-context",
+      "text": "Youtu-Tip: Tap for Intelligence, Keep on Device."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentCloudADP/youtu-tip",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalo/mujoco_wasm",
+      "status": "candidate-context",
+      "text": "Simulate and Render MuJoCo Models in the Browser!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalo/mujoco_wasm",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
     }
   ],
   "candidate_glosses": [
@@ -235,6 +259,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MiniMax-AI/MiniMax-AI.github.io",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentCloudADP/youtu-tip",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalo/mujoco_wasm",
       "status": "candidate",
       "text": "Deploy static content to Pages"
     }
@@ -358,11 +394,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/static.yml",
       "source_repo": "MiniMax-AI/MiniMax-AI.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "TencentCloudADP/youtu-tip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "zalo/mujoco_wasm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

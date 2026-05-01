@@ -3,7 +3,8 @@
     "License check",
     "License Check",
     "license check",
-    "License-Check"
+    "License-Check",
+    "\ud83d\uddd2\ufe0f License Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -154,6 +155,42 @@
       "source_repo": "secretflow/spu",
       "status": "candidate-context",
       "text": "License Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "Agentic AI Framework for Java Developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate-context",
+      "text": "\ud83d\uddd2\ufe0f License Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "status": "candidate-context",
+      "text": "Spring AI Alibaba DataAgent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "status": "candidate-context",
+      "text": "\ud83d\uddd2\ufe0f License Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "A high-determinism, code-free 'Prompt Programing'  studio built with Java \u4e00\u4e2a\u9ad8\u786e\u5b9a\u6027\u7684 \u65e0\u4ee3\u7801 'Prompt\u7f16\u7a0b'\u5de5\u4f5c\u7ad9\uff0c\u4ee5 Java \u7f16\u5199"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate-context",
+      "text": "\ud83d\uddd2\ufe0f License Check"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +265,24 @@
       "source_repo": "secretflow/spu",
       "status": "candidate",
       "text": "License Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-ai-alibaba",
+      "status": "candidate",
+      "text": "\ud83d\uddd2\ufe0f License Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/DataAgent",
+      "status": "candidate",
+      "text": "\ud83d\uddd2\ufe0f License Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/Lynxe",
+      "status": "candidate",
+      "text": "\ud83d\uddd2\ufe0f License Check"
     }
   ],
   "candidate_related_terms": [
@@ -445,11 +500,41 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/license-eyes.yml",
       "source_repo": "apache/brpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "alibaba/spring-ai-alibaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "spring-ai-alibaba/DataAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "spring-ai-alibaba/Lynxe"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

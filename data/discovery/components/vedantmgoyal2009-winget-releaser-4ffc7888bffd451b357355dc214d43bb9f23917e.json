@@ -1,7 +1,7 @@
 {
   "component": "vedantmgoyal2009/winget-releaser@4ffc7888bffd451b357355dc214d43bb9f23917e",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "nektos/act"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post_release.yml",
+      "source_repo": "prefix-dev/pixi"
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ros/urdf_parser_py",
+      "target": "ros/urdfdom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ros/urdf_parser_py",
+      "target": "robotlocomotion/drake",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T09:34:54.139189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "ros2",
+    "description": "Standalone URDF parser for Python.",
+    "fork": false,
+    "full_name": "ros/urdf_parser_py",
+    "html_url": "https://github.com/ros/urdf_parser_py",
+    "language": "Python",
+    "pushed_at": "2025-12-18T14:02:09Z",
+    "stargazers_count": 108,
+    "topics": [],
+    "updated_at": "2026-04-07T07:17:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotlocomotion/drake",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ros/urdfdom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

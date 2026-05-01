@@ -454,6 +454,114 @@
       "source_repo": "webpack/css-minimizer-webpack-plugin",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate-context",
+      "text": "A secure webpack plugin that supports dotenv and other environment variables and only exposes what you choose and use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack-dev-middleware",
+      "status": "candidate-context",
+      "text": "A development middleware for webpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-dev-middleware",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "Repository for webpack documentation and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate-context",
+      "text": "React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate-context",
+      "text": "> React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "Generate favicons for your project with caching for blazing fast rebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate-context",
+      "text": "A plugin for injecting <link rel='preload'> for ViteJS, HTMLWebpackPlugin and HTMLRspackPlugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate-context",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "Examples for using Connect with various TypeScript web frameworks and tooling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate-context",
+      "text": "examples-es"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vue-loader",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Webpack loader for Vue.js components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue-loader",
+      "status": "candidate-context",
+      "text": "> webpack loader for Vue Single-File Components"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/sass-loader",
+      "status": "candidate-context",
+      "text": "Compiles Sass to CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/sass-loader",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -676,6 +784,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "webpack/css-minimizer-webpack-plugin",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsteele/dotenv-webpack",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-dev-middleware",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack.js.org",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "status": "candidate",
+      "text": "> React + React Router + Tailwind Css with RSBuild boilerplate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anolilab/unplugin-favicons",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/unplugin-inject-preload",
+      "status": "candidate",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-es",
+      "status": "candidate",
+      "text": "examples-es"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue-loader",
+      "status": "candidate",
+      "text": "> webpack loader for Vue Single-File Components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/sass-loader",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -961,11 +1123,77 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "mrsteele/dotenv-webpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack-dev-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack.js.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "anolilab/unplugin-favicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "Applelo/unplugin-inject-preload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/examples-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vue-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T07:02:51.781400+00:00",
+      "source_file": null,
+      "source_repo": "webpack/sass-loader"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "lexical_providers": [
     "datamuse"
   ],

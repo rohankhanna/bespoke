@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mgutz/ansi",
+      "target": "mgutz/logxi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mgutz/ansi",
+      "target": "ansi-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mgutz/ansi",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:29:05.261233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small, fast library to create ANSI colored strings and codes. [go, golang]",
+    "fork": false,
+    "full_name": "mgutz/ansi",
+    "html_url": "https://github.com/mgutz/ansi",
+    "language": "Go",
+    "pushed_at": "2024-04-15T23:23:11Z",
+    "stargazers_count": 426,
+    "topics": [
+      "ansi-colors",
+      "go",
+      "terminal"
+    ],
+    "updated_at": "2026-02-16T17:20:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgutz/logxi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Package ansi is a small, fast library to create ANSI colored strings and codes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi-colors"
+    },
+    {
+      "context_snippet": "Package ansi is a small, fast library to create ANSI colored strings and codes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

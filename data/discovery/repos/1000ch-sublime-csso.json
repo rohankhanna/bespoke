@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "csso",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "get-stdin",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1000ch/Sublime-csso",
+      "target": "csso",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1000ch/Sublime-csso",
+      "target": "get-stdin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1000ch/Sublime-csso",
+      "target": "csso",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1000ch/Sublime-csso",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1000ch/Sublime-csso",
+      "target": "sublime-text-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T07:17:51.078260+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CSSO plugin for Sublime Text",
+    "fork": false,
+    "full_name": "1000ch/Sublime-csso",
+    "html_url": "https://github.com/1000ch/Sublime-csso",
+    "language": "Python",
+    "pushed_at": "2026-02-09T23:03:59Z",
+    "stargazers_count": 0,
+    "topics": [
+      "css",
+      "csso",
+      "sublime-text",
+      "sublime-text-plugin"
+    ],
+    "updated_at": "2024-10-16T23:21:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csso"
+    },
+    {
+      "context_snippet": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    },
+    {
+      "context_snippet": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-plugin"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hahnyuan/PB-LLM",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hahnyuan/PB-LLM",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T08:10:38.438072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PB-LLM: Partially Binarized Large Language Models",
+    "fork": false,
+    "full_name": "hahnyuan/PB-LLM",
+    "html_url": "https://github.com/hahnyuan/PB-LLM",
+    "language": "Python",
+    "pushed_at": "2023-11-20T12:34:57Z",
+    "stargazers_count": 155,
+    "topics": [
+      "neural-networks",
+      "quantization"
+    ],
+    "updated_at": "2026-04-03T09:27:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**[Yuzhang Shang*](https://42shawn.github.io/), [Zhihang Yuan*](http://hahnyuan.com/), Qiang Wu, [Zhen Dong](https://dong-zhen.com/)** (* Equal Contribution)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "**[Yuzhang Shang*](https://42shawn.github.io/), [Zhihang Yuan*](http://hahnyuan.com/), Qiang Wu, [Zhen Dong](https://dong-zhen.com/)** (* Equal Contribution)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

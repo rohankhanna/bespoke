@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/aws-e2e-tests-non-root.yaml",
+      "source_repo": "gravitational/teleport"
+    }
+  ],
+  "term": "AWS E2E Tests (Non-root)"
+}
