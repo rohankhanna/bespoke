@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -176,6 +176,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "haskell-actions/hlint-scan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/actions-test.yaml",
+      "source_repo": "controlplaneio-fluxcd/flux-operator"
     }
   ],
   "term": "actions"

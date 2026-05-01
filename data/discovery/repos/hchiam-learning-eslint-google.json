@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-google",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-eslint-google",
+      "target": "google/eslint-config-google",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-eslint-google",
+      "target": "hchiam/learning-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-eslint-google",
+      "target": "hchiam/eslint-and-jest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-eslint-google",
+      "target": "hchiam/learning-lint-staged",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-eslint-google",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-eslint-google",
+      "target": "eslint-config-google",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/learning-eslint-google",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:40:06.778232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2587
+    },
+    {
+      "path": "package.json",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/dependabot_auto_merge.yml",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learn ESLint with Google JS Style Guide",
+    "fork": false,
+    "full_name": "hchiam/learning-eslint-google",
+    "html_url": "https://github.com/hchiam/learning-eslint-google",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-22T00:11:30Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-02-13T20:41:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/eslint-config-google",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/eslint-and-jest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-lint-staged",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

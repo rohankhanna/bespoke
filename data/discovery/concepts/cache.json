@@ -394,6 +394,18 @@
       "source_repo": "sindresorhus/find-cache-directory",
       "status": "candidate-context",
       "text": "find-cache-directory \u2014 Finds the common standard cache directory"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-actions/cache",
+      "status": "candidate-context",
+      "text": "A shortcut action to cache Julia artifacts, packages, and registries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/cache",
+      "status": "candidate-context",
+      "text": "A shortcut action to cache Julia depot contents to reduce GitHub Actions running time."
     }
   ],
   "candidate_glosses": [
@@ -588,6 +600,12 @@
       "source_repo": "sindresorhus/find-cache-directory",
       "status": "candidate",
       "text": "find-cache-directory \u2014 Finds the common standard cache directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/cache",
+      "status": "candidate",
+      "text": "A shortcut action to cache Julia depot contents to reduce GitHub Actions running time."
     }
   ],
   "candidate_related_terms": [
@@ -931,11 +949,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "TanStack/query"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "julia-actions/cache"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

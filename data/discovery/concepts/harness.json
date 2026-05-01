@@ -43,6 +43,18 @@
       "source_repo": "LukasKalbertodt/libtest-mimic",
       "status": "candidate-context",
       "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Badisi/wdio-harness",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2c WebdriverIO support for Angular component test harnesses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Badisi/wdio-harness",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "LukasKalbertodt/libtest-mimic",
       "status": "candidate",
       "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Badisi/wdio-harness",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -225,11 +243,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Badisi/wdio-harness"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

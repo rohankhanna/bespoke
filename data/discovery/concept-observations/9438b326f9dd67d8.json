@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightweight toolset for writing styles in JavaScript \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://github.com/styled-components/polished\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/styled-components/polished\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inline-styles",
+      "sense_id": "inline-styles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inline-styles",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inline-styles",
+  "observation_id": "9438b326f9dd67d8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "inline-styles",
+  "source_context_snippet": "<a href=\"https://github.com/styled-components/polished\">",
+  "source_file": null,
+  "source_repo": "styled-components/polished",
+  "source_repo_description": "A lightweight toolset for writing styles in JavaScript \u2728"
+}

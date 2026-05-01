@@ -683,6 +683,18 @@
       "source_repo": "aws-cloudformation/cloudformation-guard",
       "status": "candidate-context",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate-context",
+      "text": "Liquid templating for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate-context",
+      "text": "Security audit"
     }
   ],
   "candidate_glosses": [
@@ -1019,6 +1031,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/liquid-rust",
       "status": "candidate",
       "text": "Security audit"
     }
@@ -1640,11 +1658,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/security_audit.yml",
       "source_repo": "aws-cloudformation/cloudformation-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "cobalt-org/liquid-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

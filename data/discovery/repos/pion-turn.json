@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "component": "pion/.goassets/.github/workflows/api.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/codeql-analysis.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/fuzz.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/lint.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/release.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/renovate-go-sum-fix.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/reuse.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pion/turn",
+      "target": "pion/awesome-pion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pion/turn",
+      "target": "pion/ice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pion/turn",
+      "target": "pion/webrtc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yaml",
+      "source_repo": "pion/turn",
+      "target": "pion/.goassets/.github/workflows/api.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yaml",
+      "source_repo": "pion/turn",
+      "target": "API",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pion/turn",
+      "target": "pion/.goassets/.github/workflows/codeql-analysis.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pion/turn",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "pion/turn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "pion/turn",
+      "target": "E2E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "source_repo": "pion/turn",
+      "target": "pion/.goassets/.github/workflows/fuzz.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "source_repo": "pion/turn",
+      "target": "Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "pion/turn",
+      "target": "pion/.goassets/.github/workflows/lint.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "pion/turn",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/turn",
+      "target": "pion/.goassets/.github/workflows/release.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/turn",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml",
+      "source_repo": "pion/turn",
+      "target": "pion/.goassets/.github/workflows/renovate-go-sum-fix.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml",
+      "source_repo": "pion/turn",
+      "target": "Fix go.sum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "pion/turn",
+      "target": "pion/.goassets/.github/workflows/reuse.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "pion/turn",
+      "target": "REUSE Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "pion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "stun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "traversal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "turn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "turn-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "turn-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "turn-servers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/turn",
+      "target": "webrtc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:39:41.648965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6135
+    },
+    {
+      "path": "go.mod",
+      "size": 554
+    },
+    {
+      "path": ".github/workflows/api.yaml",
+      "size": 586
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 716
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 486
+    },
+    {
+      "path": ".github/workflows/fuzz.yaml",
+      "size": 734
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 634
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/renovate-go-sum-fix.yaml",
+      "size": 693
+    },
+    {
+      "path": ".github/workflows/reuse.yml",
+      "size": 615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pion TURN, an API for building TURN clients and servers",
+    "fork": false,
+    "full_name": "pion/turn",
+    "html_url": "https://github.com/pion/turn",
+    "language": "Go",
+    "pushed_at": "2026-05-01T01:48:56Z",
+    "stargazers_count": 2200,
+    "topics": [
+      "go",
+      "golang",
+      "nat",
+      "pion",
+      "stun",
+      "traversal",
+      "turn",
+      "turn-client",
+      "turn-server",
+      "turn-servers",
+      "webrtc"
+    ],
+    "updated_at": "2026-04-30T23:32:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pion/awesome-pion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pion/ice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pion/webrtc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "API",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yaml",
+      "term": "API"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "E2E",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "E2E"
+    },
+    {
+      "context_snippet": "Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "term": "Fuzz"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Fix go.sum",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml",
+      "term": "Fix go.sum"
+    },
+    {
+      "context_snippet": "REUSE Compliance Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "term": "REUSE Compliance Check"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pion"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stun"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traversal"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turn"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turn-client"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turn-server"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turn-servers"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webrtc"
+    }
+  ]
+}

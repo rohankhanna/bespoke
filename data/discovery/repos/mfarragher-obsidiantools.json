@@ -1,0 +1,198 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "mfarragher/obsidiantools-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "jaspervdj/lorem-markdownum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "knowledge-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "network-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "note-taking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "obsidian-community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools",
+      "target": "obsidian-md",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:52:25.381711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6611
+    },
+    {
+      "path": "requirements.txt",
+      "size": 130
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Obsidian tools - a Python package for analysing an Obsidian.md vault",
+    "fork": false,
+    "full_name": "mfarragher/obsidiantools",
+    "html_url": "https://github.com/mfarragher/obsidiantools",
+    "language": "Python",
+    "pushed_at": "2025-07-08T19:38:00Z",
+    "stargazers_count": 553,
+    "topics": [
+      "data-science",
+      "knowledge-management",
+      "network-analysis",
+      "note-taking",
+      "obsidian-community",
+      "obsidian-md",
+      "python"
+    ],
+    "updated_at": "2026-04-27T09:41:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaspervdj/lorem-markdownum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mfarragher/obsidiantools-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "codecov"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools) [![PyPI version](https://img.shields.io/pypi/pyversions/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools) [![PyPI version](https://img.shields.io/pypi/pyversions/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-management"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools) [![PyPI version](https://img.shields.io/pypi/pyversions/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-analysis"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools) [![PyPI version](https://img.shields.io/pypi/pyversions/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "note-taking"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools) [![PyPI version](https://img.shields.io/pypi/pyversions/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-community"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools) [![PyPI version](https://img.shields.io/pypi/pyversions/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    }
+  ]
+}

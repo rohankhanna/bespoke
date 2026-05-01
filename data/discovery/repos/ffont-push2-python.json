@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ffont/push2-python",
+      "target": "ffont/pysha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ffont/push2-python",
+      "target": "pyusb/pyusb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ffont/push2-python",
+      "target": "pygobject/pycairo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:49:48.266211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Utils to interface with Push2 from Python",
+    "fork": false,
+    "full_name": "ffont/push2-python",
+    "html_url": "https://github.com/ffont/push2-python",
+    "language": "Python",
+    "pushed_at": "2022-06-01T10:14:08Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-04-13T06:25:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ffont/pysha",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pygobject/pycairo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyusb/pyusb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

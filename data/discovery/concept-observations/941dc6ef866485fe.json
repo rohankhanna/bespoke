@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official code for CVPR 2022 (Oral) paper \"Deep Visual Geo-localization Benchmark\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049700,
+      "status": "candidate",
+      "text": "localisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045612,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958369,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049735,
+      "status": "candidate",
+      "text": "locating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046170,
+      "status": "candidate",
+      "text": "locality"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "localization",
+      "sense_id": "localization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15045,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9069,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "locating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "localisation"
+    }
+  ],
+  "concept_id": "localization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "localization",
+  "observation_id": "941dc6ef866485fe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "localization",
+  "source_context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+  "source_file": null,
+  "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+  "source_repo_description": "Official code for CVPR 2022 (Oral) paper \"Deep Visual Geo-localization Benchmark\""
+}

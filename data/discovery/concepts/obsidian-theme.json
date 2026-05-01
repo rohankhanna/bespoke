@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "obsidian-theme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Akifyss/obsidian-border",
+      "status": "candidate-context",
+      "text": "A theme for obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akifyss/obsidian-border",
+      "status": "candidate-context",
+      "text": "A clean and highly customisable theme for obsidian."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caro401/royal-velvet",
+      "status": "candidate-context",
+      "text": "A dark theme for obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caro401/royal-velvet",
+      "status": "candidate-context",
+      "text": "A theme for [Obsidian](https://obsidian.md/), inspired by the beautiful colours of [Royal Velvet Obsidian](https://duckduckgo.com/?t=ffab&q=Mexican+Royal+Velvet+Obsidian&iax=images&ia=images) and the distinct colours used in programming syntax highlighting themes. Now supports b\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akifyss/obsidian-border",
+      "status": "candidate",
+      "text": "A clean and highly customisable theme for obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caro401/royal-velvet",
+      "status": "candidate",
+      "text": "A theme for [Obsidian](https://obsidian.md/), inspired by the beautiful colours of [Royal Velvet Obsidian](https://duckduckgo.com/?t=ffab&q=Mexican+Royal+Velvet+Obsidian&iax=images&ia=images) and the distinct colours used in programming syntax highlighting themes. Now supports b\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "obsidian-theme",
+  "concept_id": "obsidian-theme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Akifyss/obsidian-border"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "caro401/royal-velvet"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian-theme",
+      "sense_id": "obsidian-theme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

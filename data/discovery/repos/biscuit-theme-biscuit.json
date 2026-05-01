@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "biscuit-colorscheme/biscuit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "biscuit-colorscheme/alacritty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "biscuit-colorscheme/cava",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "biscuit-colorscheme/btop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "colorschemes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "neovim-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "nvim-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "ricing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit",
+      "target": "themes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:06:45.672953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cozy and warm colorscheme for the forest dwellers. An alternative to most boring modern colorschemes.",
+    "fork": false,
+    "full_name": "Biscuit-Theme/biscuit",
+    "html_url": "https://github.com/Biscuit-Theme/biscuit",
+    "language": null,
+    "pushed_at": "2026-02-09T05:09:11Z",
+    "stargazers_count": 190,
+    "topics": [
+      "colors",
+      "colorschemes",
+      "css",
+      "linux",
+      "neovim-theme",
+      "nvim-theme",
+      "ricing",
+      "theme",
+      "themes"
+    ],
+    "updated_at": "2026-04-30T21:59:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biscuit-colorscheme/alacritty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biscuit-colorscheme/biscuit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biscuit-colorscheme/btop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biscuit-colorscheme/cava",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colors"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorschemes"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-theme"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-theme"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ricing"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "themes"
+    }
+  ]
+}

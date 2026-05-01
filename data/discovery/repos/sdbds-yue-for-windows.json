@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/YuE-for-windows",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdbds/YuE-for-windows",
+      "target": "wrongprotocol/yue-exllamav2-ui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:35:17.896573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18457
+    },
+    {
+      "path": "requirements.txt",
+      "size": 157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YuE: Open Full-song Generation Foundation Model, something similar to Suno.ai but open",
+    "fork": true,
+    "full_name": "sdbds/YuE-for-windows",
+    "html_url": "https://github.com/sdbds/YuE-for-windows",
+    "language": "Python",
+    "pushed_at": "2025-03-01T10:12:30Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-04-08T14:00:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wrongprotocol/yue-exllamav2-ui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

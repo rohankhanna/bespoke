@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Diplomat CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CBenoit/diplomat",
+      "status": "candidate-context",
+      "text": "Experimental Rust tool for generating FFI definitions allowing many other languages to call Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBenoit/diplomat",
+      "status": "candidate-context",
+      "text": "Diplomat CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CBenoit/diplomat",
+      "status": "candidate",
+      "text": "Diplomat CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10856,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10856,
+      "status": "candidate",
+      "text": "leed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7868,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7316,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7316,
+      "status": "candidate",
+      "text": "ion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Diplomat CI",
+  "concept_id": "diplomat-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CBenoit/diplomat"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Diplomat CI",
+      "sense_id": "diplomat-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

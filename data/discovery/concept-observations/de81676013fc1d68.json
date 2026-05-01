@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stacked-hourglass-networks",
+      "sense_id": "stacked-hourglass-networks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stacked-hourglass-networks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stacked-hourglass-networks",
+  "observation_id": "de81676013fc1d68",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "stacked-hourglass-networks",
+  "source_context_snippet": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419).",
+  "source_file": null,
+  "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+  "source_repo_description": "Pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419"
+}

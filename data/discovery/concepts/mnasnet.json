@@ -19,6 +19,18 @@
       "source_repo": "wang-xinyu/tensorrtx",
       "status": "candidate-context",
       "text": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "status": "candidate-context",
+      "text": "Pretrained EfficientNet, EfficientNet-Lite, MixNet, MobileNetV3 / V2, MNASNet A1 and B1, FBNet, Single-Path NAS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "status": "candidate-context",
+      "text": "```diff"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "wang-xinyu/tensorrtx",
       "status": "candidate",
       "text": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "status": "candidate",
+      "text": "```diff"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "wang-xinyu/tensorrtx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

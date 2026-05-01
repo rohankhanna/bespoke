@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bdyetton/LinkToPy",
+      "target": "brunchboy/carabiner",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:50:21.191365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A python module for interfacing with Ableton Link.",
+    "fork": false,
+    "full_name": "bdyetton/LinkToPy",
+    "html_url": "https://github.com/bdyetton/LinkToPy",
+    "language": "Python",
+    "pushed_at": "2022-02-22T00:43:05Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2025-12-30T23:13:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/carabiner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "d3-force",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -17,6 +17,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "plotly/plotly.js"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "logseq/logseq"
     }
   ]
 }

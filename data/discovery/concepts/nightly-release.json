@@ -414,11 +414,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/nightly_release.yml",
       "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/release_nightly.yml",
+      "source_repo": "clog-tool/clog-cli"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

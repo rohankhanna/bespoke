@@ -1,0 +1,307 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unicode-org/icu4x",
+      "target": "unicode-org/icu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "rust-diplomat/diplomat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "google-github-actions/auth@71fee32a0bb7e97b4d33d548e7d957010649d8fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "google-github-actions/setup-gcloud@98ddc00a17442e89a24bbf282954a3b65ce6d200",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "mattnotmitt/doxygen-action@411df0c62acb5b96b8a93d93a7bf4b753c47ea05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "dart-lang/setup-dart@0a8a0fc875eb934c15d08629302413c671d3f672",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "taiki-e/install-action@64e4e2f995104968c78bd697b253d55bf557af66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "rhysd/github-action-benchmark@c3efd4d54319dbc90622069cc273cba59b46abbf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "gregtatum/github-action-benchmark@d3f06f738e9612988d575db23fae5ca0008d3d12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "Artifacts Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifacts-info.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "taiki-e/install-action@64e4e2f995104968c78bd697b253d55bf557af66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "dart-lang/setup-dart@0a8a0fc875eb934c15d08629302413c671d3f672",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "s4u/setup-maven-action@v1.19.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "obi1kenobi/cargo-semver-checks-action@5b298c9520f7096a4683c0bd981a7ac5a7e249ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "ravsamhq/notify-slack-action@4ed28566c2bdcdaee6dca2b46b9666d01b4ed8a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "Changelog Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "taiki-e/install-action@64e4e2f995104968c78bd697b253d55bf557af66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions-rs/grcov@770fa904bcbfc50da498080d1511da7388e6ddc6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "coverallsapp/github-action@95b1a2355bd0e526ad2fd62da9fd386ad4c98474",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "codecov/codecov-action@ab904c41d6ece82784817410c45d8b8c02684457",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "github/codeql-action/upload-sarif@1b1aada464948af03b950897e5eb522f92603cc2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "unicode-org/icu4x",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unicode-org/icu4x",
+      "target": "cldr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unicode-org/icu4x",
+      "target": "internationalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unicode-org/icu4x",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unicode-org/icu4x",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unicode-org/icu4x",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "unicode-org/icu4x"
+}

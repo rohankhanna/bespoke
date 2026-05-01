@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:52:50.072582+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Examples of different quil sketches.",
+    "fork": false,
+    "full_name": "quil/quil-examples",
+    "html_url": "https://github.com/quil/quil-examples",
+    "language": "Clojure",
+    "pushed_at": "2024-01-22T04:38:51Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2025-07-13T13:37:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "keepassxc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate-context",
+      "text": "KeePassXC Browser Extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate-context",
+      "text": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate",
+      "text": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "keepass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "keeweb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "freefilesync"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "kwallet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "diskcryptor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "keepassxc",
+  "concept_id": "keepassxc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keepassxc",
+      "sense_id": "keepassxc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

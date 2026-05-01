@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "leonid-pishchulin/poseval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "chenyilun95/tf-cpn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "eccv-2018",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "mpii-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "mscoco-keypoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "posetrack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "mks0601/TF-SimpleHumanPose"
+}

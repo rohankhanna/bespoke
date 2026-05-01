@@ -163,6 +163,18 @@
       "source_repo": "wangjiangshan0725/RF-Solver-Edit",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaveworks/weave-gitops",
+      "status": "candidate-context",
+      "text": "Weave GitOps is transitioning to a community driven project! It provides insights into your application deployments, and makes continuous delivery with GitOps easier to adopt and scale across your teams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaveworks/weave-gitops",
+      "status": "candidate-context",
+      "text": "![Test status](https://github.com/weaveworks/weave-gitops/actions/workflows/pr.yaml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "wangjiangshan0725/RF-Solver-Edit",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaveworks/weave-gitops",
+      "status": "candidate",
+      "text": "![Test status](https://github.com/weaveworks/weave-gitops/actions/workflows/pr.yaml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -495,11 +513,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "weaveworks/weave-gitops"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

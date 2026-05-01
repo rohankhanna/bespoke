@@ -1192,6 +1192,30 @@
       "source_repo": "SchwarzIT/spectral-intellij-plugin",
       "status": "candidate-context",
       "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/lz.n",
+      "status": "candidate-context",
+      "text": "\ud83e\udda5 A dead simple lazy-loading Lua library for Neovim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/lz.n",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_glosses": [
@@ -1788,6 +1812,18 @@
       "source_repo": "SchwarzIT/spectral-intellij-plugin",
       "status": "candidate",
       "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/lz.n",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_related_terms": [
@@ -2617,11 +2653,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kazupon/vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/lz.n"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

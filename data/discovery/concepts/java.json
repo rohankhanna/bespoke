@@ -2494,6 +2494,18 @@
       "source_repo": "appwrite/sdk-for-android",
       "status": "candidate-context",
       "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpacks for JVM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate-context",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
     }
   ],
   "candidate_glosses": [
@@ -3738,6 +3750,12 @@
       "source_repo": "appwrite/sdk-for-android",
       "status": "candidate",
       "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
     }
   ],
   "candidate_related_terms": [
@@ -5613,11 +5631,71 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "appwrite/sdk-for-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-jvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "path-to-regexp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stryker-mutator/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stryker-mutator/html-reporter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stryker-mutator/javascript-mutator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stryker-mutator/jest-runner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bundlesize",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "microbundle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexhoma/routex.js",
+      "target": "fridays/next-routes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexhoma/routex.js",
+      "target": "lydell/next-minimal-routes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexhoma/routex.js",
+      "target": "pillarjs/path-to-regexp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "path-to-regexp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "@stryker-mutator/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "@stryker-mutator/html-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "@stryker-mutator/javascript-mutator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "@stryker-mutator/jest-runner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "bundlesize",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alexhoma/routex.js",
+      "target": "microbundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "dynamic-routes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "localized-router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "localized-routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "minimal-routes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "multidomain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "next",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "nextjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "reactjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "routes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js",
+      "target": "universal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:40:58.284267+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6518
+    },
+    {
+      "path": "package.json",
+      "size": 1500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js",
+    "fork": false,
+    "full_name": "alexhoma/routex.js",
+    "html_url": "https://github.com/alexhoma/routex.js",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-05T02:34:06Z",
+    "stargazers_count": 39,
+    "topics": [
+      "dynamic-routes",
+      "localized-router",
+      "localized-routing",
+      "minimal-routes",
+      "multidomain",
+      "next",
+      "nextjs",
+      "react",
+      "reactjs",
+      "router",
+      "routes",
+      "routing",
+      "universal"
+    ],
+    "updated_at": "2025-09-06T21:53:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fridays/next-routes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lydell/next-minimal-routes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pillarjs/path-to-regexp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-routes"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localized-router"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localized-routing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimal-routes"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multidomain"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "next"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextjs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "router"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "routes"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "routing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "universal"
+    }
+  ]
+}

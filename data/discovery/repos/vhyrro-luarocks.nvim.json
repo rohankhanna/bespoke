@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T19:07:42.980832+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4002
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easily install luarocks with lazy.nvim",
+    "fork": true,
+    "full_name": "vhyrro/luarocks.nvim",
+    "html_url": "https://github.com/vhyrro/luarocks.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-06-13T09:58:48Z",
+    "stargazers_count": 117,
+    "topics": [],
+    "updated_at": "2026-04-17T07:13:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

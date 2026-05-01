@@ -346,6 +346,18 @@
       "source_repo": "aslafy-z/helm-git",
       "status": "candidate-context",
       "text": "![GitHub Actions](https://github.com/aslafy-z/helm-git/actions/workflows/release.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate-context",
+      "text": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +528,12 @@
       "source_repo": "aslafy-z/helm-git",
       "status": "candidate",
       "text": "![GitHub Actions](https://github.com/aslafy-z/helm-git/actions/workflows/release.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)"
     }
   ],
   "candidate_related_terms": [
@@ -745,11 +763,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "aslafy-z/helm-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

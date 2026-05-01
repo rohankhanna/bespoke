@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vim-test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcarriga/vim-ultest",
+      "status": "candidate-context",
+      "text": "The ultimate testing plugin for (Neo)Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/vim-ultest",
+      "status": "candidate-context",
+      "text": "This repo is no longer being actively worked on. I've moved my efforts into"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/vim-ultest",
+      "status": "candidate",
+      "text": "This repo is no longer being actively worked on. I've moved my efforts into"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vim-test",
+  "concept_id": "vim-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "rcarriga/vim-ultest"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vim-test",
+      "sense_id": "vim-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/_check_icons.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows"
+    }
+  ],
+  "term": "Check icons"
+}

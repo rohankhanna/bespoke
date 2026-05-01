@@ -163,6 +163,18 @@
       "source_repo": "tinted-theming/base16-i3",
       "status": "candidate-context",
       "text": "This repository is meant to work with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "status": "candidate-context",
+      "text": "Cozy and warm colorscheme for the forest dwellers. An alternative to most boring modern colorschemes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -249,6 +261,12 @@
       "source_repo": "tinted-theming/base16-i3",
       "status": "candidate",
       "text": "This repository is meant to work with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -598,11 +616,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "Cle2ment/CherryStudio_themes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

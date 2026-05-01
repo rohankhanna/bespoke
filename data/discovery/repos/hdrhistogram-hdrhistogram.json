@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "zing-actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HdrHistogram/HdrHistogram",
+      "target": "foojayio/badges",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "HdrHistogram/HdrHistogram",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "HdrHistogram/HdrHistogram",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "HdrHistogram/HdrHistogram",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "HdrHistogram/HdrHistogram",
+      "target": "zing-actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "HdrHistogram/HdrHistogram",
+      "target": "Java CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:00:30.800975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15702
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A High Dynamic Range (HDR) Histogram",
+    "fork": false,
+    "full_name": "HdrHistogram/HdrHistogram",
+    "html_url": "https://github.com/HdrHistogram/HdrHistogram",
+    "language": "Java",
+    "pushed_at": "2024-06-27T13:01:32Z",
+    "stargazers_count": 2299,
+    "topics": [],
+    "updated_at": "2026-04-25T17:13:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foojayio/badges",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI"
+    }
+  ]
+}

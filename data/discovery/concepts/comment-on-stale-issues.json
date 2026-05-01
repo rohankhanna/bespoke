@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Comment on stale issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "A Microsoft Azure Pulumi resource package, providing multi-language access to Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "\"Comment on stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate-context",
+      "text": "A Google Cloud Platform (GCP) Pulumi resource package, providing multi-language access to GCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate-context",
+      "text": "\"Comment on stale issues\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate",
+      "text": "\"Comment on stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate",
+      "text": "\"Comment on stale issues\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18158,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18121,
+      "status": "candidate",
+      "text": "reflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18048,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18048,
+      "status": "candidate",
+      "text": "cool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18048,
+      "status": "candidate",
+      "text": "speak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment on stale issues",
+  "concept_id": "comment-on-stale-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/comment-on-stale-issues.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/comment-on-stale-issues.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment on stale issues",
+      "sense_id": "comment-on-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

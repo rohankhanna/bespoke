@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_deploy.yml",
       "source_repo": "mdn/rari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2"
     }
   ]
 }

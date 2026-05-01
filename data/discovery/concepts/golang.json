@@ -4139,6 +4139,66 @@
       "source_repo": "cloudflare/circl",
       "status": "candidate-context",
       "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pires/go-proxyproto",
+      "status": "candidate-context",
+      "text": "A Go library implementation of the PROXY protocol, versions 1 and 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pires/go-proxyproto",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/pires/go-proxyproto/workflows/test/badge.svg)](https://github.com/pires/go-proxyproto/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/turn",
+      "status": "candidate-context",
+      "text": "Pion TURN, an API for building TURN clients and servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/turn",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate-context",
+      "text": "An Amazon Web Services (AWS) Pulumi resource package, providing multi-language access to AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "A Microsoft Azure Pulumi resource package, providing multi-language access to Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/pulumi/pulumi-azure/workflows/master/badge.svg)](https://github.com/pulumi/pulumi-azure/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-go",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpack for Go applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-go",
+      "status": "candidate-context",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/go][registry-badge]][registry-url]"
     }
   ],
   "candidate_glosses": [
@@ -6217,6 +6277,36 @@
       "source_repo": "cloudflare/circl",
       "status": "candidate",
       "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pires/go-proxyproto",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/pires/go-proxyproto/workflows/test/badge.svg)](https://github.com/pires/go-proxyproto/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/turn",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/pulumi/pulumi-azure/workflows/master/badge.svg)](https://github.com/pulumi/pulumi-azure/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-go",
+      "status": "candidate",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/go][registry-badge]][registry-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -8792,11 +8882,53 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "cloudflare/circl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "pires/go-proxyproto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "pion/turn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "attribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "citation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "credit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "research-software-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "sustainability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:42:51.974700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10401
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 346
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Ruby library for manipulating CITATION.cff files.",
+    "fork": false,
+    "full_name": "citation-file-format/ruby-cff",
+    "html_url": "https://github.com/citation-file-format/ruby-cff",
+    "language": "Ruby",
+    "pushed_at": "2026-03-18T21:09:59Z",
+    "stargazers_count": 58,
+    "topics": [
+      "attribution",
+      "citation",
+      "credit",
+      "metadata",
+      "research-software-engineering",
+      "ruby",
+      "standard",
+      "sustainability",
+      "yaml"
+    ],
+    "updated_at": "2026-05-01T07:43:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linter"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attribution"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "citation"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "credit"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metadata"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research-software-engineering"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sustainability"
+    },
+    {
+      "context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

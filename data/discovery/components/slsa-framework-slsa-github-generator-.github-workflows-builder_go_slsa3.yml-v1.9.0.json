@@ -1,0 +1,12 @@
+{
+  "component": "slsa-framework/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v1.9.0",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slsa-goreleaser.yml",
+      "source_repo": "sigstore/k8s-manifest-sigstore"
+    }
+  ]
+}

@@ -430,6 +430,18 @@
       "source_repo": "formtastic/formtastic",
       "status": "candidate-context",
       "text": "integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water provides H2O functionality inside Spark cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_glosses": [
@@ -642,6 +654,12 @@
       "source_repo": "formtastic/formtastic",
       "status": "candidate",
       "text": "integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_related_terms": [
@@ -1019,11 +1037,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/integration.yaml",
       "source_repo": "formtastic/formtastic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

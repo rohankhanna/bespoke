@@ -1,0 +1,12 @@
+{
+  "component": "jgehrcke/github-repo-stats@306db38ad131cab2aa5f2cd3062bf6f8aa78c1aa",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/repostats.yaml",
+      "source_repo": "weaveworks/weave-gitops"
+    }
+  ]
+}

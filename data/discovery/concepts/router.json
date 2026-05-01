@@ -175,6 +175,18 @@
       "source_repo": "vuejs/vue-router",
       "status": "candidate-context",
       "text": "> This is vue-router 3.0 which works only with Vue 2.0. and both have reached end of life."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "vuejs/vue-router",
       "status": "candidate",
       "text": "> This is vue-router 3.0 which works only with Vue 2.0. and both have reached end of life."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -406,11 +424,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "vuejs/vue-router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

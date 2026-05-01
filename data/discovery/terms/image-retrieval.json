@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -66,6 +66,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "DagnyT/hardnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/CosPlace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-datasets-downloader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark"
     }
   ],
   "term": "image-retrieval"

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "christoomey/vim-tmux-runner",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "christoomey/vim-tmux-runner",
+      "target": "benmills/vimux",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:09:49.230213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2799
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim and tmux, sittin' in a tree...",
+    "fork": false,
+    "full_name": "christoomey/vim-tmux-runner",
+    "html_url": "https://github.com/christoomey/vim-tmux-runner",
+    "language": "Vim Script",
+    "pushed_at": "2024-11-30T17:07:31Z",
+    "stargazers_count": 297,
+    "topics": [],
+    "updated_at": "2026-01-31T07:06:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benmills/vimux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

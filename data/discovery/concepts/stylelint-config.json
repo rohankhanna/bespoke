@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "stylelint-config"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "Stylelint config for Property Sort Ordering based on the SMACSS methodology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "<!-- omit from toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kutsan/stylelint-config-clean-order",
+      "status": "candidate-context",
+      "text": "A clean and complete config for stylelint-order."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kutsan/stylelint-config-clean-order",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/stylelint-config-clean-order)](https://www.npmjs.com/package/stylelint-config-clean-order)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate",
+      "text": "<!-- omit from toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kutsan/stylelint-config-clean-order",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/stylelint-config-clean-order)](https://www.npmjs.com/package/stylelint-config-clean-order)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "stylelint-config",
+  "concept_id": "stylelint-config",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kutsan/stylelint-config-clean-order"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stylelint-config",
+      "sense_id": "stylelint-config#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

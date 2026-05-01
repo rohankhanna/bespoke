@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "next",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/nextjs-basics",
+      "target": "next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/nextjs-basics",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/nextjs-basics",
+      "target": "react-dom",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:40:23.773890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 256
+    },
+    {
+      "path": "package.json",
+      "size": 260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Next.js in 100 Seconds Demo Code",
+    "fork": false,
+    "full_name": "fireship-io/nextjs-basics",
+    "html_url": "https://github.com/fireship-io/nextjs-basics",
+    "language": "JavaScript",
+    "pushed_at": "2022-06-29T06:35:13Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-04-10T14:44:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

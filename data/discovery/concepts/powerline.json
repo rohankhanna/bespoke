@@ -67,6 +67,18 @@
       "source_repo": "2KAbhishek/tmux2k",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f A tmux plugin giving you a hackable status bar consisting of dynamic & beautiful looking powerline segments, written purely in bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "2KAbhishek/tmux2k",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "powerline/powerline"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

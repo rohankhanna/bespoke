@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/contributor-guide",
+      "target": "raxod502/apheleia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/contributor-guide",
+      "target": "raxod502/blackout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/contributor-guide",
+      "target": "raxod502/ctrlf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/contributor-guide",
+      "target": "radian-software/diary-manager",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:42:04.077657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4540
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deduplicate contributor guides.",
+    "fork": false,
+    "full_name": "radian-software/contributor-guide",
+    "html_url": "https://github.com/radian-software/contributor-guide",
+    "language": null,
+    "pushed_at": "2025-11-08T18:54:36Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-11T14:04:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radian-software/diary-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/apheleia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/blackout",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/ctrlf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

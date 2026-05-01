@@ -1,0 +1,12 @@
+{
+  "component": "bahmutov/npm-install@20216767ca67f0f7b4d095dc5859c5700a6581cb",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-gherkin.yml",
+      "source_repo": "wp-cli/scaffold-package-command"
+    }
+  ]
+}

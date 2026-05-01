@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "require"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserify/resolve",
+      "status": "candidate-context",
+      "text": "Implements the node.js require.resolve() algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/resolve",
+      "status": "candidate-context",
+      "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/resolve",
+      "status": "candidate",
+      "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044025,
+      "status": "candidate",
+      "text": "demand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040860,
+      "status": "candidate",
+      "text": "ask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038583,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037424,
+      "status": "candidate",
+      "text": "necessitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036973,
+      "status": "candidate",
+      "text": "need"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46037,
+      "status": "candidate",
+      "text": "compel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39030,
+      "status": "candidate",
+      "text": "necessitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34049,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29069,
+      "status": "candidate",
+      "text": "demand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27047,
+      "status": "candidate",
+      "text": "want"
+    }
+  ],
+  "canonical_name": "require",
+  "concept_id": "require",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "browserify/resolve"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "require",
+      "sense_id": "require#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

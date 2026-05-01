@@ -1,0 +1,22 @@
+{
+  "component": "pulumi/esc-action@9840934db12128a33f6afb60b17d9de8f7ec5519",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    }
+  ]
+}

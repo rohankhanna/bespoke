@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cross Platfrom Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/k8s-manifest-sigstore",
+      "status": "candidate-context",
+      "text": "kubectl plugin for signing Kubernetes manifest YAML files with sigstore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/k8s-manifest-sigstore",
+      "status": "candidate-context",
+      "text": "Cross Platfrom Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/k8s-manifest-sigstore",
+      "status": "candidate",
+      "text": "Cross Platfrom Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23102,
+      "status": "candidate",
+      "text": "footboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9691,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9691,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9691,
+      "status": "candidate",
+      "text": "bridged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9691,
+      "status": "candidate",
+      "text": "bridging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cross Platfrom Build",
+  "concept_id": "cross-platfrom-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/cross.yaml",
+      "source_repo": "sigstore/k8s-manifest-sigstore"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cross Platfrom Build",
+      "sense_id": "cross-platfrom-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

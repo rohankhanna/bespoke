@@ -1,0 +1,12 @@
+{
+  "component": "crate-ci/typos@52940116a3ef7d561b8e27ca5b90db8c8c73b2b5",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "crate-ci/cargo-release"
+    }
+  ]
+}

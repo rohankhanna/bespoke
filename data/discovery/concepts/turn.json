@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "turn"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "coturn TURN server project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "[![Docker CI](https://github.com/coturn/coturn/actions/workflows/docker.yml/badge.svg \"Docker CI\")](https://github.com/coturn/coturn/actions/workflows/docker.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paullouisageneau/violet",
+      "status": "candidate-context",
+      "text": "Lightweight STUN/TURN server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/violet",
+      "status": "candidate-context",
+      "text": "[![License: GPL v2 or later](https://img.shields.io/badge/License-GPL_v2_or_later-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/turn",
+      "status": "candidate-context",
+      "text": "Pion TURN, an API for building TURN clients and servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/turn",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate",
+      "text": "[![Docker CI](https://github.com/coturn/coturn/actions/workflows/docker.yml/badge.svg \"Docker CI\")](https://github.com/coturn/coturn/actions/workflows/docker.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/violet",
+      "status": "candidate",
+      "text": "[![License: GPL v2 or later](https://img.shields.io/badge/License-GPL_v2_or_later-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/turn",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042241,
+      "status": "candidate",
+      "text": "reverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040416,
+      "status": "candidate",
+      "text": "turn to"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038941,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037550,
+      "status": "candidate",
+      "text": "move around"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037399,
+      "status": "candidate",
+      "text": "crook"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "convert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24067,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24062,
+      "status": "candidate",
+      "text": "twist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22099,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22074,
+      "status": "candidate",
+      "text": "act"
+    }
+  ],
+  "canonical_name": "turn",
+  "concept_id": "turn",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "coturn/coturn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "paullouisageneau/violet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "pion/turn"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "turn",
+      "sense_id": "turn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

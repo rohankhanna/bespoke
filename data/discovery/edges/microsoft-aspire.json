@@ -2,6 +2,48 @@
   "edges": [
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "github/gh-aw-actions/setup@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "github/gh-aw-actions/setup-cli@239aec45b78c8799417efdd5bc6d8cc036629ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -155,13 +197,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/aspire",
@@ -183,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
   "source_repo": "microsoft/aspire"
 }

@@ -19,12 +19,30 @@
       "source_repo": "LedgerHQ/ledger-secure-sdk",
       "status": "candidate-context",
       "text": "Run Clang Static Analyzer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "status": "candidate-context",
+      "text": "Reusable workflows for Ledger applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "status": "candidate-context",
+      "text": "Run Clang Static Analyzer"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate",
+      "text": "Run Clang Static Analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
       "status": "candidate",
       "text": "Run Clang Static Analyzer"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/check_clang_static_analyzer.yml",
       "source_repo": "LedgerHQ/ledger-secure-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/_check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

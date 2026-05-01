@@ -7668,6 +7668,162 @@
       "source_repo": "mdn/interactive-examples",
       "status": "candidate-context",
       "text": "'CodeQL'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/k8s-manifest-sigstore",
+      "status": "candidate-context",
+      "text": "kubectl plugin for signing Kubernetes manifest YAML files with sigstore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/k8s-manifest-sigstore",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "coturn TURN server project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/turn",
+      "status": "candidate-context",
+      "text": "Pion TURN, an API for building TURN clients and servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/turn",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peers/peerjs",
+      "status": "candidate-context",
+      "text": "Simple peer-to-peer with WebRTC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "This action sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-components/polished",
+      "status": "candidate-context",
+      "text": "A lightweight toolset for writing styles in JavaScript \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/polished",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "MUI X: Build complex and data-rich applications using a growing list of advanced React components, like the Data Grid, Date and Time Pickers, Charts, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "Stylelint config for Property Sort Ordering based on the SMACSS methodology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobbylight/AutoComplete",
+      "status": "candidate-context",
+      "text": "A code completion library for Swing text components, with special support for RSyntaxTextArea."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/AutoComplete",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobbylight/RSTALanguageSupport",
+      "status": "candidate-context",
+      "text": "A library adding code completion and other advanced features for Java, JavaScript, Perl, and other languages to RSyntaxTextArea."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSTALanguageSupport",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobbylight/SpellChecker",
+      "status": "candidate-context",
+      "text": "A spell checker add-on library for RSyntaxTextArea."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/SpellChecker",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/ledgerctl",
+      "status": "candidate-context",
+      "text": "A library to control Ledger devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledgerctl",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codiume/orbit",
+      "status": "candidate-context",
+      "text": "Collection of useful integrations & components for the Astro ecosystem. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codiume/orbit",
+      "status": "candidate-context",
+      "text": "'CodeQL'"
     }
   ],
   "candidate_glosses": [
@@ -11532,6 +11688,84 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mdn/interactive-examples",
+      "status": "candidate",
+      "text": "'CodeQL'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/k8s-manifest-sigstore",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/turn",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/polished",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/AutoComplete",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSTALanguageSupport",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/SpellChecker",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledgerctl",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codiume/orbit",
       "status": "candidate",
       "text": "'CodeQL'"
     }
@@ -16833,11 +17067,149 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "mdn/interactive-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/k8s-manifest-sigstore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "coturn/coturn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pion/turn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "peers/peerjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "julia-actions/setup-julia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "styled-components/polished"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mui/mui-x"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bobbylight/AutoComplete"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bobbylight/RSTALanguageSupport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bobbylight/SpellChecker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "psf/requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "LedgerHQ/ledgerctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "codiume/orbit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

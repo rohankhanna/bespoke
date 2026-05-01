@@ -84,7 +84,7 @@
   "normalized_form": "automatic-rebase",
   "observation_id": "08f02324b6dae555",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "Automatic Rebase",
   "source_context_snippet": "Automatic Rebase",
   "source_file": ".github/workflows/rebase.yml",

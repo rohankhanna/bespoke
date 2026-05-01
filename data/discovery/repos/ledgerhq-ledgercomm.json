@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_pypi_deployment.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "trezor/cython-hidapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_pypi_deployment.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "codespell-project/actions-codespell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "Fast checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "infraprj-4968",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:55:29.442424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3095
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 307
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1084
+    },
+    {
+      "path": ".github/workflows/python-fast-checks.yml",
+      "size": 1190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library to communicate with Ledger Nano S/X and Speculos",
+    "fork": false,
+    "full_name": "LedgerHQ/ledgercomm",
+    "html_url": "https://github.com/LedgerHQ/ledgercomm",
+    "language": "Python",
+    "pushed_at": "2026-01-15T10:37:53Z",
+    "stargazers_count": 8,
+    "topics": [
+      "infraprj-4968"
+    ],
+    "updated_at": "2026-01-15T10:37:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trezor/cython-hidapi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Fast checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "term": "Fast checks"
+    },
+    {
+      "context_snippet": "Python library to send and receive [APDU](https://en.wikipedia.org/wiki/Smart_card_application_protocol_data_unit) through HID or TCP socket.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infraprj-4968"
+    }
+  ]
+}

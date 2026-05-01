@@ -190,6 +190,18 @@
       "source_repo": "golang-jwt/jwt",
       "status": "candidate-context",
       "text": "spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate-context",
+      "text": "Liquid templating for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate-context",
+      "text": "Spelling"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +294,12 @@
       "source_repo": "golang-jwt/jwt",
       "status": "candidate",
       "text": "spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate",
+      "text": "Spelling"
     }
   ],
   "candidate_related_terms": [
@@ -481,11 +499,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/spelling.yaml",
       "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "cobalt-org/liquid-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/spelling.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "crate-ci/cargo-release"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

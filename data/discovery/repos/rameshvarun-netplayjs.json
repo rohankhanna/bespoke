@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "pinobatch/allpads-nes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "kripken/ammo.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "game-networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "multiplayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "multiplayer-browser-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "multiplayer-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "rollback-netcode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "threejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs",
+      "target": "webrtc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:39:58.856455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9584
+    },
+    {
+      "path": "package.json",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "size": 484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make P2P multiplayer browser games, no server hosting or synchronization code required. Powered by rollback netcode + WebRTC.",
+    "fork": false,
+    "full_name": "rameshvarun/netplayjs",
+    "html_url": "https://github.com/rameshvarun/netplayjs",
+    "language": "TypeScript",
+    "pushed_at": "2024-10-10T07:40:04Z",
+    "stargazers_count": 562,
+    "topics": [
+      "game-development",
+      "game-networking",
+      "gamedev",
+      "multiplayer",
+      "multiplayer-browser-game",
+      "multiplayer-game",
+      "p2p",
+      "rollback-netcode",
+      "threejs",
+      "typescript",
+      "webrtc"
+    ],
+    "updated_at": "2026-04-30T22:29:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kripken/ammo.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pinobatch/allpads-nes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-networking"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplayer"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplayer-browser-game"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplayer-game"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rollback-netcode"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threejs"
+    },
+    {
+      "context_snippet": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webrtc"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Ruby library for manipulating CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004704,
+      "status": "candidate",
+      "text": "accredit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002176,
+      "status": "candidate",
+      "text": "recognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992000,
+      "status": "candidate",
+      "text": "citation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991343,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984369,
+      "status": "candidate",
+      "text": "reference"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "credit",
+      "sense_id": "credit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35053,
+      "status": "candidate",
+      "text": "recognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21057,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8035,
+      "status": "candidate",
+      "text": "accredit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7037,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3057,
+      "status": "candidate",
+      "text": "quotation"
+    }
+  ],
+  "concept_id": "credit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "credit",
+  "observation_id": "610895561575ecee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "credit",
+  "source_context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+  "source_file": null,
+  "source_repo": "citation-file-format/ruby-cff",
+  "source_repo_description": "A Ruby library for manipulating CITATION.cff files."
+}

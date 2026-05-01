@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:32:46.892904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6206
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SSH: Single Stage Headless Face Detector",
+    "fork": false,
+    "full_name": "mahyarnajibi/SSH",
+    "html_url": "https://github.com/mahyarnajibi/SSH",
+    "language": "Python",
+    "pushed_at": "2021-08-22T01:51:36Z",
+    "stargazers_count": 840,
+    "topics": [],
+    "updated_at": "2026-04-14T00:25:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

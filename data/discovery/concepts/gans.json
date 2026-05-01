@@ -151,6 +151,18 @@
       "source_repo": "ParthaEth/GIF",
       "status": "candidate-context",
       "text": "This is the official implementation for the paper [GIF: Generative Interpretable Faces](https://arxiv.org/abs/2009.00149)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate-context",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate-context",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "ParthaEth/GIF",
       "status": "candidate",
       "text": "This is the official implementation for the paper [GIF: Generative Interpretable Faces](https://arxiv.org/abs/2009.00149)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +358,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ParthaEth/GIF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

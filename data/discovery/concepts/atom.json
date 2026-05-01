@@ -175,6 +175,18 @@
       "source_repo": "AtomLinter/linter-write-good",
       "status": "candidate-context",
       "text": "Naive linter for English prose for developers who can't write good and wanna"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "file-icons/atom",
+      "status": "candidate-context",
+      "text": "Atom file-specific icons for improved visual grepping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/atom",
+      "status": "candidate-context",
+      "text": "File Icons"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "AtomLinter/linter-write-good",
       "status": "candidate",
       "text": "Naive linter for English prose for developers who can't write good and wanna"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/atom",
+      "status": "candidate",
+      "text": "File Icons"
     }
   ],
   "candidate_related_terms": [
@@ -537,11 +555,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "AtomLinter/linter-write-good"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "file-icons/atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -139,6 +139,18 @@
       "source_repo": "ldclabs/anda-hippocampus",
       "status": "candidate-context",
       "text": "> Burn electricity to train large models, and you get a neural network ontology; burn tokens to train a memory graph, and you get a symbolic network ontology."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "<!-- logo -->"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "ldclabs/anda-hippocampus",
       "status": "candidate",
       "text": "> Burn electricity to train large models, and you get a neural network ontology; burn tokens to train a memory graph, and you get a symbolic network ontology."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate",
+      "text": "<!-- logo -->"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ldclabs/anda-hippocampus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "logseq/logseq"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

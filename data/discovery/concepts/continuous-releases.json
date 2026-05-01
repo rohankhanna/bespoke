@@ -43,6 +43,18 @@
       "source_repo": "umijs/dumi",
       "status": "candidate-context",
       "text": "Continuous Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nksaraf/vinxi",
+      "status": "candidate-context",
+      "text": "The Full Stack JavaScript SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nksaraf/vinxi",
+      "status": "candidate-context",
+      "text": "Continuous Releases"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "umijs/dumi",
+      "status": "candidate",
+      "text": "Continuous Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nksaraf/vinxi",
       "status": "candidate",
       "text": "Continuous Releases"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pkg.pr.new.yml",
       "source_repo": "umijs/dumi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/cr.yml",
+      "source_repo": "nksaraf/vinxi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

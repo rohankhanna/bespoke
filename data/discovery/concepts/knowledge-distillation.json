@@ -163,6 +163,18 @@
       "source_repo": "PaddlePaddle/PaddleClas",
       "status": "candidate-context",
       "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "status": "candidate-context",
+      "text": "Pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "status": "candidate-context",
+      "text": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419)."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "PaddlePaddle/PaddleClas",
       "status": "candidate",
       "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "status": "candidate",
+      "text": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419)."
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +376,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleClas"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

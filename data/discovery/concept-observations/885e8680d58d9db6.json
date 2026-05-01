@@ -92,7 +92,7 @@
   "normalized_form": "java",
   "observation_id": "885e8680d58d9db6",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "java",
   "source_context_snippet": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)",
   "source_file": null,

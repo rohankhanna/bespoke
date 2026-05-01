@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-https-server",
+      "target": "http-party/http-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-https-server",
+      "target": "hchiam/learning-ngrok",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:40:16.824307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning quick setup of an HTTPS server",
+    "fork": false,
+    "full_name": "hchiam/learning-https-server",
+    "html_url": "https://github.com/hchiam/learning-https-server",
+    "language": "Shell",
+    "pushed_at": "2026-02-03T20:27:11Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-03T20:27:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-ngrok",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "http-party/http-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/BoxDiff",
+      "target": "cominclip/boxdiff-xl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/BoxDiff",
+      "target": "sierkinhane/visorgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/BoxDiff",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/BoxDiff",
+      "target": "text-to-image-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:35:03.288880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6041
+    },
+    {
+      "path": "requirements.txt",
+      "size": 143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV 2023] BoxDiff: Text-to-Image Synthesis with Training-Free Box-Constrained Diffusion",
+    "fork": false,
+    "full_name": "showlab/BoxDiff",
+    "html_url": "https://github.com/showlab/BoxDiff",
+    "language": "Python",
+    "pushed_at": "2024-11-12T13:59:46Z",
+    "stargazers_count": 275,
+    "topics": [
+      "diffusion-models",
+      "text-to-image-synthesis"
+    ],
+    "updated_at": "2026-02-24T02:08:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cominclip/boxdiff-xl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sierkinhane/visorgpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image-synthesis"
+    }
+  ]
+}

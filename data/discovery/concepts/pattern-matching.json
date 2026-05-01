@@ -67,6 +67,18 @@
       "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
       "status": "candidate-context",
       "text": "babel-plugin-proposal-pattern-matching"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "status": "candidate-context",
+      "text": "Check for multiple patterns in a single string at the same time: a fast Aho-Corasick algorithm for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "status": "candidate-context",
+      "text": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
       "status": "candidate",
       "text": "babel-plugin-proposal-pattern-matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "status": "candidate",
+      "text": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "iptop/babel-plugin-proposal-pattern-matching"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "G-Research/ahocorasick_rs"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

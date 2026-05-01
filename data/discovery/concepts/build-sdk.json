@@ -19,6 +19,42 @@
       "source_repo": "aws/aws-sdk-ruby",
       "status": "candidate-context",
       "text": "Build SDK"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate-context",
+      "text": "An Amazon Web Services (AWS) Pulumi resource package, providing multi-language access to AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate-context",
+      "text": "\"Build SDK\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "A Microsoft Azure Pulumi resource package, providing multi-language access to Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "\"Build SDK\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate-context",
+      "text": "A Google Cloud Platform (GCP) Pulumi resource package, providing multi-language access to GCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate-context",
+      "text": "\"Build SDK\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "aws/aws-sdk-ruby",
       "status": "candidate",
       "text": "Build SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate",
+      "text": "\"Build SDK\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate",
+      "text": "\"Build SDK\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate",
+      "text": "\"Build SDK\""
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/pull-request-build.yaml",
       "source_repo": "aws/aws-sdk-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-gcp"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

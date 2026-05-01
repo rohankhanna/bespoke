@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Xotl/cool-github-releases@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DerekCook/CoreMidi4J",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DerekCook/CoreMidi4J",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DerekCook/CoreMidi4J",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DerekCook/CoreMidi4J",
+      "target": "Xotl/cool-github-releases@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DerekCook/CoreMidi4J",
+      "target": "Create and upload the library jar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:50:29.552756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17693
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Core MIDI Service provider Interace (SPI) for Java 1.7 and above on OS X",
+    "fork": false,
+    "full_name": "DerekCook/CoreMidi4J",
+    "html_url": "https://github.com/DerekCook/CoreMidi4J",
+    "language": "Java",
+    "pushed_at": "2025-10-28T07:34:09Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2026-04-07T16:53:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create and upload the library jar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Create and upload the library jar"
+    }
+  ]
+}

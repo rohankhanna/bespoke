@@ -319,6 +319,18 @@
       "source_repo": "kirill-grouchnikov/radiance",
       "status": "candidate-context",
       "text": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "status": "candidate-context",
+      "text": "A design system for building modern and elegant desktop applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "status": "candidate-context",
+      "text": "**Ephemeral** is a design system for building modern and elegant desktop applications."
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "kirill-grouchnikov/radiance",
       "status": "candidate",
       "text": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "status": "candidate",
+      "text": "**Ephemeral** is a design system for building modern and elegant desktop applications."
     }
   ],
   "candidate_related_terms": [
@@ -901,11 +919,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/ephemeral"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

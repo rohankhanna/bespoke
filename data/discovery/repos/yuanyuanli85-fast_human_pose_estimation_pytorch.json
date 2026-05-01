@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "bearpaw/pytorch-pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "yuanyuanli85/fast_stacked_hourglass_network_openvino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "opencv/dldt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "yuanyuanli85/pytorch-pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "stacked-hourglass-networks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:32:43.761888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5486
+    },
+    {
+      "path": "requirements.txt",
+      "size": 330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419",
+    "fork": false,
+    "full_name": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+    "html_url": "https://github.com/yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+    "language": "Python",
+    "pushed_at": "2022-11-22T04:30:14Z",
+    "stargazers_count": 327,
+    "topics": [
+      "knowledge-distillation",
+      "pose-estimation",
+      "pytorch",
+      "stacked-hourglass-networks"
+    ],
+    "updated_at": "2025-12-28T07:37:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bearpaw/pytorch-pose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencv/dldt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanyuanli85/fast_stacked_hourglass_network_openvino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanyuanli85/pytorch-pose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stacked-hourglass-networks"
+    }
+  ]
+}

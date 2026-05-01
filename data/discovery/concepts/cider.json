@@ -91,6 +91,18 @@
       "source_repo": "Maluuba/nlg-eval",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Olical/conjure",
+      "status": "candidate-context",
+      "text": "Interactive evaluation for Neovim (Clojure, Fennel, Scheme, Python, JavaScript, PHP, R, Lua, Rust and more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Olical/conjure",
+      "status": "candidate-context",
+      "text": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "Maluuba/nlg-eval",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Olical/conjure",
+      "status": "candidate",
+      "text": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +253,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Maluuba/nlg-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Olical/conjure"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

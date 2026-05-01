@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ruby production code coverage collection and reporting (line of code usage)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048027,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048026,
+      "status": "candidate",
+      "text": "avenues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048026,
+      "status": "candidate",
+      "text": "barriers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048026,
+      "status": "candidate",
+      "text": "bars"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048026,
+      "status": "candidate",
+      "text": "booms"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rails",
+      "sense_id": "rails#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23072,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14070,
+      "status": "candidate",
+      "text": "rail"
+    }
+  ],
+  "concept_id": "rails",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rails",
+  "observation_id": "68b3aef4b1f409ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "rails",
+  "source_context_snippet": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>",
+  "source_file": null,
+  "source_repo": "danmayer/coverband",
+  "source_repo_description": "Ruby production code coverage collection and reporting (line of code usage)"
+}

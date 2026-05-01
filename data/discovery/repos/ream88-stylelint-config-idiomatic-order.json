@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "stylelint-order",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "necolas/idiomatic-css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "stylelint-order",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "idomatic-css",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "order",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "stylelint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "stylelint-order",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "target": "stylelint-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:49:01.207309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 491
+    },
+    {
+      "path": "package.json",
+      "size": 941
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "stylelint + idiomatic-css = \u2764\ufe0f",
+    "fork": false,
+    "full_name": "ream88/stylelint-config-idiomatic-order",
+    "html_url": "https://github.com/ream88/stylelint-config-idiomatic-order",
+    "language": "CSS",
+    "pushed_at": "2024-09-01T08:34:50Z",
+    "stargazers_count": 184,
+    "topics": [
+      "idomatic-css",
+      "order",
+      "stylelint",
+      "stylelint-order",
+      "stylelint-plugin"
+    ],
+    "updated_at": "2026-04-28T13:40:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "necolas/idiomatic-css",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idomatic-css"
+    },
+    {
+      "context_snippet": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "order"
+    },
+    {
+      "context_snippet": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylelint"
+    },
+    {
+      "context_snippet": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylelint-order"
+    },
+    {
+      "context_snippet": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylelint-plugin"
+    }
+  ]
+}

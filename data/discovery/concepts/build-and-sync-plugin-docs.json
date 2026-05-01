@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Sync Plugin Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "Build and Sync Plugin Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate",
+      "text": "Build and Sync Plugin Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21884,
+      "status": "candidate",
+      "text": "charles fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21884,
+      "status": "candidate",
+      "text": "fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21884,
+      "status": "candidate",
+      "text": "francois marie charles fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21884,
+      "status": "candidate",
+      "text": "malory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "runner"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Sync Plugin Docs",
+  "concept_id": "build-and-sync-plugin-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build-plugin-docs.yml",
+      "source_repo": "logseq/logseq"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Sync Plugin Docs",
+      "sense_id": "build-and-sync-plugin-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

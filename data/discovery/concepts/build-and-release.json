@@ -278,6 +278,24 @@
       "source_repo": "MindWorkAI/AI-Studio",
       "status": "candidate-context",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/cabal",
+      "status": "candidate-context",
+      "text": "Official upstream development repository for Cabal and cabal-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/cabal",
+      "status": "candidate-context",
+      "text": "Build and release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/ghcup-hs",
+      "status": "candidate-context",
+      "text": "Build and release"
     }
   ],
   "candidate_glosses": [
@@ -424,6 +442,18 @@
       "source_repo": "MindWorkAI/AI-Studio",
       "status": "candidate",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/cabal",
+      "status": "candidate",
+      "text": "Build and release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/ghcup-hs",
+      "status": "candidate",
+      "text": "Build and release"
     }
   ],
   "candidate_related_terms": [
@@ -653,11 +683,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/cabal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "haskell/cabal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

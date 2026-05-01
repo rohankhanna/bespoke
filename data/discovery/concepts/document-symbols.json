@@ -19,6 +19,18 @@
       "source_repo": "SmiteshP/nvim-navic",
       "status": "candidate-context",
       "text": "A simple statusline/winbar component that uses LSP to show your current code context."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "status": "candidate-context",
+      "text": "A simple popup display that provides breadcrumbs feature using LSP server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "SmiteshP/nvim-navic",
       "status": "candidate",
       "text": "A simple statusline/winbar component that uses LSP to show your current code context."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "SmiteshP/nvim-navic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navbuddy"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

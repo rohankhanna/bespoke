@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T19:02:53.098974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple BDD for iOS",
+    "fork": false,
+    "full_name": "kiwi-bdd/Kiwi",
+    "html_url": "https://github.com/kiwi-bdd/Kiwi",
+    "language": "Objective-C",
+    "pushed_at": "2023-09-05T11:52:14Z",
+    "stargazers_count": 4121,
+    "topics": [],
+    "updated_at": "2026-04-21T08:33:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

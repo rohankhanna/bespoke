@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "jolifantobambla/vk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "cffi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "hlsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "shaderc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "spir-v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "spirv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JolifantoBambla/shadercl",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:44:25.243934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12865
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3631
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common Lisp/CFFI bindings for shaderc.",
+    "fork": false,
+    "full_name": "JolifantoBambla/shadercl",
+    "html_url": "https://github.com/JolifantoBambla/shadercl",
+    "language": "Common Lisp",
+    "pushed_at": "2021-07-21T08:29:11Z",
+    "stargazers_count": 7,
+    "topics": [
+      "cffi",
+      "glsl",
+      "hlsl",
+      "shaderc",
+      "spir-v",
+      "spirv",
+      "vulkan"
+    ],
+    "updated_at": "2023-08-18T07:07:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jolifantobambla/vk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cffi"
+    },
+    {
+      "context_snippet": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hlsl"
+    },
+    {
+      "context_snippet": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaderc"
+    },
+    {
+      "context_snippet": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spir-v"
+    },
+    {
+      "context_snippet": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spirv"
+    },
+    {
+      "context_snippet": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

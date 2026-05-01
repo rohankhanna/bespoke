@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:31:19.585377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 483
+    },
+    {
+      "path": "Dockerfile",
+      "size": 483
+    },
+    {
+      "path": "requirements.txt",
+      "size": 130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "chaojie/ComfyUI-MuseV",
+    "html_url": "https://github.com/chaojie/ComfyUI-MuseV",
+    "language": "Python",
+    "pushed_at": "2024-05-22T22:25:31Z",
+    "stargazers_count": 159,
+    "topics": [],
+    "updated_at": "2026-03-25T04:41:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

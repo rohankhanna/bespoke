@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaj/ructe",
+      "target": "kaj/warp-diesel-ructe-sample",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kaj/ructe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kaj/ructe",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kaj/ructe",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaj/ructe",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaj/ructe",
+      "target": "template-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:44:53.150193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2686
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 930
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1541
+    },
+    {
+      "path": ".github/workflows/rust-problem-matcher.json",
+      "size": 725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust Compiled Templates with static-file handling",
+    "fork": false,
+    "full_name": "kaj/ructe",
+    "html_url": "https://github.com/kaj/ructe",
+    "language": "Rust",
+    "pushed_at": "2026-04-12T20:56:02Z",
+    "stargazers_count": 456,
+    "topics": [
+      "html",
+      "template-engine",
+      "web"
+    ],
+    "updated_at": "2026-04-18T04:40:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaj/warp-diesel-ructe-sample",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is my attempt at writing a HTML template system for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "This is my attempt at writing a HTML template system for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-engine"
+    }
+  ]
+}

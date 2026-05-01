@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Discord Release Announcement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "MUI X: Build complex and data-rich applications using a growing list of advanced React components, like the Data Grid, Date and Time Pickers, Charts, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "Discord Release Announcement"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate",
+      "text": "Discord Release Announcement"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18661,
+      "status": "candidate",
+      "text": "jar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18633,
+      "status": "candidate",
+      "text": "division"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18633,
+      "status": "candidate",
+      "text": "variance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18535,
+      "status": "candidate",
+      "text": "resolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18484,
+      "status": "candidate",
+      "text": "split"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Discord Release Announcement",
+  "concept_id": "discord-release-announcement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/discord-release-announcement.yaml",
+      "source_repo": "mui/mui-x"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Discord Release Announcement",
+      "sense_id": "discord-release-announcement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "leonid-pishchulin/poseval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "chenyilun95/tf-cpn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "eccv-2018",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "mpii-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "mscoco-keypoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "posetrack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:33:00.352319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TensorFlow implementation of \"Simple Baselines for Human Pose Estimation and Tracking\", ECCV 2018",
+    "fork": false,
+    "full_name": "mks0601/TF-SimpleHumanPose",
+    "html_url": "https://github.com/mks0601/TF-SimpleHumanPose",
+    "language": "Python",
+    "pushed_at": "2024-12-03T09:11:38Z",
+    "stargazers_count": 340,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "eccv-2018",
+      "human-pose-estimation",
+      "mpii-dataset",
+      "mscoco-keypoint",
+      "posetrack",
+      "tensorflow"
+    ],
+    "updated_at": "2026-03-11T08:59:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenyilun95/tf-cpn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leonid-pishchulin/poseval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv-2018"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mpii-dataset"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco-keypoint"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posetrack"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

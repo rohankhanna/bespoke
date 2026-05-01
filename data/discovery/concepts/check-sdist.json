@@ -19,6 +19,18 @@
       "source_repo": "scikit-learn/scikit-learn",
       "status": "candidate-context",
       "text": "\"Check sdist\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/cabal",
+      "status": "candidate-context",
+      "text": "Official upstream development repository for Cabal and cabal-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/cabal",
+      "status": "candidate-context",
+      "text": "Check sdist"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "scikit-learn/scikit-learn",
       "status": "candidate",
       "text": "\"Check sdist\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/cabal",
+      "status": "candidate",
+      "text": "Check sdist"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/check-sdist.yml",
       "source_repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "source_repo": "haskell/cabal"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

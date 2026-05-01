@@ -151,6 +151,18 @@
       "source_repo": "DagnyT/hardnet",
       "status": "candidate-context",
       "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate-context",
+      "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "DagnyT/hardnet",
       "status": "candidate",
       "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate",
+      "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +370,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

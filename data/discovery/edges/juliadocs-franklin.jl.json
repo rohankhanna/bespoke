@@ -4,21 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "aburousan/azaz",
+      "target": "juliacon/www.juliacon.org",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "circuitscape/www.circuitscape.org",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "abhishalya/abhishalya.github.io",
+      "target": "fluxml/fluxml.github.io",
       "target_type": "repository"
     },
     {
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
       "target": "asprionj/liveserver.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "target": "juancarlospaco/css-html-js-minify",
       "target_type": "repository"
     },
     {
@@ -183,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
   "source_repo": "JuliaDocs/Franklin.jl"
 }

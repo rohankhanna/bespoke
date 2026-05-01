@@ -1,0 +1,22 @@
+{
+  "component": "peter-evans/slash-command-dispatch@5c11dc7efead556e3bdabf664302212f79eb26fa",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    }
+  ]
+}

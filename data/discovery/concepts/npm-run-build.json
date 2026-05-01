@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "NPM run build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-actions/cache",
+      "status": "candidate-context",
+      "text": "A shortcut action to cache Julia artifacts, packages, and registries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/cache",
+      "status": "candidate-context",
+      "text": "NPM run build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/cache",
+      "status": "candidate",
+      "text": "NPM run build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22684,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22659,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22603,
+      "status": "candidate",
+      "text": "clockwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22603,
+      "status": "candidate",
+      "text": "drum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22603,
+      "status": "candidate",
+      "text": "groom"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "NPM run build",
+  "concept_id": "npm-run-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/RunBuild.yml",
+      "source_repo": "julia-actions/cache"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NPM run build",
+      "sense_id": "npm-run-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

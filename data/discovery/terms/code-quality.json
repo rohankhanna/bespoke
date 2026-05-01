@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -211,6 +211,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "simplecov-ruby/simplecov"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "MilesCranmer/DispatchDoctor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
     }
   ],
   "term": "Code Quality"

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples for the Pulumi Automation API https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/auto?tab=doc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "New Pull request Open"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "New Pull request Open"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44631,
+      "status": "candidate",
+      "text": "reorder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43786,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43786,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43338,
+      "status": "candidate",
+      "text": "opening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43338,
+      "status": "candidate",
+      "text": "pervious"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "New Pull request Open",
+      "sense_id": "new-pull-request-open#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "new-pull-request-open",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "new-pull-request-open",
+  "observation_id": "194d10b0a4141603",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "New Pull request Open",
+  "source_context_snippet": "New Pull request Open",
+  "source_file": ".github/workflows/pr.yml",
+  "source_repo": "pulumi/automation-api-examples",
+  "source_repo_description": "Examples for the Pulumi Automation API https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/auto?tab=doc"
+}

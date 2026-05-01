@@ -1852,6 +1852,42 @@
       "source_repo": "cbl-dart/cbl-dart",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/VPR-datasets-downloader",
+      "status": "candidate-context",
+      "text": "Automatic download VPR datasets in a standard format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/VPR-datasets-downloader",
+      "status": "candidate-context",
+      "text": "This repo is made to automatically download Visual Place Recognition (VPR) datasets in a simple and standardized way."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate-context",
+      "text": "Official code for CVPR 2022 (Oral) paper \"Deep Visual Geo-localization Benchmark\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate-context",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Olical/conjure",
+      "status": "candidate-context",
+      "text": "Interactive evaluation for Neovim (Clojure, Fennel, Scheme, Python, JavaScript, PHP, R, Lua, Rust and more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Olical/conjure",
+      "status": "candidate-context",
+      "text": "Benchmark"
     }
   ],
   "candidate_glosses": [
@@ -2776,6 +2812,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/VPR-datasets-downloader",
+      "status": "candidate",
+      "text": "This repo is made to automatically download Visual Place Recognition (VPR) datasets in a simple and standardized way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Olical/conjure",
       "status": "candidate",
       "text": "Benchmark"
     }
@@ -4263,11 +4317,59 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "cbl-dart/cbl-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/VPR-datasets-downloader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Olical/conjure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

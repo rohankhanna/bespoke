@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba-archive/session-compatible-fast-serializer",
+      "target": "kryo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba-archive/session-compatible-fast-serializer",
+      "target": "serializer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:02:13.533989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A fast and compatible serializer base on kryo.",
+    "fork": false,
+    "full_name": "alibaba-archive/session-compatible-fast-serializer",
+    "html_url": "https://github.com/alibaba-archive/session-compatible-fast-serializer",
+    "language": "Java",
+    "pushed_at": "2021-10-09T06:14:48Z",
+    "stargazers_count": 9,
+    "topics": [
+      "kryo",
+      "serializer"
+    ],
+    "updated_at": "2023-02-08T07:51:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[kryo](https://github.com/EsotericSoftware/kryo) is a fast and efficient object graph serialization framework for Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kryo"
+    },
+    {
+      "context_snippet": "[kryo](https://github.com/EsotericSoftware/kryo) is a fast and efficient object graph serialization framework for Java.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serializer"
+    }
+  ]
+}

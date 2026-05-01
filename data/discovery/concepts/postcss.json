@@ -187,6 +187,30 @@
       "source_repo": "hudochenkov/postcss-styled-syntax",
       "status": "candidate-context",
       "text": "PostCSS syntax for template literals CSS-in-JS (e. g. styled-components, Emotion). It was built to be used as [Stylelint] custom syntax or with [PostCSS] plugins."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unlight/postcss-import-url",
+      "status": "candidate-context",
+      "text": "PostCSS plugin inlines remote files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unlight/postcss-import-url",
+      "status": "candidate-context",
+      "text": "[PostCSS](https://github.com/postcss/postcss) plugin inlines remote files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "Stylelint config for Property Sort Ordering based on the SMACSS methodology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "<!-- omit from toc -->"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "hudochenkov/postcss-styled-syntax",
       "status": "candidate",
       "text": "PostCSS syntax for template literals CSS-in-JS (e. g. styled-components, Emotion). It was built to be used as [Stylelint] custom syntax or with [PostCSS] plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unlight/postcss-import-url",
+      "status": "candidate",
+      "text": "[PostCSS](https://github.com/postcss/postcss) plugin inlines remote files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate",
+      "text": "<!-- omit from toc -->"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +460,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "cssnano/cssnano"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "unlight/postcss-import-url"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

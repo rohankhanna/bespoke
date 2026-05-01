@@ -847,6 +847,30 @@
       "source_repo": "google/shaderc",
       "status": "candidate-context",
       "text": "A collection of tools, libraries and tests for shader compilation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JolifantoBambla/shadercl",
+      "status": "candidate-context",
+      "text": "Common Lisp/CFFI bindings for shaderc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JolifantoBambla/shadercl",
+      "status": "candidate-context",
+      "text": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpbruyere/shaderc.net",
+      "status": "candidate-context",
+      "text": "shaderc net binding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/shaderc.net",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1269,6 +1293,18 @@
       "source_repo": "google/shaderc",
       "status": "candidate",
       "text": "A collection of tools, libraries and tests for shader compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JolifantoBambla/shadercl",
+      "status": "candidate",
+      "text": "Common Lisp/CFFI bindings for [shaderc](https://github.com/google/shaderc)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/shaderc.net",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1771,11 +1807,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "JolifantoBambla/shadercl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jpbruyere/shaderc.net"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

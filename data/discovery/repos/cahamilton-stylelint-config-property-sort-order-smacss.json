@@ -1,0 +1,415 @@
+{
+  "components": [
+    {
+      "component": "css-property-sort-order-smacss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-order",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/markdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "cahamilton/css-property-sort-order-smacss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "css-property-sort-order-smacss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "stylelint-order",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "@eslint/markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "enforce-conventions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "less",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "linter-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "postcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "scss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "smacss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "stylelint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "target": "stylelint-config",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:48:48.264561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5990
+    },
+    {
+      "path": "package.json",
+      "size": 2019
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 827
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stylelint config for Property Sort Ordering based on the SMACSS methodology",
+    "fork": false,
+    "full_name": "cahamilton/stylelint-config-property-sort-order-smacss",
+    "html_url": "https://github.com/cahamilton/stylelint-config-property-sort-order-smacss",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-09T19:01:32Z",
+    "stargazers_count": 86,
+    "topics": [
+      "css",
+      "enforce-conventions",
+      "less",
+      "lint",
+      "linter-config",
+      "postcss",
+      "sass",
+      "scss",
+      "smacss",
+      "stylelint",
+      "stylelint-config"
+    ],
+    "updated_at": "2026-04-09T19:01:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cahamilton/css-property-sort-order-smacss",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enforce-conventions"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "less"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-config"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postcss"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smacss"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylelint"
+    },
+    {
+      "context_snippet": "<!-- omit from toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylelint-config"
+    }
+  ]
+}

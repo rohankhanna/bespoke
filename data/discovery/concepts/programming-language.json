@@ -379,6 +379,18 @@
       "source_repo": "reasonml/reason",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/DispatchDoctor.jl",
+      "status": "candidate-context",
+      "text": "The dispatch doctor prescribes type stability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/DispatchDoctor.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "reasonml/reason",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/DispatchDoctor.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -862,11 +880,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "reasonml/reason"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "MilesCranmer/DispatchDoctor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -658,6 +658,18 @@
       "source_repo": "SerenityOS/serenity",
       "status": "candidate-context",
       "text": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peers/peerjs",
+      "status": "candidate-context",
+      "text": "Simple peer-to-peer with WebRTC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs",
+      "status": "candidate-context",
+      "text": "[![Backers on Open Collective](https://opencollective.com/peer/backers/badge.svg)](#backers)"
     }
   ],
   "candidate_glosses": [
@@ -984,6 +996,12 @@
       "source_repo": "SerenityOS/serenity",
       "status": "candidate",
       "text": "Graphical Unix-like operating system for 64-bit x86, Arm, and RISC-V computers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs",
+      "status": "candidate",
+      "text": "[![Backers on Open Collective](https://opencollective.com/peer/backers/badge.svg)](#backers)"
     }
   ],
   "candidate_related_terms": [
@@ -1635,11 +1653,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "peers/peerjs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

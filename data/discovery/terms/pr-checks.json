@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -91,6 +91,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pr_checks.yml",
       "source_repo": "allenai/olmocr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "julia-actions/setup-julia"
     }
   ],
   "term": "PR Checks"

@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kutsan/stylelint-config-clean-order"
+    }
+  ],
+  "term": "stylelint-config"
+}

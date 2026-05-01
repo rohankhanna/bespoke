@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Build Provider"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate-context",
+      "text": "An Amazon Web Services (AWS) Pulumi resource package, providing multi-language access to AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate-context",
+      "text": "\"Build Provider\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "A Microsoft Azure Pulumi resource package, providing multi-language access to Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "\"Build Provider\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate-context",
+      "text": "A Google Cloud Platform (GCP) Pulumi resource package, providing multi-language access to GCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate-context",
+      "text": "\"Build Provider\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate",
+      "text": "\"Build Provider\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate",
+      "text": "\"Build Provider\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate",
+      "text": "\"Build Provider\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "provide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11557,
+      "status": "candidate",
+      "text": "contractor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11522,
+      "status": "candidate",
+      "text": "ash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Provider",
+  "concept_id": "build-provider",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Provider",
+      "sense_id": "build-provider#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

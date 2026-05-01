@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeremyckahn/awesome-trystero",
+      "target": "arslanastral/jambox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeremyckahn/awesome-trystero",
+      "target": "chovin/litghtsaber",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeremyckahn/awesome-trystero",
+      "target": "expenses/mateversum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeremyckahn/awesome-trystero",
+      "target": "coderofsalvation/xrfragment",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:39:30.099394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Awesome List for Trystero resources",
+    "fork": false,
+    "full_name": "jeremyckahn/awesome-trystero",
+    "html_url": "https://github.com/jeremyckahn/awesome-trystero",
+    "language": null,
+    "pushed_at": "2025-09-16T14:27:19Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-20T07:50:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arslanastral/jambox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chovin/litghtsaber",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coderofsalvation/xrfragment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "expenses/mateversum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

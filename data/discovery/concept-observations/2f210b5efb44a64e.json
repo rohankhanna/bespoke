@@ -79,7 +79,7 @@
   "normalized_form": "labeler-predict-pulls",
   "observation_id": "2f210b5efb44a64e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "Labeler: Predict (Pulls)",
   "source_context_snippet": "\"Labeler: Predict (Pulls)\"",
   "source_file": ".github/workflows/labeler-predict-pulls.yml",

@@ -367,6 +367,18 @@
       "source_repo": "zhijian-liu/torchpack",
       "status": "candidate-context",
       "text": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate-context",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate-context",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "zhijian-liu/torchpack",
       "status": "candidate",
       "text": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
     }
   ],
   "candidate_related_terms": [],
@@ -928,11 +946,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

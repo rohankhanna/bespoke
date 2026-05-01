@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "trezor/cython-hidapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_pypi_deployment.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "codespell-project/actions-codespell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "Fast checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LedgerHQ/ledgercomm",
+      "target": "infraprj-4968",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "LedgerHQ/ledgercomm"
+}

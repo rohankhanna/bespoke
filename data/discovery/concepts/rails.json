@@ -349,6 +349,30 @@
       "source_repo": "activerecord-hackery/ransack",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/activerecord-hackery/ransack/workflows/test/badge.svg)](https://github.com/activerecord-hackery/ransack/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codeclimate-community/simplecov_json_formatter",
+      "status": "candidate-context",
+      "text": "JSON formatter for SimpleCov code coverage tool for ruby 2.4+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codeclimate-community/simplecov_json_formatter",
+      "status": "candidate-context",
+      "text": "***Note: To learn more about SimpleCov, check out the main repo at [SimpleCov](https://github.com/simplecov-ruby/simplecov)***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danmayer/coverband",
+      "status": "candidate-context",
+      "text": "Ruby production code coverage collection and reporting (line of code usage)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danmayer/coverband",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>"
     }
   ],
   "candidate_glosses": [
@@ -525,6 +549,18 @@
       "source_repo": "activerecord-hackery/ransack",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/activerecord-hackery/ransack/workflows/test/badge.svg)](https://github.com/activerecord-hackery/ransack/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codeclimate-community/simplecov_json_formatter",
+      "status": "candidate",
+      "text": "***Note: To learn more about SimpleCov, check out the main repo at [SimpleCov](https://github.com/simplecov-ruby/simplecov)***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danmayer/coverband",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>"
     }
   ],
   "candidate_related_terms": [
@@ -757,11 +793,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "activerecord-hackery/ransack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "danmayer/coverband"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

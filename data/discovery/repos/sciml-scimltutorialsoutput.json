@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "neural-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "neural-ode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "physics-informed-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "physics-informed-ml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "physics-informed-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "scientific-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "target": "sciml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:42:29.288112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4655
+    },
+    {
+      "path": ".github/workflows/Documentation.yml",
+      "size": 692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Tutorials for doing scientific machine learning (SciML) and high-performance differential equation solving with open source software.",
+    "fork": false,
+    "full_name": "SciML/SciMLTutorialsOutput",
+    "html_url": "https://github.com/SciML/SciMLTutorialsOutput",
+    "language": "HTML",
+    "pushed_at": "2025-12-08T16:37:26Z",
+    "stargazers_count": 22,
+    "topics": [
+      "differential-equations",
+      "julia",
+      "neural-differential-equations",
+      "neural-ode",
+      "ode",
+      "physics-informed-learning",
+      "physics-informed-ml",
+      "physics-informed-neural-networks",
+      "scientific-machine-learning",
+      "sciml"
+    ],
+    "updated_at": "2025-12-30T16:52:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differential-equations"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-differential-equations"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-ode"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-informed-learning"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-informed-ml"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-informed-neural-networks"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-machine-learning"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sciml"
+    }
+  ]
+}

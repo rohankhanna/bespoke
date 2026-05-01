@@ -2,7 +2,8 @@
   "aliases": [
     "Build Docker",
     "build-docker",
-    "build docker"
+    "build docker",
+    "Build-Docker"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -57,6 +58,18 @@
       "source_repo": "holochain/holochain-serialization",
       "status": "candidate-context",
       "text": "build docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "Build-Docker"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +96,12 @@
       "source_repo": "holochain/holochain-serialization",
       "status": "candidate",
       "text": "build docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate",
+      "text": "Build-Docker"
     }
   ],
   "candidate_related_terms": [
@@ -150,11 +169,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "holochain/holochain-serialization"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "logseq/logseq"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

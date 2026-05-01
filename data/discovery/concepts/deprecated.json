@@ -13,6 +13,18 @@
       "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
       "status": "candidate-context",
       "text": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "node-gh/gh",
+      "status": "candidate-context",
+      "text": "(DEPRECATED) GitHub CLI made with NodeJS. Use the official https://cli.github.com/ instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-gh/gh",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
       "status": "candidate",
       "text": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-gh/gh",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "node-gh/gh"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

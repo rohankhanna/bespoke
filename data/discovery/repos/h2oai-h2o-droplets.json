@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T19:02:46.088268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Templates for projects based on top of H2O.",
+    "fork": false,
+    "full_name": "h2oai/h2o-droplets",
+    "html_url": "https://github.com/h2oai/h2o-droplets",
+    "language": "Java",
+    "pushed_at": "2025-03-17T07:45:43Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-04-16T08:17:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

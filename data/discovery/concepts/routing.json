@@ -67,6 +67,18 @@
       "source_repo": "TanStack/router",
       "status": "candidate-context",
       "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "TanStack/router",
       "status": "candidate",
       "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "TanStack/router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

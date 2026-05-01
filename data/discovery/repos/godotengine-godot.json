@@ -1,0 +1,474 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/web_builds.yml"
+    },
+    {
+      "component": "emscripten-core/setup-emsdk@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/web_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godotengine/godot",
+      "target": "godotengine/godot-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godotengine/godot",
+      "target": "godotengine/godot-demo-projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godotengine/godot",
+      "target": "godotengine/awesome-godot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "google-github-actions/auth@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "google-github-actions/setup-gcloud@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "\ud83e\udd16 Android Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "\ud83c\udf4f iOS Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "rui314/setup-mold@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "\ud83d\udc27 Linux Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "\ud83c\udf4e macOS Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runner.yml",
+      "source_repo": "godotengine/godot",
+      "target": "\ud83d\udd17 GHA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "godotengine/godot",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "godotengine/godot",
+      "target": "\ud83d\udcca Static Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/web_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/web_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "emscripten-core/setup-emsdk@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/web_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "\ud83c\udf10 Web Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "godotengine/godot",
+      "target": "\ud83c\udfc1 Windows Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/godot",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/godot",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/godot",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/godot",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/godot",
+      "target": "godotengine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/godot",
+      "target": "multi-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godotengine/godot",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:59:30.451907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3764
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2276
+    },
+    {
+      "path": ".github/workflows/android_builds.yml",
+      "size": 6170
+    },
+    {
+      "path": ".github/workflows/ios_builds.yml",
+      "size": 1166
+    },
+    {
+      "path": ".github/workflows/linux_builds.yml",
+      "size": 10271
+    },
+    {
+      "path": ".github/workflows/macos_builds.yml",
+      "size": 4181
+    },
+    {
+      "path": ".github/workflows/runner.yml",
+      "size": 1915
+    },
+    {
+      "path": ".github/workflows/static_checks.yml",
+      "size": 2064
+    },
+    {
+      "path": ".github/workflows/web_builds.yml",
+      "size": 2049
+    },
+    {
+      "path": ".github/workflows/windows_builds.yml",
+      "size": 4545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
+    "fork": false,
+    "full_name": "godotengine/godot",
+    "html_url": "https://github.com/godotengine/godot",
+    "language": "C++",
+    "pushed_at": "2026-05-01T17:51:02Z",
+    "stargazers_count": 110184,
+    "topics": [
+      "game-development",
+      "game-engine",
+      "gamedev",
+      "godot",
+      "godotengine",
+      "multi-platform",
+      "open-source"
+    ],
+    "updated_at": "2026-05-01T18:41:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godotengine/awesome-godot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godotengine/godot-demo-projects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godotengine/godot-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\udd16 Android Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_builds.yml",
+      "term": "\ud83e\udd16 Android Builds"
+    },
+    {
+      "context_snippet": "\ud83c\udf4f iOS Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "term": "\ud83c\udf4f iOS Builds"
+    },
+    {
+      "context_snippet": "\ud83d\udc27 Linux Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "term": "\ud83d\udc27 Linux Builds"
+    },
+    {
+      "context_snippet": "\ud83c\udf4e macOS Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "term": "\ud83c\udf4e macOS Builds"
+    },
+    {
+      "context_snippet": "\ud83d\udd17 GHA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runner.yml",
+      "term": "\ud83d\udd17 GHA"
+    },
+    {
+      "context_snippet": "\ud83d\udcca Static Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_checks.yml",
+      "term": "\ud83d\udcca Static Checks"
+    },
+    {
+      "context_snippet": "\ud83c\udf10 Web Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/web_builds.yml",
+      "term": "\ud83c\udf10 Web Builds"
+    },
+    {
+      "context_snippet": "\ud83c\udfc1 Windows Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "term": "\ud83c\udfc1 Windows Builds"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godotengine"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-platform"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

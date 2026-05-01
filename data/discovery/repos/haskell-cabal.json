@@ -1,0 +1,726 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelogs.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sdist.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sdist.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "marocchino/validate-dependabot@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "haskell-actions/run-fourmolu@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "haskell-actions/hlint-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "haskell-actions/hlint-run@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "docker://i386/alpine:3.20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "docker://arm64v8/debian:11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "docker://arm64v8/alpine:3.20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "docker://i386/alpine:3.20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "docker://arm64v8/debian:11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "docker://arm64v8/alpine:3.20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/cabal",
+      "target": "haskell/cabal-proposals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml",
+      "source_repo": "haskell/cabal",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap.yml",
+      "source_repo": "haskell/cabal",
+      "target": "Bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelogs.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelogs.yml",
+      "source_repo": "haskell/cabal",
+      "target": "Changelogs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "source_repo": "haskell/cabal",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "source_repo": "haskell/cabal",
+      "target": "Check sdist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "haskell/cabal",
+      "target": "marocchino/validate-dependabot@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "haskell/cabal",
+      "target": "Dependabot rules validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "haskell/cabal",
+      "target": "haskell-actions/run-fourmolu@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "haskell/cabal",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "haskell/cabal",
+      "target": "haskell-actions/hlint-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "haskell/cabal",
+      "target": "haskell-actions/hlint-run@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "haskell/cabal",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml",
+      "source_repo": "haskell/cabal",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-jobs.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quick-jobs.yml",
+      "source_repo": "haskell/cabal",
+      "target": "Quick jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/cabal",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/cabal",
+      "target": "Build and release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "haskell/cabal",
+      "target": "haskell/ghcup-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "haskell/cabal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "haskell/cabal",
+      "target": "docker://i386/alpine:3.20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "haskell/cabal",
+      "target": "docker://arm64v8/debian:11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "haskell/cabal",
+      "target": "docker://arm64v8/alpine:3.20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "haskell/cabal",
+      "target": "Build and release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/cabal",
+      "target": "cabal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/cabal",
+      "target": "hackage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/cabal",
+      "target": "haskell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:07:58.372348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6723
+    },
+    {
+      "path": ".github/workflows/bootstrap.yml",
+      "size": 2871
+    },
+    {
+      "path": ".github/workflows/changelogs.yml",
+      "size": 829
+    },
+    {
+      "path": ".github/workflows/check-sdist.yml",
+      "size": 3086
+    },
+    {
+      "path": ".github/workflows/dependabot.yml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 384
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 307
+    },
+    {
+      "path": ".github/workflows/quick-jobs.yml",
+      "size": 6189
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2447
+    },
+    {
+      "path": ".github/workflows/reusable-release.yml",
+      "size": 29928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official upstream development repository for Cabal and cabal-install",
+    "fork": false,
+    "full_name": "haskell/cabal",
+    "html_url": "https://github.com/haskell/cabal",
+    "language": "Haskell",
+    "pushed_at": "2026-05-01T09:01:27Z",
+    "stargazers_count": 1729,
+    "topics": [
+      "cabal",
+      "hackage",
+      "haskell"
+    ],
+    "updated_at": "2026-04-29T00:25:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell/cabal-proposals",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bootstrap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap.yml",
+      "term": "Bootstrap"
+    },
+    {
+      "context_snippet": "Changelogs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelogs.yml",
+      "term": "Changelogs"
+    },
+    {
+      "context_snippet": "Check sdist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "term": "Check sdist"
+    },
+    {
+      "context_snippet": "Dependabot rules validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "term": "Dependabot rules validation"
+    },
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Formatting"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "Quick jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quick-jobs.yml",
+      "term": "Quick jobs"
+    },
+    {
+      "context_snippet": "Build and release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Build and release"
+    },
+    {
+      "context_snippet": "Build and release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "term": "Build and release"
+    },
+    {
+      "context_snippet": "[![Hackage version](https://img.shields.io/hackage/v/Cabal.svg?label=Hackage)](https://hackage.haskell.org/package/Cabal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cabal"
+    },
+    {
+      "context_snippet": "[![Hackage version](https://img.shields.io/hackage/v/Cabal.svg?label=Hackage)](https://hackage.haskell.org/package/Cabal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hackage"
+    },
+    {
+      "context_snippet": "[![Hackage version](https://img.shields.io/hackage/v/Cabal.svg?label=Hackage)](https://hackage.haskell.org/package/Cabal)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "lzx551402/geodesc",
       "status": "candidate-context",
       "text": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate-context",
+      "text": "TensorFlow implementation of \"Simple Baselines for Human Pose Estimation and Tracking\", ECCV 2018"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lzx551402/geodesc",
       "status": "candidate",
       "text": "TensorFlow implementation of GeoDesc for ECCV'18 paper [\"GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints\"](https://arxiv.org/abs/1807.06294), Zixin Luo, Tianwei Shen, Lei Zhou, Siyu Zhu, Runze Zhang, Yao Yao, Tian Fang and Long Quan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "lzx551402/geodesc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

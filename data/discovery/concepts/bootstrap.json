@@ -118,6 +118,18 @@
       "source_repo": "smooth-code/smooth-ui",
       "status": "candidate-context",
       "text": "> **Warning** This project is deprecated and no longer maintained."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/cabal",
+      "status": "candidate-context",
+      "text": "Official upstream development repository for Cabal and cabal-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/cabal",
+      "status": "candidate-context",
+      "text": "Bootstrap"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "smooth-code/smooth-ui",
       "status": "candidate",
       "text": "> **Warning** This project is deprecated and no longer maintained."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/cabal",
+      "status": "candidate",
+      "text": "Bootstrap"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +289,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "smooth-code/smooth-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/bootstrap.yml",
+      "source_repo": "haskell/cabal"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

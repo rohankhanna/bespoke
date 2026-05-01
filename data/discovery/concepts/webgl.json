@@ -187,6 +187,18 @@
       "source_repo": "mapbox/mapbox-gl-js",
       "status": "candidate-context",
       "text": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asny/three-d",
+      "status": "candidate-context",
+      "text": "2D/3D renderer - makes it simple to draw stuff across platforms (including web)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asny/three-d",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "mapbox/mapbox-gl-js",
       "status": "candidate",
       "text": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asny/three-d",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +478,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "mapbox/mapbox-gl-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "asny/three-d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

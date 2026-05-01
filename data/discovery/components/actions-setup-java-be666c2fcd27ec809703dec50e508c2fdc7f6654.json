@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

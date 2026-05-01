@@ -71,21 +71,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "aburousan/azaz",
+      "target": "juliacon/www.juliacon.org",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "circuitscape/www.circuitscape.org",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "abhishalya/abhishalya.github.io",
+      "target": "fluxml/fluxml.github.io",
       "target_type": "repository"
     },
     {
@@ -93,6 +86,13 @@
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
       "target": "asprionj/liveserver.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "target": "juancarlospaco/css-html-js-minify",
       "target_type": "repository"
     },
     {
@@ -250,7 +250,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:10:59.220460+00:00",
+  "fetched_at": "2026-05-01T18:43:04.680545+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -298,22 +298,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "abhishalya/abhishalya.github.io",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aburousan/azaz",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "asprionj/liveserver.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "circuitscape/www.circuitscape.org",
+      "full_name": "fluxml/fluxml.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juancarlospaco/css-html-js-minify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliacon/www.juliacon.org",
       "source_file": "README.md"
     }
   ],

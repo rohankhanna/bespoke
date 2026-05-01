@@ -283,6 +283,18 @@
       "source_repo": "BasedHardware/omi",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "BasedHardware/omi",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -808,11 +826,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "blitz-js/next-superjson-plugin"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

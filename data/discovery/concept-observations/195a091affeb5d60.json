@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd94A utility to match a browserslist query with user agent strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![build](https://github.com/pastelsky/browserslist-useragent/actions/workflows/main.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![build](https://github.com/pastelsky/browserslist-useragent/actions/workflows/main.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "browserlist-query",
+      "sense_id": "browserlist-query#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "browserlist-query",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "browserlist-query",
+  "observation_id": "195a091affeb5d60",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "browserlist-query",
+  "source_context_snippet": "![build](https://github.com/pastelsky/browserslist-useragent/actions/workflows/main.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "browserslist/browserslist-useragent",
+  "source_repo_description": "\ud83e\udd94A utility to match a browserslist query with user agent strings"
+}

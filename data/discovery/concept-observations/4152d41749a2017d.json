@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official code for CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016613,
+      "status": "candidate",
+      "text": "geopositioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016612,
+      "status": "candidate",
+      "text": "geoposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016611,
+      "status": "candidate",
+      "text": "geoplacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016610,
+      "status": "candidate",
+      "text": "locality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016609,
+      "status": "candidate",
+      "text": "georeferencing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geolocalization",
+      "sense_id": "geolocalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geolocalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geolocalization",
+  "observation_id": "4152d41749a2017d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "geolocalization",
+  "source_context_snippet": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\".",
+  "source_file": null,
+  "source_repo": "gmberton/CosPlace",
+  "source_repo_description": "Official code for CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\""
+}

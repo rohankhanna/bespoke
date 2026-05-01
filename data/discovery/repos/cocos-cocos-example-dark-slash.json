@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cocos/cocos-example-dark-slash",
+      "target": "cocos-creator/tutorial-dark-slash",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:37:08.396448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cocos/cocos-example-dark-slash",
+    "html_url": "https://github.com/cocos/cocos-example-dark-slash",
+    "language": "PLSQL",
+    "pushed_at": "2022-09-02T03:58:29Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2025-12-16T10:42:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocos-creator/tutorial-dark-slash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

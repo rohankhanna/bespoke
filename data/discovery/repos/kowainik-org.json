@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kowainik/org",
+      "target": "jaspervdj/stylish-haskell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kowainik/org",
+      "target": "kowainik",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kowainik/org",
+      "target": "style-guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kowainik/org",
+      "target": "workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kowainik/org",
+      "target": "workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:08:31.203275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcdc \ud83d\udcd2 Place for organization guidelines and workflows",
+    "fork": false,
+    "full_name": "kowainik/org",
+    "html_url": "https://github.com/kowainik/org",
+    "language": "Mustache",
+    "pushed_at": "2021-05-16T07:39:26Z",
+    "stargazers_count": 21,
+    "topics": [
+      "kowainik",
+      "style-guide",
+      "workflow",
+      "workflows"
+    ],
+    "updated_at": "2023-04-01T11:37:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaspervdj/stylish-haskell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains organization-wide guidelines on the processes within Kowainik.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kowainik"
+    },
+    {
+      "context_snippet": "This repository contains organization-wide guidelines on the processes within Kowainik.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    },
+    {
+      "context_snippet": "This repository contains organization-wide guidelines on the processes within Kowainik.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    },
+    {
+      "context_snippet": "This repository contains organization-wide guidelines on the processes within Kowainik.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflows"
+    }
+  ]
+}

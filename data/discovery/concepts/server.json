@@ -345,6 +345,18 @@
       "source_repo": "shazow/ssh-chat",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "coturn TURN server project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "[![Docker CI](https://github.com/coturn/coturn/actions/workflows/docker.yml/badge.svg \"Docker CI\")](https://github.com/coturn/coturn/actions/workflows/docker.yml)"
     }
   ],
   "candidate_glosses": [
@@ -515,6 +527,12 @@
       "source_repo": "shazow/ssh-chat",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/shazow/ssh-chat.svg?branch=master)](https://travis-ci.org/shazow/ssh-chat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate",
+      "text": "[![Docker CI](https://github.com/coturn/coturn/actions/workflows/docker.yml/badge.svg \"Docker CI\")](https://github.com/coturn/coturn/actions/workflows/docker.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -801,11 +819,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "coturn/coturn"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

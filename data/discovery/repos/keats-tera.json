@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny-cron.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny-cron.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny-pr.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "shalzz/zola-deploy-action@v0.17.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny-cron.yml",
+      "source_repo": "Keats/tera",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny-cron.yml",
+      "source_repo": "Keats/tera",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny-cron.yml",
+      "source_repo": "Keats/tera",
+      "target": "cargo deny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny-pr.yml",
+      "source_repo": "Keats/tera",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny-pr.yml",
+      "source_repo": "Keats/tera",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny-pr.yml",
+      "source_repo": "Keats/tera",
+      "target": "cargo deny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Keats/tera",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Keats/tera",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Keats/tera",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Keats/tera",
+      "target": "shalzz/zola-deploy-action@v0.17.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Keats/tera",
+      "target": "Build and deploy GH Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keats/tera",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keats/tera",
+      "target": "jinja2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keats/tera",
+      "target": "rust-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Keats/tera",
+      "target": "template-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:44:56.333831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1303
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/cargo-deny-cron.yml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/cargo-deny-pr.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1426
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A template engine for Rust based on Jinja2/Django",
+    "fork": false,
+    "full_name": "Keats/tera",
+    "html_url": "https://github.com/Keats/tera",
+    "language": "Rust",
+    "pushed_at": "2026-04-03T14:02:25Z",
+    "stargazers_count": 4193,
+    "topics": [
+      "django",
+      "jinja2",
+      "rust-library",
+      "template-engine"
+    ],
+    "updated_at": "2026-05-01T11:19:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cargo deny",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny-cron.yml",
+      "term": "cargo deny"
+    },
+    {
+      "context_snippet": "cargo deny",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny-pr.yml",
+      "term": "cargo deny"
+    },
+    {
+      "context_snippet": "Build and deploy GH Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build and deploy GH Pages"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/Keats/tera/workflows/ci/badge.svg)](https://github.com/Keats/tera/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/Keats/tera/workflows/ci/badge.svg)](https://github.com/Keats/tera/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jinja2"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/Keats/tera/workflows/ci/badge.svg)](https://github.com/Keats/tera/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-library"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/Keats/tera/workflows/ci/badge.svg)](https://github.com/Keats/tera/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-engine"
+    }
+  ]
+}

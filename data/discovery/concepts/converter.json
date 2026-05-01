@@ -91,6 +91,18 @@
       "source_repo": "mdn/markdown",
       "status": "candidate-context",
       "text": "MDN Web Docs tool to convert HTML to Markdown."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "status": "candidate-context",
+      "text": "Convert Caffe models to PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "status": "candidate-context",
+      "text": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "mdn/markdown",
       "status": "candidate",
       "text": "MDN Web Docs tool to convert HTML to Markdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "status": "candidate",
+      "text": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:"
     }
   ],
   "candidate_related_terms": [
@@ -228,11 +246,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mdn/markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "vadimkantorov/caffemodel2pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

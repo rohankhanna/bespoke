@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "pytlsd build and publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pip.yml",
+      "source_repo": "iago-suarez/pytlsd",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:35:27.831886+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 603
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 883
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    },
+    {
+      "path": ".github/workflows/build-new.yml",
+      "size": 2340
+    },
+    {
+      "path": ".github/workflows/pip.yml",
+      "size": 874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python transparent bindings for LSD (Line Segment Detector)",
+    "fork": false,
+    "full_name": "iago-suarez/pytlsd",
+    "html_url": "https://github.com/iago-suarez/pytlsd",
+    "language": "C++",
+    "pushed_at": "2025-04-07T11:43:09Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-02-01T11:22:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pytlsd build and publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-new.yml",
+      "term": "pytlsd build and publish"
+    }
+  ]
+}

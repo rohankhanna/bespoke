@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmikus/ahocorasick_rs",
+      "target": "tmikus/aho-corasick-benchmark",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:59:01.314276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17352
+    },
+    {
+      "path": "go.mod",
+      "size": 268
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tmikus/ahocorasick_rs",
+    "html_url": "https://github.com/tmikus/ahocorasick_rs",
+    "language": "Go",
+    "pushed_at": "2025-12-18T15:46:07Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-12-18T15:46:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmikus/aho-corasick-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "buildpacks/github-actions/setup-tools@b4faaabcd9dbc5fa332451ae33bce8b583f3ec1b",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/base-images"
+    }
+  ]
+}

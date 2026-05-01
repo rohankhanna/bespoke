@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "reportportal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate-context",
+      "text": "A WebdriverIO plugin. Report results to Report Portal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate-context",
+      "text": "WDIO Report Portal Reporter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate",
+      "text": "WDIO Report Portal Reporter"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "reportportal",
+  "concept_id": "reportportal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reportportal",
+      "sense_id": "reportportal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

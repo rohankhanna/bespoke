@@ -1221,28 +1221,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/dubbo",
-      "target": "apache/dubbo-go",
+      "target": "dubbo/py-client-for-apache-dubbo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/dubbo",
-      "target": "apache/dubbo-erlang",
+      "target": "apache/dubbo-php-framework",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/dubbo",
-      "target": "apache/dubbo-js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/dubbo",
-      "target": "apache/dubbo-admin",
+      "target": "apache/dubbo-website",
       "target_type": "repository"
     },
     {
@@ -1666,7 +1659,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:00:58.018522+00:00",
+  "fetched_at": "2026-05-01T19:02:24.056022+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1702,7 +1695,7 @@
     "full_name": "apache/dubbo",
     "html_url": "https://github.com/apache/dubbo",
     "language": "Java",
-    "pushed_at": "2026-04-22T04:56:58Z",
+    "pushed_at": "2026-04-29T08:23:53Z",
     "stargazers_count": 41563,
     "topics": [
       "distributed-systems",
@@ -1717,27 +1710,22 @@
       "service-mesh",
       "web"
     ],
-    "updated_at": "2026-04-22T18:53:01Z"
+    "updated_at": "2026-05-01T14:01:46Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/dubbo-admin",
+      "full_name": "apache/dubbo-php-framework",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/dubbo-erlang",
+      "full_name": "apache/dubbo-website",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/dubbo-go",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apache/dubbo-js",
+      "full_name": "dubbo/py-client-for-apache-dubbo",
       "source_file": "README.md"
     }
   ],

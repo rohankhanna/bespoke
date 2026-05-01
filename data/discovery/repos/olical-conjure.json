@@ -1,0 +1,379 @@
+{
+  "components": [
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Olical/conjure",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Olical/conjure",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Olical/conjure",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Olical/conjure",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "Olical/conjure",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "Olical/conjure",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "Olical/conjure",
+      "target": "Push to Luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Olical/conjure",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Olical/conjure",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Olical/conjure",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Olical/conjure",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "cider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "clojure-repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "deoplete-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "guile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "hy-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "janet-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "mit-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "nrepl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "racket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "racket-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Olical/conjure",
+      "target": "unlicense",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:53:12.194505+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 261
+    },
+    {
+      "path": "package.json",
+      "size": 578
+    },
+    {
+      "path": ".github/workflows/benchmark.yaml",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interactive evaluation for Neovim (Clojure, Fennel, Scheme, Python, JavaScript, PHP, R, Lua, Rust and more!)",
+    "fork": false,
+    "full_name": "Olical/conjure",
+    "html_url": "https://github.com/Olical/conjure",
+    "language": "Fennel",
+    "pushed_at": "2026-04-24T12:35:19Z",
+    "stargazers_count": 2092,
+    "topics": [
+      "cider",
+      "clojure",
+      "clojure-repl",
+      "clojurescript",
+      "deoplete-source",
+      "guile",
+      "hy-lang",
+      "janet-lang",
+      "javascript",
+      "mit-scheme",
+      "neovim",
+      "nrepl",
+      "racket",
+      "racket-lang",
+      "unlicense"
+    ],
+    "updated_at": "2026-05-01T18:36:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Push to Luarocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Push to Luarocks"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cider"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure-repl"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete-source"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guile"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hy-lang"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "janet-lang"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-scheme"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "racket"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "racket-lang"
+    },
+    {
+      "context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unlicense"
+    }
+  ]
+}

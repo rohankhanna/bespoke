@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "api"
+    "api",
+    "API"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "newtheatre/history-project",
       "status": "candidate-context",
       "text": "api"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/turn",
+      "status": "candidate-context",
+      "text": "Pion TURN, an API for building TURN clients and servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/turn",
+      "status": "candidate-context",
+      "text": "API"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "newtheatre/history-project",
       "status": "candidate",
       "text": "api"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/turn",
+      "status": "candidate",
+      "text": "API"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/api.yml",
       "source_repo": "newtheatre/history-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/api.yaml",
+      "source_repo": "pion/turn"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

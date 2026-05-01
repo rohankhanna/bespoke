@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The dispatch doctor prescribes type stability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmark a pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmark a pull request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21831,
+      "status": "candidate",
+      "text": "tie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21790,
+      "status": "candidate",
+      "text": "tied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21790,
+      "status": "candidate",
+      "text": "ties"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21750,
+      "status": "candidate",
+      "text": "refer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21710,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark a pull request",
+      "sense_id": "benchmark-a-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmark-a-pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmark-a-pull-request",
+  "observation_id": "a471080da5c80580",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "Benchmark a pull request",
+  "source_context_snippet": "Benchmark a pull request",
+  "source_file": ".github/workflows/benchmark_pr.yml",
+  "source_repo": "MilesCranmer/DispatchDoctor.jl",
+  "source_repo_description": "The dispatch doctor prescribes type stability"
+}

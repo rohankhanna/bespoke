@@ -31,6 +31,18 @@
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
       "status": "candidate-context",
       "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sentriz/fish-pipenv",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1f\ud83d\udc0d a fish plugin that automatically activates the pipenv subshell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sentriz/fish-pipenv",
+      "status": "candidate-context",
+      "text": "![](https://i.imgur.com/BALScDM.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
       "status": "candidate",
       "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sentriz/fish-pipenv",
+      "status": "candidate",
+      "text": "![](https://i.imgur.com/BALScDM.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "sentriz/fish-pipenv"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

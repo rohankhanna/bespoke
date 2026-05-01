@@ -1,0 +1,770 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.project.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.project.yaml"
+    },
+    {
+      "component": "vitorsgomes/s3-rm-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml"
+    },
+    {
+      "component": "docker://hasufell/alpine-haskell:3.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker://hasufell/i386-alpine-haskell:3.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker://hasufell/alpine-haskell:3.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker://hasufell/arm64v8-alpine-haskell:3.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker://hasufell/i386-alpine-haskell:3.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker://hasufell/alpine-haskell:3.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker://hasufell/arm64v8-alpine-haskell:3.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yaml"
+    },
+    {
+      "component": "docker://koalaman/shellcheck-alpine",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shimgen.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shimgen.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shimgen.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yaml"
+    },
+    {
+      "component": "haskell/ghcup-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "haskell/ghcup-metadata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "haskell/ghcup-www",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "haskell/ghcup-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "haskell/ghcup-setup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "Bootstrap tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.project.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "haskell/ghcup-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.project.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cabal.project.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "Test cabal.project files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "vitorsgomes/s3-rm-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "Cache eviction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "docker://hasufell/alpine-haskell:3.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "Test cross bindists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hlint.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "Hlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "docker://hasufell/i386-alpine-haskell:3.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "docker://hasufell/alpine-haskell:3.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "docker://hasufell/arm64v8-alpine-haskell:3.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "haskell/ghcup-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "Build and release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "docker://koalaman/shellcheck-alpine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "Shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shimgen.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shimgen.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shimgen.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shimgen.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "Shimgen CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yaml",
+      "source_repo": "haskell/ghcup-hs",
+      "target": "haskell/ghcup-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/ghcup-hs",
+      "target": "cabal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/ghcup-hs",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/ghcup-hs",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/ghcup-hs",
+      "target": "unix-philosophy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:08:09.536745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1365
+    },
+    {
+      "path": ".github/workflows/bootstrap.yaml",
+      "size": 2788
+    },
+    {
+      "path": ".github/workflows/cabal.project.yaml",
+      "size": 2798
+    },
+    {
+      "path": ".github/workflows/cache.yaml",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/cross.yaml",
+      "size": 5819
+    },
+    {
+      "path": ".github/workflows/hlint.yaml",
+      "size": 580
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 19953
+    },
+    {
+      "path": ".github/workflows/shellcheck.yaml",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/shimgen.yaml",
+      "size": 567
+    },
+    {
+      "path": ".github/workflows/stack.yaml",
+      "size": 901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "haskell/ghcup-hs",
+    "html_url": "https://github.com/haskell/ghcup-hs",
+    "language": "Haskell",
+    "pushed_at": "2026-05-01T15:49:20Z",
+    "stargazers_count": 345,
+    "topics": [
+      "cabal",
+      "ghc",
+      "haskell",
+      "installer",
+      "unix-philosophy"
+    ],
+    "updated_at": "2026-04-28T10:38:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell/ghcup-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell/ghcup-metadata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell/ghcup-setup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell/ghcup-www",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bootstrap tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap.yaml",
+      "term": "Bootstrap tests"
+    },
+    {
+      "context_snippet": "Test cabal.project files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cabal.project.yaml",
+      "term": "Test cabal.project files"
+    },
+    {
+      "context_snippet": "Cache eviction",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yaml",
+      "term": "Cache eviction"
+    },
+    {
+      "context_snippet": "Test cross bindists",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross.yaml",
+      "term": "Test cross bindists"
+    },
+    {
+      "context_snippet": "Hlint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hlint.yaml",
+      "term": "Hlint"
+    },
+    {
+      "context_snippet": "Build and release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Build and release"
+    },
+    {
+      "context_snippet": "Shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yaml",
+      "term": "Shellcheck"
+    },
+    {
+      "context_snippet": "Shimgen CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shimgen.yaml",
+      "term": "Shimgen CI"
+    },
+    {
+      "context_snippet": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cabal"
+    },
+    {
+      "context_snippet": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix-philosophy"
+    }
+  ]
+}

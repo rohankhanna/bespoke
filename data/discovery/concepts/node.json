@@ -1306,6 +1306,18 @@
       "source_repo": "nodejs/node-addon-api",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/nodejs/node-addon-api/branch/main/graph/badge.svg)](https://app.codecov.io/gh/nodejs/node-addon-api/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserify/resolve",
+      "status": "candidate-context",
+      "text": "Implements the node.js require.resolve() algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/resolve",
+      "status": "candidate-context",
+      "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
     }
   ],
   "candidate_glosses": [
@@ -1956,6 +1968,12 @@
       "source_repo": "nodejs/node-addon-api",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/nodejs/node-addon-api/branch/main/graph/badge.svg)](https://app.codecov.io/gh/nodejs/node-addon-api/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/resolve",
+      "status": "candidate",
+      "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
     }
   ],
   "candidate_related_terms": [
@@ -3289,11 +3307,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "nodejs/node-addon-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "browserify/resolve"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

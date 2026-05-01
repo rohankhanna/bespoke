@@ -85,14 +85,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "flightcontrolhq/superjson",
-      "target": "yahoo/serialize-javascript",
+      "target": "rich-harris/devalue",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "package.json",
       "source_repo": "flightcontrolhq/superjson",
-      "target": "rich-harris/devalue",
+      "target": "blitz-js/superjson",
       "target_type": "repository"
     },
     {
@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:46:07.657963+00:00",
+  "fetched_at": "2026-05-01T18:46:24.133374+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -268,8 +268,8 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "yahoo/serialize-javascript",
-      "source_file": "README.md"
+      "full_name": "blitz-js/superjson",
+      "source_file": "package.json"
     }
   ],
   "terms": [

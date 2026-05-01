@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "deep-symmetry/open-beat-control",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "boot-clj/boot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "deep-symmetry/lib-carabiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "ptaoussanis/timbre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "ableton-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "dj-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "pioneer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:50:03.384435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A minimal tempo bridge between Pioneer Pro DJ Link and Ableton Link in Clojure.",
+    "fork": false,
+    "full_name": "Deep-Symmetry/beat-carabiner",
+    "html_url": "https://github.com/Deep-Symmetry/beat-carabiner",
+    "language": "Clojure",
+    "pushed_at": "2025-07-22T04:27:45Z",
+    "stargazers_count": 43,
+    "topics": [
+      "ableton-link",
+      "clojure",
+      "dj-link",
+      "pioneer"
+    ],
+    "updated_at": "2026-04-15T03:16:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boot-clj/boot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/lib-carabiner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/open-beat-control",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptaoussanis/timbre",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img alt=\"a blue carabiner\" align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ableton-link"
+    },
+    {
+      "context_snippet": "<img alt=\"a blue carabiner\" align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<img alt=\"a blue carabiner\" align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dj-link"
+    },
+    {
+      "context_snippet": "<img alt=\"a blue carabiner\" align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pioneer"
+    }
+  ]
+}

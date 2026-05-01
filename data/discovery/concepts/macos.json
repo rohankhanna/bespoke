@@ -2051,6 +2051,18 @@
       "source_repo": "ceres-solver/ceres-solver",
       "status": "candidate-context",
       "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "coturn TURN server project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "macOS"
     }
   ],
   "candidate_glosses": [
@@ -3089,6 +3101,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
       "status": "candidate",
       "text": "macOS"
     }
@@ -4586,11 +4604,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "coturn/coturn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

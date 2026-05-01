@@ -43,6 +43,12 @@
       "source_repo": "chaoss/grimoirelab",
       "status": "candidate-context",
       "text": "[![grimoirelab-showcase](https://user-images.githubusercontent.com/25265451/84442403-30dcce80-ac5b-11ea-9f5b-60266d875ebd.png \"GrimoireLab | CHAOSS Bitergia Analytics\")](https://chaoss.biterg.io/app/kibana#/dashboard/Overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-elk",
+      "status": "candidate-context",
+      "text": "GrimoireELK is the component of [GrimoireLab](https://github.com/chaoss/grimoirelab) that interacts with the ElasticSearch database. Its goal is two-fold, first it aims at offering a convenient"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +69,12 @@
       "source_repo": "chaoss/grimoirelab",
       "status": "candidate",
       "text": "[![grimoirelab-showcase](https://user-images.githubusercontent.com/25265451/84442403-30dcce80-ac5b-11ea-9f5b-60266d875ebd.png \"GrimoireLab | CHAOSS Bitergia Analytics\")](https://chaoss.biterg.io/app/kibana#/dashboard/Overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-elk",
+      "status": "candidate",
+      "text": "GrimoireELK is the component of [GrimoireLab](https://github.com/chaoss/grimoirelab) that interacts with the ElasticSearch database. Its goal is two-fold, first it aims at offering a convenient"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +100,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "chaoss/grimoirelab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-elk"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

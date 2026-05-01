@@ -84,7 +84,7 @@
   "normalized_form": "announce-release",
   "observation_id": "484d2a9bcd57e3e5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "Announce Release",
   "source_context_snippet": "Announce Release",
   "source_file": ".github/workflows/announce-release.yml",

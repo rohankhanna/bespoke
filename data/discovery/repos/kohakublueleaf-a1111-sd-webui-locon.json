@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:34:48.549042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A extension for loading LyCORIS model in sd-webui",
+    "fork": false,
+    "full_name": "KohakuBlueleaf/a1111-sd-webui-locon",
+    "html_url": "https://github.com/KohakuBlueleaf/a1111-sd-webui-locon",
+    "language": "Python",
+    "pushed_at": "2025-01-17T12:15:26Z",
+    "stargazers_count": 504,
+    "topics": [],
+    "updated_at": "2026-04-26T06:55:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

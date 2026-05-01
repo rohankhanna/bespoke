@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "epages-de/restdocs-wiremock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "restdocsext/restdocsext-jersey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "scacap/spring-auto-restdocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "epages-de/restdocs-api-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "spring-io/artifactory-deploy-action@e7d40377cd74c3f06554144006ccfd64a548b351",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "Build and Deploy Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "Build Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-staged-release.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "jfrog/setup-jfrog-cli@9fe0f98bd45b19e6e931d457f4e98f8f84461fb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-staged-release.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "Delete Staged Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-milestone.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-milestone.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "spring-io/artifactory-deploy-action@e7d40377cd74c3f06554144006ccfd64a548b351",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-milestone.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-milestone.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "jfrog/setup-jfrog-cli@9fe0f98bd45b19e6e931d457f4e98f8f84461fb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-milestone.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "Release Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "spring-io/artifactory-deploy-action@e7d40377cd74c3f06554144006ccfd64a548b351",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "jfrog/setup-jfrog-cli@9fe0f98bd45b19e6e931d457f4e98f8f84461fb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-codeql-analysis.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "spring-io/github-actions/.github/workflows/codeql-analysis.yml@6e66995f7d29de1e4ff76e4f0def7a10163fe910",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-codeql-analysis.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "Run CodeQL Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-docs-build.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-docs-build.yml",
+      "source_repo": "spring-projects/spring-restdocs",
+      "target": "Trigger Docs Build",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "spring-projects/spring-restdocs"
+}

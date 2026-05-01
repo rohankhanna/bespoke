@@ -1,0 +1,12 @@
+{
+  "component": "huggingface/hf-workflows/.github/actions/post-slack@main",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "gokyeongryeol/diffusers"
+    }
+  ]
+}

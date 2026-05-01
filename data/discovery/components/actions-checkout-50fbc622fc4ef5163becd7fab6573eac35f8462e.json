@@ -1,12 +1,17 @@
 {
   "component": "actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e",
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/type-checkers.yml",
       "source_repo": "qdrant/fastembed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "Shopify/svg2vd"
     }
   ]
 }

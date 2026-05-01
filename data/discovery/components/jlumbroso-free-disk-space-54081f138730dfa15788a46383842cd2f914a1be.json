@@ -1,7 +1,7 @@
 {
   "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -132,6 +132,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-examples.yml",
       "source_repo": "pulumi/examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-upstream-tests.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure"
     }
   ]
 }

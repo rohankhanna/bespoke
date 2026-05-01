@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab",
+      "target": "image-based-localisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab",
+      "target": "image-geolocalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab",
+      "target": "visual-place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:35:29.484965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7960
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Open-source Deep Learning Framework for Visual Place Recognition",
+    "fork": false,
+    "full_name": "amaralibey/OpenVPRLab",
+    "html_url": "https://github.com/amaralibey/OpenVPRLab",
+    "language": "Python",
+    "pushed_at": "2024-07-25T15:54:06Z",
+    "stargazers_count": 170,
+    "topics": [
+      "dataset",
+      "datasets",
+      "framework",
+      "image-based-localisation",
+      "image-geolocalization",
+      "image-retrieval",
+      "open-source",
+      "visual-place-recognition"
+    ],
+    "updated_at": "2026-04-26T10:40:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![1720110200313](image/README/1720110200313.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "![1720110200313](image/README/1720110200313.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "![1720110200313](image/README/1720110200313.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "![1720110200313](image/README/1720110200313.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-based-localisation"
+    },
+    {
+      "context_snippet": "![1720110200313](image/README/1720110200313.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-geolocalization"
+    },
+    {
+      "context_snippet": "![1720110200313](image/README/1720110200313.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "![1720110200313](image/README/1720110200313.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "![1720110200313](image/README/1720110200313.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-place-recognition"
+    }
+  ]
+}

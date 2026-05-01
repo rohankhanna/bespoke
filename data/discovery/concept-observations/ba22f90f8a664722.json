@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Sync Plugin Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Sync Plugin Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21884,
+      "status": "candidate",
+      "text": "charles fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21884,
+      "status": "candidate",
+      "text": "fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21884,
+      "status": "candidate",
+      "text": "francois marie charles fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21884,
+      "status": "candidate",
+      "text": "malory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801,
+      "status": "candidate",
+      "text": "runner"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Sync Plugin Docs",
+      "sense_id": "build-and-sync-plugin-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-sync-plugin-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-sync-plugin-docs",
+  "observation_id": "ba22f90f8a664722",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "Build and Sync Plugin Docs",
+  "source_context_snippet": "Build and Sync Plugin Docs",
+  "source_file": ".github/workflows/build-plugin-docs.yml",
+  "source_repo": "logseq/logseq",
+  "source_repo_description": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV"
+}

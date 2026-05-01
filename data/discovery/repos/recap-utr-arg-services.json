@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "bufbuild/buf-lint-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "bufbuild/buf-breaking-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "cycjimmy/semantic-release-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "recap-utr/arg-services",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "recap-utr/arg-services",
+      "target": "bufbuild/buf-setup-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "recap-utr/arg-services",
+      "target": "bufbuild/buf-lint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "recap-utr/arg-services",
+      "target": "bufbuild/buf-breaking-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "recap-utr/arg-services",
+      "target": "cycjimmy/semantic-release-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "recap-utr/arg-services",
+      "target": "argumentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "recap-utr/arg-services",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "recap-utr/arg-services",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "recap-utr/arg-services",
+      "target": "protobuf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:53:41.559171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 988
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Microservice definitions for building argumentation machines with gRPC and Protobuf",
+    "fork": false,
+    "full_name": "recap-utr/arg-services",
+    "html_url": "https://github.com/recap-utr/arg-services",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T16:45:52Z",
+    "stargazers_count": 2,
+    "topics": [
+      "argumentation",
+      "grpc",
+      "microservices",
+      "nlp",
+      "protobuf"
+    ],
+    "updated_at": "2025-12-08T11:14:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project contains Protobuf definitions for building complex argumentation machines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argumentation"
+    },
+    {
+      "context_snippet": "This project contains Protobuf definitions for building complex argumentation machines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "This project contains Protobuf definitions for building complex argumentation machines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "This project contains Protobuf definitions for building complex argumentation machines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    }
+  ]
+}

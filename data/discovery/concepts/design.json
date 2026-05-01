@@ -115,6 +115,18 @@
       "source_repo": "IgnaceMaes/MaterialSkin",
       "status": "candidate-context",
       "text": "MaterialSkin for .NET WinForms"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "status": "candidate-context",
+      "text": "A design system for building modern and elegant desktop applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "status": "candidate-context",
+      "text": "**Ephemeral** is a design system for building modern and elegant desktop applications."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "IgnaceMaes/MaterialSkin",
       "status": "candidate",
       "text": "MaterialSkin for .NET WinForms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "status": "candidate",
+      "text": "**Ephemeral** is a design system for building modern and elegant desktop applications."
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +328,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/ephemeral"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

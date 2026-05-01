@@ -120,7 +120,7 @@
   "normalized_form": "build",
   "observation_id": "99bc4be98e6382b0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "Build",
   "source_context_snippet": "Build",
   "source_file": ".github/workflows/build.yml",

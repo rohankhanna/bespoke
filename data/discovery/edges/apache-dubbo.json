@@ -4,28 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/dubbo",
-      "target": "apache/dubbo-go",
+      "target": "dubbo/py-client-for-apache-dubbo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/dubbo",
-      "target": "apache/dubbo-erlang",
+      "target": "apache/dubbo-php-framework",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/dubbo",
-      "target": "apache/dubbo-js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/dubbo",
-      "target": "apache/dubbo-admin",
+      "target": "apache/dubbo-website",
       "target_type": "repository"
     },
     {
@@ -449,6 +442,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
   "source_repo": "apache/dubbo"
 }

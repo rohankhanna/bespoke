@@ -91,6 +91,30 @@
       "source_repo": "slinso/goTemplateBenchmark",
       "status": "candidate-context",
       "text": "comparing the performance of different template engines"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaj/ructe",
+      "status": "candidate-context",
+      "text": "Rust Compiled Templates with static-file handling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaj/ructe",
+      "status": "candidate-context",
+      "text": "This is my attempt at writing a HTML template system for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Keats/tera",
+      "status": "candidate-context",
+      "text": "A template engine for Rust based on Jinja2/Django"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keats/tera",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/Keats/tera/workflows/ci/badge.svg)](https://github.com/Keats/tera/actions)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "slinso/goTemplateBenchmark",
       "status": "candidate",
       "text": "comparing the performance of different template engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaj/ructe",
+      "status": "candidate",
+      "text": "This is my attempt at writing a HTML template system for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Keats/tera",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/Keats/tera/workflows/ci/badge.svg)](https://github.com/Keats/tera/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +226,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "slinso/goTemplateBenchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kaj/ructe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Keats/tera"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

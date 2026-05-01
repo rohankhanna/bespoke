@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Example builds (nightly, default arch)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "This action sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "Example builds (nightly, default arch)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate",
+      "text": "Example builds (nightly, default arch)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21107,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21107,
+      "status": "candidate",
+      "text": "lag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21107,
+      "status": "candidate",
+      "text": "lah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21107,
+      "status": "candidate",
+      "text": "prototype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19869,
+      "status": "candidate",
+      "text": "dedicate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Example builds (nightly, default arch)",
+  "concept_id": "example-builds-nightly-default-arch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/example-builds-nightly-defaultarch.yml",
+      "source_repo": "julia-actions/setup-julia"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Example builds (nightly, default arch)",
+      "sense_id": "example-builds-nightly-default-arch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

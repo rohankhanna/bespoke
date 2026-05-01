@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc1f\ud83d\udc0d a fish plugin that automatically activates the pipenv subshell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://i.imgur.com/BALScDM.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://i.imgur.com/BALScDM.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39514403,
+      "status": "candidate",
+      "text": "fisherman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39498929,
+      "status": "candidate",
+      "text": "fisher cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39498592,
+      "status": "candidate",
+      "text": "pekan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39169938,
+      "status": "candidate",
+      "text": "black cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29514407,
+      "status": "candidate",
+      "text": "martes pennanti"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fisher",
+      "sense_id": "fisher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "fisherman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "pekan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "fisher cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "martes pennanti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "black cat"
+    }
+  ],
+  "concept_id": "fisher",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fisher",
+  "observation_id": "e04a8eaa805ee33d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "fisher",
+  "source_context_snippet": "![](https://i.imgur.com/BALScDM.png)",
+  "source_file": null,
+  "source_repo": "sentriz/fish-pipenv",
+  "source_repo_description": "\ud83d\udc1f\ud83d\udc0d a fish plugin that automatically activates the pipenv subshell"
+}

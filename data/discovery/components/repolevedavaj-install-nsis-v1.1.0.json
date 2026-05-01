@@ -1,12 +1,17 @@
 {
   "component": "repolevedavaj/install-nsis@v1.1.0",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "CrowCpp/Crow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "coturn/coturn"
     }
   ]
 }

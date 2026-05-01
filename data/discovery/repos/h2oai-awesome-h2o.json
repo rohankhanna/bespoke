@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "h2oai/h2o-tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "h2oai/h2o-meetups",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "glouppe/phd-thesis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "jphall663/gwu_data_mining",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "h2oai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:02:41.794060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of research, applications and projects built using the H2O Machine Learning platform",
+    "fork": false,
+    "full_name": "h2oai/awesome-h2o",
+    "html_url": "https://github.com/h2oai/awesome-h2o",
+    "language": null,
+    "pushed_at": "2023-05-18T17:08:23Z",
+    "stargazers_count": 389,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "data-science",
+      "deep-learning",
+      "h2o",
+      "h2oai",
+      "machine-learning"
+    ],
+    "updated_at": "2026-03-31T12:35:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glouppe/phd-thesis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h2oai/h2o-meetups",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h2oai/h2o-tutorials",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jphall663/gwu_data_mining",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "h2oai"
+    },
+    {
+      "context_snippet": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

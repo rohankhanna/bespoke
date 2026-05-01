@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "stylelint + idiomatic-css = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007001,
+      "status": "candidate",
+      "text": "arrange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005268,
+      "status": "candidate",
+      "text": "orderliness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003758,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001859,
+      "status": "candidate",
+      "text": "set up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001558,
+      "status": "candidate",
+      "text": "rate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "order",
+      "sense_id": "order#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31093,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24056,
+      "status": "candidate",
+      "text": "tell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24053,
+      "status": "candidate",
+      "text": "society"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23067,
+      "status": "candidate",
+      "text": "rank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21059,
+      "status": "candidate",
+      "text": "club"
+    }
+  ],
+  "concept_id": "order",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "order",
+  "observation_id": "8ebf84081751b788",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "order",
+  "source_context_snippet": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order).",
+  "source_file": null,
+  "source_repo": "ream88/stylelint-config-idiomatic-order",
+  "source_repo_description": "stylelint + idiomatic-css = \u2764\ufe0f"
+}

@@ -151,6 +151,18 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kowainik/org",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc \ud83d\udcd2 Place for organization guidelines and workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/org",
+      "status": "candidate-context",
+      "text": "This repository contains organization-wide guidelines on the processes within Kowainik."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate",
       "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/org",
+      "status": "candidate",
+      "text": "This repository contains organization-wide guidelines on the processes within Kowainik."
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +442,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kowainik/org"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

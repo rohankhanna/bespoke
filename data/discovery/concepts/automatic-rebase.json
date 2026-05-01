@@ -175,6 +175,18 @@
       "source_repo": "TexasInstruments/edgeai-yolov5",
       "status": "candidate-context",
       "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserify/resolve",
+      "status": "candidate-context",
+      "text": "Implements the node.js require.resolve() algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/resolve",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +271,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "TexasInstruments/edgeai-yolov5",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/resolve",
       "status": "candidate",
       "text": "Automatic Rebase"
     }
@@ -562,11 +580,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "tape-testing/tape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "browserify/resolve"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

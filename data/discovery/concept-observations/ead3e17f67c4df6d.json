@@ -48,7 +48,7 @@
   "normalized_form": "rust-next",
   "observation_id": "ead3e17f67c4df6d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "rust-next",
   "source_context_snippet": "rust-next",
   "source_file": ".github/workflows/rust-next.yml",

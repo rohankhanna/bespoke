@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-uaac",
+      "target": "cloudfoundry/cf-uaa-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/cf-uaac",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/cf-uaac",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/cf-uaac",
+      "target": "Ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:03:28.339929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3690
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cloudfoundry/cf-uaac",
+    "html_url": "https://github.com/cloudfoundry/cf-uaac",
+    "language": "Ruby",
+    "pushed_at": "2026-04-07T14:40:22Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-21T09:37:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cf-uaa-lib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    }
+  ]
+}

@@ -7252,6 +7252,78 @@
       "source_repo": "huggingface/xet-core",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asny/three-d",
+      "status": "candidate-context",
+      "text": "2D/3D renderer - makes it simple to draw stuff across platforms (including web)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asny/three-d",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate-context",
+      "text": "Liquid templating for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate-context",
+      "text": "liquid-rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e Impossibly fast web search, made for static sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate-context",
+      "text": "[workspace] members = [\"stork-lib\", \"stork-cli\", \"stork-wasm\"] [profile.release] lto = true opt-level = 's'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "status": "candidate-context",
+      "text": "Check for multiple patterns in a single string at the same time: a fast Aho-Corasick algorithm for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "status": "candidate-context",
+      "text": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate-context",
+      "text": "Solving i18n for client-side and resource-constrained environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate-context",
+      "text": "Home of the Rust and Inside Rust blogs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/rust-lang/blog.rust-lang.org/actions/workflows/main.yml/badge.svg)](https://github.com/rust-lang/blog.rust-lang.org/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -10974,6 +11046,42 @@
       "source_repo": "huggingface/xet-core",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asny/three-d",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate",
+      "text": "liquid-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate",
+      "text": "[workspace] members = [\"stork-lib\", \"stork-cli\", \"stork-wasm\"] [profile.release] lto = true opt-level = 's'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "status": "candidate",
+      "text": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/rust-lang/blog.rust-lang.org/actions/workflows/main.yml/badge.svg)](https://github.com/rust-lang/blog.rust-lang.org/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -16783,11 +16891,119 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "asny/three-d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cobalt-org/liquid-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "askama-rs/askama-old"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jameslittle230/stork"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "G-Research/ahocorasick_rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "unicode-org/icu4x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/blog.rust-lang.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

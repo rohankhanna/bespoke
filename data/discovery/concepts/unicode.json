@@ -199,6 +199,18 @@
       "source_repo": "JuliaPlots/UnicodePlots.jl",
       "status": "candidate-context",
       "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate-context",
+      "text": "Solving i18n for client-side and resource-constrained environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "JuliaPlots/UnicodePlots.jl",
       "status": "candidate",
       "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -550,11 +568,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "unicode-org/icu4x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

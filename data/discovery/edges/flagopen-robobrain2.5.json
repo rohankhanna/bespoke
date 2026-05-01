@@ -4,7 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "FlagOpen/RoboBrain2.5",
-      "target": "flagopen/robobrain-x0",
+      "target": "tanhuajie/reason-rft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "target": "flagopen/robobrain2.0",
       "target_type": "repository"
     },
     {
@@ -12,20 +19,6 @@
       "source_file": "README.md",
       "source_repo": "FlagOpen/RoboBrain2.5",
       "target": "flagopen/flagscale",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "FlagOpen/RoboBrain2.5",
-      "target": "flageval-baai/flagevalmm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "FlagOpen/RoboBrain2.5",
-      "target": "flagopen/robo-dopamine",
       "target_type": "repository"
     },
     {
@@ -43,6 +36,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
   "source_repo": "FlagOpen/RoboBrain2.5"
 }

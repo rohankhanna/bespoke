@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "leafo/gh-actions-lua@v12",
+      "component": "leafo/gh-actions-lua@v13",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/luarocks-release.yml"
     },
     {
-      "component": "googleapis/release-please-action@v4",
+      "component": "googleapis/release-please-action@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml"
     },
@@ -53,13 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-tree/nvim-tree.lua",
-      "target": "apps/dependabot",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nvim-tree/nvim-tree.lua",
@@ -70,7 +63,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nvim-tree/nvim-tree.lua",
-      "target": "leafo/gh-actions-lua@v12",
+      "target": "leafo/gh-actions-lua@v13",
       "target_type": "component"
     },
     {
@@ -112,7 +105,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "nvim-tree/nvim-tree.lua",
-      "target": "googleapis/release-please-action@v4",
+      "target": "googleapis/release-please-action@v5",
       "target_type": "component"
     },
     {
@@ -158,7 +151,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:12:53.376713+00:00",
+  "fetched_at": "2026-05-01T18:57:18.676511+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -166,7 +159,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 2855
+      "size": 2934
     },
     {
       "path": ".github/workflows/luarocks-release.yml",
@@ -190,22 +183,16 @@
     "full_name": "nvim-tree/nvim-tree.lua",
     "html_url": "https://github.com/nvim-tree/nvim-tree.lua",
     "language": "Lua",
-    "pushed_at": "2026-04-23T08:32:51Z",
-    "stargazers_count": 8469,
+    "pushed_at": "2026-04-30T23:46:18Z",
+    "stargazers_count": 8482,
     "topics": [
       "file-explorer",
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-04-24T05:36:57Z"
+    "updated_at": "2026-05-01T18:33:45Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apps/dependabot",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Luarocks Release",

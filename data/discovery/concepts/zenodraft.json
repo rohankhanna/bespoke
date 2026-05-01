@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "zenodraft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate-context",
+      "text": "Command line program to validate and convert CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate-context",
+      "text": "zenodraft"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate",
+      "text": "zenodraft"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zenodraft",
+  "concept_id": "zenodraft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/zenodraft.yml",
+      "source_repo": "citation-file-format/cffconvert"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "zenodraft",
+      "sense_id": "zenodraft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:40:54.779943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Typescript template for a widget to be embedded in another website ",
+    "fork": false,
+    "full_name": "preactjs-templates/widget-typescript",
+    "html_url": "https://github.com/preactjs-templates/widget-typescript",
+    "language": "TypeScript",
+    "pushed_at": "2022-10-20T03:26:43Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2024-01-05T12:23:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

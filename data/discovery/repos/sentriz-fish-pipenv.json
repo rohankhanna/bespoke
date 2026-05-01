@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentriz/fish-pipenv",
+      "target": "kennethreitz/fish-pipenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sentriz/fish-pipenv",
+      "target": "fish-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sentriz/fish-pipenv",
+      "target": "fisher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sentriz/fish-pipenv",
+      "target": "pipenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sentriz/fish-pipenv",
+      "target": "virtualenv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:52:54.393039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc1f\ud83d\udc0d a fish plugin that automatically activates the pipenv subshell",
+    "fork": false,
+    "full_name": "sentriz/fish-pipenv",
+    "html_url": "https://github.com/sentriz/fish-pipenv",
+    "language": "Shell",
+    "pushed_at": "2022-04-19T01:25:42Z",
+    "stargazers_count": 198,
+    "topics": [
+      "fish-shell",
+      "fisher",
+      "pipenv",
+      "python",
+      "virtualenv"
+    ],
+    "updated_at": "2026-04-30T05:20:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kennethreitz/fish-pipenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](https://i.imgur.com/BALScDM.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-shell"
+    },
+    {
+      "context_snippet": "![](https://i.imgur.com/BALScDM.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fisher"
+    },
+    {
+      "context_snippet": "![](https://i.imgur.com/BALScDM.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipenv"
+    },
+    {
+      "context_snippet": "![](https://i.imgur.com/BALScDM.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualenv"
+    }
+  ]
+}

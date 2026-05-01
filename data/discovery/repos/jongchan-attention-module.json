@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jongchan/attention-module",
+      "target": "bruinxiong/modified-cbamnet.mxnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:32:38.056342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official PyTorch code for \"BAM: Bottleneck Attention Module (BMVC2018)\" and \"CBAM: Convolutional Block Attention Module (ECCV2018)\"",
+    "fork": false,
+    "full_name": "Jongchan/attention-module",
+    "html_url": "https://github.com/Jongchan/attention-module",
+    "language": "Python",
+    "pushed_at": "2023-03-09T03:46:12Z",
+    "stargazers_count": 2219,
+    "topics": [],
+    "updated_at": "2026-04-28T11:24:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bruinxiong/modified-cbamnet.mxnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

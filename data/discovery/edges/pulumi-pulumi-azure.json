@@ -1,0 +1,405 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi/pulumi-azure-native",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "github/gh-aw/actions/setup@v0.56.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi/esc-action@9eb774255b1a4afb7855678ae8d4a77359da0d9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-pr-rereview.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "Internal PR Re-Review (Slash Command)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "github/gh-aw/actions/setup@v0.56.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi/esc-action@9eb774255b1a4afb7855678ae8d4a77359da0d9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-pr-review.lock.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "Internal Trusted PR Reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi/esc-action@9eb774255b1a4afb7855678ae8d4a77359da0d9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "MOZGIII/install-ldid-action@d5ab465f3a66a4d60a59882b935eb30e18e8d043",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "jdx/mise-action@b287efda3dc5f4f3c328507653b6617da783ff84",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "Build Provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi/esc-action@9eb774255b1a4afb7855678ae8d4a77359da0d9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "jdx/mise-action@b287efda3dc5f4f3c328507653b6617da783ff84",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi/git-status-check-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "Build SDK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi/esc-action@9840934db12128a33f6afb60b17d9de8f7ec5519",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "jdx/mise-action@b287efda3dc5f4f3c328507653b6617da783ff84",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "anthropics/claude-code-action@ef50f123a3a9be95b60040d042717517407c7256",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi/esc-action@9eb774255b1a4afb7855678ae8d4a77359da0d9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "peter-evans/slash-command-dispatch@5c11dc7efead556e3bdabf664302212f79eb26fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "command-dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-stale-issues.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pose/stale-issue-cleanup@d2922f61fc5669f4154408689f9bb2a981996112",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-stale-issues.yml",
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "Comment on stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "cloud-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulumi/pulumi-azure",
+      "target": "pulumi",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "pulumi/pulumi-azure"
+}

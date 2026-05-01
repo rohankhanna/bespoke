@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@v2.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "13rac1/block-fixup-merge-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "famiu/feline.nvim",
+      "target": "crivotz/nv-ide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "famiu/feline.nvim",
+      "target": "6cdh/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "famiu/feline.nvim",
+      "target": "edeneast/nyx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "famiu/feline.nvim",
+      "target": "feline-nvim/feline.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "famiu/feline.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "famiu/feline.nvim",
+      "target": "kdheepak/panvimdoc@v2.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "famiu/feline.nvim",
+      "target": "panvimdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "famiu/feline.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "famiu/feline.nvim",
+      "target": "JohnnyMorganz/stylua-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "famiu/feline.nvim",
+      "target": "13rac1/block-fixup-merge-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "famiu/feline.nvim",
+      "target": "Pull request check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim",
+      "target": "statusline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:06:08.944396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11413
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1346
+    },
+    {
+      "path": ".github/workflows/pr_check.yml",
+      "size": 520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A minimal, stylish and customizable statusline for Neovim written in Lua",
+    "fork": false,
+    "full_name": "famiu/feline.nvim",
+    "html_url": "https://github.com/famiu/feline.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-09-20T18:18:39Z",
+    "stargazers_count": 1053,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "statusline"
+    ],
+    "updated_at": "2026-03-29T18:58:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "6cdh/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crivotz/nv-ide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edeneast/nyx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feline-nvim/feline.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "panvimdoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "panvimdoc"
+    },
+    {
+      "context_snippet": "Pull request check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_check.yml",
+      "term": "Pull request check"
+    },
+    {
+      "context_snippet": "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    }
+  ]
+}

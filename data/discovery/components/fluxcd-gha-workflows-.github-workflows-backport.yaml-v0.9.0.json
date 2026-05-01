@@ -1,0 +1,12 @@
+{
+  "component": "fluxcd/gha-workflows/.github/workflows/backport.yaml@v0.9.0",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "fluxcd/flux2"
+    }
+  ]
+}

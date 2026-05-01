@@ -1,0 +1,561 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-cloudrun.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-cloudrun.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-cloudrun.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-modal.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-modal.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sponsors.yml"
+    },
+    {
+      "component": "JamesIves/github-sponsors-readme-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sponsors.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sponsors.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml"
+    },
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml"
+    },
+    {
+      "component": "nomadkaraoke/.github/.github/workflows/gitleaks.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "karaokenerds/python-audio-separator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-cloudrun.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-cloudrun.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-cloudrun.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-cloudrun.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "Deploy to Cloud Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-modal.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-modal.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-modal.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "deploy-to-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sponsors.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sponsors.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "JamesIves/github-sponsors-readme-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sponsors.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sponsors.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "Generate Sponsors README",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-docker.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "publish-to-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "publish-to-pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "run-integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "run-unit-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "nomadkaraoke/.github/.github/workflows/gitleaks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "target": "Security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:35:11.128762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39380
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2589
+    },
+    {
+      "path": ".github/workflows/deploy-to-cloudrun.yml",
+      "size": 1883
+    },
+    {
+      "path": ".github/workflows/deploy-to-modal.yml",
+      "size": 1580
+    },
+    {
+      "path": ".github/workflows/github-sponsors.yml",
+      "size": 580
+    },
+    {
+      "path": ".github/workflows/publish-to-docker.yml",
+      "size": 2988
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 560
+    },
+    {
+      "path": ".github/workflows/run-integration-tests.yaml",
+      "size": 7105
+    },
+    {
+      "path": ".github/workflows/run-unit-tests.yaml",
+      "size": 3575
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)",
+    "fork": false,
+    "full_name": "nomadkaraoke/python-audio-separator",
+    "html_url": "https://github.com/nomadkaraoke/python-audio-separator",
+    "language": "Python",
+    "pushed_at": "2026-04-20T01:15:52Z",
+    "stargazers_count": 1163,
+    "topics": [],
+    "updated_at": "2026-05-01T11:41:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karaokenerds/python-audio-separator",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to Cloud Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-cloudrun.yml",
+      "term": "Deploy to Cloud Run"
+    },
+    {
+      "context_snippet": "deploy-to-modal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-modal.yml",
+      "term": "deploy-to-modal"
+    },
+    {
+      "context_snippet": "Generate Sponsors README",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sponsors.yml",
+      "term": "Generate Sponsors README"
+    },
+    {
+      "context_snippet": "publish-to-docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-docker.yml",
+      "term": "publish-to-docker"
+    },
+    {
+      "context_snippet": "publish-to-pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "term": "publish-to-pypi"
+    },
+    {
+      "context_snippet": "run-integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "term": "run-integration-tests"
+    },
+    {
+      "context_snippet": "run-unit-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "term": "run-unit-tests"
+    },
+    {
+      "context_snippet": "Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "term": "Security"
+    }
+  ]
+}

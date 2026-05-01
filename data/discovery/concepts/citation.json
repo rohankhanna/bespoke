@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "citation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate-context",
+      "text": "Command line program to validate and convert CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate-context",
+      "text": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate-context",
+      "text": "A Ruby library for manipulating CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate-context",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate",
+      "text": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007943,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995097,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993137,
+      "status": "candidate",
+      "text": "commendation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993130,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982219,
+      "status": "candidate",
+      "text": "quotation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26034,
+      "status": "candidate",
+      "text": "commendation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21057,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7037,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3057,
+      "status": "candidate",
+      "text": "quotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "credit"
+    }
+  ],
+  "canonical_name": "citation",
+  "concept_id": "citation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "citation",
+      "sense_id": "citation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

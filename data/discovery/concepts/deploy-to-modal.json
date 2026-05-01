@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "deploy-to-modal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate-context",
+      "text": "Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate-context",
+      "text": "deploy-to-modal"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate",
+      "text": "deploy-to-modal"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "deploy-to-modal",
+  "concept_id": "deploy-to-modal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/deploy-to-modal.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "deploy-to-modal",
+      "sense_id": "deploy-to-modal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

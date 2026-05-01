@@ -1,0 +1,251 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "gmberton/gmberton.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "relja/netvlad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "lyakaap/netvlad-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "mapillary/mapillary_sls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "descriptors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "geolocalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "netvlad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "place-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "target": "visual-place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:35:46.393421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17650
+    },
+    {
+      "path": "requirements.txt",
+      "size": 226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code for CVPR 2022 (Oral) paper \"Deep Visual Geo-localization Benchmark\"",
+    "fork": false,
+    "full_name": "gmberton/deep-visual-geo-localization-benchmark",
+    "html_url": "https://github.com/gmberton/deep-visual-geo-localization-benchmark",
+    "language": "Python",
+    "pushed_at": "2026-03-15T09:50:51Z",
+    "stargazers_count": 252,
+    "topics": [
+      "benchmark",
+      "computer-vision",
+      "datasets",
+      "deep-learning",
+      "descriptors",
+      "geolocalization",
+      "image-retrieval",
+      "localization",
+      "netvlad",
+      "place-recognition",
+      "pytorch",
+      "visual-place-recognition"
+    ],
+    "updated_at": "2026-04-30T10:07:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmberton/gmberton.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyakaap/netvlad-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapillary/mapillary_sls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "relja/netvlad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "descriptors"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geolocalization"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netvlad"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "place-recognition"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-place-recognition"
+    }
+  ]
+}

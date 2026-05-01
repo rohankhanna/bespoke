@@ -217,6 +217,18 @@
       "source_repo": "zalmoxisus/redux-devtools-extension",
       "status": "candidate-context",
       "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axodox/AxoCover",
+      "status": "candidate-context",
+      "text": "Nice and free .Net\u00a0code coverage support for Visual Studio with OpenCover."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodox/AxoCover",
+      "status": "candidate-context",
+      "text": "Nice and free .Net code coverage support for Visual Studio with OpenCover."
     }
   ],
   "candidate_glosses": [
@@ -327,6 +339,12 @@
       "source_repo": "zalmoxisus/redux-devtools-extension",
       "status": "candidate",
       "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodox/AxoCover",
+      "status": "candidate",
+      "text": "Nice and free .Net code coverage support for Visual Studio with OpenCover."
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +682,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "zalmoxisus/redux-devtools-extension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "axodox/AxoCover"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

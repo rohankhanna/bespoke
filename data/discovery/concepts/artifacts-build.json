@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Artifacts Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate-context",
+      "text": "Solving i18n for client-side and resource-constrained environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate-context",
+      "text": "Artifacts Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate",
+      "text": "Artifacts Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12419,
+      "status": "candidate",
+      "text": "stonemasonry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11398,
+      "status": "candidate",
+      "text": "archaeology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11398,
+      "status": "candidate",
+      "text": "article"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11398,
+      "status": "candidate",
+      "text": "curation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11398,
+      "status": "candidate",
+      "text": "exposition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Artifacts Build",
+  "concept_id": "artifacts-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Artifacts Build",
+      "sense_id": "artifacts-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

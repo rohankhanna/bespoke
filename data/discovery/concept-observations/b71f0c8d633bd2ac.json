@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Test-driven documentation for RESTful services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Deploy Snapshot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Deploy Snapshot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19814,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19541,
+      "status": "candidate",
+      "text": "folly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19541,
+      "status": "candidate",
+      "text": "microblogging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19169,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19169,
+      "status": "candidate",
+      "text": "shaped"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Deploy Snapshot",
+      "sense_id": "build-and-deploy-snapshot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-deploy-snapshot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-deploy-snapshot",
+  "observation_id": "b71f0c8d633bd2ac",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "Build and Deploy Snapshot",
+  "source_context_snippet": "Build and Deploy Snapshot",
+  "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+  "source_repo": "spring-projects/spring-restdocs",
+  "source_repo_description": "Test-driven documentation for RESTful services"
+}

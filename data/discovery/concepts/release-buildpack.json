@@ -19,12 +19,48 @@
       "source_repo": "heroku/buildpacks-deb-packages",
       "status": "candidate-context",
       "text": "Release Buildpack"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-dotnet",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpack for .NET applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-dotnet",
+      "status": "candidate-context",
+      "text": "Release Buildpack"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-go",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpack for Go applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-go",
+      "status": "candidate-context",
+      "text": "Release Buildpack"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "heroku/buildpacks-deb-packages",
+      "status": "candidate",
+      "text": "Release Buildpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-dotnet",
+      "status": "candidate",
+      "text": "Release Buildpack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-go",
       "status": "candidate",
       "text": "Release Buildpack"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "heroku/buildpacks-deb-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/buildpacks-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/buildpacks-go"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

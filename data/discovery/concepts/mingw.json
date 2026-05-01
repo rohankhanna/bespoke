@@ -47,6 +47,18 @@
       "source_repo": "apnadkarni/tcl-cmark",
       "status": "candidate-context",
       "text": "Mingw"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "coturn TURN server project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "MinGW"
     }
   ],
   "candidate_glosses": [
@@ -67,6 +79,12 @@
       "source_repo": "apnadkarni/tcl-cmark",
       "status": "candidate",
       "text": "Mingw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate",
+      "text": "MinGW"
     }
   ],
   "candidate_related_terms": [
@@ -128,11 +146,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/mingw.yml",
       "source_repo": "apnadkarni/tcl-cmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "coturn/coturn"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

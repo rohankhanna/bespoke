@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvimdev/galaxyline.nvim",
+      "target": "glepnir/galaxyline.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:06:13.151846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "neovim statusline plugin written in lua ",
+    "fork": false,
+    "full_name": "nvimdev/galaxyline.nvim",
+    "html_url": "https://github.com/nvimdev/galaxyline.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-07-25T07:07:21Z",
+    "stargazers_count": 897,
+    "topics": [],
+    "updated_at": "2026-04-13T18:11:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glepnir/galaxyline.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

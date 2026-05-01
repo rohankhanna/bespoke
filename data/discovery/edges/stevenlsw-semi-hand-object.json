@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevenlsw/Semi-Hand-Object",
+      "target": "cvlab-epfl/segmentation-driven-pose",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "stevenlsw/Semi-Hand-Object"
+}

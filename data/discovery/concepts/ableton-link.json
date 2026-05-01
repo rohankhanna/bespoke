@@ -43,6 +43,30 @@
       "source_repo": "Deep-Symmetry/carabiner",
       "status": "candidate-context",
       "text": "<image align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "status": "candidate-context",
+      "text": "A minimal tempo bridge between Pioneer Pro DJ Link and Ableton Link in Clojure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "status": "candidate-context",
+      "text": "<img alt=\"a blue carabiner\" align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "status": "candidate-context",
+      "text": "Java wrapper for the Carabiner bridge to Ableton Link"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "Deep-Symmetry/carabiner",
       "status": "candidate",
       "text": "<image align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "status": "candidate",
+      "text": "<img alt=\"a blue carabiner\" align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +136,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/lib-carabiner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

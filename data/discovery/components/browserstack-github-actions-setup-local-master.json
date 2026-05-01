@@ -1,7 +1,7 @@
 {
   "component": "browserstack/github-actions/setup-local@master",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "vuejs/router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browserstack.yml",
+      "source_repo": "peers/peerjs"
     }
   ]
 }

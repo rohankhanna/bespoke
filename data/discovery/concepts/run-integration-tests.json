@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Run Integration Tests",
-    "Run integration tests"
+    "Run integration tests",
+    "run-integration-tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -104,6 +105,18 @@
       "source_repo": "Azure-Samples/azureai-travel-agent-python",
       "status": "candidate-context",
       "text": "Run Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate-context",
+      "text": "Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate-context",
+      "text": "run-integration-tests"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +167,12 @@
       "source_repo": "Azure-Samples/azureai-travel-agent-python",
       "status": "candidate",
       "text": "Run Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate",
+      "text": "run-integration-tests"
     }
   ],
   "candidate_related_terms": [
@@ -245,11 +264,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/integration-test.yml",
       "source_repo": "Azure-Samples/azureai-travel-agent-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "Misterio77/nix-colors",
       "status": "candidate-context",
       "text": "This repo is designed to help with Nix(OS) theming."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "status": "candidate-context",
+      "text": "Cozy and warm colorscheme for the forest dwellers. An alternative to most boring modern colorschemes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Misterio77/nix-colors",
       "status": "candidate",
       "text": "This repo is designed to help with Nix(OS) theming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Biscuit-Theme/biscuit",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "Misterio77/nix-colors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

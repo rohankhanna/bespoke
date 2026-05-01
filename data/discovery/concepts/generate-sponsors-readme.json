@@ -43,6 +43,18 @@
       "source_repo": "nvim-neorg/neorg",
       "status": "candidate-context",
       "text": "Generate Sponsors README"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate-context",
+      "text": "Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate-context",
+      "text": "Generate Sponsors README"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nvim-neorg/neorg",
+      "status": "candidate",
+      "text": "Generate Sponsors README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomadkaraoke/python-audio-separator",
       "status": "candidate",
       "text": "Generate Sponsors README"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/sponsors.yml",
       "source_repo": "nvim-neorg/neorg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/github-sponsors.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

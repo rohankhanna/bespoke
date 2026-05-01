@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Release Obsidian plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate-context",
+      "text": "A plugin for Obsidian.md for styling codeblocks and inline code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate-context",
+      "text": "Release Obsidian plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidian-community/obsidian-style-settings",
+      "status": "candidate-context",
+      "text": "A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-style-settings",
+      "status": "candidate-context",
+      "text": "Release Obsidian plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate",
+      "text": "Release Obsidian plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-style-settings",
+      "status": "candidate",
+      "text": "Release Obsidian plugin"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "handout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14374,
+      "status": "candidate",
+      "text": "lava"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "accretion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "agglutination"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Obsidian plugin",
+  "concept_id": "release-obsidian-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mayurankv/Obsidian-Code-Styler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Obsidian plugin",
+      "sense_id": "release-obsidian-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

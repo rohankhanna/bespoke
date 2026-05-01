@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run make everything-from-scratch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "This action sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "Run make everything-from-scratch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate",
+      "text": "Run make everything-from-scratch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48524,
+      "status": "candidate",
+      "text": "accrue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48524,
+      "status": "candidate",
+      "text": "move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48524,
+      "status": "candidate",
+      "text": "running"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48524,
+      "status": "candidate",
+      "text": "try"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48513,
+      "status": "candidate",
+      "text": "trying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run make everything-from-scratch",
+  "concept_id": "run-make-everything-from-scratch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/MakeFromScratch.yml",
+      "source_repo": "julia-actions/setup-julia"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run make everything-from-scratch",
+      "sense_id": "run-make-everything-from-scratch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

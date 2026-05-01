@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "command-dispatch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate-context",
+      "text": "An Amazon Web Services (AWS) Pulumi resource package, providing multi-language access to AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate-context",
+      "text": "command-dispatch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "A Microsoft Azure Pulumi resource package, providing multi-language access to Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate-context",
+      "text": "command-dispatch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate-context",
+      "text": "A Google Cloud Platform (GCP) Pulumi resource package, providing multi-language access to GCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate-context",
+      "text": "command-dispatch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-aws",
+      "status": "candidate",
+      "text": "command-dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-azure",
+      "status": "candidate",
+      "text": "command-dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/pulumi-gcp",
+      "status": "candidate",
+      "text": "command-dispatch"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "command-dispatch",
+  "concept_id": "command-dispatch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "command-dispatch",
+      "sense_id": "command-dispatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

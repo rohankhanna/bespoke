@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Ruby library for manipulating CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892956,
+      "status": "candidate",
+      "text": "liveability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892738,
+      "status": "candidate",
+      "text": "consolidate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892687,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883999,
+      "status": "candidate",
+      "text": "autonomy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29882121,
+      "status": "candidate",
+      "text": "conservation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sustainability",
+      "sense_id": "sustainability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sustainability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sustainability",
+  "observation_id": "7f263d771d37919d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "sustainability",
+  "source_context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+  "source_file": null,
+  "source_repo": "citation-file-format/ruby-cff",
+  "source_repo_description": "A Ruby library for manipulating CITATION.cff files."
+}

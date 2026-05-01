@@ -1441,6 +1441,66 @@
       "source_repo": "mfussenegger/nvim-dap-python",
       "status": "candidate-context",
       "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "famiu/feline.nvim",
+      "status": "candidate-context",
+      "text": "A minimal, stylish and customizable statusline for Neovim written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "famiu/feline.nvim",
+      "status": "candidate-context",
+      "text": "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "status": "candidate-context",
+      "text": "A simple popup display that provides breadcrumbs feature using LSP server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "status": "candidate-context",
+      "text": "A file manager for Neovim which lets you edit your filesystem like you edit text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "status": "candidate-context",
+      "text": "A directory buffer for Neovim that lets you edit your filesystem like you edit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "malewicz1337/oil-git.nvim",
+      "status": "candidate-context",
+      "text": "Async Git status integration for oil.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "malewicz1337/oil-git.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/lz.n",
+      "status": "candidate-context",
+      "text": "\ud83e\udda5 A dead simple lazy-loading Lua library for Neovim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/lz.n",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_glosses": [
@@ -2163,6 +2223,36 @@
       "source_repo": "mfussenegger/nvim-dap-python",
       "status": "candidate",
       "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "famiu/feline.nvim",
+      "status": "candidate",
+      "text": "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "status": "candidate",
+      "text": "A directory buffer for Neovim that lets you edit your filesystem like you edit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "malewicz1337/oil-git.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/lz.n",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_related_terms": [],
@@ -3220,11 +3310,83 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navbuddy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "elihunter173/dirbuf.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "malewicz1337/oil-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/lz.n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

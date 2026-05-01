@@ -451,6 +451,30 @@
       "source_repo": "valyala/fasttemplate",
       "status": "candidate-context",
       "text": "fasttemplate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate-context",
+      "text": "Scaffolds WP-CLI commands with functional tests, full README.md, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate-context",
+      "text": "wp-cli/scaffold-package-command"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate-context",
+      "text": "Minimal stack to ship npm packages in CJS/ESM with Typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate-context",
+      "text": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +699,18 @@
       "source_repo": "valyala/fasttemplate",
       "status": "candidate",
       "text": "fasttemplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate",
+      "text": "wp-cli/scaffold-package-command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate",
+      "text": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)"
     }
   ],
   "candidate_related_terms": [
@@ -1051,11 +1087,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "valyala/fasttemplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

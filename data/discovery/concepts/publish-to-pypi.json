@@ -3,7 +3,8 @@
     "Publish to PyPI",
     "Publish to pypi",
     "Publish to PYPI",
-    "Publish to Pypi"
+    "Publish to Pypi",
+    "publish-to-pypi"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -784,6 +785,18 @@
       "source_repo": "agentscope-ai/Trinity-RFT",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate-context",
+      "text": "Easy to use stem (e.g. instrumental/vocals) separation from CLI or as a python package, using a variety of amazing pre-trained models (primarily from UVR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate-context",
+      "text": "publish-to-pypi"
     }
   ],
   "candidate_glosses": [
@@ -1182,6 +1195,12 @@
       "source_repo": "agentscope-ai/Trinity-RFT",
       "status": "candidate",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nomadkaraoke/python-audio-separator",
+      "status": "candidate",
+      "text": "publish-to-pypi"
     }
   ],
   "candidate_related_terms": [
@@ -1945,11 +1964,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/publish-to-pypi.yml",
       "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "psf/requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotipy-dev/spotipy"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "badisi/actions/setup@v5",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "Badisi/wdio-harness"
+    }
+  ]
+}

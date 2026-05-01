@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T19:02:45.222313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3881
+    },
+    {
+      "path": "requirements.txt",
+      "size": 142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Please visit https://github.com/h2oai/h2o-3 for latest H2O",
+    "fork": false,
+    "full_name": "h2oai/h2o-2",
+    "html_url": "https://github.com/h2oai/h2o-2",
+    "language": "Java",
+    "pushed_at": "2024-10-24T17:35:57Z",
+    "stargazers_count": 2268,
+    "topics": [],
+    "updated_at": "2026-04-22T14:49:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

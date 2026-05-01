@@ -84,7 +84,7 @@
   "normalized_form": "searchbox-libraries-build",
   "observation_id": "357fe140285183b9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "Searchbox libraries build",
   "source_context_snippet": "Searchbox libraries build",
   "source_file": ".github/workflows/build.yaml",

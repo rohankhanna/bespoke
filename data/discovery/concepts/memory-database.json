@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "memory-database"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tonsky/datascript",
+      "status": "candidate-context",
+      "text": "Immutable database and Datalog query engine for Clojure, ClojureScript and JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonsky/datascript",
+      "status": "candidate-context",
+      "text": "<img src=\"./extras/logo.svg\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonsky/datascript",
+      "status": "candidate",
+      "text": "<img src=\"./extras/logo.svg\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "memory-database",
+  "concept_id": "memory-database",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "tonsky/datascript"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "memory-database",
+      "sense_id": "memory-database#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

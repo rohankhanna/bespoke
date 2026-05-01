@@ -763,6 +763,30 @@
       "source_repo": "piskvorky/gensim",
       "status": "candidate-context",
       "text": "gensim \u2013 Topic Modelling in Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfarragher/obsidiantools",
+      "status": "candidate-context",
+      "text": "Obsidian tools - a Python package for analysing an Obsidian.md vault"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfarragher/obsidiantools",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools) [![PyPI version](https://img.shields.io/pypi/pyversions/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate-context",
+      "text": "A curated list of research, applications and projects built using the H2O Machine Learning platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1167,18 @@
       "source_repo": "piskvorky/gensim",
       "status": "candidate",
       "text": "gensim \u2013 Topic Modelling in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfarragher/obsidiantools",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools) [![PyPI version](https://img.shields.io/pypi/pyversions/obsidiantools.svg)](https://badge.fury.io/py/obsidiantools)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
     }
   ],
   "candidate_related_terms": [],
@@ -1702,11 +1738,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "mfarragher/obsidiantools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

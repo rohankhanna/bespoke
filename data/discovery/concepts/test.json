@@ -8705,6 +8705,162 @@
       "source_repo": "pypa/sampleproject",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pires/go-proxyproto",
+      "status": "candidate-context",
+      "text": "A Go library implementation of the PROXY protocol, versions 1 and 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pires/go-proxyproto",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/next-learn",
+      "status": "candidate-context",
+      "text": "Learn Next.js Starter Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next-learn",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JolifantoBambla/shadercl",
+      "status": "candidate-context",
+      "text": "Common Lisp/CFFI bindings for shaderc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JolifantoBambla/shadercl",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate-context",
+      "text": "GitOps on Autopilot Mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate-context",
+      "text": "stylelint + idiomatic-css = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/docs",
+      "status": "candidate-context",
+      "text": "Logseq documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/docs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Olical/conjure",
+      "status": "candidate-context",
+      "text": "Interactive evaluation for Neovim (Clojure, Fennel, Scheme, Python, JavaScript, PHP, R, Lua, Rust and more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Olical/conjure",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nksaraf/vinxi",
+      "status": "candidate-context",
+      "text": "The Full Stack JavaScript SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nksaraf/vinxi",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Badisi/wdio-harness",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2c WebdriverIO support for Angular component test harnesses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Badisi/wdio-harness",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate-context",
+      "text": "A WebdriverIO plugin. Report results to Report Portal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simplecov-ruby/simplecov-html",
+      "status": "candidate-context",
+      "text": "HTML formatter for SimpleCov code coverage tool for ruby 1.9+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplecov-ruby/simplecov-html",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "test-unit/test-unit",
+      "status": "candidate-context",
+      "text": "test-unit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "test-unit/test-unit",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -13109,6 +13265,84 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pypa/sampleproject",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pires/go-proxyproto",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/next-learn",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JolifantoBambla/shadercl",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/docs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Olical/conjure",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nksaraf/vinxi",
+      "status": "candidate",
+      "text": "\ud83e\uddea Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Badisi/wdio-harness",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplecov-ruby/simplecov-html",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "test-unit/test-unit",
       "status": "candidate",
       "text": "Test"
     }
@@ -19207,11 +19441,179 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "pypa/sampleproject"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pires/go-proxyproto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vercel/next-learn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JolifantoBambla/shadercl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "controlplaneio-fluxcd/flux-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "astroturfcss/astroturf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ream88/stylelint-config-idiomatic-order"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "logseq/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Olical/conjure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kazupon/vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nksaraf/vinxi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Badisi/wdio-harness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "simplecov-ruby/simplecov-html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "test-unit/test-unit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

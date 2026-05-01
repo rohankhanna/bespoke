@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Command dispatch for testing"
+    "Command dispatch for testing",
+    "Command Dispatch for testing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "pulumi/examples",
       "status": "candidate-context",
       "text": "Command dispatch for testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/automation-api-examples",
+      "status": "candidate-context",
+      "text": "Examples for the Pulumi Automation API https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/auto?tab=doc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/automation-api-examples",
+      "status": "candidate-context",
+      "text": "Command Dispatch for testing"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "pulumi/examples",
       "status": "candidate",
       "text": "Command dispatch for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/automation-api-examples",
+      "status": "candidate",
+      "text": "Command Dispatch for testing"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/command-dispatch.yml",
       "source_repo": "pulumi/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/command_dispatch.yml",
+      "source_repo": "pulumi/automation-api-examples"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

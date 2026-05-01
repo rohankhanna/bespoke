@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "heroku/buildpacks-deb-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/buildpacks-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/buildpacks-go"
     }
   ],
   "term": "Prepare Buildpack Release"

@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_app_load_params.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_app_load_params.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_check_clang_static_analyzer.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "Run Clang Static Analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_clang_static_analyzer_latest_sdk.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_clang_static_analyzer_latest_sdk.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_check_clang_static_analyzer_latest_sdk.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "Run Clang Static Analyzer (master SDK)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_icons.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_icons.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_check_icons.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "Check icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_makefile.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_makefile.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_check_makefile.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "Check Makefile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_readme.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_check_readme.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "Check readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get_app_manifest.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get_app_manifest.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get_app_manifest.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get_app_manifest.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "Get app manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get_app_metadata.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_get_test_metadata.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "LedgerHQ/ledger-app-workflows"
+}

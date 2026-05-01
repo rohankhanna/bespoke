@@ -173,21 +173,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "browserslist/browserslist",
-      "target": "browserslist/browserslist-useragent-regexp",
+      "target": "browserslist/update-db",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "browserslist/browserslist",
-      "target": "browserslist/browserslist-useragent-ruby",
+      "target": "browserslist/lint",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "browserslist/browserslist",
-      "target": "browserslist/browserslist-plausible",
+      "target": "browserslist/vim-browserslist",
       "target_type": "repository"
     },
     {
@@ -387,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:41:58.896800+00:00",
+  "fetched_at": "2026-05-01T18:40:52.159031+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -428,17 +428,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "browserslist/browserslist-plausible",
+      "full_name": "browserslist/lint",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "browserslist/browserslist-useragent-regexp",
+      "full_name": "browserslist/update-db",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "browserslist/browserslist-useragent-ruby",
+      "full_name": "browserslist/vim-browserslist",
       "source_file": "README.md"
     }
   ],

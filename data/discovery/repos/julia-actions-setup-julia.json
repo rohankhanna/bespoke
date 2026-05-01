@@ -1,0 +1,761 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/exec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/io",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/tool-cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "async-retry",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "toml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/async-retry",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/retry",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-circus",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MakeFromScratch.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MakeFromScratch.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-defaultarch.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-defaultarch.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-nightly-defaultarch.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-nightly-defaultarch.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-nightly.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "asdf-vm/actions/setup@b7bcd026f18772e44fe1026d729e1611cc435d47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "actions/setup-node@dda4788290998366da86b6a4f497909644397bb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "asdf-vm/actions/setup@b7bcd026f18772e44fe1026d729e1611cc435d47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "actions/setup-node@dda4788290998366da86b6a4f497909644397bb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "asdf-vm/actions/setup@b7bcd026f18772e44fe1026d729e1611cc435d47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "actions/setup-node@dda4788290998366da86b6a4f497909644397bb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "asdf-vm/actions/setup@b7bcd026f18772e44fe1026d729e1611cc435d47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "asdf-vm/actions/setup@b7bcd026f18772e44fe1026d729e1611cc435d47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@actions/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@actions/io",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@actions/tool-cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "async-retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "toml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@types/async-retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@types/retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "jest-circus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "nock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MakeFromScratch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MakeFromScratch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MakeFromScratch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "Run make everything-from-scratch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-defaultarch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-defaultarch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-builds-defaultarch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "Example builds (default arch)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-nightly-defaultarch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-nightly-defaultarch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-builds-nightly-defaultarch.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "Example builds (nightly, default arch)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-nightly.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds-nightly.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-builds-nightly.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "Example builds (nightly)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-builds.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-builds.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "Example builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "asdf-vm/actions/setup@b7bcd026f18772e44fe1026d729e1611cc435d47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions/setup-node@dda4788290998366da86b6a4f497909644397bb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "julia-actions/setup-julia",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia",
+      "target": "github-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia",
+      "target": "julialang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:41:38.959708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14592
+    },
+    {
+      "path": "package.json",
+      "size": 1042
+    },
+    {
+      "path": ".github/workflows/MakeFromScratch.yml",
+      "size": 1219
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2835
+    },
+    {
+      "path": ".github/workflows/example-builds-defaultarch.yml",
+      "size": 1618
+    },
+    {
+      "path": ".github/workflows/example-builds-nightly-defaultarch.yml",
+      "size": 1750
+    },
+    {
+      "path": ".github/workflows/example-builds-nightly.yml",
+      "size": 2544
+    },
+    {
+      "path": ".github/workflows/example-builds.yml",
+      "size": 4370
+    },
+    {
+      "path": ".github/workflows/pr_checks.yml",
+      "size": 7953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This action sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH.",
+    "fork": false,
+    "full_name": "julia-actions/setup-julia",
+    "html_url": "https://github.com/julia-actions/setup-julia",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-26T17:53:07Z",
+    "stargazers_count": 107,
+    "topics": [
+      "actions",
+      "continuous-integration",
+      "github-action",
+      "github-actions",
+      "hacktoberfest",
+      "julia",
+      "julialang"
+    ],
+    "updated_at": "2026-04-26T17:53:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run make everything-from-scratch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MakeFromScratch.yml",
+      "term": "Run make everything-from-scratch"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Example builds (default arch)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-builds-defaultarch.yml",
+      "term": "Example builds (default arch)"
+    },
+    {
+      "context_snippet": "Example builds (nightly, default arch)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-builds-nightly-defaultarch.yml",
+      "term": "Example builds (nightly, default arch)"
+    },
+    {
+      "context_snippet": "Example builds (nightly)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-builds-nightly.yml",
+      "term": "Example builds (nightly)"
+    },
+    {
+      "context_snippet": "Example builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-builds.yml",
+      "term": "Example builds"
+    },
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "term": "PR Checks"
+    },
+    {
+      "context_snippet": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-action"
+    },
+    {
+      "context_snippet": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julialang"
+    }
+  ]
+}

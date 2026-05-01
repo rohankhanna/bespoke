@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adamharrison/lite-xl-android",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adamharrison/lite-xl-android",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:58:16.166926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1057
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A repository that compiles lite-xl for android.",
+    "fork": false,
+    "full_name": "adamharrison/lite-xl-android",
+    "html_url": "https://github.com/adamharrison/lite-xl-android",
+    "language": "Java",
+    "pushed_at": "2023-04-22T23:02:15Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-02-22T21:48:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

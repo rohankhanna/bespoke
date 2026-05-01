@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "wp-cli-package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate-context",
+      "text": "Scaffolds WP-CLI commands with functional tests, full README.md, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate-context",
+      "text": "wp-cli/scaffold-package-command"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate",
+      "text": "wp-cli/scaffold-package-command"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "wp-cli-package",
+  "concept_id": "wp-cli-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wp-cli-package",
+      "sense_id": "wp-cli-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

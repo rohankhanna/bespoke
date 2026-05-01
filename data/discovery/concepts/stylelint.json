@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +57,54 @@
       "source_repo": "hudochenkov/stylelint-order",
       "status": "candidate-context",
       "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "Stylelint config for Property Sort Ordering based on the SMACSS methodology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate-context",
+      "text": "<!-- omit from toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kutsan/stylelint-config-clean-order",
+      "status": "candidate-context",
+      "text": "A clean and complete config for stylelint-order."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kutsan/stylelint-config-clean-order",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/stylelint-config-clean-order)](https://www.npmjs.com/package/stylelint-config-clean-order)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate-context",
+      "text": "stylelint + idiomatic-css = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate-context",
+      "text": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caro401/royal-velvet",
+      "status": "candidate-context",
+      "text": "A dark theme for obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caro401/royal-velvet",
+      "status": "candidate-context",
+      "text": "stylelint"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +131,30 @@
       "source_repo": "hudochenkov/stylelint-order",
       "status": "candidate",
       "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss",
+      "status": "candidate",
+      "text": "<!-- omit from toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kutsan/stylelint-config-clean-order",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/stylelint-config-clean-order)](https://www.npmjs.com/package/stylelint-config-clean-order)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate",
+      "text": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caro401/royal-velvet",
+      "status": "candidate",
+      "text": "stylelint"
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +228,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "hudochenkov/stylelint-order"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cahamilton/stylelint-config-property-sort-order-smacss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kutsan/stylelint-config-clean-order"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ream88/stylelint-config-idiomatic-order"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "caro401/royal-velvet"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

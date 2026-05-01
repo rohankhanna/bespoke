@@ -1,7 +1,7 @@
 {
   "component": "apache/skywalking-eyes/dependency@e1a02359b239bd28de3f6d35fdc870250fa513d5",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

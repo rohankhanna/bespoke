@@ -1,7 +1,7 @@
 {
   "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml",
+      "source_repo": "fluxcd/flux2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-olm.yaml",
+      "source_repo": "controlplaneio-fluxcd/flux-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "controlplaneio-fluxcd/flux-operator"
     }
   ]
 }

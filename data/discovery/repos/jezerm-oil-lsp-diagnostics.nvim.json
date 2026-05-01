@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T19:06:21.289566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LSP Diagnostics in oil.nvim",
+    "fork": false,
+    "full_name": "JezerM/oil-lsp-diagnostics.nvim",
+    "html_url": "https://github.com/JezerM/oil-lsp-diagnostics.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-02-01T18:24:44Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-24T10:28:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

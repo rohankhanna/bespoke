@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Ruby library for manipulating CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "research-software-engineering",
+      "sense_id": "research-software-engineering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "research-software-engineering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "research-software-engineering",
+  "observation_id": "c073aefb3e005427",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "research-software-engineering",
+  "source_context_snippet": "A Ruby library for creating, editing, validating and converting CITATION.cff files.",
+  "source_file": null,
+  "source_repo": "citation-file-format/ruby-cff",
+  "source_repo_description": "A Ruby library for manipulating CITATION.cff files."
+}

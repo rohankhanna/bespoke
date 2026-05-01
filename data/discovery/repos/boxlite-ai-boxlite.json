@@ -582,7 +582,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:58:08.487416+00:00",
+  "fetched_at": "2026-05-01T19:01:13.729438+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -590,7 +590,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 984
+      "size": 969
     },
     {
       "path": "package.json",
@@ -634,7 +634,7 @@
     "full_name": "boxlite-ai/boxlite",
     "html_url": "https://github.com/boxlite-ai/boxlite",
     "language": "Rust",
-    "pushed_at": "2026-05-01T11:36:26Z",
+    "pushed_at": "2026-05-01T15:48:23Z",
     "stargazers_count": 1880,
     "topics": [
       "ai-agents",
@@ -644,7 +644,7 @@
       "serverless",
       "virtualization"
     ],
-    "updated_at": "2026-05-01T07:25:49Z"
+    "updated_at": "2026-05-01T14:20:40Z"
   },
   "repo_links": [
     {

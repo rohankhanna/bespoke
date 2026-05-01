@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GrimoireELK is the component of [GrimoireLab](https://github.com/chaoss/grimoirelab) that interacts with the ElasticSearch database. Its goal is two-fold, first it aims at offering a convenient"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GrimoireELK is the component of [GrimoireLab](https://github.com/chaoss/grimoirelab) that interacts with the ElasticSearch database. Its goal is two-fold, first it aims at offering a convenient"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grimoirelab",
+      "sense_id": "grimoirelab#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grimoirelab",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grimoirelab",
+  "observation_id": "c9f15a2990b094a8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "grimoirelab",
+  "source_context_snippet": "GrimoireELK is the component of [GrimoireLab](https://github.com/chaoss/grimoirelab) that interacts with the ElasticSearch database. Its goal is two-fold, first it aims at offering a convenient",
+  "source_file": null,
+  "source_repo": "chaoss/grimoirelab-elk",
+  "source_repo_description": null
+}

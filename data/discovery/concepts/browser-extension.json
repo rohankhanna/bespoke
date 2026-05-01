@@ -55,6 +55,18 @@
       "source_repo": "addfox/addfox",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate-context",
+      "text": "KeePassXC Browser Extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate-context",
+      "text": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "addfox/addfox",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate",
+      "text": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "addfox/addfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

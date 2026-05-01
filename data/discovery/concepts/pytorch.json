@@ -5971,6 +5971,90 @@
       "source_repo": "shepnerd/inpainting_gmcnn",
       "status": "candidate-context",
       "text": "by [Yi Wang](https://shepnerd.github.io/), [Xin Tao](http://www.xtao.website), [Xiaojuan Qi](https://xjqi.github.io), [Xiaoyong Shen](http://xiaoyongshen.me/), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "status": "candidate-context",
+      "text": "Pretrained EfficientNet, EfficientNet-Lite, MixNet, MobileNetV3 / V2, MNASNet A1 and B1, FBNet, Single-Path NAS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "status": "candidate-context",
+      "text": "```diff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "status": "candidate-context",
+      "text": "Pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "status": "candidate-context",
+      "text": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate-context",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate-context",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate-context",
+      "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "status": "candidate-context",
+      "text": "Convert Caffe models to PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "status": "candidate-context",
+      "text": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate-context",
+      "text": "Official code for CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate-context",
+      "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate-context",
+      "text": "Official code for CVPR 2022 (Oral) paper \"Deep Visual Geo-localization Benchmark\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate-context",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
     }
   ],
   "candidate_glosses": [
@@ -8955,6 +9039,48 @@
       "source_repo": "shepnerd/inpainting_gmcnn",
       "status": "candidate",
       "text": "by [Yi Wang](https://shepnerd.github.io/), [Xin Tao](http://www.xtao.website), [Xiaojuan Qi](https://xjqi.github.io), [Xiaoyong Shen](http://xiaoyongshen.me/), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "status": "candidate",
+      "text": "```diff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "status": "candidate",
+      "text": "This is an unoffical implemention for paper [Fast Human Pose Estimation, Feng Zhang, Xiatian Zhu, Mao Ye](https://arxiv.org/abs/1811.05419)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate",
+      "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "status": "candidate",
+      "text": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate",
+      "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
     }
   ],
   "candidate_related_terms": [
@@ -13552,11 +13678,83 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "vadimkantorov/caffemodel2pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/CosPlace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

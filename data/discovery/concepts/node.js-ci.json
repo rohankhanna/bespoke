@@ -913,6 +913,66 @@
       "source_repo": "notiz-dev/prisma-dbml-generator",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peers/peerjs",
+      "status": "candidate-context",
+      "text": "Simple peer-to-peer with WebRTC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rameshvarun/netplayjs",
+      "status": "candidate-context",
+      "text": "Make P2P multiplayer browser games, no server hosting or synchronization code required. Powered by rollback netcode + WebRTC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rameshvarun/netplayjs",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "byte-fe/react-model",
+      "status": "candidate-context",
+      "text": "The next generation state management library for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byte-fe/react-model",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codiume/orbit",
+      "status": "candidate-context",
+      "text": "Collection of useful integrations & components for the Astro ecosystem. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codiume/orbit",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-html-languageservice",
+      "status": "candidate-context",
+      "text": "Language services for HTML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-html-languageservice",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -1363,6 +1423,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "notiz-dev/prisma-dbml-generator",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rameshvarun/netplayjs",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byte-fe/react-model",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codiume/orbit",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-html-languageservice",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -2128,11 +2218,41 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "notiz-dev/prisma-dbml-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "peers/peerjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "rameshvarun/netplayjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "byte-fe/react-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "codiume/orbit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "microsoft/vscode-html-languageservice"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

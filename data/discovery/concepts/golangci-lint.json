@@ -923,6 +923,18 @@
       "source_repo": "argoproj-labs/argocd-rbac-operator",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pires/go-proxyproto",
+      "status": "candidate-context",
+      "text": "A Go library implementation of the PROXY protocol, versions 1 and 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pires/go-proxyproto",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -1373,6 +1385,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pires/go-proxyproto",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -2042,11 +2060,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "pires/go-proxyproto"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

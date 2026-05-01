@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "multidomain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904487,
+      "status": "candidate",
+      "text": "multiscale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904486,
+      "status": "candidate",
+      "text": "multidivisional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904485,
+      "status": "candidate",
+      "text": "multidepartmental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904484,
+      "status": "candidate",
+      "text": "multidepartment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19904483,
+      "status": "candidate",
+      "text": "multijurisdictional"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "multidomain",
+  "concept_id": "multidomain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multidomain",
+      "sense_id": "multidomain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

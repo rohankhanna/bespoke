@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water",
+      "target": "pyspark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water",
+      "target": "pysparkling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water",
+      "target": "rsparkling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water",
+      "target": "scala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:02:47.277779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sparkling Water provides H2O functionality inside Spark cluster",
+    "fork": false,
+    "full_name": "h2oai/sparkling-water",
+    "html_url": "https://github.com/h2oai/sparkling-water",
+    "language": "Scala",
+    "pushed_at": "2025-11-05T03:56:25Z",
+    "stargazers_count": 977,
+    "topics": [
+      "big-data",
+      "h2o",
+      "integration",
+      "machine-learning",
+      "pyspark",
+      "pysparkling",
+      "rsparkling",
+      "scala",
+      "spark"
+    ],
+    "updated_at": "2026-04-13T14:25:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Sparkling Water",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "Sparkling Water",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integration"
+    },
+    {
+      "context_snippet": "Sparkling Water",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Sparkling Water",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyspark"
+    },
+    {
+      "context_snippet": "Sparkling Water",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pysparkling"
+    },
+    {
+      "context_snippet": "Sparkling Water",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rsparkling"
+    },
+    {
+      "context_snippet": "Sparkling Water",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    },
+    {
+      "context_snippet": "Sparkling Water",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

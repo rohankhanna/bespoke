@@ -187,6 +187,18 @@
       "source_repo": "hudochenkov/postcss-styled-syntax",
       "status": "candidate-context",
       "text": "PostCSS syntax for template literals CSS-in-JS (e. g. styled-components, Emotion). It was built to be used as [Stylelint] custom syntax or with [PostCSS] plugins."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styled-components/polished",
+      "status": "candidate-context",
+      "text": "A lightweight toolset for writing styles in JavaScript \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/polished",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/styled-components/polished\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "hudochenkov/postcss-styled-syntax",
       "status": "candidate",
       "text": "PostCSS syntax for template literals CSS-in-JS (e. g. styled-components, Emotion). It was built to be used as [Stylelint] custom syntax or with [PostCSS] plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styled-components/polished",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/styled-components/polished\">"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +436,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "styled-components/polished"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

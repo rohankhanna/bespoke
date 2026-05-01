@@ -235,6 +235,18 @@
       "source_repo": "unplugin/unplugin-icons",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "file-icons/atom",
+      "status": "candidate-context",
+      "text": "Atom file-specific icons for improved visual grepping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/atom",
+      "status": "candidate-context",
+      "text": "File Icons"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "unplugin/unplugin-icons",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "file-icons/atom",
+      "status": "candidate",
+      "text": "File Icons"
     }
   ],
   "candidate_related_terms": [
@@ -526,11 +544,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "file-icons/atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "credential-manager",
   "observation_id": "1d94dad3e707591b",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "credential-manager",
   "source_context_snippet": "CredHub manages credentials like passwords, certificates, ssh keys, rsa keys, strings (arbitrary values) and CAs. CredHub provides a CLI and API to get, set, generate and securely store such credentials.",
   "source_file": null,

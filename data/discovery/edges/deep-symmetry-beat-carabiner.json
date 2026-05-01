@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "deep-symmetry/open-beat-control",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "boot-clj/boot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "deep-symmetry/lib-carabiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "ptaoussanis/timbre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "ableton-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "dj-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-carabiner",
+      "target": "pioneer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "Deep-Symmetry/beat-carabiner"
+}

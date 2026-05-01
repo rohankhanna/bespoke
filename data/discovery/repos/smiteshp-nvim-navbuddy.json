@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "target": "hasansujon786/nvim-navbuddy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "target": "document-symbols",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navbuddy",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:06:14.761153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple popup display that provides breadcrumbs feature using LSP server",
+    "fork": false,
+    "full_name": "SmiteshP/nvim-navbuddy",
+    "html_url": "https://github.com/SmiteshP/nvim-navbuddy",
+    "language": "Lua",
+    "pushed_at": "2025-05-01T07:07:53Z",
+    "stargazers_count": 883,
+    "topics": [
+      "document-symbols",
+      "language-server-protocol",
+      "lsp",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim"
+    ],
+    "updated_at": "2026-04-25T18:34:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hasansujon786/nvim-navbuddy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-symbols"
+    },
+    {
+      "context_snippet": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "\u26a0\ufe0f **Heads up!** This project has moved \u2014 it\u2019s now being actively maintained over here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

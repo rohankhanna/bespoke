@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kowainik/.github",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kowainik/.github",
+      "target": "health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kowainik/.github",
+      "target": "kowainik",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:08:28.123136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc8a Default health files",
+    "fork": false,
+    "full_name": "kowainik/.github",
+    "html_url": "https://github.com/kowainik/.github",
+    "language": null,
+    "pushed_at": "2022-10-05T18:32:15Z",
+    "stargazers_count": 7,
+    "topics": [
+      "github",
+      "health",
+      "kowainik"
+    ],
+    "updated_at": "2023-04-01T11:36:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Default files to be used in all Kowainik projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "Default files to be used in all Kowainik projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "health"
+    },
+    {
+      "context_snippet": "Default files to be used in all Kowainik projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kowainik"
+    }
+  ]
+}

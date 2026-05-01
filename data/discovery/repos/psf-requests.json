@@ -328,7 +328,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:49:43.255449+00:00",
+  "fetched_at": "2026-05-01T18:53:00.034333+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -376,8 +376,8 @@
     "full_name": "psf/requests",
     "html_url": "https://github.com/psf/requests",
     "language": "Python",
-    "pushed_at": "2026-04-27T15:08:18Z",
-    "stargazers_count": 53936,
+    "pushed_at": "2026-04-30T17:05:40Z",
+    "stargazers_count": 53952,
     "topics": [
       "client",
       "cookies",
@@ -388,7 +388,7 @@
       "python-requests",
       "requests"
     ],
-    "updated_at": "2026-04-29T19:47:04Z"
+    "updated_at": "2026-05-01T17:51:31Z"
   },
   "repo_links": [],
   "terms": [

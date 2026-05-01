@@ -1,0 +1,12 @@
+{
+  "component": "gregtatum/github-action-benchmark@d3f06f738e9612988d575db23fae5ca0008d3d12",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e-partial.yaml",
       "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-gcp"
     }
   ]
 }

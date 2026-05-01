@@ -48,7 +48,7 @@
   "normalized_form": "pr-verify",
   "observation_id": "1c7fe0d35bc7bddc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "pr-verify",
   "source_context_snippet": "pr-verify",
   "source_file": ".github/workflows/pr-verify.yml",

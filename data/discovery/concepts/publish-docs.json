@@ -316,6 +316,18 @@
       "source_repo": "fern-api/docs-starter",
       "status": "candidate-context",
       "text": "publish-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KWARC/rust-libxml",
+      "status": "candidate-context",
+      "text": "Rust wrapper for libxml2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KWARC/rust-libxml",
+      "status": "candidate-context",
+      "text": "Publish Docs"
     }
   ],
   "candidate_glosses": [
@@ -474,6 +486,12 @@
       "source_repo": "fern-api/docs-starter",
       "status": "candidate",
       "text": "publish-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KWARC/rust-libxml",
+      "status": "candidate",
+      "text": "Publish Docs"
     }
   ],
   "candidate_related_terms": [
@@ -769,11 +787,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/publish-docs.yml",
       "source_repo": "fern-api/docs-starter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "KWARC/rust-libxml"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

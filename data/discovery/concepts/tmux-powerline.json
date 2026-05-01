@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tmux-powerline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f A tmux plugin giving you a hackable status bar consisting of dynamic & beautiful looking powerline segments, written purely in bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tmux-powerline",
+  "concept_id": "tmux-powerline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tmux-powerline",
+      "sense_id": "tmux-powerline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

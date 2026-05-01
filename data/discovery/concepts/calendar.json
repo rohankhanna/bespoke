@@ -31,6 +31,18 @@
       "source_repo": "chronotope/chrono",
       "status": "candidate-context",
       "text": "[Chrono][docsrs]: Timezone-aware date and time handling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amsul/pickadate.js",
+      "status": "candidate-context",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amsul/pickadate.js",
+      "status": "candidate-context",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "chronotope/chrono",
       "status": "candidate",
       "text": "[Chrono][docsrs]: Timezone-aware date and time handling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amsul/pickadate.js",
+      "status": "candidate",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "chronotope/chrono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "amsul/pickadate.js"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

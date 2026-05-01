@@ -179,6 +179,12 @@
       "source_repo": "JuliaCI/julia-buildkite",
       "status": "candidate-context",
       "text": "ShellCheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/ghcup-hs",
+      "status": "candidate-context",
+      "text": "Shellcheck"
     }
   ],
   "candidate_glosses": [
@@ -265,6 +271,12 @@
       "source_repo": "JuliaCI/julia-buildkite",
       "status": "candidate",
       "text": "ShellCheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/ghcup-hs",
+      "status": "candidate",
+      "text": "Shellcheck"
     }
   ],
   "candidate_related_terms": [],
@@ -356,11 +368,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/shellcheck.yml",
       "source_repo": "JuliaCI/julia-buildkite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/shellcheck.yaml",
+      "source_repo": "haskell/ghcup-hs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

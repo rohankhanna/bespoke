@@ -43,6 +43,18 @@
       "source_repo": "timholy/Revise.jl",
       "status": "candidate-context",
       "text": "Documenter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/IJulia.jl",
+      "status": "candidate-context",
+      "text": "Julia kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/IJulia.jl",
+      "status": "candidate-context",
+      "text": "Documenter"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "timholy/Revise.jl",
+      "status": "candidate",
+      "text": "Documenter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/IJulia.jl",
       "status": "candidate",
       "text": "Documenter"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/Documenter.yml",
       "source_repo": "timholy/Revise.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/Docs.yml",
+      "source_repo": "JuliaLang/IJulia.jl"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

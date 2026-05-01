@@ -6115,6 +6115,90 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate-context",
       "text": "*****"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate-context",
+      "text": "TensorFlow implementation of \"Simple Baselines for Human Pose Estimation and Tracking\", ECCV 2018"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/models",
+      "status": "candidate-context",
+      "text": "Officially maintained, supported by PaddlePaddle, including CV, NLP, Speech, Rec, TS, big models and so on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/models",
+      "status": "candidate-context",
+      "text": "\u98de\u6868\u7684\u4ea7\u4e1a\u7ea7\u6a21\u578b\u5e93\uff0c\u5305\u542b\u5927\u91cf\u7ecf\u8fc7\u4ea7\u4e1a\u5b9e\u8df5\u957f\u671f\u6253\u78e8\u7684\u4e3b\u6d41\u6a21\u578b\u4ee5\u53ca\u5728\u56fd\u9645\u7ade\u8d5b\u4e2d\u7684\u593a\u51a0\u6a21\u578b\uff1b\u63d0\u4f9b\u9762\u5411\u8bed\u4e49\u7406\u89e3\u3001\u56fe\u50cf\u5206\u7c7b\u3001\u76ee\u6807\u68c0\u6d4b\u3001\u56fe\u50cf\u5206\u5272\u3001\u6587\u5b57\u8bc6\u522b\u3001\u8bed\u97f3\u5408\u6210\u7b49\u573a\u666f\u7684\u591a\u4e2a\u7aef\u5230\u7aef\u5f00\u53d1\u5957\u4ef6\uff0c\u6ee1\u8db3\u4f01\u4e1a\u4f4e\u6210\u672c\u5f00\u53d1\u548c\u5feb\u901f\u96c6\u6210\u7684\u9700\u6c42\u3002\u98de\u6868\u7684\u6a21\u578b\u5e93\u662f\u56f4\u7ed5\u56fd\u5185\u4f01\u4e1a\u5b9e\u9645\u7814\u53d1\u6d41\u7a0b\u91cf\u8eab\u5b9a\u5236\u6253\u9020\u7684\u4ea7\u4e1a\u7ea7\u6a21\u578b\u5e93\uff0c\u670d\u52a1\u4f01\u4e1a\u904d\u5e03\u80fd\u6e90\u3001\u91d1\u878d\u3001\u5de5\u4e1a\u3001\u519c\u4e1a\u7b49\u591a\u4e2a\u9886\u57df\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate-context",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate-context",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate-context",
+      "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate-context",
+      "text": "Official code for CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate-context",
+      "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate-context",
+      "text": "Official code for CVPR 2022 (Oral) paper \"Deep Visual Geo-localization Benchmark\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate-context",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate-context",
+      "text": "A curated list of research, applications and projects built using the H2O Machine Learning platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
     }
   ],
   "candidate_glosses": [
@@ -9177,6 +9261,48 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate",
       "text": "*****"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/models",
+      "status": "candidate",
+      "text": "\u98de\u6868\u7684\u4ea7\u4e1a\u7ea7\u6a21\u578b\u5e93\uff0c\u5305\u542b\u5927\u91cf\u7ecf\u8fc7\u4ea7\u4e1a\u5b9e\u8df5\u957f\u671f\u6253\u78e8\u7684\u4e3b\u6d41\u6a21\u578b\u4ee5\u53ca\u5728\u56fd\u9645\u7ade\u8d5b\u4e2d\u7684\u593a\u51a0\u6a21\u578b\uff1b\u63d0\u4f9b\u9762\u5411\u8bed\u4e49\u7406\u89e3\u3001\u56fe\u50cf\u5206\u7c7b\u3001\u76ee\u6807\u68c0\u6d4b\u3001\u56fe\u50cf\u5206\u5272\u3001\u6587\u5b57\u8bc6\u522b\u3001\u8bed\u97f3\u5408\u6210\u7b49\u573a\u666f\u7684\u591a\u4e2a\u7aef\u5230\u7aef\u5f00\u53d1\u5957\u4ef6\uff0c\u6ee1\u8db3\u4f01\u4e1a\u4f4e\u6210\u672c\u5f00\u53d1\u548c\u5feb\u901f\u96c6\u6210\u7684\u9700\u6c42\u3002\u98de\u6868\u7684\u6a21\u578b\u5e93\u662f\u56f4\u7ed5\u56fd\u5185\u4f01\u4e1a\u5b9e\u9645\u7814\u53d1\u6d41\u7a0b\u91cf\u8eab\u5b9a\u5236\u6253\u9020\u7684\u4ea7\u4e1a\u7ea7\u6a21\u578b\u5e93\uff0c\u670d\u52a1\u4f01\u4e1a\u904d\u5e03\u80fd\u6e90\u3001\u91d1\u878d\u3001\u5de5\u4e1a\u3001\u519c\u4e1a\u7b49\u591a\u4e2a\u9886\u57df\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "status": "candidate",
+      "text": "The author's officially unofficial PyTorch BigGAN implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate",
+      "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate",
+      "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
     }
   ],
   "candidate_related_terms": [],
@@ -13768,11 +13894,95 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/CosPlace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

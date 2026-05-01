@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "typescript-template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate-context",
+      "text": "Minimal stack to ship npm packages in CJS/ESM with Typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate-context",
+      "text": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate",
+      "text": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "typescript-template",
+  "concept_id": "typescript-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typescript-template",
+      "sense_id": "typescript-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

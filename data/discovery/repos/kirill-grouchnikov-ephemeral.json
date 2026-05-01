@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "target": "kirill-grouchnikov/aurora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "target": "design-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/ephemeral",
+      "target": "desktop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:50:23.468562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "breeze",
+    "description": "A design system for building modern and elegant desktop applications",
+    "fork": false,
+    "full_name": "kirill-grouchnikov/ephemeral",
+    "html_url": "https://github.com/kirill-grouchnikov/ephemeral",
+    "language": "Java",
+    "pushed_at": "2026-04-21T17:57:02Z",
+    "stargazers_count": 23,
+    "topics": [
+      "design",
+      "design-system",
+      "desktop"
+    ],
+    "updated_at": "2026-04-21T17:57:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kirill-grouchnikov/aurora",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Ephemeral** is a design system for building modern and elegant desktop applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "**Ephemeral** is a design system for building modern and elegant desktop applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-system"
+    },
+    {
+      "context_snippet": "**Ephemeral** is a design system for building modern and elegant desktop applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    }
+  ]
+}

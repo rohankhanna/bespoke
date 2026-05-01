@@ -343,6 +343,18 @@
       "source_repo": "h2oai/h2o-3",
       "status": "candidate-context",
       "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water provides H2O functionality inside Spark cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "h2oai/h2o-3",
       "status": "candidate",
       "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_related_terms": [],
@@ -808,11 +826,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

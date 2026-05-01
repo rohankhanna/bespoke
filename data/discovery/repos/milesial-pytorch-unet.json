@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/metadata-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "docker/metadata-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "convolutional-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "kaggle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "pytorch-unet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "tensorboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "unet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "wandb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet",
+      "target": "weights-and-biases",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:33:37.548360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7466
+    },
+    {
+      "path": "Dockerfile",
+      "size": 230
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
+    "fork": false,
+    "full_name": "milesial/Pytorch-UNet",
+    "html_url": "https://github.com/milesial/Pytorch-UNet",
+    "language": "Python",
+    "pushed_at": "2024-08-11T03:00:15Z",
+    "stargazers_count": 11418,
+    "topics": [
+      "convolutional-networks",
+      "convolutional-neural-networks",
+      "deep-learning",
+      "kaggle",
+      "pytorch",
+      "pytorch-unet",
+      "semantic-segmentation",
+      "tensorboard",
+      "unet",
+      "wandb",
+      "weights-and-biases"
+    ],
+    "updated_at": "2026-04-30T08:13:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-networks"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kaggle"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-unet"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorboard"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unet"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wandb"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weights-and-biases"
+    }
+  ]
+}

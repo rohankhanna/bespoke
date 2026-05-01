@@ -116,6 +116,18 @@
       "source_repo": "invertase/melos",
       "status": "candidate-context",
       "text": "Publish packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codiume/orbit",
+      "status": "candidate-context",
+      "text": "Collection of useful integrations & components for the Astro ecosystem. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codiume/orbit",
+      "status": "candidate-context",
+      "text": "Publish packages"
     }
   ],
   "candidate_glosses": [
@@ -170,6 +182,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "invertase/melos",
+      "status": "candidate",
+      "text": "Publish packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codiume/orbit",
       "status": "candidate",
       "text": "Publish packages"
     }
@@ -269,11 +287,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/release-publish.yml",
       "source_repo": "invertase/melos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/pkgpr.yml",
+      "source_repo": "codiume/orbit"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

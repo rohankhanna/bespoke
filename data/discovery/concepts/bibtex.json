@@ -45,6 +45,18 @@
       "source_repo": "eclipse-sumo/sumo",
       "status": "candidate-context",
       "text": "bibtex"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate-context",
+      "text": "Command line program to validate and convert CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate-context",
+      "text": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "eclipse-sumo/sumo",
       "status": "candidate",
       "text": "bibtex"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/cffconvert",
+      "status": "candidate",
+      "text": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/bibtex.yml",
       "source_repo": "eclipse-sumo/sumo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

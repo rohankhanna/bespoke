@@ -19,12 +19,30 @@
       "source_repo": "simonw/datasette",
       "status": "candidate-context",
       "text": "Check JavaScript for conformance with Prettier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peers/peerjs",
+      "status": "candidate-context",
+      "text": "Simple peer-to-peer with WebRTC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs",
+      "status": "candidate-context",
+      "text": "Check JavaScript for conformance with Prettier"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "simonw/datasette",
+      "status": "candidate",
+      "text": "Check JavaScript for conformance with Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peers/peerjs",
       "status": "candidate",
       "text": "Check JavaScript for conformance with Prettier"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/prettier.yml",
       "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "peers/peerjs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

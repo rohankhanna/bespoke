@@ -7177,6 +7177,96 @@
       "source_repo": "fluentribbon/Fluent.Ribbon",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-elk",
+      "status": "candidate-context",
+      "text": "GrimoireELK is the component of [GrimoireLab](https://github.com/chaoss/grimoirelab) that interacts with the ElasticSearch database. Its goal is two-fold, first it aims at offering a convenient"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "This action sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/DataFrames.jl",
+      "status": "candidate-context",
+      "text": "In-memory tabular data in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFrames.jl",
+      "status": "candidate-context",
+      "text": "DataFrames.jl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate-context",
+      "text": "Scaffolds WP-CLI commands with functional tests, full README.md, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate-context",
+      "text": "wp-cli/scaffold-package-command"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate-context",
+      "text": "KeePassXC Browser Extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate-context",
+      "text": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f A tmux plugin giving you a hackable status bar consisting of dynamic & beautiful looking powerline segments, written purely in bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/security-advisories",
+      "status": "candidate-context",
+      "text": "The Haskell Security Advisory Database is a repository of security advisories filed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate-context",
+      "text": "A WebdriverIO plugin. Report results to Report Portal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate-context",
+      "text": "WDIO Report Portal Reporter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfly/shtuff",
+      "status": "candidate-context",
+      "text": "Shell stuff will stuff commands into a shell \u00e0 la `tmux send-keys` or `screen"
     }
   ],
   "candidate_glosses": [
@@ -10773,6 +10863,60 @@
       "source_repo": "fluentribbon/Fluent.Ribbon",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-elk",
+      "status": "candidate",
+      "text": "GrimoireELK is the component of [GrimoireLab](https://github.com/chaoss/grimoirelab) that interacts with the ElasticSearch database. Its goal is two-fold, first it aims at offering a convenient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate",
+      "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFrames.jl",
+      "status": "candidate",
+      "text": "DataFrames.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate",
+      "text": "wp-cli/scaffold-package-command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "status": "candidate",
+      "text": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/security-advisories",
+      "status": "candidate",
+      "text": "The Haskell Security Advisory Database is a repository of security advisories filed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter",
+      "status": "candidate",
+      "text": "WDIO Report Portal Reporter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfly/shtuff",
+      "status": "candidate",
+      "text": "Shell stuff will stuff commands into a shell \u00e0 la `tmux send-keys` or `screen"
     }
   ],
   "candidate_related_terms": [],
@@ -16060,11 +16204,155 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-elk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "julia-actions/setup-julia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/DataFrames.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "haskell/security-advisories"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "BorisOsipov/wdio-reportportal-reporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jfly/shtuff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

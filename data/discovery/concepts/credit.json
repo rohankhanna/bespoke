@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "credit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate-context",
+      "text": "A Ruby library for manipulating CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate-context",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004704,
+      "status": "candidate",
+      "text": "accredit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002176,
+      "status": "candidate",
+      "text": "recognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992000,
+      "status": "candidate",
+      "text": "citation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991343,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984369,
+      "status": "candidate",
+      "text": "reference"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35053,
+      "status": "candidate",
+      "text": "recognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21057,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8035,
+      "status": "candidate",
+      "text": "accredit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7037,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3057,
+      "status": "candidate",
+      "text": "quotation"
+    }
+  ],
+  "canonical_name": "credit",
+  "concept_id": "credit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "credit",
+      "sense_id": "credit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

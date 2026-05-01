@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MRzzm/HDTF",
+      "target": "universome/hdtf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:31:18.110463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "the dataset and code for \"Flow-guided One-shot Talking Face Generation with a High-resolution Audio-visual Dataset\"",
+    "fork": false,
+    "full_name": "MRzzm/HDTF",
+    "html_url": "https://github.com/MRzzm/HDTF",
+    "language": "Python",
+    "pushed_at": "2024-05-12T10:40:56Z",
+    "stargazers_count": 427,
+    "topics": [],
+    "updated_at": "2026-04-26T21:46:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "universome/hdtf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

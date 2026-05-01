@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "fkirc/skip-duplicate-actions@v5.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/flake-checker-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "fkirc/skip-duplicate-actions@v5.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "Haskell-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "DeterminateSystems/flakehub-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "DeterminateSystems/flake-checker-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "haskell/security-advisories",
+      "target": "nix build and check advisories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/security-advisories",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/security-advisories",
+      "target": "hacktoberfest2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/security-advisories",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/security-advisories",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/security-advisories",
+      "target": "vulnerabilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:08:18.795044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6431
+    },
+    {
+      "path": ".github/workflows/haskell-ci.yml",
+      "size": 16106
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 5560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "haskell/security-advisories",
+    "html_url": "https://github.com/haskell/security-advisories",
+    "language": "Haskell",
+    "pushed_at": "2026-04-20T13:37:15Z",
+    "stargazers_count": 59,
+    "topics": [
+      "hacktoberfest",
+      "hacktoberfest2024",
+      "haskell",
+      "security",
+      "vulnerabilities"
+    ],
+    "updated_at": "2026-04-21T09:43:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Haskell-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "term": "Haskell-CI"
+    },
+    {
+      "context_snippet": "nix build and check advisories",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "nix build and check advisories"
+    },
+    {
+      "context_snippet": "The Haskell Security Advisory Database is a repository of security advisories filed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "The Haskell Security Advisory Database is a repository of security advisories filed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2024"
+    },
+    {
+      "context_snippet": "The Haskell Security Advisory Database is a repository of security advisories filed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "The Haskell Security Advisory Database is a repository of security advisories filed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "The Haskell Security Advisory Database is a repository of security advisories filed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerabilities"
+    }
+  ]
+}

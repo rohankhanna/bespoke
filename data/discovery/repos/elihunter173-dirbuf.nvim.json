@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lunarmodules/luacheck@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "extractions/setup-just@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "kyazdani42/nvim-tree.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "sidofc/carbon.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "lambdalisue/fern.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "trapd00r/vidir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "lunarmodules/luacheck@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "extractions/setup-just@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "file-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:06:19.384538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3136
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A file manager for Neovim which lets you edit your filesystem like you edit text",
+    "fork": false,
+    "full_name": "elihunter173/dirbuf.nvim",
+    "html_url": "https://github.com/elihunter173/dirbuf.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-10-19T18:29:23Z",
+    "stargazers_count": 465,
+    "topics": [
+      "file-manager",
+      "lua",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-28T15:17:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyazdani42/nvim-tree.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/fern.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sidofc/carbon.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trapd00r/vidir",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A directory buffer for Neovim that lets you edit your filesystem like you edit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-manager"
+    },
+    {
+      "context_snippet": "A directory buffer for Neovim that lets you edit your filesystem like you edit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A directory buffer for Neovim that lets you edit your filesystem like you edit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

@@ -3331,6 +3331,42 @@
       "source_repo": "mdn/interactive-examples",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "node-gh/gh",
+      "status": "candidate-context",
+      "text": "(DEPRECATED) GitHub CLI made with NodeJS. Use the official https://cli.github.com/ instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-gh/gh",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserify/resolve",
+      "status": "candidate-context",
+      "text": "Implements the node.js require.resolve() algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/resolve",
+      "status": "candidate-context",
+      "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/nbb-logseq",
+      "status": "candidate-context",
+      "text": "nbb with features enabled for logseq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/nbb-logseq",
+      "status": "candidate-context",
+      "text": "`nbb-logseq` provides [easy CLJS scripting on"
     }
   ],
   "candidate_glosses": [
@@ -4995,6 +5031,24 @@
       "source_repo": "mdn/interactive-examples",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-gh/gh",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserify/resolve",
+      "status": "candidate",
+      "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/nbb-logseq",
+      "status": "candidate",
+      "text": "`nbb-logseq` provides [easy CLJS scripting on"
     }
   ],
   "candidate_related_terms": [],
@@ -7660,11 +7714,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "mdn/interactive-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "node-gh/gh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "browserify/resolve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "logseq/nbb-logseq"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

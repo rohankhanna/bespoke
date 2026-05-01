@@ -535,6 +535,30 @@
       "source_repo": "taichi-dev/difftaichi",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asny/three-d",
+      "status": "candidate-context",
+      "text": "2D/3D renderer - makes it simple to draw stuff across platforms (including web)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asny/three-d",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/wayang",
+      "status": "candidate-context",
+      "text": "A Java library for displaying images on the Ableton Push 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/wayang",
+      "status": "candidate-context",
+      "text": "A Java library for displaying images on the"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +825,18 @@
       "source_repo": "taichi-dev/difftaichi",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asny/three-d",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/wayang",
+      "status": "candidate",
+      "text": "A Java library for displaying images on the"
     }
   ],
   "candidate_related_terms": [
@@ -1142,11 +1178,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "asny/three-d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

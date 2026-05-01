@@ -39,7 +39,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T05:04:57.989180+00:00",
+  "fetched_at": "2026-05-01T18:55:19.590595+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -60,9 +60,9 @@
     "html_url": "https://github.com/bitcoin-core/secp256k1",
     "language": "C",
     "pushed_at": "2026-04-29T06:04:16Z",
-    "stargazers_count": 2423,
+    "stargazers_count": 2424,
     "topics": [],
-    "updated_at": "2026-04-29T23:53:02Z"
+    "updated_at": "2026-05-01T09:59:53Z"
   },
   "repo_links": [],
   "terms": []

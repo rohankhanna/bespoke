@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "@npmcli/fs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@playwright/test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "varjolintu/keepassxc-proxy-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "@npmcli/fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "browser-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "keepassxc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "nativemessaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "password-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keepassxreboot/keepassxc-browser",
+      "target": "webextension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:55:35.867511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3970
+    },
+    {
+      "path": "package.json",
+      "size": 999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "KeePassXC Browser Extension",
+    "fork": false,
+    "full_name": "keepassxreboot/keepassxc-browser",
+    "html_url": "https://github.com/keepassxreboot/keepassxc-browser",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T03:22:44Z",
+    "stargazers_count": 2205,
+    "topics": [
+      "browser-extension",
+      "hacktoberfest",
+      "keepassxc",
+      "nativemessaging",
+      "password-manager",
+      "webextension"
+    ],
+    "updated_at": "2026-04-30T20:43:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "varjolintu/keepassxc-proxy-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-extension"
+    },
+    {
+      "context_snippet": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keepassxc"
+    },
+    {
+      "context_snippet": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nativemessaging"
+    },
+    {
+      "context_snippet": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password-manager"
+    },
+    {
+      "context_snippet": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webextension"
+    }
+  ]
+}

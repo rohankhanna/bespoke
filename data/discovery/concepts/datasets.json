@@ -319,6 +319,42 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate-context",
       "text": "[![build](https://github.com/Farama-Foundation/Minari/actions/workflows/build.yml/badge.svg)](https://github.com/Farama-Foundation/Minari/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate-context",
+      "text": "An Open-source Deep Learning Framework for Visual Place Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate-context",
+      "text": "![1720110200313](image/README/1720110200313.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate-context",
+      "text": "Official code for CVPR 2022 (Oral) paper \"Deep Visual Geo-localization Benchmark\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate-context",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/DataFrames.jl",
+      "status": "candidate-context",
+      "text": "In-memory tabular data in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFrames.jl",
+      "status": "candidate-context",
+      "text": "DataFrames.jl"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +513,24 @@
       "source_repo": "Farama-Foundation/Minari",
       "status": "candidate",
       "text": "[![build](https://github.com/Farama-Foundation/Minari/actions/workflows/build.yml/badge.svg)](https://github.com/Farama-Foundation/Minari/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate",
+      "text": "![1720110200313](image/README/1720110200313.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark",
+      "status": "candidate",
+      "text": "This is the official repository for the CVPR 2022 Oral paper [Deep Visual Geo-localization Benchmark](https://arxiv.org/abs/2204.03444)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFrames.jl",
+      "status": "candidate",
+      "text": "DataFrames.jl"
     }
   ],
   "candidate_related_terms": [
@@ -700,11 +754,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/deep-visual-geo-localization-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/DataFrames.jl"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

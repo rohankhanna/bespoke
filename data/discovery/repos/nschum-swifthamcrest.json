@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nschum/SwiftHamcrest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nschum/SwiftHamcrest",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:02:51.866553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13791
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hamcrest test assertions for Swift",
+    "fork": false,
+    "full_name": "nschum/SwiftHamcrest",
+    "html_url": "https://github.com/nschum/SwiftHamcrest",
+    "language": "Swift",
+    "pushed_at": "2025-12-15T13:34:28Z",
+    "stargazers_count": 262,
+    "topics": [],
+    "updated_at": "2026-02-26T17:15:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

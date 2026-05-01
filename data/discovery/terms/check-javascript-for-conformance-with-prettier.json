@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/prettier.yml",
       "source_repo": "simonw/datasette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "peers/peerjs"
     }
   ],
   "term": "Check JavaScript for conformance with Prettier"

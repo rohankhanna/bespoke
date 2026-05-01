@@ -307,6 +307,30 @@
       "source_repo": "swagger-api/swagger-samples",
       "status": "candidate-context",
       "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate-context",
+      "text": "Kryo-based serialization for Akka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate-context",
+      "text": "akka-kryo-serialization - kryo-based serializers for Scala and Akka"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water provides H2O functionality inside Spark cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +483,18 @@
       "source_repo": "swagger-api/swagger-samples",
       "status": "candidate",
       "text": "This repository serves for samples for various projects. Right now it contains the samples for swagger-core under"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate",
+      "text": "akka-kryo-serialization - kryo-based serializers for Scala and Akka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_related_terms": [
@@ -766,11 +802,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "altoo-ag/akka-kryo-serialization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

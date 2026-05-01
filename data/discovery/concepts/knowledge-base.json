@@ -91,6 +91,18 @@
       "source_repo": "svsool/memo",
       "status": "candidate-context",
       "text": "Markdown knowledge base with bidirectional [[link]]s built on top of [VSCode](https://github.com/microsoft/vscode)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "<!-- logo -->"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "svsool/memo",
       "status": "candidate",
       "text": "Markdown knowledge base with bidirectional [[link]]s built on top of [VSCode](https://github.com/microsoft/vscode)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate",
+      "text": "<!-- logo -->"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "logseq/logseq"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

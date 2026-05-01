@@ -439,6 +439,18 @@
       "source_repo": "microsoft/mcp-for-beginners",
       "status": "candidate-context",
       "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate-context",
+      "text": "GitOps on Autopilot Mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/github/release/controlplaneio-fluxcd/flux-operator/all.svg)](https://github.com/controlplaneio-fluxcd/flux-operator/releases)"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +669,12 @@
       "source_repo": "microsoft/mcp-for-beginners",
       "status": "candidate",
       "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/github/release/controlplaneio-fluxcd/flux-operator/all.svg)](https://github.com/controlplaneio-fluxcd/flux-operator/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -1078,11 +1096,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "microsoft/mcp-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "controlplaneio-fluxcd/flux-operator"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nice and free .Net\u00a0code coverage support for Visual Studio with OpenCover."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nice and free .Net code coverage support for Visual Studio with OpenCover."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nice and free .Net code coverage support for Visual Studio with OpenCover."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visual-studio",
+      "sense_id": "visual-studio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "visual-studio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visual-studio",
+  "observation_id": "8a67d97528c5688d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "visual-studio",
+  "source_context_snippet": "Nice and free .Net code coverage support for Visual Studio with OpenCover.",
+  "source_file": null,
+  "source_repo": "axodox/AxoCover",
+  "source_repo_description": "Nice and free .Net\u00a0code coverage support for Visual Studio with OpenCover."
+}

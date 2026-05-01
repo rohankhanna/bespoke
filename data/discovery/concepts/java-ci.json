@@ -259,6 +259,24 @@
       "source_repo": "alibaba/druid",
       "status": "candidate-context",
       "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/svg2vd",
+      "status": "candidate-context",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HdrHistogram/HdrHistogram",
+      "status": "candidate-context",
+      "text": "A High Dynamic Range (HDR) Histogram"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HdrHistogram/HdrHistogram",
+      "status": "candidate-context",
+      "text": "Java CI"
     }
   ],
   "candidate_glosses": [
@@ -385,6 +403,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/druid",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/svg2vd",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HdrHistogram/HdrHistogram",
       "status": "candidate",
       "text": "Java CI"
     }
@@ -556,11 +586,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "alibaba/druid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "Shopify/svg2vd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "HdrHistogram/HdrHistogram"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

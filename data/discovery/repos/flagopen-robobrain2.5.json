@@ -5,7 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "FlagOpen/RoboBrain2.5",
-      "target": "flagopen/robobrain-x0",
+      "target": "tanhuajie/reason-rft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboBrain2.5",
+      "target": "flagopen/robobrain2.0",
       "target_type": "repository"
     },
     {
@@ -13,20 +20,6 @@
       "source_file": "README.md",
       "source_repo": "FlagOpen/RoboBrain2.5",
       "target": "flagopen/flagscale",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "FlagOpen/RoboBrain2.5",
-      "target": "flageval-baai/flagevalmm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "FlagOpen/RoboBrain2.5",
-      "target": "flagopen/robo-dopamine",
       "target_type": "repository"
     },
     {
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:38:23.186560+00:00",
+  "fetched_at": "2026-05-01T18:36:03.450952+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,22 +68,17 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "flageval-baai/flagevalmm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "flagopen/flagscale",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "flagopen/robo-dopamine",
+      "full_name": "flagopen/robobrain2.0",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "flagopen/robobrain-x0",
+      "full_name": "tanhuajie/reason-rft",
       "source_file": "README.md"
     }
   ],

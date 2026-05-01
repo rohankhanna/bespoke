@@ -31,6 +31,30 @@
       "source_repo": "SciML/SciMLTutorials.jl",
       "status": "candidate-context",
       "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/SciMLStyle",
+      "status": "candidate-context",
+      "text": "A style guide for stylish Julia developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLStyle",
+      "status": "candidate-context",
+      "text": "[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "status": "candidate-context",
+      "text": "Tutorials for doing scientific machine learning (SciML) and high-performance differential equation solving with open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLTutorialsOutput",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLStyle",
+      "status": "candidate",
+      "text": "[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLTutorialsOutput",
       "status": "candidate",
       "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
     }
@@ -70,11 +106,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "SciML/SciMLTutorials.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "SciML/SciMLStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorialsOutput"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

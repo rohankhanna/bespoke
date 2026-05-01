@@ -1,36 +1,21 @@
 {
-  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "hchiam/learning-bash-scripts"
+      "source_repo": "babashka/babashka"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "get-gah/gah"
+      "source_repo": "erikw/tmux-powerline"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "powerline/powerline"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "micromatch/micromatch"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "git-quick-stats/git-quick-stats"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nvm-sh/nvm"
     }
   ],
   "term": "bash"

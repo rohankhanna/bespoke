@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prepare Buildpack Releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpacks for JVM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate-context",
+      "text": "Prepare Buildpack Releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate",
+      "text": "Prepare Buildpack Releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12000,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11884,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11884,
+      "status": "candidate",
+      "text": "fired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11122,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11122,
+      "status": "candidate",
+      "text": "disposal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prepare Buildpack Releases",
+  "concept_id": "prepare-buildpack-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/buildpacks-jvm"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prepare Buildpack Releases",
+      "sense_id": "prepare-buildpack-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

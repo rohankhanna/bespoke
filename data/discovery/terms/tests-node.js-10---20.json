@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/node-tens.yml",
       "source_repo": "ljharb/qs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node-tens.yml",
+      "source_repo": "browserify/resolve"
     }
   ],
   "term": "Tests: node.js 10 - 20"

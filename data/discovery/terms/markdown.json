@@ -1,36 +1,16 @@
 {
-  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
+      "source_repo": "logseq/logseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
       "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "zakhenry/embedme"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "haiwen/seafile"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fern-api/docs-starter"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "clayrisser/sphinx-jekyll-builder"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "clayrisser/sphinx-markdown-builder"
     }
   ],
   "term": "markdown"

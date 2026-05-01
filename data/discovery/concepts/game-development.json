@@ -271,6 +271,30 @@
       "source_repo": "assimp/assimp",
       "status": "candidate-context",
       "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rameshvarun/netplayjs",
+      "status": "candidate-context",
+      "text": "Make P2P multiplayer browser games, no server hosting or synchronization code required. Powered by rollback netcode + WebRTC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rameshvarun/netplayjs",
+      "status": "candidate-context",
+      "text": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/godot",
+      "status": "candidate-context",
+      "text": "Godot Engine \u2013 Multi-platform 2D and 3D game engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "assimp/assimp",
       "status": "candidate",
       "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rameshvarun/netplayjs",
+      "status": "candidate",
+      "text": "[![Node.js CI](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml/badge.svg)](https://github.com/rameshvarun/netplayjs/actions/workflows/node.js.yml) [![npm](https://img.shields.io/npm/v/netplayjs)](https://www.npmjs.com/package/netplayjs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -598,11 +634,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "rameshvarun/netplayjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/godot"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

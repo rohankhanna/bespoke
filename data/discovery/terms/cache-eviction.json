@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/s3-cache.yaml",
       "source_repo": "haskell/haskell-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cache.yaml",
+      "source_repo": "haskell/ghcup-hs"
     }
   ],
   "term": "Cache eviction"

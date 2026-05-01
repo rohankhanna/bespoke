@@ -1,0 +1,412 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-full.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-full.yml"
+    },
+    {
+      "component": "super-linter/super-linter@v8.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-full.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-pr.yml"
+    },
+    {
+      "component": "super-linter/super-linter@v8.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-pr.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "narugit/smctemp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "creaktive/rainbarf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "maykonlsf/semver-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "erikw/tmux-dark-notify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-full.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-full.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-full.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "super-linter/super-linter@v8.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter-full.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "Lint Full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-pr.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-pr.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-pr.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "super-linter/super-linter@v8.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter-pr.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "Lint Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "erikw/tmux-powerline",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "dynamic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "powerline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "segments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "statusbar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "tmux-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "tmux-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "tmux-powerline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "tmux-status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikw/tmux-powerline",
+      "target": "tmux-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:56:45.070211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13476
+    },
+    {
+      "path": ".github/workflows/linter-full.yml",
+      "size": 794
+    },
+    {
+      "path": ".github/workflows/linter-pr.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26a1\ufe0f A tmux plugin giving you a hackable status bar consisting of dynamic & beautiful looking powerline segments, written purely in bash.",
+    "fork": false,
+    "full_name": "erikw/tmux-powerline",
+    "html_url": "https://github.com/erikw/tmux-powerline",
+    "language": "Shell",
+    "pushed_at": "2026-02-09T18:05:40Z",
+    "stargazers_count": 3769,
+    "topics": [
+      "bash",
+      "configuration",
+      "dynamic",
+      "hacktoberfest",
+      "powerline",
+      "segments",
+      "shell",
+      "statusbar",
+      "tmux",
+      "tmux-plugin",
+      "tmux-plugins",
+      "tmux-powerline",
+      "tmux-status",
+      "tmux-theme",
+      "tpm"
+    ],
+    "updated_at": "2026-05-01T11:16:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creaktive/rainbarf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erikw/tmux-dark-notify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maykonlsf/semver-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "narugit/smctemp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint Full",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter-full.yml",
+      "term": "Lint Full"
+    },
+    {
+      "context_snippet": "Lint Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter-pr.yml",
+      "term": "Lint Pull Request"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerline"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segments"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusbar"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-plugin"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-plugins"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-powerline"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-status"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-theme"
+    }
+  ]
+}

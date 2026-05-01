@@ -202,6 +202,18 @@
       "source_repo": "guard/listen",
       "status": "candidate-context",
       "text": "Development"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MilesCranmer/DispatchDoctor.jl",
+      "status": "candidate-context",
+      "text": "The dispatch doctor prescribes type stability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/DispatchDoctor.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +312,12 @@
       "source_repo": "guard/listen",
       "status": "candidate",
       "text": "Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MilesCranmer/DispatchDoctor.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -619,11 +637,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "MilesCranmer/DispatchDoctor.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Xuyuanp/vimrc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Xuyuanp/vimrc",
+      "target": "JohnnyMorganz/stylua-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Xuyuanp/vimrc",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/vimrc",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/vimrc",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/vimrc",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/vimrc",
+      "target": "viml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/vimrc",
+      "target": "vimrc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:57:21.991138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 480
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "My neovim config",
+    "fork": false,
+    "full_name": "Xuyuanp/vimrc",
+    "html_url": "https://github.com/Xuyuanp/vimrc",
+    "language": "Lua",
+    "pushed_at": "2022-03-13T14:10:21Z",
+    "stargazers_count": 41,
+    "topics": [
+      "dotfiles",
+      "lsp",
+      "lua",
+      "neovim",
+      "nvim",
+      "vi",
+      "vim",
+      "viml",
+      "vimrc"
+    ],
+    "updated_at": "2025-03-30T18:19:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "vimrc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "vimrc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "vimrc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "vimrc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viml"
+    },
+    {
+      "context_snippet": "vimrc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimrc"
+    }
+  ]
+}

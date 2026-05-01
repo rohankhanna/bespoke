@@ -103,6 +103,36 @@
       "source_repo": "chaoss/grimoirelab-sirmordred",
       "status": "candidate-context",
       "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-cereslib",
+      "status": "candidate-context",
+      "text": "This project aims at unifying, eventizing and enriching information from the Perceval tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-cereslib",
+      "status": "candidate-context",
+      "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-elk",
+      "status": "candidate-context",
+      "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-kidash",
+      "status": "candidate-context",
+      "text": "Kidash: A GrimoireLab tool & library to manage Kibana/Kibiter visualizations and dashboards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-kidash",
+      "status": "candidate-context",
+      "text": "Check changelog file included"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +181,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chaoss/grimoirelab-sirmordred",
+      "status": "candidate",
+      "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-cereslib",
+      "status": "candidate",
+      "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-elk",
+      "status": "candidate",
+      "text": "Check changelog file included"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-kidash",
       "status": "candidate",
       "text": "Check changelog file included"
     }
@@ -244,11 +292,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "chaoss/grimoirelab-sirmordred"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-cereslib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-elk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-kidash"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

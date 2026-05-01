@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "virtual-puppet-project/vpuppr",
+      "target": "google/mediapipe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "virtual-puppet-project/vpuppr",
+      "target": "virtual-puppet-project/mouse-tracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "virtual-puppet-project/vpuppr",
+      "target": "virtual-puppet-project/real-time-lip-sync-gd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "virtual-puppet-project/vpuppr",
+      "target": "j20001970/gdmp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "virtual-puppet-project/vpuppr",
+      "target": "facetracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "virtual-puppet-project/vpuppr",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "virtual-puppet-project/vpuppr",
+      "target": "godot-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "virtual-puppet-project/vpuppr",
+      "target": "vtuber",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:31:09.611059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "VTuber application made with Godot 4",
+    "fork": false,
+    "full_name": "virtual-puppet-project/vpuppr",
+    "html_url": "https://github.com/virtual-puppet-project/vpuppr",
+    "language": "GDScript",
+    "pushed_at": "2024-01-20T01:55:08Z",
+    "stargazers_count": 805,
+    "topics": [
+      "facetracker",
+      "godot",
+      "godot-engine",
+      "vtuber"
+    ],
+    "updated_at": "2026-05-01T12:23:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/mediapipe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j20001970/gdmp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "virtual-puppet-project/mouse-tracker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "virtual-puppet-project/real-time-lip-sync-gd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "VTuber software made with Godot.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facetracker"
+    },
+    {
+      "context_snippet": "VTuber software made with Godot.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "VTuber software made with Godot.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-engine"
+    },
+    {
+      "context_snippet": "VTuber software made with Godot.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vtuber"
+    }
+  ]
+}

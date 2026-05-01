@@ -1,0 +1,12 @@
+{
+  "component": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@99fb0c874daeabc34c61c849cfea313a45a2466a",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yaml",
+      "source_repo": "mui/mui-x"
+    }
+  ]
+}

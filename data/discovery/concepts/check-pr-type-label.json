@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check PR type label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "MUI X: Build complex and data-rich applications using a growing list of advanced React components, like the Data Grid, Date and Time Pickers, Charts, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "Check PR type label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate",
+      "text": "Check PR type label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34525,
+      "status": "candidate",
+      "text": "concertina"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33732,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32478,
+      "status": "candidate",
+      "text": "imprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32453,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27395,
+      "status": "candidate",
+      "text": "major"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check PR type label",
+  "concept_id": "check-pr-type-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/check-if-pr-has-type-label.yml",
+      "source_repo": "mui/mui-x"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check PR type label",
+      "sense_id": "check-pr-type-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -740,6 +740,18 @@
       "source_repo": "fsprojects/FSharp.Data.GraphQL",
       "status": "candidate-context",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate-context",
+      "text": "Scaffolds WP-CLI commands with functional tests, full README.md, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_glosses": [
@@ -1106,6 +1118,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/scaffold-package-command",
       "status": "candidate",
       "text": "\"Copilot Setup Steps\""
     }
@@ -1535,11 +1553,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/scaffold-package-command"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

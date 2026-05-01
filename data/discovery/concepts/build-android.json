@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build Android",
-    "build-android"
+    "build-android",
+    "Build-Android"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -68,6 +69,18 @@
       "source_repo": "Mobile-Artificial-Intelligence/maid",
       "status": "candidate-context",
       "text": "Build Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate-context",
+      "text": "Build-Android"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +113,12 @@
       "source_repo": "Mobile-Artificial-Intelligence/maid",
       "status": "candidate",
       "text": "Build Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/logseq",
+      "status": "candidate",
+      "text": "Build-Android"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +192,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/build-android.yml",
       "source_repo": "Mobile-Artificial-Intelligence/maid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "logseq/logseq"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

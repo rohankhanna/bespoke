@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "lasagne/recipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "dimatura/voxnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "msubhransu/matrix-sqrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "openai/improved-gan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "biggan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "dogball",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajbrock/BigGAN-PyTorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:33:33.365219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The author's officially unofficial PyTorch BigGAN implementation.",
+    "fork": false,
+    "full_name": "ajbrock/BigGAN-PyTorch",
+    "html_url": "https://github.com/ajbrock/BigGAN-PyTorch",
+    "language": "Python",
+    "pushed_at": "2023-07-19T17:08:51Z",
+    "stargazers_count": 2927,
+    "topics": [
+      "biggan",
+      "deep-learning",
+      "dogball",
+      "gans",
+      "neural-networks",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-14T16:26:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimatura/voxnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lasagne/recipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msubhransu/matrix-sqrt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/improved-gan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The author's officially unofficial PyTorch BigGAN implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biggan"
+    },
+    {
+      "context_snippet": "The author's officially unofficial PyTorch BigGAN implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "The author's officially unofficial PyTorch BigGAN implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dogball"
+    },
+    {
+      "context_snippet": "The author's officially unofficial PyTorch BigGAN implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "The author's officially unofficial PyTorch BigGAN implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "The author's officially unofficial PyTorch BigGAN implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

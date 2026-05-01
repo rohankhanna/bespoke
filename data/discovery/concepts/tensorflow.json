@@ -1375,6 +1375,18 @@
       "source_repo": "shepnerd/inpainting_gmcnn",
       "status": "candidate-context",
       "text": "by [Yi Wang](https://shepnerd.github.io/), [Xin Tao](http://www.xtao.website), [Xiaojuan Qi](https://xjqi.github.io), [Xiaoyong Shen](http://xiaoyongshen.me/), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate-context",
+      "text": "TensorFlow implementation of \"Simple Baselines for Human Pose Estimation and Tracking\", ECCV 2018"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2061,6 +2073,12 @@
       "source_repo": "shepnerd/inpainting_gmcnn",
       "status": "candidate",
       "text": "by [Yi Wang](https://shepnerd.github.io/), [Xin Tao](http://www.xtao.website), [Xiaojuan Qi](https://xjqi.github.io), [Xiaoyong Shen](http://xiaoyongshen.me/), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/TF-SimpleHumanPose",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3100,11 +3118,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/TF-SimpleHumanPose"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

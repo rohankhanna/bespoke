@@ -19,6 +19,18 @@
       "source_repo": "relay-tools/relay-hooks",
       "status": "candidate-context",
       "text": "![](https://github.com/relay-tools/relay-hooks/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beizhedenglong/react-hooks-lib",
+      "status": "candidate-context",
+      "text": "A set of reusable React Hooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beizhedenglong/react-hooks-lib",
+      "status": "candidate-context",
+      "text": "A set of reusable [React Hooks](https://reactjs.org/docs/hooks-reference.html#usestate)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "relay-tools/relay-hooks",
       "status": "candidate",
       "text": "![](https://github.com/relay-tools/relay-hooks/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beizhedenglong/react-hooks-lib",
+      "status": "candidate",
+      "text": "A set of reusable [React Hooks](https://reactjs.org/docs/hooks-reference.html#usestate)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "relay-tools/relay-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "beizhedenglong/react-hooks-lib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

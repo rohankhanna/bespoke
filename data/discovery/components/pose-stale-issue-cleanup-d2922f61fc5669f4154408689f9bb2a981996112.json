@@ -1,0 +1,17 @@
+{
+  "component": "pose/stale-issue-cleanup@d2922f61fc5669f4154408689f9bb2a981996112",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-stale-issues.yml",
+      "source_repo": "pulumi/pulumi-azure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-stale-issues.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    }
+  ]
+}

@@ -391,6 +391,18 @@
       "source_repo": "airbnb/okreplay",
       "status": "candidate-context",
       "text": "Build/Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "coturn TURN server project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "[![Docker CI](https://github.com/coturn/coturn/actions/workflows/docker.yml/badge.svg \"Docker CI\")](https://github.com/coturn/coturn/actions/workflows/docker.yml)"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "airbnb/okreplay",
       "status": "candidate",
       "text": "Build/Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate",
+      "text": "[![Docker CI](https://github.com/coturn/coturn/actions/workflows/docker.yml/badge.svg \"Docker CI\")](https://github.com/coturn/coturn/actions/workflows/docker.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -820,11 +838,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "airbnb/okreplay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "coturn/coturn"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

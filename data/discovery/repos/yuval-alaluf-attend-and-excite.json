@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "target": "attendandexcite/attend-and-excite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "target": "text-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:35:05.626597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Implementation for \"Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models\" (SIGGRAPH 2023)",
+    "fork": false,
+    "full_name": "yuval-alaluf/Attend-and-Excite",
+    "html_url": "https://github.com/yuval-alaluf/Attend-and-Excite",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-26T08:13:03Z",
+    "stargazers_count": 770,
+    "topics": [
+      "diffusion-models",
+      "stable-diffusion",
+      "text-to-image"
+    ],
+    "updated_at": "2026-04-28T10:35:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attendandexcite/attend-and-excite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    }
+  ]
+}

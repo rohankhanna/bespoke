@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "clang"
+    "clang",
+    "Clang"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -177,6 +178,18 @@
       "source_repo": "bloomberg/clang-p2996",
       "status": "candidate-context",
       "text": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "coturn TURN server project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate-context",
+      "text": "Clang"
     }
   ],
   "candidate_glosses": [
@@ -263,6 +276,12 @@
       "source_repo": "bloomberg/clang-p2996",
       "status": "candidate",
       "text": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coturn/coturn",
+      "status": "candidate",
+      "text": "Clang"
     }
   ],
   "candidate_related_terms": [
@@ -456,11 +475,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/clang.yml",
+      "source_repo": "coturn/coturn"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

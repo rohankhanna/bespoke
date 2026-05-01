@@ -84,7 +84,7 @@
   "normalized_form": "release-test",
   "observation_id": "b132b8f86f64655f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "Release Test",
   "source_context_snippet": "Release Test",
   "source_file": ".github/workflows/release-test.yml",

@@ -43,6 +43,18 @@
       "source_repo": "archinetai/a-unet",
       "status": "candidate-context",
       "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate-context",
+      "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "archinetai/a-unet",
       "status": "candidate",
       "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "milesial/Pytorch-UNet",
+      "status": "candidate",
+      "text": "<a href=\"#\"><img src=\"https://img.shields.io/github/actions/workflow/status/milesial/PyTorch-UNet/main.yml?logo=github&style=for-the-badge\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "milesial/Pytorch-UNet"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

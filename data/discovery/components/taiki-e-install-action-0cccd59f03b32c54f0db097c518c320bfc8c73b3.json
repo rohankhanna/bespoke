@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@0cccd59f03b32c54f0db097c518c320bfc8c73b3",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-go"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "gherkin-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-branch-alias.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-check-branch-alias.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-branch-alias.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "Check Branch Alias",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-code-quality.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "Code Quality Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-issue-triage.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "Issue and PR Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gherkin.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gherkin.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "bahmutov/npm-install@20216767ca67f0f7b4d095dc5859c5700a6581cb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-gherkin.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "Gherkin Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manage-labels.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-manage-labels.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manage-labels.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "Manage Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-readme.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-regenerate-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-readme.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "Regenerate README file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-testing.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "scaffold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wordpress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wp-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/scaffold-package-command",
+      "target": "wp-cli-package",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "wp-cli/scaffold-package-command"
+}

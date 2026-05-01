@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:31:20.552227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "TMElyralab/controlnet_aux",
+    "html_url": "https://github.com/TMElyralab/controlnet_aux",
+    "language": "Python",
+    "pushed_at": "2024-04-12T04:03:49Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-04-08T12:57:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

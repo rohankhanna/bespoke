@@ -4471,6 +4471,42 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate-context",
       "text": "*****"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/Zygote.jl",
+      "status": "candidate-context",
+      "text": "21st century AD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Zygote.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate-context",
+      "text": "A curated list of research, applications and projects built using the H2O Machine Learning platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water provides H2O functionality inside Spark cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_glosses": [
@@ -6705,6 +6741,24 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate",
       "text": "*****"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/Zygote.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_related_terms": [],
@@ -10312,11 +10366,71 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/Zygote.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

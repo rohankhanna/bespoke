@@ -1,0 +1,22 @@
+{
+  "component": "jdx/mise-action@ac8a6414ec0fd0713e42c52da2772aab98f5e2b6",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_provider.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_sdk.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pulumi/pulumi-gcp"
+    }
+  ]
+}

@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "codecov/codecov-action@v5",
+      "component": "codecov/codecov-action@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -261,7 +261,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "vaporif/parry-guard",
-      "target": "codecov/codecov-action@v5",
+      "target": "codecov/codecov-action@v6",
       "target_type": "component"
     },
     {
@@ -384,7 +384,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:48:42.834577+00:00",
+  "fetched_at": "2026-05-01T18:49:07.055835+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -392,7 +392,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 2964
+      "size": 2919
     },
     {
       "path": "Dockerfile",
@@ -424,7 +424,7 @@
     "full_name": "vaporif/parry-guard",
     "html_url": "https://github.com/vaporif/parry-guard",
     "language": "Rust",
-    "pushed_at": "2026-04-28T14:25:55Z",
+    "pushed_at": "2026-05-01T18:03:29Z",
     "stargazers_count": 37,
     "topics": [
       "claude-code",
@@ -433,7 +433,7 @@
       "prompt-injection-llm-security",
       "rust"
     ],
-    "updated_at": "2026-04-29T23:57:29Z"
+    "updated_at": "2026-05-01T18:02:39Z"
   },
   "repo_links": [
     {

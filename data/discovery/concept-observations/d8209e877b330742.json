@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Open-source Deep Learning Framework for Visual Place Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![1720110200313](image/README/1720110200313.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![1720110200313](image/README/1720110200313.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-based-localisation",
+      "sense_id": "image-based-localisation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-based-localisation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-based-localisation",
+  "observation_id": "d8209e877b330742",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "image-based-localisation",
+  "source_context_snippet": "![1720110200313](image/README/1720110200313.png)",
+  "source_file": null,
+  "source_repo": "amaralibey/OpenVPRLab",
+  "source_repo_description": "An Open-source Deep Learning Framework for Visual Place Recognition"
+}

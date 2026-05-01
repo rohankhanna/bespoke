@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@v4",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -287,6 +287,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "appwrite/appwrite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "coturn/coturn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "coturn/coturn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cobalt-org/liquid-rust"
     }
   ]
 }

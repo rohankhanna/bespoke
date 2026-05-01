@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "import-meta-resolve",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "babashka/nbb-features",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "cldwalker/logseq-query",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "dom8509/logseq-to-markdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "cldwalker/logseq-clis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "import-meta-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logseq/nbb-logseq",
+      "target": "DeLaGuardo/setup-clojure@13.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logseq/nbb-logseq",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logseq/nbb-logseq",
+      "target": "logseq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logseq/nbb-logseq",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:51:21.390669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8855
+    },
+    {
+      "path": "package.json",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1018
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nbb with features enabled for logseq",
+    "fork": false,
+    "full_name": "logseq/nbb-logseq",
+    "html_url": "https://github.com/logseq/nbb-logseq",
+    "language": "Clojure",
+    "pushed_at": "2026-04-29T19:49:13Z",
+    "stargazers_count": 174,
+    "topics": [
+      "clojurescript",
+      "logseq",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-29T19:49:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/nbb-features",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cldwalker/logseq-clis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cldwalker/logseq-query",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dom8509/logseq-to-markdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`nbb-logseq` provides [easy CLJS scripting on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "`nbb-logseq` provides [easy CLJS scripting on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logseq"
+    },
+    {
+      "context_snippet": "`nbb-logseq` provides [easy CLJS scripting on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

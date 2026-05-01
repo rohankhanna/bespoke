@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaCI/base-buildkite-docs",
+      "target": "juliaci/rootfs-images",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:41:16.999264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation for the Buildkite setup used by Base Julia CI ",
+    "fork": false,
+    "full_name": "JuliaCI/base-buildkite-docs",
+    "html_url": "https://github.com/JuliaCI/base-buildkite-docs",
+    "language": null,
+    "pushed_at": "2022-08-26T04:22:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-10-22T13:35:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaci/rootfs-images",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

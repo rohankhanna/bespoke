@@ -19,12 +19,30 @@
       "source_repo": "DioxusLabs/stork",
       "status": "candidate-context",
       "text": "\"Run CI on Pushes\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e Impossibly fast web search, made for static sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate-context",
+      "text": "\"Run CI on Pushes\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "DioxusLabs/stork",
+      "status": "candidate",
+      "text": "\"Run CI on Pushes\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jameslittle230/stork",
       "status": "candidate",
       "text": "\"Run CI on Pushes\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/ci-on-push.yml",
       "source_repo": "DioxusLabs/stork"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/ci-on-push.yml",
+      "source_repo": "jameslittle230/stork"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

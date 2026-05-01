@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:50:22.186381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a reader for extensible data notation",
+    "fork": false,
+    "full_name": "bpsm/edn-java",
+    "html_url": "https://github.com/bpsm/edn-java",
+    "language": "Clojure",
+    "pushed_at": "2022-01-17T17:25:45Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-04-22T14:46:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

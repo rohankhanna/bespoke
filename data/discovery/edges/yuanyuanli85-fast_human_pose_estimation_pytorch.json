@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "bearpaw/pytorch-pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "yuanyuanli85/fast_stacked_hourglass_network_openvino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "opencv/dldt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "yuanyuanli85/pytorch-pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch",
+      "target": "stacked-hourglass-networks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "source_repo": "yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch"
+}

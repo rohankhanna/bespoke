@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "nix build and check advisories"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/security-advisories",
+      "status": "candidate-context",
+      "text": "nix build and check advisories"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/security-advisories",
+      "status": "candidate",
+      "text": "nix build and check advisories"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36447,
+      "status": "candidate",
+      "text": "explode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36447,
+      "status": "candidate",
+      "text": "exploded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36447,
+      "status": "candidate",
+      "text": "jog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36447,
+      "status": "candidate",
+      "text": "joh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36447,
+      "status": "candidate",
+      "text": "jpg"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nix build and check advisories",
+  "concept_id": "nix-build-and-check-advisories",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "haskell/security-advisories"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nix build and check advisories",
+      "sense_id": "nix-build-and-check-advisories#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

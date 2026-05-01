@@ -55,6 +55,54 @@
       "source_repo": "heroku/buildpacks",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/base-images",
+      "status": "candidate-context",
+      "text": "Recipes for building the base images for Heroku's stacks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/base-images",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/heroku/base-images/actions/workflows/ci.yml/badge.svg)](https://github.com/heroku/base-images/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-dotnet",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpack for .NET applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-dotnet",
+      "status": "candidate-context",
+      "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-go",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpack for Go applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-go",
+      "status": "candidate-context",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/go][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpacks for JVM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate-context",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "heroku/buildpacks",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/base-images",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/heroku/base-images/actions/workflows/ci.yml/badge.svg)](https://github.com/heroku/base-images/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-dotnet",
+      "status": "candidate",
+      "text": "![dotnet-buildpack-github-banner](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-dotnet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-go",
+      "status": "candidate",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/go][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-jvm",
+      "status": "candidate",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +184,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "heroku/buildpacks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "heroku/base-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-jvm"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

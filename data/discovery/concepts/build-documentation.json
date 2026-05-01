@@ -506,6 +506,18 @@
       "source_repo": "Quick/Nimble",
       "status": "candidate-context",
       "text": "Build Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gokyeongryeol/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch and FLAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gokyeongryeol/diffusers",
+      "status": "candidate-context",
+      "text": "Build documentation"
     }
   ],
   "candidate_glosses": [
@@ -760,6 +772,12 @@
       "source_repo": "Quick/Nimble",
       "status": "candidate",
       "text": "Build Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gokyeongryeol/diffusers",
+      "status": "candidate",
+      "text": "Build documentation"
     }
   ],
   "candidate_related_terms": [
@@ -1271,11 +1289,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "gokyeongryeol/diffusers"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

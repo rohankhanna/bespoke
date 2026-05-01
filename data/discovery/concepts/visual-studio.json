@@ -225,6 +225,18 @@
       "source_repo": "PrismLibrary/Prism",
       "status": "candidate-context",
       "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axodox/AxoCover",
+      "status": "candidate-context",
+      "text": "Nice and free .Net\u00a0code coverage support for Visual Studio with OpenCover."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodox/AxoCover",
+      "status": "candidate-context",
+      "text": "Nice and free .Net code coverage support for Visual Studio with OpenCover."
     }
   ],
   "candidate_glosses": [
@@ -335,6 +347,12 @@
       "source_repo": "PrismLibrary/Prism",
       "status": "candidate",
       "text": "Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Avalonia, MAUI, Uno Platform and WinUI. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodox/AxoCover",
+      "status": "candidate",
+      "text": "Nice and free .Net code coverage support for Visual Studio with OpenCover."
     }
   ],
   "candidate_related_terms": [],
@@ -456,11 +474,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/visual-studio.yml",
       "source_repo": "nodejs/node-gyp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "axodox/AxoCover"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

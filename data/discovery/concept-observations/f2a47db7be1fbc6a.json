@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A theme for obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A clean and highly customisable theme for obsidian."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A clean and highly customisable theme for obsidian."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian-theme",
+      "sense_id": "obsidian-theme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "obsidian-theme",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "obsidian-theme",
+  "observation_id": "f2a47db7be1fbc6a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "obsidian-theme",
+  "source_context_snippet": "A clean and highly customisable theme for obsidian.",
+  "source_file": null,
+  "source_repo": "Akifyss/obsidian-border",
+  "source_repo_description": "A theme for obsidian.md"
+}

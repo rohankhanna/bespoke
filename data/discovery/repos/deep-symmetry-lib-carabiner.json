@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "Xotl/cool-github-releases@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "target": "bpsm/edn-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "target": "Xotl/cool-github-releases@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "target": "Create library jar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "target": "ableton-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "target": "java-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:50:06.654059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4733
+    },
+    {
+      "path": ".github/workflows/jar.yml",
+      "size": 2962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java wrapper for the Carabiner bridge to Ableton Link",
+    "fork": false,
+    "full_name": "Deep-Symmetry/lib-carabiner",
+    "html_url": "https://github.com/Deep-Symmetry/lib-carabiner",
+    "language": "Java",
+    "pushed_at": "2024-07-08T09:44:15Z",
+    "stargazers_count": 6,
+    "topics": [
+      "ableton-link",
+      "java-library"
+    ],
+    "updated_at": "2025-08-13T01:28:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bpsm/edn-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create library jar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "term": "Create library jar"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ableton-link"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-library"
+    }
+  ]
+}

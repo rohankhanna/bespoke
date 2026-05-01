@@ -379,6 +379,30 @@
       "source_repo": "styleguidist/react-docgen-typescript",
       "status": "candidate-context",
       "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/preset-modules",
+      "status": "candidate-context",
+      "text": "A Babel preset that targets modern browsers by fixing engine bugs (will be merged into preset-env eventually)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/preset-modules",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marcello3d/node-tosource",
+      "status": "candidate-context",
+      "text": "Converts JavaScript objects to source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marcello3d/node-tosource",
+      "status": "candidate-context",
+      "text": "Node CI"
     }
   ],
   "candidate_glosses": [
@@ -565,6 +589,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "styleguidist/react-docgen-typescript",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/preset-modules",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marcello3d/node-tosource",
       "status": "candidate",
       "text": "Node CI"
     }
@@ -940,11 +976,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "babel/preset-modules"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "marcello3d/node-tosource"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "apollographql/eslint-plugin-graphql"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "mui/material-ui",
       "status": "candidate-context",
       "text": "Create cherry-pick PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "MUI X: Build complex and data-rich applications using a growing list of advanced React components, like the Data Grid, Date and Time Pickers, Charts, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "Create cherry-pick PR"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mui/material-ui",
+      "status": "candidate",
+      "text": "Create cherry-pick PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
       "status": "candidate",
       "text": "Create cherry-pick PR"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/create-cherry-pick-pr.yml",
       "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/create-cherry-pick-pr.yml",
+      "source_repo": "mui/mui-x"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

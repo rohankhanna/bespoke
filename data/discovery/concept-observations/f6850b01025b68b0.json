@@ -84,7 +84,7 @@
   "normalized_form": "build-native-cli-archives",
   "observation_id": "f6850b01025b68b0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
   "observed_text": "Build native CLI archives",
   "source_context_snippet": "Build native CLI archives",
   "source_file": ".github/workflows/build-cli-native-archives.yml",

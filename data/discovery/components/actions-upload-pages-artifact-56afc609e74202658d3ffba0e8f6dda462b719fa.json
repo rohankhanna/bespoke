@@ -2,7 +2,7 @@
   "component": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -69,6 +69,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "yaahc/blog.rust-lang.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-lang/blog.rust-lang.org"
     }
   ]
 }

@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pyo3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "pyo3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "aho-corasick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "pattern-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-Research/ahocorasick_rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:58:58.533846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9170
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 781
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 533
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Check for multiple patterns in a single string at the same time: a fast Aho-Corasick algorithm for Python",
+    "fork": false,
+    "full_name": "G-Research/ahocorasick_rs",
+    "html_url": "https://github.com/G-Research/ahocorasick_rs",
+    "language": "Python",
+    "pushed_at": "2026-04-06T17:44:42Z",
+    "stargazers_count": 221,
+    "topics": [
+      "aho-corasick",
+      "pattern-matching",
+      "python",
+      "rust"
+    ],
+    "updated_at": "2026-04-26T06:38:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aho-corasick"
+    },
+    {
+      "context_snippet": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pattern-matching"
+    },
+    {
+      "context_snippet": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

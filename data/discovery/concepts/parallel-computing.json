@@ -139,6 +139,18 @@
       "source_repo": "Alpine-DAV/ascent",
       "status": "candidate-context",
       "text": "Ascent"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSymbolics/Symbolics.jl",
+      "status": "candidate-context",
+      "text": "Symbolic programming for the next generation of numerical software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/Symbolics.jl",
+      "status": "candidate-context",
+      "text": "[![Github Action CI](https://github.com/JuliaSymbolics/Symbolics.jl/workflows/CI/badge.svg)](https://github.com/JuliaSymbolics/Symbolics.jl/actions)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "Alpine-DAV/ascent",
       "status": "candidate",
       "text": "Ascent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/Symbolics.jl",
+      "status": "candidate",
+      "text": "[![Github Action CI](https://github.com/JuliaSymbolics/Symbolics.jl/workflows/CI/badge.svg)](https://github.com/JuliaSymbolics/Symbolics.jl/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +358,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "JuliaSymbolics/Symbolics.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

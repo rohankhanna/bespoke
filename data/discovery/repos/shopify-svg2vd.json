@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "Shopify/shopify-cla-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/setup-java@b6e674f4b717d7b0ae3baee0fbe79f498905dfde",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shopify/svg2vd",
+      "target": "alexjlockwood/avocado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/svg2vd",
+      "target": "Shopify/shopify-cla-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/svg2vd",
+      "target": "Contributor License Agreement (CLA)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "Shopify/svg2vd",
+      "target": "actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "Shopify/svg2vd",
+      "target": "actions/setup-java@b6e674f4b717d7b0ae3baee0fbe79f498905dfde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "Shopify/svg2vd",
+      "target": "Java CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:48:28.513653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2487
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/gradle.yml",
+      "size": 364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Shopify/svg2vd",
+    "html_url": "https://github.com/Shopify/svg2vd",
+    "language": "Kotlin",
+    "pushed_at": "2026-01-26T08:09:59Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-07T03:11:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexjlockwood/avocado",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Contributor License Agreement (CLA)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "Contributor License Agreement (CLA)"
+    },
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "term": "Java CI"
+    }
+  ]
+}

@@ -787,6 +787,18 @@
       "source_repo": "TanStack/router",
       "status": "candidate-context",
       "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate-context",
+      "text": "An Open-source Deep Learning Framework for Visual Place Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate-context",
+      "text": "![1720110200313](image/README/1720110200313.png)"
     }
   ],
   "candidate_glosses": [
@@ -1179,6 +1191,12 @@
       "source_repo": "TanStack/router",
       "status": "candidate",
       "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate",
+      "text": "![1720110200313](image/README/1720110200313.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1906,11 +1924,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

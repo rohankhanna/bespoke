@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Get app manifest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "status": "candidate-context",
+      "text": "Reusable workflows for Ledger applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "status": "candidate-context",
+      "text": "Get app manifest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ledger-app-workflows",
+      "status": "candidate",
+      "text": "Get app manifest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23412,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23108,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22987,
+      "status": "candidate",
+      "text": "acknowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22654,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22654,
+      "status": "candidate",
+      "text": "bak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Get app manifest",
+  "concept_id": "get-app-manifest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/_get_app_manifest.yml",
+      "source_repo": "LedgerHQ/ledger-app-workflows"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Get app manifest",
+      "sense_id": "get-app-manifest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

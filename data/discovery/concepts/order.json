@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "order"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate-context",
+      "text": "stylelint + idiomatic-css = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate-context",
+      "text": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ream88/stylelint-config-idiomatic-order",
+      "status": "candidate",
+      "text": "Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007001,
+      "status": "candidate",
+      "text": "arrange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005268,
+      "status": "candidate",
+      "text": "orderliness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003758,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001859,
+      "status": "candidate",
+      "text": "set up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001558,
+      "status": "candidate",
+      "text": "rate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31093,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24056,
+      "status": "candidate",
+      "text": "tell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24053,
+      "status": "candidate",
+      "text": "society"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23067,
+      "status": "candidate",
+      "text": "rank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21059,
+      "status": "candidate",
+      "text": "club"
+    }
+  ],
+  "canonical_name": "order",
+  "concept_id": "order",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ream88/stylelint-config-idiomatic-order"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "order",
+      "sense_id": "order#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

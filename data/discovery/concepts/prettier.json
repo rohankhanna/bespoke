@@ -136,6 +136,18 @@
       "source_repo": "un-ts/prettier",
       "status": "candidate-context",
       "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/prettier/ci.yml?branch=master)](https://github.com/un-ts/prettier/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-emacs",
+      "status": "candidate-context",
+      "text": "Minor mode to format code on file save"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-emacs",
+      "status": "candidate-context",
+      "text": "[![MELPA](http://melpa.org/packages/prettier-js-badge.svg)](http://melpa.org/#/prettier-js) [![CI](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml/badge.svg)](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +216,12 @@
       "source_repo": "un-ts/prettier",
       "status": "candidate",
       "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/prettier/ci.yml?branch=master)](https://github.com/un-ts/prettier/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-emacs",
+      "status": "candidate",
+      "text": "[![MELPA](http://melpa.org/packages/prettier-js-badge.svg)](http://melpa.org/#/prettier-js) [![CI](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml/badge.svg)](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -313,11 +331,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "un-ts/prettier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "prettier/prettier-emacs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

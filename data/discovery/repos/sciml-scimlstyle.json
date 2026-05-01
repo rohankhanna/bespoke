@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml"
+    },
+    {
+      "component": "fredrikekre/runic-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.18.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "juliaarrays/offsetarrays.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "juliaarrays/fftviews.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "juliaarrays/arrayinterface.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "juliadiff/chainrulescore.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "fredrikekre/runic-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "format-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "crate-ci/typos@v1.18.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/SciMLStyle",
+      "target": "Spell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLStyle",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLStyle",
+      "target": "scientific-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLStyle",
+      "target": "sciml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLStyle",
+      "target": "style",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:34:03.710547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 67474
+    },
+    {
+      "path": ".github/workflows/Documentation.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/FormatCheck.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/SpellCheck.yml",
+      "size": 273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A style guide for stylish Julia developers",
+    "fork": false,
+    "full_name": "SciML/SciMLStyle",
+    "html_url": "https://github.com/SciML/SciMLStyle",
+    "language": "Julia",
+    "pushed_at": "2026-04-21T01:51:13Z",
+    "stargazers_count": 234,
+    "topics": [
+      "julia",
+      "ode",
+      "scientific-machine-learning",
+      "sciml",
+      "style"
+    ],
+    "updated_at": "2026-04-22T12:08:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaarrays/arrayinterface.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaarrays/fftviews.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaarrays/offsetarrays.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliadiff/chainrulescore.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "format-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "term": "format-check"
+    },
+    {
+      "context_snippet": "Spell Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "term": "Spell Check"
+    },
+    {
+      "context_snippet": "[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-machine-learning"
+    },
+    {
+      "context_snippet": "[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sciml"
+    },
+    {
+      "context_snippet": "[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style"
+    }
+  ]
+}

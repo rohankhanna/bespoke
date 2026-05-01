@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -2391,6 +2391,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "ctz/hpke-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-cereslib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-elk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-kidash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "citation-file-format/ruby-cff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "malewicz1337/oil-git.nvim"
     }
   ],
   "term": "Tests"

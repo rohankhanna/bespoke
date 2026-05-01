@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032500,
+      "status": "candidate",
+      "text": "adjacent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032112,
+      "status": "candidate",
+      "text": "following"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031779,
+      "status": "candidate",
+      "text": "succeeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029381,
+      "status": "candidate",
+      "text": "side by side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026549,
+      "status": "candidate",
+      "text": "incoming"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "next",
+      "sense_id": "next#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45062,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30046,
+      "status": "candidate",
+      "text": "adjacent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13027,
+      "status": "candidate",
+      "text": "succeeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10043,
+      "status": "candidate",
+      "text": "future"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4036,
+      "status": "candidate",
+      "text": "following"
+    }
+  ],
+  "concept_id": "next",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "next",
+  "observation_id": "ad1e4af355de8f53",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "next",
+  "source_context_snippet": "<h1 align=\"center\">Routex.js</h1>",
+  "source_file": null,
+  "source_repo": "alexhoma/routex.js",
+  "source_repo_description": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js"
+}

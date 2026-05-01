@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A file manager for Neovim which lets you edit your filesystem like you edit text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A directory buffer for Neovim that lets you edit your filesystem like you edit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A directory buffer for Neovim that lets you edit your filesystem like you edit"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "file-manager",
+      "sense_id": "file-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-manager",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-manager",
+  "observation_id": "65591680a72e70b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "file-manager",
+  "source_context_snippet": "A directory buffer for Neovim that lets you edit your filesystem like you edit",
+  "source_file": null,
+  "source_repo": "elihunter173/dirbuf.nvim",
+  "source_repo_description": "A file manager for Neovim which lets you edit your filesystem like you edit text"
+}

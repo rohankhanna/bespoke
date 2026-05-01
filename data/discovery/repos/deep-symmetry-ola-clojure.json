@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/ola-clojure",
+      "target": "brunchboy/afterglow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/ola-clojure",
+      "target": "brunchboy/ola-clojure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/ola-clojure",
+      "target": "boot-clj/boot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/ola-clojure",
+      "target": "flatland/clojure-protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/ola-clojure",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/ola-clojure",
+      "target": "ola-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:50:27.317702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Clojure library for communicating with the Open Lighting Architecture",
+    "fork": false,
+    "full_name": "Deep-Symmetry/ola-clojure",
+    "html_url": "https://github.com/Deep-Symmetry/ola-clojure",
+    "language": "Clojure",
+    "pushed_at": "2023-03-12T17:52:16Z",
+    "stargazers_count": 8,
+    "topics": [
+      "clojure",
+      "ola",
+      "ola-client"
+    ],
+    "updated_at": "2024-11-06T21:12:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boot-clj/boot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/afterglow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/ola-clojure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flatland/clojure-protobuf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow) <image align=\"right\" width=\"275\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow) <image align=\"right\" width=\"275\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ola-client"
+    }
+  ]
+}

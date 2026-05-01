@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/ruff-action@v3",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ruff-lint.yml",
       "source_repo": "kohya-ss/musubi-tuner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-fast-checks.yml",
+      "source_repo": "LedgerHQ/ledgercomm"
     }
   ]
 }

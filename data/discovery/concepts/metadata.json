@@ -166,6 +166,18 @@
       "source_repo": "FAIR-IMPACT/MOD",
       "status": "candidate-context",
       "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate-context",
+      "text": "A Ruby library for manipulating CITATION.cff files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate-context",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "FAIR-IMPACT/MOD",
       "status": "candidate",
       "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate",
+      "text": "A Ruby library for creating, editing, validating and converting CITATION.cff files."
     }
   ],
   "candidate_related_terms": [
@@ -433,11 +451,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "citation-file-format/ruby-cff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

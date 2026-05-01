@@ -67,6 +67,18 @@
       "source_repo": "kkomelin/isomorphic-dompurify",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "kkomelin/isomorphic-dompurify",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

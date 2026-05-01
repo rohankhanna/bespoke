@@ -19,6 +19,18 @@
       "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
       "status": "candidate-context",
       "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSymbolics/Symbolics.jl",
+      "status": "candidate-context",
+      "text": "Symbolic programming for the next generation of numerical software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/Symbolics.jl",
+      "status": "candidate-context",
+      "text": "[![Github Action CI](https://github.com/JuliaSymbolics/Symbolics.jl/workflows/CI/badge.svg)](https://github.com/JuliaSymbolics/Symbolics.jl/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
       "status": "candidate",
       "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/Symbolics.jl",
+      "status": "candidate",
+      "text": "[![Github Action CI](https://github.com/JuliaSymbolics/Symbolics.jl/workflows/CI/badge.svg)](https://github.com/JuliaSymbolics/Symbolics.jl/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "JuliaSymbolics/SymbolicUtils.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "JuliaSymbolics/Symbolics.jl"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

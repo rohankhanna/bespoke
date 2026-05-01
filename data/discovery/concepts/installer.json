@@ -283,6 +283,12 @@
       "source_repo": "devsnek/esvu",
       "status": "candidate-context",
       "text": "esvu is your one-stop shop for all implementations of ECMAScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/ghcup-hs",
+      "status": "candidate-context",
+      "text": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +429,12 @@
       "source_repo": "devsnek/esvu",
       "status": "candidate",
       "text": "esvu is your one-stop shop for all implementations of ECMAScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/ghcup-hs",
+      "status": "candidate",
+      "text": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)"
     }
   ],
   "candidate_related_terms": [
@@ -706,11 +718,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "electron-userland/electron-wix-msi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "haskell/ghcup-hs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

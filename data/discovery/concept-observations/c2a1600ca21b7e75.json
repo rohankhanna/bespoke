@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kryo-based serialization for Akka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Full test prior to release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Full test prior to release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45352,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43837,
+      "status": "candidate",
+      "text": "parole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33718,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33691,
+      "status": "candidate",
+      "text": "acquittance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33251,
+      "status": "candidate",
+      "text": "mot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Full test prior to release",
+      "sense_id": "full-test-prior-to-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "full-test-prior-to-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "full-test-prior-to-release",
+  "observation_id": "c2a1600ca21b7e75",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "Full test prior to release",
+  "source_context_snippet": "Full test prior to release",
+  "source_file": ".github/workflows/fullTest.yml",
+  "source_repo": "altoo-ag/akka-kryo-serialization",
+  "source_repo_description": "Kryo-based serialization for Akka"
+}

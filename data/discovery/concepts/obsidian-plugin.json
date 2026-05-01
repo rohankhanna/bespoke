@@ -43,6 +43,30 @@
       "source_repo": "chhoumann/quickadd",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate-context",
+      "text": "A plugin for Obsidian.md for styling codeblocks and inline code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate-context",
+      "text": "[![Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=downloads&style=for-the-badge&query=%24%5B%22code-styler%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.jso\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidian-community/obsidian-style-settings",
+      "status": "candidate-context",
+      "text": "A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-style-settings",
+      "status": "candidate-context",
+      "text": "This plugin allows snippet, theme, and plugin CSS files to define a set of configuration options. It then allows users to see all the tweakable settings in one settings pane. Style Settings allows both toggling classes on and off the `body` element, as well as setting numeric, s\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "chhoumann/quickadd",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate",
+      "text": "[![Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=downloads&style=for-the-badge&query=%24%5B%22code-styler%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.jso\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-style-settings",
+      "status": "candidate",
+      "text": "This plugin allows snippet, theme, and plugin CSS files to define a set of configuration options. It then allows users to see all the tweakable settings in one settings pane. Style Settings allows both toggling classes on and off the `body` element, as well as setting numeric, s\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "chhoumann/quickadd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "mayurankv/Obsidian-Code-Styler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

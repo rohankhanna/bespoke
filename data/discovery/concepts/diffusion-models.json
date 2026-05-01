@@ -823,6 +823,30 @@
       "source_repo": "yl4579/StyleTTS2",
       "status": "candidate-context",
       "text": "> In this paper, we present StyleTTS 2, a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis. StyleTTS 2 differs from its predecessor by modeling styles as a latent rand\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "showlab/BoxDiff",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] BoxDiff: Text-to-Image Synthesis with Training-Free Box-Constrained Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/BoxDiff",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models\" (SIGGRAPH 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "status": "candidate-context",
+      "text": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or"
     }
   ],
   "candidate_glosses": [
@@ -1233,6 +1257,18 @@
       "source_repo": "yl4579/StyleTTS2",
       "status": "candidate",
       "text": "> In this paper, we present StyleTTS 2, a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis. StyleTTS 2 differs from its predecessor by modeling styles as a latent rand\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/BoxDiff",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "status": "candidate",
+      "text": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or"
     }
   ],
   "candidate_related_terms": [],
@@ -1852,11 +1888,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "yl4579/StyleTTS2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "showlab/BoxDiff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

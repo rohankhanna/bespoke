@@ -103,6 +103,18 @@
       "source_repo": "abhishalya/abhishalya.github.io",
       "status": "candidate-context",
       "text": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate-context",
+      "text": "Home of the Rust and Inside Rust blogs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/rust-lang/blog.rust-lang.org/actions/workflows/main.yml/badge.svg)](https://github.com/rust-lang/blog.rust-lang.org/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "abhishalya/abhishalya.github.io",
       "status": "candidate",
       "text": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/rust-lang/blog.rust-lang.org/actions/workflows/main.yml/badge.svg)](https://github.com/rust-lang/blog.rust-lang.org/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +310,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/blog.rust-lang.org"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "unlicense"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Olical/conjure",
+      "status": "candidate-context",
+      "text": "Interactive evaluation for Neovim (Clojure, Fennel, Scheme, Python, JavaScript, PHP, R, Lua, Rust and more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Olical/conjure",
+      "status": "candidate-context",
+      "text": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Olical/conjure",
+      "status": "candidate",
+      "text": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024113,
+      "status": "candidate",
+      "text": "delicense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024112,
+      "status": "candidate",
+      "text": "delegalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024111,
+      "status": "candidate",
+      "text": "unauthorize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024110,
+      "status": "candidate",
+      "text": "annul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024109,
+      "status": "candidate",
+      "text": "nullify"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "unlicense",
+  "concept_id": "unlicense",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "Olical/conjure"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unlicense",
+      "sense_id": "unlicense#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

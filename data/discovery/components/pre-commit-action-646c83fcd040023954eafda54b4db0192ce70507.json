@@ -1,7 +1,7 @@
 {
   "component": "pre-commit/action@646c83fcd040023954eafda54b4db0192ce70507",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -79,6 +79,18 @@
       "source_repo": "electerm/electerm",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "status": "candidate-context",
+      "text": "A file manager for Neovim which lets you edit your filesystem like you edit text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "status": "candidate-context",
+      "text": "A directory buffer for Neovim that lets you edit your filesystem like you edit"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "electerm/electerm",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elihunter173/dirbuf.nvim",
+      "status": "candidate",
+      "text": "A directory buffer for Neovim that lets you edit your filesystem like you edit"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "preservim/nerdtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "elihunter173/dirbuf.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

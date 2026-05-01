@@ -43,6 +43,18 @@
       "source_repo": "capitalone/datacompy",
       "status": "candidate-context",
       "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water provides H2O functionality inside Spark cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate-context",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "capitalone/datacompy",
       "status": "candidate",
       "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/sparkling-water",
+      "status": "candidate",
+      "text": "Sparkling Water"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/sparkling-water"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -91,6 +91,30 @@
       "source_repo": "i18next/i18next-express-middleware",
       "status": "candidate-context",
       "text": "Can be replaced with: [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate-context",
+      "text": "Solving i18n for client-side and resource-constrained environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "i18next/i18next-express-middleware",
       "status": "candidate",
       "text": "Can be replaced with: [i18next-http-middleware](https://github.com/i18next/i18next-http-middleware)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unicode-org/icu4x",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -282,11 +318,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kazupon/vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "unicode-org/icu4x"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

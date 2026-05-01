@@ -126,13 +126,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "juliapluto/plutoui.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPluto/Pluto.jl",
       "target": "codemirror/codemirror.next",
       "target_type": "repository"
     },
@@ -140,14 +133,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "juliaweb/http.jl",
+      "target": "observablehq/stdlib",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "kawanet/msgpack-lite",
+      "target": "mathjax/mathjax-src",
       "target_type": "repository"
     },
     {
@@ -431,7 +424,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:45:27.488330+00:00",
+  "fetched_at": "2026-05-01T18:42:09.002589+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -483,8 +476,8 @@
     "full_name": "JuliaPluto/Pluto.jl",
     "html_url": "https://github.com/JuliaPluto/Pluto.jl",
     "language": "JavaScript",
-    "pushed_at": "2026-04-20T09:49:58Z",
-    "stargazers_count": 5317,
+    "pushed_at": "2026-05-01T10:51:01Z",
+    "stargazers_count": 5318,
     "topics": [
       "designed-for-teachers",
       "education",
@@ -496,7 +489,7 @@
       "reactive",
       "visualization"
     ],
-    "updated_at": "2026-04-23T11:57:15Z"
+    "updated_at": "2026-05-01T13:03:26Z"
   },
   "repo_links": [
     {
@@ -506,17 +499,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliapluto/plutoui.jl",
+      "full_name": "mathjax/mathjax-src",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliaweb/http.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kawanet/msgpack-lite",
+      "full_name": "observablehq/stdlib",
       "source_file": "README.md"
     }
   ],

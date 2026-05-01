@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Check for multiple patterns in a single string at the same time: a fast Aho-Corasick algorithm for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pattern-matching",
+      "sense_id": "pattern-matching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pattern-matching",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pattern-matching",
+  "observation_id": "64d99105e01fcfcf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "pattern-matching",
+  "source_context_snippet": "`ahocorasick_rs` allows you to search for multiple substrings (\"patterns\") in a given string (\"haystack\") using variations of the [Aho-Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm).",
+  "source_file": null,
+  "source_repo": "G-Research/ahocorasick_rs",
+  "source_repo_description": "Check for multiple patterns in a single string at the same time: a fast Aho-Corasick algorithm for Python"
+}

@@ -55,6 +55,18 @@
       "source_repo": "postcss/postcss-import",
       "status": "candidate-context",
       "text": "[![Version](https://img.shields.io/npm/v/postcss-import)](https://github.com/postcss/postcss-import/blob/master/CHANGELOG.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unlight/postcss-import-url",
+      "status": "candidate-context",
+      "text": "PostCSS plugin inlines remote files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unlight/postcss-import-url",
+      "status": "candidate-context",
+      "text": "[PostCSS](https://github.com/postcss/postcss) plugin inlines remote files."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "postcss/postcss-import",
       "status": "candidate",
       "text": "[![Version](https://img.shields.io/npm/v/postcss-import)](https://github.com/postcss/postcss-import/blob/master/CHANGELOG.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unlight/postcss-import-url",
+      "status": "candidate",
+      "text": "[PostCSS](https://github.com/postcss/postcss) plugin inlines remote files."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "postcss/postcss-import"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "unlight/postcss-import-url"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

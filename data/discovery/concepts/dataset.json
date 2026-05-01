@@ -747,6 +747,30 @@
       "source_repo": "Vchitect/VBench",
       "status": "candidate-context",
       "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate-context",
+      "text": "An Open-source Deep Learning Framework for Visual Place Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate-context",
+      "text": "![1720110200313](image/README/1720110200313.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate-context",
+      "text": "Official code for CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate-context",
+      "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
     }
   ],
   "candidate_glosses": [
@@ -1121,6 +1145,18 @@
       "source_repo": "Vchitect/VBench",
       "status": "candidate",
       "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate",
+      "text": "![1720110200313](image/README/1720110200313.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmberton/CosPlace",
+      "status": "candidate",
+      "text": "This is the official pyTorch implementation of the CVPR 2022 paper \"Rethinking Visual Geo-localization for Large-Scale Applications\"."
     }
   ],
   "candidate_related_terms": [
@@ -1560,11 +1596,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gmberton/CosPlace"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -301,6 +301,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/security_audit.yml",
       "source_repo": "aws-cloudformation/cloudformation-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "cobalt-org/liquid-rust"
     }
   ],
   "term": "Security Audit"

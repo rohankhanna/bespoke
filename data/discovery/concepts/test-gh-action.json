@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "test-gh-action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate-context",
+      "text": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate-context",
+      "text": "test-gh-action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate",
+      "text": "test-gh-action"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "test-gh-action",
+  "concept_id": "test-gh-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/action.yaml",
+      "source_repo": "fluxcd/flux2"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-gh-action",
+      "sense_id": "test-gh-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -301,6 +301,18 @@
       "source_repo": "activerecord-hackery/ransack",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/activerecord-hackery/ransack/workflows/test/badge.svg)](https://github.com/activerecord-hackery/ransack/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e Impossibly fast web search, made for static sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate-context",
+      "text": "[workspace] members = [\"stork-lib\", \"stork-cli\", \"stork-wasm\"] [profile.release] lto = true opt-level = 's'"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +465,12 @@
       "source_repo": "activerecord-hackery/ransack",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/activerecord-hackery/ransack/workflows/test/badge.svg)](https://github.com/activerecord-hackery/ransack/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate",
+      "text": "[workspace] members = [\"stork-lib\", \"stork-cli\", \"stork-wasm\"] [profile.release] lto = true opt-level = 's'"
     }
   ],
   "candidate_related_terms": [
@@ -736,11 +754,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "activerecord-hackery/ransack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jameslittle230/stork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

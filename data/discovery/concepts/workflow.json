@@ -367,6 +367,18 @@
       "source_repo": "aiidateam/aiida-core",
       "status": "candidate-context",
       "text": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kowainik/org",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc \ud83d\udcd2 Place for organization guidelines and workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/org",
+      "status": "candidate-context",
+      "text": "This repository contains organization-wide guidelines on the processes within Kowainik."
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "aiidateam/aiida-core",
       "status": "candidate",
       "text": "AiiDA (www.aiida.net) is a workflow manager for computational science with a strong focus on provenance, performance and extensibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/org",
+      "status": "candidate",
+      "text": "This repository contains organization-wide guidelines on the processes within Kowainik."
     }
   ],
   "candidate_related_terms": [
@@ -898,11 +916,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "pharmbio/sciluigi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kowainik/org"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

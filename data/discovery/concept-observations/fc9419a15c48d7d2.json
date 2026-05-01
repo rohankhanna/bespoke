@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Interactive evaluation for Neovim (Clojure, Fennel, Scheme, Python, JavaScript, PHP, R, Lua, Rust and more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008717,
+      "status": "candidate",
+      "text": "craftiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008687,
+      "status": "candidate",
+      "text": "cunning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008637,
+      "status": "candidate",
+      "text": "wiliness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008621,
+      "status": "candidate",
+      "text": "wile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008596,
+      "status": "candidate",
+      "text": "trickery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guile",
+      "sense_id": "guile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61038,
+      "status": "candidate",
+      "text": "cunning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35035,
+      "status": "candidate",
+      "text": "chicanery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33045,
+      "status": "candidate",
+      "text": "craft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13033,
+      "status": "candidate",
+      "text": "trickery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7023,
+      "status": "candidate",
+      "text": "craftiness"
+    }
+  ],
+  "concept_id": "guile",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "guile",
+  "observation_id": "fc9419a15c48d7d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "guile",
+  "source_context_snippet": "FROM ubuntu:24.04 RUN apt-get update RUN apt-get upgrade -y RUN apt-get install -y neovim # JavaScript/TypeScript dependencies # RUN apt-get install -y nodejs # RUN apt-get install -y npm # RUN npm install -g typescript # RUN npm install -g ts-node CMD nvim",
+  "source_file": null,
+  "source_repo": "Olical/conjure",
+  "source_repo_description": "Interactive evaluation for Neovim (Clojure, Fennel, Scheme, Python, JavaScript, PHP, R, Lua, Rust and more!)"
+}

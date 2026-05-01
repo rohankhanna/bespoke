@@ -306,7 +306,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:59:46.073526+00:00",
+  "fetched_at": "2026-05-01T19:03:45.021441+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -314,11 +314,11 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 28554
+      "size": 28560
     },
     {
       "path": ".github/workflows/acceptance.yml",
-      "size": 1758
+      "size": 2089
     },
     {
       "path": ".github/workflows/docs-release.yml",
@@ -350,7 +350,7 @@
     "full_name": "databrickslabs/ucx",
     "html_url": "https://github.com/databrickslabs/ucx",
     "language": "Python",
-    "pushed_at": "2026-04-30T14:37:17Z",
+    "pushed_at": "2026-05-01T15:16:22Z",
     "stargazers_count": 305,
     "topics": [
       "databricks",
@@ -358,7 +358,7 @@
       "databricks-governance",
       "unity-catalog"
     ],
-    "updated_at": "2026-04-29T16:03:03Z"
+    "updated_at": "2026-05-01T15:14:12Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MUI X: Build complex and data-rich applications using a growing list of advanced React components, like the Data Grid, Date and Time Pickers, Charts, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Discord Release Announcement"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Discord Release Announcement"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18661,
+      "status": "candidate",
+      "text": "jar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18633,
+      "status": "candidate",
+      "text": "division"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18633,
+      "status": "candidate",
+      "text": "variance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18535,
+      "status": "candidate",
+      "text": "resolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18484,
+      "status": "candidate",
+      "text": "split"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Discord Release Announcement",
+      "sense_id": "discord-release-announcement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "discord-release-announcement",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "discord-release-announcement",
+  "observation_id": "a9b68703794462ec",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "Discord Release Announcement",
+  "source_context_snippet": "Discord Release Announcement",
+  "source_file": ".github/workflows/discord-release-announcement.yaml",
+  "source_repo": "mui/mui-x",
+  "source_repo_description": "MUI X: Build complex and data-rich applications using a growing list of advanced React components, like the Data Grid, Date and Time Pickers, Charts, and more!"
+}

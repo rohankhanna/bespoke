@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:31:16.842486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6660
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "fork": true,
+    "full_name": "isaacOnline/whisper",
+    "html_url": "https://github.com/isaacOnline/whisper",
+    "language": null,
+    "pushed_at": "2023-10-28T19:56:31Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-02-04T15:38:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "internationalization-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "internationalization-plugin",
+  "concept_id": "internationalization-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kazupon/vue-i18n"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "internationalization-plugin",
+      "sense_id": "internationalization-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

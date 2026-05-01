@@ -55,6 +55,18 @@
       "source_repo": "lumen-oss/rocks-git.nvim",
       "status": "candidate-context",
       "text": "Review Checklist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/lz.n",
+      "status": "candidate-context",
+      "text": "\ud83e\udda5 A dead simple lazy-loading Lua library for Neovim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/lz.n",
+      "status": "candidate-context",
+      "text": "Review Checklist"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lumen-oss/rocks-git.nvim",
+      "status": "candidate",
+      "text": "Review Checklist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/lz.n",
       "status": "candidate",
       "text": "Review Checklist"
     }
@@ -196,11 +214,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/review-checklist.yml",
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/lz.n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/review-checklist.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,159 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "caffe2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "efficientnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "fbnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "mnasnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "mobilenetv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rwightman/gen-efficientnet-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:31:02.354791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22111
+    },
+    {
+      "path": "requirements.txt",
+      "size": 32
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pretrained EfficientNet, EfficientNet-Lite, MixNet, MobileNetV3 / V2, MNASNet A1 and B1, FBNet, Single-Path NAS",
+    "fork": false,
+    "full_name": "rwightman/gen-efficientnet-pytorch",
+    "html_url": "https://github.com/rwightman/gen-efficientnet-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-06-13T23:15:42Z",
+    "stargazers_count": 1583,
+    "topics": [
+      "caffe2",
+      "efficientnet",
+      "fbnet",
+      "mnasnet",
+      "mobilenetv3",
+      "onnx",
+      "pretrained-models",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-20T03:20:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "```diff",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe2"
+    },
+    {
+      "context_snippet": "```diff",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficientnet"
+    },
+    {
+      "context_snippet": "```diff",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fbnet"
+    },
+    {
+      "context_snippet": "```diff",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mnasnet"
+    },
+    {
+      "context_snippet": "```diff",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv3"
+    },
+    {
+      "context_snippet": "```diff",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "```diff",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "```diff",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

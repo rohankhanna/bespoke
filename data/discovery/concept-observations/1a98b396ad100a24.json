@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":globe_with_meridians: Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922226,
+      "status": "candidate",
+      "text": "l10n"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922225,
+      "status": "candidate",
+      "text": "transl."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922224,
+      "status": "candidate",
+      "text": "int'l"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922223,
+      "status": "candidate",
+      "text": "a11y"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922222,
+      "status": "candidate",
+      "text": "trans."
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "i18n",
+      "sense_id": "i18n#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "i18n",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "i18n",
+  "observation_id": "1a98b396ad100a24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "i18n",
+  "source_context_snippet": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>",
+  "source_file": null,
+  "source_repo": "kazupon/vue-i18n",
+  "source_repo_description": ":globe_with_meridians: Internationalization plugin for Vue.js"
+}

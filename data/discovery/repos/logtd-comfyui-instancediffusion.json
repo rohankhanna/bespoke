@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logtd/ComfyUI-InstanceDiffusion",
+      "target": "logtd/comfyui-trackingnodes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:34:59.657506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3270
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 428
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "logtd/ComfyUI-InstanceDiffusion",
+    "html_url": "https://github.com/logtd/ComfyUI-InstanceDiffusion",
+    "language": "Python",
+    "pushed_at": "2024-08-30T21:17:51Z",
+    "stargazers_count": 176,
+    "topics": [],
+    "updated_at": "2026-03-28T10:09:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logtd/comfyui-trackingnodes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

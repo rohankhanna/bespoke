@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "firebase",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/webrtc-firebase-demo",
+      "target": "firebase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fireship-io/webrtc-firebase-demo",
+      "target": "vite",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:39:49.809740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 432
+    },
+    {
+      "path": "package.json",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video Chat with WebRTC and Firebase",
+    "fork": false,
+    "full_name": "fireship-io/webrtc-firebase-demo",
+    "html_url": "https://github.com/fireship-io/webrtc-firebase-demo",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-27T06:27:24Z",
+    "stargazers_count": 591,
+    "topics": [],
+    "updated_at": "2026-04-30T18:27:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

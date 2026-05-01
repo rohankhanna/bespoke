@@ -1,0 +1,12 @@
+{
+  "component": "@parcel/optimizer-data-url",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "weaveworks/weave-gitops"
+    }
+  ]
+}

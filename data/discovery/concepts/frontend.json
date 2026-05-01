@@ -220,6 +220,18 @@
       "source_repo": "BuilderIO/builder",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CirclonGroup/angular-tree-component",
+      "status": "candidate-context",
+      "text": "A simple yet powerful tree component for Angular (>=2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CirclonGroup/angular-tree-component",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
     }
   ],
   "candidate_glosses": [
@@ -330,6 +342,12 @@
       "source_repo": "BuilderIO/builder",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CirclonGroup/angular-tree-component",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
     }
   ],
   "candidate_related_terms": [
@@ -511,11 +529,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "CirclonGroup/angular-tree-component"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

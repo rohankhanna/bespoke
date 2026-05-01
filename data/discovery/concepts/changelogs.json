@@ -19,12 +19,30 @@
       "source_repo": "tweag/cabal",
       "status": "candidate-context",
       "text": "Changelogs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/cabal",
+      "status": "candidate-context",
+      "text": "Official upstream development repository for Cabal and cabal-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/cabal",
+      "status": "candidate-context",
+      "text": "Changelogs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "tweag/cabal",
+      "status": "candidate",
+      "text": "Changelogs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/cabal",
       "status": "candidate",
       "text": "Changelogs"
     }
@@ -69,11 +87,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/changelogs.yml",
       "source_repo": "tweag/cabal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/changelogs.yml",
+      "source_repo": "haskell/cabal"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

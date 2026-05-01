@@ -979,6 +979,54 @@
       "source_repo": "mlflow/mlflow",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate-context",
+      "text": "An Open-source Deep Learning Framework for Visual Place Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate-context",
+      "text": "![1720110200313](image/README/1720110200313.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate-context",
+      "text": "Minimal stack to ship npm packages in CJS/ESM with Typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate-context",
+      "text": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godotengine/godot",
+      "status": "candidate-context",
+      "text": "Godot Engine \u2013 Multi-platform 2D and 3D game engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CirclonGroup/angular-tree-component",
+      "status": "candidate-context",
+      "text": "A simple yet powerful tree component for Angular (>=2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CirclonGroup/angular-tree-component",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
     }
   ],
   "candidate_glosses": [
@@ -1455,6 +1503,30 @@
       "source_repo": "mlflow/mlflow",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/OpenVPRLab",
+      "status": "candidate",
+      "text": "![1720110200313](image/README/1720110200313.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "code-forge-io/open-source-stack",
+      "status": "candidate",
+      "text": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godotengine/godot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CirclonGroup/angular-tree-component",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
     }
   ],
   "candidate_related_terms": [
@@ -2338,11 +2410,59 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/OpenVPRLab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "godotengine/godot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "CirclonGroup/angular-tree-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

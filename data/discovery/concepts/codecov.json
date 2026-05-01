@@ -226,6 +226,18 @@
       "source_repo": "boostorg/math",
       "status": "candidate-context",
       "text": "codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfarragher/obsidiantools",
+      "status": "candidate-context",
+      "text": "Obsidian tools - a Python package for analysing an Obsidian.md vault"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfarragher/obsidiantools",
+      "status": "candidate-context",
+      "text": "codecov"
     }
   ],
   "candidate_glosses": [
@@ -334,6 +346,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "boostorg/math",
+      "status": "candidate",
+      "text": "codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfarragher/obsidiantools",
       "status": "candidate",
       "text": "codecov"
     }
@@ -463,11 +481,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/codecov.yml",
       "source_repo": "boostorg/math"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mfarragher/obsidiantools"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

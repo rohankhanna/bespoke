@@ -298,6 +298,42 @@
       "source_repo": "nextjournal/clerk",
       "status": "candidate-context",
       "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate-context",
+      "text": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate-context",
+      "text": "GitOps on Autopilot Mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/github/release/controlplaneio-fluxcd/flux-operator/all.svg)](https://github.com/controlplaneio-fluxcd/flux-operator/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nextjournal/clerk-demo",
+      "status": "candidate-context",
+      "text": "\ud83e\udd39 A bucket of interesting Clerk demos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextjournal/clerk-demo",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
     }
   ],
   "candidate_glosses": [
@@ -442,6 +478,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nextjournal/clerk",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "controlplaneio-fluxcd/flux-operator",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/github/release/controlplaneio-fluxcd/flux-operator/all.svg)](https://github.com/controlplaneio-fluxcd/flux-operator/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextjournal/clerk-demo",
       "status": "candidate",
       "text": "Continuous Delivery"
     }
@@ -691,11 +745,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "controlplaneio-fluxcd/flux-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "nextjournal/clerk-demo"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

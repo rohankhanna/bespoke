@@ -1,0 +1,124 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926262,
+      "status": "candidate",
+      "text": "camarilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39859447,
+      "status": "candidate",
+      "text": "faction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848949,
+      "status": "candidate",
+      "text": "junta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39847523,
+      "status": "candidate",
+      "text": "junto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39806825,
+      "status": "candidate",
+      "text": "conspiracy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cabal",
+      "sense_id": "cabal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15043,
+      "status": "candidate",
+      "text": "faction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10030,
+      "status": "candidate",
+      "text": "camarilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6034,
+      "status": "candidate",
+      "text": "conspire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6023,
+      "status": "candidate",
+      "text": "junto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5043,
+      "status": "candidate",
+      "text": "conspiracy"
+    }
+  ],
+  "concept_id": "cabal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cabal",
+  "observation_id": "a7e109199daa133a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "cabal",
+  "source_context_snippet": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)",
+  "source_file": null,
+  "source_repo": "haskell/ghcup-hs",
+  "source_repo_description": null
+}

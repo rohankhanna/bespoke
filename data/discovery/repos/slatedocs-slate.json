@@ -1,0 +1,68 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slatedocs/slate",
+      "target": "api-documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slatedocs/slate",
+      "target": "slate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slatedocs/slate",
+      "target": "static-site-generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:03:29.470260+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "migration-notice",
+    "description": "Beautiful static documentation for your API",
+    "fork": false,
+    "full_name": "slatedocs/slate",
+    "html_url": "https://github.com/slatedocs/slate",
+    "language": null,
+    "pushed_at": "2026-02-01T05:54:12Z",
+    "stargazers_count": 36140,
+    "topics": [
+      "api",
+      "api-documentation",
+      "slate",
+      "static-site-generator"
+    ],
+    "updated_at": "2026-04-30T23:30:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Beautiful static documentation for your API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-documentation"
+    },
+    {
+      "context_snippet": "Beautiful static documentation for your API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slate"
+    },
+    {
+      "context_snippet": "Beautiful static documentation for your API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-site-generator"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pythonic-emacs/blacken",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pythonic-emacs/blacken",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pythonic-emacs/blacken",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:41:49.213901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1430
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python Black for Emacs",
+    "fork": false,
+    "full_name": "pythonic-emacs/blacken",
+    "html_url": "https://github.com/pythonic-emacs/blacken",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-11-21T16:20:46Z",
+    "stargazers_count": 197,
+    "topics": [],
+    "updated_at": "2026-03-27T14:44:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

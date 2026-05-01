@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Akifyss/obsidian-border",
+      "target": "mgmeyers/obsidian-style-settings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Akifyss/obsidian-border",
+      "target": "subframe7536/obsidian-theme-maple",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Akifyss/obsidian-border",
+      "target": "kepano/obsidian-minimal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Akifyss/obsidian-border",
+      "target": "hydescarf/obsidian-theme-mado-miniflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akifyss/obsidian-border",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akifyss/obsidian-border",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akifyss/obsidian-border",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:06:27.964977+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A theme for obsidian.md",
+    "fork": false,
+    "full_name": "Akifyss/obsidian-border",
+    "html_url": "https://github.com/Akifyss/obsidian-border",
+    "language": "CSS",
+    "pushed_at": "2026-04-19T16:48:02Z",
+    "stargazers_count": 2344,
+    "topics": [
+      "obsidian",
+      "obsidian-md",
+      "obsidian-theme"
+    ],
+    "updated_at": "2026-05-01T16:35:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hydescarf/obsidian-theme-mado-miniflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kepano/obsidian-minimal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgmeyers/obsidian-style-settings",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "subframe7536/obsidian-theme-maple",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A clean and highly customisable theme for obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "A clean and highly customisable theme for obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "A clean and highly customisable theme for obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-theme"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "lagom/lagom",
       "status": "candidate-context",
       "text": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate-context",
+      "text": "Kryo-based serialization for Akka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate-context",
+      "text": "akka-kryo-serialization - kryo-based serializers for Scala and Akka"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "lagom/lagom",
       "status": "candidate",
       "text": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate",
+      "text": "akka-kryo-serialization - kryo-based serializers for Scala and Akka"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lagom/lagom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "altoo-ag/akka-kryo-serialization"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

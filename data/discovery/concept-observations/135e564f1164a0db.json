@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Godot Engine \u2013 Multi-platform 2D and 3D game engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83c\udf10 Web Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83c\udf10 Web Builds"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10852,
+      "status": "candidate",
+      "text": "builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10852,
+      "status": "candidate",
+      "text": "nester"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10821,
+      "status": "candidate",
+      "text": "applet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10821,
+      "status": "candidate",
+      "text": "barn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10821,
+      "status": "candidate",
+      "text": "blog"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83c\udf10 Web Builds",
+      "sense_id": "web-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "web-builds",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "web-builds",
+  "observation_id": "135e564f1164a0db",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "\ud83c\udf10 Web Builds",
+  "source_context_snippet": "\ud83c\udf10 Web Builds",
+  "source_file": ".github/workflows/web_builds.yml",
+  "source_repo": "godotengine/godot",
+  "source_repo_description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine"
+}

@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml"
+    },
+    {
+      "component": "githubocto/repo-visualizer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danmayer/coverband",
+      "target": "colszowka/simplecov",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danmayer/coverband",
+      "target": "danmayer/coverband_demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danmayer/coverband",
+      "target": "danmayer/churn-site",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danmayer/coverband",
+      "target": "coverband-service/coverband_demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "danmayer/coverband",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "danmayer/coverband",
+      "target": "githubocto/repo-visualizer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "danmayer/coverband",
+      "target": "Create diagram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "danmayer/coverband",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "danmayer/coverband",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danmayer/coverband",
+      "target": "coverage-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danmayer/coverband",
+      "target": "coverage-report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danmayer/coverband",
+      "target": "coverband",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danmayer/coverband",
+      "target": "rack-middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danmayer/coverband",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danmayer/coverband",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:09:36.812505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32620
+    },
+    {
+      "path": ".github/workflows/diagram.yml",
+      "size": 363
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1917
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ruby production code coverage collection and reporting (line of code usage)",
+    "fork": false,
+    "full_name": "danmayer/coverband",
+    "html_url": "https://github.com/danmayer/coverband",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T02:58:32Z",
+    "stargazers_count": 2670,
+    "topics": [
+      "coverage-data",
+      "coverage-report",
+      "coverband",
+      "rack-middleware",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-05-01T18:22:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "colszowka/simplecov",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coverband-service/coverband_demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danmayer/churn-site",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danmayer/coverband_demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create diagram",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diagram.yml",
+      "term": "Create diagram"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverage-data"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverage-report"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverband"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rack-middleware"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "component": "taiki-e/install-action@64e4e2f995104968c78bd697b253d55bf557af66",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifacts-build.yml",
+      "source_repo": "unicode-org/icu4x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "unicode-org/icu4x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "unicode-org/icu4x"
+    }
+  ]
+}

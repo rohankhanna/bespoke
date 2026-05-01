@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatic download VPR datasets in a standard format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo is made to automatically download Visual Place Recognition (VPR) datasets in a simple and standardized way."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo is made to automatically download Visual Place Recognition (VPR) datasets in a simple and standardized way."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-retrieval",
+      "sense_id": "image-retrieval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-retrieval",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-retrieval",
+  "observation_id": "2ec59e35bde20ef2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "image-retrieval",
+  "source_context_snippet": "This repo is made to automatically download Visual Place Recognition (VPR) datasets in a simple and standardized way.",
+  "source_file": null,
+  "source_repo": "gmberton/VPR-datasets-downloader",
+  "source_repo_description": "Automatic download VPR datasets in a standard format"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:49:41.772044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Ableton/push2-display-with-juce",
+    "html_url": "https://github.com/Ableton/push2-display-with-juce",
+    "language": "C++",
+    "pushed_at": "2021-07-28T09:31:03Z",
+    "stargazers_count": 151,
+    "topics": [],
+    "updated_at": "2026-04-15T22:37:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

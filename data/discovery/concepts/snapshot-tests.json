@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "snapshot-tests"
+    "snapshot-tests",
+    "Snapshot tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "15r10nk/inline-snapshot",
       "status": "candidate-context",
       "text": "<!-- -8<- [start:Header] -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate-context",
+      "text": "Home of the Rust and Inside Rust blogs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate-context",
+      "text": "Snapshot tests"
     }
   ],
   "candidate_glosses": [
@@ -63,9 +78,51 @@
       "source_repo": "15r10nk/inline-snapshot",
       "status": "candidate",
       "text": "<!-- -8<- [start:Header] -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/blog.rust-lang.org",
+      "status": "candidate",
+      "text": "Snapshot tests"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "freeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "illustration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "insight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "overview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "summary"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "snapshot-tests",
   "concept_id": "snapshot-tests",
@@ -124,11 +181,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/snapshot_tests.yml",
+      "source_repo": "rust-lang/blog.rust-lang.org"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

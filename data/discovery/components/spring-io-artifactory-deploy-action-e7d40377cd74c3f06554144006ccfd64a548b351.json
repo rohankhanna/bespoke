@@ -1,0 +1,22 @@
+{
+  "component": "spring-io/artifactory-deploy-action@e7d40377cd74c3f06554144006ccfd64a548b351",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-snapshot.yml",
+      "source_repo": "spring-projects/spring-restdocs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-milestone.yml",
+      "source_repo": "spring-projects/spring-restdocs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spring-projects/spring-restdocs"
+    }
+  ]
+}

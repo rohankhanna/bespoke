@@ -243,6 +243,18 @@
       "source_repo": "MohammadYounes/rtlcss",
       "status": "candidate-context",
       "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -365,6 +377,12 @@
       "source_repo": "MohammadYounes/rtlcss",
       "status": "candidate",
       "text": "[![Join the chat at https://gitter.im/MohammadYounes/rtlcss](https://img.shields.io/gitter/room/MohammadYounes/rtlcss?color=%2340aa8b)](https://gitter.im/MohammadYounes/rtlcss)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kazupon/vue-i18n",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"128px\" height=\"112px\" src=\"./assets/vue-i18n-logo.png\" alt=\"Vue I18n logo\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -690,11 +708,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "kazupon/vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -625,6 +625,18 @@
       "source_repo": "iensu/silicon-el",
       "status": "candidate-context",
       "text": "A convenience package for creating images of the current source buffer using Silicon <https://github.com/Aloxaf/silicon>. It requires you to have the `silicon` command-line tool installed and preferably on your path. You can specify the path to the executable by setting `silicon\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prettier/prettier-emacs",
+      "status": "candidate-context",
+      "text": "Minor mode to format code on file save"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-emacs",
+      "status": "candidate-context",
+      "text": "[![MELPA](http://melpa.org/packages/prettier-js-badge.svg)](http://melpa.org/#/prettier-js) [![CI](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml/badge.svg)](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -939,6 +951,12 @@
       "source_repo": "iensu/silicon-el",
       "status": "candidate",
       "text": "A convenience package for creating images of the current source buffer using Silicon <https://github.com/Aloxaf/silicon>. It requires you to have the `silicon` command-line tool installed and preferably on your path. You can specify the path to the executable by setting `silicon\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prettier/prettier-emacs",
+      "status": "candidate",
+      "text": "[![MELPA](http://melpa.org/packages/prettier-js-badge.svg)](http://melpa.org/#/prettier-js) [![CI](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml/badge.svg)](https://github.com/prettier/prettier-emacs/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1318,11 +1336,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "iensu/silicon-el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "prettier/prettier-emacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

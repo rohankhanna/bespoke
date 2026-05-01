@@ -55,6 +55,30 @@
       "source_repo": "Deep-Symmetry/electro",
       "status": "candidate-context",
       "text": "Create library jar"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/wayang",
+      "status": "candidate-context",
+      "text": "A Java library for displaying images on the Ableton Push 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/wayang",
+      "status": "candidate-context",
+      "text": "Create library jar"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "status": "candidate-context",
+      "text": "Java wrapper for the Carabiner bridge to Ableton Link"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
+      "status": "candidate-context",
+      "text": "Create library jar"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Deep-Symmetry/electro",
+      "status": "candidate",
+      "text": "Create library jar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/wayang",
+      "status": "candidate",
+      "text": "Create library jar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/lib-carabiner",
       "status": "candidate",
       "text": "Create library jar"
     }
@@ -154,11 +190,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/jar.yml",
       "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/lib-carabiner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/beat-link"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

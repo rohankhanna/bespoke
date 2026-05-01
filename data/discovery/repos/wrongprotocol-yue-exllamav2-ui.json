@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:35:19.741132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17245
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2999
+    },
+    {
+      "path": "requirements.txt",
+      "size": 203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "WrongProtocol/YuE-exllamav2-UI",
+    "html_url": "https://github.com/WrongProtocol/YuE-exllamav2-UI",
+    "language": "Python",
+    "pushed_at": "2025-02-11T02:42:48Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-02-26T16:52:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

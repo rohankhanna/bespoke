@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:34:47.668859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "model merge extention for stable diffusion web ui",
+    "fork": false,
+    "full_name": "hako-mikan/sd-webui-supermerger",
+    "html_url": "https://github.com/hako-mikan/sd-webui-supermerger",
+    "language": "Python",
+    "pushed_at": "2025-11-27T15:45:38Z",
+    "stargazers_count": 837,
+    "topics": [],
+    "updated_at": "2026-04-29T13:43:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

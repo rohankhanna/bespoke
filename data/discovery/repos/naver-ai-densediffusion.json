@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver-ai/DenseDiffusion",
+      "target": "xandrchris/densediffusioncolab",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:35:01.161362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4624
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Pytorch Implementation of DenseDiffusion (ICCV 2023) ",
+    "fork": false,
+    "full_name": "naver-ai/DenseDiffusion",
+    "html_url": "https://github.com/naver-ai/DenseDiffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-11-14T19:16:18Z",
+    "stargazers_count": 505,
+    "topics": [],
+    "updated_at": "2026-04-04T17:54:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xandrchris/densediffusioncolab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

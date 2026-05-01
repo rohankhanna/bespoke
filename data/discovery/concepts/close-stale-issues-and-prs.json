@@ -988,6 +988,30 @@
       "source_repo": "ostris/ai-toolkit",
       "status": "candidate-context",
       "text": "Close Stale Issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate-context",
+      "text": "A plugin for Obsidian.md for styling codeblocks and inline code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f A tmux plugin giving you a hackable status bar consisting of dynamic & beautiful looking powerline segments, written purely in bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
     }
   ],
   "candidate_glosses": [
@@ -1476,6 +1500,18 @@
       "source_repo": "ostris/ai-toolkit",
       "status": "candidate",
       "text": "Close Stale Issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mayurankv/Obsidian-Code-Styler",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikw/tmux-powerline",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
     }
   ],
   "candidate_related_terms": [
@@ -2269,11 +2305,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "mayurankv/Obsidian-Code-Styler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "erikw/tmux-powerline"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

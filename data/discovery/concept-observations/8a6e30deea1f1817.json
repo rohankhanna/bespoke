@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of research, applications and projects built using the H2O Machine Learning platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039586,
+      "status": "candidate",
+      "text": "awe-inspiring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036005,
+      "status": "candidate",
+      "text": "amazing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029066,
+      "status": "candidate",
+      "text": "awful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007991,
+      "status": "candidate",
+      "text": "impressive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39781051,
+      "status": "candidate",
+      "text": "awing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "awesome",
+      "sense_id": "awesome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35031,
+      "status": "candidate",
+      "text": "impressive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24039,
+      "status": "candidate",
+      "text": "awful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14030,
+      "status": "candidate",
+      "text": "amazing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10021,
+      "status": "candidate",
+      "text": "awe-inspiring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4021,
+      "status": "candidate",
+      "text": "awing"
+    }
+  ],
+  "concept_id": "awesome",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "awesome",
+  "observation_id": "8a6e30deea1f1817",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "awesome",
+  "source_context_snippet": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)",
+  "source_file": null,
+  "source_repo": "h2oai/awesome-h2o",
+  "source_repo_description": "A curated list of research, applications and projects built using the H2O Machine Learning platform"
+}

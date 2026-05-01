@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datalevin/dlmdb",
+      "target": "juji-io/datalevin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:52:02.113751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "KV storage of Datalevin",
+    "fork": false,
+    "full_name": "datalevin/dlmdb",
+    "html_url": "https://github.com/datalevin/dlmdb",
+    "language": "C",
+    "pushed_at": "2026-04-04T03:48:00Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-18T11:41:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juji-io/datalevin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

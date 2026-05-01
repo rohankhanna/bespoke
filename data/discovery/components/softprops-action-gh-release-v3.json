@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v3",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -317,6 +317,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "coturn/coturn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/cabal"
     }
   ]
 }

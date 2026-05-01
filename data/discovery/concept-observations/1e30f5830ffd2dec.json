@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java wrapper for the Carabiner bridge to Ableton Link"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create library jar"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create library jar"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34490,
+      "status": "candidate",
+      "text": "jarred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34490,
+      "status": "candidate",
+      "text": "jsr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17918,
+      "status": "candidate",
+      "text": "athenaeum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17918,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17837,
+      "status": "candidate",
+      "text": "authority"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create library jar",
+      "sense_id": "create-library-jar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-library-jar",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-library-jar",
+  "observation_id": "1e30f5830ffd2dec",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "Create library jar",
+  "source_context_snippet": "Create library jar",
+  "source_file": ".github/workflows/jar.yml",
+  "source_repo": "Deep-Symmetry/lib-carabiner",
+  "source_repo_description": "Java wrapper for the Carabiner bridge to Ableton Link"
+}

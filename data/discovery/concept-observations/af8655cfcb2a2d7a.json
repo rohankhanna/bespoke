@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AWS Device Farm service for WebdriverIO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[AWS Device Farm](https://aws.amazon.com/device-farm/) service for WebdriverIO."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[AWS Device Farm](https://aws.amazon.com/device-farm/) service for WebdriverIO."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-devicefarm",
+      "sense_id": "aws-devicefarm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aws-devicefarm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aws-devicefarm",
+  "observation_id": "af8655cfcb2a2d7a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "aws-devicefarm",
+  "source_context_snippet": "[AWS Device Farm](https://aws.amazon.com/device-farm/) service for WebdriverIO.",
+  "source_file": null,
+  "source_repo": "awslabs/wdio-aws-device-farm-service",
+  "source_repo_description": "AWS Device Farm service for WebdriverIO"
+}

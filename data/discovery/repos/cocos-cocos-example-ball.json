@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:37:05.748389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7457
+    },
+    {
+      "path": "package.json",
+      "size": 116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A jumping ball demo created by Cocos Creator 3D",
+    "fork": false,
+    "full_name": "cocos/cocos-example-ball",
+    "html_url": "https://github.com/cocos/cocos-example-ball",
+    "language": "TypeScript",
+    "pushed_at": "2021-07-12T08:09:32Z",
+    "stargazers_count": 209,
+    "topics": [],
+    "updated_at": "2026-04-30T07:54:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

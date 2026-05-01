@@ -511,6 +511,30 @@
       "source_repo": "koute/cargo-web",
       "status": "candidate-context",
       "text": "[![Build Status](https://api.travis-ci.org/koute/cargo-web.svg)](https://travis-ci.org/koute/cargo-web)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asny/three-d",
+      "status": "candidate-context",
+      "text": "2D/3D renderer - makes it simple to draw stuff across platforms (including web)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asny/three-d",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e Impossibly fast web search, made for static sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate-context",
+      "text": "[workspace] members = [\"stork-lib\", \"stork-cli\", \"stork-wasm\"] [profile.release] lto = true opt-level = 's'"
     }
   ],
   "candidate_glosses": [
@@ -765,6 +789,18 @@
       "source_repo": "koute/cargo-web",
       "status": "candidate",
       "text": "[![Build Status](https://api.travis-ci.org/koute/cargo-web.svg)](https://travis-ci.org/koute/cargo-web)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asny/three-d",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jameslittle230/stork",
+      "status": "candidate",
+      "text": "[workspace] members = [\"stork-lib\", \"stork-cli\", \"stork-wasm\"] [profile.release] lto = true opt-level = 's'"
     }
   ],
   "candidate_related_terms": [],
@@ -1030,11 +1066,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "koute/cargo-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "asny/three-d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jameslittle230/stork"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -209,7 +209,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:04:50.816194+00:00",
+  "fetched_at": "2026-05-01T18:59:23.803231+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -238,7 +238,7 @@
     "html_url": "https://github.com/Kludex/starlette",
     "language": "Python",
     "pushed_at": "2026-04-30T17:24:20Z",
-    "stargazers_count": 12264,
+    "stargazers_count": 12266,
     "topics": [
       "asgi",
       "async",
@@ -246,7 +246,7 @@
       "python",
       "websockets"
     ],
-    "updated_at": "2026-04-30T17:24:24Z"
+    "updated_at": "2026-05-01T09:22:32Z"
   },
   "repo_links": [],
   "terms": [

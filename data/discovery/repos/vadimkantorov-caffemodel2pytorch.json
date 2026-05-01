@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "target": "ppengtang/oicr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "target": "converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vadimkantorov/caffemodel2pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:33:44.842974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert Caffe models to PyTorch",
+    "fork": false,
+    "full_name": "vadimkantorov/caffemodel2pytorch",
+    "html_url": "https://github.com/vadimkantorov/caffemodel2pytorch",
+    "language": "Python",
+    "pushed_at": "2023-03-30T07:08:33Z",
+    "stargazers_count": 396,
+    "topics": [
+      "caffe",
+      "converter",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-31T09:02:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ppengtang/oicr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    },
+    {
+      "context_snippet": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

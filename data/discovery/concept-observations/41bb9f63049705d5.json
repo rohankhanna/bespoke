@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implements the node.js require.resolve() algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010142,
+      "status": "candidate",
+      "text": "faculty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049212,
+      "status": "candidate",
+      "text": "mental faculty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049211,
+      "status": "candidate",
+      "text": "modular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042267,
+      "status": "candidate",
+      "text": "pcm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038034,
+      "status": "candidate",
+      "text": "dimm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "module",
+      "sense_id": "module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5047,
+      "status": "candidate",
+      "text": "faculty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "mental faculty"
+    }
+  ],
+  "concept_id": "module",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "module",
+  "observation_id": "41bb9f63049705d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "module",
+  "source_context_snippet": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously",
+  "source_file": null,
+  "source_repo": "browserify/resolve",
+  "source_repo_description": "Implements the node.js require.resolve() algorithm"
+}

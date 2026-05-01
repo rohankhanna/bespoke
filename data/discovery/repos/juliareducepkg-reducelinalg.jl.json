@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaReducePkg/ReduceLinAlg.jl",
+      "target": "juliareducepkg/reducealgebra.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceLinAlg.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceLinAlg.jl",
+      "target": "linalg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceLinAlg.jl",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceLinAlg.jl",
+      "target": "linear-algebra-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceLinAlg.jl",
+      "target": "linear-algebra-subprograms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceLinAlg.jl",
+      "target": "reduce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaReducePkg/ReduceLinAlg.jl",
+      "target": "symbolic-computation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:41:25.955596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A selection of functions that are useful in the world of linear algebra",
+    "fork": false,
+    "full_name": "JuliaReducePkg/ReduceLinAlg.jl",
+    "html_url": "https://github.com/JuliaReducePkg/ReduceLinAlg.jl",
+    "language": "Julia",
+    "pushed_at": "2024-02-16T10:39:22Z",
+    "stargazers_count": 7,
+    "topics": [
+      "julia",
+      "linalg",
+      "linear-algebra",
+      "linear-algebra-library",
+      "linear-algebra-subprograms",
+      "reduce",
+      "symbolic-computation"
+    ],
+    "updated_at": "2024-02-16T10:09:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliareducepkg/reducealgebra.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linalg"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra-library"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra-subprograms"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reduce"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symbolic-computation"
+    }
+  ]
+}

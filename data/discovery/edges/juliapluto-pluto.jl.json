@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "juliapluto/plutoui.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPluto/Pluto.jl",
       "target": "codemirror/codemirror.next",
       "target_type": "repository"
     },
@@ -18,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "juliaweb/http.jl",
+      "target": "observablehq/stdlib",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "kawanet/msgpack-lite",
+      "target": "mathjax/mathjax-src",
       "target_type": "repository"
     },
     {
@@ -309,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-05-01T18:29:39.500037+00:00",
   "source_repo": "JuliaPluto/Pluto.jl"
 }

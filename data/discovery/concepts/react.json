@@ -1911,6 +1911,66 @@
       "source_repo": "TanStack/virtual",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-reactjs",
+      "status": "candidate-context",
+      "text": "Learning React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-reactjs",
+      "status": "candidate-context",
+      "text": "Create components in JavaScript using React. Conceptually, [rendering logic and other UI logic are closely coupled](https://reactjs.org/docs/introducing-jsx.html); separate concerns by components instead of by HTML/JS/CSS. Composition > inheritance. And top-down data flow (but c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": ":arrow_up_small: Alternative library to manage dynamic routes in Next.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beizhedenglong/react-hooks-lib",
+      "status": "candidate-context",
+      "text": "A set of reusable React Hooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beizhedenglong/react-hooks-lib",
+      "status": "candidate-context",
+      "text": "A set of reusable [React Hooks](https://reactjs.org/docs/hooks-reference.html#usestate)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "byte-fe/react-model",
+      "status": "candidate-context",
+      "text": "The next generation state management library for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byte-fe/react-model",
+      "status": "candidate-context",
+      "text": "The State management library for React"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "MUI X: Build complex and data-rich applications using a growing list of advanced React components, like the Data Grid, Date and Time Pickers, Charts, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate-context",
+      "text": "<!-- #host-reference -->"
     }
   ],
   "candidate_glosses": [
@@ -2867,6 +2927,36 @@
       "source_repo": "TanStack/virtual",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-reactjs",
+      "status": "candidate",
+      "text": "Create components in JavaScript using React. Conceptually, [rendering logic and other UI logic are closely coupled](https://reactjs.org/docs/introducing-jsx.html); separate concerns by components instead of by HTML/JS/CSS. Composition > inheritance. And top-down data flow (but c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexhoma/routex.js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Routex.js</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beizhedenglong/react-hooks-lib",
+      "status": "candidate",
+      "text": "A set of reusable [React Hooks](https://reactjs.org/docs/hooks-reference.html#usestate)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "byte-fe/react-model",
+      "status": "candidate",
+      "text": "The State management library for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/mui-x",
+      "status": "candidate",
+      "text": "<!-- #host-reference -->"
     }
   ],
   "candidate_related_terms": [
@@ -4311,11 +4401,65 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "TanStack/virtual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-reactjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "alexhoma/routex.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "beizhedenglong/react-hooks-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "byte-fe/react-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "mui/mui-x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

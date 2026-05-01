@@ -643,6 +643,18 @@
       "source_repo": "recap-utr/nlp-service",
       "status": "candidate-context",
       "text": "The goal of this project is to provide a [gRPC](https://grpc.io) server for resource-heavy NLP tasks&mdash;for instance, computing vectors/embeddings for words or sentences."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "recap-utr/arg-services",
+      "status": "candidate-context",
+      "text": "Microservice definitions for building argumentation machines with gRPC and Protobuf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recap-utr/arg-services",
+      "status": "candidate-context",
+      "text": "This project contains Protobuf definitions for building complex argumentation machines."
     }
   ],
   "candidate_glosses": [
@@ -963,6 +975,12 @@
       "source_repo": "recap-utr/nlp-service",
       "status": "candidate",
       "text": "The goal of this project is to provide a [gRPC](https://grpc.io) server for resource-heavy NLP tasks&mdash;for instance, computing vectors/embeddings for words or sentences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recap-utr/arg-services",
+      "status": "candidate",
+      "text": "This project contains Protobuf definitions for building complex argumentation machines."
     }
   ],
   "candidate_related_terms": [],
@@ -1528,11 +1546,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "recap-utr/arg-services"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

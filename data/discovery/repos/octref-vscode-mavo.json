@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "@types/got",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "got",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-html-languageservice",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "octref/vscode-mavo",
+      "target": "@types/got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "octref/vscode-mavo",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "octref/vscode-mavo",
+      "target": "got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "octref/vscode-mavo",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "octref/vscode-mavo",
+      "target": "vscode-html-languageservice",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:08:44.067430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 964
+    },
+    {
+      "path": "package.json",
+      "size": 706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mavo extension for VS Code",
+    "fork": false,
+    "full_name": "octref/vscode-mavo",
+    "html_url": "https://github.com/octref/vscode-mavo",
+    "language": "HTML",
+    "pushed_at": "2024-05-31T05:55:05Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-26T08:44:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

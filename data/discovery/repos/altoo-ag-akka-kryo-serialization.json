@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fullTest.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fullTest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullCi.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullCi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "sbt/sbt-osgi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fullTest.yml",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fullTest.yml",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fullTest.yml",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "Full test prior to release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullCi.yml",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullCi.yml",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pullCi.yml",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "Scala CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "akka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "akka-persistence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "akka-serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "kryo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "target": "scala",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:02:16.465281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21173
+    },
+    {
+      "path": ".github/workflows/fullTest.yml",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/pullCi.yml",
+      "size": 516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kryo-based serialization for Akka",
+    "fork": false,
+    "full_name": "altoo-ag/akka-kryo-serialization",
+    "html_url": "https://github.com/altoo-ag/akka-kryo-serialization",
+    "language": "Scala",
+    "pushed_at": "2025-01-07T14:44:32Z",
+    "stargazers_count": 240,
+    "topics": [
+      "akka",
+      "akka-persistence",
+      "akka-serialization",
+      "kryo",
+      "scala"
+    ],
+    "updated_at": "2026-03-10T01:58:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sbt/sbt-osgi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Full test prior to release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fullTest.yml",
+      "term": "Full test prior to release"
+    },
+    {
+      "context_snippet": "Scala CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pullCi.yml",
+      "term": "Scala CI"
+    },
+    {
+      "context_snippet": "akka-kryo-serialization - kryo-based serializers for Scala and Akka",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "akka"
+    },
+    {
+      "context_snippet": "akka-kryo-serialization - kryo-based serializers for Scala and Akka",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "akka-persistence"
+    },
+    {
+      "context_snippet": "akka-kryo-serialization - kryo-based serializers for Scala and Akka",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "akka-serialization"
+    },
+    {
+      "context_snippet": "akka-kryo-serialization - kryo-based serializers for Scala and Akka",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kryo"
+    },
+    {
+      "context_snippet": "akka-kryo-serialization - kryo-based serializers for Scala and Akka",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    }
+  ]
+}

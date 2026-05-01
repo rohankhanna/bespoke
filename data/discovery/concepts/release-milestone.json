@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Milestone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-restdocs",
+      "status": "candidate-context",
+      "text": "Test-driven documentation for RESTful services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-restdocs",
+      "status": "candidate-context",
+      "text": "Release Milestone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-restdocs",
+      "status": "candidate",
+      "text": "Release Milestone"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13495,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13495,
+      "status": "candidate",
+      "text": "turned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12375,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12375,
+      "status": "candidate",
+      "text": "debut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12375,
+      "status": "candidate",
+      "text": "phase"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Milestone",
+  "concept_id": "release-milestone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/release-milestone.yml",
+      "source_repo": "spring-projects/spring-restdocs"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Milestone",
+      "sense_id": "release-milestone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

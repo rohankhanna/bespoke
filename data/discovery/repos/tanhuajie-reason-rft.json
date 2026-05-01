@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tanhuajie/Reason-RFT",
+      "target": "flagopen/robobrain2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tanhuajie/Reason-RFT",
+      "target": "qwenlm/qwen2.5-vl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:36:05.605356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025]\u2b50\ufe0f Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning.",
+    "fork": false,
+    "full_name": "tanhuajie/Reason-RFT",
+    "html_url": "https://github.com/tanhuajie/Reason-RFT",
+    "language": "Python",
+    "pushed_at": "2025-10-05T02:15:30Z",
+    "stargazers_count": 276,
+    "topics": [],
+    "updated_at": "2026-04-30T09:30:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/robobrain2.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5-vl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -358,6 +358,18 @@
       "source_repo": "JuliaCI/julia-buildkite",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate-context",
+      "text": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate-context",
+      "text": "backport"
     }
   ],
   "candidate_glosses": [
@@ -534,6 +546,12 @@
       "source_repo": "JuliaCI/julia-buildkite",
       "status": "candidate",
       "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2",
+      "status": "candidate",
+      "text": "backport"
     }
   ],
   "candidate_related_terms": [
@@ -769,11 +787,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "JuliaCI/julia-buildkite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "fluxcd/flux2"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

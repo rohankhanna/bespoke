@@ -775,6 +775,18 @@
       "source_repo": "webdriverio/awesome-webdriverio",
       "status": "candidate-context",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate-context",
+      "text": "A curated list of research, applications and projects built using the H2O Machine Learning platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
     }
   ],
   "candidate_glosses": [
@@ -1155,6 +1167,12 @@
       "source_repo": "webdriverio/awesome-webdriverio",
       "status": "candidate",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/awesome-h2o",
+      "status": "candidate",
+      "text": "[<img src=\"https://rawgit.com/h2oai/awesome-h2o/master/h2o_logo.png\" align=\"right\" width=\"100\">](https://github.com/h2oai/h2o-3)"
     }
   ],
   "candidate_related_terms": [
@@ -1654,11 +1672,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "webdriverio/awesome-webdriverio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/awesome-h2o"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992799,
+      "status": "candidate",
+      "text": "timeline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991903,
+      "status": "candidate",
+      "text": "chronology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990798,
+      "status": "candidate",
+      "text": "rota"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990688,
+      "status": "candidate",
+      "text": "scheduling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990543,
+      "status": "candidate",
+      "text": "timetable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "calendar",
+      "sense_id": "calendar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "calendar",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "calendar",
+  "observation_id": "029ba0d5ead947f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "calendar",
+  "source_context_snippet": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker.",
+  "source_file": null,
+  "source_repo": "amsul/pickadate.js",
+  "source_repo_description": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+}

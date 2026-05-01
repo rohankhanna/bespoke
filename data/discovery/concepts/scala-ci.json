@@ -79,6 +79,18 @@
       "source_repo": "windymelt/voicevoxcore4s",
       "status": "candidate-context",
       "text": "Scala CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate-context",
+      "text": "Kryo-based serialization for Akka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate-context",
+      "text": "Scala CI"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "windymelt/voicevoxcore4s",
+      "status": "candidate",
+      "text": "Scala CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
       "status": "candidate",
       "text": "Scala CI"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/scala.yml",
       "source_repo": "windymelt/voicevoxcore4s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/pullCi.yml",
+      "source_repo": "altoo-ag/akka-kryo-serialization"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

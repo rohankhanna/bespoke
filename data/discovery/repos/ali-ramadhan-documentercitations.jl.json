@@ -1,0 +1,274 @@
+{
+  "components": [
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Docs.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Docs.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Docs.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Docs.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Docs.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "bibliography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "bibtex-citations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-ramadhan/DocumenterCitations.jl",
+      "target": "julia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:42:35.290751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2366
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 466
+    },
+    {
+      "path": ".github/workflows/Docs.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DocumenterCitations.jl uses Bibliography.jl to add support for BibTeX citations and references in documentation pages generated by Documenter.jl.",
+    "fork": false,
+    "full_name": "ali-ramadhan/DocumenterCitations.jl",
+    "html_url": "https://github.com/ali-ramadhan/DocumenterCitations.jl",
+    "language": "Julia",
+    "pushed_at": "2023-07-11T16:52:44Z",
+    "stargazers_count": 66,
+    "topics": [
+      "bibliography",
+      "bibtex-citations",
+      "documentation",
+      "julia"
+    ],
+    "updated_at": "2025-05-05T17:35:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "DocumenterCitations.jl has moved to [JuliaDocs](https://github.com/JuliaDocs/DocumenterCitations.jl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bibliography"
+    },
+    {
+      "context_snippet": "DocumenterCitations.jl has moved to [JuliaDocs](https://github.com/JuliaDocs/DocumenterCitations.jl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bibtex-citations"
+    },
+    {
+      "context_snippet": "DocumenterCitations.jl has moved to [JuliaDocs](https://github.com/JuliaDocs/DocumenterCitations.jl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "DocumenterCitations.jl has moved to [JuliaDocs](https://github.com/JuliaDocs/DocumenterCitations.jl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    }
+  ]
+}

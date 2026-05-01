@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official upstream development repository for Cabal and cabal-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Hackage version](https://img.shields.io/hackage/v/Cabal.svg?label=Hackage)](https://hackage.haskell.org/package/Cabal)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Hackage version](https://img.shields.io/hackage/v/Cabal.svg?label=Hackage)](https://hackage.haskell.org/package/Cabal)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926262,
+      "status": "candidate",
+      "text": "camarilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39859447,
+      "status": "candidate",
+      "text": "faction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848949,
+      "status": "candidate",
+      "text": "junta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39847523,
+      "status": "candidate",
+      "text": "junto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39806825,
+      "status": "candidate",
+      "text": "conspiracy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cabal",
+      "sense_id": "cabal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15043,
+      "status": "candidate",
+      "text": "faction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10030,
+      "status": "candidate",
+      "text": "camarilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6034,
+      "status": "candidate",
+      "text": "conspire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6023,
+      "status": "candidate",
+      "text": "junto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5043,
+      "status": "candidate",
+      "text": "conspiracy"
+    }
+  ],
+  "concept_id": "cabal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cabal",
+  "observation_id": "38b33d8480e486a3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "cabal",
+  "source_context_snippet": "[![Hackage version](https://img.shields.io/hackage/v/Cabal.svg?label=Hackage)](https://hackage.haskell.org/package/Cabal)",
+  "source_file": null,
+  "source_repo": "haskell/cabal",
+  "source_repo_description": "Official upstream development repository for Cabal and cabal-install"
+}

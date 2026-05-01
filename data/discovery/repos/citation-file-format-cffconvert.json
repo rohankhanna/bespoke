@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml"
+    },
+    {
+      "component": "citation-file-format/cffconvert-github-action@2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zenodraft.yml"
+    },
+    {
+      "component": "zenodraft/action@0.13.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zenodraft.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "citation-file-format/citation-file-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "citation-file-format/cffconvert-github-action@2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "cffconvert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zenodraft.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zenodraft.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "zenodraft/action@0.13.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zenodraft.yml",
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "zenodraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "attribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "bibtex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "citation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "citation-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "codemeta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "endnote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "schemaorg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "software-sustainability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citation-file-format/cffconvert",
+      "target": "zenodo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:42:41.310442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7074
+    },
+    {
+      "path": "Dockerfile",
+      "size": 144
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4549
+    },
+    {
+      "path": ".github/workflows/cffconvert.yml",
+      "size": 431
+    },
+    {
+      "path": ".github/workflows/linting.yml",
+      "size": 1328
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 1071
+    },
+    {
+      "path": ".github/workflows/zenodraft.yml",
+      "size": 892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Command line program to validate and convert CITATION.cff files.",
+    "fork": false,
+    "full_name": "citation-file-format/cffconvert",
+    "html_url": "https://github.com/citation-file-format/cffconvert",
+    "language": "Python",
+    "pushed_at": "2025-10-01T21:04:47Z",
+    "stargazers_count": 132,
+    "topics": [
+      "attribution",
+      "bibtex",
+      "cff",
+      "citation",
+      "citation-files",
+      "codemeta",
+      "endnote",
+      "ris",
+      "schemaorg",
+      "software-sustainability",
+      "zenodo"
+    ],
+    "updated_at": "2026-04-09T06:28:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "citation-file-format/citation-file-format",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cffconvert",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "term": "cffconvert"
+    },
+    {
+      "context_snippet": "linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "term": "linting"
+    },
+    {
+      "context_snippet": "testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "testing"
+    },
+    {
+      "context_snippet": "zenodraft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zenodraft.yml",
+      "term": "zenodraft"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attribution"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bibtex"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "citation"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "citation-files"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codemeta"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "endnote"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schemaorg"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-sustainability"
+    },
+    {
+      "context_snippet": "[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162057.svg)](https://doi.org/10.5281/zenodo.1162057)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zenodo"
+    }
+  ]
+}

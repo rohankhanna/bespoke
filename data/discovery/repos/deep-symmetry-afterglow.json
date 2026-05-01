@@ -68,13 +68,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Deep-Symmetry/afterglow",
-      "target": "deep-symmetry/wayang",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/afterglow",
       "target": "derekcook/coremidi4j",
       "target_type": "repository"
     },
@@ -83,6 +76,13 @@
       "source_file": "README.md",
       "source_repo": "Deep-Symmetry/afterglow",
       "target": "d0kt0r0/espgrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/afterglow",
+      "target": "flatland/clojure-protobuf",
       "target_type": "repository"
     },
     {
@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:49:35.386937+00:00",
+  "fetched_at": "2026-05-01T18:49:56.077674+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -254,12 +254,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "deep-symmetry/wayang",
+      "full_name": "derekcook/coremidi4j",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "derekcook/coremidi4j",
+      "full_name": "flatland/clojure-protobuf",
       "source_file": "README.md"
     }
   ],

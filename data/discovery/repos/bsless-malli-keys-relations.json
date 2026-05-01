@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:53:08.162148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Relational schemas about map keys for malli",
+    "fork": false,
+    "full_name": "bsless/malli-keys-relations",
+    "html_url": "https://github.com/bsless/malli-keys-relations",
+    "language": "Clojure",
+    "pushed_at": "2021-05-25T11:55:34Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-04-08T16:13:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

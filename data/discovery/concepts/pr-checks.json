@@ -182,6 +182,18 @@
       "source_repo": "allenai/olmocr",
       "status": "candidate-context",
       "text": "PR Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "This action sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
+      "status": "candidate-context",
+      "text": "PR Checks"
     }
   ],
   "candidate_glosses": [
@@ -272,6 +284,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "allenai/olmocr",
+      "status": "candidate",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-actions/setup-julia",
       "status": "candidate",
       "text": "PR Checks"
     }
@@ -443,11 +461,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/pr_checks.yml",
       "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "julia-actions/setup-julia"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatic download VPR datasets in a standard format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo is made to automatically download Visual Place Recognition (VPR) datasets in a simple and standardized way."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo is made to automatically download Visual Place Recognition (VPR) datasets in a simple and standardized way."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016613,
+      "status": "candidate",
+      "text": "geopositioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016612,
+      "status": "candidate",
+      "text": "geoposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016611,
+      "status": "candidate",
+      "text": "geoplacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016610,
+      "status": "candidate",
+      "text": "locality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016609,
+      "status": "candidate",
+      "text": "georeferencing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geolocalization",
+      "sense_id": "geolocalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geolocalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geolocalization",
+  "observation_id": "26f29e78339105a3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "geolocalization",
+  "source_context_snippet": "This repo is made to automatically download Visual Place Recognition (VPR) datasets in a simple and standardized way.",
+  "source_file": null,
+  "source_repo": "gmberton/VPR-datasets-downloader",
+  "source_repo_description": "Automatic download VPR datasets in a standard format"
+}

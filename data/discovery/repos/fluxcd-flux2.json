@@ -1,0 +1,564 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yaml"
+    },
+    {
+      "component": "fluxcd/gha-workflows/.github/workflows/backport.yaml@v0.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "fluxcd/pkg/actions/kustomize@9a8c0edd5da84dc51a585738c67e3a3950d7fbf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "replicatedhq/replicated-actions/create-cluster@1abb33f5274580b14f49f2a12d819df7920e4d9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "replicatedhq/replicated-actions/remove-cluster@1abb33f5274580b14f49f2a12d819df7920e4d9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "fluxcd/pkg/actions/kustomize@9a8c0edd5da84dc51a585738c67e3a3950d7fbf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "replicatedhq/replicated-actions/create-cluster@1abb33f5274580b14f49f2a12d819df7920e4d9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "replicatedhq/replicated-actions/remove-cluster@1abb33f5274580b14f49f2a12d819df7920e4d9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-azure.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-azure.yaml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-azure.yaml"
+    },
+    {
+      "component": "Azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-azure.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml"
+    },
+    {
+      "component": "fluxcd/pkg/actions/kustomize@9a8c0edd5da84dc51a585738c67e3a3950d7fbf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml"
+    },
+    {
+      "component": "fluxcd/pkg/actions/yq@9a8c0edd5da84dc51a585738c67e3a3950d7fbf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "test-gh-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "fluxcd/gha-workflows/.github/workflows/backport.yaml@v0.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "fluxcd/pkg/actions/kustomize@9a8c0edd5da84dc51a585738c67e3a3950d7fbf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "replicatedhq/replicated-actions/create-cluster@1abb33f5274580b14f49f2a12d819df7920e4d9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "replicatedhq/replicated-actions/remove-cluster@1abb33f5274580b14f49f2a12d819df7920e4d9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-azure.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-azure.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-azure.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-azure.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "Azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-azure.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "e2e-azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "fluxcd/pkg/actions/kustomize@9a8c0edd5da84dc51a585738c67e3a3950d7fbf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "fluxcd/pkg/actions/yq@9a8c0edd5da84dc51a585738c67e3a3950d7fbf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "e2e-bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "source_repo": "fluxcd/flux2",
+      "target": "e2e-gcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2",
+      "target": "continuous-delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2",
+      "target": "gitops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2",
+      "target": "gitops-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2",
+      "target": "kustomize",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:45:57.068824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6251
+    },
+    {
+      "path": "Dockerfile",
+      "size": 504
+    },
+    {
+      "path": "go.mod",
+      "size": 13880
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 3271
+    },
+    {
+      "path": ".github/workflows/action.yaml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/backport.yaml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/conformance.yaml",
+      "size": 10012
+    },
+    {
+      "path": ".github/workflows/e2e-azure.yaml",
+      "size": 3627
+    },
+    {
+      "path": ".github/workflows/e2e-bootstrap.yaml",
+      "size": 5398
+    },
+    {
+      "path": ".github/workflows/e2e-gcp.yaml",
+      "size": 4124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.",
+    "fork": false,
+    "full_name": "fluxcd/flux2",
+    "html_url": "https://github.com/fluxcd/flux2",
+    "language": "Go",
+    "pushed_at": "2026-05-01T01:05:02Z",
+    "stargazers_count": 8089,
+    "topics": [
+      "continuous-delivery",
+      "gitops",
+      "gitops-toolkit",
+      "helm",
+      "kubernetes",
+      "kustomize"
+    ],
+    "updated_at": "2026-05-01T13:25:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test-gh-action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yaml",
+      "term": "test-gh-action"
+    },
+    {
+      "context_snippet": "backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "term": "backport"
+    },
+    {
+      "context_snippet": "conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "term": "conformance"
+    },
+    {
+      "context_snippet": "e2e-azure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-azure.yaml",
+      "term": "e2e-azure"
+    },
+    {
+      "context_snippet": "e2e-bootstrap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-bootstrap.yaml",
+      "term": "e2e-bootstrap"
+    },
+    {
+      "context_snippet": "e2e-gcp",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-gcp.yaml",
+      "term": "e2e-gcp"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-delivery"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitops"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitops-toolkit"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/github/release/fluxcd/flux2/all.svg)](https://github.com/fluxcd/flux2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kustomize"
+    }
+  ]
+}

@@ -211,6 +211,18 @@
       "source_repo": "AssemblyAI-Community/MinImagen",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models\" (SIGGRAPH 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "status": "candidate-context",
+      "text": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "AssemblyAI-Community/MinImagen",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuval-alaluf/Attend-and-Excite",
+      "status": "candidate",
+      "text": "> Hila Chefer*, Yuval Alaluf*, Yael Vinker, Lior Wolf, Daniel Cohen-Or"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +442,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

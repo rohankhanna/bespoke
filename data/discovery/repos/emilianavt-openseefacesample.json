@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T18:31:00.507203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is a cross-platform sample Unity project showing a basic OpenSeeFace setup. Open the included scene.",
+    "fork": false,
+    "full_name": "emilianavt/OpenSeeFaceSample",
+    "html_url": "https://github.com/emilianavt/OpenSeeFaceSample",
+    "language": "C#",
+    "pushed_at": "2021-06-12T15:48:06Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-03-26T00:36:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

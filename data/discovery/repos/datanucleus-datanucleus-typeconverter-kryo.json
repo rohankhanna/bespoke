@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datanucleus/datanucleus-typeconverter-kryo",
+      "target": "datanucleus/type-converter-kryo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T19:02:33.737284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TypeConverter for serialising a field using Kryo",
+    "fork": false,
+    "full_name": "datanucleus/datanucleus-typeconverter-kryo",
+    "html_url": "https://github.com/datanucleus/datanucleus-typeconverter-kryo",
+    "language": "Java",
+    "pushed_at": "2023-07-07T21:52:57Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2022-01-07T07:09:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datanucleus/type-converter-kryo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

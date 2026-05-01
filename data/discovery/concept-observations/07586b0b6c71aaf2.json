@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core MIDI Service provider Interace (SPI) for Java 1.7 and above on OS X"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create and upload the library jar"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create and upload the library jar"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33494,
+      "status": "candidate",
+      "text": "jarred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33494,
+      "status": "candidate",
+      "text": "jsr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31521,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22265,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21697,
+      "status": "candidate",
+      "text": "electrified"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create and upload the library jar",
+      "sense_id": "create-and-upload-the-library-jar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-and-upload-the-library-jar",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-and-upload-the-library-jar",
+  "observation_id": "07586b0b6c71aaf2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "Create and upload the library jar",
+  "source_context_snippet": "Create and upload the library jar",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "DerekCook/CoreMidi4J",
+  "source_repo_description": "Core MIDI Service provider Interace (SPI) for Java 1.7 and above on OS X"
+}

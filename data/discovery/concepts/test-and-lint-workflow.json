@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test and lint workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/wdio-aws-device-farm-service",
+      "status": "candidate-context",
+      "text": "AWS Device Farm service for WebdriverIO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/wdio-aws-device-farm-service",
+      "status": "candidate-context",
+      "text": "Test and lint workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/wdio-aws-device-farm-service",
+      "status": "candidate",
+      "text": "Test and lint workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22654,
+      "status": "candidate",
+      "text": "action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "bead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test and lint workflow",
+  "concept_id": "test-and-lint-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/test-lint.yml",
+      "source_repo": "awslabs/wdio-aws-device-farm-service"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and lint workflow",
+      "sense_id": "test-and-lint-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

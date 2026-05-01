@@ -1,0 +1,431 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "knip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lefthook",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "publint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sherif",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-commit.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-commit.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "changesets/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "biomejs/setup-biome@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.12.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "forge-42/open-source-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "knip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "lefthook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "nx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "publint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "sherif",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-commit.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-commit.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-commit.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-commit.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "\ud83d\ude80 pkg-pr-new",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "biomejs/setup-biome@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "\ud83d\ude80 PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "javascript-npm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "open-source-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "typescript-npm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack",
+      "target": "typescript-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:57:39.071373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3885
+    },
+    {
+      "path": "package.json",
+      "size": 1939
+    },
+    {
+      "path": ".github/workflows/publish-commit.yaml",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1133
+    },
+    {
+      "path": ".github/workflows/pull-request.yaml",
+      "size": 1184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimal stack to ship npm packages in CJS/ESM with Typescript",
+    "fork": false,
+    "full_name": "code-forge-io/open-source-stack",
+    "html_url": "https://github.com/code-forge-io/open-source-stack",
+    "language": "TypeScript",
+    "pushed_at": "2025-10-09T11:58:31Z",
+    "stargazers_count": 122,
+    "topics": [
+      "cjs",
+      "esm",
+      "javascript-npm",
+      "open-source",
+      "open-source-template",
+      "template",
+      "typescript",
+      "typescript-npm",
+      "typescript-template"
+    ],
+    "updated_at": "2026-02-14T03:02:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "forge-42/open-source-stack",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\ude80 pkg-pr-new",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-commit.yaml",
+      "term": "\ud83d\ude80 pkg-pr-new"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "\ud83d\ude80 PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "term": "\ud83d\ude80 PR"
+    },
+    {
+      "context_snippet": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-npm"
+    },
+    {
+      "context_snippet": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source-template"
+    },
+    {
+      "context_snippet": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typescript-npm"
+    },
+    {
+      "context_snippet": "![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typescript-template"
+    }
+  ]
+}

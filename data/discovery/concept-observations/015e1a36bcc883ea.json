@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reusable workflows for Ledger applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run Clang Static Analyzer (master SDK)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run Clang Static Analyzer (master SDK)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24644,
+      "status": "candidate",
+      "text": "clangor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21743,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17682,
+      "status": "candidate",
+      "text": "hum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16306,
+      "status": "candidate",
+      "text": "clanging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16185,
+      "status": "candidate",
+      "text": "clash"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Clang Static Analyzer (master SDK)",
+      "sense_id": "run-clang-static-analyzer-master-sdk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-clang-static-analyzer-master-sdk",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-clang-static-analyzer-master-sdk",
+  "observation_id": "015e1a36bcc883ea",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "Run Clang Static Analyzer (master SDK)",
+  "source_context_snippet": "Run Clang Static Analyzer (master SDK)",
+  "source_file": ".github/workflows/_check_clang_static_analyzer_latest_sdk.yml",
+  "source_repo": "LedgerHQ/ledger-app-workflows",
+  "source_repo_description": "Reusable workflows for Ledger applications"
+}

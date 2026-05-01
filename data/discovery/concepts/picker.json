@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "picker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amsul/pickadate.js",
+      "status": "candidate-context",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amsul/pickadate.js",
+      "status": "candidate-context",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amsul/pickadate.js",
+      "status": "candidate",
+      "text": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011230,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19988429,
+      "status": "candidate",
+      "text": "shifter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19987653,
+      "status": "candidate",
+      "text": "dial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19923528,
+      "status": "candidate",
+      "text": "select"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922244,
+      "status": "candidate",
+      "text": "selector"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "picker",
+  "concept_id": "picker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "amsul/pickadate.js"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "picker",
+      "sense_id": "picker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

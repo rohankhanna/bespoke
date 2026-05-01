@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cocos-creator/cocos-tutorial-hot-update",
+      "target": "cocos-creator/tutorial-hot-update",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T18:37:04.574905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5409
+    },
+    {
+      "path": "package.json",
+      "size": 158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tutorial project for Cocos Creator hot update",
+    "fork": false,
+    "full_name": "cocos-creator/cocos-tutorial-hot-update",
+    "html_url": "https://github.com/cocos-creator/cocos-tutorial-hot-update",
+    "language": "TypeScript",
+    "pushed_at": "2022-09-22T10:56:39Z",
+    "stargazers_count": 411,
+    "topics": [],
+    "updated_at": "2026-04-10T06:14:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocos-creator/tutorial-hot-update",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

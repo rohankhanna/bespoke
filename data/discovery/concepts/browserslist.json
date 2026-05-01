@@ -67,6 +67,18 @@
       "source_repo": "Kilian/electron-to-chromium",
       "status": "candidate-context",
       "text": "- \ud83d\udcbb [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/browserslist-useragent",
+      "status": "candidate-context",
+      "text": "\ud83e\udd94A utility to match a browserslist query with user agent strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-useragent",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/pastelsky/browserslist-useragent/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Kilian/electron-to-chromium",
       "status": "candidate",
       "text": "- \ud83d\udcbb [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-useragent",
+      "status": "candidate",
+      "text": "![build](https://github.com/pastelsky/browserslist-useragent/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "Kilian/electron-to-chromium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/browserslist-useragent"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],

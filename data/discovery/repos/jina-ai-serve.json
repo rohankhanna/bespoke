@@ -1206,7 +1206,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:33:39.020089+00:00",
+  "fetched_at": "2026-05-01T18:30:27.630718+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1259,7 +1259,7 @@
     "html_url": "https://github.com/jina-ai/serve",
     "language": "Python",
     "pushed_at": "2025-03-24T13:59:54Z",
-    "stargazers_count": 21876,
+    "stargazers_count": 21877,
     "topics": [
       "cloud-native",
       "cncf",
@@ -1282,7 +1282,7 @@
       "pipeline",
       "prometheus"
     ],
-    "updated_at": "2026-04-30T01:51:53Z"
+    "updated_at": "2026-05-01T12:46:52Z"
   },
   "repo_links": [
     {

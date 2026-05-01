@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple peer-to-peer with WebRTC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Backers on Open Collective](https://opencollective.com/peer/backers/badge.svg)](#backers)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Backers on Open Collective](https://opencollective.com/peer/backers/badge.svg)](#backers)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996046,
+      "status": "candidate",
+      "text": "package"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995452,
+      "status": "candidate",
+      "text": "packet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992939,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986257,
+      "status": "candidate",
+      "text": "tract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943157,
+      "status": "candidate",
+      "text": "share"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parcel",
+      "sense_id": "parcel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15041,
+      "status": "candidate",
+      "text": "portion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13057,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11053,
+      "status": "candidate",
+      "text": "tract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6066,
+      "status": "candidate",
+      "text": "share"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5044,
+      "status": "candidate",
+      "text": "package"
+    }
+  ],
+  "concept_id": "parcel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parcel",
+  "observation_id": "4b34a2833a27b7e3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T18:29:39.500037+00:00",
+  "observed_text": "parcel",
+  "source_context_snippet": "[![Backers on Open Collective](https://opencollective.com/peer/backers/badge.svg)](#backers)",
+  "source_file": null,
+  "source_repo": "peers/peerjs",
+  "source_repo_description": "Simple peer-to-peer with WebRTC."
+}

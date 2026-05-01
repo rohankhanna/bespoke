@@ -1,0 +1,12 @@
+{
+  "component": "replicatedhq/replicated-actions/remove-cluster@1abb33f5274580b14f49f2a12d819df7920e4d9b",
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "fluxcd/flux2"
+    }
+  ]
+}

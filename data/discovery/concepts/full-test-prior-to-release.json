@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Full test prior to release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate-context",
+      "text": "Kryo-based serialization for Akka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate-context",
+      "text": "Full test prior to release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "altoo-ag/akka-kryo-serialization",
+      "status": "candidate",
+      "text": "Full test prior to release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45352,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43837,
+      "status": "candidate",
+      "text": "parole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33718,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33691,
+      "status": "candidate",
+      "text": "acquittance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33251,
+      "status": "candidate",
+      "text": "mot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Full test prior to release",
+  "concept_id": "full-test-prior-to-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": ".github/workflows/fullTest.yml",
+      "source_repo": "altoo-ag/akka-kryo-serialization"
+    }
+  ],
+  "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Full test prior to release",
+      "sense_id": "full-test-prior-to-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

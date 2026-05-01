@@ -105,6 +105,12 @@
       "source_repo": "presidentbeef/brakeman",
       "status": "candidate-context",
       "text": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/security-advisories",
+      "status": "candidate-context",
+      "text": "The Haskell Security Advisory Database is a repository of security advisories filed"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +161,12 @@
       "source_repo": "presidentbeef/brakeman",
       "status": "candidate",
       "text": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/security-advisories",
+      "status": "candidate",
+      "text": "The Haskell Security Advisory Database is a repository of security advisories filed"
     }
   ],
   "candidate_related_terms": [
@@ -276,11 +288,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "presidentbeef/brakeman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T18:29:39.500037+00:00",
+      "source_file": null,
+      "source_repo": "haskell/security-advisories"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "lexical_providers": [
     "datamuse"
   ],
