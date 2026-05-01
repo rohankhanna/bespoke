@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/HCANet",
+      "target": "ha0tang/xingvton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/HCANet",
+      "target": "sergeywong/cp-vton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/HCANet",
+      "target": "minar09/cp-vton-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/HCANet",
+      "target": "ha0tang/guided-i2i-translation-papers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:52:46.010172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9980
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Ha0Tang/HCANet",
+    "html_url": "https://github.com/Ha0Tang/HCANet",
+    "language": "Python",
+    "pushed_at": "2022-12-23T19:03:10Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-05-14T11:13:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/guided-i2i-translation-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/xingvton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minar09/cp-vton-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sergeywong/cp-vton",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

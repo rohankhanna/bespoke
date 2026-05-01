@@ -79,6 +79,18 @@
       "source_repo": "ChenRocks/UNITER",
       "status": "candidate-context",
       "text": "This is the official repository of [UNITER](https://arxiv.org/abs/1909.11740) (ECCV 2020)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/PS3",
+      "status": "candidate-context",
+      "text": "Scaling Vision Pre-Training to 4K Resolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PS3",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ChenRocks/UNITER",
       "status": "candidate",
       "text": "This is the official repository of [UNITER](https://arxiv.org/abs/1909.11740) (ECCV 2020)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PS3",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -182,11 +200,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ChenRocks/UNITER"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/PS3"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

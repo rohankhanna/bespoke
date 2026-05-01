@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:11:21.421004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5017
+    },
+    {
+      "path": "go.mod",
+      "size": 1862
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spider plot generator and library",
+    "fork": false,
+    "full_name": "aldernero/spider",
+    "html_url": "https://github.com/aldernero/spider",
+    "language": "Go",
+    "pushed_at": "2026-01-20T03:37:43Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-20T03:37:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

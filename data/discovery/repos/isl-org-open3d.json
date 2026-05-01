@@ -158,27 +158,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "isl-org/Open3D",
-      "target": "isl-org/open3d-ml",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "isl-org/Open3D",
-      "target": "isl-org/open3d-cmake-find-package",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "isl-org/Open3D",
-      "target": "isl-org/open3d-cmake-external-project",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clean-gcloud-profiles.yml",
       "source_repo": "isl-org/Open3D",
@@ -473,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:14:14.728063+00:00",
+  "fetched_at": "2026-05-01T00:54:18.624259+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -526,7 +505,7 @@
     "html_url": "https://github.com/isl-org/Open3D",
     "language": "C++",
     "pushed_at": "2026-04-28T08:28:12Z",
-    "stargazers_count": 13538,
+    "stargazers_count": 13546,
     "topics": [
       "3d",
       "3d-perception",
@@ -549,25 +528,9 @@
       "tensorflow",
       "visualization"
     ],
-    "updated_at": "2026-04-28T10:52:22Z"
+    "updated_at": "2026-04-30T23:58:14Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "isl-org/open3d-cmake-external-project",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "isl-org/open3d-cmake-find-package",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "isl-org/open3d-ml",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Clean GCloud Profiles",

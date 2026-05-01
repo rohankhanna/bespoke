@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MuJoCo model for Sawyer from Rethink robotics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046820,
+      "status": "candidate",
+      "text": "reconsideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024947,
+      "status": "candidate",
+      "text": "afterthought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047109,
+      "status": "candidate",
+      "text": "second thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047009,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046988,
+      "status": "candidate",
+      "text": "restate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rethink",
+      "sense_id": "rethink#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "afterthought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "reconsideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "second thought"
+    }
+  ],
+  "concept_id": "rethink",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rethink",
+  "observation_id": "ca2c7b9a383b8197",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "rethink",
+  "source_context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+  "source_file": null,
+  "source_repo": "vikashplus/sawyer_sim",
+  "source_repo_description": "MuJoCo model for Sawyer from Rethink robotics"
+}

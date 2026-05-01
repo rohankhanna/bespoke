@@ -1391,6 +1391,42 @@
       "source_repo": "pypy/pypy",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "threestudio-project/threestudio",
+      "status": "candidate-context",
+      "text": "A unified framework for 3D content generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "threestudio-project/threestudio",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate-context",
+      "text": "A collection of robotics simulation environments for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate-context",
+      "text": "A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -2093,6 +2129,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pypy/pypy",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "threestudio-project/threestudio",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minari",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -3104,11 +3158,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/precommit.yml",
       "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "threestudio-project/threestudio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Farama-Foundation/Minari"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

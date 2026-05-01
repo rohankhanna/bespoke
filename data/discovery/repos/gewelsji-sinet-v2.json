@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GewelsJI/SINet-V2",
+      "target": "jingzhang617/cod-rank-localize-and-segment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2",
+      "target": "camoufalge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2",
+      "target": "camouflaged-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2",
+      "target": "conceal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2",
+      "target": "defect-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2",
+      "target": "jittor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:21.957188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Concealed Object Detection (SINet-V2, IEEE TPAMI 2022). Code is implemented by PyTorch/Jittor frameworks.",
+    "fork": false,
+    "full_name": "GewelsJI/SINet-V2",
+    "html_url": "https://github.com/GewelsJI/SINet-V2",
+    "language": "Python",
+    "pushed_at": "2024-06-19T00:50:54Z",
+    "stargazers_count": 282,
+    "topics": [
+      "camoufalge",
+      "camouflaged-object-detection",
+      "conceal",
+      "deep-learning",
+      "defect-detection",
+      "jittor",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-28T18:12:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jingzhang617/cod-rank-localize-and-segment",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camoufalge"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camouflaged-object-detection"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conceal"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "defect-detection"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jittor"
+    },
+    {
+      "context_snippet": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

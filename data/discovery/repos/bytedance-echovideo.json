@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/EchoVideo",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:12.960886+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4796
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bytedance/EchoVideo",
+    "html_url": "https://github.com/bytedance/EchoVideo",
+    "language": "Python",
+    "pushed_at": "2025-03-07T03:00:59Z",
+    "stargazers_count": 22,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-01-10T14:57:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains PyTorch model definitions, pre-trained weights and inference code for our video generation model, EchoVideo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

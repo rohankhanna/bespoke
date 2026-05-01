@@ -151,6 +151,18 @@
       "source_repo": "TanStack/query",
       "status": "candidate-context",
       "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate-context",
+      "text": "Patch fetch/XMLHttpRequest to fake a REST API server in the browser, based on JSON data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate-context",
+      "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "TanStack/query",
       "status": "candidate",
       "text": "<img referrerpolicy=\"no-referrer-when-downgrade\" src=\"https://static.scarf.sh/a.png?x-pxid=be2d8a11-9712-4c1d-9963-580b2d4fb133\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate",
+      "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +454,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "TanStack/query"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "marmelab/FakeRest"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

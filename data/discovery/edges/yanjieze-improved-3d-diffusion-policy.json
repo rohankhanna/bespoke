@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy",
+      "target": "intelrealsense/librealsense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy",
+      "target": "columbia-ai-robotics/diffusion_policy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy",
+      "target": "improbable-ai/visionproteleop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy",
+      "target": "opentelevision/television",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy"
+}

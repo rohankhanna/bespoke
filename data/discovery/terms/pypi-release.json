@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -51,6 +51,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release_esptool_pypi.yml",
       "source_repo": "espressif/esptool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "af-74413592/DeepWerewolf"
     }
   ],
   "term": "PyPI Release"

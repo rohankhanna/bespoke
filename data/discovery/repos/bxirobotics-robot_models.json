@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bxirobotics/robot_models",
+      "target": "clemense/yourdfpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bxirobotics/robot_models",
+      "target": "urdf-descriptions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:02.127050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1057
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "descriptions files of bxi robot models",
+    "fork": false,
+    "full_name": "bxirobotics/robot_models",
+    "html_url": "https://github.com/bxirobotics/robot_models",
+    "language": null,
+    "pushed_at": "2025-04-03T15:52:44Z",
+    "stargazers_count": 5,
+    "topics": [
+      "bxi",
+      "urdf-descriptions"
+    ],
+    "updated_at": "2025-10-25T11:21:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clemense/yourdfpy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Description files of [`BXI robots`](https://bxirobotics.com/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-descriptions"
+    }
+  ]
+}

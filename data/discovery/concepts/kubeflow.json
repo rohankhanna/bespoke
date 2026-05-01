@@ -79,6 +79,18 @@
       "source_repo": "kubeflow/pipelines",
       "status": "candidate-context",
       "text": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/community",
+      "status": "candidate-context",
+      "text": "Information about the Kubeflow community including proposals and governance information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/community",
+      "status": "candidate-context",
+      "text": "Welcome to Kubeflow! We're glad to have you here."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "kubeflow/pipelines",
       "status": "candidate",
       "text": "[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?badge=latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/community",
+      "status": "candidate",
+      "text": "Welcome to Kubeflow! We're glad to have you here."
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "kubeflow/pipelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

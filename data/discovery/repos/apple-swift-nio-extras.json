@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/cxx_interop.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/actions/pull_request_semver_label_checker@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/cxx_interop.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "apple/swift-nio/.github/actions/pull_request_semver_label_checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-extras",
+      "target": "PR label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio-extras",
+      "target": "swift5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio-extras",
+      "target": "swiftnio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:43:37.174641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5197
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1783
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 1890
+    },
+    {
+      "path": ".github/workflows/pull_request_label.yml",
+      "size": 510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Useful code around SwiftNIO.",
+    "fork": false,
+    "full_name": "apple/swift-nio-extras",
+    "html_url": "https://github.com/apple/swift-nio-extras",
+    "language": "Swift",
+    "pushed_at": "2026-04-16T12:15:33Z",
+    "stargazers_count": 250,
+    "topics": [
+      "swift5",
+      "swiftnio"
+    ],
+    "updated_at": "2026-04-24T17:36:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "PR label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "term": "PR label"
+    },
+    {
+      "context_snippet": "NIOExtras is a good place for code that is related to NIO but not core. It can also be used to incubate APIs for tasks that are possible with core-NIO but are cumbersome today.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift5"
+    },
+    {
+      "context_snippet": "NIOExtras is a good place for code that is related to NIO but not core. It can also be used to incubate APIs for tasks that are possible with core-NIO but are cumbersome today.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftnio"
+    }
+  ]
+}

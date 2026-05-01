@@ -31,6 +31,18 @@
       "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
       "status": "candidate-context",
       "text": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yulewang97/ERDiff",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023 Spotlight] Official Repo for \"Extraction and Recovery of Dpatio-temporal Structure in Latent Dynamics Alignment with Diffusion Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yulewang97/ERDiff",
+      "status": "candidate-context",
+      "text": "<h2>Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Models [NeurIPS'2023 Spotlight]</h2>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning",
       "status": "candidate",
       "text": "Code and data for the paper [Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yulewang97/ERDiff",
+      "status": "candidate",
+      "text": "<h2>Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Models [NeurIPS'2023 Spotlight]</h2>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ymoslem/Adaptive-MT-LLM-Fine-tuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "yulewang97/ERDiff"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

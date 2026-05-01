@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "target": "lpengyang/freedrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "target": "mc-e/dragondiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "target": "advocate99/dragdiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "target": "ashawkey/drag3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "target": "draggan",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "OpenGVLab/Awesome-DragGAN"
+}

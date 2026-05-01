@@ -63,34 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nerfstudio-project/nerfacc",
-      "target": "nerfstudio-project/nerfstudio",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nerfstudio-project/nerfacc",
-      "target": "threestudio-project/threestudio",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nerfstudio-project/nerfacc",
-      "target": "bennyguo/instant-nsr-pl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nerfstudio-project/nerfacc",
-      "target": "zju3dv/mlp_maps",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/building.yml",
       "source_repo": "nerfstudio-project/nerfacc",
@@ -210,7 +182,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:11:56.819667+00:00",
+  "fetched_at": "2026-05-01T01:01:07.356504+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -252,28 +224,7 @@
     ],
     "updated_at": "2026-04-19T11:30:50Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bennyguo/instant-nsr-pl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nerfstudio-project/nerfstudio",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "threestudio-project/threestudio",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zju3dv/mlp_maps",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Building Wheels",

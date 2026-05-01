@@ -43,6 +43,18 @@
       "source_repo": "adamyaxley/Unformat",
       "status": "candidate-context",
       "text": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "adamyaxley/Unformat",
       "status": "candidate",
       "text": "**[Source available on GitHub](https://github.com/adamyaxley/Unformat)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "adamyaxley/Unformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

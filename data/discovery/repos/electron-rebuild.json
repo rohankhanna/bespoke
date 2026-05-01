@@ -434,7 +434,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:05:08.562556+00:00",
+  "fetched_at": "2026-05-01T00:48:02.170398+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -474,7 +474,7 @@
     "full_name": "electron/rebuild",
     "html_url": "https://github.com/electron/rebuild",
     "language": "TypeScript",
-    "pushed_at": "2026-04-21T17:59:59Z",
+    "pushed_at": "2026-05-01T00:19:11Z",
     "stargazers_count": 1118,
     "topics": [],
     "updated_at": "2026-04-30T09:02:47Z"

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zero-label image classification via OpenCLIP knowledge distillation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"assets/overview.png\" height=\"320\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"assets/overview.png\" height=\"320\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979987,
+      "status": "candidate",
+      "text": "flotsam and jetsam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979986,
+      "status": "candidate",
+      "text": "jetter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979985,
+      "status": "candidate",
+      "text": "sea-drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979984,
+      "status": "candidate",
+      "text": "personal water craft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979983,
+      "status": "candidate",
+      "text": "skipjack"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jetson",
+      "sense_id": "jetson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jetson",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jetson",
+  "observation_id": "9e99ce486c134f86",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "jetson",
+  "source_context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+  "source_file": null,
+  "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+  "source_repo_description": "Zero-label image classification via OpenCLIP knowledge distillation"
+}

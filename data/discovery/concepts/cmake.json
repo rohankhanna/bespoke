@@ -586,6 +586,18 @@
       "source_repo": "LucHermitte/vim-build-tools-wrapper",
       "status": "candidate-context",
       "text": "BTW has two main purposes:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate-context",
+      "text": "C/C++ number \u2194\ufe0e string benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate-context",
+      "text": "cmake"
     }
   ],
   "candidate_glosses": [
@@ -876,6 +888,12 @@
       "source_repo": "LucHermitte/vim-build-tools-wrapper",
       "status": "candidate",
       "text": "BTW has two main purposes:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate",
+      "text": "cmake"
     }
   ],
   "candidate_related_terms": [
@@ -1255,11 +1273,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "ibireme/c_numconv_benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-find-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

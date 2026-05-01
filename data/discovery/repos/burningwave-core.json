@@ -1,0 +1,503 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] build and test, release if requested.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] build and test, release if requested.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] build and test, release if requested.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] build and test, release if requested.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] compute coverage.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] compute coverage.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] update documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A][S] build and test.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A][S] build and test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A][S][experimental] build and test.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A][S][experimental] build and test.yml"
+    },
+    {
+      "component": "octokit/request-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml"
+    },
+    {
+      "component": "techulus/push-github-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] build and test, release if requested.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] build and test, release if requested.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] compute coverage.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] compute coverage.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/[A] compute coverage.yml",
+      "source_repo": "burningwave/core",
+      "target": "Compute coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A] update documentation.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/[A] update documentation.yml",
+      "source_repo": "burningwave/core",
+      "target": "Update index page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A][S] build and test.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A][S] build and test.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/[A][S] build and test.yml",
+      "source_repo": "burningwave/core",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A][S][experimental] build and test.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[A][S][experimental] build and test.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/[A][S][experimental] build and test.yml",
+      "source_repo": "burningwave/core",
+      "target": "Build and test (experimental branch)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml",
+      "source_repo": "burningwave/core",
+      "target": "octokit/request-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml",
+      "source_repo": "burningwave/core",
+      "target": "techulus/push-github-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/[M] build and test, compute coverage, release.yml",
+      "source_repo": "burningwave/core",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "class",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "classfactory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "classloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "classloaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "code-executor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "code-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "criteria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "java-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "loader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "reflection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "burningwave/core",
+      "target": "scanning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:46:02.814229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 80367
+    },
+    {
+      "path": ".github/workflows/[A] build and test, release if requested.yml",
+      "size": 2293
+    },
+    {
+      "path": ".github/workflows/[A] compute coverage.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/[A] update documentation.yml",
+      "size": 620
+    },
+    {
+      "path": ".github/workflows/[A][S] build and test.yml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/[A][S][experimental] build and test.yml",
+      "size": 1002
+    },
+    {
+      "path": ".github/workflows/[M] build and test, compute coverage, release.yml",
+      "size": 3316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An advanced and highly optimized Java library to build frameworks: it's useful for scanning class paths, generating classes at runtime, facilitating the use of reflection, scanning the filesystem, executing stringified source code and much more...",
+    "fork": false,
+    "full_name": "burningwave/core",
+    "html_url": "https://github.com/burningwave/core",
+    "language": "Java",
+    "pushed_at": "2025-11-20T07:35:23Z",
+    "stargazers_count": 224,
+    "topics": [
+      "caching",
+      "class",
+      "classfactory",
+      "classloader",
+      "classloaders",
+      "code-executor",
+      "code-generator",
+      "criteria",
+      "filesystem",
+      "java",
+      "java-library",
+      "loader",
+      "reflection",
+      "scanner",
+      "scanning"
+    ],
+    "updated_at": "2026-04-30T09:04:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compute coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/[A] compute coverage.yml",
+      "term": "Compute coverage"
+    },
+    {
+      "context_snippet": "Update index page",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/[A] update documentation.yml",
+      "term": "Update index page"
+    },
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/[A][S] build and test.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "Build and test (experimental branch)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/[A][S][experimental] build and test.yml",
+      "term": "Build and test (experimental branch)"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "class"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classfactory"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classloader"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classloaders"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-executor"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generator"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "criteria"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-library"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loader"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflection"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scanner"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.burningwave.org\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scanning"
+    }
+  ]
+}

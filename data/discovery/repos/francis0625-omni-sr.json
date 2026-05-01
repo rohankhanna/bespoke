@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:06:13.945147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2023] Implementation of ''Omni Aggregation Networks for Lightweight Image Super-Resolution\".",
+    "fork": false,
+    "full_name": "Francis0625/Omni-SR",
+    "html_url": "https://github.com/Francis0625/Omni-SR",
+    "language": "Python",
+    "pushed_at": "2023-07-23T14:27:32Z",
+    "stargazers_count": 263,
+    "topics": [],
+    "updated_at": "2026-04-28T11:49:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

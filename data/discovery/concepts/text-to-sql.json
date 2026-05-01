@@ -19,6 +19,18 @@
       "source_repo": "eosphoros-ai/DB-GPT-Hub",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lyuqin/HydraNet-WikiSQL",
+      "status": "candidate-context",
+      "text": "Code and trained model for Hybrid ranking network for text-to-SQL on WikiSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lyuqin/HydraNet-WikiSQL",
+      "status": "candidate-context",
+      "text": "Code for our paper [Hybrid Ranking Network for Text-to-SQL](https://arxiv.org/abs/2008.04759)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "eosphoros-ai/DB-GPT-Hub",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lyuqin/HydraNet-WikiSQL",
+      "status": "candidate",
+      "text": "Code for our paper [Hybrid Ranking Network for Text-to-SQL](https://arxiv.org/abs/2008.04759)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "eosphoros-ai/DB-GPT-Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "lyuqin/HydraNet-WikiSQL"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

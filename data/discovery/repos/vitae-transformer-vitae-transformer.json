@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "vitae-transformer/vitae-transformer-remote-sensing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "ade20k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "imagenet-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "mscoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "vision-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "target": "vitae-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:51:13.712186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo for [NeurIPS'21] \"ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias\" and [IJCV'22] \"ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond\"",
+    "fork": false,
+    "full_name": "ViTAE-Transformer/ViTAE-Transformer",
+    "html_url": "https://github.com/ViTAE-Transformer/ViTAE-Transformer",
+    "language": "Python",
+    "pushed_at": "2026-04-15T06:44:51Z",
+    "stargazers_count": 281,
+    "topics": [
+      "ade20k",
+      "deep-learning",
+      "imagenet",
+      "imagenet-classification",
+      "mscoco",
+      "object-detection",
+      "semantic-segmentation",
+      "vision-transformer",
+      "vitae-transformer"
+    ],
+    "updated_at": "2026-04-19T01:57:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/vitae-transformer-remote-sensing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ade20k"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet-classification"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vitae-transformer"
+    }
+  ]
+}

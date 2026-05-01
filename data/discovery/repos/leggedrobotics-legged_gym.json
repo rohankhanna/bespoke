@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leggedrobotics/legged_gym",
+      "target": "leggedrobotics/rsl_rl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:09:24.441674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Isaac Gym Environments for Legged Robots",
+    "fork": false,
+    "full_name": "leggedrobotics/legged_gym",
+    "html_url": "https://github.com/leggedrobotics/legged_gym",
+    "language": "Python",
+    "pushed_at": "2025-05-29T08:02:13Z",
+    "stargazers_count": 2922,
+    "topics": [],
+    "updated_at": "2026-04-30T10:43:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leggedrobotics/rsl_rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

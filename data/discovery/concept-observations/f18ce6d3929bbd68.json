@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A benchmark that challenges language models to code solutions for scientific problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**Homepage**](https://scicode-bench.github.io/) | [**Paper**](https://arxiv.org/abs/2407.13168)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**Homepage**](https://scicode-bench.github.io/) | [**Paper**](https://arxiv.org/abs/2407.13168)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-benchmarks",
+      "sense_id": "ai-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-benchmarks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-benchmarks",
+  "observation_id": "f18ce6d3929bbd68",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "ai-benchmarks",
+  "source_context_snippet": "[**Homepage**](https://scicode-bench.github.io/) | [**Paper**](https://arxiv.org/abs/2407.13168)",
+  "source_file": null,
+  "source_repo": "scicode-bench/SciCode",
+  "source_repo_description": "A benchmark that challenges language models to code solutions for scientific problems"
+}

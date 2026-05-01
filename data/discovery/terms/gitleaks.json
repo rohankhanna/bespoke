@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/gitleaks.yml",
       "source_repo": "apache/apisix-dashboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-sdk"
     }
   ],
   "term": "gitleaks"

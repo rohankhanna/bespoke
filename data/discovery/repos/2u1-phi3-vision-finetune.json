@@ -19,7 +19,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Phi3-Vision-Finetune",
-      "target": "gaizhenbiao/phi3v-finetuning",
+      "target": "microsoft/phi-3cookbook",
       "target_type": "repository"
     },
     {
@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:14:18.011900+00:00",
+  "fetched_at": "2026-05-01T01:05:06.258147+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -122,7 +122,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "gaizhenbiao/phi3v-finetuning",
+      "full_name": "microsoft/phi-3cookbook",
       "source_file": "README.md"
     }
   ],

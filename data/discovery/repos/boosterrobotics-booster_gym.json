@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BoosterRobotics/booster_gym",
+      "target": "boosterrobotics/booster_train",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BoosterRobotics/booster_gym",
+      "target": "boosterrobotics/booster_deploy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BoosterRobotics/booster_gym",
+      "target": "boosterrobotics/booster_assets",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:01.041796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5591
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Booster Gym is a reinforcement learning (RL) framework designed for humanoid robot locomotion developed by Booster Robotics.",
+    "fork": false,
+    "full_name": "BoosterRobotics/booster_gym",
+    "html_url": "https://github.com/BoosterRobotics/booster_gym",
+    "language": "Python",
+    "pushed_at": "2025-12-23T05:23:51Z",
+    "stargazers_count": 268,
+    "topics": [],
+    "updated_at": "2026-04-22T06:41:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boosterrobotics/booster_assets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boosterrobotics/booster_deploy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boosterrobotics/booster_train",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

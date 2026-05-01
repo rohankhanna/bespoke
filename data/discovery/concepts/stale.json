@@ -214,6 +214,18 @@
       "source_repo": "thomasloven/hass-browser_mod",
       "status": "candidate-context",
       "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Stale"
     }
   ],
   "candidate_glosses": [
@@ -316,6 +328,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "thomasloven/hass-browser_mod",
+      "status": "candidate",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
       "status": "candidate",
       "text": "Stale"
     }
@@ -523,11 +541,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "thomasloven/hass-browser_mod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bndtools/bnd"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

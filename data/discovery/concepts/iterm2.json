@@ -67,6 +67,18 @@
       "source_repo": "trzsz/trzsz",
       "status": "candidate-context",
       "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate-context",
+      "text": "LLMs for your CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "trzsz/trzsz",
       "status": "candidate",
       "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "trzsz/trzsz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

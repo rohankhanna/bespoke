@@ -19,6 +19,18 @@
       "source_repo": "adamyaxley/Obfuscate",
       "status": "candidate-context",
       "text": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate-context",
+      "text": "A Java library for reversibly obfuscating numerical identifiers (e.g. 1234 \u2194 4TQCNTL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate-context",
+      "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "adamyaxley/Obfuscate",
       "status": "candidate",
       "text": "**[Source available on GitHub](https://github.com/adamyaxley/Obfuscate)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate",
+      "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "adamyaxley/Obfuscate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jchambers/id-obfuscator"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

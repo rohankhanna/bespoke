@@ -5167,6 +5167,126 @@
       "source_repo": "VikParuchuri/texify",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate-context",
+      "text": "The official repo for [NeurIPS'21] \"ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias\" and [IJCV'22] \"ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate-context",
+      "text": "A comprehensive list [SAMRS@NeurIPS'23, RVSA@TGRS'22, RSP@TGRS'22] of our research works related to remote sensing, including papers, codes, and citations. Note: The repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\" has been moved to: https://github.com/ViTAE-Transformer/RSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate-context",
+      "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate-context",
+      "text": "Image-to-image translation with conditional adversarial nets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate-context",
+      "text": "[Project](https://phillipi.github.io/pix2pix/) | [Arxiv](https://arxiv.org/abs/1611.07004) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "status": "candidate-context",
+      "text": "A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "status": "candidate-context",
+      "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GewelsJI/SINet-V2",
+      "status": "candidate-context",
+      "text": "Concealed Object Detection (SINet-V2, IEEE TPAMI 2022). Code is implemented by PyTorch/Jittor frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/SINet-V2",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meetps/pytorch-semseg",
+      "status": "candidate-context",
+      "text": "Semantic Segmentation Architectures Implemented in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meetps/pytorch-semseg",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/meetshah1995/pytorch-semseg/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adlith/MoE-Jetpack",
+      "status": "candidate-context",
+      "text": "[NeurIPS 24] MoE Jetpack: From Dense Checkpoints to Adaptive Mixture of Experts for Vision Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlith/MoE-Jetpack",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate-context",
+      "text": "Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "We write your reusable computer vision tools. \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -7755,6 +7875,66 @@
       "source_repo": "VikParuchuri/texify",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate",
+      "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate",
+      "text": "[Project](https://phillipi.github.io/pix2pix/) | [Arxiv](https://arxiv.org/abs/1611.07004) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "status": "candidate",
+      "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/SINet-V2",
+      "status": "candidate",
+      "text": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meetps/pytorch-semseg",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/meetshah1995/pytorch-semseg/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlith/MoE-Jetpack",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -11266,11 +11446,191 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "phillipi/pix2pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "WeikaiTan/Toronto-3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "fundamentalvision/BEVFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Adlith/MoE-Jetpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "softprops/action-gh-release@1853d73993c8ca1b2c9c1a7fede39682d0ab5c2a",
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubeflow/spark-operator"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Pre-commit checks",
-    "Pre-commit Checks"
+    "Pre-commit Checks",
+    "Pre-Commit Checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -98,6 +99,18 @@
       "source_repo": "inclusionAI/AReaL",
       "status": "candidate-context",
       "text": "Pre-commit Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphcore/examples-utils",
+      "status": "candidate-context",
+      "text": "Utils and common code for Graphcore's example applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples-utils",
+      "status": "candidate-context",
+      "text": "Pre-Commit Checks"
     }
   ],
   "candidate_glosses": [
@@ -148,6 +161,12 @@
       "source_repo": "inclusionAI/AReaL",
       "status": "candidate",
       "text": "Pre-commit Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples-utils",
+      "status": "candidate",
+      "text": "Pre-Commit Checks"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +294,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pre-commit-checks.yaml",
+      "source_repo": "graphcore/examples-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

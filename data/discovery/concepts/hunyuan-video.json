@@ -67,6 +67,18 @@
       "source_repo": "svg-project/Sparse-VideoGen",
       "status": "candidate-context",
       "text": "<div align=\"center\" id=\"sglangtop\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neph1/finetrainers-ui",
+      "status": "candidate-context",
+      "text": "Gradio UI for training video models using finetrainers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neph1/finetrainers-ui",
+      "status": "candidate-context",
+      "text": "Simple GUI for [finetrainers](https://github.com/a-r-r-o-w/finetrainers) (but in no way affiliated with it) made using gradio, inspired by bmalthais gui for kohya-ss scripts."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "svg-project/Sparse-VideoGen",
       "status": "candidate",
       "text": "<div align=\"center\" id=\"sglangtop\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neph1/finetrainers-ui",
+      "status": "candidate",
+      "text": "Simple GUI for [finetrainers](https://github.com/a-r-r-o-w/finetrainers) (but in no way affiliated with it) made using gradio, inspired by bmalthais gui for kohya-ss scripts."
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "neph1/finetrainers-ui"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feizc/Ingredients",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feizc/Ingredients",
+      "target": "junjiehe96/uniportrait",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feizc/Ingredients",
+      "target": "tencent/hunyuanvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:08.397454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3768
+    },
+    {
+      "path": "requirements.txt",
+      "size": 624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Blending Custom Photos with Video Diffusion Transformers",
+    "fork": false,
+    "full_name": "feizc/Ingredients",
+    "html_url": "https://github.com/feizc/Ingredients",
+    "language": "Python",
+    "pushed_at": "2025-01-21T08:05:09Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2026-04-22T17:00:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junjiehe96/uniportrait",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -23,21 +23,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "huggingface/finetrainers",
-      "target": "igl-hkust/diffusionasshader",
+      "target": "skyworkai/skyreels-a1",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "huggingface/finetrainers",
-      "target": "jbilcke-hf/videomodelstudio",
+      "target": "openrobotlab/aether",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "huggingface/finetrainers",
-      "target": "neph1/finetrainers-ui",
+      "target": "quanhaol/magicmotion",
       "target_type": "repository"
     },
     {
@@ -104,7 +104,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T16:10:34.947404+00:00",
+  "fetched_at": "2026-05-01T00:56:52.885250+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -154,17 +154,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "igl-hkust/diffusionasshader",
+      "full_name": "openrobotlab/aether",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jbilcke-hf/videomodelstudio",
+      "full_name": "quanhaol/magicmotion",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "neph1/finetrainers-ui",
+      "full_name": "skyworkai/skyreels-a1",
       "source_file": "README.md"
     }
   ],

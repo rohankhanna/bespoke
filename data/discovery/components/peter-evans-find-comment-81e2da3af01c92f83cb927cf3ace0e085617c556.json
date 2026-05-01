@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/find-comment@81e2da3af01c92f83cb927cf3ace0e085617c556",
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml",
+      "source_repo": "graphcore/examples-utils"
+    }
+  ]
+}

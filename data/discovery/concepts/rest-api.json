@@ -409,6 +409,18 @@
       "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate-context",
       "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/api-guidelines",
+      "status": "candidate-context",
+      "text": "Microsoft REST API Guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/api-guidelines",
+      "status": "candidate-context",
+      "text": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!"
     }
   ],
   "candidate_glosses": [
@@ -615,6 +627,12 @@
       "source_repo": "swagger-api/swagger-inflector",
       "status": "candidate",
       "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-inflector)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/api-guidelines",
+      "status": "candidate",
+      "text": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!"
     }
   ],
   "candidate_related_terms": [],
@@ -826,11 +844,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "swagger-api/swagger-inflector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/api-guidelines"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XR-Robotics/XRoboToolkit-Unity-Client",
+      "target": "xr-robotics/xrobotoolkit-orin-video-sender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XR-Robotics/XRoboToolkit-Unity-Client",
+      "target": "xr-robotics/xrobotoolkit-pc-service-pybind",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:09:19.193121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "XR-Robotics/XRoboToolkit-Unity-Client",
+    "html_url": "https://github.com/XR-Robotics/XRoboToolkit-Unity-Client",
+    "language": "C#",
+    "pushed_at": "2025-12-03T01:45:35Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-30T07:57:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xr-robotics/xrobotoolkit-orin-video-sender",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xr-robotics/xrobotoolkit-pc-service-pybind",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

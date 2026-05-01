@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabulapdf/tabula",
+      "target": "tabulapdf/tabula-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabulapdf/tabula",
+      "target": "leeper/tabulizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabulapdf/tabula",
+      "target": "ezodude/tabula-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabulapdf/tabula",
+      "target": "tabulapdf/tabula-extractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tabulapdf/tabula",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tabulapdf/tabula",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tabulapdf/tabula",
+      "target": "excel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tabulapdf/tabula",
+      "target": "scraping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tabulapdf/tabula",
+      "target": "tables",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:02:40.722240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18350
+    },
+    {
+      "path": "Dockerfile",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tabula is a tool for liberating data tables trapped inside PDF files",
+    "fork": false,
+    "full_name": "tabulapdf/tabula",
+    "html_url": "https://github.com/tabulapdf/tabula",
+    "language": "CSS",
+    "pushed_at": "2025-03-14T14:04:33Z",
+    "stargazers_count": 7396,
+    "topics": [
+      "csv",
+      "excel",
+      "pdf",
+      "scraping",
+      "tables"
+    ],
+    "updated_at": "2026-04-30T03:51:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ezodude/tabula-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leeper/tabulizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tabulapdf/tabula-extractor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tabulapdf/tabula-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Is `tabula` an active project?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "excel"
+    },
+    {
+      "context_snippet": "**Is `tabula` an active project?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scraping"
+    },
+    {
+      "context_snippet": "**Is `tabula` an active project?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tables"
+    }
+  ]
+}

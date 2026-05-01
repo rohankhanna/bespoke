@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:03:25.161780+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 17
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kijai/ComfyUI-MochiWrapper",
+    "html_url": "https://github.com/kijai/ComfyUI-MochiWrapper",
+    "language": "Python",
+    "pushed_at": "2024-11-11T13:54:57Z",
+    "stargazers_count": 798,
+    "topics": [],
+    "updated_at": "2026-04-09T10:37:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

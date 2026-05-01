@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "johnnynunez/setup-vulkan-sdk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.22",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ashutoshvarma/setup-ninja@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "johnnynunez/setup-vulkan-sdk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "luisagroup/luisarenderscenes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "knightcrawler25/glsl-pathtracer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "johnnynunez/setup-vulkan-sdk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "Jimver/cuda-toolkit@v0.2.22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "ashutoshvarma/setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "build-cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "ispc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "optix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "path-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "ray-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "renderer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender",
+      "target": "siggraph-asia-2022",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:09:05.695960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14243
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "next",
+    "description": "High-Performance Cross-Platform Monte Carlo Renderer Based on LuisaCompute",
+    "fork": false,
+    "full_name": "LuisaGroup/LuisaRender",
+    "html_url": "https://github.com/LuisaGroup/LuisaRender",
+    "language": "C++",
+    "pushed_at": "2026-03-24T04:36:58Z",
+    "stargazers_count": 603,
+    "topics": [
+      "cpp",
+      "cuda",
+      "gpu",
+      "high-performance",
+      "ispc",
+      "metal",
+      "optix",
+      "path-tracing",
+      "ray-tracing",
+      "renderer",
+      "rendering",
+      "siggraph-asia-2022"
+    ],
+    "updated_at": "2026-04-16T15:43:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knightcrawler25/glsl-pathtracer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luisagroup/luisarenderscenes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "build-cmake"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ispc"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optix"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path-tracing"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ray-tracing"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "renderer"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siggraph-asia-2022"
+    }
+  ]
+}

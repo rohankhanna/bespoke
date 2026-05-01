@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kgkoutis/TSID.Creator.NET",
+      "target": "twitter-archive/snowflake",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:43:35.336474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kgkoutis/TSID.Creator.NET",
+    "html_url": "https://github.com/kgkoutis/TSID.Creator.NET",
+    "language": "C#",
+    "pushed_at": "2023-02-28T22:50:19Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-02-21T17:46:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twitter-archive/snowflake",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

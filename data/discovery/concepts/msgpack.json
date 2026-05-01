@@ -91,6 +91,18 @@
       "source_repo": "msgpack/msgpack-ruby",
       "status": "candidate-context",
       "text": "[MessagePack](http://msgpack.org) is an efficient binary serialization format."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate-context",
+      "text": "A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "msgpack/msgpack-ruby",
       "status": "candidate",
       "text": "[MessagePack](http://msgpack.org) is an efficient binary serialization format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "msgpack/msgpack-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jcrist/msgspec"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

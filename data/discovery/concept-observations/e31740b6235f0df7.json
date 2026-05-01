@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LambdaTest - Lambda-enabled functional testing API on top of JUnit and TestNG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992045,
+      "status": "candidate",
+      "text": "spec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989658,
+      "status": "candidate",
+      "text": "stipulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009979,
+      "status": "candidate",
+      "text": "enumeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008489,
+      "status": "candidate",
+      "text": "workbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003246,
+      "status": "candidate",
+      "text": "monograph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "specification",
+      "sense_id": "specification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18048,
+      "status": "candidate",
+      "text": "stipulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "spec"
+    }
+  ],
+  "concept_id": "specification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "specification",
+  "observation_id": "e31740b6235f0df7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "specification",
+  "source_context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+  "source_file": null,
+  "source_repo": "lefou/LambdaTest",
+  "source_repo_description": "LambdaTest - Lambda-enabled functional testing API on top of JUnit and TestNG"
+}

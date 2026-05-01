@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "mountchicken/mmocr_tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "idea-research/t-rex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "foundation-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "grounding-dino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "open-set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "open-vocabulary-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "open-world",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "target": "zero-shot-object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:05:31.278501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15772
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Grounding DINO 1.5: IDEA Research's Most Capable Open-World Object Detection Model Series",
+    "fork": false,
+    "full_name": "IDEA-Research/Grounding-DINO-1.5-API",
+    "html_url": "https://github.com/IDEA-Research/Grounding-DINO-1.5-API",
+    "language": "Python",
+    "pushed_at": "2025-01-21T11:24:30Z",
+    "stargazers_count": 1104,
+    "topics": [
+      "foundation-model",
+      "grounding-dino",
+      "object-detection",
+      "open-set",
+      "open-vocabulary-detection",
+      "open-world",
+      "zero-shot-object-detection"
+    ],
+    "updated_at": "2026-04-27T07:27:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/t-rex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mountchicken/mmocr_tutorials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Grounding DINO 1.5</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-model"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Grounding DINO 1.5</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grounding-dino"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Grounding DINO 1.5</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Grounding DINO 1.5</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-set"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Grounding DINO 1.5</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-vocabulary-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Grounding DINO 1.5</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-world"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Grounding DINO 1.5</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-object-detection"
+    }
+  ]
+}

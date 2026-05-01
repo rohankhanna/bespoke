@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -386,6 +386,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "surrealdb/surrealdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "liuliu/ccv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "brentyi/jaxlie"
     }
   ],
   "term": "coverage"

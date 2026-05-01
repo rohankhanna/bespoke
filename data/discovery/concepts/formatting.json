@@ -286,6 +286,30 @@
       "source_repo": "nvim-neorg/neorg",
       "status": "candidate-context",
       "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate-context",
+      "text": "Sparse nonlinear least squares in JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate-context",
+      "text": "formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viser-project/viser",
+      "status": "candidate-context",
+      "text": "Web-based 3D visualization in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viser-project/viser",
+      "status": "candidate-context",
+      "text": "formatting"
     }
   ],
   "candidate_glosses": [
@@ -426,6 +450,18 @@
       "source_repo": "nvim-neorg/neorg",
       "status": "candidate",
       "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate",
+      "text": "formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viser-project/viser",
+      "status": "candidate",
+      "text": "formatting"
     }
   ],
   "candidate_related_terms": [
@@ -719,11 +755,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/stylua.yml",
       "source_repo": "nvim-neorg/neorg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeedExamples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "brentyi/jaxls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "viser-project/viser"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

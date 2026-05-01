@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "classloader"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "burningwave/core",
+      "status": "candidate-context",
+      "text": "An advanced and highly optimized Java library to build frameworks: it's useful for scanning class paths, generating classes at runtime, facilitating the use of reflection, scanning the filesystem, executing stringified source code and much more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "burningwave/core",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.burningwave.org\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "burningwave/core",
+      "status": "candidate",
+      "text": "<a href=\"https://www.burningwave.org\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023918,
+      "status": "candidate",
+      "text": "classloading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023917,
+      "status": "candidate",
+      "text": "autoloader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023916,
+      "status": "candidate",
+      "text": "multiloader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023915,
+      "status": "candidate",
+      "text": "autoloading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023914,
+      "status": "candidate",
+      "text": "absolute loader"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "classloader",
+  "concept_id": "classloader",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "burningwave/core"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "classloader",
+      "sense_id": "classloader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

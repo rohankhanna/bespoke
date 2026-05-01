@@ -1,7 +1,7 @@
 {
   "component": "none",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/meterpreter_acceptance.yml",
       "source_repo": "rapid7/metasploit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_macos.yml",
+      "source_repo": "beached/daw_json_link"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_ubuntu.yml",
+      "source_repo": "beached/daw_json_link"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "beached/daw_json_link"
     }
   ]
 }

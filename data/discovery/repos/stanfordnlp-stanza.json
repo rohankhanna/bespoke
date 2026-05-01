@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stanza-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stanza-tests.yaml",
+      "source_repo": "stanfordnlp/stanza",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stanza-tests.yaml",
+      "source_repo": "stanfordnlp/stanza",
+      "target": "Run Stanza Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza",
+      "target": "corenlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza",
+      "target": "named-entity-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza",
+      "target": "universal-dependencies",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:02:27.707275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11355
+    },
+    {
+      "path": ".github/workflows/stanza-tests.yaml",
+      "size": 1800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages",
+    "fork": false,
+    "full_name": "stanfordnlp/stanza",
+    "html_url": "https://github.com/stanfordnlp/stanza",
+    "language": "Python",
+    "pushed_at": "2026-04-30T23:59:58Z",
+    "stargazers_count": 7783,
+    "topics": [
+      "artificial-intelligence",
+      "corenlp",
+      "deep-learning",
+      "machine-learning",
+      "named-entity-recognition",
+      "natural-language-processing",
+      "nlp",
+      "python",
+      "pytorch",
+      "universal-dependencies"
+    ],
+    "updated_at": "2026-04-27T02:45:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Stanza Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stanza-tests.yaml",
+      "term": "Run Stanza Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corenlp"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "named-entity-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "universal-dependencies"
+    }
+  ]
+}

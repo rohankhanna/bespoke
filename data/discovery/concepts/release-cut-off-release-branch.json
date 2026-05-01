@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Release: Cut off release branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate-context",
+      "text": "Configs and boilerplates for Label Studio's Machine Learning backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate-context",
+      "text": "\"Release: Cut off release branch\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "status": "candidate-context",
+      "text": "Label Studio SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "status": "candidate-context",
+      "text": "\"Release: Cut off release branch\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate",
+      "text": "\"Release: Cut off release branch\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "status": "candidate",
+      "text": "\"Release: Cut off release branch\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56248,
+      "status": "candidate",
+      "text": "bush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51752,
+      "status": "candidate",
+      "text": "lop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49436,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47752,
+      "status": "candidate",
+      "text": "cutting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47571,
+      "status": "candidate",
+      "text": "intercept"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release: Cut off release branch",
+  "concept_id": "release-cut-off-release-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "source_repo": "HumanSignal/label-studio-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release: Cut off release branch",
+      "sense_id": "release-cut-off-release-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

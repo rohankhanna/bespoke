@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "target": "kaiminghe/deep-residual-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "target": "captioning-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "target": "image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "target": "lstm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:56:12.640086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automatic image captioning model based on Caffe, using features from bottom-up attention.",
+    "fork": false,
+    "full_name": "peteanderson80/Up-Down-Captioner",
+    "html_url": "https://github.com/peteanderson80/Up-Down-Captioner",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-03T03:44:28Z",
+    "stargazers_count": 249,
+    "topics": [
+      "caffe",
+      "captioning-images",
+      "image-captioning",
+      "lstm"
+    ],
+    "updated_at": "2025-10-04T07:22:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiminghe/deep-residual-networks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captioning-images"
+    },
+    {
+      "context_snippet": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-captioning"
+    },
+    {
+      "context_snippet": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lstm"
+    }
+  ]
+}

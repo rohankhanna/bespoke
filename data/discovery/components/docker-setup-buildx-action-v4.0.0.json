@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v4.0.0",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/mpi-operator-docker-image-publish.yml",
       "source_repo": "kubeflow/mpi-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend"
     }
   ]
 }

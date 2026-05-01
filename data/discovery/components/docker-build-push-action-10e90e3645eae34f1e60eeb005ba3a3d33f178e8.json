@@ -2,7 +2,7 @@
   "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -164,6 +164,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/controller-release.yml",
       "source_repo": "openlit/openlit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-latest-images.yaml",
+      "source_repo": "kubeflow/spark-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubeflow/spark-operator"
     }
   ]
 }

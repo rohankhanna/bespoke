@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:51:26.115334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3083
+    },
+    {
+      "path": "requirements.txt",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for the \"Gotta Go Fast When Generating Data with Score-Based Models\" paper",
+    "fork": false,
+    "full_name": "AlexiaJM/score_sde_fast_sampling",
+    "html_url": "https://github.com/AlexiaJM/score_sde_fast_sampling",
+    "language": "Python",
+    "pushed_at": "2021-11-20T21:59:57Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2025-07-09T12:44:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

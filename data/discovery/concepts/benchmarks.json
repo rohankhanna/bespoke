@@ -503,6 +503,18 @@
       "source_repo": "treeverse/dvc",
       "status": "candidate-context",
       "text": "benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vpype",
+      "status": "candidate-context",
+      "text": "The Swiss-Army-knife command-line tool for plotter vector graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype",
+      "status": "candidate-context",
+      "text": "Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -751,6 +763,12 @@
       "source_repo": "treeverse/dvc",
       "status": "candidate",
       "text": "benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype",
+      "status": "candidate",
+      "text": "Benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -1189,11 +1207,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "abey79/vpype"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuliang-Liu/MonkeyOCR",
+      "target": "hciilab/m6doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuliang-Liu/MonkeyOCR",
+      "target": "ds4sd/doclaynet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuliang-Liu/MonkeyOCR",
+      "target": "alibabaresearch/advancedliteratemachinery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuliang-Liu/MonkeyOCR",
+      "target": "alpha-innovator/docgenome",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:58.790888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34713
+    },
+    {
+      "path": "requirements.txt",
+      "size": 356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight LMM-based Document Parsing Model",
+    "fork": false,
+    "full_name": "Yuliang-Liu/MonkeyOCR",
+    "html_url": "https://github.com/Yuliang-Liu/MonkeyOCR",
+    "language": "Python",
+    "pushed_at": "2026-04-24T06:32:25Z",
+    "stargazers_count": 6588,
+    "topics": [],
+    "updated_at": "2026-04-30T03:08:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibabaresearch/advancedliteratemachinery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-innovator/docgenome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ds4sd/doclaynet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hciilab/m6doc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

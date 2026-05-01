@@ -1585,6 +1585,78 @@
       "source_repo": "poloclub/diffusiondb",
       "status": "candidate-context",
       "text": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate-context",
+      "text": "Image-to-image translation with conditional adversarial nets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate-context",
+      "text": "[Project](https://phillipi.github.io/pix2pix/) | [Arxiv](https://arxiv.org/abs/1611.07004) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/donut",
+      "status": "candidate-context",
+      "text": "Official Implementation of OCR-free Document Understanding Transformer (Donut) and Synthetic Document Generator (SynthDoG), ECCV 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/donut",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "We write your reusable computer vision tools. \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate-context",
+      "text": "Rigid transforms + Lie groups for JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/brentyi/jaxlie/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate-context",
+      "text": "PyTorch Wildlife: a Collaborative Deep Learning Framework for Conservation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate-context",
+      "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
     }
   ],
   "candidate_glosses": [
@@ -2379,6 +2451,42 @@
       "source_repo": "poloclub/diffusiondb",
       "status": "candidate",
       "text": "[![hugging](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/poloclub/diffusiondb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate",
+      "text": "[Project](https://phillipi.github.io/pix2pix/) | [Arxiv](https://arxiv.org/abs/1611.07004) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/donut",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate",
+      "text": "![build](https://github.com/brentyi/jaxlie/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate",
+      "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -3412,11 +3520,83 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "poloclub/diffusiondb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "phillipi/pix2pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "fundamentalvision/BEVFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/donut"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "brentyi/jaxlie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,78 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/dopamine",
+      "target": "farama-foundation/arcade-learning-environment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/dopamine",
+      "target": "google",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/dopamine",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:33.303007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6139
+    },
+    {
+      "path": "requirements.txt",
+      "size": 962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dopamine is a research framework for fast prototyping of reinforcement learning algorithms. ",
+    "fork": false,
+    "full_name": "google/dopamine",
+    "html_url": "https://github.com/google/dopamine",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-24T18:11:40Z",
+    "stargazers_count": 10878,
+    "topics": [
+      "ai",
+      "google",
+      "ml",
+      "rl",
+      "tensorflow"
+    ],
+    "updated_at": "2026-05-01T00:07:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "farama-foundation/arcade-learning-environment",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Getting Started](#getting-started) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    },
+    {
+      "context_snippet": "[Getting Started](#getting-started) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

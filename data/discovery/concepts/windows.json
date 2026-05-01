@@ -1732,6 +1732,54 @@
       "source_repo": "alexcrichton/ssh2-rs",
       "status": "candidate-context",
       "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Performance Counter Monitor (Intel\u00ae PCM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "--------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate-context",
+      "text": "Fast, convenient JSON serialization and parsing in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colmap/glomap",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] GLOMAP - Global Structured-from-Motion Revisited"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/glomap",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "Windows"
     }
   ],
   "candidate_glosses": [
@@ -2608,6 +2656,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alexcrichton/ssh2-rs",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate",
+      "text": "--------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/glomap",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
       "status": "candidate",
       "text": "Windows"
     }
@@ -3895,11 +3967,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "intel/pcm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "beached/daw_json_link"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "colmap/glomap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/dotnet-windows.yml",
+      "source_repo": "BobLd/camelot-sharp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

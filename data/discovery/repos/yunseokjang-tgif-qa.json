@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YunseokJANG/tgif-qa",
+      "target": "cvpr2017",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YunseokJANG/tgif-qa",
+      "target": "snuvl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YunseokJANG/tgif-qa",
+      "target": "tgif-qa",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:59:30.804392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository for our CVPR 2017 and IJCV: TGIF-QA",
+    "fork": false,
+    "full_name": "YunseokJANG/tgif-qa",
+    "html_url": "https://github.com/YunseokJANG/tgif-qa",
+    "language": "Python",
+    "pushed_at": "2021-09-06T00:03:44Z",
+    "stargazers_count": 179,
+    "topics": [
+      "cvpr2017",
+      "snuvl",
+      "tgif-qa"
+    ],
+    "updated_at": "2026-04-28T11:36:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The TGIF-QA dataset contains 165K QA pairs for the animated GIFs from the [TGIF dataset](https://arxiv.org/abs/1604.02748) [Li et al. CVPR 2016]. The question & answer pairs are collected via crowdsourcing with a carefully designed user interface to ensure quality. The dataset c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2017"
+    },
+    {
+      "context_snippet": "The TGIF-QA dataset contains 165K QA pairs for the animated GIFs from the [TGIF dataset](https://arxiv.org/abs/1604.02748) [Li et al. CVPR 2016]. The question & answer pairs are collected via crowdsourcing with a carefully designed user interface to ensure quality. The dataset c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snuvl"
+    },
+    {
+      "context_snippet": "The TGIF-QA dataset contains 165K QA pairs for the animated GIFs from the [TGIF dataset](https://arxiv.org/abs/1604.02748) [Li et al. CVPR 2016]. The question & answer pairs are collected via crowdsourcing with a carefully designed user interface to ensure quality. The dataset c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tgif-qa"
+    }
+  ]
+}

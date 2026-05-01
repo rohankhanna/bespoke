@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/Inf-Net",
+      "target": "hzfu/covid19_imaging_ai_paper_list",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/Inf-Net",
+      "target": "gewelsji/vps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/Inf-Net",
+      "target": "facebookresearch/resnext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/Inf-Net",
+      "target": "iduta/iresnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:18.169652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19947
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Inf-Net: Automatic COVID-19 Lung Infection Segmentation from CT Images, IEEE TMI 2020.",
+    "fork": false,
+    "full_name": "DengPingFan/Inf-Net",
+    "html_url": "https://github.com/DengPingFan/Inf-Net",
+    "language": "Python",
+    "pushed_at": "2023-07-06T21:39:53Z",
+    "stargazers_count": 358,
+    "topics": [],
+    "updated_at": "2026-04-20T12:47:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/resnext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gewelsji/vps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hzfu/covid19_imaging_ai_paper_list",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iduta/iresnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

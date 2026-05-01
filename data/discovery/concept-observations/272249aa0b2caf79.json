@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "(Accepted by IJCV) Liquid: Language Models are Scalable and Unified Multi-modal Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39823637,
+      "status": "candidate",
+      "text": "originative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39821768,
+      "status": "candidate",
+      "text": "creative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39670520,
+      "status": "candidate",
+      "text": "productive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39665726,
+      "status": "candidate",
+      "text": "procreative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39665316,
+      "status": "candidate",
+      "text": "fruitful"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generative",
+      "sense_id": "generative#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14033,
+      "status": "candidate",
+      "text": "creative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13039,
+      "status": "candidate",
+      "text": "productive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11028,
+      "status": "candidate",
+      "text": "fruitful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4024,
+      "status": "candidate",
+      "text": "originative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2027,
+      "status": "candidate",
+      "text": "procreative"
+    }
+  ],
+  "concept_id": "generative",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generative",
+  "observation_id": "272249aa0b2caf79",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "generative",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "FoundationVision/Liquid",
+  "source_repo_description": "(Accepted by IJCV) Liquid: Language Models are Scalable and Unified Multi-modal Generators"
+}

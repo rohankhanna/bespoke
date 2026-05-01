@@ -1,0 +1,27 @@
+{
+  "component": "johnnynunez/setup-vulkan-sdk@v1",
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cmake.yml",
+      "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-xmake.yml",
+      "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LuisaGroup/LuisaRender"
+    }
+  ]
+}

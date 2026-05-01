@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Emacs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-community/utop",
+      "status": "candidate-context",
+      "text": "Universal toplevel for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-community/utop",
+      "status": "candidate-context",
+      "text": "Test Emacs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-community/utop",
+      "status": "candidate",
+      "text": "Test Emacs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "undo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "audio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "chronological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "depressive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Emacs",
+  "concept_id": "test-emacs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test-emacs.yml",
+      "source_repo": "ocaml-community/utop"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Emacs",
+      "sense_id": "test-emacs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

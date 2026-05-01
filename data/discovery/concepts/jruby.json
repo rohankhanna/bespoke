@@ -46,6 +46,18 @@
       "source_repo": "jruby/jruby",
       "status": "candidate-context",
       "text": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate-context",
+      "text": "JRubyArt a ruby implementation of processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "jruby/jruby",
       "status": "candidate",
       "text": "Master: [![JRuby CI](https://github.com/jruby/jruby/actions/workflows/ci.yml/badge.svg)](https://github.com/jruby/jruby/actions/workflows/ci.yml), [![JRuby CI (Windows)](https://github.com/jruby/jruby/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/jruby/jruby/ac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +145,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "jruby/jruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -301,6 +301,42 @@
       "source_repo": "weaviate/weaviate",
       "status": "candidate-context",
       "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anush008/fastembed-go",
+      "status": "candidate-context",
+      "text": "Go implementation of @qdrant/fastembed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anush008/fastembed-go",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anush008/fastembed-js",
+      "status": "candidate-context",
+      "text": "Generate vector embeddings in NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anush008/fastembed-js",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qdrant/fastembed",
+      "status": "candidate-context",
+      "text": "Fast, Accurate, Lightweight Python library to make State of the Art Embedding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/fastembed",
+      "status": "candidate-context",
+      "text": "FastEmbed is a lightweight, fast, Python library built for embedding generation. We [support popular text models](https://qdrant.github.io/fastembed/examples/Supported_Models/). Please [open a GitHub issue](https://github.com/qdrant/fastembed/issues/new) if you want us to add a \u2026"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +489,24 @@
       "source_repo": "weaviate/weaviate",
       "status": "candidate",
       "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anush008/fastembed-go",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anush008/fastembed-js",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/fastembed",
+      "status": "candidate",
+      "text": "FastEmbed is a lightweight, fast, Python library built for embedding generation. We [support popular text models](https://qdrant.github.io/fastembed/examples/Supported_Models/). Please [open a GitHub issue](https://github.com/qdrant/fastembed/issues/new) if you want us to add a \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -682,11 +736,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Anush008/fastembed-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Anush008/fastembed-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "qdrant/fastembed"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

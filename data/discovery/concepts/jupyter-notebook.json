@@ -163,6 +163,18 @@
       "source_repo": "akabe/ocaml-jupyter",
       "status": "candidate-context",
       "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate-context",
+      "text": "A Scala kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "akabe/ocaml-jupyter",
       "status": "candidate",
       "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +346,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "akabe/ocaml-jupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "almond-sh/almond"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

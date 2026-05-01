@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Experimental clang support for WG21 P2996 (Reflection)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004493,
+      "status": "candidate",
+      "text": "reflectivity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004463,
+      "status": "candidate",
+      "text": "reflexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004233,
+      "status": "candidate",
+      "text": "mirror image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925775,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919324,
+      "status": "candidate",
+      "text": "manifestation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reflection",
+      "sense_id": "reflection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39026,
+      "status": "candidate",
+      "text": "musing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38032,
+      "status": "candidate",
+      "text": "rumination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34041,
+      "status": "candidate",
+      "text": "manifestation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27057,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26037,
+      "status": "candidate",
+      "text": "contemplation"
+    }
+  ],
+  "concept_id": "reflection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reflection",
+  "observation_id": "598a63f9bfcddf38",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "reflection",
+  "source_context_snippet": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the",
+  "source_file": null,
+  "source_repo": "bloomberg/clang-p2996",
+  "source_repo_description": "Experimental clang support for WG21 P2996 (Reflection)."
+}

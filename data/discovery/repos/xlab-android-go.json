@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlab/android-go",
+      "target": "golang-ui/nuklear",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:11:05.543186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10332
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The android-go project provides a platform for writing native Android apps in Go programming language.",
+    "fork": false,
+    "full_name": "xlab/android-go",
+    "html_url": "https://github.com/xlab/android-go",
+    "language": "Go",
+    "pushed_at": "2022-11-06T20:40:36Z",
+    "stargazers_count": 1087,
+    "topics": [],
+    "updated_at": "2026-04-24T06:38:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang-ui/nuklear",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

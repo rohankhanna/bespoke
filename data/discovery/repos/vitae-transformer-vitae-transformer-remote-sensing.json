@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "vitae-transformer/rsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "vitae-transformer/remote-sensing-rvsa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "vitae-transformer/mtp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "vitae-transformer/lemevit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "change-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "remote-sensing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "transfer-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:51:18.411468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A comprehensive list [SAMRS@NeurIPS'23, RVSA@TGRS'22, RSP@TGRS'22] of our research works related to remote sensing, including papers, codes, and citations. Note: The repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\" has been moved to: https://github.com/ViTAE-Transformer/RSP",
+    "fork": false,
+    "full_name": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+    "html_url": "https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+    "language": "TeX",
+    "pushed_at": "2024-06-06T01:15:00Z",
+    "stargazers_count": 487,
+    "topics": [
+      "change-detection",
+      "classification",
+      "deep-learning",
+      "object-detection",
+      "remote-sensing",
+      "self-supervised-learning",
+      "semantic-segmentation",
+      "transfer-learning",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-01T13:32:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/lemevit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/mtp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/remote-sensing-rvsa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/rsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "change-detection"
+    },
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-sensing"
+    },
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    },
+    {
+      "context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

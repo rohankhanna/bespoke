@@ -295,6 +295,90 @@
       "source_repo": "mujocolab/mjviser",
       "status": "candidate-context",
       "text": "[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mujocolab/mjviser/ci.yml?branch=main)](https://github.com/mujocolab/mjviser/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate-context",
+      "text": "Python parser for URDFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate-context",
+      "text": "A collection of robotics simulation environments for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/gymnasium-robotics.svg)](https://badge.fury.io/py/gymnasium-robotics)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vikashplus/sawyer_sim",
+      "status": "candidate-context",
+      "text": "MuJoCo model for Sawyer from Rethink robotics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/sawyer_sim",
+      "status": "candidate-context",
+      "text": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rhoban/onshape-to-robot",
+      "status": "candidate-context",
+      "text": "Converting Onshape assembly to robot definition (URDF, SDF, MuJoCo) through Onshape API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rhoban/onshape-to-robot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "MuJoco Simulation on Web Assembly with Neural netwroks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate-context",
+      "text": "Rigid transforms + Lie groups for JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/brentyi/jaxlie/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stanford-TML/robot_keyframe_kit",
+      "status": "candidate-context",
+      "text": "Create motion for any robot through editing keyframe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stanford-TML/robot_keyframe_kit",
+      "status": "candidate-context",
+      "text": "A generalizable MuJoCo keyframe editor for creating and editing robot motion sequences. Works with any MuJoCo-compatible robot model."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +525,48 @@
       "source_repo": "mujocolab/mjviser",
       "status": "candidate",
       "text": "[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mujocolab/mjviser/ci.yml?branch=main)](https://github.com/mujocolab/mjviser/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/gymnasium-robotics.svg)](https://badge.fury.io/py/gymnasium-robotics)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vikashplus/sawyer_sim",
+      "status": "candidate",
+      "text": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rhoban/onshape-to-robot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate",
+      "text": "![build](https://github.com/brentyi/jaxlie/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stanford-TML/robot_keyframe_kit",
+      "status": "candidate",
+      "text": "A generalizable MuJoCo keyframe editor for creating and editing robot motion sequences. Works with any MuJoCo-compatible robot model."
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +790,59 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Rhoban/onshape-to-robot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ttktjmt/mjswan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco_menagerie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "brentyi/jaxlie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Stanford-TML/robot_keyframe_kit"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

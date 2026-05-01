@@ -55,6 +55,18 @@
       "source_repo": "flairNLP/flair",
       "status": "candidate-context",
       "text": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate-context",
+      "text": "Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "flairNLP/flair",
       "status": "candidate",
       "text": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "flairNLP/flair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

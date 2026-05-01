@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:09:17.782376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "XR-Robotics/XRoboToolkit-PC-Service",
+    "html_url": "https://github.com/XR-Robotics/XRoboToolkit-PC-Service",
+    "language": "C++",
+    "pushed_at": "2025-10-23T16:53:22Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-20T11:47:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -367,6 +367,42 @@
       "source_repo": "grammarly/gector",
       "status": "candidate-context",
       "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "status": "candidate-context",
+      "text": "Label data using HuggingFace's transformers and automatically get a prediction service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "status": "candidate-context",
+      "text": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/MacBERT",
+      "status": "candidate-context",
+      "text": "Revisiting Pre-trained Models for Chinese Natural Language Processing (MacBERT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/MacBERT",
+      "status": "candidate-context",
+      "text": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate-context",
+      "text": "MiniRBT (\u4e2d\u6587\u5c0f\u578b\u9884\u8bad\u7ec3\u6a21\u578b\u7cfb\u5217)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +585,24 @@
       "source_repo": "grammarly/gector",
       "status": "candidate",
       "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "status": "candidate",
+      "text": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/MacBERT",
+      "status": "candidate",
+      "text": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -814,11 +868,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/MiniRBT"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

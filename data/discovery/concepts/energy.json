@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "energy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Performance Counter Monitor (Intel\u00ae PCM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "--------------------------------------------------------------------------------"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate",
+      "text": "--------------------------------------------------------------------------------"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997641,
+      "status": "candidate",
+      "text": "vigour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997361,
+      "status": "candidate",
+      "text": "vitality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996870,
+      "status": "candidate",
+      "text": "vigor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996273,
+      "status": "candidate",
+      "text": "vim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996056,
+      "status": "candidate",
+      "text": "push"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 67036,
+      "status": "candidate",
+      "text": "vitality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40043,
+      "status": "candidate",
+      "text": "vigor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35024,
+      "status": "candidate",
+      "text": "vigour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25066,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22042,
+      "status": "candidate",
+      "text": "vim"
+    }
+  ],
+  "canonical_name": "energy",
+  "concept_id": "energy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "intel/pcm"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "energy",
+      "sense_id": "energy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

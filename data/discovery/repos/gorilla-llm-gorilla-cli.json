@@ -1,0 +1,148 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "target": "tmbo/questionary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "target": "iterm2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "target": "kubernetes-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:05:43.959365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLMs for your CLI",
+    "fork": false,
+    "full_name": "gorilla-llm/gorilla-cli",
+    "html_url": "https://github.com/gorilla-llm/gorilla-cli",
+    "language": "Python",
+    "pushed_at": "2024-05-29T22:15:27Z",
+    "stargazers_count": 1362,
+    "topics": [
+      "aws",
+      "bash",
+      "cli",
+      "gcp",
+      "iterm2",
+      "k8s",
+      "kubernetes",
+      "kubernetes-cli",
+      "llm",
+      "productivity",
+      "shell",
+      "terminal",
+      "wsl",
+      "zsh"
+    ],
+    "updated_at": "2026-04-28T05:57:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmbo/questionary",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iterm2"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-cli"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

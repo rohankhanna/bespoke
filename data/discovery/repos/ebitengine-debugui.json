@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ebitengine/debugui",
+      "target": "rxi/microui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ebitengine/debugui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ebitengine/debugui",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ebitengine/debugui",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:11:18.117617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2851
+    },
+    {
+      "path": "go.mod",
+      "size": 801
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1080
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A UI toolkit for Ebitengine applications, primarily intended for debugging purposes.",
+    "fork": false,
+    "full_name": "ebitengine/debugui",
+    "html_url": "https://github.com/ebitengine/debugui",
+    "language": "Go",
+    "pushed_at": "2026-04-23T15:18:26Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-04-23T15:18:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rxi/microui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

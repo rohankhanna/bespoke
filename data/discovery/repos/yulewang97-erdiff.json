@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yulewang97/ERDiff",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yulewang97/ERDiff",
+      "target": "domain-adaptation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yulewang97/ERDiff",
+      "target": "neural-alignment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:51:29.268166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2576
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2023 Spotlight] Official Repo for \"Extraction and Recovery of Dpatio-temporal Structure in Latent Dynamics Alignment with Diffusion Models\"",
+    "fork": false,
+    "full_name": "yulewang97/ERDiff",
+    "html_url": "https://github.com/yulewang97/ERDiff",
+    "language": "Python",
+    "pushed_at": "2026-02-23T02:36:43Z",
+    "stargazers_count": 51,
+    "topics": [
+      "diffusion-models",
+      "domain-adaptation",
+      "neural-alignment"
+    ],
+    "updated_at": "2026-02-23T02:36:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h2>Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Models [NeurIPS'2023 Spotlight]</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<h2>Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Models [NeurIPS'2023 Spotlight]</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-adaptation"
+    },
+    {
+      "context_snippet": "<h2>Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Models [NeurIPS'2023 Spotlight]</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-alignment"
+    }
+  ]
+}

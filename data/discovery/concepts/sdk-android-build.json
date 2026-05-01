@@ -19,12 +19,30 @@
       "source_repo": "KhronosGroup/Vulkan-ValidationLayers",
       "status": "candidate-context",
       "text": "SDK Android Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate-context",
+      "text": "Graphics API Capture and Replay Tools for Reconstructing Graphics Application Behavior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate-context",
+      "text": "SDK Android Build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "KhronosGroup/Vulkan-ValidationLayers",
+      "status": "candidate",
+      "text": "SDK Android Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LunarG/gfxreconstruct",
       "status": "candidate",
       "text": "SDK Android Build"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/sdk_android_build.yml",
       "source_repo": "KhronosGroup/Vulkan-ValidationLayers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/sdk_android_build.yml",
+      "source_repo": "LunarG/gfxreconstruct"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

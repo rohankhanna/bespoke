@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenSparseLLMs/MoM",
+      "target": "openai/triton",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:00:40.803752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "OpenSparseLLMs/MoM",
+    "html_url": "https://github.com/OpenSparseLLMs/MoM",
+    "language": "Python",
+    "pushed_at": "2026-02-04T03:40:59Z",
+    "stargazers_count": 130,
+    "topics": [],
+    "updated_at": "2026-04-16T04:07:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/triton",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicahParks/keyfunc",
+      "target": "micahparks/jwkset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "MicahParks/keyfunc",
+      "target": "micahparks/jwkset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/keyfunc",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/keyfunc",
+      "target": "jwks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/keyfunc",
+      "target": "jwkset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/keyfunc",
+      "target": "oidc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:41:32.284014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3760
+    },
+    {
+      "path": "go.mod",
+      "size": 494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create a jwt.Keyfunc for JWT parsing with a JWK Set or given cryptographic keys (like HMAC) in Golang.",
+    "fork": false,
+    "full_name": "MicahParks/keyfunc",
+    "html_url": "https://github.com/MicahParks/keyfunc",
+    "language": "Go",
+    "pushed_at": "2026-02-11T19:19:54Z",
+    "stargazers_count": 397,
+    "topics": [
+      "go",
+      "golang",
+      "jwk",
+      "jwks",
+      "jwkset",
+      "jwt",
+      "oidc"
+    ],
+    "updated_at": "2026-04-22T11:27:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micahparks/jwkset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micahparks/jwkset",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/keyfunc/v3.svg)](https://pkg.go.dev/github.com/MicahParks/keyfunc/v3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/keyfunc/v3.svg)](https://pkg.go.dev/github.com/MicahParks/keyfunc/v3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwks"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/keyfunc/v3.svg)](https://pkg.go.dev/github.com/MicahParks/keyfunc/v3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwkset"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/keyfunc/v3.svg)](https://pkg.go.dev/github.com/MicahParks/keyfunc/v3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oidc"
+    }
+  ]
+}

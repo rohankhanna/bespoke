@@ -739,6 +739,30 @@
       "source_repo": "buger/jsonparser",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/buger/jsonparser)](https://goreportcard.com/report/github.com/buger/jsonparser) ![License](https://img.shields.io/dub/l/vibe-d.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hyparquet",
+      "status": "candidate-context",
+      "text": "parquet file parser for javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet",
+      "status": "candidate-context",
+      "text": "![hyparquet parakeet](hyparquet.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate-context",
+      "text": "Fast, convenient JSON serialization and parsing in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate-context",
+      "text": "MacOS"
     }
   ],
   "candidate_glosses": [
@@ -1107,6 +1131,18 @@
       "source_repo": "buger/jsonparser",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/buger/jsonparser)](https://goreportcard.com/report/github.com/buger/jsonparser) ![License](https://img.shields.io/dub/l/vibe-d.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet",
+      "status": "candidate",
+      "text": "![hyparquet parakeet](hyparquet.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate",
+      "text": "MacOS"
     }
   ],
   "candidate_related_terms": [
@@ -1546,11 +1582,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "buger/jsonparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hyparquet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

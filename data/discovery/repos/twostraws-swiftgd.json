@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twostraws/SwiftGD",
+      "target": "twostraws/cgd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:43.415541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple Swift wrapper for libgd",
+    "fork": false,
+    "full_name": "twostraws/SwiftGD",
+    "html_url": "https://github.com/twostraws/SwiftGD",
+    "language": "Swift",
+    "pushed_at": "2026-04-10T05:31:49Z",
+    "stargazers_count": 473,
+    "topics": [],
+    "updated_at": "2026-04-17T05:59:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twostraws/cgd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

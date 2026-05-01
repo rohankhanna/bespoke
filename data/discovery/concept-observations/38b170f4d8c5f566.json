@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[SIGGRAPH 2025] Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Version](https://img.shields.io/badge/version-1.0.0-blue) &nbsp;"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Version](https://img.shields.io/badge/version-1.0.0-blue) &nbsp;"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-generation",
+      "sense_id": "video-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-generation",
+  "observation_id": "38b170f4d8c5f566",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "video-generation",
+  "source_context_snippet": "![Version](https://img.shields.io/badge/version-1.0.0-blue) &nbsp;",
+  "source_file": null,
+  "source_repo": "IGL-HKUST/DiffusionAsShader",
+  "source_repo_description": "[SIGGRAPH 2025] Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control"
+}

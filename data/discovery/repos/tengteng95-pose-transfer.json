@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tengteng95/Pose-Transfer",
+      "target": "zhec/realtime_multi-person_pose_estimation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:52:40.033766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the paper Progressive Pose Attention for Person Image Generation in CVPR19 (Oral).",
+    "fork": false,
+    "full_name": "tengteng95/Pose-Transfer",
+    "html_url": "https://github.com/tengteng95/Pose-Transfer",
+    "language": "Python",
+    "pushed_at": "2023-02-11T19:15:30Z",
+    "stargazers_count": 741,
+    "topics": [],
+    "updated_at": "2026-04-21T06:20:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhec/realtime_multi-person_pose_estimation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

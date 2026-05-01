@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "echo840/LIRA",
+      "target": "lxtgh/omg-seg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:51.367024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6904
+    },
+    {
+      "path": "requirements.txt",
+      "size": 163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2025] LIRA",
+    "fork": false,
+    "full_name": "echo840/LIRA",
+    "html_url": "https://github.com/echo840/LIRA",
+    "language": "Python",
+    "pushed_at": "2025-11-25T04:43:25Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2025-11-25T10:30:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxtgh/omg-seg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

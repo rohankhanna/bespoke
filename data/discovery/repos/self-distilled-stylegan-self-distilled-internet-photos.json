@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:56:46.884686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "self-distilled-stylegan/self-distilled-internet-photos",
+    "html_url": "https://github.com/self-distilled-stylegan/self-distilled-internet-photos",
+    "language": "Python",
+    "pushed_at": "2022-04-05T08:25:37Z",
+    "stargazers_count": 242,
+    "topics": [],
+    "updated_at": "2026-04-27T13:32:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

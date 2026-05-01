@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atteo/classindex",
+      "target": "atteo/classindex-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atteo/classindex",
+      "target": "ronmamo/reflections",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atteo/classindex",
+      "target": "atteo/classindex-maven-example",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:49.082143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Index classes, do not scan them!",
+    "fork": false,
+    "full_name": "atteo/classindex",
+    "html_url": "https://github.com/atteo/classindex",
+    "language": "Java",
+    "pushed_at": "2023-06-14T22:46:12Z",
+    "stargazers_count": 268,
+    "topics": [],
+    "updated_at": "2026-02-11T08:09:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atteo/classindex-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atteo/classindex-maven-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ronmamo/reflections",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -103,6 +103,18 @@
       "source_repo": "uxlfoundation/oneTBB",
       "status": "candidate-context",
       "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/paxml",
+      "status": "candidate-context",
+      "text": "Pax is a Jax-based machine learning framework for training large scale models. Pax allows for advanced and fully configurable experimentation and parallelization, and has demonstrated industry leading model flop utilization rates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/paxml",
+      "status": "candidate-context",
+      "text": "Pax is a framework to configure and run machine learning experiments on top of Jax."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "uxlfoundation/oneTBB",
       "status": "candidate",
       "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/paxml",
+      "status": "candidate",
+      "text": "Pax is a framework to configure and run machine learning experiments on top of Jax."
     }
   ],
   "candidate_related_terms": [
@@ -294,11 +312,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google/paxml"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

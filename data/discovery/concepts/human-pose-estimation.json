@@ -175,6 +175,18 @@
       "source_repo": "aim-uofa/GenPercept",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "status": "candidate-context",
+      "text": "Real-time pose estimation accelerated with NVIDIA TensorRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "status": "candidate-context",
+      "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "aim-uofa/GenPercept",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "status": "candidate",
+      "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +382,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "aim-uofa/GenPercept"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

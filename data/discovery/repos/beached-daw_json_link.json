@@ -1,0 +1,368 @@
+{
+  "components": [
+    {
+      "component": "none",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_macos.yml"
+    },
+    {
+      "component": "none",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ubuntu.yml"
+    },
+    {
+      "component": "none",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "beached/msvc-dev-cmd@285e7c0b9b57a02c900951da93a77e656425d783",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.2.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_macos.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_macos.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_macos.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_macos.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ubuntu.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ubuntu.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ubuntu.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "none",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "beached/msvc-dev-cmd@285e7c0b9b57a02c900951da93a77e656425d783",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "beached/daw_json_link",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "beached/daw_json_link",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "beached/daw_json_link",
+      "target": "JamesIves/github-pages-deploy-action@v4.2.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "beached/daw_json_link",
+      "target": "Doxygen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "constexpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "daw-json-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "json-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "parse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link",
+      "target": "serializer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:44:56.051695+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci_macos.yml",
+      "size": 1822
+    },
+    {
+      "path": ".github/workflows/ci_ubuntu.yml",
+      "size": 6843
+    },
+    {
+      "path": ".github/workflows/ci_windows.yml",
+      "size": 3635
+    },
+    {
+      "path": ".github/workflows/doxygen.yaml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "Fast, convenient JSON serialization and parsing in C++",
+    "fork": false,
+    "full_name": "beached/daw_json_link",
+    "html_url": "https://github.com/beached/daw_json_link",
+    "language": "C++",
+    "pushed_at": "2026-02-16T21:46:19Z",
+    "stargazers_count": 503,
+    "topics": [
+      "constexpr",
+      "cpp",
+      "cpp17",
+      "cpp20",
+      "daw-json-link",
+      "json",
+      "json-parser",
+      "parse",
+      "parser",
+      "serialization",
+      "serializer"
+    ],
+    "updated_at": "2026-04-09T18:30:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_macos.yml",
+      "term": "MacOS"
+    },
+    {
+      "context_snippet": "Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ubuntu.yml",
+      "term": "Ubuntu"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "Doxygen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "term": "Doxygen"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "constexpr"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daw-json-link"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parse"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serializer"
+    }
+  ]
+}

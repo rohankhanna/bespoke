@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:53:28.243119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visual Studio Tools for AI is a free Visual Studio extension to build, test, and deploy deep learning / AI solutions. It seamlessly integrates with Azure Machine Learning for robust experimentation capabilities, including but not limited to submitting data preparation and model training jobs transparently to different compute targets. Additionally, it provides support for custom metrics and run history tracking, enabling data science reproducibility and auditing. Enterprise ready collaboration, allow to securely work on project with other people.",
+    "fork": false,
+    "full_name": "microsoft/vs-tools-for-ai",
+    "html_url": "https://github.com/microsoft/vs-tools-for-ai",
+    "language": null,
+    "pushed_at": "2023-06-12T20:27:14Z",
+    "stargazers_count": 359,
+    "topics": [],
+    "updated_at": "2026-04-11T09:32:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

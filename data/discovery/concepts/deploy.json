@@ -1258,6 +1258,72 @@
       "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
       "status": "candidate-context",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Divadi/SOLOFusion",
+      "status": "candidate-context",
+      "text": "Time Will Tell: New Outlooks and A Baseline for Temporal Multi-View 3D Object Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Divadi/SOLOFusion",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HuangJunJie2017/BEVDet",
+      "status": "candidate-context",
+      "text": "Code base of the BEVDet series ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HuangJunJie2017/BEVDet",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adlith/MoE-Jetpack",
+      "status": "candidate-context",
+      "text": "[NeurIPS 24] MoE Jetpack: From Dense Checkpoints to Adaptive Mixture of Experts for Vision Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlith/MoE-Jetpack",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/SciReason",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onuralpszr/mmyolo",
+      "status": "candidate-context",
+      "text": "OpenMMLab YOLO series toolbox and benchmark. Implemented RTMDet, RTMDet-Rotated,YOLOv5, YOLOv6, YOLOv7, YOLOv8,YOLOX, PPYOLOE, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onuralpszr/mmyolo",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "MuJoco Simulation on Web Assembly with Neural netwroks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "deploy"
     }
   ],
   "candidate_glosses": [
@@ -1890,6 +1956,42 @@
       "source_repo": "StatisticalRethinkingJulia/TuringModels.jl",
       "status": "candidate",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Divadi/SOLOFusion",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HuangJunJie2017/BEVDet",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlith/MoE-Jetpack",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/SciReason",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onuralpszr/mmyolo",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate",
+      "text": "deploy"
     }
   ],
   "candidate_related_terms": [
@@ -2821,11 +2923,59 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/deploy.yml.orig",
       "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Divadi/SOLOFusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "HuangJunJie2017/BEVDet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Adlith/MoE-Jetpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled",
+      "source_repo": "InternScience/SciReason"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "onuralpszr/mmyolo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ttktjmt/mjswan"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

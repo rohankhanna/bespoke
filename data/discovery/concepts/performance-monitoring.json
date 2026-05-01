@@ -43,6 +43,18 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Performance Counter Monitor (Intel\u00ae PCM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "--------------------------------------------------------------------------------"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate",
+      "text": "--------------------------------------------------------------------------------"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "winsiderss/systeminformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "intel/pcm"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

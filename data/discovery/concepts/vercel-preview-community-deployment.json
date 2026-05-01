@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Vercel Preview Community Deployment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsonwebtoken/jsonwebtoken.github.io",
+      "status": "candidate-context",
+      "text": "Developer-centric site to create awareness of JWTs and troubleshoot them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsonwebtoken/jsonwebtoken.github.io",
+      "status": "candidate-context",
+      "text": "Vercel Preview Community Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsonwebtoken/jsonwebtoken.github.io",
+      "status": "candidate",
+      "text": "Vercel Preview Community Deployment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20434,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20434,
+      "status": "candidate",
+      "text": "cheat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20434,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19877,
+      "status": "candidate",
+      "text": "placing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832,
+      "status": "candidate",
+      "text": "spreading"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Vercel Preview Community Deployment",
+  "concept_id": "vercel-preview-community-deployment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/preview-community.yaml",
+      "source_repo": "jsonwebtoken/jsonwebtoken.github.io"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vercel Preview Community Deployment",
+      "sense_id": "vercel-preview-community-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

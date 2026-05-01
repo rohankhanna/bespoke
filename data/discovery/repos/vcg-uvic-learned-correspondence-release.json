@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:54:02.252740+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code release for \"learning to find good correspondences\" CVPR 2018",
+    "fork": false,
+    "full_name": "vcg-uvic/learned-correspondence-release",
+    "html_url": "https://github.com/vcg-uvic/learned-correspondence-release",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-11-21T22:20:46Z",
+    "stargazers_count": 260,
+    "topics": [],
+    "updated_at": "2026-04-13T09:40:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

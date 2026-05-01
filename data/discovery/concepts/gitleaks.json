@@ -1,7 +1,8 @@
 {
   "aliases": [
     "gitleaks",
-    "gitLeaks"
+    "gitLeaks",
+    "Gitleaks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -76,6 +77,30 @@
       "source_repo": "apache/apisix-dashboard",
       "status": "candidate-context",
       "text": "gitLeaks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate-context",
+      "text": "Configs and boilerplates for Label Studio's Machine Learning backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate-context",
+      "text": "\"Gitleaks\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "status": "candidate-context",
+      "text": "Label Studio SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "status": "candidate-context",
+      "text": "\"Gitleaks\""
     }
   ],
   "candidate_glosses": [
@@ -114,6 +139,18 @@
       "source_repo": "apache/apisix-dashboard",
       "status": "candidate",
       "text": "gitLeaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate",
+      "text": "\"Gitleaks\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "status": "candidate",
+      "text": "\"Gitleaks\""
     }
   ],
   "candidate_related_terms": [],
@@ -247,11 +284,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/example.yml",
       "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-sdk"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

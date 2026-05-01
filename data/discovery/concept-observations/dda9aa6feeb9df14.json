@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build-publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build-publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-publish",
+      "sense_id": "build-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-publish",
+  "observation_id": "dda9aa6feeb9df14",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "build-publish",
+  "source_context_snippet": "build-publish",
+  "source_file": ".github/workflows/build-publish.yml",
+  "source_repo": "Farama-Foundation/Minari",
+  "source_repo_description": "A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities"
+}

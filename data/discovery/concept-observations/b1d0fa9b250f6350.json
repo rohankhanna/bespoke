@@ -84,7 +84,7 @@
   "normalized_form": "publish-helm-charts",
   "observation_id": "b1d0fa9b250f6350",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
   "observed_text": "Publish Helm Charts",
   "source_context_snippet": "Publish Helm Charts",
   "source_file": ".github/workflows/publish-helm-charts.yaml",

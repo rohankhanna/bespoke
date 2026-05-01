@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:11:23.234186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 929
+    },
+    {
+      "path": "go.mod",
+      "size": 7007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Miscellaneous genomics tools and data structures",
+    "fork": false,
+    "full_name": "carbocation/genomisc",
+    "html_url": "https://github.com/carbocation/genomisc",
+    "language": "Go",
+    "pushed_at": "2024-07-26T16:13:10Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-10-06T09:03:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZacharyMeng/PolaFormer",
+      "target": "zacharymeng/polaformerpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:00:45.602329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository of Polarity-aware Linear Attention for Vision Transformers (ICLR 2025)",
+    "fork": false,
+    "full_name": "ZacharyMeng/PolaFormer",
+    "html_url": "https://github.com/ZacharyMeng/PolaFormer",
+    "language": "Python",
+    "pushed_at": "2025-10-26T05:56:08Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-04-11T08:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zacharymeng/polaformerpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SarahWeiii/pamo",
+      "target": "mesh-simplification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SarahWeiii/pamo",
+      "target": "remeshing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:08:29.115610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[PG2025] PaMO: Parallel Mesh Optimization for Intersection-Free Low-Poly Modeling on the GPU",
+    "fork": false,
+    "full_name": "SarahWeiii/pamo",
+    "html_url": "https://github.com/SarahWeiii/pamo",
+    "language": "Python",
+    "pushed_at": "2025-12-11T10:20:58Z",
+    "stargazers_count": 191,
+    "topics": [
+      "gpu",
+      "mesh-simplification",
+      "remeshing"
+    ],
+    "updated_at": "2026-05-01T00:51:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-simplification"
+    },
+    {
+      "context_snippet": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remeshing"
+    }
+  ]
+}

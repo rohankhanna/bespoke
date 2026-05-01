@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:01:04.989735+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6443
+    },
+    {
+      "path": "requirements.txt",
+      "size": 335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for \"Representing Volumetric Videos as Dynamic MLP Maps\" CVPR 2023",
+    "fork": false,
+    "full_name": "zju3dv/mlp_maps",
+    "html_url": "https://github.com/zju3dv/mlp_maps",
+    "language": "Cuda",
+    "pushed_at": "2023-12-06T08:00:17Z",
+    "stargazers_count": 238,
+    "topics": [],
+    "updated_at": "2026-04-21T12:50:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

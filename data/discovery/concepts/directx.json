@@ -115,6 +115,18 @@
       "source_repo": "DiligentGraphics/DiligentSamples",
       "status": "candidate-context",
       "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "High-Performance Rendering Framework on Stream Architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "DiligentGraphics/DiligentSamples",
       "status": "candidate",
       "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +286,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "DiligentGraphics/DiligentSamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaCompute"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

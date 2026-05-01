@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "novasky-ai/skythought",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "verl-project/verl",
       "target": "agent-rl/research",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "microsoft/agent-lightning",
+      "target": "pat-jj/deepretrieval",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "microsoft/rstar",
+      "target": "open-tinker/opentinker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
+      "target": "nus-trail/noisyrollout",
       "target_type": "repository"
     },
     {
@@ -274,6 +274,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
   "source_repo": "verl-project/verl"
 }

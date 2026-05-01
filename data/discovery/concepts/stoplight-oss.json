@@ -19,6 +19,18 @@
       "source_repo": "stoplightio/spectral",
       "status": "candidate-context",
       "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stoplightio/spectral-rulesets",
+      "status": "candidate-context",
+      "text": "Keeping track of Spectral Rulesets in the wild, helping you build better, more consistent APIs, via OpenAPI, AsyncAPI, JSON Schema, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral-rulesets",
+      "status": "candidate-context",
+      "text": "Keeping track of Spectral Rulesets in the wild, covering all sorts of use-cases like enforcing organization's API Style Guides, security scanning, spellchecking, and helping folks write better quality API descriptions."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "stoplightio/spectral",
       "status": "candidate",
       "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral-rulesets",
+      "status": "candidate",
+      "text": "Keeping track of Spectral Rulesets in the wild, covering all sorts of use-cases like enforcing organization's API Style Guides, security scanning, spellchecking, and helping folks write better quality API descriptions."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "stoplightio/spectral"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "stoplightio/spectral-rulesets"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

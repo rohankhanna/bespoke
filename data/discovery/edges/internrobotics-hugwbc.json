@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternRobotics/HugWBC",
+      "target": "apexrl/hugwbc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternRobotics/HugWBC",
+      "target": "leggedrobotics/rsl_rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternRobotics/HugWBC",
+      "target": "leggedrobotics/legged_gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternRobotics/HugWBC",
+      "target": "improbable-ai/walk-these-ways",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "InternRobotics/HugWBC"
+}

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced AI-Based Movie Restoration UI Using VFIformer & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997174,
+      "status": "candidate",
+      "text": "renovation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997120,
+      "status": "candidate",
+      "text": "regaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996199,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986308,
+      "status": "candidate",
+      "text": "restitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997397,
+      "status": "candidate",
+      "text": "restored"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "restoration",
+      "sense_id": "restoration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28053,
+      "status": "candidate",
+      "text": "restitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22071,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "regaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "renovation"
+    }
+  ],
+  "concept_id": "restoration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "restoration",
+  "observation_id": "01ca08f64da82723",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "restoration",
+  "source_context_snippet": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)",
+  "source_file": null,
+  "source_repo": "jhogsett/VFIformer-WebUI",
+  "source_repo_description": "Advanced AI-Based Movie Restoration UI Using VFIformer & Real-ESRGAN"
+}

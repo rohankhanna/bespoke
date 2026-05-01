@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A comprehensive list [SAMRS@NeurIPS'23, RVSA@TGRS'22, RSP@TGRS'22] of our research works related to remote sensing, including papers, codes, and citations. Note: The repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\" has been moved to: https://github.com/ViTAE-Transformer/RSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "66caa032a0d3286a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)",
+  "source_file": null,
+  "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+  "source_repo_description": "A comprehensive list [SAMRS@NeurIPS'23, RVSA@TGRS'22, RSP@TGRS'22] of our research works related to remote sensing, including papers, codes, and citations. Note: The repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\" has been moved to: https://github.com/ViTAE-Transformer/RSP"
+}

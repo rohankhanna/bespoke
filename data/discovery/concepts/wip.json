@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "wip"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "'wip'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate",
+      "text": "'wip'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007104,
+      "status": "candidate",
+      "text": "rtc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006500,
+      "status": "candidate",
+      "text": "cet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923518,
+      "status": "candidate",
+      "text": "tec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29591001,
+      "status": "candidate",
+      "text": "bti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008904,
+      "status": "candidate",
+      "text": "work-in-progress"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "wip",
+  "concept_id": "wip",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/gradle_plugin_release.yml",
+      "source_repo": "bndtools/bnd"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "wip",
+      "sense_id": "wip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

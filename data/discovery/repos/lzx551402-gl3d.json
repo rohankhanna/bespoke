@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/GL3D",
+      "target": "yoyo000/blendedmvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/GL3D",
+      "target": "lzx551402/geodesc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:54:00.750218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2",
+    "description": "GL3D (Geometric Learning with 3D Reconstruction): a large-scale database created for 3D reconstruction and geometry-related learning problems",
+    "fork": false,
+    "full_name": "lzx551402/GL3D",
+    "html_url": "https://github.com/lzx551402/GL3D",
+    "language": "Python",
+    "pushed_at": "2023-05-06T12:47:38Z",
+    "stargazers_count": 312,
+    "topics": [],
+    "updated_at": "2026-02-22T07:20:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzx551402/geodesc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yoyo000/blendedmvs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

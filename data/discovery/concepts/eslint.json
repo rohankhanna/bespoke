@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -403,6 +405,30 @@
       "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
       "status": "candidate-context",
       "text": "<img src=\".erb/img/erb-banner.svg\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "MuJoco Simulation on Web Assembly with Neural netwroks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "eslint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viser-project/viser",
+      "status": "candidate-context",
+      "text": "Web-based 3D visualization in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viser-project/viser",
+      "status": "candidate-context",
+      "text": "eslint"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +629,18 @@
       "source_repo": "electron-react-boilerplate/electron-react-boilerplate",
       "status": "candidate",
       "text": "<img src=\".erb/img/erb-banner.svg\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate",
+      "text": "eslint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viser-project/viser",
+      "status": "candidate",
+      "text": "eslint"
     }
   ],
   "candidate_related_terms": [
@@ -1084,11 +1122,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "ttktjmt/mjswan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "viser-project/viser"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

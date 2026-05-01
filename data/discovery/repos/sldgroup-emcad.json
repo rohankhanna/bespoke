@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EMCAD",
+      "target": "sldgroup/lomix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EMCAD",
+      "target": "sldgroup/efficientmednext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EMCAD",
+      "target": "sldgroup/effidec3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/EMCAD",
+      "target": "sldgroup/g-cascade",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:12.987984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5403
+    },
+    {
+      "path": "requirements.txt",
+      "size": 423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository of CVPR 2024 paper \"EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation\"",
+    "fork": false,
+    "full_name": "SLDGroup/EMCAD",
+    "html_url": "https://github.com/SLDGroup/EMCAD",
+    "language": "Python",
+    "pushed_at": "2026-01-29T02:31:13Z",
+    "stargazers_count": 337,
+    "topics": [],
+    "updated_at": "2026-04-30T07:12:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/efficientmednext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/effidec3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/g-cascade",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/lomix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

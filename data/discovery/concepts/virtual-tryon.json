@@ -19,6 +19,18 @@
       "source_repo": "sangyun884/HR-VITON",
       "status": "candidate-context",
       "text": "<!-- This repository contains a PyTorch implementation for our paper \"High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions\". -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minar09/cp-vton-plus",
+      "status": "candidate-context",
+      "text": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\", CVPRW 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minar09/cp-vton-plus",
+      "status": "candidate-context",
+      "text": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sangyun884/HR-VITON",
       "status": "candidate",
       "text": "<!-- This repository contains a PyTorch implementation for our paper \"High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions\". -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minar09/cp-vton-plus",
+      "status": "candidate",
+      "text": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "sangyun884/HR-VITON"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zzc-1998/Q-SiT",
+      "target": "q-future/q-sit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-issue.yml",
+      "source_repo": "zzc-1998/Q-SiT",
+      "target": "Check Issue Compliance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:56:03.370371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7546
+    },
+    {
+      "path": ".github/workflows/check-issue.yml",
+      "size": 1667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Teaching LMMs for Image Quality Scoring and Interpreting",
+    "fork": false,
+    "full_name": "zzc-1998/Q-SiT",
+    "html_url": "https://github.com/zzc-1998/Q-SiT",
+    "language": "Python",
+    "pushed_at": "2025-03-25T12:47:33Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-04-30T02:40:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "q-future/q-sit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Issue Compliance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-issue.yml",
+      "term": "Check Issue Compliance"
+    }
+  ]
+}

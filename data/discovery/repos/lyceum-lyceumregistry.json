@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Lyceum/LyceumRegistry",
+      "target": "actions/checkout@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Lyceum/LyceumRegistry",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:08:09.505333+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Lyceum/LyceumRegistry",
+    "html_url": "https://github.com/Lyceum/LyceumRegistry",
+    "language": null,
+    "pushed_at": "2021-09-23T22:38:08Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2021-09-23T22:38:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

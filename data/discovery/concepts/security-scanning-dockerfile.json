@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Security Scanning (dockerfile)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Performance Counter Monitor (Intel\u00ae PCM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "Security Scanning (dockerfile)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate",
+      "text": "Security Scanning (dockerfile)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12887,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12644,
+      "status": "candidate",
+      "text": "tsa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12008,
+      "status": "candidate",
+      "text": "scanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11764,
+      "status": "candidate",
+      "text": "scansion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11642,
+      "status": "candidate",
+      "text": "age"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Security Scanning (dockerfile)",
+  "concept_id": "security-scanning-dockerfile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml",
+      "source_repo": "intel/pcm"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Security Scanning (dockerfile)",
+      "sense_id": "security-scanning-dockerfile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

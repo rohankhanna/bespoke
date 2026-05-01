@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:00:44.577076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers",
+    "fork": false,
+    "full_name": "xie-lab-ml/piecewise-sparse-attention",
+    "html_url": "https://github.com/xie-lab-ml/piecewise-sparse-attention",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-05T08:03:50Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-16T12:09:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

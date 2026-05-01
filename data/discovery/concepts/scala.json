@@ -271,6 +271,30 @@
       "source_repo": "carueda/cfg",
       "status": "candidate-context",
       "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "domino-osgi/domino",
+      "status": "candidate-context",
+      "text": "OSGi dynamics made easy - A Scala DSL to master OSGi dynamics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domino-osgi/domino",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate-context",
+      "text": "A Scala kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "carueda/cfg",
       "status": "candidate",
       "text": "Type safety all the way from configuration spec to configuration access in Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domino-osgi/domino",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -652,11 +688,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "domino-osgi/domino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "almond-sh/almond"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

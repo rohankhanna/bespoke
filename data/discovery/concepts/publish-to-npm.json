@@ -195,6 +195,18 @@
       "source_repo": "dreamscached/i18next-cli-plugin-svelte",
       "status": "candidate-context",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kylebarron/arrow-js-ffi",
+      "status": "candidate-context",
+      "text": "Zero-copy reading of Arrow data from WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/arrow-js-ffi",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
     }
   ],
   "candidate_glosses": [
@@ -293,6 +305,12 @@
       "source_repo": "dreamscached/i18next-cli-plugin-svelte",
       "status": "candidate",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/arrow-js-ffi",
+      "status": "candidate",
+      "text": "Publish to NPM"
     }
   ],
   "candidate_related_terms": [
@@ -468,11 +486,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "dreamscached/i18next-cli-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kylebarron/arrow-js-ffi"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

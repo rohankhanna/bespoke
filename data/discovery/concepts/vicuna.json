@@ -91,6 +91,18 @@
       "source_repo": "PKU-Alignment/safe-rlhf",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate-context",
+      "text": "InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (\u652f\u6301DragGAN\u3001ChatGPT\u3001ImageBind\u3001SAM\u7684\u5728\u7ebfDemo\u7cfb\u7edf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate-context",
+      "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "PKU-Alignment/safe-rlhf",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate",
+      "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -228,11 +246,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "PKU-Alignment/safe-rlhf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

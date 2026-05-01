@@ -1,12 +1,17 @@
 {
   "component": "dyladan/component-owners@7ff2b343629407c4dbe1c28ae66f55f723543d2b",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/assign-reviewers.yml",
       "source_repo": "open-telemetry/opentelemetry-rust-contrib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component_owners.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil"
     }
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Intel\u00ae Performance Counter Monitor (Intel\u00ae PCM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "--------------------------------------------------------------------------------"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "--------------------------------------------------------------------------------"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988174,
+      "status": "candidate",
+      "text": "might"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987182,
+      "status": "candidate",
+      "text": "powerfulness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986643,
+      "status": "candidate",
+      "text": "force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986052,
+      "status": "candidate",
+      "text": "potency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984654,
+      "status": "candidate",
+      "text": "ability"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "power",
+      "sense_id": "power#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44040,
+      "status": "candidate",
+      "text": "potency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24031,
+      "status": "candidate",
+      "text": "magnate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21055,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20089,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19039,
+      "status": "candidate",
+      "text": "mogul"
+    }
+  ],
+  "concept_id": "power",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "power",
+  "observation_id": "e7d69814a11575e7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "power",
+  "source_context_snippet": "--------------------------------------------------------------------------------",
+  "source_file": null,
+  "source_repo": "intel/pcm",
+  "source_repo_description": "Intel\u00ae Performance Counter Monitor (Intel\u00ae PCM)"
+}

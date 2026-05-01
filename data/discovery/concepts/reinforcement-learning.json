@@ -955,6 +955,42 @@
       "source_repo": "vikashplus/robohive",
       "status": "candidate-context",
       "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate-context",
+      "text": "A collection of robotics simulation environments for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/gymnasium-robotics.svg)](https://badge.fury.io/py/gymnasium-robotics)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate-context",
+      "text": "A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/Farama-Foundation/Minari/actions/workflows/build.yml/badge.svg)](https://github.com/Farama-Foundation/Minari/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "MuJoco Simulation on Web Assembly with Neural netwroks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1431,6 +1467,24 @@
       "source_repo": "vikashplus/robohive",
       "status": "candidate",
       "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/gymnasium-robotics.svg)](https://badge.fury.io/py/gymnasium-robotics)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate",
+      "text": "[![build](https://github.com/Farama-Foundation/Minari/actions/workflows/build.yml/badge.svg)](https://github.com/Farama-Foundation/Minari/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2056,11 +2110,47 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Minari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ttktjmt/mjswan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

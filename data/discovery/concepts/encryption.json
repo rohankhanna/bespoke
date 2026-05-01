@@ -175,6 +175,18 @@
       "source_repo": "drduh/pwd.sh",
       "status": "candidate-context",
       "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fillumina/id-encryptor",
+      "status": "candidate-context",
+      "text": "Encrypts long values (64 bit) and UUIDs (128 bit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fillumina/id-encryptor",
+      "status": "candidate-context",
+      "text": "Encrypts and optionally serializes to and from JSON (using [Jackson](https://github.com/FasterXML/jackson) annotations) long and UUID fields."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "drduh/pwd.sh",
       "status": "candidate",
       "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fillumina/id-encryptor",
+      "status": "candidate",
+      "text": "Encrypts and optionally serializes to and from JSON (using [Jackson](https://github.com/FasterXML/jackson) annotations) long and UUID fields."
     }
   ],
   "candidate_related_terms": [
@@ -408,11 +426,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "drduh/pwd.sh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "fillumina/id-encryptor"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[PG2025] PaMO: Parallel Mesh Optimization for Intersection-Free Low-Poly Modeling on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986154,
+      "status": "candidate",
+      "text": "reshaping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986153,
+      "status": "candidate",
+      "text": "resurfacing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986152,
+      "status": "candidate",
+      "text": "respatialization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986151,
+      "status": "candidate",
+      "text": "remoulding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986150,
+      "status": "candidate",
+      "text": "retexturing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "remeshing",
+      "sense_id": "remeshing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "remeshing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remeshing",
+  "observation_id": "58663b23e3be5511",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "remeshing",
+  "source_context_snippet": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*",
+  "source_file": null,
+  "source_repo": "SarahWeiii/pamo",
+  "source_repo_description": "[PG2025] PaMO: Parallel Mesh Optimization for Intersection-Free Low-Poly Modeling on the GPU"
+}

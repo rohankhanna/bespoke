@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/SynLogic",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/SynLogic",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/SynLogic",
+      "target": "logical-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/SynLogic",
+      "target": "synlogic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:10:30.575553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5167
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025] The official repo of SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond",
+    "fork": false,
+    "full_name": "MiniMax-AI/SynLogic",
+    "html_url": "https://github.com/MiniMax-AI/SynLogic",
+    "language": "Python",
+    "pushed_at": "2025-07-07T06:03:03Z",
+    "stargazers_count": 200,
+    "topics": [
+      "large-language-models",
+      "llms",
+      "logical-reasoning",
+      "synlogic"
+    ],
+    "updated_at": "2026-04-03T20:14:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logical-reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synlogic"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "microsoft/moge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "facebookresearch/vggt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "henry123-boy/spatracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "a-r-r-o-w/finetrainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "camera-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "motion-retargeting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "motion-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "object-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IGL-HKUST/DiffusionAsShader",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "IGL-HKUST/DiffusionAsShader"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish NPM"
+    "Publish NPM",
+    "publish-npm"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,30 @@
       "source_repo": "actions/toolkit",
       "status": "candidate-context",
       "text": "Publish NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "status": "candidate-context",
+      "text": "Typescript library for OGX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "status": "candidate-context",
+      "text": "Publish NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "MuJoco Simulation on Web Assembly with Neural netwroks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "publish-npm"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +70,18 @@
       "source_repo": "actions/toolkit",
       "status": "candidate",
       "text": "Publish NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "status": "candidate",
+      "text": "Publish NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate",
+      "text": "publish-npm"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +137,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/releases.yml",
       "source_repo": "actions/toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "ogx-ai/ogx-client-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "ttktjmt/mjswan"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

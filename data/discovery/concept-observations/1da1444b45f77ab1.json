@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Prepare Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Prepare Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11664,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11664,
+      "status": "candidate",
+      "text": "build up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11664,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11664,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11664,
+      "status": "candidate",
+      "text": "developed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prepare Build",
+      "sense_id": "prepare-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prepare-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prepare-build",
+  "observation_id": "1da1444b45f77ab1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "Prepare Build",
+  "source_context_snippet": "Prepare Build",
+  "source_file": ".github/workflows/prepare-build.yml",
+  "source_repo": "jcrist/msgspec",
+  "source_repo_description": "A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML"
+}

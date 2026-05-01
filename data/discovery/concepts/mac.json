@@ -68,6 +68,18 @@
       "source_repo": "facebook/fbthrift",
       "status": "candidate-context",
       "text": "mac"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colmap/glomap",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] GLOMAP - Global Structured-from-Motion Revisited"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/glomap",
+      "status": "candidate-context",
+      "text": "Mac"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "facebook/fbthrift",
       "status": "candidate",
       "text": "mac"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/glomap",
+      "status": "candidate",
+      "text": "Mac"
     }
   ],
   "candidate_related_terms": [
@@ -207,11 +225,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/getdeps_mac.yml",
       "source_repo": "facebook/fbthrift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "colmap/glomap"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

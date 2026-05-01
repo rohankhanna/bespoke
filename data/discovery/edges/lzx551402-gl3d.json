@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/GL3D",
+      "target": "yoyo000/blendedmvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/GL3D",
+      "target": "lzx551402/geodesc",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "lzx551402/GL3D"
+}

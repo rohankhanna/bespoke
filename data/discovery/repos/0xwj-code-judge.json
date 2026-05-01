@@ -1,0 +1,39 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:04:32.000099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13571
+    },
+    {
+      "path": "Dockerfile",
+      "size": 247
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 543
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "0xWJ/code-judge",
+    "html_url": "https://github.com/0xWJ/code-judge",
+    "language": "Python",
+    "pushed_at": "2025-10-10T06:38:15Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-07T11:20:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

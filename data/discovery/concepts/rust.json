@@ -6610,6 +6610,18 @@
       "source_repo": "holochain/holochain",
       "status": "candidate-context",
       "text": "[![Project](https://img.shields.io/badge/Project-Holochain-blue.svg?style=flat-square)](http://holochain.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakudlaty/tsid",
+      "status": "candidate-context",
+      "text": "TSID generator for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakudlaty/tsid",
+      "status": "candidate-context",
+      "text": "Rust"
     }
   ],
   "candidate_glosses": [
@@ -10002,6 +10014,12 @@
       "source_repo": "holochain/holochain",
       "status": "candidate",
       "text": "[![Project](https://img.shields.io/badge/Project-Holochain-blue.svg?style=flat-square)](http://holochain.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakudlaty/tsid",
+      "status": "candidate",
+      "text": "Rust"
     }
   ],
   "candidate_related_terms": [
@@ -14989,11 +15007,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "jakudlaty/tsid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

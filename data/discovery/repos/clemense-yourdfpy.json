@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clemense/yourdfpy",
+      "target": "mmatl/urdfpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clemense/yourdfpy",
+      "target": "ros/urdf_parser_py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clemense/yourdfpy",
+      "target": "ankurhanda/robot-assets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "clemense/yourdfpy",
+      "target": "pypa/setuptools_scm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "clemense/yourdfpy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "clemense/yourdfpy",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "clemense/yourdfpy",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy",
+      "target": "kinematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy",
+      "target": "urdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy",
+      "target": "urdf-descriptions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy",
+      "target": "urdf-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy",
+      "target": "urdf-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy",
+      "target": "urdf-visualizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:05.372847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7591
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 311
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python parser for URDFs",
+    "fork": false,
+    "full_name": "clemense/yourdfpy",
+    "html_url": "https://github.com/clemense/yourdfpy",
+    "language": "Python",
+    "pushed_at": "2026-01-23T07:31:29Z",
+    "stargazers_count": 281,
+    "topics": [
+      "kinematics",
+      "robotics",
+      "ros",
+      "urdf",
+      "urdf-descriptions",
+      "urdf-models",
+      "urdf-parser",
+      "urdf-visualizer"
+    ],
+    "updated_at": "2026-04-28T16:01:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankurhanda/robot-assets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmatl/urdfpy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ros/urdf_parser_py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/setuptools_scm",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kinematics"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-descriptions"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-models"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-parser"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-visualizer"
+    }
+  ]
+}

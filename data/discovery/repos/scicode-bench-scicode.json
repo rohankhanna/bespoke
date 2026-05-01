@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scicode-bench/SciCode",
+      "target": "scicode-bench/scicode-bench.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "scicode-bench/SciCode",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "scicode-bench/SciCode",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "scicode-bench/SciCode",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scicode-bench/SciCode",
+      "target": "ai-benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scicode-bench/SciCode",
+      "target": "benchmark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:05:19.356665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8267
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3373
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A benchmark that challenges language models to code solutions for scientific problems",
+    "fork": false,
+    "full_name": "scicode-bench/SciCode",
+    "html_url": "https://github.com/scicode-bench/SciCode",
+    "language": "Python",
+    "pushed_at": "2026-04-27T17:10:59Z",
+    "stargazers_count": 193,
+    "topics": [
+      "ai",
+      "ai-benchmarks",
+      "benchmark",
+      "llm"
+    ],
+    "updated_at": "2026-04-29T20:46:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scicode-bench/scicode-bench.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[**Homepage**](https://scicode-bench.github.io/) | [**Paper**](https://arxiv.org/abs/2407.13168)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-benchmarks"
+    },
+    {
+      "context_snippet": "[**Homepage**](https://scicode-bench.github.io/) | [**Paper**](https://arxiv.org/abs/2407.13168)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    }
+  ]
+}

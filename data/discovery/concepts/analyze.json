@@ -70,6 +70,18 @@
       "source_repo": "web-infra-dev/rsdoctor",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuliu/ccv",
+      "status": "candidate-context",
+      "text": "C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuliu/ccv",
+      "status": "candidate-context",
+      "text": "analyze"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "web-infra-dev/rsdoctor",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuliu/ccv",
+      "status": "candidate",
+      "text": "analyze"
     }
   ],
   "candidate_related_terms": [
@@ -229,11 +247,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rsdoctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "liuliu/ccv"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

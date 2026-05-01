@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StevenGrove/ComfyUI-YOLOWorld",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:05:23.304123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 304
+    },
+    {
+      "path": "requirements.txt",
+      "size": 92
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI YOLO-World Integration",
+    "fork": false,
+    "full_name": "StevenGrove/ComfyUI-YOLOWorld",
+    "html_url": "https://github.com/StevenGrove/ComfyUI-YOLOWorld",
+    "language": "Python",
+    "pushed_at": "2024-07-05T05:21:43Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-03-10T01:21:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

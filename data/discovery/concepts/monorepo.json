@@ -130,6 +130,18 @@
       "source_repo": "vbenjs/vue-vben-admin",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "status": "candidate-context",
+      "text": "Collection of builder repositories for BinaryBuilder.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "status": "candidate-context",
+      "text": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +204,12 @@
       "source_repo": "vbenjs/vue-vben-admin",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "status": "candidate",
+      "text": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +313,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/Yggdrasil"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

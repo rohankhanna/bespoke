@@ -31,6 +31,30 @@
       "source_repo": "ispc/ispc",
       "status": "candidate-context",
       "text": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "High-Performance Rendering Framework on Stream Architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "status": "candidate-context",
+      "text": "High-Performance Cross-Platform Monte Carlo Renderer Based on LuisaCompute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "status": "candidate-context",
+      "text": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ispc/ispc",
       "status": "candidate",
       "text": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "status": "candidate",
+      "text": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ispc/ispc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

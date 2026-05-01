@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'wip'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'wip'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007104,
+      "status": "candidate",
+      "text": "rtc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006500,
+      "status": "candidate",
+      "text": "cet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923518,
+      "status": "candidate",
+      "text": "tec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29591001,
+      "status": "candidate",
+      "text": "bti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008904,
+      "status": "candidate",
+      "text": "work-in-progress"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "wip",
+      "sense_id": "wip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wip",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wip",
+  "observation_id": "f6f9f4b2e19df136",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "wip",
+  "source_context_snippet": "'wip'",
+  "source_file": ".github/workflows/gradle_plugin_release.yml",
+  "source_repo": "bndtools/bnd",
+  "source_repo_description": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+}

@@ -261,13 +261,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "novasky-ai/skythought",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "verl-project/verl",
       "target": "agent-rl/research",
       "target_type": "repository"
     },
@@ -275,14 +268,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "microsoft/agent-lightning",
+      "target": "pat-jj/deepretrieval",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "microsoft/rstar",
+      "target": "open-tinker/opentinker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
+      "target": "nus-trail/noisyrollout",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T15:13:48.648685+00:00",
+  "fetched_at": "2026-05-01T01:04:19.130568+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -583,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-04-30T06:24:20Z",
-    "stargazers_count": 21031,
+    "pushed_at": "2026-04-30T21:49:59Z",
+    "stargazers_count": 21034,
     "topics": [],
-    "updated_at": "2026-04-30T15:03:31Z"
+    "updated_at": "2026-04-30T20:42:55Z"
   },
   "repo_links": [
     {
@@ -596,17 +596,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "microsoft/agent-lightning",
+      "full_name": "nus-trail/noisyrollout",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "microsoft/rstar",
+      "full_name": "open-tinker/opentinker",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "novasky-ai/skythought",
+      "full_name": "pat-jj/deepretrieval",
       "source_file": "README.md"
     }
   ],

@@ -83,13 +83,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Lightning-AI/litgpt",
-      "target": "bsc-ltc/salamandra",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Lightning-AI/litgpt",
       "target": "timdettmers/bitsandbytes",
       "target_type": "repository"
     },
@@ -234,7 +227,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:11:42.013711+00:00",
+  "fetched_at": "2026-05-01T01:00:25.759523+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -284,11 +277,6 @@
     "updated_at": "2026-04-30T07:56:12Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bsc-ltc/salamandra",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lightning-ai/lit-stablelm",

@@ -76,6 +76,18 @@
       "source_repo": "kyleshevlin/shevyjs",
       "status": "candidate-context",
       "text": "size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andresz1/size-limit-action",
+      "status": "candidate-context",
+      "text": "Compare the real cost to run your JS app or lib to keep good performance in every pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andresz1/size-limit-action",
+      "status": "candidate-context",
+      "text": "\"size\""
     }
   ],
   "candidate_glosses": [
@@ -114,6 +126,12 @@
       "source_repo": "kyleshevlin/shevyjs",
       "status": "candidate",
       "text": "size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andresz1/size-limit-action",
+      "status": "candidate",
+      "text": "\"size\""
     }
   ],
   "candidate_related_terms": [
@@ -251,11 +269,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "andresz1/size-limit-action"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -79,6 +79,18 @@
       "source_repo": "imatge-upc/rvos",
       "status": "candidate-context",
       "text": "See our project website [here](https://imatge-upc.github.io/rvos/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "We write your reusable computer vision tools. \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "imatge-upc/rvos",
       "status": "candidate",
       "text": "See our project website [here](https://imatge-upc.github.io/rvos/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/supervision"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

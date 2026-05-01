@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "target": "autoware-ai/simulation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "target": "Cross CI workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "target": "CUDA CI workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "target": "Native CI workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:15.570094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1253
+    },
+    {
+      "path": ".github/workflows/cross-ci.yaml",
+      "size": 1501
+    },
+    {
+      "path": ".github/workflows/cuda-ci.yaml",
+      "size": 1449
+    },
+    {
+      "path": ".github/workflows/native-ci.yaml",
+      "size": 2426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "autowarefoundation/autoware_ai_simulation",
+    "html_url": "https://github.com/autowarefoundation/autoware_ai_simulation",
+    "language": "C++",
+    "pushed_at": "2023-03-10T13:12:21Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-02-17T22:18:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autoware-ai/simulation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cross CI workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-ci.yaml",
+      "term": "Cross CI workflow"
+    },
+    {
+      "context_snippet": "CUDA CI workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda-ci.yaml",
+      "term": "CUDA CI workflow"
+    },
+    {
+      "context_snippet": "Native CI workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-ci.yaml",
+      "term": "Native CI workflow"
+    }
+  ]
+}

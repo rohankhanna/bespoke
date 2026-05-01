@@ -1360,6 +1360,30 @@
       "source_repo": "drduh/pwd.sh",
       "status": "candidate-context",
       "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate-context",
+      "text": "A Java library for reversibly obfuscating numerical identifiers (e.g. 1234 \u2194 4TQCNTL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate-context",
+      "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "securego/gosec",
+      "status": "candidate-context",
+      "text": "Go security checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "securego/gosec",
+      "status": "candidate-context",
+      "text": "Inspects source code for security problems by scanning the Go AST"
     }
   ],
   "candidate_glosses": [
@@ -2028,6 +2052,18 @@
       "source_repo": "drduh/pwd.sh",
       "status": "candidate",
       "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate",
+      "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "securego/gosec",
+      "status": "candidate",
+      "text": "Inspects source code for security problems by scanning the Go AST"
     }
   ],
   "candidate_related_terms": [
@@ -2953,11 +2989,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jchambers/id-obfuscator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "securego/gosec"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

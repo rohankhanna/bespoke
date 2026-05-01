@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "dvlab-research/vfiformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "Pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "film",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "real-esrgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "vfiformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:35.641156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6851
+    },
+    {
+      "path": "requirements.txt",
+      "size": 325
+    },
+    {
+      "path": ".github/workflows/pylint.yml",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Advanced AI-Based Movie Restoration UI Using VFIformer & Real-ESRGAN",
+    "fork": false,
+    "full_name": "jhogsett/VFIformer-WebUI",
+    "html_url": "https://github.com/jhogsett/VFIformer-WebUI",
+    "language": "Python",
+    "pushed_at": "2026-02-02T11:43:27Z",
+    "stargazers_count": 20,
+    "topics": [
+      "ai",
+      "film",
+      "gradio",
+      "real-esrgan",
+      "restoration",
+      "vfiformer",
+      "video"
+    ],
+    "updated_at": "2025-11-02T09:14:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/vfiformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pylint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "term": "Pylint"
+    },
+    {
+      "context_snippet": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "film"
+    },
+    {
+      "context_snippet": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-esrgan"
+    },
+    {
+      "context_snippet": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restoration"
+    },
+    {
+      "context_snippet": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vfiformer"
+    },
+    {
+      "context_snippet": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

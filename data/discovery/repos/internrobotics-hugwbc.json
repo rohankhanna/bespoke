@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternRobotics/HugWBC",
+      "target": "apexrl/hugwbc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternRobotics/HugWBC",
+      "target": "leggedrobotics/rsl_rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternRobotics/HugWBC",
+      "target": "leggedrobotics/legged_gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternRobotics/HugWBC",
+      "target": "improbable-ai/walk-these-ways",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:09:10.797631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "InternRobotics/HugWBC",
+    "html_url": "https://github.com/InternRobotics/HugWBC",
+    "language": "Python",
+    "pushed_at": "2025-08-02T06:40:04Z",
+    "stargazers_count": 150,
+    "topics": [],
+    "updated_at": "2026-04-28T06:33:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apexrl/hugwbc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "improbable-ai/walk-these-ways",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leggedrobotics/legged_gym",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leggedrobotics/rsl_rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

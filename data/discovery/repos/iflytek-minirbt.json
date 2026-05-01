@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/MiniRBT",
+      "target": "ymcui/pert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/MiniRBT",
+      "target": "ymcui/cmrc2018",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/MiniRBT",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/MiniRBT",
+      "target": "ymcui/cmrc2019",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/MiniRBT",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/MiniRBT",
+      "target": "pre-trained-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/MiniRBT",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/MiniRBT",
+      "target": "roberta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/MiniRBT",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:12:50.636189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MiniRBT (\u4e2d\u6587\u5c0f\u578b\u9884\u8bad\u7ec3\u6a21\u578b\u7cfb\u5217)",
+    "fork": false,
+    "full_name": "iflytek/MiniRBT",
+    "html_url": "https://github.com/iflytek/MiniRBT",
+    "language": "Python",
+    "pushed_at": "2025-07-15T00:18:25Z",
+    "stargazers_count": 303,
+    "topics": [
+      "bert",
+      "pre-trained-model",
+      "pytorch",
+      "roberta",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-28T01:52:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcknowledgeteam/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/cmrc2018",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/cmrc2019",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/pert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained-model"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roberta"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

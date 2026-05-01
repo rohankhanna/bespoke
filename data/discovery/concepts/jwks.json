@@ -19,6 +19,18 @@
       "source_repo": "panva/jose",
       "status": "candidate-context",
       "text": "`jose` is a JavaScript module for JSON Object Signing and Encryption, providing support for JSON Web Tokens (JWT), JSON Web Signature (JWS), JSON Web Encryption (JWE), JSON Web Key (JWK), JSON Web Key Set (JWKS), and more. The module is designed to work across various Web-intero\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MicahParks/keyfunc",
+      "status": "candidate-context",
+      "text": "Create a jwt.Keyfunc for JWT parsing with a JWK Set or given cryptographic keys (like HMAC) in Golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicahParks/keyfunc",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/keyfunc/v3.svg)](https://pkg.go.dev/github.com/MicahParks/keyfunc/v3)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "panva/jose",
       "status": "candidate",
       "text": "`jose` is a JavaScript module for JSON Object Signing and Encryption, providing support for JSON Web Tokens (JWT), JSON Web Signature (JWS), JSON Web Encryption (JWE), JSON Web Key (JWK), JSON Web Key Set (JWKS), and more. The module is designed to work across various Web-intero\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicahParks/keyfunc",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/MicahParks/keyfunc/v3.svg)](https://pkg.go.dev/github.com/MicahParks/keyfunc/v3)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "panva/jose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "MicahParks/keyfunc"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

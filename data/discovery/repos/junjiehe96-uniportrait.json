@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junjiehe96/UniPortrait",
+      "target": "junjiehe96/anystory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junjiehe96/UniPortrait",
+      "target": "google/style-aligned",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:09.998168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3126
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2025] UniPortrait: A Unified Framework for Identity-Preserving Single- and Multi-Human Image Personalization",
+    "fork": false,
+    "full_name": "junjiehe96/UniPortrait",
+    "html_url": "https://github.com/junjiehe96/UniPortrait",
+    "language": "Python",
+    "pushed_at": "2025-05-01T08:30:47Z",
+    "stargazers_count": 277,
+    "topics": [],
+    "updated_at": "2026-04-21T07:29:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/style-aligned",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junjiehe96/anystory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

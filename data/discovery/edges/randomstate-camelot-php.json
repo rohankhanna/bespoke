@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randomstate/camelot-php",
+      "target": "table-extraction",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "randomstate/camelot-php"
+}

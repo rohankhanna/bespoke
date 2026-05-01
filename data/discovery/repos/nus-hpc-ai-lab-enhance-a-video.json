@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NUS-HPC-AI-Lab/Enhance-A-Video",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NUS-HPC-AI-Lab/Enhance-A-Video",
+      "target": "tencent/hunyuanvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:03:29.618343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3513
+    },
+    {
+      "path": "requirements.txt",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enhance-A-Video: Better Generated Video for Free",
+    "fork": false,
+    "full_name": "NUS-HPC-AI-Lab/Enhance-A-Video",
+    "html_url": "https://github.com/NUS-HPC-AI-Lab/Enhance-A-Video",
+    "language": "Python",
+    "pushed_at": "2025-03-17T13:26:17Z",
+    "stargazers_count": 595,
+    "topics": [],
+    "updated_at": "2026-04-30T19:14:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

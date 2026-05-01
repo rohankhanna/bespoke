@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiashunwang/Neural-Pose-Transfer",
+      "target": "calciferzh/smpl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiashunwang/Neural-Pose-Transfer",
+      "target": "thibaultgroueix/3d-coded",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:52:41.576134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neural Pose Transfer by Spatially Adaptive Instance Normalization. In CVPR 2020",
+    "fork": false,
+    "full_name": "jiashunwang/Neural-Pose-Transfer",
+    "html_url": "https://github.com/jiashunwang/Neural-Pose-Transfer",
+    "language": "Python",
+    "pushed_at": "2021-09-15T15:59:39Z",
+    "stargazers_count": 146,
+    "topics": [],
+    "updated_at": "2026-01-23T14:25:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calciferzh/smpl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thibaultgroueix/3d-coded",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

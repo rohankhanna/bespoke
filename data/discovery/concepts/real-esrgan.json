@@ -43,6 +43,18 @@
       "source_repo": "AmusementClub/vs-mlrt",
       "status": "candidate-context",
       "text": "This project provides VapourSynth ML filter runtimes for a variety of platforms:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate-context",
+      "text": "Advanced AI-Based Movie Restoration UI Using VFIformer & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate-context",
+      "text": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "AmusementClub/vs-mlrt",
       "status": "candidate",
       "text": "This project provides VapourSynth ML filter runtimes for a variety of platforms:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate",
+      "text": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "AmusementClub/vs-mlrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

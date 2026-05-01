@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "plotter-art"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vpype",
+      "status": "candidate-context",
+      "text": "The Swiss-Army-knife command-line tool for plotter vector graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype",
+      "status": "candidate-context",
+      "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype",
+      "status": "candidate",
+      "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "plotter-art",
+  "concept_id": "plotter-art",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "abey79/vpype"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plotter-art",
+      "sense_id": "plotter-art#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

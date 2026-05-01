@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build_pypi.yml",
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-pypi.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio-sdk"
     }
   ],
   "term": "Build PYPI"

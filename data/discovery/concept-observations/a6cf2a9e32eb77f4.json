@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (\u652f\u6301DragGAN\u3001ChatGPT\u3001ImageBind\u3001SAM\u7684\u5728\u7ebfDemo\u7cfb\u7edf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027581,
+      "status": "candidate",
+      "text": "hoarse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021496,
+      "status": "candidate",
+      "text": "gruff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017994,
+      "status": "candidate",
+      "text": "cacophonous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010921,
+      "status": "candidate",
+      "text": "burly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010367,
+      "status": "candidate",
+      "text": "strapping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "husky",
+      "sense_id": "husky#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 103057,
+      "status": "candidate",
+      "text": "robust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34034,
+      "status": "candidate",
+      "text": "gruff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19038,
+      "status": "candidate",
+      "text": "hoarse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17024,
+      "status": "candidate",
+      "text": "cacophonous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17016,
+      "status": "candidate",
+      "text": "cacophonic"
+    }
+  ],
+  "concept_id": "husky",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "husky",
+  "observation_id": "a6cf2a9e32eb77f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "husky",
+  "source_context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+  "source_file": null,
+  "source_repo": "OpenGVLab/InternGPT",
+  "source_repo_description": "InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (\u652f\u6301DragGAN\u3001ChatGPT\u3001ImageBind\u3001SAM\u7684\u5728\u7ebfDemo\u7cfb\u7edf)"
+}

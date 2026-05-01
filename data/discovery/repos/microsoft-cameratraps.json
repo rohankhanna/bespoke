@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/CameraTraps",
+      "target": "alexandre-delplanque/herdnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/CameraTraps",
+      "target": "tnc-ca-geo/animl-frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/CameraTraps",
+      "target": "conservationtechlab/animl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps",
+      "target": "camera-traps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps",
+      "target": "conservation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps",
+      "target": "megadetector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps",
+      "target": "pytorch-wildlife",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps",
+      "target": "wildlife",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:12:02.789252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20370
+    },
+    {
+      "path": "Dockerfile",
+      "size": 526
+    },
+    {
+      "path": "requirements.txt",
+      "size": 358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch Wildlife: a Collaborative Deep Learning Framework for Conservation.",
+    "fork": false,
+    "full_name": "microsoft/CameraTraps",
+    "html_url": "https://github.com/microsoft/CameraTraps",
+    "language": "Python",
+    "pushed_at": "2026-04-24T22:57:42Z",
+    "stargazers_count": 1004,
+    "topics": [
+      "camera-traps",
+      "computer-vision",
+      "conservation",
+      "machine-learning",
+      "megadetector",
+      "pytorch",
+      "pytorch-wildlife",
+      "wildlife"
+    ],
+    "updated_at": "2026-04-25T17:28:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexandre-delplanque/herdnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conservationtechlab/animl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tnc-ca-geo/animl-frontend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-traps"
+    },
+    {
+      "context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conservation"
+    },
+    {
+      "context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megadetector"
+    },
+    {
+      "context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-wildlife"
+    },
+    {
+      "context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wildlife"
+    }
+  ]
+}

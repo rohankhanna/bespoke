@@ -91,6 +91,18 @@
       "source_repo": "DiligentGraphics/DiligentCore",
       "status": "candidate-context",
       "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "High-Performance Rendering Framework on Stream Architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "DiligentGraphics/DiligentCore",
       "status": "candidate",
       "text": "Diligent Core is a modern, cross-platform low-level graphics API that forms the foundation of [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "DiligentGraphics/DiligentCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaCompute"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

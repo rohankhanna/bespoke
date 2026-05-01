@@ -383,6 +383,18 @@
       "source_repo": "mr-fatalyst/fastopenapi",
       "status": "candidate-context",
       "text": "Deploy docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TencentCloudADP/youtu-agent",
+      "status": "candidate-context",
+      "text": "A simple yet powerful agent framework that delivers with open-source models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentCloudADP/youtu-agent",
+      "status": "candidate-context",
+      "text": "Deploy docs"
     }
   ],
   "candidate_glosses": [
@@ -575,6 +587,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mr-fatalyst/fastopenapi",
+      "status": "candidate",
+      "text": "Deploy docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentCloudADP/youtu-agent",
       "status": "candidate",
       "text": "Deploy docs"
     }
@@ -926,11 +944,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "mr-fatalyst/fastopenapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

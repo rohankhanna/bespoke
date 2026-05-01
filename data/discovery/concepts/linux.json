@@ -1948,6 +1948,30 @@
       "source_repo": "drduh/Router-Guide",
       "status": "candidate-context",
       "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Performance Counter Monitor (Intel\u00ae PCM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate-context",
+      "text": "--------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "Linux"
     }
   ],
   "candidate_glosses": [
@@ -2934,6 +2958,18 @@
       "source_repo": "drduh/Router-Guide",
       "status": "candidate",
       "text": "**Important** After many years of service, the PC Engines APU platform is now [EOL](https://www.pcengines.ch/eol.htm)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/pcm",
+      "status": "candidate",
+      "text": "--------------------------------------------------------------------------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate",
+      "text": "Linux"
     }
   ],
   "candidate_related_terms": [
@@ -4357,11 +4393,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "intel/pcm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/dotnet-linux.yml",
+      "source_repo": "BobLd/camelot-sharp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

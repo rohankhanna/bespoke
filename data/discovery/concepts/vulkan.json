@@ -703,6 +703,18 @@
       "source_repo": "vulkano-rs/vulkano",
       "status": "candidate-context",
       "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate-context",
+      "text": "Graphics API Capture and Replay Tools for Reconstructing Graphics Application Behavior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate-context",
+      "text": "The GFXReconstruct project provides tools for the capture and replay of graphics"
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1065,12 @@
       "source_repo": "vulkano-rs/vulkano",
       "status": "candidate",
       "text": "<img align=\"left\" alt=\"\" src=\"logo.png\" height=\"150\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate",
+      "text": "The GFXReconstruct project provides tools for the capture and replay of graphics"
     }
   ],
   "candidate_related_terms": [
@@ -1453,11 +1471,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "vulkano-rs/vulkano"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LunarG/gfxreconstruct"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

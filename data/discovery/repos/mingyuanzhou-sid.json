@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mingyuanzhou/SiD",
+      "target": "pkulwj1994/diff_instruct",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:00:47.446255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch code and model checkpoints for Score identity Distillation (SiD) and its adversarial version (SiDA) ",
+    "fork": false,
+    "full_name": "mingyuanzhou/SiD",
+    "html_url": "https://github.com/mingyuanzhou/SiD",
+    "language": "Python",
+    "pushed_at": "2025-03-29T03:35:58Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2026-04-27T06:36:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkulwj1994/diff_instruct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

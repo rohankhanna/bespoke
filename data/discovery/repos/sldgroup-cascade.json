@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/CASCADE",
+      "target": "sldgroup/emcad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/CASCADE",
+      "target": "sldgroup/pp-sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/CASCADE",
+      "target": "sldgroup/g-cascade",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SLDGroup/CASCADE",
+      "target": "sldgroup/merit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:10.772141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4395
+    },
+    {
+      "path": "requirements.txt",
+      "size": 295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "SLDGroup/CASCADE",
+    "html_url": "https://github.com/SLDGroup/CASCADE",
+    "language": "Python",
+    "pushed_at": "2025-11-26T18:49:52Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-04-10T06:57:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/emcad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/g-cascade",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/merit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sldgroup/pp-sam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

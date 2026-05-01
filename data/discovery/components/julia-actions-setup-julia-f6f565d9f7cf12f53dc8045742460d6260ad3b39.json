@@ -1,12 +1,17 @@
 {
   "component": "julia-actions/setup-julia@f6f565d9f7cf12f53dc8045742460d6260ad3b39",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/import-check.yaml",
       "source_repo": "spack/spack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil"
     }
   ]
 }

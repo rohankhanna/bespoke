@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Q-GaLore",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Q-GaLore",
+      "target": "low-rank",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Q-GaLore",
+      "target": "memory-efficient-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Q-GaLore",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:03:48.028565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3627
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients.",
+    "fork": false,
+    "full_name": "VITA-Group/Q-GaLore",
+    "html_url": "https://github.com/VITA-Group/Q-GaLore",
+    "language": "Python",
+    "pushed_at": "2024-07-17T01:37:05Z",
+    "stargazers_count": 205,
+    "topics": [
+      "large-language-models",
+      "low-rank",
+      "memory-efficient-learning",
+      "quantization"
+    ],
+    "updated_at": "2026-03-21T18:23:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-rank"
+    },
+    {
+      "context_snippet": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-efficient-learning"
+    },
+    {
+      "context_snippet": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

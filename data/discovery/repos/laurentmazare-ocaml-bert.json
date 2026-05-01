@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:11:43.772236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Transformer-based models for Natural Language Processing in OCaml",
+    "fork": false,
+    "full_name": "LaurentMazare/ocaml-bert",
+    "html_url": "https://github.com/LaurentMazare/ocaml-bert",
+    "language": "OCaml",
+    "pushed_at": "2021-05-10T08:50:43Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2025-11-17T03:54:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

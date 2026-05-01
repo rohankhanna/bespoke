@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "jetson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "jetson-nano",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "jetson-xavier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "live-demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "target": "torch2trt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:50:09.693597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Real-time pose estimation accelerated with NVIDIA TensorRT",
+    "fork": false,
+    "full_name": "NVIDIA-AI-IOT/trt_pose",
+    "html_url": "https://github.com/NVIDIA-AI-IOT/trt_pose",
+    "language": "Python",
+    "pushed_at": "2022-08-12T00:45:06Z",
+    "stargazers_count": 1057,
+    "topics": [
+      "human-pose",
+      "human-pose-estimation",
+      "jetson",
+      "jetson-nano",
+      "jetson-xavier",
+      "live-demo",
+      "pretrained-models",
+      "pytorch",
+      "real-time",
+      "tensorrt",
+      "torch2trt"
+    ],
+    "updated_at": "2026-04-23T19:44:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson-nano"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson-xavier"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "live-demo"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch2trt"
+    }
+  ]
+}

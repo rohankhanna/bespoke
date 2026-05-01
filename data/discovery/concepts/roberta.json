@@ -103,6 +103,18 @@
       "source_repo": "grammarly/gector",
       "status": "candidate-context",
       "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate-context",
+      "text": "MiniRBT (\u4e2d\u6587\u5c0f\u578b\u9884\u8bad\u7ec3\u6a21\u578b\u7cfb\u5217)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "grammarly/gector",
       "status": "candidate",
       "text": "This repository provides code for training and testing state-of-the-art models for grammatical error correction with the official PyTorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "grammarly/gector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/MiniRBT"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

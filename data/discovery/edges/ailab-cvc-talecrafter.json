@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "kongzhecn/omg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "videocrafter/talecrafter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "siggprah-asia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "siggraph-asia-2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "storycreation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "storytelling",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "AILab-CVC/TaleCrafter"
+}

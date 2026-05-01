@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "remeshing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SarahWeiii/pamo",
+      "status": "candidate-context",
+      "text": "[PG2025] PaMO: Parallel Mesh Optimization for Intersection-Free Low-Poly Modeling on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SarahWeiii/pamo",
+      "status": "candidate-context",
+      "text": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SarahWeiii/pamo",
+      "status": "candidate",
+      "text": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986154,
+      "status": "candidate",
+      "text": "reshaping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986153,
+      "status": "candidate",
+      "text": "resurfacing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986152,
+      "status": "candidate",
+      "text": "respatialization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986151,
+      "status": "candidate",
+      "text": "remoulding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986150,
+      "status": "candidate",
+      "text": "retexturing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "remeshing",
+  "concept_id": "remeshing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "SarahWeiii/pamo"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "remeshing",
+      "sense_id": "remeshing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

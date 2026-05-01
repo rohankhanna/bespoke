@@ -419,6 +419,30 @@
       "source_repo": "dbfixtures/pytest-postgresql",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate-context",
+      "text": "Sparse nonlinear least squares in JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate-context",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viser-project/viser",
+      "status": "candidate-context",
+      "text": "Web-based 3D visualization in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viser-project/viser",
+      "status": "candidate-context",
+      "text": "pytest"
     }
   ],
   "candidate_glosses": [
@@ -625,6 +649,18 @@
       "source_repo": "dbfixtures/pytest-postgresql",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viser-project/viser",
+      "status": "candidate",
+      "text": "pytest"
     }
   ],
   "candidate_related_terms": [
@@ -998,11 +1034,59 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dbfixtures/pytest-postgresql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "verbiiyo/rigl-torch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "brentyi/jaxls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "viser-project/viser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

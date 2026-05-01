@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "jrubyart"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate-context",
+      "text": "JRubyArt a ruby implementation of processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "jrubyart",
+  "concept_id": "jrubyart",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jrubyart",
+      "sense_id": "jrubyart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

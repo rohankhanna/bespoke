@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wouterkool/attention-learn-to-route",
+      "target": "ai4co/rl4co",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wouterkool/attention-learn-to-route",
+      "target": "bcamath-ds/compass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wouterkool/attention-learn-to-route",
+      "target": "mc-ride/orienteering",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wouterkool/attention-learn-to-route",
+      "target": "jordanamecler/pctsp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:51:33.295722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Attention based model for learning to solve different routing problems",
+    "fork": false,
+    "full_name": "wouterkool/attention-learn-to-route",
+    "html_url": "https://github.com/wouterkool/attention-learn-to-route",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-04T11:28:45Z",
+    "stargazers_count": 1350,
+    "topics": [],
+    "updated_at": "2026-04-29T07:56:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai4co/rl4co",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bcamath-ds/compass",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jordanamecler/pctsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mc-ride/orienteering",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:51:23.990272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5862
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "(ICCV'19) Indices Matter: Learning to Index for Deep Image Matting",
+    "fork": false,
+    "full_name": "poppinace/indexnet_matting",
+    "html_url": "https://github.com/poppinace/indexnet_matting",
+    "language": "Python",
+    "pushed_at": "2021-09-15T09:10:59Z",
+    "stargazers_count": 396,
+    "topics": [],
+    "updated_at": "2026-04-09T12:51:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

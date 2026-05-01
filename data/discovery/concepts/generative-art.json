@@ -115,6 +115,30 @@
       "source_repo": "abey79/vsketch",
       "status": "candidate-context",
       "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate-context",
+      "text": "JRubyArt a ruby implementation of processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vpype",
+      "status": "candidate-context",
+      "text": "The Swiss-Army-knife command-line tool for plotter vector graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype",
+      "status": "candidate-context",
+      "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "abey79/vsketch",
       "status": "candidate",
       "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype",
+      "status": "candidate",
+      "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -274,11 +310,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "jina-ai/dalle-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "abey79/vpype"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

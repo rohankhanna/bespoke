@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Docker GPU Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate-context",
+      "text": "A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. \ud83d\udcf7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate-context",
+      "text": "Publish Docker GPU Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate",
+      "text": "Publish Docker GPU Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15084,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10406,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10406,
+      "status": "candidate",
+      "text": "already"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Docker GPU Images",
+  "concept_id": "publish-docker-gpu-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml",
+      "source_repo": "OpenDroneMap/ODM"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Docker GPU Images",
+      "sense_id": "publish-docker-gpu-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

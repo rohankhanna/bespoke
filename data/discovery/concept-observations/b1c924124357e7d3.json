@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Different algorithms for converting binary to decimal floating-point numbers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dragon4",
+      "sense_id": "dragon4#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dragon4",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dragon4",
+  "observation_id": "b1c924124357e7d3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "dragon4",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)",
+  "source_file": null,
+  "source_repo": "abolz/Drachennest",
+  "source_repo_description": "Different algorithms for converting binary to decimal floating-point numbers"
+}

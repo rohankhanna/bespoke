@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/FrozenRecon",
+      "target": "aim-uofa/adelaidepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/FrozenRecon",
+      "target": "princeton-vl/lietorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/FrozenRecon",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/FrozenRecon",
+      "target": "3d-scene-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/FrozenRecon",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/FrozenRecon",
+      "target": "pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:49:14.961032+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6883
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2023] \ud83e\uddcaFrozenRecon: Pose-free 3D Scene Reconstruction with Frozen Depth Models",
+    "fork": false,
+    "full_name": "aim-uofa/FrozenRecon",
+    "html_url": "https://github.com/aim-uofa/FrozenRecon",
+    "language": "Python",
+    "pushed_at": "2024-08-23T00:43:38Z",
+    "stargazers_count": 131,
+    "topics": [
+      "3d-reconstruction",
+      "3d-scene-reconstruction",
+      "monocular-depth-estimation",
+      "pose-estimation"
+    ],
+    "updated_at": "2026-02-22T06:28:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aim-uofa/adelaidepth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-vl/lietorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-scene-reconstruction"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    }
+  ]
+}

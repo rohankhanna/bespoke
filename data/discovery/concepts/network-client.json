@@ -31,6 +31,18 @@
       "source_repo": "apache/ignite",
       "status": "candidate-context",
       "text": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/ignite-3",
+      "status": "candidate-context",
+      "text": "Apache Ignite 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite-3",
+      "status": "candidate-context",
+      "text": "Apache Ignite 3"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "apache/ignite",
       "status": "candidate",
       "text": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite-3",
+      "status": "candidate",
+      "text": "Apache Ignite 3"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "apache/ignite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "apache/ignite-3"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

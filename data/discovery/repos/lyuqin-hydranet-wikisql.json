@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyuqin/HydraNet-WikiSQL",
+      "target": "nl2sql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyuqin/HydraNet-WikiSQL",
+      "target": "text-to-sql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyuqin/HydraNet-WikiSQL",
+      "target": "wikisql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:02:25.644578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1576
+    },
+    {
+      "path": "Dockerfile",
+      "size": 326
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code and trained model for Hybrid ranking network for text-to-SQL on WikiSQL",
+    "fork": false,
+    "full_name": "lyuqin/HydraNet-WikiSQL",
+    "html_url": "https://github.com/lyuqin/HydraNet-WikiSQL",
+    "language": "Python",
+    "pushed_at": "2023-12-20T21:10:52Z",
+    "stargazers_count": 69,
+    "topics": [
+      "nl2sql",
+      "text-to-sql",
+      "wikisql"
+    ],
+    "updated_at": "2025-10-19T15:52:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Code for our paper [Hybrid Ranking Network for Text-to-SQL](https://arxiv.org/abs/2008.04759)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nl2sql"
+    },
+    {
+      "context_snippet": "Code for our paper [Hybrid Ranking Network for Text-to-SQL](https://arxiv.org/abs/2008.04759)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-sql"
+    },
+    {
+      "context_snippet": "Code for our paper [Hybrid Ranking Network for Text-to-SQL](https://arxiv.org/abs/2008.04759)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wikisql"
+    }
+  ]
+}

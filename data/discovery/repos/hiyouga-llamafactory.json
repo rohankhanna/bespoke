@@ -128,7 +128,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "jiaweizzhao/galore",
+      "target": "ledzy/badam",
       "target_type": "repository"
     },
     {
@@ -412,7 +412,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:13:37.058365+00:00",
+  "fetched_at": "2026-05-01T01:03:43.098455+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -460,8 +460,8 @@
     "full_name": "hiyouga/LlamaFactory",
     "html_url": "https://github.com/hiyouga/LlamaFactory",
     "language": "Python",
-    "pushed_at": "2026-04-29T15:21:13Z",
-    "stargazers_count": 70795,
+    "pushed_at": "2026-04-30T17:47:58Z",
+    "stargazers_count": 70799,
     "topics": [
       "agent",
       "ai",
@@ -484,7 +484,7 @@
       "rlhf",
       "transformers"
     ],
-    "updated_at": "2026-04-30T14:42:40Z"
+    "updated_at": "2026-04-30T20:16:23Z"
   },
   "repo_links": [
     {
@@ -504,7 +504,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jiaweizzhao/galore",
+      "full_name": "ledzy/badam",
       "source_file": "README.md"
     }
   ],

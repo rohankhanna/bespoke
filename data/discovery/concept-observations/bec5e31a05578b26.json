@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[PG2025] PaMO: Parallel Mesh Optimization for Intersection-Free Low-Poly Modeling on the GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mesh-simplification",
+      "sense_id": "mesh-simplification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mesh-simplification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mesh-simplification",
+  "observation_id": "bec5e31a05578b26",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "mesh-simplification",
+  "source_context_snippet": "*Seonghun Oh\\*, Xiaodi Yuan\\*, Xinyue Wei\\*, Ruoxi Shi, Fanbo Xiang, Minghua Liu, Hao Su*",
+  "source_file": null,
+  "source_repo": "SarahWeiii/pamo",
+  "source_repo_description": "[PG2025] PaMO: Parallel Mesh Optimization for Intersection-Free Low-Poly Modeling on the GPU"
+}

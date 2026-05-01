@@ -1,0 +1,172 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "heartexlabs/label-studio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "heartexlabs/label-studio-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "data-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "label-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "natural-language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "pytorch-transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "text-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:52:20.837674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2876
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Label data using HuggingFace's transformers and automatically get a prediction service",
+    "fork": false,
+    "full_name": "HumanSignal/label-studio-transformers",
+    "html_url": "https://github.com/HumanSignal/label-studio-transformers",
+    "language": "Python",
+    "pushed_at": "2023-06-20T21:41:20Z",
+    "stargazers_count": 196,
+    "topics": [
+      "bert",
+      "data-labeling",
+      "label-studio",
+      "natural-language-processing",
+      "natural-language-understanding",
+      "nlp",
+      "pytorch-transformers",
+      "text-labeling",
+      "transformers"
+    ],
+    "updated_at": "2026-04-08T11:40:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heartexlabs/label-studio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heartexlabs/label-studio-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-labeling"
+    },
+    {
+      "context_snippet": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "label-studio"
+    },
+    {
+      "context_snippet": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-understanding"
+    },
+    {
+      "context_snippet": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-transformers"
+    },
+    {
+      "context_snippet": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-labeling"
+    },
+    {
+      "context_snippet": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

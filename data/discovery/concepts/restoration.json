@@ -79,6 +79,18 @@
       "source_repo": "jhogsett/EMA-VFI-WebUI",
       "status": "candidate-context",
       "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate-context",
+      "text": "Advanced AI-Based Movie Restoration UI Using VFIformer & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate-context",
+      "text": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "jhogsett/EMA-VFI-WebUI",
       "status": "candidate",
       "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate",
+      "text": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -249,11 +267,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

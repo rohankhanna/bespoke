@@ -178,6 +178,16 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-doctor.yml"
     }
   ],
@@ -401,6 +411,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "target": "Publish NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-doctor.yml",
       "source_repo": "ogx-ai/ogx-client-typescript",
       "target": "actions/checkout@v6",
@@ -414,15 +445,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:52:56.339348+00:00",
+  "fetched_at": "2026-05-01T00:53:42.694343+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13684
+      "size": 13243
     },
     {
       "path": "package.json",
-      "size": 3756
+      "size": 3721
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -430,11 +461,15 @@
     },
     {
       "path": ".github/workflows/integration-tests.yml",
-      "size": 4084
+      "size": 3926
+    },
+    {
+      "path": ".github/workflows/publish-npm.yml",
+      "size": 816
     },
     {
       "path": ".github/workflows/release-doctor.yml",
-      "size": 542
+      "size": 621
     }
   ],
   "related_repositories": [],
@@ -446,10 +481,10 @@
     "full_name": "ogx-ai/ogx-client-typescript",
     "html_url": "https://github.com/ogx-ai/ogx-client-typescript",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T13:15:13Z",
+    "pushed_at": "2026-04-30T19:41:12Z",
     "stargazers_count": 95,
     "topics": [],
-    "updated_at": "2026-04-28T15:06:20Z"
+    "updated_at": "2026-04-30T19:40:54Z"
   },
   "repo_links": [],
   "terms": [
@@ -458,6 +493,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/integration-tests.yml",
       "term": "Integration Tests (Client-side)"
+    },
+    {
+      "context_snippet": "Publish NPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "term": "Publish NPM"
     },
     {
       "context_snippet": "Release Doctor",

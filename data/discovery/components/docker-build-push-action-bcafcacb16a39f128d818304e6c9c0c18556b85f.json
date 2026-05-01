@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

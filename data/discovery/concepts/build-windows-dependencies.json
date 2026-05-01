@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Windows Dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate-context",
+      "text": "A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. \ud83d\udcf7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate-context",
+      "text": "Build Windows Dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate",
+      "text": "Build Windows Dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20109,
+      "status": "candidate",
+      "text": "system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20079,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040,
+      "status": "candidate",
+      "text": "brick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030,
+      "status": "candidate",
+      "text": "apparatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20001,
+      "status": "candidate",
+      "text": "articulate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Windows Dependencies",
+  "concept_id": "build-windows-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build_vcpkg_env.yaml",
+      "source_repo": "OpenDroneMap/ODM"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Windows Dependencies",
+      "sense_id": "build-windows-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

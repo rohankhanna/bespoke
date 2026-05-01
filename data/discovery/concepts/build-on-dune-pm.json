@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build on Dune PM"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-community/utop",
+      "status": "candidate-context",
+      "text": "Universal toplevel for OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-community/utop",
+      "status": "candidate-context",
+      "text": "Build on Dune PM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-community/utop",
+      "status": "candidate",
+      "text": "Build on Dune PM"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11097,
+      "status": "candidate",
+      "text": "drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11097,
+      "status": "candidate",
+      "text": "sands"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "hill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "sand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build on Dune PM",
+  "concept_id": "build-on-dune-pm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build-dune.yml",
+      "source_repo": "ocaml-community/utop"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build on Dune PM",
+      "sense_id": "build-on-dune-pm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

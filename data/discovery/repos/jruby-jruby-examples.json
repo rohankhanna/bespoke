@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:44:22.246357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of examples to help you get the most out of JRuby",
+    "fork": false,
+    "full_name": "jruby/jruby-examples",
+    "html_url": "https://github.com/jruby/jruby-examples",
+    "language": "Java",
+    "pushed_at": "2021-10-07T18:39:18Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-05-04T15:05:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

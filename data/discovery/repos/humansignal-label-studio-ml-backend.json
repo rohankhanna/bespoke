@@ -1,0 +1,623 @@
+{
+  "components": [
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "thehanimo/pr-title-checker@v1.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml"
+    },
+    {
+      "component": "docker/login-action@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "facebookresearch/segment-anything-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "humansignal/label-studio-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pypi.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pypi.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "Build PYPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "docker/setup-buildx-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "docker/login-action@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "docker/build-push-action@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "slackapi/slack-github-action@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "Build and Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "peter-evans/create-or-update-comment@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-command.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "Gitleaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "thehanimo/pr-title-checker@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "release-drafter/release-drafter@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "PR labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "Release: Cut off release branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "docker/setup-buildx-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "docker/login-action@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "docker/build-push-action@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "target": "Release: Pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:52:11.484604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19775
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    },
+    {
+      "path": ".github/workflows/build-pypi.yml",
+      "size": 3086
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 6621
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 3570
+    },
+    {
+      "path": ".github/workflows/git-command.yml",
+      "size": 3349
+    },
+    {
+      "path": ".github/workflows/gitleaks.yml",
+      "size": 2299
+    },
+    {
+      "path": ".github/workflows/pr-labeler.yml",
+      "size": 874
+    },
+    {
+      "path": ".github/workflows/release-cut-off-release-branch.yml",
+      "size": 2688
+    },
+    {
+      "path": ".github/workflows/release-pipeline.yml",
+      "size": 3641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Configs and boilerplates for Label Studio's Machine Learning backend",
+    "fork": false,
+    "full_name": "HumanSignal/label-studio-ml-backend",
+    "html_url": "https://github.com/HumanSignal/label-studio-ml-backend",
+    "language": "Python",
+    "pushed_at": "2026-04-30T14:32:05Z",
+    "stargazers_count": 1032,
+    "topics": [],
+    "updated_at": "2026-04-30T07:34:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/segment-anything-2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humansignal/label-studio-sdk",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Build PYPI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pypi.yml",
+      "term": "Build PYPI"
+    },
+    {
+      "context_snippet": "\"Build and Push\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Push"
+    },
+    {
+      "context_snippet": "\"Docs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "\"Gitleaks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "term": "Gitleaks"
+    },
+    {
+      "context_snippet": "\"PR labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "term": "PR labeler"
+    },
+    {
+      "context_snippet": "\"Release: Cut off release branch\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "term": "Release: Cut off release branch"
+    },
+    {
+      "context_snippet": "\"Release: Pipeline\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "term": "Release: Pipeline"
+    }
+  ]
+}

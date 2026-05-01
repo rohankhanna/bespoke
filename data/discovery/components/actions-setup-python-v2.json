@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2447,6 +2447,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/compile_library.yml",
       "source_repo": "tzapu/WiFiManager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "FindDefinition/PCCM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yaml",
+      "source_repo": "nicolas-chaulet/torch-points3d"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "nicolas-chaulet/torch-points3d"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Divadi/SOLOFusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Divadi/SOLOFusion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HuangJunJie2017/BEVDet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "HuangJunJie2017/BEVDet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_mim.yml",
+      "source_repo": "HuangJunJie2017/BEVDet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "onuralpszr/mmyolo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "ToTheBeginning/facexlib"
     }
   ]
 }

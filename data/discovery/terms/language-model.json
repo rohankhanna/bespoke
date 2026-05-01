@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -241,6 +241,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/generative-ai-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shark-NLP/OpenICL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT"
     }
   ],
   "term": "language-model"

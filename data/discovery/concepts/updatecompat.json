@@ -19,6 +19,12 @@
       "source_repo": "Lyceum/MuJoCo.jl",
       "status": "candidate-context",
       "text": "UpdateCompat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "status": "candidate-context",
+      "text": "UpdateCompat"
     }
   ],
   "candidate_glosses": [
@@ -31,6 +37,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Lyceum/MuJoCo.jl",
+      "status": "candidate",
+      "text": "UpdateCompat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
       "status": "candidate",
       "text": "UpdateCompat"
     }
@@ -52,11 +64,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/compat.yml",
       "source_repo": "Lyceum/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/compat.yml",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

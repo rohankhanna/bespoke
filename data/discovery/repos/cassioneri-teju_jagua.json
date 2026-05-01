@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cassioneri/teju_jagua",
+      "target": "jk-jeon/dragonbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cassioneri/teju_jagua",
+      "target": "ulfjack/ryu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cassioneri/teju_jagua",
+      "target": "boostorg/multiprecision",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cassioneri/teju_jagua",
+      "target": "martinus/nanobench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:18.621086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Teju Jagua",
+    "fork": false,
+    "full_name": "cassioneri/teju_jagua",
+    "html_url": "https://github.com/cassioneri/teju_jagua",
+    "language": "C",
+    "pushed_at": "2025-11-16T23:52:18Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-04-26T00:50:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boostorg/multiprecision",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jk-jeon/dragonbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martinus/nanobench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ulfjack/ryu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

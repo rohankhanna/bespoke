@@ -55,6 +55,18 @@
       "source_repo": "handsontable/hyperformula",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tabulapdf/tabula",
+      "status": "candidate-context",
+      "text": "Tabula is a tool for liberating data tables trapped inside PDF files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tabulapdf/tabula",
+      "status": "candidate-context",
+      "text": "**Is `tabula` an active project?**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "handsontable/hyperformula",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tabulapdf/tabula",
+      "status": "candidate",
+      "text": "**Is `tabula` an active project?**"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "handsontable/hyperformula"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "tabulapdf/tabula"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

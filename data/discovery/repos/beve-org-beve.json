@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beve-org/beve",
+      "target": "stephenberry/eve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beve-org/beve",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beve-org/beve",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beve-org/beve",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beve-org/beve",
+      "target": "beve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beve-org/beve",
+      "target": "binary-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beve-org/beve",
+      "target": "data-interchange",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beve-org/beve",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beve-org/beve",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beve-org/beve",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beve-org/beve",
+      "target": "matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beve-org/beve",
+      "target": "messaging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:01.442538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12468
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High performance, tagged binary data specification",
+    "fork": false,
+    "full_name": "beve-org/beve",
+    "html_url": "https://github.com/beve-org/beve",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-06T13:30:35Z",
+    "stargazers_count": 120,
+    "topics": [
+      "beve",
+      "binary-data",
+      "data-interchange",
+      "fast",
+      "high-performance",
+      "lightweight",
+      "matrix",
+      "messaging"
+    ],
+    "updated_at": "2026-04-30T06:28:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stephenberry/eve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Version 1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beve"
+    },
+    {
+      "context_snippet": "Version 1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-data"
+    },
+    {
+      "context_snippet": "Version 1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-interchange"
+    },
+    {
+      "context_snippet": "Version 1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "Version 1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "Version 1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "Version 1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix"
+    },
+    {
+      "context_snippet": "Version 1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messaging"
+    }
+  ]
+}

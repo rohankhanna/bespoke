@@ -175,6 +175,30 @@
       "source_repo": "PKU-YuanGroup/OpenS2V-Nexus",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlexMaOLS/EluCD",
+      "status": "candidate-context",
+      "text": "Elucidating The Design Space of Classifier-Guided Diffusion Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexMaOLS/EluCD",
+      "status": "candidate-context",
+      "text": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AILab-CVC/FreeNoise",
+      "status": "candidate-context",
+      "text": "[ICLR 2024] Code for FreeNoise based on VideoCrafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AILab-CVC/FreeNoise",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "PKU-YuanGroup/OpenS2V-Nexus",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexMaOLS/EluCD",
+      "status": "candidate",
+      "text": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AILab-CVC/FreeNoise",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +436,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "AlexMaOLS/EluCD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/FreeNoise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

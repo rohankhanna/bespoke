@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:11:20.343717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 295
+    },
+    {
+      "path": "go.mod",
+      "size": 2186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generative Art Utility Library",
+    "fork": false,
+    "full_name": "aldernero/gaul",
+    "html_url": "https://github.com/aldernero/gaul",
+    "language": "Go",
+    "pushed_at": "2026-04-15T01:12:10Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-15T01:12:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

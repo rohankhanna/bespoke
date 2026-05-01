@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Release Helm Charts",
-    "release helm charts"
+    "release helm charts",
+    "Release Helm charts"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "oceanbase/ob-operator",
       "status": "candidate-context",
       "text": "release helm charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for managing the lifecycle of Apache Spark applications on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate-context",
+      "text": "Release Helm charts"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "oceanbase/ob-operator",
       "status": "candidate",
       "text": "release helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate",
+      "text": "Release Helm charts"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/release-charts.yml",
       "source_repo": "oceanbase/ob-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/release-helm-charts.yaml",
+      "source_repo": "kubeflow/spark-operator"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

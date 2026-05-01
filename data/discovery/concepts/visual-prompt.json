@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "visual-prompt"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "status": "candidate-context",
+      "text": "DINO-X: The World's Top-Performing Vision Model for Open-World Object Detection and Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "visual-prompt",
+  "concept_id": "visual-prompt",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO-X-API"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visual-prompt",
+      "sense_id": "visual-prompt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

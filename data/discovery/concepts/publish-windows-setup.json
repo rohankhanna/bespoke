@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Windows Setup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate-context",
+      "text": "A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. \ud83d\udcf7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate-context",
+      "text": "Publish Windows Setup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate",
+      "text": "Publish Windows Setup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17855,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17855,
+      "status": "candidate",
+      "text": "pressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17828,
+      "status": "candidate",
+      "text": "configure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17828,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17828,
+      "status": "candidate",
+      "text": "tap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Windows Setup",
+  "concept_id": "publish-windows-setup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Windows Setup",
+      "sense_id": "publish-windows-setup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

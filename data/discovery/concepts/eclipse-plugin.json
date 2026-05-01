@@ -91,6 +91,18 @@
       "source_repo": "eclipse-shellwax/shellwax",
       "status": "candidate-context",
       "text": "<a href=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/redirect.html\"><img src=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/cloneToEclipseBadge.png\" alt=\"Clone to Eclipse IDE\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "[![bnd](https://user-images.githubusercontent.com/200494/226292967-963bd722-96d9-4a46-9658-4699962032b0.png)](https://bnd.bndtools.org/)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "eclipse-shellwax/shellwax",
       "status": "candidate",
       "text": "<a href=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/redirect.html\"><img src=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/cloneToEclipseBadge.png\" alt=\"Clone to Eclipse IDE\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate",
+      "text": "[![bnd](https://user-images.githubusercontent.com/200494/226292967-963bd722-96d9-4a46-9658-4699962032b0.png)](https://bnd.bndtools.org/)"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "bndtools/bnd"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

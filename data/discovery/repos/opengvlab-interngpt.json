@@ -1,0 +1,311 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "opengvlab/visionllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "microsoft/taskmatrix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "xingangpan/draggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "click",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "draggan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "foundation-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "husky",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "imagebind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "internimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "vicuna",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:56:42.332128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11530
+    },
+    {
+      "path": "requirements.txt",
+      "size": 603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (\u652f\u6301DragGAN\u3001ChatGPT\u3001ImageBind\u3001SAM\u7684\u5728\u7ebfDemo\u7cfb\u7edf)",
+    "fork": false,
+    "full_name": "OpenGVLab/InternGPT",
+    "html_url": "https://github.com/OpenGVLab/InternGPT",
+    "language": "Python",
+    "pushed_at": "2024-08-20T12:51:03Z",
+    "stargazers_count": 3204,
+    "topics": [
+      "chatgpt",
+      "click",
+      "draggan",
+      "foundation-model",
+      "gpt",
+      "gpt-4",
+      "gradio",
+      "husky",
+      "image-captioning",
+      "imagebind",
+      "internimage",
+      "langchain",
+      "llama",
+      "llm",
+      "multimodal",
+      "sam",
+      "segment-anything",
+      "vicuna",
+      "video-generation",
+      "vqa"
+    ],
+    "updated_at": "2026-04-28T21:54:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/taskmatrix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/visionllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingangpan/draggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "click"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "draggan"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-model"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "husky"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-captioning"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagebind"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internimage"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vicuna"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "Jimver/cuda-toolkit@v0.2.24",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_windows_only.yml",
       "source_repo": "turboderp-org/exllamav3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM"
     }
   ]
 }

@@ -13,12 +13,24 @@
       "source_repo": "autowarefoundation/autoware_ai",
       "status": "candidate-context",
       "text": "Cross CI workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
+      "status": "candidate-context",
+      "text": "Cross CI workflow"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "autowarefoundation/autoware_ai",
+      "status": "candidate",
+      "text": "Cross CI workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware_ai_simulation",
       "status": "candidate",
       "text": "Cross CI workflow"
     }
@@ -70,11 +82,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/cross-ci.yaml",
       "source_repo": "autowarefoundation/autoware_ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/cross-ci.yaml",
+      "source_repo": "autowarefoundation/autoware_ai_simulation"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

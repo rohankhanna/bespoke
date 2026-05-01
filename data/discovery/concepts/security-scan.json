@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Security Scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "securego/gosec",
+      "status": "candidate-context",
+      "text": "Go security checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "securego/gosec",
+      "status": "candidate-context",
+      "text": "\"Security Scan\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "securego/gosec",
+      "status": "candidate",
+      "text": "\"Security Scan\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11153,
+      "status": "candidate",
+      "text": "analyse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11153,
+      "status": "candidate",
+      "text": "analyze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11153,
+      "status": "candidate",
+      "text": "browse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11153,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11153,
+      "status": "candidate",
+      "text": "consultation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Security Scan",
+  "concept_id": "security-scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/scan.yml",
+      "source_repo": "securego/gosec"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Security Scan",
+      "sense_id": "security-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

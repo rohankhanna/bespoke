@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "wangyueft/dgcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "huguesthomas/kpconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "weikaitan/randla-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "intel-isl/open3d-ml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "point-cloud-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "point-cloud-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "point-clouds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WeikaiTan/Toronto-3D",
+      "target": "semanticsegmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:54:33.247148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways",
+    "fork": false,
+    "full_name": "WeikaiTan/Toronto-3D",
+    "html_url": "https://github.com/WeikaiTan/Toronto-3D",
+    "language": null,
+    "pushed_at": "2025-10-30T19:22:34Z",
+    "stargazers_count": 291,
+    "topics": [
+      "3d",
+      "dataset",
+      "deep-learning",
+      "lidar",
+      "point-cloud-dataset",
+      "point-cloud-segmentation",
+      "point-clouds",
+      "semanticsegmentation"
+    ],
+    "updated_at": "2026-04-21T10:08:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huguesthomas/kpconv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-isl/open3d-ml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wangyueft/dgcnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weikaitan/randla-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud-dataset"
+    },
+    {
+      "context_snippet": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud-segmentation"
+    },
+    {
+      "context_snippet": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-clouds"
+    },
+    {
+      "context_snippet": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semanticsegmentation"
+    }
+  ]
+}

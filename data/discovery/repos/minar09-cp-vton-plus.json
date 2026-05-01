@@ -1,0 +1,215 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "sergeywong/cp-vton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "2d-virtual-try-on",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "cp-vton-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "emcom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "emcom-lab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "image-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "official-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "seoultech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "virtual-try-on",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "virtual-tryon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus",
+      "target": "vton",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:52:47.007881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6396
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\", CVPRW 2020",
+    "fork": false,
+    "full_name": "minar09/cp-vton-plus",
+    "html_url": "https://github.com/minar09/cp-vton-plus",
+    "language": "Python",
+    "pushed_at": "2025-05-08T08:14:15Z",
+    "stargazers_count": 393,
+    "topics": [
+      "2d-virtual-try-on",
+      "cp-vton-plus",
+      "emcom",
+      "emcom-lab",
+      "image-based",
+      "official-implementation",
+      "pytorch",
+      "pytorch-implementation",
+      "seoultech",
+      "virtual-try-on",
+      "virtual-tryon",
+      "vton"
+    ],
+    "updated_at": "2026-03-25T13:36:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sergeywong/cp-vton",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-virtual-try-on"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cp-vton-plus"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emcom"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emcom-lab"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-based"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "official-implementation"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seoultech"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-try-on"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-tryon"
+    },
+    {
+      "context_snippet": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vton"
+    }
+  ]
+}

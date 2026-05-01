@@ -1,0 +1,428 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-xfail.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-xfail.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml"
+    },
+    {
+      "component": "tkf/julia-merge-except-manifests@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml"
+    },
+    {
+      "component": "tkf/julia-update-manifests@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml"
+    },
+    {
+      "component": "tkf/julia-update-manifests@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml"
+    },
+    {
+      "component": "tkf/julia-update-manifests@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vanilla-test.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vanilla-test.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vanilla-test.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vanilla-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "Run benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-xfail.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-xfail.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-xfail.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "Check xfail",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "tkf/julia-merge-except-manifests@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "tkf/julia-update-manifests@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-update.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg-update.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "pkg-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vanilla-test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vanilla-test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vanilla-test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vanilla-test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "julia-actions/julia-runtest@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vanilla-test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "target": "Run test via Pkg.test()",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:08:13.609639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1114
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 925
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/check-xfail.yml",
+      "size": 1585
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 998
+    },
+    {
+      "path": ".github/workflows/pkg-update.yml",
+      "size": 2242
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1323
+    },
+    {
+      "path": ".github/workflows/vanilla-test.yml",
+      "size": 361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Immutables as mutables, mutables as immutables.",
+    "fork": false,
+    "full_name": "JuliaFolds/BangBang.jl",
+    "html_url": "https://github.com/JuliaFolds/BangBang.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-28T03:25:04Z",
+    "stargazers_count": 109,
+    "topics": [],
+    "updated_at": "2025-10-13T15:56:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Run benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Run benchmarks"
+    },
+    {
+      "context_snippet": "Check xfail",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-xfail.yml",
+      "term": "Check xfail"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "pkg-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg-update.yml",
+      "term": "pkg-update"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "Run test via Pkg.test()",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vanilla-test.yml",
+      "term": "Run test via Pkg.test()"
+    }
+  ]
+}

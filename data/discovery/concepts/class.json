@@ -19,6 +19,18 @@
       "source_repo": "mschwager/cohesion",
       "status": "candidate-context",
       "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "burningwave/core",
+      "status": "candidate-context",
+      "text": "An advanced and highly optimized Java library to build frameworks: it's useful for scanning class paths, generating classes at runtime, facilitating the use of reflection, scanning the filesystem, executing stringified source code and much more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "burningwave/core",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.burningwave.org\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mschwager/cohesion",
       "status": "candidate",
       "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "burningwave/core",
+      "status": "candidate",
+      "text": "<a href=\"https://www.burningwave.org\">"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mschwager/cohesion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "burningwave/core"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

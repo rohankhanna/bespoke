@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:58:08.447418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Medical Image Segmentation Transformer with Convolutional Attention Mixing (CAM) Decoder",
+    "fork": false,
+    "full_name": "Rahman-Motiur/MIST",
+    "html_url": "https://github.com/Rahman-Motiur/MIST",
+    "language": "Python",
+    "pushed_at": "2023-12-21T22:47:57Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-10T17:48:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

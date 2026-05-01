@@ -19,6 +19,18 @@
       "source_repo": "bencevans/camtrap-detector",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate-context",
+      "text": "PyTorch Wildlife: a Collaborative Deep Learning Framework for Conservation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate-context",
+      "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bencevans/camtrap-detector",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate",
+      "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "bencevans/camtrap-detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

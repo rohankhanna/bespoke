@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Java library for reversibly obfuscating numerical identifiers (e.g. 1234 \u2194 4TQCNTL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39461663,
+      "status": "candidate",
+      "text": "coffee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29852988,
+      "status": "candidate",
+      "text": "sumatra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29852741,
+      "status": "candidate",
+      "text": "bali"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29512883,
+      "status": "candidate",
+      "text": "javascript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29468788,
+      "status": "candidate",
+      "text": "cuppa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "java",
+      "sense_id": "java#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2055,
+      "status": "candidate",
+      "text": "coffee"
+    }
+  ],
+  "concept_id": "java",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "java",
+  "observation_id": "561a82e6bb5c48b7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "java",
+  "source_context_snippet": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later).",
+  "source_file": null,
+  "source_repo": "jchambers/id-obfuscator",
+  "source_repo_description": "A Java library for reversibly obfuscating numerical identifiers (e.g. 1234 \u2194 4TQCNTL)"
+}

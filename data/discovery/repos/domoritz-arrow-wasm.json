@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@wasm-tool/rollup-plugin-rust",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "apache-arrow",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "benny",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "light-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "akheron/dependabot-cron-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "@wasm-tool/rollup-plugin-rust",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "apache-arrow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "benny",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "light-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "akheron/dependabot-cron-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "Auto-merge Dependabot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "domoritz/arrow-wasm",
+      "target": "Build and Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:41:35.057405+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 1548
+    },
+    {
+      "path": "package.json",
+      "size": 1071
+    },
+    {
+      "path": ".github/workflows/merge-dependabot.yml",
+      "size": 339
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Arrow in WebAssembly",
+    "fork": false,
+    "full_name": "domoritz/arrow-wasm",
+    "html_url": "https://github.com/domoritz/arrow-wasm",
+    "language": "Rust",
+    "pushed_at": "2023-09-25T04:39:39Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-01-29T00:28:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-merge Dependabot PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "term": "Auto-merge Dependabot PRs"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Build and Test"
+    }
+  ]
+}

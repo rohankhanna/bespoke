@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenNLPLab/HGRN2",
+      "target": "doraemonzzz/hgru2-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenNLPLab/HGRN2",
+      "target": "opennlplab/fairseq-evo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenNLPLab/HGRN2",
+      "target": "opennlplab/im",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenNLPLab/HGRN2",
+      "target": "opennlplab/lra",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:00:39.260133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HGRN2: Gated Linear RNNs with State Expansion",
+    "fork": false,
+    "full_name": "OpenNLPLab/HGRN2",
+    "html_url": "https://github.com/OpenNLPLab/HGRN2",
+    "language": "Python",
+    "pushed_at": "2024-08-20T07:47:14Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-03-27T15:24:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doraemonzzz/hgru2-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opennlplab/fairseq-evo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opennlplab/im",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opennlplab/lra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

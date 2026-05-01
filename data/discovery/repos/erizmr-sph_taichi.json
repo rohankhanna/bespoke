@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erizmr/SPH_Taichi",
+      "target": "taichi-dev/taichi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erizmr/SPH_Taichi",
+      "target": "interactivecomputergraphics/splishsplash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erizmr/SPH_Taichi",
+      "target": "physics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erizmr/SPH_Taichi",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:08:54.667909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2083
+    },
+    {
+      "path": "requirements.txt",
+      "size": 21
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A high-performance implementation of SPH in Taichi. ",
+    "fork": false,
+    "full_name": "erizmr/SPH_Taichi",
+    "html_url": "https://github.com/erizmr/SPH_Taichi",
+    "language": "Python",
+    "pushed_at": "2024-10-05T00:46:40Z",
+    "stargazers_count": 311,
+    "topics": [
+      "gpu",
+      "physics-simulation",
+      "simulation"
+    ],
+    "updated_at": "2026-04-27T11:44:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interactivecomputergraphics/splishsplash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taichi-dev/taichi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A high-performance implementation of Smooth Particle Hydrodynamics (SPH) simulator in [Taichi](https://github.com/taichi-dev/taichi). (working in progress)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-simulation"
+    },
+    {
+      "context_snippet": "A high-performance implementation of Smooth Particle Hydrodynamics (SPH) simulator in [Taichi](https://github.com/taichi-dev/taichi). (working in progress)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

@@ -91,6 +91,30 @@
       "source_repo": "kabachuha/sd-webui-text2video",
       "status": "candidate-context",
       "text": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate-context",
+      "text": "InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (\u652f\u6301DragGAN\u3001ChatGPT\u3001ImageBind\u3001SAM\u7684\u5728\u7ebfDemo\u7cfb\u7edf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate-context",
+      "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate-context",
+      "text": "Advanced AI-Based Movie Restoration UI Using VFIformer & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate-context",
+      "text": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "kabachuha/sd-webui-text2video",
       "status": "candidate",
       "text": "**~~Warning: as of 2023-11-21 this extension is not maintained. If you'd like to continue devving/remaking it, please contact me on Discord @kabachuha (you can also find me on [camenduru's server's text2video channel](https://discord.gg/TYk6rfT9)) and we'll figure it out~~**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate",
+      "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate",
+      "text": "[![Pylint](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/VFIformer-WebUI/actions/workflows/pylint.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +232,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jhogsett/VFIformer-WebUI"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

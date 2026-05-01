@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PreviewCleanup.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "julia-actions/julia-docdeploy@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "juliapackaging/yggdrasil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PreviewCleanup.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PreviewCleanup.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "Doc Preview Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "julia-actions/julia-docdeploy@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "binarybuilder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "target": "julia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:26.556545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3537
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 495
+    },
+    {
+      "path": ".github/workflows/PreviewCleanup.yml",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Binary Dependency Builder for Julia",
+    "fork": false,
+    "full_name": "JuliaPackaging/BinaryBuilder.jl",
+    "html_url": "https://github.com/JuliaPackaging/BinaryBuilder.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-30T12:44:37Z",
+    "stargazers_count": 426,
+    "topics": [
+      "binarybuilder",
+      "hacktoberfest",
+      "julia"
+    ],
+    "updated_at": "2026-04-20T19:54:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliapackaging/yggdrasil",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "Doc Preview Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PreviewCleanup.yml",
+      "term": "Doc Preview Cleanup"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_apis/build/status/JuliaPackaging.BinaryBuilder.jl?branchName=master)](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_build/latest?definitionId=2&branchName=master) [![codecov.io](http://codecov.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binarybuilder"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_apis/build/status/JuliaPackaging.BinaryBuilder.jl?branchName=master)](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_build/latest?definitionId=2&branchName=master) [![codecov.io](http://codecov.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_apis/build/status/JuliaPackaging.BinaryBuilder.jl?branchName=master)](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_build/latest?definitionId=2&branchName=master) [![codecov.io](http://codecov.io/gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    }
+  ]
+}

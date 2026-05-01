@@ -115,6 +115,18 @@
       "source_repo": "kylebarron/parquet-wasm",
       "status": "candidate-context",
       "text": "WebAssembly bindings to read and write the [Apache Parquet](https://parquet.apache.org/) format to and from [Apache Arrow](https://arrow.apache.org/) using the Rust [`parquet`](https://crates.io/crates/parquet) and [`arrow`](https://crates.io/crates/arrow) crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hyparquet",
+      "status": "candidate-context",
+      "text": "parquet file parser for javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet",
+      "status": "candidate-context",
+      "text": "![hyparquet parakeet](hyparquet.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "kylebarron/parquet-wasm",
       "status": "candidate",
       "text": "WebAssembly bindings to read and write the [Apache Parquet](https://parquet.apache.org/) format to and from [Apache Arrow](https://arrow.apache.org/) using the Rust [`parquet`](https://crates.io/crates/parquet) and [`arrow`](https://crates.io/crates/arrow) crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hyparquet",
+      "status": "candidate",
+      "text": "![hyparquet parakeet](hyparquet.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -282,11 +300,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "kylebarron/parquet-wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hyparquet"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

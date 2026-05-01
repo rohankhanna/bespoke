@@ -19,12 +19,30 @@
       "source_repo": "mlfoundations/open_clip",
       "status": "candidate-context",
       "text": "Clear cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "We write your reusable computer vision tools. \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "Clear cache"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mlfoundations/open_clip",
+      "status": "candidate",
+      "text": "Clear cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
       "status": "candidate",
       "text": "Clear cache"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/clear-cache.yml",
       "source_repo": "mlfoundations/open_clip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "source_repo": "roboflow/supervision"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -397,6 +397,30 @@
       "source_repo": "apple/ml-cvnets",
       "status": "candidate-context",
       "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate-context",
+      "text": "Muggled SAM: Segmentation without the magic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate-context",
+      "text": "This repo contains a simplified implementation of the awesome 'Segment Anything' models from [facebookresearch](https://ai.meta.com/research/#projects) ([SAM1](https://github.com/facebookresearch/segment-anything), [SAM2](https://github.com/facebookresearch/sam2) & [SAM3](https:\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/LISA",
+      "status": "candidate-context",
+      "text": "Project Page for \"LISA: Reasoning Segmentation via Large Language Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/LISA",
+      "status": "candidate-context",
+      "text": "[![Gradio](https://img.shields.io/badge/Gradio-Online%20Demo-blue)](http://103.170.5.190:7860/)"
     }
   ],
   "candidate_glosses": [
@@ -597,6 +621,18 @@
       "source_repo": "apple/ml-cvnets",
       "status": "candidate",
       "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate",
+      "text": "This repo contains a simplified implementation of the awesome 'Segment Anything' models from [facebookresearch](https://ai.meta.com/research/#projects) ([SAM1](https://github.com/facebookresearch/segment-anything), [SAM2](https://github.com/facebookresearch/sam2) & [SAM3](https:\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/LISA",
+      "status": "candidate",
+      "text": "[![Gradio](https://img.shields.io/badge/Gradio-Online%20Demo-blue)](http://103.170.5.190:7860/)"
     }
   ],
   "candidate_related_terms": [
@@ -928,11 +964,41 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_sam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

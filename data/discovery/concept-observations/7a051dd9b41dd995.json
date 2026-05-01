@@ -84,7 +84,7 @@
   "normalized_form": "notebook-diff-comment",
   "observation_id": "7a051dd9b41dd995",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
   "observed_text": "Notebook Diff Comment",
   "source_context_snippet": "Notebook Diff Comment",
   "source_file": ".github/workflows/notebook-diff-comment.yml",

@@ -139,6 +139,18 @@
       "source_repo": "isl-org/ZoeDepth",
       "status": "candidate-context",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aim-uofa/FrozenRecon",
+      "status": "candidate-context",
+      "text": "[ICCV2023] \ud83e\uddcaFrozenRecon: Pose-free 3D Scene Reconstruction with Frozen Depth Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/FrozenRecon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "isl-org/ZoeDepth",
       "status": "candidate",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aim-uofa/FrozenRecon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "isl-org/ZoeDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "aim-uofa/FrozenRecon"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

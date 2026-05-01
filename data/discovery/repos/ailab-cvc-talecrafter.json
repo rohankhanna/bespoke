@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "kongzhecn/omg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "videocrafter/talecrafter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "siggprah-asia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "siggraph-asia-2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "storycreation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/TaleCrafter",
+      "target": "storytelling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:56:56.977370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[SIGGRAPH Asia 2023] An interactive story visualization tool that support multiple characters",
+    "fork": false,
+    "full_name": "AILab-CVC/TaleCrafter",
+    "html_url": "https://github.com/AILab-CVC/TaleCrafter",
+    "language": null,
+    "pushed_at": "2024-03-22T11:53:35Z",
+    "stargazers_count": 269,
+    "topics": [
+      "siggprah-asia",
+      "siggraph-asia-2023",
+      "storycreation",
+      "storytelling"
+    ],
+    "updated_at": "2026-04-08T08:58:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kongzhecn/omg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "videocrafter/talecrafter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siggprah-asia"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siggraph-asia-2023"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storycreation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storytelling"
+    }
+  ]
+}

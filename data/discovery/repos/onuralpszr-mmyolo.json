@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onuralpszr/mmyolo",
+      "target": "open-mmlab/mmediting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "onuralpszr/mmyolo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "onuralpszr/mmyolo",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "onuralpszr/mmyolo",
+      "target": "deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:05:25.027084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20601
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenMMLab YOLO series toolbox and benchmark. Implemented RTMDet, RTMDet-Rotated,YOLOv5, YOLOv6, YOLOv7, YOLOv8,YOLOX, PPYOLOE, etc.",
+    "fork": true,
+    "full_name": "onuralpszr/mmyolo",
+    "html_url": "https://github.com/onuralpszr/mmyolo",
+    "language": "Python",
+    "pushed_at": "2024-02-13T09:25:35Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-12-25T07:06:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmediting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml",
+      "source_repo": "apache/ignite-3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml",
+      "source_repo": "apache/ignite-3",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml",
+      "source_repo": "apache/ignite-3",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_dbapi_wheels.yml",
+      "source_repo": "apache/ignite-3",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "data-management-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "distributed-sql-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "ignite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "in-memory-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "in-memory-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "network-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/ignite-3",
+      "target": "network-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:44.653848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4724
+    },
+    {
+      "path": ".github/workflows/python_dbapi_wheels.yml",
+      "size": 2985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Ignite 3",
+    "fork": false,
+    "full_name": "apache/ignite-3",
+    "html_url": "https://github.com/apache/ignite-3",
+    "language": "Java",
+    "pushed_at": "2026-04-28T15:22:21Z",
+    "stargazers_count": 328,
+    "topics": [
+      "big-data",
+      "cache",
+      "cloud",
+      "data-management-platform",
+      "database",
+      "distributed-sql-database",
+      "ignite",
+      "in-memory-computing",
+      "in-memory-database",
+      "iot",
+      "network-client",
+      "network-server",
+      "sql"
+    ],
+    "updated_at": "2026-04-28T08:53:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-management-platform"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-sql-database"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignite"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory-computing"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory-database"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-client"
+    },
+    {
+      "context_snippet": "Apache Ignite 3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-server"
+    }
+  ]
+}

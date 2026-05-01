@@ -48,7 +48,7 @@
   "normalized_form": "python312",
   "observation_id": "05c9a23fea195fcb",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
   "observed_text": "python312",
   "source_context_snippet": "[![CI](https://img.shields.io/github/actions/workflow/status/pydantic/pydantic/ci.yml?branch=main&logo=github&label=CI)](https://github.com/pydantic/pydantic/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)",
   "source_file": null,

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HybridRobotics/whole_body_tracking",
+      "target": "hybridrobotics/motion_tracking_controller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HybridRobotics/whole_body_tracking",
+      "target": "lecar-lab/asap",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:09:16.895729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7104
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HybridRobotics/whole_body_tracking",
+    "html_url": "https://github.com/HybridRobotics/whole_body_tracking",
+    "language": "Python",
+    "pushed_at": "2025-11-18T22:19:14Z",
+    "stargazers_count": 2014,
+    "topics": [],
+    "updated_at": "2026-04-30T10:51:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hybridrobotics/motion_tracking_controller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lecar-lab/asap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

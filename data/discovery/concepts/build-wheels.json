@@ -459,6 +459,30 @@
       "source_repo": "wenet-e2e/wenet",
       "status": "candidate-context",
       "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate-context",
+      "text": "A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate-context",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "High-Performance Rendering Framework on Stream Architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "build-wheels"
     }
   ],
   "candidate_glosses": [
@@ -689,6 +713,18 @@
       "source_repo": "wenet-e2e/wenet",
       "status": "candidate",
       "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate",
+      "text": "build-wheels"
     }
   ],
   "candidate_related_terms": [
@@ -1020,11 +1056,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/build-wheels.yml",
       "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jcrist/msgspec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "LuisaGroup/LuisaCompute"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

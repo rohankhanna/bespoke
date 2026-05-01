@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Concealed Object Detection (SINet-V2, IEEE TPAMI 2022). Code is implemented by PyTorch/Jittor frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034667,
+      "status": "candidate",
+      "text": "hold in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033834,
+      "status": "candidate",
+      "text": "hold back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020530,
+      "status": "candidate",
+      "text": "hide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041246,
+      "status": "candidate",
+      "text": "dissemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040566,
+      "status": "candidate",
+      "text": "disguise"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conceal",
+      "sense_id": "conceal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15054,
+      "status": "candidate",
+      "text": "hide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8025,
+      "status": "candidate",
+      "text": "hold back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "hold in"
+    }
+  ],
+  "concept_id": "conceal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conceal",
+  "observation_id": "8c13c0311fd9ffe9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "conceal",
+  "source_context_snippet": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task.",
+  "source_file": null,
+  "source_repo": "GewelsJI/SINet-V2",
+  "source_repo_description": "Concealed Object Detection (SINet-V2, IEEE TPAMI 2022). Code is implemented by PyTorch/Jittor frameworks."
+}

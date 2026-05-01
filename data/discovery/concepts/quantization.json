@@ -379,6 +379,18 @@
       "source_repo": "Aaronhuang-778/BiLLM",
       "status": "candidate-context",
       "text": "![intuition](imgs/author.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VITA-Group/Q-GaLore",
+      "status": "candidate-context",
+      "text": "Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/Q-GaLore",
+      "status": "candidate-context",
+      "text": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296)."
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "Aaronhuang-778/BiLLM",
       "status": "candidate",
       "text": "![intuition](imgs/author.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/Q-GaLore",
+      "status": "candidate",
+      "text": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296)."
     }
   ],
   "candidate_related_terms": [
@@ -1002,11 +1020,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "Aaronhuang-778/BiLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/Q-GaLore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:11:49.334494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pushshift API",
+    "fork": false,
+    "full_name": "pushshift/api",
+    "html_url": "https://github.com/pushshift/api",
+    "language": "Python",
+    "pushed_at": "2023-04-06T18:32:52Z",
+    "stargazers_count": 1415,
+    "topics": [],
+    "updated_at": "2026-04-24T19:32:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

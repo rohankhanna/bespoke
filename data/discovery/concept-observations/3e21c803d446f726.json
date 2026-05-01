@@ -84,7 +84,7 @@
   "normalized_form": "gemini-automated-issue-triage",
   "observation_id": "3e21c803d446f726",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
   "observed_text": "\ud83c\udff7\ufe0f Gemini Automated Issue Triage",
   "source_context_snippet": "'\ud83c\udff7\ufe0f Gemini Automated Issue Triage'",
   "source_file": ".github/workflows/gemini-automated-issue-triage.yml",

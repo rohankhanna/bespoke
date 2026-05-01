@@ -199,6 +199,18 @@
       "source_repo": "tsurumeso/waifu2x-chainer",
       "status": "candidate-context",
       "text": "This is a Chainer implementation of waifu2x [[1]](https://github.com/nagadomi/waifu2x)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "status": "candidate-context",
+      "text": "Automatic image captioning model based on Caffe, using features from bottom-up attention."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "status": "candidate-context",
+      "text": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "tsurumeso/waifu2x-chainer",
       "status": "candidate",
       "text": "This is a Chainer implementation of waifu2x [[1]](https://github.com/nagadomi/waifu2x)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "status": "candidate",
+      "text": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +454,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "tsurumeso/waifu2x-chainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "peteanderson80/Up-Down-Captioner"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

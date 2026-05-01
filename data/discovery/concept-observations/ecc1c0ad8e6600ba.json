@@ -84,7 +84,7 @@
   "normalized_form": "dependency-status-check",
   "observation_id": "ecc1c0ad8e6600ba",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
   "observed_text": "Dependency Status Check",
   "source_context_snippet": "Dependency Status Check",
   "source_file": ".github/workflows/dependency-check.yml",

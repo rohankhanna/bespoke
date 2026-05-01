@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "pdfs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tabulapdf/tabula-java",
+      "status": "candidate-context",
+      "text": "Extract tables from PDF files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tabulapdf/tabula-java",
+      "status": "candidate-context",
+      "text": "tabula-java [![Build Status](https://travis-ci.org/tabulapdf/tabula-java.svg?branch=master)](https://travis-ci.org/tabulapdf/tabula-java)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tabulapdf/tabula-java",
+      "status": "candidate",
+      "text": "tabula-java [![Build Status](https://travis-ci.org/tabulapdf/tabula-java.svg?branch=master)](https://travis-ci.org/tabulapdf/tabula-java)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012918,
+      "status": "candidate",
+      "text": "bdp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012918,
+      "status": "candidate",
+      "text": "pmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012917,
+      "status": "candidate",
+      "text": "cdfs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012916,
+      "status": "candidate",
+      "text": "convolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012915,
+      "status": "candidate",
+      "text": "univariate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pdfs",
+  "concept_id": "pdfs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "tabulapdf/tabula-java"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pdfs",
+      "sense_id": "pdfs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

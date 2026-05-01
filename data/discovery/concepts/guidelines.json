@@ -55,6 +55,18 @@
       "source_repo": "adidas/api-guidelines",
       "status": "candidate-context",
       "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/api-guidelines",
+      "status": "candidate-context",
+      "text": "Microsoft REST API Guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/api-guidelines",
+      "status": "candidate-context",
+      "text": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "adidas/api-guidelines",
       "status": "candidate",
       "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/api-guidelines",
+      "status": "candidate",
+      "text": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "adidas/api-guidelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/api-guidelines"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

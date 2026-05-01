@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ilyabrilev/biosim4",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ilyabrilev/biosim4",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:11:25.014705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23528
+    },
+    {
+      "path": "Dockerfile",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Biological evolution simulator",
+    "fork": true,
+    "full_name": "ilyabrilev/biosim4",
+    "html_url": "https://github.com/ilyabrilev/biosim4",
+    "language": "C++",
+    "pushed_at": "2026-03-09T20:33:39Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-28T04:43:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "docker"
+    }
+  ]
+}

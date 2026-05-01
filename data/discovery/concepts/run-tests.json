@@ -1222,6 +1222,30 @@
       "source_repo": "panjf2000/ants",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsonwebtoken/jsonwebtoken.github.io",
+      "status": "candidate-context",
+      "text": "Developer-centric site to create awareness of JWTs and troubleshoot them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsonwebtoken/jsonwebtoken.github.io",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "status": "candidate-context",
+      "text": "Immutables as mutables, mutables as immutables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "status": "candidate-context",
+      "text": "Run tests"
     }
   ],
   "candidate_glosses": [
@@ -1840,6 +1864,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "panjf2000/ants",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsonwebtoken/jsonwebtoken.github.io",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaFolds/BangBang.jl",
       "status": "candidate",
       "text": "Run tests"
     }
@@ -2695,11 +2731,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "panjf2000/ants"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "jsonwebtoken/jsonwebtoken.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apisyouwonthate/style-guide"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

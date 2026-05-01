@@ -128,6 +128,18 @@
       "source_repo": "jeffdaily/parasail-python",
       "status": "candidate-context",
       "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rhoban/onshape-to-robot",
+      "status": "candidate-context",
+      "text": "Converting Onshape assembly to robot definition (URDF, SDF, MuJoCo) through Onshape API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rhoban/onshape-to-robot",
+      "status": "candidate-context",
+      "text": "Build and upload to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -188,6 +200,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jeffdaily/parasail-python",
+      "status": "candidate",
+      "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rhoban/onshape-to-robot",
       "status": "candidate",
       "text": "Build and upload to PyPI"
     }
@@ -317,11 +335,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "Rhoban/onshape-to-robot"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

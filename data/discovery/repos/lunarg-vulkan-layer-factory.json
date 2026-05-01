@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:11:04.190897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Tools to aid in Vulkan development",
+    "fork": true,
+    "full_name": "LunarG/Vulkan-Layer-Factory",
+    "html_url": "https://github.com/LunarG/Vulkan-Layer-Factory",
+    "language": "Python",
+    "pushed_at": "2023-08-14T22:21:57Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-21T09:43:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -45,6 +45,18 @@
       "source_repo": "elastic/elasticsearch",
       "status": "candidate-context",
       "text": "docs-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "'Docs Build'"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "elastic/elasticsearch",
       "status": "candidate",
       "text": "docs-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate",
+      "text": "'Docs Build'"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/docs-build.yml",
       "source_repo": "elastic/elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "bndtools/bnd"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

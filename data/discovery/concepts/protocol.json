@@ -322,6 +322,18 @@
       "source_repo": "adidas/api-guidelines",
       "status": "candidate-context",
       "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/libimobiledevice",
+      "status": "candidate-context",
+      "text": "A cross-platform protocol library to communicate with iOS devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libimobiledevice",
+      "status": "candidate-context",
+      "text": "*A library to communicate with services on iOS devices using native protocols.*"
     }
   ],
   "candidate_glosses": [
@@ -480,6 +492,12 @@
       "source_repo": "adidas/api-guidelines",
       "status": "candidate",
       "text": "<figure><picture><source srcset=\".gitbook/assets/adidas_company_logo_BWr.png\" media=\"(prefers-color-scheme: dark)\"><img src=\".gitbook/assets/adidas_company_logo_BWp.png\" alt=\"\"></picture><figcaption></figcaption></figure>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libimobiledevice",
+      "status": "candidate",
+      "text": "*A library to communicate with services on iOS devices using native protocols.*"
     }
   ],
   "candidate_related_terms": [
@@ -825,11 +843,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libimobiledevice"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

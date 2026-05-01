@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "matelang/jwt-go-aws-kms",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "matelang/jwt-go-aws-kms",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matelang/jwt-go-aws-kms",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:41:30.437586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2224
+    },
+    {
+      "path": "go.mod",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AWS KMS adapter for https://github.com/golang-jwt/jwt GoLang Json Web Token(JWT) Library",
+    "fork": false,
+    "full_name": "matelang/jwt-go-aws-kms",
+    "html_url": "https://github.com/matelang/jwt-go-aws-kms",
+    "language": "Go",
+    "pushed_at": "2026-03-23T08:40:05Z",
+    "stargazers_count": 33,
+    "topics": [
+      "aws",
+      "golang",
+      "jwt",
+      "kms"
+    ],
+    "updated_at": "2026-03-23T08:40:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This library provides an AWS KMS(Key Management Service) adapter to be used with the popular GoLang JWT library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

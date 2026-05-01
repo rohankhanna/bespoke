@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch Wildlife: a Collaborative Deep Learning Framework for Conservation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998799,
+      "status": "candidate",
+      "text": "preservation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998770,
+      "status": "candidate",
+      "text": "conserving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998102,
+      "status": "candidate",
+      "text": "conservancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39797119,
+      "status": "candidate",
+      "text": "conservation law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998846,
+      "status": "candidate",
+      "text": "conservatory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conservation",
+      "sense_id": "conservation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8042,
+      "status": "candidate",
+      "text": "preservation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2028,
+      "status": "candidate",
+      "text": "conservancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "conserving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1008,
+      "status": "candidate",
+      "text": "conservation law"
+    }
+  ],
+  "concept_id": "conservation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conservation",
+  "observation_id": "8626ec8277752def",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "conservation",
+  "source_context_snippet": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)",
+  "source_file": null,
+  "source_repo": "microsoft/CameraTraps",
+  "source_repo_description": "PyTorch Wildlife: a Collaborative Deep Learning Framework for Conservation."
+}

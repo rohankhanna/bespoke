@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:00:48.668100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "official code for Diff-Instruct algorithm for one-step diffusion distillation",
+    "fork": false,
+    "full_name": "pkulwj1994/diff_instruct",
+    "html_url": "https://github.com/pkulwj1994/diff_instruct",
+    "language": "Python",
+    "pushed_at": "2025-01-09T15:41:34Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-04-08T15:38:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

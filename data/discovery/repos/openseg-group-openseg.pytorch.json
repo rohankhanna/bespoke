@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openseg-group/openseg.pytorch",
+      "target": "hdetr/h-deformable-detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openseg-group/openseg.pytorch",
+      "target": "hdetr/h-petr-3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openseg-group/openseg.pytorch",
+      "target": "hdetr/h-petr-pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openseg-group/openseg.pytorch",
+      "target": "donnyyou/segbox.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:20.999457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9442
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official Pytorch implementation of OCNet, OCRNet, and SegFix.",
+    "fork": false,
+    "full_name": "openseg-group/openseg.pytorch",
+    "html_url": "https://github.com/openseg-group/openseg.pytorch",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:13:49Z",
+    "stargazers_count": 1230,
+    "topics": [],
+    "updated_at": "2026-04-30T12:56:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donnyyou/segbox.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hdetr/h-deformable-detr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hdetr/h-petr-3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hdetr/h-petr-pose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

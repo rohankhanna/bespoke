@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check links & references"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "We write your reusable computer vision tools. \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "Check links & references"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate",
+      "text": "Check links & references"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "consult"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18657,
+      "status": "candidate",
+      "text": "cross-check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18639,
+      "status": "candidate",
+      "text": "sprocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18546,
+      "status": "candidate",
+      "text": "reports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18531,
+      "status": "candidate",
+      "text": "accountancy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check links & references",
+  "concept_id": "check-links-references",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci-check-links.yml",
+      "source_repo": "roboflow/supervision"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check links & references",
+      "sense_id": "check-links-references#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

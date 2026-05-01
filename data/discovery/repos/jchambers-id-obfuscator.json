@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jchambers/id-obfuscator",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jchambers/id-obfuscator",
+      "target": "obfuscation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jchambers/id-obfuscator",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:43:33.385289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7919
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Java library for reversibly obfuscating numerical identifiers (e.g. 1234 \u2194 4TQCNTL)",
+    "fork": false,
+    "full_name": "jchambers/id-obfuscator",
+    "html_url": "https://github.com/jchambers/id-obfuscator",
+    "language": "Java",
+    "pushed_at": "2021-05-12T03:13:30Z",
+    "stargazers_count": 38,
+    "topics": [
+      "java",
+      "obfuscation",
+      "security"
+    ],
+    "updated_at": "2026-04-09T10:41:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obfuscation"
+    },
+    {
+      "context_snippet": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

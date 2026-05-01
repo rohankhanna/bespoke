@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:57:44.750664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Training material for IPU users: tutorials, feature examples, simple applications",
+    "fork": false,
+    "full_name": "graphcore/tutorials",
+    "html_url": "https://github.com/graphcore/tutorials",
+    "language": "Python",
+    "pushed_at": "2023-04-06T11:12:24Z",
+    "stargazers_count": 88,
+    "topics": [],
+    "updated_at": "2026-01-30T19:56:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

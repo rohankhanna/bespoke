@@ -79,6 +79,18 @@
       "source_repo": "FoundationVision/Infinity",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/Liquid",
+      "status": "candidate-context",
+      "text": "(Accepted by IJCV) Liquid: Language Models are Scalable and Unified Multi-modal Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/Liquid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FoundationVision/Infinity",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/Liquid",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "FoundationVision/Infinity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/Liquid"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

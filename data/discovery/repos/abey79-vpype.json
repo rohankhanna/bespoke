@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "rhysd/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml"
+    },
+    {
+      "component": "extractions/setup-just@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abey79/vpype",
+      "target": "abey79/vpype-pixelart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abey79/vpype",
+      "target": "abey79/hatched",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abey79/vpype",
+      "target": "abey79/vpype-perspective",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abey79/vpype",
+      "target": "abey79/vpype-explorations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "abey79/vpype",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "abey79/vpype",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "abey79/vpype",
+      "target": "rhysd/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "abey79/vpype",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml",
+      "source_repo": "abey79/vpype",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml",
+      "source_repo": "abey79/vpype",
+      "target": "extractions/setup-just@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml",
+      "source_repo": "abey79/vpype",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml",
+      "source_repo": "abey79/vpype",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint-tests.yml",
+      "source_repo": "abey79/vpype",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abey79/vpype",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "hacktoberfest2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "multi-layer-svg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "pen-plotters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "plotter-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "plotters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "python-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "svg-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "vector-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abey79/vpype",
+      "target": "vpype",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:11:12.740124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20351
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3832
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 1215
+    },
+    {
+      "path": ".github/workflows/python-lint-tests.yml",
+      "size": 2559
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Swiss-Army-knife command-line tool for plotter vector graphics.",
+    "fork": false,
+    "full_name": "abey79/vpype",
+    "html_url": "https://github.com/abey79/vpype",
+    "language": "Python",
+    "pushed_at": "2026-04-14T06:39:27Z",
+    "stargazers_count": 891,
+    "topics": [
+      "generative-art",
+      "hacktoberfest",
+      "hacktoberfest2020",
+      "multi-layer-svg",
+      "pen-plotters",
+      "plotter-art",
+      "plotters",
+      "python-3",
+      "python3",
+      "svg",
+      "svg-files",
+      "vector-graphics",
+      "vpype"
+    ],
+    "updated_at": "2026-04-30T15:59:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abey79/hatched",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abey79/vpype-explorations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abey79/vpype-perspective",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abey79/vpype-pixelart",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2020"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-layer-svg"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pen-plotters"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotter-art"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotters"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-files"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-graphics"
+    },
+    {
+      "context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vpype"
+    }
+  ]
+}

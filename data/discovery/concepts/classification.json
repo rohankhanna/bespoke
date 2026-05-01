@@ -223,6 +223,30 @@
       "source_repo": "JuliaAI/MLJ.jl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate-context",
+      "text": "A comprehensive list [SAMRS@NeurIPS'23, RVSA@TGRS'22, RSP@TGRS'22] of our research works related to remote sensing, including papers, codes, and citations. Note: The repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\" has been moved to: https://github.com/ViTAE-Transformer/RSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate-context",
+      "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "We write your reusable computer vision tools. \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -331,6 +355,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate",
+      "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -524,11 +560,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/supervision"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

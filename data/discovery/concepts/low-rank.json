@@ -19,6 +19,18 @@
       "source_repo": "microsoft/LoRA",
       "status": "candidate-context",
       "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VITA-Group/Q-GaLore",
+      "status": "candidate-context",
+      "text": "Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/Q-GaLore",
+      "status": "candidate-context",
+      "text": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/LoRA",
       "status": "candidate",
       "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/Q-GaLore",
+      "status": "candidate",
+      "text": "This repo contains the pre-release version of Q-GaLore algorithm, proposed by [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "microsoft/LoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/Q-GaLore"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

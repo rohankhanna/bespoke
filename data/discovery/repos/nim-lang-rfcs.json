@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nim-lang/RFCs",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nim-lang/RFCs",
+      "target": "Stale RFCs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:10:51.281837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 354
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A repository for your Nim proposals.",
+    "fork": false,
+    "full_name": "nim-lang/RFCs",
+    "html_url": "https://github.com/nim-lang/RFCs",
+    "language": null,
+    "pushed_at": "2023-06-20T14:09:16Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-04-30T15:09:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Stale RFCs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale RFCs"
+    }
+  ]
+}

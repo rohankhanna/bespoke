@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "parquet file parser for javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![hyparquet parakeet](hyparquet.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![hyparquet parakeet](hyparquet.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012042,
+      "status": "candidate",
+      "text": "spanking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998910,
+      "status": "candidate",
+      "text": "brisk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996315,
+      "status": "candidate",
+      "text": "energetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995710,
+      "status": "candidate",
+      "text": "rattling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994973,
+      "status": "candidate",
+      "text": "zippy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snappy",
+      "sense_id": "snappy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50061,
+      "status": "candidate",
+      "text": "cold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40049,
+      "status": "candidate",
+      "text": "crisp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39038,
+      "status": "candidate",
+      "text": "brisk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36033,
+      "status": "candidate",
+      "text": "spirited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29032,
+      "status": "candidate",
+      "text": "rakish"
+    }
+  ],
+  "concept_id": "snappy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snappy",
+  "observation_id": "bf4b1dc82a3a3f4e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "snappy",
+  "source_context_snippet": "![hyparquet parakeet](hyparquet.jpg)",
+  "source_file": null,
+  "source_repo": "hyparam/hyparquet",
+  "source_repo_description": "parquet file parser for javascript"
+}

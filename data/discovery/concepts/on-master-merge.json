@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "On Master Merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gerrymanoim/libpy_simdjson",
+      "status": "candidate-context",
+      "text": "Python bindings for simdjson using libpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gerrymanoim/libpy_simdjson",
+      "status": "candidate-context",
+      "text": "On Master Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gerrymanoim/libpy_simdjson",
+      "status": "candidate",
+      "text": "On Master Merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11167,
+      "status": "candidate",
+      "text": "amalgamate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11167,
+      "status": "candidate",
+      "text": "amalgamated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11167,
+      "status": "candidate",
+      "text": "amalgamation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11167,
+      "status": "candidate",
+      "text": "fusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11167,
+      "status": "candidate",
+      "text": "meld"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "On Master Merge",
+  "concept_id": "on-master-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/master-merge.yml",
+      "source_repo": "gerrymanoim/libpy_simdjson"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "On Master Merge",
+      "sense_id": "on-master-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

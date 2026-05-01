@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/atari-py",
+      "target": "mgbellemare/arcade-learning-environment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/atari-py",
+      "target": "bbitmaster/ale_python_interface",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:40.377783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A packaged and slightly-modified version of https://github.com/bbitmaster/ale_python_interface",
+    "fork": false,
+    "full_name": "openai/atari-py",
+    "html_url": "https://github.com/openai/atari-py",
+    "language": "C++",
+    "pushed_at": "2023-05-20T20:01:03Z",
+    "stargazers_count": 390,
+    "topics": [],
+    "updated_at": "2026-04-29T13:53:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbitmaster/ale_python_interface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgbellemare/arcade-learning-environment",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

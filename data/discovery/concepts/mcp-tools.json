@@ -67,6 +67,18 @@
       "source_repo": "MiniMax-AI/MiniMax-MCP",
       "status": "candidate-context",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
+      "status": "candidate-context",
+      "text": "Official MiniMax Model Context Protocol (MCP) JavaScript implementation that provides seamless integration with MiniMax's powerful AI capabilities including image generation, video generation, text-to-speech, and voice cloning APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
+      "status": "candidate-context",
+      "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MiniMax-AI/MiniMax-MCP",
+      "status": "candidate",
+      "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-MCP-JS",
       "status": "candidate",
       "text": "![export](https://github.com/MiniMax-AI/MiniMax-01/raw/main/figures/MiniMaxLogo-Light.png)"
     }
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "MiniMax-AI/MiniMax-MCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-MCP-JS"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

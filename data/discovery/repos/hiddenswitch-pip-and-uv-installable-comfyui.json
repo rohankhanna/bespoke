@@ -94,16 +94,6 @@
       "component": "actions/setup-python@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-ci-container.yml"
-    },
-    {
-      "component": "peter-evans/create-pull-request@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-ci-container.yml"
     }
   ],
   "edges": [
@@ -274,30 +264,9 @@
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "target": "Backend Tests",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-ci-container.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-ci-container.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "peter-evans/create-pull-request@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-ci-container.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "CI: Update CI Container",
-      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:53:42.988698+00:00",
+  "fetched_at": "2026-05-01T01:06:21.057815+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -309,7 +278,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 17263
+      "size": 10543
     },
     {
       "path": ".github/workflows/api-node-template.yml",
@@ -325,7 +294,7 @@
     },
     {
       "path": ".github/workflows/docker-build.yml",
-      "size": 2079
+      "size": 2131
     },
     {
       "path": ".github/workflows/test-latest.yml",
@@ -333,11 +302,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 24203
-    },
-    {
-      "path": ".github/workflows/update-ci-container.yml",
-      "size": 2299
+      "size": 24482
     }
   ],
   "related_repositories": [],
@@ -349,10 +314,10 @@
     "full_name": "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "html_url": "https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-04-28T23:39:04Z",
+    "pushed_at": "2026-04-30T21:41:16Z",
     "stargazers_count": 81,
     "topics": [],
-    "updated_at": "2026-04-28T23:39:11Z"
+    "updated_at": "2026-04-30T21:41:21Z"
   },
   "repo_links": [
     {
@@ -406,12 +371,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "term": "Backend Tests"
-    },
-    {
-      "context_snippet": "\"CI: Update CI Container\"",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-ci-container.yml",
-      "term": "CI: Update CI Container"
     }
   ]
 }

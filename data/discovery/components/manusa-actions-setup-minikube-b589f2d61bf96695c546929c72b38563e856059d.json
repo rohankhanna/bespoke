@@ -1,0 +1,12 @@
+{
+  "component": "manusa/actions-setup-minikube@b589f2d61bf96695c546929c72b38563e856059d",
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "kubeflow/spark-operator"
+    }
+  ]
+}

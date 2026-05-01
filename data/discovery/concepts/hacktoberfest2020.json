@@ -79,6 +79,18 @@
       "source_repo": "abey79/vsketch",
       "status": "candidate-context",
       "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abey79/vpype",
+      "status": "candidate-context",
+      "text": "The Swiss-Army-knife command-line tool for plotter vector graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype",
+      "status": "candidate-context",
+      "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "abey79/vsketch",
       "status": "candidate",
       "text": "![python](https://img.shields.io/github/languages/top/abey79/vsketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abey79/vpype",
+      "status": "candidate",
+      "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "abey79/vsketch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "abey79/vpype"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

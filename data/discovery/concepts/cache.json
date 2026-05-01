@@ -334,6 +334,18 @@
       "source_repo": "chenyahui/gin-cache",
       "status": "candidate-context",
       "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/ignite-3",
+      "status": "candidate-context",
+      "text": "Apache Ignite 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite-3",
+      "status": "candidate-context",
+      "text": "Apache Ignite 3"
     }
   ],
   "candidate_glosses": [
@@ -498,6 +510,12 @@
       "source_repo": "chenyahui/gin-cache",
       "status": "candidate",
       "text": "module github.com/chenyahui/gin-cache go 1.13 require ( github.com/gin-gonic/gin v1.7.7 github.com/go-redis/redis/v8 v8.11.5 github.com/jellydator/ttlcache/v2 v2.11.1 github.com/stretchr/testify v1.7.1 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 gopkg.in/yaml.v3 v3.0.0-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite-3",
+      "status": "candidate",
+      "text": "Apache Ignite 3"
     }
   ],
   "candidate_related_terms": [
@@ -787,11 +805,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "chenyahui/gin-cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "apache/ignite-3"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

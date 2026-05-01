@@ -127,6 +127,18 @@
       "source_repo": "stephenberry/glaze",
       "status": "candidate-context",
       "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate-context",
+      "text": "A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "stephenberry/glaze",
       "status": "candidate",
       "text": "One of the fastest JSON libraries in the world. Glaze reads and writes from object memory, simplifying interfaces and offering incredible performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +310,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "stephenberry/glaze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jcrist/msgspec"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

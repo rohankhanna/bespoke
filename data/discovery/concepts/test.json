@@ -7481,6 +7481,78 @@
       "source_repo": "devsnek/esvu",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate-context",
+      "text": "Patch fetch/XMLHttpRequest to fake a REST API server in the browser, based on JSON data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate-context",
+      "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storeon/storeon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf29 A tiny (185 bytes) event-based Redux-like state manager for React, Preact, Angular, Vue, and Svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storeon/storeon",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andresz1/size-limit-action",
+      "status": "candidate-context",
+      "text": "Compare the real cost to run your JS app or lib to keep good performance in every pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andresz1/size-limit-action",
+      "status": "candidate-context",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/trajdata",
+      "status": "candidate-context",
+      "text": "A unified interface to many trajectory forecasting datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/trajdata",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "MuJoco Simulation on Web Assembly with Neural netwroks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebitengine/debugui",
+      "status": "candidate-context",
+      "text": "A UI toolkit for Ebitengine applications, primarily intended for debugging purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebitengine/debugui",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -11267,6 +11339,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "devsnek/esvu",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate",
+      "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storeon/storeon",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andresz1/size-limit-action",
+      "status": "candidate",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/trajdata",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttktjmt/mjswan",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebitengine/debugui",
       "status": "candidate",
       "text": "Test"
     }
@@ -16279,11 +16387,71 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "devsnek/esvu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "marmelab/FakeRest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "storeon/storeon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "andresz1/size-limit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NVlabs/trajdata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "ttktjmt/mjswan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ebitengine/debugui"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

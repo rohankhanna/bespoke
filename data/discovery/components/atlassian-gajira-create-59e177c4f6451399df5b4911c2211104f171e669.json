@@ -1,7 +1,7 @@
 {
   "component": "atlassian/gajira-create@59e177c4f6451399df5b4911c2211104f171e669",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

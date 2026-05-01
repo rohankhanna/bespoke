@@ -163,6 +163,30 @@
       "source_repo": "capitalone/datacompy",
       "status": "candidate-context",
       "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for managing the lifecycle of Apache Spark applications on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/v/release/kubeflow/spark-operator)](https://github.com/kubeflow/spark-operator/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate-context",
+      "text": "A Scala kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "capitalone/datacompy",
       "status": "candidate",
       "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/v/release/kubeflow/spark-operator)](https://github.com/kubeflow/spark-operator/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almond-sh/almond",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +436,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/spark-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "almond-sh/almond"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

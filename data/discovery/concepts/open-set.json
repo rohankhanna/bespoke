@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "open-set"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate-context",
+      "text": "Grounding DINO 1.5: IDEA Research's Most Capable Open-World Object Detection Model Series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Grounding DINO 1.5</h2>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Grounding DINO 1.5</h2>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "open-set",
+  "concept_id": "open-set",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "open-set",
+      "sense_id": "open-set#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -334,6 +334,18 @@
       "source_repo": "veggiemonk/awesome-docker",
       "status": "candidate-context",
       "text": "> A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/postgresql-container",
+      "status": "candidate-context",
+      "text": "PostgreSQL container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/postgresql-container",
+      "status": "candidate-context",
+      "text": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)"
     }
   ],
   "candidate_glosses": [
@@ -498,6 +510,12 @@
       "source_repo": "veggiemonk/awesome-docker",
       "status": "candidate",
       "text": "> A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/postgresql-container",
+      "status": "candidate",
+      "text": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -751,11 +769,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

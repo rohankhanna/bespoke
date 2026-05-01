@@ -23,13 +23,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "2U1/Qwen-VL-Series-Finetune",
-      "target": "om-ai-lab/vlm-r1",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "2U1/Qwen-VL-Series-Finetune",
@@ -79,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:14:09.646769+00:00",
+  "fetched_at": "2026-05-01T01:04:53.876204+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -122,11 +115,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "2u1/qwen2-vl-finetune",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "om-ai-lab/vlm-r1",
       "source_file": "README.md"
     },
     {

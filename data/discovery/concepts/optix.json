@@ -19,6 +19,30 @@
       "source_repo": "jbikker/lighthouse2",
       "status": "candidate-context",
       "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "High-Performance Rendering Framework on Stream Architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "status": "candidate-context",
+      "text": "High-Performance Cross-Platform Monte Carlo Renderer Based on LuisaCompute"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "status": "candidate-context",
+      "text": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "jbikker/lighthouse2",
       "status": "candidate",
       "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaRender",
+      "status": "candidate",
+      "text": "LuisaRender is a high-performance cross-platform Monte-Carlo renderer for stream architectures based"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "jbikker/lighthouse2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaCompute"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaRender"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

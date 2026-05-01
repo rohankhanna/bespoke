@@ -19,12 +19,30 @@
       "source_repo": "Farama-Foundation/PettingZoo",
       "status": "candidate-context",
       "text": "Build Documentation website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate-context",
+      "text": "A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate-context",
+      "text": "Build Documentation website"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Farama-Foundation/PettingZoo",
+      "status": "candidate",
+      "text": "Build Documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minari",
       "status": "candidate",
       "text": "Build Documentation website"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Minari"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

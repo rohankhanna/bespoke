@@ -403,6 +403,30 @@
       "source_repo": "dotnet/Silk.NET",
       "status": "candidate-context",
       "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate-context",
+      "text": "JRubyArt a ruby implementation of processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "High-Performance Rendering Framework on Stream Architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +627,18 @@
       "source_repo": "dotnet/Silk.NET",
       "status": "candidate",
       "text": "<!-- Begin exclude from NuGet readme. -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-processing/JRubyArt",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/jruby_art.svg)](https://badge.fury.io/rb/jruby_art) ![Travis CI](https://travis-ci.org/ruby-processing/JRubyArt.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -866,11 +902,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ruby-processing/JRubyArt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaCompute"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

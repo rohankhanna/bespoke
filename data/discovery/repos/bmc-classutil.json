@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:45:49.834396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scala-friendly, fast class-finder library (using ASM under the covers)",
+    "fork": false,
+    "full_name": "bmc/classutil",
+    "html_url": "https://github.com/bmc/classutil",
+    "language": "Scala",
+    "pushed_at": "2021-07-03T15:36:11Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2024-10-01T13:42:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

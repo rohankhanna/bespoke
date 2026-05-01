@@ -92,6 +92,18 @@
       "source_repo": "Kong/insomnia",
       "status": "candidate-context",
       "text": "Release Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate-context",
+      "text": "Graphics API Capture and Replay Tools for Reconstructing Graphics Application Behavior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate-context",
+      "text": "Release Build"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kong/insomnia",
+      "status": "candidate",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LunarG/gfxreconstruct",
       "status": "candidate",
       "text": "Release Build"
     }
@@ -257,11 +275,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/release-build.yaml",
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/release_build.yml",
+      "source_repo": "LunarG/gfxreconstruct"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

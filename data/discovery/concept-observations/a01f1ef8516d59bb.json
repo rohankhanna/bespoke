@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vapoursynth",
+      "sense_id": "vapoursynth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vapoursynth",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vapoursynth",
+  "observation_id": "a01f1ef8516d59bb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "vapoursynth",
+  "source_context_snippet": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848",
+  "source_file": null,
+  "source_repo": "hooke007/mpv_PlayKit",
+  "source_repo_description": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
+}

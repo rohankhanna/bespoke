@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/security-scan.yml",
       "source_repo": "kelp/webdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scan.yml",
+      "source_repo": "securego/gosec"
     }
   ],
   "term": "Security Scan"

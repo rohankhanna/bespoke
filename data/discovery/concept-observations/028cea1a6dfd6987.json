@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Developer-centric site to create awareness of JWTs and troubleshoot them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Vercel Preview Community Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Vercel Preview Community Deployment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20434,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20434,
+      "status": "candidate",
+      "text": "cheat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20434,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19877,
+      "status": "candidate",
+      "text": "placing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832,
+      "status": "candidate",
+      "text": "spreading"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vercel Preview Community Deployment",
+      "sense_id": "vercel-preview-community-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vercel-preview-community-deployment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vercel-preview-community-deployment",
+  "observation_id": "028cea1a6dfd6987",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "Vercel Preview Community Deployment",
+  "source_context_snippet": "Vercel Preview Community Deployment",
+  "source_file": ".github/workflows/preview-community.yaml",
+  "source_repo": "jsonwebtoken/jsonwebtoken.github.io",
+  "source_repo_description": "Developer-centric site to create awareness of JWTs and troubleshoot them."
+}

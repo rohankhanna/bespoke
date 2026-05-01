@@ -67,6 +67,18 @@
       "source_repo": "Mermade/oas-kit",
       "status": "candidate-context",
       "text": "This is the mono-repo for the following related projects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate-context",
+      "text": "C/C++ number \u2194\ufe0e string benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate-context",
+      "text": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Mermade/oas-kit",
       "status": "candidate",
       "text": "This is the mono-repo for the following related projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate",
+      "text": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++."
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Mermade/oas-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

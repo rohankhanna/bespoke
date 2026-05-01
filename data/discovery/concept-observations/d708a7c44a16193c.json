@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Microsoft REST API Guidelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038877,
+      "status": "candidate",
+      "text": "rule of thumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976374,
+      "status": "candidate",
+      "text": "guidepost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048711,
+      "status": "candidate",
+      "text": "advice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048711,
+      "status": "candidate",
+      "text": "advisories"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048711,
+      "status": "candidate",
+      "text": "approaches"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guidelines",
+      "sense_id": "guidelines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "guidelines",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "guidelines",
+  "observation_id": "d708a7c44a16193c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "guidelines",
+  "source_context_snippet": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!",
+  "source_file": null,
+  "source_repo": "microsoft/api-guidelines",
+  "source_repo_description": "Microsoft REST API Guidelines"
+}

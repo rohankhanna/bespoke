@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dslisleedh/PLKSR",
+      "target": "dslisleedh/igconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dslisleedh/PLKSR",
+      "target": "muslll/neosr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:06:12.971965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2330
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IEEE Access] Partial Large Kernel CNNs for Efficient Super-Resolution",
+    "fork": false,
+    "full_name": "dslisleedh/PLKSR",
+    "html_url": "https://github.com/dslisleedh/PLKSR",
+    "language": "Python",
+    "pushed_at": "2024-08-19T04:24:47Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-04-27T04:16:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dslisleedh/igconv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "muslll/neosr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/clang-p2996",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/clang-p2996",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/clang-p2996",
+      "target": "p2996",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/clang-p2996",
+      "target": "reflection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloomberg/clang-p2996",
+      "target": "wg21",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:04.792866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "purpose",
+    "description": "Experimental clang support for WG21 P2996 (Reflection).",
+    "fork": true,
+    "full_name": "bloomberg/clang-p2996",
+    "html_url": "https://github.com/bloomberg/clang-p2996",
+    "language": null,
+    "pushed_at": "2026-04-15T09:19:31Z",
+    "stargazers_count": 195,
+    "topics": [
+      "c-plus-plus",
+      "clang",
+      "p2996",
+      "reflection",
+      "wg21"
+    ],
+    "updated_at": "2026-04-30T05:28:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "p2996"
+    },
+    {
+      "context_snippet": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflection"
+    },
+    {
+      "context_snippet": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wg21"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:49:18.676766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35721
+    },
+    {
+      "path": "requirements.txt",
+      "size": 312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding",
+    "fork": false,
+    "full_name": "apple/ml-hypersim",
+    "html_url": "https://github.com/apple/ml-hypersim",
+    "language": "Python",
+    "pushed_at": "2026-01-09T22:34:45Z",
+    "stargazers_count": 1995,
+    "topics": [],
+    "updated_at": "2026-04-24T01:15:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

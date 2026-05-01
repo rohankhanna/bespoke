@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "idea-research/grounding-dino-1.5-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "idea-research/dino-x-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "idea-research/rexseek",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "idea-research/t-rex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "open-set-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "open-set-object-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "region-caption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO-X-API",
+      "target": "visual-prompt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:05:28.522231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18207
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DINO-X: The World's Top-Performing Vision Model for Open-World Object Detection and Understanding",
+    "fork": false,
+    "full_name": "IDEA-Research/DINO-X-API",
+    "html_url": "https://github.com/IDEA-Research/DINO-X-API",
+    "language": "Python",
+    "pushed_at": "2025-07-23T04:02:14Z",
+    "stargazers_count": 1368,
+    "topics": [
+      "open-set-object-detection",
+      "open-set-object-segmentation",
+      "pose-estimation",
+      "region-caption",
+      "visual-prompt"
+    ],
+    "updated_at": "2026-04-29T08:55:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/dino-x-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/grounding-dino-1.5-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/rexseek",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/t-rex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-set-object-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-set-object-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "region-caption"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-prompt"
+    }
+  ]
+}

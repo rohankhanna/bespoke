@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Remove Inactive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ant-design/ant-design",
+      "status": "candidate-context",
+      "text": "An enterprise-class UI design language and React UI library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design",
+      "status": "candidate-context",
+      "text": "Issue Remove Inactive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design",
+      "status": "candidate",
+      "text": "Issue Remove Inactive"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18564,
+      "status": "candidate",
+      "text": "deactivate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18564,
+      "status": "candidate",
+      "text": "inactivate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18548,
+      "status": "candidate",
+      "text": "idle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18548,
+      "status": "candidate",
+      "text": "idling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18483,
+      "status": "candidate",
+      "text": "down"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Remove Inactive",
+  "concept_id": "issue-remove-inactive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/issue-remove-inactive.yml",
+      "source_repo": "ant-design/ant-design"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Remove Inactive",
+      "sense_id": "issue-remove-inactive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

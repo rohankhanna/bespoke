@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MyoHub/myoconverter",
+      "target": "opensim-org/opensim-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MyoHub/myoconverter",
+      "target": "aikkala/o2mconverter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MyoHub/myoconverter",
+      "target": "myohub/myo_sim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "MyoHub/myoconverter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "MyoHub/myoconverter",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "MyoHub/myoconverter",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:08:18.268028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9258
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 532
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 3004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tool to convert opensim 4.0+ MSK models into MuJoCo format with optimized muscle kinematics and kinetics",
+    "fork": false,
+    "full_name": "MyoHub/myoconverter",
+    "html_url": "https://github.com/MyoHub/myoconverter",
+    "language": "Python",
+    "pushed_at": "2024-10-22T15:23:16Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-04-15T11:59:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aikkala/o2mconverter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "myohub/myo_sim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opensim-org/opensim-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -259,6 +259,18 @@
       "source_repo": "ninenines/gun",
       "status": "candidate-context",
       "text": "Check Gun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio-http2",
+      "status": "candidate-context",
+      "text": "HTTP/2 support for SwiftNIO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-http2",
+      "status": "candidate-context",
+      "text": "This project contains HTTP/2 support for Swift projects using [SwiftNIO](https://github.com/apple/swift-nio). To get started, check the [API docs](https://swiftpackageindex.com/apple/swift-nio-http2/main/documentation/niohttp2)."
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "ninenines/gun",
       "status": "candidate",
       "text": "Check Gun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-http2",
+      "status": "candidate",
+      "text": "This project contains HTTP/2 support for Swift projects using [SwiftNIO](https://github.com/apple/swift-nio). To get started, check the [API docs](https://swiftpackageindex.com/apple/swift-nio-http2/main/documentation/niohttp2)."
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +562,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "preactjs/preact-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "apple/swift-nio-http2"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

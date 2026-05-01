@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "target": "distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "target": "jetson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "target": "knowledge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "target": "sparsity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:50:06.855636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Zero-label image classification via OpenCLIP knowledge distillation",
+    "fork": false,
+    "full_name": "NVIDIA-AI-IOT/clip-distillation",
+    "html_url": "https://github.com/NVIDIA-AI-IOT/clip-distillation",
+    "language": "Python",
+    "pushed_at": "2023-09-12T04:46:33Z",
+    "stargazers_count": 144,
+    "topics": [
+      "clip",
+      "distillation",
+      "inference",
+      "jetson",
+      "knowledge",
+      "nvidia",
+      "qat",
+      "sparsity",
+      "tensorrt"
+    ],
+    "updated_at": "2026-03-23T21:23:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip"
+    },
+    {
+      "context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distillation"
+    },
+    {
+      "context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson"
+    },
+    {
+      "context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge"
+    },
+    {
+      "context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsity"
+    },
+    {
+      "context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

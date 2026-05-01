@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "my-liminal-space/read-parquet-browser",
+      "target": "rustwasm/wasm-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "my-liminal-space/read-parquet-browser",
+      "target": "ashleygwilliams/cargo-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "my-liminal-space/read-parquet-browser",
+      "target": "rustwasm/wasm-bindgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "my-liminal-space/read-parquet-browser",
+      "target": "rustwasm/wee_alloc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:41:48.614453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2138
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Work out how to read Parquet files in a browser using web assembly (via the Rust toolchain)",
+    "fork": false,
+    "full_name": "my-liminal-space/read-parquet-browser",
+    "html_url": "https://github.com/my-liminal-space/read-parquet-browser",
+    "language": "Rust",
+    "pushed_at": "2022-03-12T20:49:04Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2022-10-11T22:21:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashleygwilliams/cargo-generate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/wasm-bindgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/wasm-pack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/wee_alloc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

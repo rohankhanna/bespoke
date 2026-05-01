@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pzzhang/VinVL",
+      "target": "microsoft/scene_graph_benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pzzhang/VinVL",
+      "target": "microsoft/oscar",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:10:14.461117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "project page for VinVL",
+    "fork": false,
+    "full_name": "pzzhang/VinVL",
+    "html_url": "https://github.com/pzzhang/VinVL",
+    "language": null,
+    "pushed_at": "2023-07-26T04:00:01Z",
+    "stargazers_count": 359,
+    "topics": [],
+    "updated_at": "2025-11-14T06:43:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/oscar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/scene_graph_benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

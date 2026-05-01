@@ -43,6 +43,18 @@
       "source_repo": "khanrc/tcl",
       "status": "candidate-context",
       "text": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate-context",
+      "text": "Grounding DINO 1.5: IDEA Research's Most Capable Open-World Object Detection Model Series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Grounding DINO 1.5</h2>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "khanrc/tcl",
       "status": "candidate",
       "text": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Grounding DINO 1.5</h2>"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

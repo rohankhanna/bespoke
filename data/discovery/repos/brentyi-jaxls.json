@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_transpile.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_transpile.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_transpile.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_transpile.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_transpile.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "check transpilation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyright.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyright.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "pyright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "brentyi/jaxls",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brentyi/jaxls",
+      "target": "factor-graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brentyi/jaxls",
+      "target": "nonlinear-least-squares",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:08:49.787378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2399
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1739
+    },
+    {
+      "path": ".github/workflows/check_transpile.yml",
+      "size": 921
+    },
+    {
+      "path": ".github/workflows/formatting.yml",
+      "size": 343
+    },
+    {
+      "path": ".github/workflows/pyright.yml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sparse nonlinear least squares in JAX",
+    "fork": false,
+    "full_name": "brentyi/jaxls",
+    "html_url": "https://github.com/brentyi/jaxls",
+    "language": "Python",
+    "pushed_at": "2026-02-26T11:13:28Z",
+    "stargazers_count": 283,
+    "topics": [
+      "factor-graphs",
+      "jax",
+      "nonlinear-least-squares"
+    ],
+    "updated_at": "2026-04-30T09:56:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "check transpilation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_transpile.yml",
+      "term": "check transpilation"
+    },
+    {
+      "context_snippet": "formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "pyright",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyright.yml",
+      "term": "pyright"
+    },
+    {
+      "context_snippet": "pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "[**[ Documentation ]**](https://brentyi.github.io/jaxls)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "factor-graphs"
+    },
+    {
+      "context_snippet": "[**[ Documentation ]**](https://brentyi.github.io/jaxls)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nonlinear-least-squares"
+    }
+  ]
+}

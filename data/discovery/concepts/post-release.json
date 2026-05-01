@@ -3,7 +3,8 @@
     "post-release",
     "Post release",
     "Post Release",
-    "Post-release"
+    "Post-release",
+    "post release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -190,6 +191,18 @@
       "source_repo": "golangci/misspell",
       "status": "candidate-context",
       "text": "\"Post release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "'post release'"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +295,12 @@
       "source_repo": "golangci/misspell",
       "status": "candidate",
       "text": "\"Post release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate",
+      "text": "'post release'"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +470,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/post-release.yml",
       "source_repo": "golangci/misspell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/postrelease.yml",
+      "source_repo": "bndtools/bnd"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

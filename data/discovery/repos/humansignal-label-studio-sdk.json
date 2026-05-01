@@ -1,0 +1,436 @@
+{
+  "components": [
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "thehanimo/pr-title-checker@v1.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v7.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "fern-api/fern",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "humansignal/label-studio-client-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "Build PYPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "Gitleaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "peter-evans/create-or-update-comment@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-command.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "thehanimo/pr-title-checker@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "release-drafter/release-drafter@v7.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "PR labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "hmarr/debug-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "Release: Cut off release branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "source_repo": "HumanSignal/label-studio-sdk",
+      "target": "Release: Pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:52:17.768298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6379
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3251
+    },
+    {
+      "path": "requirements.txt",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/build_pypi.yml",
+      "size": 3024
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 770
+    },
+    {
+      "path": ".github/workflows/gitleaks.yml",
+      "size": 2529
+    },
+    {
+      "path": ".github/workflows/jira-command.yml",
+      "size": 4509
+    },
+    {
+      "path": ".github/workflows/pr-labeler.yml",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/release-cut-off-release-branch.yml",
+      "size": 3429
+    },
+    {
+      "path": ".github/workflows/release-pipeline.yml",
+      "size": 537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Label Studio SDK",
+    "fork": false,
+    "full_name": "HumanSignal/label-studio-sdk",
+    "html_url": "https://github.com/HumanSignal/label-studio-sdk",
+    "language": "Python",
+    "pushed_at": "2026-04-30T18:48:57Z",
+    "stargazers_count": 179,
+    "topics": [],
+    "updated_at": "2026-04-30T18:49:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fern-api/fern",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humansignal/label-studio-client-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Build PYPI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pypi.yml",
+      "term": "Build PYPI"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Gitleaks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "term": "Gitleaks"
+    },
+    {
+      "context_snippet": "\"PR labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "term": "PR labeler"
+    },
+    {
+      "context_snippet": "\"Release: Cut off release branch\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+      "term": "Release: Cut off release branch"
+    },
+    {
+      "context_snippet": "\"Release: Pipeline\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pipeline.yml",
+      "term": "Release: Pipeline"
+    }
+  ]
+}

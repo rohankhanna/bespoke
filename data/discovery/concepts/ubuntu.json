@@ -298,6 +298,30 @@
       "source_repo": "isl-org/open3d-cmake-external-project",
       "status": "candidate-context",
       "text": "Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate-context",
+      "text": "Fast, convenient JSON serialization and parsing in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate-context",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colmap/glomap",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] GLOMAP - Global Structured-from-Motion Revisited"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/glomap",
+      "status": "candidate-context",
+      "text": "Ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -448,6 +472,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "isl-org/open3d-cmake-external-project",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/glomap",
       "status": "candidate",
       "text": "Ubuntu"
     }
@@ -643,11 +679,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/ubuntu.yml",
       "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci_ubuntu.yml",
+      "source_repo": "beached/daw_json_link"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "colmap/glomap"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

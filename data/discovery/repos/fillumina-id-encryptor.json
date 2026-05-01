@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fillumina/id-encryptor",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fillumina/id-encryptor",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fillumina/id-encryptor",
+      "target": "uuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:43:29.897784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Encrypts long values (64 bit) and UUIDs (128 bit)",
+    "fork": false,
+    "full_name": "fillumina/id-encryptor",
+    "html_url": "https://github.com/fillumina/id-encryptor",
+    "language": "Java",
+    "pushed_at": "2023-02-06T09:40:00Z",
+    "stargazers_count": 10,
+    "topics": [
+      "encryption",
+      "java",
+      "uuid"
+    ],
+    "updated_at": "2026-01-25T06:05:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Encrypts and optionally serializes to and from JSON (using [Jackson](https://github.com/FasterXML/jackson) annotations) long and UUID fields.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": "Encrypts and optionally serializes to and from JSON (using [Jackson](https://github.com/FasterXML/jackson) annotations) long and UUID fields.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Encrypts and optionally serializes to and from JSON (using [Jackson](https://github.com/FasterXML/jackson) annotations) long and UUID fields.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    }
+  ]
+}

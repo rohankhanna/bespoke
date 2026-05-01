@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Revisiting Pre-trained Models for Chinese Natural Language Processing (MacBERT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19184899,
+      "status": "candidate",
+      "text": "burt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19111249,
+      "status": "candidate",
+      "text": "dewey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18023915,
+      "status": "candidate",
+      "text": "peart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17783293,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17458197,
+      "status": "candidate",
+      "text": "bart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bert",
+      "sense_id": "bert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bert",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bert",
+  "observation_id": "d14a51e20dd61952",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "bert",
+  "source_context_snippet": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)",
+  "source_file": null,
+  "source_repo": "ymcui/MacBERT",
+  "source_repo_description": "Revisiting Pre-trained Models for Chinese Natural Language Processing (MacBERT)"
+}

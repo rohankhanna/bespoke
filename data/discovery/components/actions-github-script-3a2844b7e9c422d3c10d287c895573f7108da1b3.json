@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -632,6 +632,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/health_report.yml",
       "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "source_repo": "roboflow/supervision"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official repo for [NeurIPS'21] \"ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias\" and [IJCV'22] \"ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vision-transformer",
+      "sense_id": "vision-transformer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vision-transformer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vision-transformer",
+  "observation_id": "2f7f244bba502ae7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "vision-transformer",
+  "source_context_snippet": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+  "source_file": null,
+  "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+  "source_repo_description": "The official repo for [NeurIPS'21] \"ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias\" and [IJCV'22] \"ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond\""
+}

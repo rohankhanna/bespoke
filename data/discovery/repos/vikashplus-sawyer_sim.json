@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "mujoco-dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "rethink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "robosapien",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "robot-arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "sawyer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vikashplus/sawyer_sim",
+      "target": "sawyer-robot-arm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:59.286434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MuJoCo model for Sawyer from Rethink robotics",
+    "fork": false,
+    "full_name": "vikashplus/sawyer_sim",
+    "html_url": "https://github.com/vikashplus/sawyer_sim",
+    "language": null,
+    "pushed_at": "2023-02-25T17:47:50Z",
+    "stargazers_count": 14,
+    "topics": [
+      "mujoco",
+      "mujoco-dynamics",
+      "rethink",
+      "robosapien",
+      "robot",
+      "robot-arm",
+      "robotics",
+      "robotics-simulation",
+      "sawyer",
+      "sawyer-robot-arm"
+    ],
+    "updated_at": "2026-03-30T16:10:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco-dynamics"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rethink"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robosapien"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-arm"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sawyer"
+    },
+    {
+      "context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sawyer-robot-arm"
+    }
+  ]
+}

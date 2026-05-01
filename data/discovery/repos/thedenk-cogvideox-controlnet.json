@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheDenk/cogvideox-controlnet",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:56:55.225793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4167
+    },
+    {
+      "path": "requirements.txt",
+      "size": 403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple Controlnet module for CogvideoX model.",
+    "fork": false,
+    "full_name": "TheDenk/cogvideox-controlnet",
+    "html_url": "https://github.com/TheDenk/cogvideox-controlnet",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-01-12T19:13:59Z",
+    "stargazers_count": 182,
+    "topics": [],
+    "updated_at": "2026-04-11T11:19:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

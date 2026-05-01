@@ -1,7 +1,7 @@
 {
   "component": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "apple/swift-nio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-http2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-http2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl"
     }
   ]
 }

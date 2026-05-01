@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "snip"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VITA-Group/Random_Pruning",
+      "status": "candidate-context",
+      "text": "[ICLR 2022] The Unreasonable Effectiveness of Random Pruning: Return of the Most Naive Baseline for Sparse Training by Shiwei Liu, Tianlong Chen, Xiaohan Chen, Li Shen, Decebal Constantin Mocanu, Zhangyang Wang, Mykola Pechenizkiy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/Random_Pruning",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/Random_Pruning",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39832040,
+      "status": "candidate",
+      "text": "clipping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39829468,
+      "status": "candidate",
+      "text": "lop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39818476,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39806222,
+      "status": "candidate",
+      "text": "dress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39803122,
+      "status": "candidate",
+      "text": "trim"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18061,
+      "status": "candidate",
+      "text": "trim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17057,
+      "status": "candidate",
+      "text": "crop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15062,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15036,
+      "status": "candidate",
+      "text": "snippet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11053,
+      "status": "candidate",
+      "text": "dress"
+    }
+  ],
+  "canonical_name": "snip",
+  "concept_id": "snip",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snip",
+      "sense_id": "snip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

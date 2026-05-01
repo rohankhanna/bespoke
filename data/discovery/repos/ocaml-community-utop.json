@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dune.yml"
+    },
+    {
+      "component": "ocaml-dune/setup-dune@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dune.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-emacs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-emacs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-community/utop",
+      "target": "bbatsov/neocaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-community/utop",
+      "target": "ocaml-community/lambda-term",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-community/utop",
+      "target": "ocaml-community/zed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocaml-community/utop",
+      "target": "mirage/ocaml-uri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dune.yml",
+      "source_repo": "ocaml-community/utop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dune.yml",
+      "source_repo": "ocaml-community/utop",
+      "target": "ocaml-dune/setup-dune@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dune.yml",
+      "source_repo": "ocaml-community/utop",
+      "target": "Build on Dune PM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-emacs.yml",
+      "source_repo": "ocaml-community/utop",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-emacs.yml",
+      "source_repo": "ocaml-community/utop",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-emacs.yml",
+      "source_repo": "ocaml-community/utop",
+      "target": "Test Emacs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:11:46.161156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15100
+    },
+    {
+      "path": ".github/workflows/build-dune.yml",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/test-emacs.yml",
+      "size": 764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Universal toplevel for OCaml",
+    "fork": false,
+    "full_name": "ocaml-community/utop",
+    "html_url": "https://github.com/ocaml-community/utop",
+    "language": "OCaml",
+    "pushed_at": "2026-03-26T09:45:29Z",
+    "stargazers_count": 917,
+    "topics": [],
+    "updated_at": "2026-04-30T01:55:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbatsov/neocaml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mirage/ocaml-uri",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml-community/lambda-term",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml-community/zed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build on Dune PM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dune.yml",
+      "term": "Build on Dune PM"
+    },
+    {
+      "context_snippet": "Test Emacs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-emacs.yml",
+      "term": "Test Emacs"
+    }
+  ]
+}

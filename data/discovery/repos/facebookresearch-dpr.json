@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:11:47.737504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18728
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Dense Passage Retriever - is a set of tools and models for open domain Q&A task.",
+    "fork": false,
+    "full_name": "facebookresearch/DPR",
+    "html_url": "https://github.com/facebookresearch/DPR",
+    "language": "Python",
+    "pushed_at": "2023-04-06T07:36:18Z",
+    "stargazers_count": 1863,
+    "topics": [],
+    "updated_at": "2026-04-22T02:23:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

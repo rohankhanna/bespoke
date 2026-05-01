@@ -101,28 +101,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubeflow/trainer",
-      "target": "kubeflow/sdk",
+      "target": "kubernetes-sigs/jobset",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubeflow/trainer",
-      "target": "kubeflow/mpi-operator",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kubeflow/trainer",
-      "target": "kubeflow/xgboost-operator",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kubeflow/trainer",
-      "target": "kubeflow/common",
+      "target": "kubernetes-sigs/lws",
       "target_type": "repository"
     },
     {
@@ -371,7 +357,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T13:06:29.307529+00:00",
+  "fetched_at": "2026-05-01T00:53:14.084553+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -423,7 +409,7 @@
     "full_name": "kubeflow/trainer",
     "html_url": "https://github.com/kubeflow/trainer",
     "language": "Go",
-    "pushed_at": "2026-04-28T12:18:04Z",
+    "pushed_at": "2026-04-30T15:01:16Z",
     "stargazers_count": 2095,
     "topics": [
       "ai",
@@ -447,22 +433,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kubeflow/common",
+      "full_name": "kubernetes-sigs/jobset",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kubeflow/mpi-operator",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kubeflow/sdk",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kubeflow/xgboost-operator",
+      "full_name": "kubernetes-sigs/lws",
       "source_file": "README.md"
     }
   ],

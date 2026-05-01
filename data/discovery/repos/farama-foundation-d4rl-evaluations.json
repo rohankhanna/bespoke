@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/D4RL-Evaluations",
+      "target": "xbpeng/awr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/D4RL-Evaluations",
+      "target": "sfujim/bcq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/D4RL-Evaluations",
+      "target": "thesparta/off_policy_mujoco",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:42.575206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Farama-Foundation/D4RL-Evaluations",
+    "html_url": "https://github.com/Farama-Foundation/D4RL-Evaluations",
+    "language": "Python",
+    "pushed_at": "2023-03-25T00:19:03Z",
+    "stargazers_count": 203,
+    "topics": [],
+    "updated_at": "2026-03-09T01:28:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfujim/bcq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thesparta/off_policy_mujoco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xbpeng/awr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "76creates/stickers",
       "status": "candidate-context",
       "text": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate-context",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "76creates/stickers",
       "status": "candidate",
       "text": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BobLd/camelot-sharp",
+      "status": "candidate",
+      "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "76creates/stickers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

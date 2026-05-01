@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BradLarson/GPUImage",
+      "target": "tomaz/appledoc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BradLarson/GPUImage",
+      "target": "homebrew/homebrew",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:42.328093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 63791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open source iOS framework for GPU-based image and video processing",
+    "fork": false,
+    "full_name": "BradLarson/GPUImage",
+    "html_url": "https://github.com/BradLarson/GPUImage",
+    "language": "Objective-C",
+    "pushed_at": "2024-02-16T22:29:30Z",
+    "stargazers_count": 20303,
+    "topics": [],
+    "updated_at": "2026-04-29T17:29:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "homebrew/homebrew",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomaz/appledoc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

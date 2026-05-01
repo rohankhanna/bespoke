@@ -79,6 +79,18 @@
       "source_repo": "airaria/TextPruner",
       "status": "candidate-context",
       "text": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VITA-Group/Random_Pruning",
+      "status": "candidate-context",
+      "text": "[ICLR 2022] The Unreasonable Effectiveness of Random Pruning: Return of the Most Naive Baseline for Sparse Training by Shiwei Liu, Tianlong Chen, Xiaohan Chen, Li Shen, Decebal Constantin Mocanu, Zhangyang Wang, Mykola Pechenizkiy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/Random_Pruning",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "airaria/TextPruner",
       "status": "candidate",
       "text": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/Random_Pruning",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "airaria/TextPruner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

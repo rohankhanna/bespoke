@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VITA-Group/Random_Pruning",
+      "target": "shiweiliuiiiiiii/random_pruning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning",
+      "target": "grasp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning",
+      "target": "pruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning",
+      "target": "pruningatinitialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning",
+      "target": "randompruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning",
+      "target": "snip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning",
+      "target": "sparsetraining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:58.256283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2022] The Unreasonable Effectiveness of Random Pruning: Return of the Most Naive Baseline for Sparse Training by Shiwei Liu, Tianlong Chen, Xiaohan Chen, Li Shen, Decebal Constantin Mocanu, Zhangyang Wang, Mykola Pechenizkiy",
+    "fork": false,
+    "full_name": "VITA-Group/Random_Pruning",
+    "html_url": "https://github.com/VITA-Group/Random_Pruning",
+    "language": "Python",
+    "pushed_at": "2023-01-09T07:22:32Z",
+    "stargazers_count": 78,
+    "topics": [
+      "deeplearning",
+      "erk",
+      "grasp",
+      "pruning",
+      "pruningatinitialization",
+      "randompruning",
+      "snip",
+      "sparsetraining"
+    ],
+    "updated_at": "2026-04-28T00:35:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shiweiliuiiiiiii/random_pruning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grasp"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pruning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pruningatinitialization"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "randompruning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snip"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsetraining"
+    }
+  ]
+}

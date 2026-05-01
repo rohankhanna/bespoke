@@ -1,0 +1,660 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_vcpkg_env.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_vcpkg_env.yaml"
+    },
+    {
+      "component": "pierotofy/issuewhiz@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-docker-meta@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v1.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "pierotofy/set-swap-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "pierotofy/set-swap-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "diddlesnaps/snapcraft-multiarch-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "diddlesnaps/snapcraft-review-tools-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v1.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "mapillary/opensfm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "cdcseacave/openmvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "nmoehrle/mvs-texturing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "mkazhdan/poissonrecon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_vcpkg_env.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_vcpkg_env.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_vcpkg_env.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "Build Windows Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "pierotofy/issuewhiz@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "Publish Docker GPU Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "crazy-max/ghaction-docker-meta@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "Publish Docker and WSL Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "Jimver/cuda-toolkit@v0.2.24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "jwlawson/actions-setup-cmake@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "Publish Windows Setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "pierotofy/set-swap-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "diddlesnaps/snapcraft-multiarch-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "diddlesnaps/snapcraft-review-tools-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "Jimver/cuda-toolkit@v0.2.24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "jwlawson/actions-setup-cmake@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "Build PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "aerial-imagery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "drone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "photogrammetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDroneMap/ODM",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:01:14.915030+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11085
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1580
+    },
+    {
+      "path": "requirements.txt",
+      "size": 503
+    },
+    {
+      "path": ".github/workflows/build_vcpkg_env.yaml",
+      "size": 663
+    },
+    {
+      "path": ".github/workflows/issue-triage.yml",
+      "size": 1947
+    },
+    {
+      "path": ".github/workflows/publish-docker-gpu.yaml",
+      "size": 1204
+    },
+    {
+      "path": ".github/workflows/publish-docker.yaml",
+      "size": 1637
+    },
+    {
+      "path": ".github/workflows/publish-windows.yml",
+      "size": 2038
+    },
+    {
+      "path": ".github/workflows/test-build-prs.yaml",
+      "size": 2117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. \ud83d\udcf7",
+    "fork": false,
+    "full_name": "OpenDroneMap/ODM",
+    "html_url": "https://github.com/OpenDroneMap/ODM",
+    "language": "Python",
+    "pushed_at": "2026-04-30T01:54:35Z",
+    "stargazers_count": 6056,
+    "topics": [
+      "aerial-imagery",
+      "drone",
+      "photogrammetry",
+      "point-cloud",
+      "structure-from-motion",
+      "uas"
+    ],
+    "updated_at": "2026-05-01T00:12:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdcseacave/openmvs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapillary/opensfm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkazhdan/poissonrecon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nmoehrle/mvs-texturing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Windows Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_vcpkg_env.yaml",
+      "term": "Build Windows Dependencies"
+    },
+    {
+      "context_snippet": "Issue Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "term": "Issue Triage"
+    },
+    {
+      "context_snippet": "Publish Docker GPU Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker-gpu.yaml",
+      "term": "Publish Docker GPU Images"
+    },
+    {
+      "context_snippet": "Publish Docker and WSL Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "term": "Publish Docker and WSL Images"
+    },
+    {
+      "context_snippet": "Publish Windows Setup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-windows.yml",
+      "term": "Publish Windows Setup"
+    },
+    {
+      "context_snippet": "Build PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build-prs.yaml",
+      "term": "Build PRs"
+    },
+    {
+      "context_snippet": "![ODM Logo](https://github.com/OpenDroneMap/ODM/blob/master/odm.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aerial-imagery"
+    },
+    {
+      "context_snippet": "![ODM Logo](https://github.com/OpenDroneMap/ODM/blob/master/odm.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drone"
+    },
+    {
+      "context_snippet": "![ODM Logo](https://github.com/OpenDroneMap/ODM/blob/master/odm.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photogrammetry"
+    },
+    {
+      "context_snippet": "![ODM Logo](https://github.com/OpenDroneMap/ODM/blob/master/odm.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "![ODM Logo](https://github.com/OpenDroneMap/ODM/blob/master/odm.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    }
+  ]
+}

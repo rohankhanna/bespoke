@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nonlinear-least-squares"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate-context",
+      "text": "Sparse nonlinear least squares in JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate-context",
+      "text": "[**[ Documentation ]**](https://brentyi.github.io/jaxls)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxls",
+      "status": "candidate",
+      "text": "[**[ Documentation ]**](https://brentyi.github.io/jaxls)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nonlinear-least-squares",
+  "concept_id": "nonlinear-least-squares",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "brentyi/jaxls"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nonlinear-least-squares",
+      "sense_id": "nonlinear-least-squares#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

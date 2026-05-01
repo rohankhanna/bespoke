@@ -19,12 +19,30 @@
       "source_repo": "uNetworking/uWebSockets",
       "status": "candidate-context",
       "text": "C++ CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arturbac/simple_enum",
+      "status": "candidate-context",
+      "text": "An Fast, Intuitive and Type-Safe C++ Enumeration Support Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arturbac/simple_enum",
+      "status": "candidate-context",
+      "text": "C++ CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "uNetworking/uWebSockets",
+      "status": "candidate",
+      "text": "C++ CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arturbac/simple_enum",
       "status": "candidate",
       "text": "C++ CI"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/cpp.yml",
       "source_repo": "uNetworking/uWebSockets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arturbac/simple_enum"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

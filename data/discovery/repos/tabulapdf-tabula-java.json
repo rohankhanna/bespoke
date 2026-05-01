@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-windows.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "ninjudd/drip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "leeper/tabulizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "ezodude/tabula-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "tabulapdf/tabula-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-windows.yml",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-windows.yml",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-windows.yml",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "Java CI (Windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "extracting-tables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "extraction-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tabulapdf/tabula-java",
+      "target": "pdfs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:02:43.644473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8937
+    },
+    {
+      "path": ".github/workflows/tests-windows.yml",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extract tables from PDF files",
+    "fork": false,
+    "full_name": "tabulapdf/tabula-java",
+    "html_url": "https://github.com/tabulapdf/tabula-java",
+    "language": "Java",
+    "pushed_at": "2025-03-19T18:21:14Z",
+    "stargazers_count": 2025,
+    "topics": [
+      "extracting-tables",
+      "extraction-engine",
+      "pdfs"
+    ],
+    "updated_at": "2026-04-30T20:05:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ezodude/tabula-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leeper/tabulizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninjudd/drip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tabulapdf/tabula-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI (Windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-windows.yml",
+      "term": "Java CI (Windows)"
+    },
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Java CI"
+    },
+    {
+      "context_snippet": "tabula-java [![Build Status](https://travis-ci.org/tabulapdf/tabula-java.svg?branch=master)](https://travis-ci.org/tabulapdf/tabula-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extracting-tables"
+    },
+    {
+      "context_snippet": "tabula-java [![Build Status](https://travis-ci.org/tabulapdf/tabula-java.svg?branch=master)](https://travis-ci.org/tabulapdf/tabula-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extraction-engine"
+    },
+    {
+      "context_snippet": "tabula-java [![Build Status](https://travis-ci.org/tabulapdf/tabula-java.svg?branch=master)](https://travis-ci.org/tabulapdf/tabula-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdfs"
+    }
+  ]
+}

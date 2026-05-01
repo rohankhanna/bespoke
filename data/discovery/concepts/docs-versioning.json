@@ -43,6 +43,42 @@
       "source_repo": "Farama-Foundation/Minigrid",
       "status": "candidate-context",
       "text": "Docs Versioning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "status": "candidate-context",
+      "text": "The Arcade Learning Environment (ALE) -- a platform for AI research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "status": "candidate-context",
+      "text": "Docs Versioning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate-context",
+      "text": "A collection of robotics simulation environments for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate-context",
+      "text": "Docs Versioning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate-context",
+      "text": "A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minari",
+      "status": "candidate-context",
+      "text": "Docs Versioning"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +97,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Farama-Foundation/Minigrid",
+      "status": "candidate",
+      "text": "Docs Versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "status": "candidate",
+      "text": "Docs Versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics",
+      "status": "candidate",
+      "text": "Docs Versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minari",
       "status": "candidate",
       "text": "Docs Versioning"
     }
@@ -142,11 +196,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/build-docs-version.yml",
       "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build-docs-version.yml",
+      "source_repo": "Farama-Foundation/Gymnasium-Robotics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build-docs-version.yml",
+      "source_repo": "Farama-Foundation/Minari"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build-docs-version.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

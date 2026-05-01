@@ -319,6 +319,18 @@
       "source_repo": "yaml/pyyaml",
       "status": "candidate-context",
       "text": "PyYAML"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate-context",
+      "text": "A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "yaml/pyyaml",
       "status": "candidate",
       "text": "PyYAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcrist/msgspec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -682,11 +700,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "yaml/pyyaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jcrist/msgspec"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

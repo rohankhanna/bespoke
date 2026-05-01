@@ -1,0 +1,328 @@
+{
+  "components": [
+    {
+      "component": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/benchmarks.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/benchmarks.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/cxx_interop.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml"
+    },
+    {
+      "component": "apple/swift-nio/.github/actions/pull_request_semver_label_checker@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/benchmarks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/unit_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/swift_test_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/benchmarks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/cxx_interop.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/macos_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/static_sdk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/workflows/release_builds.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "apple/swift-nio/.github/actions/pull_request_semver_label_checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "PR label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "swift5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "swiftnio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-nio-ssl",
+      "target": "tls-support",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:43:46.169618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3066
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3151
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 3813
+    },
+    {
+      "path": ".github/workflows/pull_request_label.yml",
+      "size": 510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TLS Support for SwiftNIO, based on BoringSSL.",
+    "fork": false,
+    "full_name": "apple/swift-nio-ssl",
+    "html_url": "https://github.com/apple/swift-nio-ssl",
+    "language": "Assembly",
+    "pushed_at": "2026-04-23T12:38:06Z",
+    "stargazers_count": 422,
+    "topics": [
+      "swift5",
+      "swiftnio",
+      "tls",
+      "tls-support"
+    ],
+    "updated_at": "2026-04-26T04:23:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "PR label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "term": "PR label"
+    },
+    {
+      "context_snippet": "SwiftNIO SSL is a Swift package that contains an implementation of TLS based on BoringSSL. This package allows users of [SwiftNIO](https://github.com/apple/swift-nio) to write protocol clients and servers that use TLS to secure data in flight.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift5"
+    },
+    {
+      "context_snippet": "SwiftNIO SSL is a Swift package that contains an implementation of TLS based on BoringSSL. This package allows users of [SwiftNIO](https://github.com/apple/swift-nio) to write protocol clients and servers that use TLS to secure data in flight.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftnio"
+    },
+    {
+      "context_snippet": "SwiftNIO SSL is a Swift package that contains an implementation of TLS based on BoringSSL. This package allows users of [SwiftNIO](https://github.com/apple/swift-nio) to write protocol clients and servers that use TLS to secure data in flight.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tls-support"
+    }
+  ]
+}

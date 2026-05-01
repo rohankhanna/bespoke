@@ -19,6 +19,18 @@
       "source_repo": "heyoeyo/muggled_dpt",
       "status": "candidate-context",
       "text": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate-context",
+      "text": "Muggled SAM: Segmentation without the magic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate-context",
+      "text": "This repo contains a simplified implementation of the awesome 'Segment Anything' models from [facebookresearch](https://ai.meta.com/research/#projects) ([SAM1](https://github.com/facebookresearch/segment-anything), [SAM2](https://github.com/facebookresearch/sam2) & [SAM3](https:\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "heyoeyo/muggled_dpt",
       "status": "candidate",
       "text": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate",
+      "text": "This repo contains a simplified implementation of the awesome 'Segment Anything' models from [facebookresearch](https://ai.meta.com/research/#projects) ([SAM1](https://github.com/facebookresearch/segment-anything), [SAM2](https://github.com/facebookresearch/sam2) & [SAM3](https:\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "heyoeyo/muggled_dpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_sam"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fuxiao0719/GeoWizard",
+      "target": "yvanyin/metric3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fuxiao0719/GeoWizard",
+      "target": "kijai/comfyui-geowizard",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:49:17.584527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6590
+    },
+    {
+      "path": "requirements.txt",
+      "size": 361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV'24] GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image",
+    "fork": false,
+    "full_name": "fuxiao0719/GeoWizard",
+    "html_url": "https://github.com/fuxiao0719/GeoWizard",
+    "language": "Python",
+    "pushed_at": "2024-12-07T22:36:27Z",
+    "stargazers_count": 935,
+    "topics": [],
+    "updated_at": "2026-04-28T12:01:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-geowizard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yvanyin/metric3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

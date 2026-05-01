@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shark-NLP/OpenICL",
+      "target": "in-context-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shark-NLP/OpenICL",
+      "target": "language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:05:21.345334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3800
+    },
+    {
+      "path": "requirements.txt",
+      "size": 249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenICL is an open-source framework to facilitate research, development, and prototyping of in-context learning.",
+    "fork": false,
+    "full_name": "Shark-NLP/OpenICL",
+    "html_url": "https://github.com/Shark-NLP/OpenICL",
+    "language": "Python",
+    "pushed_at": "2023-10-03T13:22:36Z",
+    "stargazers_count": 587,
+    "topics": [
+      "in-context-learning",
+      "language-model",
+      "nlp"
+    ],
+    "updated_at": "2026-04-30T02:17:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-context-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    }
+  ]
+}

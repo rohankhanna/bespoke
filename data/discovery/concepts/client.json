@@ -256,6 +256,18 @@
       "source_repo": "aliyun/aliyun-cli",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate-context",
+      "text": "Patch fetch/XMLHttpRequest to fake a REST API server in the browser, based on JSON data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate-context",
+      "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
     }
   ],
   "candidate_glosses": [
@@ -384,6 +396,12 @@
       "source_repo": "aliyun/aliyun-cli",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/FakeRest",
+      "status": "candidate",
+      "text": "A browser library that intercepts AJAX calls to mock a REST server based on JSON data."
     }
   ],
   "candidate_related_terms": [
@@ -623,11 +641,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "marmelab/FakeRest"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

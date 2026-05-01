@@ -19,6 +19,18 @@
       "source_repo": "peteanderson80/bottom-up-attention",
       "status": "candidate-context",
       "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "status": "candidate-context",
+      "text": "Automatic image captioning model based on Caffe, using features from bottom-up attention."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "status": "candidate-context",
+      "text": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "peteanderson80/bottom-up-attention",
       "status": "candidate",
       "text": "This code implements a bottom-up attention model, based on multi-gpu training of Faster R-CNN with ResNet-101, using object and attribute annotations from [Visual Genome](http://visualgenome.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peteanderson80/Up-Down-Captioner",
+      "status": "candidate",
+      "text": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "peteanderson80/bottom-up-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "peteanderson80/Up-Down-Captioner"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

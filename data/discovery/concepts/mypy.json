@@ -226,6 +226,18 @@
       "source_repo": "kevinzakka/obj2mjcf",
       "status": "candidate-context",
       "text": "Mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate-context",
+      "text": "Rigid transforms + Lie groups for JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate-context",
+      "text": "mypy"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +348,12 @@
       "source_repo": "kevinzakka/obj2mjcf",
       "status": "candidate",
       "text": "Mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jaxlie",
+      "status": "candidate",
+      "text": "mypy"
     }
   ],
   "candidate_related_terms": [],
@@ -541,11 +559,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/mypy.yml",
       "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/jaxlie"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

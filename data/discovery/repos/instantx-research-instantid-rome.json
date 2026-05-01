@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instantX-research/InstantID-Rome",
+      "target": "instantid/instantid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:53:51.791782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "InstantID-ROME: Improved Identity-Preserving Generation in Seconds  \ud83d\udd25",
+    "fork": false,
+    "full_name": "instantX-research/InstantID-Rome",
+    "html_url": "https://github.com/instantX-research/InstantID-Rome",
+    "language": null,
+    "pushed_at": "2024-05-07T12:00:16Z",
+    "stargazers_count": 236,
+    "topics": [],
+    "updated_at": "2026-04-15T07:39:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instantid/instantid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

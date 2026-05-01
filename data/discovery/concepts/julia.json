@@ -361,6 +361,30 @@
       "source_repo": "JuliaAI/MLJ.jl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "status": "candidate-context",
+      "text": "Binary Dependency Builder for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_apis/build/status/JuliaPackaging.BinaryBuilder.jl?branchName=master)](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_build/latest?definitionId=2&branchName=master) [![codecov.io](http://codecov.io/gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "status": "candidate-context",
+      "text": "Collection of builder repositories for BinaryBuilder.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "status": "candidate-context",
+      "text": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)"
     }
   ],
   "candidate_glosses": [
@@ -543,6 +567,18 @@
       "source_repo": "JuliaAI/MLJ.jl",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_apis/build/status/JuliaPackaging.BinaryBuilder.jl?branchName=master)](https://dev.azure.com/JuliaPackaging/BinaryBuilder.jl/_build/latest?definitionId=2&branchName=master) [![codecov.io](http://codecov.io/gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "status": "candidate",
+      "text": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)"
     }
   ],
   "candidate_related_terms": [
@@ -784,11 +820,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/Yggdrasil"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -700,6 +700,18 @@
       "source_repo": "distatus/battery",
       "status": "candidate-context",
       "text": "battery [![Build Status](https://github.com/distatus/battery/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/distatus/battery/actions/workflows/tests.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "High-Performance Rendering Framework on Stream Architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate-context",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -1050,6 +1062,12 @@
       "source_repo": "distatus/battery",
       "status": "candidate",
       "text": "battery [![Build Status](https://github.com/distatus/battery/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/distatus/battery/actions/workflows/tests.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuisaGroup/LuisaCompute",
+      "status": "candidate",
+      "text": "![teaser](https://user-images.githubusercontent.com/7614925/195987646-fe932ebe-ca6e-4d6e-ab2a-203bcfd3d559.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -1632,11 +1650,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "distatus/battery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "LuisaGroup/LuisaCompute"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

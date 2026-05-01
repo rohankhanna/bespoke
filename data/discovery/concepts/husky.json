@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "husky"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate-context",
+      "text": "InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (\u652f\u6301DragGAN\u3001ChatGPT\u3001ImageBind\u3001SAM\u7684\u5728\u7ebfDemo\u7cfb\u7edf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate-context",
+      "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternGPT",
+      "status": "candidate",
+      "text": "[[\u4e2d\u6587\u6587\u6863]](README_CN.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027581,
+      "status": "candidate",
+      "text": "hoarse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021496,
+      "status": "candidate",
+      "text": "gruff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017994,
+      "status": "candidate",
+      "text": "cacophonous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010921,
+      "status": "candidate",
+      "text": "burly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010367,
+      "status": "candidate",
+      "text": "strapping"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 103057,
+      "status": "candidate",
+      "text": "robust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34034,
+      "status": "candidate",
+      "text": "gruff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19038,
+      "status": "candidate",
+      "text": "hoarse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17024,
+      "status": "candidate",
+      "text": "cacophonous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17016,
+      "status": "candidate",
+      "text": "cacophonic"
+    }
+  ],
+  "canonical_name": "husky",
+  "concept_id": "husky",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternGPT"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "husky",
+      "sense_id": "husky#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

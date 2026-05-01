@@ -2146,6 +2146,78 @@
       "source_repo": "michel-kraemer/bson4jackson",
       "status": "candidate-context",
       "text": "This library adds support for [BSON](https://bsonspec.org) to the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fillumina/id-encryptor",
+      "status": "candidate-context",
+      "text": "Encrypts long values (64 bit) and UUIDs (128 bit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fillumina/id-encryptor",
+      "status": "candidate-context",
+      "text": "Encrypts and optionally serializes to and from JSON (using [Jackson](https://github.com/FasterXML/jackson) annotations) long and UUID fields."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate-context",
+      "text": "A Java library for reversibly obfuscating numerical identifiers (e.g. 1234 \u2194 4TQCNTL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate-context",
+      "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lefou/LambdaTest",
+      "status": "candidate-context",
+      "text": "LambdaTest - Lambda-enabled functional testing API on top of JUnit and TestNG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lefou/LambdaTest",
+      "status": "candidate-context",
+      "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "[![bnd](https://user-images.githubusercontent.com/200494/226292967-963bd722-96d9-4a46-9658-4699962032b0.png)](https://bnd.bndtools.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "burningwave/core",
+      "status": "candidate-context",
+      "text": "An advanced and highly optimized Java library to build frameworks: it's useful for scanning class paths, generating classes at runtime, facilitating the use of reflection, scanning the filesystem, executing stringified source code and much more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "burningwave/core",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/pdfbox-docs",
+      "status": "candidate-context",
+      "text": "Mirror of Apache PDFBox Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pdfbox-docs",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -3216,6 +3288,42 @@
       "source_repo": "michel-kraemer/bson4jackson",
       "status": "candidate",
       "text": "This library adds support for [BSON](https://bsonspec.org) to the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fillumina/id-encryptor",
+      "status": "candidate",
+      "text": "Encrypts and optionally serializes to and from JSON (using [Jackson](https://github.com/FasterXML/jackson) annotations) long and UUID fields."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchambers/id-obfuscator",
+      "status": "candidate",
+      "text": "ID Obfuscator is a Java library for obfuscating numerical identifiers. Practically, that means taking a number like \"17\" and transforming it into a string like \"GDJSHCX\" (and, presumably, turning that string back into a number later)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lefou/LambdaTest",
+      "status": "candidate",
+      "text": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate",
+      "text": "[![bnd](https://user-images.githubusercontent.com/200494/226292967-963bd722-96d9-4a46-9658-4699962032b0.png)](https://bnd.bndtools.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "burningwave/core",
+      "status": "candidate",
+      "text": "<a href=\"https://www.burningwave.org\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/pdfbox-docs",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -4779,11 +4887,53 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "michel-kraemer/bson4jackson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "fillumina/id-encryptor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "jchambers/id-obfuscator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "bndtools/bnd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "burningwave/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "apache/pdfbox-docs"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

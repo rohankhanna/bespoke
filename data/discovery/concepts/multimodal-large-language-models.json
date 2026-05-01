@@ -163,6 +163,18 @@
       "source_repo": "YangLing0818/RPG-DiffusionMaster",
       "status": "candidate-context",
       "text": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/Liquid",
+      "status": "candidate-context",
+      "text": "(Accepted by IJCV) Liquid: Language Models are Scalable and Unified Multi-modal Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/Liquid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "YangLing0818/RPG-DiffusionMaster",
       "status": "candidate",
       "text": "<a href=\"https://trendshift.io/repositories/7230\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7230\" alt=\"YangLing0818%2FRPG-DiffusionMaster | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/Liquid",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +382,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "YangLing0818/RPG-DiffusionMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/Liquid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fantasy-AMAP/fantasy-id",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fantasy-AMAP/fantasy-id",
+      "target": "howiema/cvthead",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:14.736414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4204
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation",
+    "fork": false,
+    "full_name": "Fantasy-AMAP/fantasy-id",
+    "html_url": "https://github.com/Fantasy-AMAP/fantasy-id",
+    "language": "Python",
+    "pushed_at": "2025-08-20T03:02:23Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-03-26T08:43:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "howiema/cvthead",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

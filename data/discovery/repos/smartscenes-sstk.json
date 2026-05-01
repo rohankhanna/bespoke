@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "lerna",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shelljs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smartscenes/sstk",
+      "target": "creationix/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smartscenes/sstk",
+      "target": "niessner/matterport",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "smartscenes/sstk",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "smartscenes/sstk",
+      "target": "shelljs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:53:55.774277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8883
+    },
+    {
+      "path": "package.json",
+      "size": 810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SSTK: SmartScenes ToolKit",
+    "fork": false,
+    "full_name": "smartscenes/sstk",
+    "html_url": "https://github.com/smartscenes/sstk",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-09T19:17:26Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-03-14T10:54:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niessner/matterport",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

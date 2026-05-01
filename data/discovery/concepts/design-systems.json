@@ -43,6 +43,18 @@
       "source_repo": "styled-system/styled-system",
       "status": "candidate-context",
       "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ant-design/ant-design",
+      "status": "candidate-context",
+      "text": "An enterprise-class UI design language and React UI library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "styled-system/styled-system",
       "status": "candidate",
       "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "styled-system/styled-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ant-design/ant-design"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

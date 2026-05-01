@@ -103,6 +103,18 @@
       "source_repo": "sclorg/mongodb-container",
       "status": "candidate-context",
       "text": "MongoDB container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/postgresql-container",
+      "status": "candidate-context",
+      "text": "PostgreSQL container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/postgresql-container",
+      "status": "candidate-context",
+      "text": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "sclorg/mongodb-container",
       "status": "candidate",
       "text": "MongoDB container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/postgresql-container",
+      "status": "candidate",
+      "text": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +280,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "crc-org/crc"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

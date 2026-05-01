@@ -301,6 +301,18 @@
       "source_repo": "ankitpokhrel/jira-cli",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate-context",
+      "text": "LLMs for your CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
     }
   ],
   "candidate_glosses": [
@@ -435,6 +447,12 @@
       "source_repo": "ankitpokhrel/jira-cli",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
     }
   ],
   "candidate_related_terms": [
@@ -786,11 +804,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

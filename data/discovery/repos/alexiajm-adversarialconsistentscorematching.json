@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:51:25.037200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5348
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for paper \"Adversarial score matching and improved sampling for image generation\"",
+    "fork": false,
+    "full_name": "AlexiaJM/AdversarialConsistentScoreMatching",
+    "html_url": "https://github.com/AlexiaJM/AdversarialConsistentScoreMatching",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-29T21:49:36Z",
+    "stargazers_count": 125,
+    "topics": [],
+    "updated_at": "2025-12-30T01:21:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

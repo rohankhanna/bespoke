@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fundamentalvision/Uni-Perceiver",
+      "target": "yehli/xmodaler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fundamentalvision/Uni-Perceiver",
+      "target": "jackroos/vl-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fundamentalvision/Uni-Perceiver",
+      "target": "facebookresearch/timesformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:55:43.725875+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9376
+    },
+    {
+      "path": "requirements.txt",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "fundamentalvision/Uni-Perceiver",
+    "html_url": "https://github.com/fundamentalvision/Uni-Perceiver",
+    "language": "Python",
+    "pushed_at": "2025-08-14T01:55:55Z",
+    "stargazers_count": 289,
+    "topics": [],
+    "updated_at": "2026-03-12T17:42:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/timesformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jackroos/vl-bert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yehli/xmodaler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

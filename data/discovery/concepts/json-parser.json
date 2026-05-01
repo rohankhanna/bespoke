@@ -175,6 +175,18 @@
       "source_repo": "mailru/easyjson",
       "status": "candidate-context",
       "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate-context",
+      "text": "Fast, convenient JSON serialization and parsing in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate-context",
+      "text": "MacOS"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "mailru/easyjson",
       "status": "candidate",
       "text": "Package easyjson provides a fast and easy way to marshal/unmarshal Go structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beached/daw_json_link",
+      "status": "candidate",
+      "text": "MacOS"
     }
   ],
   "candidate_related_terms": [],
@@ -370,11 +388,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "mailru/easyjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "beached/daw_json_link"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

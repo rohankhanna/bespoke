@@ -1,0 +1,392 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-linux.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-macos.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-windows.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-linux.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-linux.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-linux.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-macos.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-macos.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-macos.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "Mac OS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-windows.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-windows.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-windows.yml",
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "camelot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "camelot-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "extract-table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "extracting-tables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "extraction-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "netstandard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "pdf-table-extract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "pdf-table-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "pdfparser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "pdfpig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "pdfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BobLd/camelot-sharp",
+      "target": "table-extraction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:02:31.462036+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1958
+    },
+    {
+      "path": ".github/workflows/dotnet-linux.yml",
+      "size": 464
+    },
+    {
+      "path": ".github/workflows/dotnet-macos.yml",
+      "size": 464
+    },
+    {
+      "path": ".github/workflows/dotnet-windows.yml",
+      "size": 494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+    "fork": false,
+    "full_name": "BobLd/camelot-sharp",
+    "html_url": "https://github.com/BobLd/camelot-sharp",
+    "language": "C#",
+    "pushed_at": "2022-02-04T16:19:16Z",
+    "stargazers_count": 35,
+    "topics": [
+      "camelot",
+      "camelot-sharp",
+      "csharp",
+      "dotnet",
+      "extract-table",
+      "extracting-tables",
+      "extraction",
+      "extraction-engine",
+      "netstandard",
+      "opencv",
+      "pdf-table-extract",
+      "pdf-table-extraction",
+      "pdfparser",
+      "pdfpig",
+      "pdfs",
+      "table",
+      "table-extraction"
+    ],
+    "updated_at": "2025-11-26T07:07:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "Mac OS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-macos.yml",
+      "term": "Mac OS"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camelot"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camelot-sharp"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extract-table"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extracting-tables"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extraction"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extraction-engine"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netstandard"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-table-extract"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-table-extraction"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdfparser"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdfpig"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdfs"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table"
+    },
+    {
+      "context_snippet": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table-extraction"
+    }
+  ]
+}

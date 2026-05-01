@@ -355,6 +355,18 @@
       "source_repo": "microsoft/generative-ai-for-beginners",
       "status": "candidate-context",
       "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/Liquid",
+      "status": "candidate-context",
+      "text": "(Accepted by IJCV) Liquid: Language Models are Scalable and Unified Multi-modal Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/Liquid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "microsoft/generative-ai-for-beginners",
       "status": "candidate",
       "text": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/Liquid",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -898,11 +916,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/Liquid"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

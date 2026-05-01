@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/D4RL-Evaluations",
+      "target": "xbpeng/awr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/D4RL-Evaluations",
+      "target": "sfujim/bcq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/D4RL-Evaluations",
+      "target": "thesparta/off_policy_mujoco",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "Farama-Foundation/D4RL-Evaluations"
+}

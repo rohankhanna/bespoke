@@ -1,0 +1,17 @@
+{
+  "component": "visiky/dingtalk-release-notify@64fcb0373782b6c2f6d9b9ea3c68af80ca189585",
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/discussion-open-check.yml",
+      "source_repo": "ant-design/ant-design"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-open-check.yml",
+      "source_repo": "ant-design/ant-design"
+    }
+  ]
+}

@@ -5131,6 +5131,126 @@
       "source_repo": "replicate/cog",
       "status": "candidate-context",
       "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "status": "candidate-context",
+      "text": "Real-time pose estimation accelerated with NVIDIA TensorRT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "status": "candidate-context",
+      "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minar09/cp-vton-plus",
+      "status": "candidate-context",
+      "text": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\", CVPRW 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minar09/cp-vton-plus",
+      "status": "candidate-context",
+      "text": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e \ud83d\uddbc\ufe0f \ud83d\udd25PyTorch Toolbox for Image Quality Assessment, including PSNR, SSIM, LPIPS, FID, NIQE, NRQM(Ma), MUSIQ, TOPIQ, NIMA, DBCNN, BRISQUE, PI and more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GewelsJI/SINet-V2",
+      "status": "candidate-context",
+      "text": "Concealed Object Detection (SINet-V2, IEEE TPAMI 2022). Code is implemented by PyTorch/Jittor frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/SINet-V2",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meetps/pytorch-semseg",
+      "status": "candidate-context",
+      "text": "Semantic Segmentation Architectures Implemented in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meetps/pytorch-semseg",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/meetshah1995/pytorch-semseg/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate-context",
+      "text": "Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "We write your reusable computer vision tools. \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate-context",
+      "text": "PyTorch Wildlife: a Collaborative Deep Learning Framework for Conservation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate-context",
+      "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/MacBERT",
+      "status": "candidate-context",
+      "text": "Revisiting Pre-trained Models for Chinese Natural Language Processing (MacBERT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/MacBERT",
+      "status": "candidate-context",
+      "text": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate-context",
+      "text": "MiniRBT (\u4e2d\u6587\u5c0f\u578b\u9884\u8bad\u7ec3\u6a21\u578b\u7cfb\u5217)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -7695,6 +7815,66 @@
       "source_repo": "replicate/cog",
       "status": "candidate",
       "text": "Cog is an open-source tool that lets you package machine learning models in a standard, production-ready container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/trt_pose",
+      "status": "candidate",
+      "text": "> Want to detect hand poses? Check out the new [trt_pose_hand](http://github.com/NVIDIA-AI-IOT/trt_pose_hand) project for real-time hand pose and gesture recognition!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minar09/cp-vton-plus",
+      "status": "candidate",
+      "text": "Official implementation for \"CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On\" from CVPRW 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/SINet-V2",
+      "status": "candidate",
+      "text": "PyTorch implementation of our extended model, termed as Search and Identification Network (SINet-V2), for the COD task."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meetps/pytorch-semseg",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/meetshah1995/pytorch-semseg/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stanfordnlp/stanza",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://github.com/stanfordnlp/stanza/raw/dev/images/stanza-logo.png\" height=\"100px\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CameraTraps",
+      "status": "candidate",
+      "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/MacBERT",
+      "status": "candidate",
+      "text": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/MiniRBT",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/iflytek/minirbt) | [**English**](https://github.com/iflytek/minirbt/blob/main/README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -11278,11 +11458,191 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/trt_pose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "minar09/cp-vton-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "keras-team/keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "GewelsJI/SINet-V2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "stanfordnlp/stanza"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/CameraTraps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/MiniRBT"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

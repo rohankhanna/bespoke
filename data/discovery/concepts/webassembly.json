@@ -451,6 +451,18 @@
       "source_repo": "antelle/argon2-browser",
       "status": "candidate-context",
       "text": "Argon2 is a password-hashing function, the winner of Password Hashing Competition. Here Argon2 library is compiled for browser runtime."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kylebarron/arrow-js-ffi",
+      "status": "candidate-context",
+      "text": "Zero-copy reading of Arrow data from WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/arrow-js-ffi",
+      "status": "candidate-context",
+      "text": "Interpret [Arrow](https://arrow.apache.org/) memory across the WebAssembly boundary without serialization."
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "antelle/argon2-browser",
       "status": "candidate",
       "text": "Argon2 is a password-hashing function, the winner of Password Hashing Competition. Here Argon2 library is compiled for browser runtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kylebarron/arrow-js-ffi",
+      "status": "candidate",
+      "text": "Interpret [Arrow](https://arrow.apache.org/) memory across the WebAssembly boundary without serialization."
     }
   ],
   "candidate_related_terms": [],
@@ -910,11 +928,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "antelle/argon2-browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "kylebarron/arrow-js-ffi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

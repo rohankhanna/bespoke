@@ -55,6 +55,18 @@
       "source_repo": "apple/ml-cvnets",
       "status": "candidate-context",
       "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate-context",
+      "text": "The official repo for [NeurIPS'21] \"ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias\" and [IJCV'22] \"ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "apple/ml-cvnets",
       "status": "candidate",
       "text": "CVNets is a computer vision toolkit that allows researchers and engineers to train standard and novel mobile-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "apple/ml-cvnets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

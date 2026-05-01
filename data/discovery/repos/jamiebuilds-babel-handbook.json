@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jamiebuilds/babel-handbook",
+      "target": "thejameskyle/babel-handbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jamiebuilds/babel-handbook",
+      "target": "thejameskyle/babel-plugin-handbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "jamiebuilds/babel-handbook",
+      "target": "thejameskyle/babel-handbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jamiebuilds/babel-handbook",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jamiebuilds/babel-handbook",
+      "target": "handbook",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:10:46.348842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4136
+    },
+    {
+      "path": "package.json",
+      "size": 372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":blue_book: A guided handbook on how to use Babel and how to create plugins for Babel.",
+    "fork": false,
+    "full_name": "jamiebuilds/babel-handbook",
+    "html_url": "https://github.com/jamiebuilds/babel-handbook",
+    "language": null,
+    "pushed_at": "2024-06-25T15:30:34Z",
+    "stargazers_count": 12119,
+    "topics": [
+      "babel",
+      "handbook"
+    ],
+    "updated_at": "2026-04-26T23:05:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thejameskyle/babel-handbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thejameskyle/babel-plugin-handbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thejameskyle/babel-handbook",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Written by [Jamie Kyle](https://jamie.build/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "Written by [Jamie Kyle](https://jamie.build/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "handbook"
+    }
+  ]
+}

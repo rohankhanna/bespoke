@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BoosterRobotics/booster_gym",
+      "target": "boosterrobotics/booster_train",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BoosterRobotics/booster_gym",
+      "target": "boosterrobotics/booster_deploy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BoosterRobotics/booster_gym",
+      "target": "boosterrobotics/booster_assets",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "BoosterRobotics/booster_gym"
+}

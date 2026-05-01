@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Label Studio SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Release: Cut off release branch\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Release: Cut off release branch\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56248,
+      "status": "candidate",
+      "text": "bush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51752,
+      "status": "candidate",
+      "text": "lop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49436,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47752,
+      "status": "candidate",
+      "text": "cutting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47571,
+      "status": "candidate",
+      "text": "intercept"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release: Cut off release branch",
+      "sense_id": "release-cut-off-release-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-cut-off-release-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-cut-off-release-branch",
+  "observation_id": "08f9caed0b07960c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "Release: Cut off release branch",
+  "source_context_snippet": "\"Release: Cut off release branch\"",
+  "source_file": ".github/workflows/release-cut-off-release-branch.yml",
+  "source_repo": "HumanSignal/label-studio-sdk",
+  "source_repo_description": "Label Studio SDK"
+}

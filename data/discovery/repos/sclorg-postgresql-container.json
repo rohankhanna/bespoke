@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml"
+    },
+    {
+      "component": "sclorg/auto-merge-wrapper@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/download-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "sclorg/auto-merge-wrapper@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "sclorg/build-and-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "sclorg/build-and-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/distgen-check.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/gather-pull-request-metadata@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "devexp-db/distgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "sclorg/auto-merge-wrapper@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "Auto Merge On Demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "redhat-plumbers-in-action/download-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "sclorg/auto-merge-wrapper@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "Auto Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "sclorg/build-and-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "sclorg/ci-actions/.github/workflows/distgen-check.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "redhat-plumbers-in-action/gather-pull-request-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/postgresql-container",
+      "target": "Gather Pull Request Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/postgresql-container",
+      "target": "rhel7",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:47:11.603744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7416
+    },
+    {
+      "path": ".github/workflows/auto-merge-on-demand.yml",
+      "size": 2241
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 1021
+    },
+    {
+      "path": ".github/workflows/build-and-push.yml",
+      "size": 4696
+    },
+    {
+      "path": ".github/workflows/container-tests.yml",
+      "size": 564
+    },
+    {
+      "path": ".github/workflows/pr-metadata.yml",
+      "size": 667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PostgreSQL container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images.",
+    "fork": false,
+    "full_name": "sclorg/postgresql-container",
+    "html_url": "https://github.com/sclorg/postgresql-container",
+    "language": "PLpgSQL",
+    "pushed_at": "2026-04-28T06:40:10Z",
+    "stargazers_count": 175,
+    "topics": [
+      "centos",
+      "container",
+      "database",
+      "docker",
+      "dockerfile",
+      "openshift",
+      "postgresql",
+      "rhel7"
+    ],
+    "updated_at": "2026-04-28T06:40:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devexp-db/distgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Merge On Demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "term": "Auto Merge On Demand"
+    },
+    {
+      "context_snippet": "Auto Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Auto Merge"
+    },
+    {
+      "context_snippet": "Gather Pull Request Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "term": "Gather Pull Request Metadata"
+    },
+    {
+      "context_snippet": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centos"
+    },
+    {
+      "context_snippet": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![Build and push images to Quay.io registry](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/sclorg/postgresql-container/actions/workflows/build-and-push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhel7"
+    }
+  ]
+}

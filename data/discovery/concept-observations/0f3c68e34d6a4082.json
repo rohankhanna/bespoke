@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zero-label image classification via OpenCLIP knowledge distillation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"assets/overview.png\" height=\"320\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"assets/overview.png\" height=\"320\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960006,
+      "status": "candidate",
+      "text": "cognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962668,
+      "status": "candidate",
+      "text": "knowhow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962521,
+      "status": "candidate",
+      "text": "knowledgeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962495,
+      "status": "candidate",
+      "text": "cognisance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962475,
+      "status": "candidate",
+      "text": "informed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knowledge",
+      "sense_id": "knowledge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50055,
+      "status": "candidate",
+      "text": "cognition"
+    }
+  ],
+  "concept_id": "knowledge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "knowledge",
+  "observation_id": "0f3c68e34d6a4082",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "knowledge",
+  "source_context_snippet": "<img src=\"assets/overview.png\" height=\"320\"/>",
+  "source_file": null,
+  "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+  "source_repo_description": "Zero-label image classification via OpenCLIP knowledge distillation"
+}

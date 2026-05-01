@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:04:33.107801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21340
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Arena-Hard-Auto: An automatic LLM benchmark. ",
+    "fork": false,
+    "full_name": "lmarena/arena-hard-auto",
+    "html_url": "https://github.com/lmarena/arena-hard-auto",
+    "language": "Python",
+    "pushed_at": "2025-06-21T04:44:12Z",
+    "stargazers_count": 1016,
+    "topics": [],
+    "updated_at": "2026-04-28T19:31:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

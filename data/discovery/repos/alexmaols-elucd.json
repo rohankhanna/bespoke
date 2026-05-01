@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexMaOLS/EluCD",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexMaOLS/EluCD",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexMaOLS/EluCD",
+      "target": "guided-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:51:27.070064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elucidating The Design Space of Classifier-Guided Diffusion Generation",
+    "fork": false,
+    "full_name": "AlexMaOLS/EluCD",
+    "html_url": "https://github.com/AlexMaOLS/EluCD",
+    "language": "Python",
+    "pushed_at": "2024-01-20T07:03:10Z",
+    "stargazers_count": 33,
+    "topics": [
+      "aigc",
+      "diffusion-models",
+      "guided-diffusion"
+    ],
+    "updated_at": "2026-03-11T12:51:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guided-diffusion"
+    }
+  ]
+}

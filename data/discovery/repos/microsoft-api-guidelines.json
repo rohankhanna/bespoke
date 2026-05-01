@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/api-guidelines",
+      "target": "guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/api-guidelines",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/api-guidelines",
+      "target": "styleguide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:10:43.335189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "vNext",
+    "description": "Microsoft REST API Guidelines",
+    "fork": false,
+    "full_name": "microsoft/api-guidelines",
+    "html_url": "https://github.com/microsoft/api-guidelines",
+    "language": null,
+    "pushed_at": "2025-08-11T21:31:30Z",
+    "stargazers_count": 23260,
+    "topics": [
+      "api",
+      "guidelines",
+      "rest-api",
+      "styleguide"
+    ],
+    "updated_at": "2026-04-30T14:50:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guidelines"
+    },
+    {
+      "context_snippet": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "Thank you for your interest in the Microsoft REST API Guidelines. If you have landed here, you're probably interested in learning about APIs. If so, you are in the right place!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styleguide"
+    }
+  ]
+}

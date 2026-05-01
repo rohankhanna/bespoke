@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twri/sdxl_prompt_styler",
+      "target": "comfyui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:53:47.160064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Custom prompt styler node for SDXL in ComfyUI",
+    "fork": false,
+    "full_name": "twri/sdxl_prompt_styler",
+    "html_url": "https://github.com/twri/sdxl_prompt_styler",
+    "language": "Python",
+    "pushed_at": "2024-05-22T18:16:58Z",
+    "stargazers_count": 918,
+    "topics": [
+      "comfyui"
+    ],
+    "updated_at": "2026-04-28T10:47:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![SDXL Prompt Styler Screenshot](examples/sdxl_prompt_styler.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    }
+  ]
+}

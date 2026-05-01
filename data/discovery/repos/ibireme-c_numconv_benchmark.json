@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "fmtlib/format-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "jk-jeon/dragonbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "appnexus/acf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "j-jorge/atoi-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "atoi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "dtoa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "itoa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "target": "strtod",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:22.012973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8483
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C/C++ number \u2194\ufe0e string benchmark",
+    "fork": false,
+    "full_name": "ibireme/c_numconv_benchmark",
+    "html_url": "https://github.com/ibireme/c_numconv_benchmark",
+    "language": "C",
+    "pushed_at": "2025-12-05T17:11:27Z",
+    "stargazers_count": 73,
+    "topics": [
+      "atoi",
+      "c",
+      "conversion",
+      "cpp",
+      "dtoa",
+      "itoa",
+      "number",
+      "performance",
+      "strtod"
+    ],
+    "updated_at": "2026-04-05T04:30:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appnexus/acf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fmtlib/format-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j-jorge/atoi-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jk-jeon/dragonbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atoi"
+    },
+    {
+      "context_snippet": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversion"
+    },
+    {
+      "context_snippet": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dtoa"
+    },
+    {
+      "context_snippet": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "itoa"
+    },
+    {
+      "context_snippet": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "number"
+    },
+    {
+      "context_snippet": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strtod"
+    }
+  ]
+}

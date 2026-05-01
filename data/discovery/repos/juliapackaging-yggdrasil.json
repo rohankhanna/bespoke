@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "dyladan/component-owners@7ff2b343629407c4dbe1c28ae66f55f723543d2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/component_owners.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@f6f565d9f7cf12f53dc8045742460d6260ad3b39",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml"
+    },
+    {
+      "component": "julia-actions/cache@9a93c5fb3e9c1c20b60fc80a478cae53e38618a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "juliagraphics/cairo.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "juliamath/fftw.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "juliamath/gsl.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "juliagraphics/gtk.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/component_owners.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "dyladan/component-owners@7ff2b343629407c4dbe1c28ae66f55f723543d2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/component_owners.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "Component Owners",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "julia-actions/setup-julia@f6f565d9f7cf12f53dc8045742460d6260ad3b39",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "julia-actions/cache@9a93c5fb3e9c1c20b60fc80a478cae53e38618a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_manifest.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_manifest.yml",
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "Update Manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "binarybuilder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackaging/Yggdrasil",
+      "target": "monorepo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:31.826954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4006
+    },
+    {
+      "path": ".github/workflows/component_owners.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/update_manifest.yml",
+      "size": 1496
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of builder repositories for BinaryBuilder.jl",
+    "fork": false,
+    "full_name": "JuliaPackaging/Yggdrasil",
+    "html_url": "https://github.com/JuliaPackaging/Yggdrasil",
+    "language": "Fortran",
+    "pushed_at": "2026-04-30T22:07:53Z",
+    "stargazers_count": 398,
+    "topics": [
+      "binarybuilder",
+      "hacktoberfest",
+      "julia",
+      "monorepo"
+    ],
+    "updated_at": "2026-04-30T22:08:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliagraphics/cairo.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliagraphics/gtk.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliamath/fftw.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliamath/gsl.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Component Owners'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/component_owners.yml",
+      "term": "Component Owners"
+    },
+    {
+      "context_snippet": "Update Manifest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_manifest.yml",
+      "term": "Update Manifest"
+    },
+    {
+      "context_snippet": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binarybuilder"
+    },
+    {
+      "context_snippet": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "![Yggdrasil](https://user-images.githubusercontent.com/1282691/177174254-aa90664e-5c20-4ea3-9938-34de961dc198.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monorepo"
+    }
+  ]
+}

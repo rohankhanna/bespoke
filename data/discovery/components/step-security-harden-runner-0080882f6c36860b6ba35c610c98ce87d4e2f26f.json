@@ -1,0 +1,32 @@
+{
+  "component": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-clang-scan.yml",
+      "source_repo": "intel/pcm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake-options.yml",
+      "source_repo": "intel/pcm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux-report.yml",
+      "source_repo": "intel/pcm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux.yml",
+      "source_repo": "intel/pcm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-python.yml",
+      "source_repo": "intel/pcm"
+    }
+  ]
+}

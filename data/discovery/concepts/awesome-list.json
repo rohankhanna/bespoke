@@ -619,6 +619,18 @@
       "source_repo": "veggiemonk/awesome-docker",
       "status": "candidate-context",
       "text": "> A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "status": "candidate-context",
+      "text": "Awesome-DragGAN: A curated list of papers, tutorials, repositories related to DragGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
     }
   ],
   "candidate_glosses": [
@@ -921,6 +933,12 @@
       "source_repo": "veggiemonk/awesome-docker",
       "status": "candidate",
       "text": "> A curated list of Docker resources and projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Awesome-DragGAN",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
     }
   ],
   "candidate_related_terms": [],
@@ -1306,11 +1324,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "veggiemonk/awesome-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Awesome-DragGAN"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

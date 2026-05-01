@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "lefou/LambdaTest",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "lefou/LambdaTest",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "java5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "java8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "junit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "junit5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lefou/LambdaTest",
+      "target": "testng",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:44:23.251641+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LambdaTest - Lambda-enabled functional testing API on top of JUnit and TestNG",
+    "fork": false,
+    "full_name": "lefou/LambdaTest",
+    "html_url": "https://github.com/lefou/LambdaTest",
+    "language": "Java",
+    "pushed_at": "2023-11-23T17:16:50Z",
+    "stargazers_count": 9,
+    "topics": [
+      "functional-programming",
+      "java",
+      "java5",
+      "java8",
+      "junit",
+      "junit5",
+      "specification",
+      "testing",
+      "testng"
+    ],
+    "updated_at": "2023-09-08T16:51:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java5"
+    },
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java8"
+    },
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "junit"
+    },
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "junit5"
+    },
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "on: [push, pull_request] jobs: build: strategy: fail-fast: false matrix: os: [ubuntu-latest] java-version: [8, 11] runs-on: ${{ matrix.os }} steps: - uses: actions/checkout@v2 with: fetch-depth: 0 - uses: actions/setup-java@v1 with: java-version: ${{ matrix.java-version }} - run\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testng"
+    }
+  ]
+}

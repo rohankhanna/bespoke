@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:00:46.406493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "apple/ml-sid-dit",
+    "html_url": "https://github.com/apple/ml-sid-dit",
+    "language": "Python",
+    "pushed_at": "2025-10-29T18:56:10Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-22T12:58:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

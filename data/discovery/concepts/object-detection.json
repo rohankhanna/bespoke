@@ -931,6 +931,78 @@
       "source_repo": "VDIGPKU/DynamicDet",
       "status": "candidate-context",
       "text": "This repo contains the official implementation of [**\"DynamicDet: A Unified Dynamic Architecture for Object Detection\"**](https://arxiv.org/abs/2304.05552)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate-context",
+      "text": "The official repo for [NeurIPS'21] \"ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias\" and [IJCV'22] \"ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate-context",
+      "text": "A comprehensive list [SAMRS@NeurIPS'23, RVSA@TGRS'22, RSP@TGRS'22] of our research works related to remote sensing, including papers, codes, and citations. Note: The repo for [TGRS'22] \"An Empirical Study of Remote Sensing Pretraining\" has been moved to: https://github.com/ViTAE-Transformer/RSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate-context",
+      "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate-context",
+      "text": "Muggled SAM: Segmentation without the magic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate-context",
+      "text": "This repo contains a simplified implementation of the awesome 'Segment Anything' models from [facebookresearch](https://ai.meta.com/research/#projects) ([SAM1](https://github.com/facebookresearch/segment-anything), [SAM2](https://github.com/facebookresearch/sam2) & [SAM3](https:\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate-context",
+      "text": "Grounding DINO 1.5: IDEA Research's Most Capable Open-World Object Detection Model Series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Grounding DINO 1.5</h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "We write your reusable computer vision tools. \ud83d\udc9c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1395,6 +1467,42 @@
       "source_repo": "VDIGPKU/DynamicDet",
       "status": "candidate",
       "text": "This repo contains the official implementation of [**\"DynamicDet: A Unified Dynamic Architecture for Object Detection\"**](https://arxiv.org/abs/2304.05552)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond<a href=\"https://arxiv.org/abs/2202.10108\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing",
+      "status": "candidate",
+      "text": "> ### :alarm_clock: The repo of the paper \"An Empirical Study of Remote Sensing Pretraining\" has been moved to [RSP](https://github.com/ViTAE-Transformer/RSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_sam",
+      "status": "candidate",
+      "text": "This repo contains a simplified implementation of the awesome 'Segment Anything' models from [facebookresearch](https://ai.meta.com/research/#projects) ([SAM1](https://github.com/facebookresearch/segment-anything), [SAM2](https://github.com/facebookresearch/sam2) & [SAM3](https:\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fundamentalvision/BEVFormer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Grounding DINO 1.5</h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboflow/supervision",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1990,11 +2098,77 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_sam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "fundamentalvision/BEVFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounding-DINO-1.5-API"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/supervision"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

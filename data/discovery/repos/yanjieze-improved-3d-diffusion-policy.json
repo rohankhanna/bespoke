@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy",
+      "target": "intelrealsense/librealsense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy",
+      "target": "columbia-ai-robotics/diffusion_policy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy",
+      "target": "improbable-ai/visionproteleop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/Improved-3D-Diffusion-Policy",
+      "target": "opentelevision/television",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:09:22.467965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IROS 2025] Generalizable Humanoid Manipulation with 3D Diffusion Policies. Part 1: Train & Deploy of iDP3",
+    "fork": false,
+    "full_name": "YanjieZe/Improved-3D-Diffusion-Policy",
+    "html_url": "https://github.com/YanjieZe/Improved-3D-Diffusion-Policy",
+    "language": "Python",
+    "pushed_at": "2025-06-16T06:52:49Z",
+    "stargazers_count": 526,
+    "topics": [],
+    "updated_at": "2026-04-30T03:30:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "columbia-ai-robotics/diffusion_policy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "improbable-ai/visionproteleop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelrealsense/librealsense",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opentelevision/television",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -89,6 +89,18 @@
       "source_repo": "wenet-e2e/wenet",
       "status": "candidate-context",
       "text": "UnitTest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nicolas-chaulet/torch-points3d",
+      "status": "candidate-context",
+      "text": "Pytorch framework for doing deep learning on point clouds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicolas-chaulet/torch-points3d",
+      "status": "candidate-context",
+      "text": "unittest"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
       "source_repo": "wenet-e2e/wenet",
       "status": "candidate",
       "text": "UnitTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicolas-chaulet/torch-points3d",
+      "status": "candidate",
+      "text": "unittest"
     }
   ],
   "candidate_related_terms": [
@@ -218,11 +236,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/unit_test.yml",
       "source_repo": "wenet-e2e/wenet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "nicolas-chaulet/torch-points3d"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

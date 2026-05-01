@@ -113,7 +113,7 @@
   "normalized_form": "package",
   "observation_id": "50f4ea6a9a072ff5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
   "observed_text": "Package",
   "source_context_snippet": "Package",
   "source_file": ".github/workflows/ci-pkg-install.yml",

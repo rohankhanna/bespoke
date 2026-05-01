@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T00:55:44.590541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Deformable Convolution v4",
+    "fork": false,
+    "full_name": "OpenGVLab/DCNv4",
+    "html_url": "https://github.com/OpenGVLab/DCNv4",
+    "language": "Python",
+    "pushed_at": "2024-05-17T04:00:21Z",
+    "stargazers_count": 730,
+    "topics": [],
+    "updated_at": "2026-04-27T06:44:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

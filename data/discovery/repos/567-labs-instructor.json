@@ -1,6 +1,16 @@
 {
   "components": [
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-label.yml"
+    },
+    {
+      "component": "jlowin/ai-labeler@v0.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-label.yml"
+    },
+    {
       "component": "actions/checkout@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/evals.yml"
@@ -143,6 +153,27 @@
       "source_repo": "567-labs/instructor",
       "target": "instructor-ai/instructor",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-label.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-label.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "jlowin/ai-labeler@v0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-label.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "AI Labeler",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -313,7 +344,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:53:12.183723+00:00",
+  "fetched_at": "2026-05-01T01:05:51.224397+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -326,6 +357,10 @@
     {
       "path": "requirements.txt",
       "size": 2046
+    },
+    {
+      "path": ".github/workflows/ai-label.yml",
+      "size": 431
     },
     {
       "path": ".github/workflows/evals.yml",
@@ -362,7 +397,7 @@
     "html_url": "https://github.com/567-labs/instructor",
     "language": "Python",
     "pushed_at": "2026-04-22T21:57:50Z",
-    "stargazers_count": 12856,
+    "stargazers_count": 12858,
     "topics": [
       "openai",
       "openai-function-calli",
@@ -371,7 +406,7 @@
       "python",
       "validation"
     ],
-    "updated_at": "2026-04-30T12:33:28Z"
+    "updated_at": "2026-04-30T19:01:00Z"
   },
   "repo_links": [
     {
@@ -381,6 +416,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "AI Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-label.yml",
+      "term": "AI Labeler"
+    },
     {
       "context_snippet": "Weekly Tests",
       "edge_type": "workflow-name",

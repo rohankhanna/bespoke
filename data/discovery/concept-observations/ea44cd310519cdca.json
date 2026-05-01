@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Elucidating The Design Space of Classifier-Guided Diffusion Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guided-diffusion",
+      "sense_id": "guided-diffusion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "guided-diffusion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "guided-diffusion",
+  "observation_id": "ea44cd310519cdca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "guided-diffusion",
+  "source_context_snippet": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster",
+  "source_file": null,
+  "source_repo": "AlexMaOLS/EluCD",
+  "source_repo_description": "Elucidating The Design Space of Classifier-Guided Diffusion Generation"
+}

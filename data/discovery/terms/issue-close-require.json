@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-close-require.yml",
       "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "ant-design/ant-design"
     }
   ],
   "term": "Issue Close Require"

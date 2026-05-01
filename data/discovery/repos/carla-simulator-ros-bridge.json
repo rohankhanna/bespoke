@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "carla-simulator/ros-bridge",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "carla-simulator/ros-bridge",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "carla-simulator/ros-bridge",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:18.135710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1563
+    },
+    {
+      "path": "requirements.txt",
+      "size": 89
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ROS bridge for CARLA Simulator",
+    "fork": false,
+    "full_name": "carla-simulator/ros-bridge",
+    "html_url": "https://github.com/carla-simulator/ros-bridge",
+    "language": "Python",
+    "pushed_at": "2026-04-16T17:04:12Z",
+    "stargazers_count": 628,
+    "topics": [],
+    "updated_at": "2026-04-15T02:24:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

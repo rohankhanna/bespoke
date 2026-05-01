@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Immutables as mutables, mutables as immutables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run test via Pkg.test()"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run test via Pkg.test()"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34246,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34246,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26952,
+      "status": "candidate",
+      "text": "impale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26051,
+      "status": "candidate",
+      "text": "flyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25985,
+      "status": "candidate",
+      "text": "feeler"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run test via Pkg.test()",
+      "sense_id": "run-test-via-pkg.test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-test-via-pkg.test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-test-via-pkg.test",
+  "observation_id": "5b7fa28ad0ae6d4e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "Run test via Pkg.test()",
+  "source_context_snippet": "Run test via Pkg.test()",
+  "source_file": ".github/workflows/vanilla-test.yml",
+  "source_repo": "JuliaFolds/BangBang.jl",
+  "source_repo_description": "Immutables as mutables, mutables as immutables."
+}

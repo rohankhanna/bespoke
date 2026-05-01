@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bennyguo/instant-nsr-pl",
+      "target": "kair-bair/nerfacc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bennyguo/instant-nsr-pl",
+      "target": "lightning-ai/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bennyguo/instant-nsr-pl",
+      "target": "omry/omegaconf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bennyguo/instant-nsr-pl",
+      "target": "kwea123/ngp_pl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:00:55.423805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9588
+    },
+    {
+      "path": "requirements.txt",
+      "size": 163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neural Surface reconstruction based on Instant-NGP. Efficient and customizable boilerplate for your research projects. Train NeuS in 10min!",
+    "fork": false,
+    "full_name": "bennyguo/instant-nsr-pl",
+    "html_url": "https://github.com/bennyguo/instant-nsr-pl",
+    "language": "Python",
+    "pushed_at": "2023-11-22T02:02:54Z",
+    "stargazers_count": 923,
+    "topics": [],
+    "updated_at": "2026-04-20T08:47:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kair-bair/nerfacc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwea123/ngp_pl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omry/omegaconf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

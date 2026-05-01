@@ -67,6 +67,18 @@
       "source_repo": "NVlabs/MUNIT",
       "status": "candidate-context",
       "text": "**The code base is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate-context",
+      "text": "Image-to-image translation with conditional adversarial nets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate-context",
+      "text": "[Project](https://phillipi.github.io/pix2pix/) | [Arxiv](https://arxiv.org/abs/1611.07004) |"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "NVlabs/MUNIT",
       "status": "candidate",
       "text": "**The code base is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phillipi/pix2pix",
+      "status": "candidate",
+      "text": "[Project](https://phillipi.github.io/pix2pix/) | [Arxiv](https://arxiv.org/abs/1611.07004) |"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "NVlabs/MUNIT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "phillipi/pix2pix"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

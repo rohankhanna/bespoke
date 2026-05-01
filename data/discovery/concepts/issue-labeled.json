@@ -67,6 +67,18 @@
       "source_repo": "web-infra-dev/midscene",
       "status": "candidate-context",
       "text": "Issue Labeled"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ant-design/ant-design",
+      "status": "candidate-context",
+      "text": "An enterprise-class UI design language and React UI library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design",
+      "status": "candidate-context",
+      "text": "Issue Labeled"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "web-infra-dev/midscene",
+      "status": "candidate",
+      "text": "Issue Labeled"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design",
       "status": "candidate",
       "text": "Issue Labeled"
     }
@@ -202,11 +220,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/issue-labeled.yml",
       "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "ant-design/ant-design"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

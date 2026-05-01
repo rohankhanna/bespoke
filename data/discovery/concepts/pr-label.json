@@ -67,6 +67,54 @@
       "source_repo": "apple/swift-nio",
       "status": "candidate-context",
       "text": "PR label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio-extras",
+      "status": "candidate-context",
+      "text": "Useful code around SwiftNIO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-extras",
+      "status": "candidate-context",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio-http2",
+      "status": "candidate-context",
+      "text": "HTTP/2 support for SwiftNIO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-http2",
+      "status": "candidate-context",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio-ssh",
+      "status": "candidate-context",
+      "text": "SwiftNIO SSH is a programmatic implementation of SSH using SwiftNIO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-ssh",
+      "status": "candidate-context",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-nio-ssl",
+      "status": "candidate-context",
+      "text": "TLS Support for SwiftNIO, based on BoringSSL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-ssl",
+      "status": "candidate-context",
+      "text": "PR label"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +145,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apple/swift-nio",
+      "status": "candidate",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-extras",
+      "status": "candidate",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-http2",
+      "status": "candidate",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-ssh",
+      "status": "candidate",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-nio-ssl",
       "status": "candidate",
       "text": "PR label"
     }
@@ -172,11 +244,35 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/pull_request_label.yml",
       "source_repo": "apple/swift-nio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-extras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-http2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-ssh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-nio-ssl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

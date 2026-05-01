@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-header-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@284f54f989303d2699d373481a0cfa13ad5a6666",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml"
+    },
+    {
+      "component": "peter-evans/find-comment@81e2da3af01c92f83cb927cf3ace0e085617c556",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@5adcb0bb0f9fb3f95ef05400558bdb3f329ee808",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@d507ab47ffeb036bd3671233143d8026470aa955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-header-check.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-header-check.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "Graphcore copyright header check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "peter-evans/create-pull-request@284f54f989303d2699d373481a0cfa13ad5a6666",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "peter-evans/find-comment@81e2da3af01c92f83cb927cf3ace0e085617c556",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-checks.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "peter-evans/create-or-update-comment@5adcb0bb0f9fb3f95ef05400558bdb3f329ee808",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-checks.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "Pre-Commit Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "mikepenz/action-junit-report@d507ab47ffeb036bd3671233143d8026470aa955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "graphcore/examples-utils",
+      "target": "Run pytest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:42.100367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2182
+    },
+    {
+      "path": "requirements.txt",
+      "size": 93
+    },
+    {
+      "path": ".github/workflows/copyright-header-check.yaml",
+      "size": 320
+    },
+    {
+      "path": ".github/workflows/pre-commit-checks.yaml",
+      "size": 3255
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 1484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Utils and common code for Graphcore's example applications",
+    "fork": false,
+    "full_name": "graphcore/examples-utils",
+    "html_url": "https://github.com/graphcore/examples-utils",
+    "language": "Python",
+    "pushed_at": "2023-09-18T13:40:55Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-09-09T16:12:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Graphcore copyright header check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-header-check.yaml",
+      "term": "Graphcore copyright header check"
+    },
+    {
+      "context_snippet": "Pre-Commit Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-checks.yaml",
+      "term": "Pre-Commit Checks"
+    },
+    {
+      "context_snippet": "Run pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "term": "Run pytest"
+    }
+  ]
+}

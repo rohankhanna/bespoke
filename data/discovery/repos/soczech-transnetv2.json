@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soCzech/TransNetV2",
+      "target": "soczech/transnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soCzech/TransNetV2",
+      "target": "melgharib/dsbd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soCzech/TransNetV2",
+      "target": "tangshitao/clipshots_basline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soCzech/TransNetV2",
+      "target": "tangshitao/clipshots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soCzech/TransNetV2",
+      "target": "shot-boundary-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soCzech/TransNetV2",
+      "target": "shot-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:57:16.635825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TransNet V2: Shot Boundary Detection Neural Network",
+    "fork": false,
+    "full_name": "soCzech/TransNetV2",
+    "html_url": "https://github.com/soCzech/TransNetV2",
+    "language": "Python",
+    "pushed_at": "2023-12-04T20:06:15Z",
+    "stargazers_count": 927,
+    "topics": [
+      "shot-boundary-detection",
+      "shot-detection"
+    ],
+    "updated_at": "2026-04-30T13:34:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "melgharib/dsbd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soczech/transnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tangshitao/clipshots",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tangshitao/clipshots_basline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code for [TransNet V2: An effective deep network architecture for fast shot transition detection](https://arxiv.org/abs/2008.04838).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shot-boundary-detection"
+    },
+    {
+      "context_snippet": "This repository contains code for [TransNet V2: An effective deep network architecture for fast shot transition detection](https://arxiv.org/abs/2008.04838).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shot-detection"
+    }
+  ]
+}

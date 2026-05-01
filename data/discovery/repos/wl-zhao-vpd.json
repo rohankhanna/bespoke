@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wl-zhao/VPD",
+      "target": "yz93/lavt-ris",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wl-zhao/VPD",
+      "target": "swintransformer/mim-depth-estimation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:34.619091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] VPD is a framework that leverages the high-level and low-level knowledge of a pre-trained text-to-image diffusion model to downstream visual perception tasks.",
+    "fork": false,
+    "full_name": "wl-zhao/VPD",
+    "html_url": "https://github.com/wl-zhao/VPD",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-21T02:22:30Z",
+    "stargazers_count": 540,
+    "topics": [],
+    "updated_at": "2026-04-24T15:07:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swintransformer/mim-depth-estimation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yz93/lavt-ris",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

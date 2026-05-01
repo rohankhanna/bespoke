@@ -165,6 +165,18 @@
       "source_repo": "mono/CppSharp",
       "status": "candidate-context",
       "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloomberg/clang-p2996",
+      "status": "candidate-context",
+      "text": "Experimental clang support for WG21 P2996 (Reflection)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/clang-p2996",
+      "status": "candidate-context",
+      "text": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +257,12 @@
       "source_repo": "mono/CppSharp",
       "status": "candidate",
       "text": "<img src=\"docs/logo.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloomberg/clang-p2996",
+      "status": "candidate",
+      "text": "This repository is a fork of LLVM's `llvm-project` repository, created to host a fork of the"
     }
   ],
   "candidate_related_terms": [
@@ -426,11 +444,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "mono/CppSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "bloomberg/clang-p2996"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

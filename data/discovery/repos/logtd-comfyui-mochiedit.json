@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:03:25.945053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI nodes to edit videos using Genmo Mochi",
+    "fork": false,
+    "full_name": "logtd/ComfyUI-MochiEdit",
+    "html_url": "https://github.com/logtd/ComfyUI-MochiEdit",
+    "language": "Python",
+    "pushed_at": "2024-11-03T18:38:16Z",
+    "stargazers_count": 298,
+    "topics": [],
+    "updated_at": "2026-03-20T17:38:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

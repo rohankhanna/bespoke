@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run test via Pkg.test()"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "status": "candidate-context",
+      "text": "Immutables as mutables, mutables as immutables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "status": "candidate-context",
+      "text": "Run test via Pkg.test()"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "status": "candidate",
+      "text": "Run test via Pkg.test()"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34246,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34246,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26952,
+      "status": "candidate",
+      "text": "impale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26051,
+      "status": "candidate",
+      "text": "flyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25985,
+      "status": "candidate",
+      "text": "feeler"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run test via Pkg.test()",
+  "concept_id": "run-test-via-pkg.test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/vanilla-test.yml",
+      "source_repo": "JuliaFolds/BangBang.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run test via Pkg.test()",
+      "sense_id": "run-test-via-pkg.test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

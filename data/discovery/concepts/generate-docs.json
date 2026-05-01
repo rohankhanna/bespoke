@@ -213,6 +213,18 @@
       "source_repo": "2KAbhishek/utils.nvim",
       "status": "candidate-context",
       "text": "Generate Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse, Maven, and Gradle plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
+      "status": "candidate-context",
+      "text": "Generate Docs"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/utils.nvim",
+      "status": "candidate",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bndtools/bnd",
       "status": "candidate",
       "text": "Generate Docs"
     }
@@ -474,11 +492,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "2KAbhishek/utils.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/docs_generate.yml",
+      "source_repo": "bndtools/bnd"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

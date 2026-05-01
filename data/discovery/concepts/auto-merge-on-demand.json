@@ -31,6 +31,18 @@
       "source_repo": "sclorg/mysql-container",
       "status": "candidate-context",
       "text": "Auto Merge On Demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/postgresql-container",
+      "status": "candidate-context",
+      "text": "PostgreSQL container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/postgresql-container",
+      "status": "candidate-context",
+      "text": "Auto Merge On Demand"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sclorg/mysql-container",
+      "status": "candidate",
+      "text": "Auto Merge On Demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/postgresql-container",
       "status": "candidate",
       "text": "Auto Merge On Demand"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/auto-merge-on-demand.yml",
       "source_repo": "sclorg/mysql-container"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/postgresql-container"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

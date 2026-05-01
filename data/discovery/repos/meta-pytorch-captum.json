@@ -46,13 +46,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "meta-pytorch/captum",
-      "target": "conda-forge/captum-feedstock",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "meta-pytorch/captum",
       "target": "pytorch/captum",
@@ -192,7 +185,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:11:16.598806+00:00",
+  "fetched_at": "2026-05-01T00:59:42.953638+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -252,11 +245,6 @@
     "updated_at": "2026-04-30T10:13:55Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "conda-forge/captum-feedstock",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "pytorch/captum",

@@ -1,0 +1,12 @@
+{
+  "component": "beached/msvc-dev-cmd@285e7c0b9b57a02c900951da93a77e656425d783",
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "beached/daw_json_link"
+    }
+  ]
+}

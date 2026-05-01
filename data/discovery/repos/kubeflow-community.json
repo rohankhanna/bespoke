@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "kubeflow/community",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "kubeflow/community",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/community",
+      "target": "kubeflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/community",
+      "target": "kubeflow-community",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:53:09.174797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1997
+    },
+    {
+      "path": "go.mod",
+      "size": 112
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 2565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Information about the Kubeflow community including proposals and governance information.",
+    "fork": false,
+    "full_name": "kubeflow/community",
+    "html_url": "https://github.com/kubeflow/community",
+    "language": "Jsonnet",
+    "pushed_at": "2026-04-29T15:14:01Z",
+    "stargazers_count": 196,
+    "topics": [
+      "kubeflow",
+      "kubeflow-community"
+    ],
+    "updated_at": "2026-04-30T23:46:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Welcome to Kubeflow! We're glad to have you here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubeflow"
+    },
+    {
+      "context_snippet": "Welcome to Kubeflow! We're glad to have you here.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubeflow-community"
+    }
+  ]
+}

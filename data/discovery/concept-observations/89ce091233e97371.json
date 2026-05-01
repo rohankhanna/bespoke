@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Keeping track of Spectral Rulesets in the wild, helping you build better, more consistent APIs, via OpenAPI, AsyncAPI, JSON Schema, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Keeping track of Spectral Rulesets in the wild, covering all sorts of use-cases like enforcing organization's API Style Guides, security scanning, spellchecking, and helping folks write better quality API descriptions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Keeping track of Spectral Rulesets in the wild, covering all sorts of use-cases like enforcing organization's API Style Guides, security scanning, spellchecking, and helping folks write better quality API descriptions."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stoplight-spectral",
+      "sense_id": "stoplight-spectral#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stoplight-spectral",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stoplight-spectral",
+  "observation_id": "89ce091233e97371",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "stoplight-spectral",
+  "source_context_snippet": "Keeping track of Spectral Rulesets in the wild, covering all sorts of use-cases like enforcing organization's API Style Guides, security scanning, spellchecking, and helping folks write better quality API descriptions.",
+  "source_file": null,
+  "source_repo": "stoplightio/spectral-rulesets",
+  "source_repo_description": "Keeping track of Spectral Rulesets in the wild, helping you build better, more consistent APIs, via OpenAPI, AsyncAPI, JSON Schema, etc."
+}

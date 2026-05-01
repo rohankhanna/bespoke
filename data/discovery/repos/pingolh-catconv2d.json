@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PingoLH/CatConv2d",
+      "target": "pingolh/centernet-hardnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:27.472775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Concat+Conv2d fused all-in-one CUDA kernel extension for Pytorch",
+    "fork": false,
+    "full_name": "PingoLH/CatConv2d",
+    "html_url": "https://github.com/PingoLH/CatConv2d",
+    "language": "Cuda",
+    "pushed_at": "2021-08-17T02:07:06Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-05-11T07:25:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pingolh/centernet-hardnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

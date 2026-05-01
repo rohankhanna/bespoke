@@ -19,6 +19,18 @@
       "source_repo": "robot-descriptions/robot_descriptions.py",
       "status": "candidate-context",
       "text": "[![Build](https://img.shields.io/github/actions/workflow/status/robot-descriptions/robot_descriptions.py/test.yml?branch=main)](https://github.com/robot-descriptions/robot_descriptions.py/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate-context",
+      "text": "Python parser for URDFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "robot-descriptions/robot_descriptions.py",
       "status": "candidate",
       "text": "[![Build](https://img.shields.io/github/actions/workflow/status/robot-descriptions/robot_descriptions.py/test.yml?branch=main)](https://github.com/robot-descriptions/robot_descriptions.py/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "robot-descriptions/robot_descriptions.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

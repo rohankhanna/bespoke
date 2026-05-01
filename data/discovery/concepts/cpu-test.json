@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "cpu-test"
+    "cpu-test",
+    "CPU Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,12 @@
       "source_repo": "HabanaAI/vllm-fork",
       "status": "candidate-context",
       "text": "cpu-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "af-74413592/DeepWerewolf",
+      "status": "candidate-context",
+      "text": "CPU Test"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +34,51 @@
       "source_repo": "HabanaAI/vllm-fork",
       "status": "candidate",
       "text": "cpu-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "af-74413592/DeepWerewolf",
+      "status": "candidate",
+      "text": "CPU Test"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15601,
+      "status": "candidate",
+      "text": "microcode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15560,
+      "status": "candidate",
+      "text": "microcontroller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14809,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14809,
+      "status": "candidate",
+      "text": "mios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14809,
+      "status": "candidate",
+      "text": "mips"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "cpu-test",
   "concept_id": "cpu-test",
@@ -40,11 +89,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/cpu-test.yml",
       "source_repo": "HabanaAI/vllm-fork"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "af-74413592/DeepWerewolf"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

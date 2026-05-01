@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nerfstudio-project/nerfacc",
-      "target": "nerfstudio-project/nerfstudio",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nerfstudio-project/nerfacc",
-      "target": "threestudio-project/threestudio",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nerfstudio-project/nerfacc",
-      "target": "bennyguo/instant-nsr-pl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nerfstudio-project/nerfacc",
-      "target": "zju3dv/mlp_maps",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/building.yml",
       "source_repo": "nerfstudio-project/nerfacc",
@@ -148,6 +120,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
   "source_repo": "nerfstudio-project/nerfacc"
 }

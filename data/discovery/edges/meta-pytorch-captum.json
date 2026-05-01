@@ -9,13 +9,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "meta-pytorch/captum",
-      "target": "conda-forge/captum-feedstock",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "meta-pytorch/captum",
       "target": "pytorch/captum",
@@ -155,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
   "source_repo": "meta-pytorch/captum"
 }

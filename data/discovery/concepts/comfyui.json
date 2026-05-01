@@ -235,6 +235,18 @@
       "source_repo": "neverbiasu/ComfyUI-BAGEL",
       "status": "candidate-context",
       "text": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twri/sdxl_prompt_styler",
+      "status": "candidate-context",
+      "text": "Custom prompt styler node for SDXL in ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twri/sdxl_prompt_styler",
+      "status": "candidate-context",
+      "text": "![SDXL Prompt Styler Screenshot](examples/sdxl_prompt_styler.png)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "neverbiasu/ComfyUI-BAGEL",
       "status": "candidate",
       "text": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twri/sdxl_prompt_styler",
+      "status": "candidate",
+      "text": "![SDXL Prompt Styler Screenshot](examples/sdxl_prompt_styler.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -586,11 +604,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "twri/sdxl_prompt_styler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hzwer/ECCV2022-RIFE",
-      "target": "hooke007/mpv_playkit",
+      "target": "hzwer/practical-rife",
       "target_type": "repository"
     },
     {
@@ -64,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
   "source_repo": "hzwer/ECCV2022-RIFE"
 }

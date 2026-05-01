@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:02:47.844171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Given a scholarly PDF, extract figures, tables, captions, and section titles.",
+    "fork": false,
+    "full_name": "allenai/pdffigures2",
+    "html_url": "https://github.com/allenai/pdffigures2",
+    "language": "Scala",
+    "pushed_at": "2024-03-10T09:43:06Z",
+    "stargazers_count": 741,
+    "topics": [],
+    "updated_at": "2026-04-26T19:33:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

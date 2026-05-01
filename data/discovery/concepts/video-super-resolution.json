@@ -43,6 +43,18 @@
       "source_repo": "JingyunLiang/RVRT",
       "status": "candidate-context",
       "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/VEnhancer",
+      "status": "candidate-context",
+      "text": "Official codes of VEnhancer: Generative Space-Time Enhancement for Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VEnhancer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JingyunLiang/RVRT",
       "status": "candidate",
       "text": "[arxiv](https://arxiv.org/abs/2206.02146)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VEnhancer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +142,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "JingyunLiang/RVRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Vchitect/VEnhancer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

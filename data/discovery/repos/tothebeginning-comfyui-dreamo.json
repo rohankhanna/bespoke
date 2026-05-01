@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ToTheBeginning/ComfyUI-DreamO",
+      "target": "lldacing/comfyui_pulid_flux_ll",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ToTheBeginning/ComfyUI-DreamO",
+      "target": "tothebeginning/facexlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ToTheBeginning/ComfyUI-DreamO",
+      "target": "tothebeginning/facexlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ToTheBeginning/ComfyUI-DreamO",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ToTheBeginning/ComfyUI-DreamO",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ToTheBeginning/ComfyUI-DreamO",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:06:07.477383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4677
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 532
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DreamO native implementation for ComfyUI",
+    "fork": false,
+    "full_name": "ToTheBeginning/ComfyUI-DreamO",
+    "html_url": "https://github.com/ToTheBeginning/ComfyUI-DreamO",
+    "language": "Python",
+    "pushed_at": "2025-08-22T11:48:28Z",
+    "stargazers_count": 179,
+    "topics": [],
+    "updated_at": "2026-04-09T10:37:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lldacing/comfyui_pulid_flux_ll",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tothebeginning/facexlib",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tothebeginning/facexlib",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

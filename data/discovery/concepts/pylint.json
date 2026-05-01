@@ -191,6 +191,30 @@
       "source_repo": "jhogsett/EMA-VFI-WebUI",
       "status": "candidate-context",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate-context",
+      "text": "Advanced AI-Based Movie Restoration UI Using VFIformer & Real-ESRGAN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate-context",
+      "text": "Pylint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ToTheBeginning/facexlib",
+      "status": "candidate-context",
+      "text": "FaceXlib aims at providing ready-to-use face-related functions based on current STOA open-source methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ToTheBeginning/facexlib",
+      "status": "candidate-context",
+      "text": "PyLint"
     }
   ],
   "candidate_glosses": [
@@ -283,6 +307,18 @@
       "source_repo": "jhogsett/EMA-VFI-WebUI",
       "status": "candidate",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhogsett/VFIformer-WebUI",
+      "status": "candidate",
+      "text": "Pylint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ToTheBeginning/facexlib",
+      "status": "candidate",
+      "text": "PyLint"
     }
   ],
   "candidate_related_terms": [
@@ -512,11 +548,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "jhogsett/VFIformer-WebUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "ToTheBeginning/facexlib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

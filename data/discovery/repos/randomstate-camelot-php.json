@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randomstate/camelot-php",
+      "target": "table-extraction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:02:37.680699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Camelot PDF table extraction library wrapper for PHP",
+    "fork": false,
+    "full_name": "randomstate/camelot-php",
+    "html_url": "https://github.com/randomstate/camelot-php",
+    "language": "PHP",
+    "pushed_at": "2024-11-06T18:10:19Z",
+    "stargazers_count": 12,
+    "topics": [
+      "pdf",
+      "table-extraction"
+    ],
+    "updated_at": "2025-12-02T23:02:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A PHP wrapper for Camelot, the python PDF table extraction library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table-extraction"
+    }
+  ]
+}

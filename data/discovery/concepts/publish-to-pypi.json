@@ -694,6 +694,30 @@
       "source_repo": "matthewhand/mcp-openapi-proxy",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TencentCloudADP/youtu-agent",
+      "status": "candidate-context",
+      "text": "A simple yet powerful agent framework that delivers with open-source models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentCloudADP/youtu-agent",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stanford-TML/robot_keyframe_kit",
+      "status": "candidate-context",
+      "text": "Create motion for any robot through editing keyframe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stanford-TML/robot_keyframe_kit",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -1042,6 +1066,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "matthewhand/mcp-openapi-proxy",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentCloudADP/youtu-agent",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stanford-TML/robot_keyframe_kit",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -1663,11 +1699,35 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/testpypi.yaml",
       "source_repo": "matthewhand/mcp-openapi-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Stanford-TML/robot_keyframe_kit"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

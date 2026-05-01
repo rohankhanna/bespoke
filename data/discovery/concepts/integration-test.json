@@ -202,6 +202,18 @@
       "source_repo": "VikParuchuri/texify",
       "status": "candidate-context",
       "text": "Integration test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for managing the lifecycle of Apache Spark applications on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate-context",
+      "text": "Integration Test"
     }
   ],
   "candidate_glosses": [
@@ -306,6 +318,12 @@
       "source_repo": "VikParuchuri/texify",
       "status": "candidate",
       "text": "Integration test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/spark-operator",
+      "status": "candidate",
+      "text": "Integration Test"
     }
   ],
   "candidate_related_terms": [
@@ -475,11 +493,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "VikParuchuri/texify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "kubeflow/spark-operator"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

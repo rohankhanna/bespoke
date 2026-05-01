@@ -277,6 +277,42 @@
       "source_repo": "JuliaAI/MLJ.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "status": "candidate-context",
+      "text": "Binary Dependency Builder for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "klowrey/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klowrey/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "status": "candidate-context",
+      "text": "Immutables as mutables, mutables as immutables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaFolds/BangBang.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -421,6 +457,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaAI/MLJ.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klowrey/MuJoCo.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaFolds/BangBang.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -580,11 +634,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPackaging/BinaryBuilder.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "klowrey/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaFolds/BangBang.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MuJoCo model for Sawyer from Rethink robotics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robot-arm",
+      "sense_id": "robot-arm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "robot-arm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "robot-arm",
+  "observation_id": "49c50be5a5d28d62",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "robot-arm",
+  "source_context_snippet": "Mujoco model for Rething Robotics Sawyer with different actuator options. See [sawyer.xml](sawyer.xml) for details.",
+  "source_file": null,
+  "source_repo": "vikashplus/sawyer_sim",
+  "source_repo_description": "MuJoCo model for Sawyer from Rethink robotics"
+}

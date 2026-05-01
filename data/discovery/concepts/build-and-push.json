@@ -1,14 +1,72 @@
 {
   "aliases": [
-    "build-and-push"
+    "build-and-push",
+    "Build and Push"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate-context",
+      "text": "Configs and boilerplates for Label Studio's Machine Learning backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate-context",
+      "text": "\"Build and Push\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/label-studio-ml-backend",
+      "status": "candidate",
+      "text": "\"Build and Push\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "boost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "grow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "build-and-push",
   "concept_id": "build-and-push",
@@ -19,12 +77,20 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/build-and-push.yml",
       "source_repo": "1Panel-dev/MaxKB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "HumanSignal/label-studio-ml-backend"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meituan-AutoML/MobileVLM",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meituan-AutoML/MobileVLM",
+      "target": "lupantech/scienceqa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:07.651960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20567
+    },
+    {
+      "path": "requirements.txt",
+      "size": 394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Strong and Open Vision Language Assistant for Mobile Devices",
+    "fork": false,
+    "full_name": "Meituan-AutoML/MobileVLM",
+    "html_url": "https://github.com/Meituan-AutoML/MobileVLM",
+    "language": "Python",
+    "pushed_at": "2024-04-15T03:53:45Z",
+    "stargazers_count": 1350,
+    "topics": [],
+    "updated_at": "2026-04-23T16:51:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lupantech/scienceqa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

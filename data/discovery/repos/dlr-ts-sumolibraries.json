@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-TS/SUMOLibraries",
+      "target": "lexxmark/winflexbison",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-TS/SUMOLibraries",
+      "target": "xtensor-stack/xsimd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-TS/SUMOLibraries",
+      "target": "sumo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-TS/SUMOLibraries",
+      "target": "sumo-libraries",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:07:19.693435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository with windows libraries used in SUMO project",
+    "fork": false,
+    "full_name": "DLR-TS/SUMOLibraries",
+    "html_url": "https://github.com/DLR-TS/SUMOLibraries",
+    "language": "C++",
+    "pushed_at": "2025-12-16T11:30:44Z",
+    "stargazers_count": 27,
+    "topics": [
+      "sumo",
+      "sumo-libraries"
+    ],
+    "updated_at": "2026-04-27T09:14:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lexxmark/winflexbison",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xtensor-stack/xsimd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the current SUMO Libraries used in Windows and compatible with Visual Studio 2019. It includes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sumo"
+    },
+    {
+      "context_snippet": "This repository contains the current SUMO Libraries used in Windows and compatible with Visual Studio 2019. It includes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sumo-libraries"
+    }
+  ]
+}

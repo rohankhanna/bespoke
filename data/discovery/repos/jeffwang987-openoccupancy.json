@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeffWang987/OpenOccupancy",
+      "target": "megvii-basedetection/bevdepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeffWang987/OpenOccupancy",
+      "target": "mit-han-lab/bevfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeffWang987/OpenOccupancy",
+      "target": "cvpr2023-3d-occupancy-prediction/cvpr2023-3d-occupancy-prediction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeffWang987/OpenOccupancy",
+      "target": "fang-ming/occupancy-for-nuscenes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:58:43.888362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception",
+    "fork": false,
+    "full_name": "JeffWang987/OpenOccupancy",
+    "html_url": "https://github.com/JeffWang987/OpenOccupancy",
+    "language": "Python",
+    "pushed_at": "2024-12-10T02:47:10Z",
+    "stargazers_count": 725,
+    "topics": [],
+    "updated_at": "2026-04-20T11:36:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvpr2023-3d-occupancy-prediction/cvpr2023-3d-occupancy-prediction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fang-ming/occupancy-for-nuscenes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-basedetection/bevdepth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/bevfusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

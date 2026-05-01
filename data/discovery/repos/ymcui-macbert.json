@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/MacBERT",
+      "target": "chatopera/synonyms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/MacBERT",
+      "target": "drcsolutionservice/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/MacBERT",
+      "target": "pengming617/bert_classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/MacBERT",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT",
+      "target": "macbert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/MacBERT",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:12:47.648726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Revisiting Pre-trained Models for Chinese Natural Language Processing (MacBERT)",
+    "fork": false,
+    "full_name": "ymcui/MacBERT",
+    "html_url": "https://github.com/ymcui/MacBERT",
+    "language": null,
+    "pushed_at": "2026-04-19T01:01:07Z",
+    "stargazers_count": 710,
+    "topics": [
+      "bert",
+      "language-model",
+      "macbert",
+      "nlp",
+      "pytorch",
+      "tensorflow",
+      "transformers"
+    ],
+    "updated_at": "2026-04-28T02:32:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chatopera/synonyms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcknowledgeteam/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcsolutionservice/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pengming617/bert_classification",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macbert"
+    },
+    {
+      "context_snippet": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

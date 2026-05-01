@@ -19,6 +19,18 @@
       "source_repo": "bulletphysics/bullet3",
       "status": "candidate-context",
       "text": "[![Travis Build Status](https://api.travis-ci.org/bulletphysics/bullet3.png?branch=master)](https://travis-ci.org/bulletphysics/bullet3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate-context",
+      "text": "Python parser for URDFs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bulletphysics/bullet3",
       "status": "candidate",
       "text": "[![Travis Build Status](https://api.travis-ci.org/bulletphysics/bullet3.png?branch=master)](https://travis-ci.org/bulletphysics/bullet3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clemense/yourdfpy",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/yourdfpy/badge/?version=latest)](https://yourdfpy.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "bulletphysics/bullet3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "clemense/yourdfpy"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

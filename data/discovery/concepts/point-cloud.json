@@ -187,6 +187,18 @@
       "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
       "status": "candidate-context",
       "text": "This repo is implementation for [PointNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf) and [PointNet++](http://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space.pdf) in p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate-context",
+      "text": "A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. \ud83d\udcf7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate-context",
+      "text": "![ODM Logo](https://github.com/OpenDroneMap/ODM/blob/master/odm.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
       "status": "candidate",
       "text": "This repo is implementation for [PointNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf) and [PointNet++](http://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space.pdf) in p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate",
+      "text": "![ODM Logo](https://github.com/OpenDroneMap/ODM/blob/master/odm.png?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +406,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "OpenDroneMap/ODM"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "aldanor/fast-float-rust",
       "status": "candidate-context",
       "text": "fast-float"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abolz/Drachennest",
+      "status": "candidate-context",
+      "text": "Different algorithms for converting binary to decimal floating-point numbers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abolz/Drachennest",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aldanor/fast-float-rust",
       "status": "candidate",
       "text": "fast-float"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abolz/Drachennest",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "aldanor/fast-float-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "abolz/Drachennest"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,18 @@
       "source_repo": "trufanov-nok/minidjvu-mod",
       "status": "candidate-context",
       "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "burningwave/core",
+      "status": "candidate-context",
+      "text": "An advanced and highly optimized Java library to build frameworks: it's useful for scanning class paths, generating classes at runtime, facilitating the use of reflection, scanning the filesystem, executing stringified source code and much more..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "burningwave/core",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.burningwave.org\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "trufanov-nok/minidjvu-mod",
       "status": "candidate",
       "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "burningwave/core",
+      "status": "candidate",
+      "text": "<a href=\"https://www.burningwave.org\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "trufanov-nok/minidjvu-mod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "burningwave/core"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

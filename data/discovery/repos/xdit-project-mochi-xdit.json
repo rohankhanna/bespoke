@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xdit-project/mochi-xdit",
+      "target": "genmoai/models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:03:27.307368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5825
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 639
+    },
+    {
+      "path": "requirements.txt",
+      "size": 201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "faster parallel inference of mochi-1 video generation model",
+    "fork": false,
+    "full_name": "xdit-project/mochi-xdit",
+    "html_url": "https://github.com/xdit-project/mochi-xdit",
+    "language": "Python",
+    "pushed_at": "2025-02-25T08:53:59Z",
+    "stargazers_count": 125,
+    "topics": [],
+    "updated_at": "2026-01-27T17:47:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genmoai/models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

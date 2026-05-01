@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "type-checkers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qdrant/fastembed",
+      "status": "candidate-context",
+      "text": "Fast, Accurate, Lightweight Python library to make State of the Art Embedding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/fastembed",
+      "status": "candidate-context",
+      "text": "type-checkers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/fastembed",
+      "status": "candidate",
+      "text": "type-checkers"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "type-checkers",
+  "concept_id": "type-checkers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/type-checkers.yml",
+      "source_repo": "qdrant/fastembed"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "type-checkers",
+      "sense_id": "type-checkers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

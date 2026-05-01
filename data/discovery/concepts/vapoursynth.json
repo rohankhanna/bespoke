@@ -43,6 +43,18 @@
       "source_repo": "HolyWu/vs-rife",
       "status": "candidate-context",
       "text": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hooke007/mpv_PlayKit",
+      "status": "candidate-context",
+      "text": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hooke007/mpv_PlayKit",
+      "status": "candidate-context",
+      "text": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "HolyWu/vs-rife",
       "status": "candidate",
       "text": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on https://github.com/hzwer/Practical-RIFE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hooke007/mpv_PlayKit",
+      "status": "candidate",
+      "text": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "HolyWu/vs-rife"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "hooke007/mpv_PlayKit"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

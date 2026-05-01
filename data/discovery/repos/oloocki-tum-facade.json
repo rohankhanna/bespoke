@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OloOcki/tum-facade",
+      "target": "oloocki/zaha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OloOcki/tum-facade",
+      "target": "hitachi-automotive-and-industry-lab/semantic-segmentation-editor",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:54:30.706607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The dataset ",
+    "fork": false,
+    "full_name": "OloOcki/tum-facade",
+    "html_url": "https://github.com/OloOcki/tum-facade",
+    "language": null,
+    "pushed_at": "2024-11-06T13:48:16Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-03-19T08:51:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hitachi-automotive-and-industry-lab/semantic-segmentation-editor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oloocki/zaha",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

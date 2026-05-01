@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/paxml",
+      "target": "google/praxis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/paxml",
+      "target": "google/maxtext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/paxml",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/paxml",
+      "target": "model-flops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/paxml",
+      "target": "parallelism",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:44:36.490718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pax is a Jax-based machine learning framework for training large scale models. Pax allows for advanced and fully configurable experimentation and parallelization, and has demonstrated industry leading model flop utilization rates.",
+    "fork": false,
+    "full_name": "google/paxml",
+    "html_url": "https://github.com/google/paxml",
+    "language": "Python",
+    "pushed_at": "2026-04-29T15:18:54Z",
+    "stargazers_count": 549,
+    "topics": [
+      "c4",
+      "gpt",
+      "jax",
+      "large-language-models",
+      "llm",
+      "model-flops",
+      "parallelism"
+    ],
+    "updated_at": "2026-04-29T15:20:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/maxtext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/praxis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pax is a framework to configure and run machine learning experiments on top of Jax.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Pax is a framework to configure and run machine learning experiments on top of Jax.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-flops"
+    },
+    {
+      "context_snippet": "Pax is a framework to configure and run machine learning experiments on top of Jax.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallelism"
+    }
+  ]
+}

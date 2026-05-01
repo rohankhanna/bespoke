@@ -1,0 +1,12 @@
+{
+  "component": "eps1lon/actions-label-merge-conflict@v3",
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-conflict-labeler.yml",
+      "source_repo": "roboflow/supervision"
+    }
+  ]
+}

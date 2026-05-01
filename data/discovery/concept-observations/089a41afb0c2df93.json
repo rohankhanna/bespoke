@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Revisiting Pre-trained Models for Chinese Natural Language Processing (MacBERT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "macbert",
+      "sense_id": "macbert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macbert",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macbert",
+  "observation_id": "089a41afb0c2df93",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "macbert",
+  "source_context_snippet": "[**\u7b80\u4f53\u4e2d\u6587**](https://github.com/ymcui/MacBERT) | [**English**](./README_EN.md)",
+  "source_file": null,
+  "source_repo": "ymcui/MacBERT",
+  "source_repo_description": "Revisiting Pre-trained Models for Chinese Natural Language Processing (MacBERT)"
+}

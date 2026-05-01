@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "Build main branch documentation website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "Jimver/cuda-toolkit@v0.2.35",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "pypa/cibuildwheel@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "pypa/cibuildwheel@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "mymindstorm/setup-emsdk@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "Build and publish releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "mymindstorm/setup-emsdk@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wasm.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "WASM Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-manual-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "Manual Docs Versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "dawidd6/action-get-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-versioning.yml",
+      "source_repo": "Farama-Foundation/Arcade-Learning-Environment",
+      "target": "Docs Versioning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "Farama-Foundation/Arcade-Learning-Environment"
+}

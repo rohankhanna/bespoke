@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Graphcore copyright header check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphcore/examples-utils",
+      "status": "candidate-context",
+      "text": "Utils and common code for Graphcore's example applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples-utils",
+      "status": "candidate-context",
+      "text": "Graphcore copyright header check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples-utils",
+      "status": "candidate",
+      "text": "Graphcore copyright header check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20844,
+      "status": "candidate",
+      "text": "patent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20822,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20740,
+      "status": "candidate",
+      "text": "clef"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20359,
+      "status": "candidate",
+      "text": "stemmed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20359,
+      "status": "candidate",
+      "text": "stemming"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Graphcore copyright header check",
+  "concept_id": "graphcore-copyright-header-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/copyright-header-check.yaml",
+      "source_repo": "graphcore/examples-utils"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Graphcore copyright header check",
+      "sense_id": "graphcore-copyright-header-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

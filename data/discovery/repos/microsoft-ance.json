@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T01:11:48.566927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A novel embedding training algorithm leveraging ANN search and achieved SOTA retrieval on Trec DL 2019 and OpenQA benchmarks",
+    "fork": false,
+    "full_name": "microsoft/ANCE",
+    "html_url": "https://github.com/microsoft/ANCE",
+    "language": "Python",
+    "pushed_at": "2026-01-06T08:59:57Z",
+    "stargazers_count": 385,
+    "topics": [],
+    "updated_at": "2026-03-31T08:17:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

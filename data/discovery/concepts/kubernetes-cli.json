@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "kubernetes-cli"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate-context",
+      "text": "LLMs for your CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla-llm/gorilla-cli",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/ShishirPatil/gorilla/blob/gh-pages/assets/img/logo.png\" width=20% height=20%>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kubernetes-cli",
+  "concept_id": "kubernetes-cli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "gorilla-llm/gorilla-cli"
+    }
+  ],
+  "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernetes-cli",
+      "sense_id": "kubernetes-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

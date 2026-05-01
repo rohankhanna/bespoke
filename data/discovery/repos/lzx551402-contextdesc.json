@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/contextdesc",
+      "target": "lzx551402/geodesc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/contextdesc",
+      "target": "lzx551402/aslfeat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/contextdesc",
+      "target": "lzx551402/gl3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzx551402/contextdesc",
+      "target": "hpatches/hpatches-dataset",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:53:59.651677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11688
+    },
+    {
+      "path": "requirements.txt",
+      "size": 125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of CVPR'19 paper (oral) -  ContextDesc: Local Descriptor Augmentation with Cross-Modality Context",
+    "fork": false,
+    "full_name": "lzx551402/contextdesc",
+    "html_url": "https://github.com/lzx551402/contextdesc",
+    "language": "Python",
+    "pushed_at": "2023-04-12T14:42:36Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2025-10-08T12:39:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpatches/hpatches-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzx551402/aslfeat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzx551402/geodesc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzx551402/gl3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

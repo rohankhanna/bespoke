@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "nanoid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nanoid-dictionary",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CyberAP/nanoid-generate",
+      "target": "nanoid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CyberAP/nanoid-generate",
+      "target": "nanoid-dictionary",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:43:07.528226+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1486
+    },
+    {
+      "path": "package.json",
+      "size": 350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nanoid generate with custom dictionaries",
+    "fork": false,
+    "full_name": "CyberAP/nanoid-generate",
+    "html_url": "https://github.com/CyberAP/nanoid-generate",
+    "language": "JavaScript",
+    "pushed_at": "2021-08-30T13:21:57Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2023-10-06T00:57:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

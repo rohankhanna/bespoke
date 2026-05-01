@@ -31,6 +31,18 @@
       "source_repo": "jonschlinkert/is-number",
       "status": "candidate-context",
       "text": "> Returns true if the value is a finite number."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate-context",
+      "text": "C/C++ number \u2194\ufe0e string benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate-context",
+      "text": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jonschlinkert/is-number",
       "status": "candidate",
       "text": "> Returns true if the value is a finite number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/c_numconv_benchmark",
+      "status": "candidate",
+      "text": "This project evaluates the performance of functions that convert numbers to and from strings in C/C++."
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ibireme/c_numconv_benchmark"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

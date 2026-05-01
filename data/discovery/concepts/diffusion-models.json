@@ -643,6 +643,42 @@
       "source_repo": "FoundationVision/LlamaGen",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlexMaOLS/EluCD",
+      "status": "candidate-context",
+      "text": "Elucidating The Design Space of Classifier-Guided Diffusion Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexMaOLS/EluCD",
+      "status": "candidate-context",
+      "text": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yulewang97/ERDiff",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023 Spotlight] Official Repo for \"Extraction and Recovery of Dpatio-temporal Structure in Latent Dynamics Alignment with Diffusion Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yulewang97/ERDiff",
+      "status": "candidate-context",
+      "text": "<h2>Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Models [NeurIPS'2023 Spotlight]</h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/VEnhancer",
+      "status": "candidate-context",
+      "text": "Official codes of VEnhancer: Generative Space-Time Enhancement for Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VEnhancer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -961,6 +997,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FoundationVision/LlamaGen",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexMaOLS/EluCD",
+      "status": "candidate",
+      "text": "This is the codebase for [**Elucidating The Design Space of Classifier-Guided Diffusion Generation**](https://arxiv.org/abs/2310.11311), accepted by ICLR2024 as poster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yulewang97/ERDiff",
+      "status": "candidate",
+      "text": "<h2>Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Models [NeurIPS'2023 Spotlight]</h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VEnhancer",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -1390,11 +1444,47 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "AlexMaOLS/EluCD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "yulewang97/ERDiff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "Vchitect/VEnhancer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

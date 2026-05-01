@@ -151,21 +151,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NetHack-LE/nle",
-      "target": "nethack/nethack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NetHack-LE/nle",
-      "target": "ngoodger/nle-language-wrapper",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NetHack-LE/nle",
-      "target": "kngwyu/rogue-gym",
+      "target": "rogueinabox/rogueinabox",
       "target_type": "repository"
     },
     {
@@ -173,6 +159,20 @@
       "source_file": "README.md",
       "source_repo": "NetHack-LE/nle",
       "target": "maximecb/gym-minigrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NetHack-LE/nle",
+      "target": "openai/coinrun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NetHack-LE/nle",
+      "target": "unity-technologies/obstacle-tower-env",
       "target_type": "repository"
     },
     {
@@ -302,7 +302,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T07:06:52.513903+00:00",
+  "fetched_at": "2026-05-01T01:06:56.151649+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -354,22 +354,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kngwyu/rogue-gym",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "maximecb/gym-minigrid",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nethack/nethack",
+      "full_name": "openai/coinrun",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ngoodger/nle-language-wrapper",
+      "full_name": "rogueinabox/rogueinabox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unity-technologies/obstacle-tower-env",
       "source_file": "README.md"
     }
   ],

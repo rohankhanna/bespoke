@@ -57,6 +57,18 @@
       "source_repo": "RUCAIBox/LLMBox",
       "status": "candidate-context",
       "text": "Run pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphcore/examples-utils",
+      "status": "candidate-context",
+      "text": "Utils and common code for Graphcore's example applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples-utils",
+      "status": "candidate-context",
+      "text": "Run pytest"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "RUCAIBox/LLMBox",
+      "status": "candidate",
+      "text": "Run pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphcore/examples-utils",
       "status": "candidate",
       "text": "Run pytest"
     }
@@ -192,11 +210,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "graphcore/examples-utils"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],

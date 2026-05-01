@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Swiss-Army-knife command-line tool for plotter vector graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051253,
+      "status": "candidate",
+      "text": "schemer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051076,
+      "status": "candidate",
+      "text": "machinator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048032,
+      "status": "candidate",
+      "text": "conspirator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030421,
+      "status": "candidate",
+      "text": "coconspirator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9939652,
+      "status": "candidate",
+      "text": "mapper"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plotters",
+      "sense_id": "plotters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plotters",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plotters",
+  "observation_id": "66dbf01dce977514",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_text": "plotters",
+  "source_context_snippet": "![banner](https://github.com/abey79/vpype/raw/master/docs/images/banner_ua.png)",
+  "source_file": null,
+  "source_repo": "abey79/vpype",
+  "source_repo_description": "The Swiss-Army-knife command-line tool for plotter vector graphics."
+}

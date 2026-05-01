@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stoplightio/spectral-rulesets",
+      "target": "digitalocean/openapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stoplightio/spectral-rulesets",
+      "target": "redhat-developer/app-services-api-guidelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stoplightio/spectral-rulesets",
+      "target": "schwarzit/api-linter-rules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stoplightio/spectral-rulesets",
+      "target": "andylockran/spectral-aws-apigateway-ruleset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stoplightio/spectral-rulesets",
+      "target": "stoplight-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stoplightio/spectral-rulesets",
+      "target": "stoplight-spectral",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "source_repo": "stoplightio/spectral-rulesets"
+}

@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abolz/Drachennest",
+      "target": "jk-jeon/dragonbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abolz/Drachennest",
+      "target": "dragon4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abolz/Drachennest",
+      "target": "dtoa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abolz/Drachennest",
+      "target": "floating-point",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abolz/Drachennest",
+      "target": "grisu2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abolz/Drachennest",
+      "target": "grisu3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:45:15.068896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Different algorithms for converting binary to decimal floating-point numbers",
+    "fork": false,
+    "full_name": "abolz/Drachennest",
+    "html_url": "https://github.com/abolz/Drachennest",
+    "language": "C++",
+    "pushed_at": "2022-10-10T12:02:58Z",
+    "stargazers_count": 130,
+    "topics": [
+      "dragon4",
+      "dtoa",
+      "floating-point",
+      "grisu2",
+      "grisu3",
+      "ryu"
+    ],
+    "updated_at": "2026-04-27T22:26:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jk-jeon/dragonbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dragon4"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dtoa"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "floating-point"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grisu2"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/abolz/Drachennest.svg?branch=master)](https://travis-ci.org/abolz/Drachennest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grisu3"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "chaofengc/awesome-image-quality-assessment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "chrisdud0257/afine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "dingkeyan93/iqa-optimization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "baidut/paq2piq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "blind-image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "image-aesthetic-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "ms-ssim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "psnr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaofengc/IQA-PyTorch",
+      "target": "ssim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:55:59.417492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18284
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2362
+    },
+    {
+      "path": "requirements.txt",
+      "size": 299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd0e \ud83d\uddbc\ufe0f \ud83d\udd25PyTorch Toolbox for Image Quality Assessment, including PSNR, SSIM, LPIPS, FID, NIQE, NRQM(Ma), MUSIQ, TOPIQ, NIMA, DBCNN, BRISQUE, PI and more...",
+    "fork": false,
+    "full_name": "chaofengc/IQA-PyTorch",
+    "html_url": "https://github.com/chaofengc/IQA-PyTorch",
+    "language": "Python",
+    "pushed_at": "2026-04-15T10:56:31Z",
+    "stargazers_count": 3227,
+    "topics": [
+      "blind-image-quality-assessment",
+      "image-aesthetic-assessment",
+      "image-quality-assessment",
+      "iqa",
+      "ms-ssim",
+      "psnr",
+      "python",
+      "pytorch",
+      "pytorch-implementation",
+      "ssim"
+    ],
+    "updated_at": "2026-04-30T02:07:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidut/paq2piq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaofengc/awesome-image-quality-assessment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisdud0257/afine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingkeyan93/iqa-optimization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blind-image-quality-assessment"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-aesthetic-assessment"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-quality-assessment"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ms-ssim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psnr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssim"
+    }
+  ]
+}

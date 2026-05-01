@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "target": "lyceum/lyceumbase.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compat.yml",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "target": "UpdateCompat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "Lyceum/LyceumMuJoCo.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:08:04.558704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2182
+    },
+    {
+      "path": ".github/workflows/compat.yml",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/tagbot.yml",
+      "size": 251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Lyceum/LyceumMuJoCo.jl",
+    "html_url": "https://github.com/Lyceum/LyceumMuJoCo.jl",
+    "language": "Julia",
+    "pushed_at": "2021-09-23T21:33:39Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2022-10-22T07:21:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyceum/lyceumbase.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "UpdateCompat",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compat.yml",
+      "term": "UpdateCompat"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagbot.yml",
+      "term": "TagBot"
+    }
+  ]
+}

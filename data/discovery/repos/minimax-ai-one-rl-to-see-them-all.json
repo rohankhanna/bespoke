@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/One-RL-to-See-Them-All",
+      "target": "orsta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/One-RL-to-See-Them-All",
+      "target": "v-triune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/One-RL-to-See-Them-All",
+      "target": "visual-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/One-RL-to-See-Them-All",
+      "target": "vlm-rl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T01:10:28.654284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17069
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo of One RL to See Them All: Visual Triple Unified Reinforcement Learning",
+    "fork": false,
+    "full_name": "MiniMax-AI/One-RL-to-See-Them-All",
+    "html_url": "https://github.com/MiniMax-AI/One-RL-to-See-Them-All",
+    "language": "Python",
+    "pushed_at": "2025-05-31T12:43:31Z",
+    "stargazers_count": 332,
+    "topics": [
+      "orsta",
+      "rl",
+      "v-triune",
+      "visual-language-models",
+      "vlm",
+      "vlm-rl"
+    ],
+    "updated_at": "2026-04-13T20:41:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orsta"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v-triune"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vlm-rl"
+    }
+  ]
+}

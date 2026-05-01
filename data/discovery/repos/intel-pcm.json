@@ -1,0 +1,614 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bandit.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bandit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml"
+    },
+    {
+      "component": "intel-innersource/applications.security.monitoring.cas@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security.yml"
+    },
+    {
+      "component": "intel-innersource/applications.security.monitoring.cas@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security.yml"
+    },
+    {
+      "component": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-clang-scan.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-clang-scan.yml"
+    },
+    {
+      "component": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake-options.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake-options.yml"
+    },
+    {
+      "component": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux-report.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux-report.yml"
+    },
+    {
+      "component": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux-report.yml"
+    },
+    {
+      "component": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux.yml"
+    },
+    {
+      "component": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-python.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-python.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bandit.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bandit.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bandit.yml",
+      "source_repo": "intel/pcm",
+      "target": "bandit-security-scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml",
+      "source_repo": "intel/pcm",
+      "target": "intel-innersource/applications.security.monitoring.cas@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml",
+      "source_repo": "intel/pcm",
+      "target": "Security Scanning (dockerfile)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cas-security.yml",
+      "source_repo": "intel/pcm",
+      "target": "intel-innersource/applications.security.monitoring.cas@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cas-security.yml",
+      "source_repo": "intel/pcm",
+      "target": "Security Scanning (Source Code)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-clang-scan.yml",
+      "source_repo": "intel/pcm",
+      "target": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-clang-scan.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-clang-scan.yml",
+      "source_repo": "intel/pcm",
+      "target": "clang-scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake-options.yml",
+      "source_repo": "intel/pcm",
+      "target": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cmake-options.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cmake-options.yml",
+      "source_repo": "intel/pcm",
+      "target": "test cmake options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux-report.yml",
+      "source_repo": "intel/pcm",
+      "target": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux-report.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux-report.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux.yml",
+      "source_repo": "intel/pcm",
+      "target": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-linux.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cov-linux.yml",
+      "source_repo": "intel/pcm",
+      "target": "coverity-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-python.yml",
+      "source_repo": "intel/pcm",
+      "target": "step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cov-python.yml",
+      "source_repo": "intel/pcm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "energy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "monitor-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "performance-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "performance-counters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "performance-dashboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "performance-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "performance-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "performance-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "power",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "processor-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/pcm",
+      "target": "xeon",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T00:44:40.603883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12177
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1153
+    },
+    {
+      "path": ".github/workflows/ci-bandit.yml",
+      "size": 839
+    },
+    {
+      "path": ".github/workflows/ci-cas-security-dockerfile.yml",
+      "size": 1288
+    },
+    {
+      "path": ".github/workflows/ci-cas-security.yml",
+      "size": 1575
+    },
+    {
+      "path": ".github/workflows/ci-clang-scan.yml",
+      "size": 822
+    },
+    {
+      "path": ".github/workflows/ci-cmake-options.yml",
+      "size": 4075
+    },
+    {
+      "path": ".github/workflows/ci-cov-linux-report.yml",
+      "size": 1010
+    },
+    {
+      "path": ".github/workflows/ci-cov-linux.yml",
+      "size": 627
+    },
+    {
+      "path": ".github/workflows/ci-cov-python.yml",
+      "size": 576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Intel\u00ae Performance Counter Monitor (Intel\u00ae PCM)",
+    "fork": false,
+    "full_name": "intel/pcm",
+    "html_url": "https://github.com/intel/pcm",
+    "language": "C++",
+    "pushed_at": "2026-04-30T19:13:43Z",
+    "stargazers_count": 3263,
+    "topics": [
+      "cpu",
+      "energy",
+      "freebsd",
+      "intel",
+      "linux",
+      "monitor-performance",
+      "monitoring",
+      "osx",
+      "pcm",
+      "performance-analysis",
+      "performance-counters",
+      "performance-dashboard",
+      "performance-metrics",
+      "performance-monitoring",
+      "performance-visualization",
+      "power",
+      "processor",
+      "processor-architecture",
+      "windows",
+      "xeon"
+    ],
+    "updated_at": "2026-04-30T12:56:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bandit-security-scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bandit.yml",
+      "term": "bandit-security-scan"
+    },
+    {
+      "context_snippet": "Security Scanning (dockerfile)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cas-security-dockerfile.yml",
+      "term": "Security Scanning (dockerfile)"
+    },
+    {
+      "context_snippet": "Security Scanning (Source Code)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cas-security.yml",
+      "term": "Security Scanning (Source Code)"
+    },
+    {
+      "context_snippet": "clang-scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-clang-scan.yml",
+      "term": "clang-scan"
+    },
+    {
+      "context_snippet": "test cmake options",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cmake-options.yml",
+      "term": "test cmake options"
+    },
+    {
+      "context_snippet": "coverity-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cov-linux.yml",
+      "term": "coverity-linux"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "energy"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitor-performance"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-analysis"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-counters"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-dashboard"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-metrics"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-monitoring"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-visualization"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "power"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "processor"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "processor-architecture"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "--------------------------------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xeon"
+    }
+  ]
+}

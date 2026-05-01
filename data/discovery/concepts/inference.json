@@ -697,6 +697,18 @@
       "source_repo": "InftyAI/llmaz",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "status": "candidate-context",
+      "text": "Zero-label image classification via OpenCLIP knowledge distillation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/overview.png\" height=\"320\"/>"
     }
   ],
   "candidate_glosses": [
@@ -1047,6 +1059,12 @@
       "source_repo": "InftyAI/llmaz",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation",
+      "status": "candidate",
+      "text": "<img src=\"assets/overview.png\" height=\"320\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -1668,11 +1686,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T00:40:17.248794+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/clip-distillation"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "lexical_providers": [
     "datamuse"
   ],
