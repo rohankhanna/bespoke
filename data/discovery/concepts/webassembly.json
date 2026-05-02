@@ -535,6 +535,18 @@
       "source_repo": "jameslittle230/stork",
       "status": "candidate-context",
       "text": "[workspace] members = [\"stork-lib\", \"stork-cli\", \"stork-wasm\"] [profile.release] lto = true opt-level = 's'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "status": "candidate-context",
+      "text": "Zig bindings for the Wasmer WebAssembly runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "status": "candidate-context",
+      "text": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime."
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "jameslittle230/stork",
       "status": "candidate",
       "text": "[workspace] members = [\"stork-lib\", \"stork-cli\", \"stork-wasm\"] [profile.release] lto = true opt-level = 's'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "status": "candidate",
+      "text": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime."
     }
   ],
   "candidate_related_terms": [],
@@ -1078,11 +1096,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "jameslittle230/stork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

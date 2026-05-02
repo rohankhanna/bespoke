@@ -84,7 +84,7 @@
   "normalized_form": "release-binary-package",
   "observation_id": "09fb1ca60c281287",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
   "observed_text": "Release Binary Package",
   "source_context_snippet": "Release Binary Package",
   "source_file": ".github/workflows/release.yml",

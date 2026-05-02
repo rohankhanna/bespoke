@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matthme/devhub-dnas",
+      "target": "holochain/devhub-dnas",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:38:32.236896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "DNAs for sharing source code and distributing compiled WASM that comprise Holochain Apps.",
+    "fork": true,
+    "full_name": "matthme/devhub-dnas",
+    "html_url": "https://github.com/matthme/devhub-dnas",
+    "language": "Rust",
+    "pushed_at": "2023-12-13T19:49:58Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-06-14T18:37:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "holochain/devhub-dnas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

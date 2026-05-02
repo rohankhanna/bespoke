@@ -31,6 +31,18 @@
       "source_repo": "EzequielRamis/zimdjson",
       "status": "candidate-context",
       "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "status": "candidate-context",
+      "text": "Zig bindings for the Wasmer WebAssembly runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "status": "candidate-context",
+      "text": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "EzequielRamis/zimdjson",
       "status": "candidate",
       "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "status": "candidate",
+      "text": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime."
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "EzequielRamis/zimdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

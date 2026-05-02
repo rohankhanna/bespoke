@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "database-cleaner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DatabaseCleaner/database_cleaner",
+      "status": "candidate-context",
+      "text": "Strategies for cleaning databases in Ruby.  Can be used to ensure a clean state for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DatabaseCleaner/database_cleaner",
+      "status": "candidate-context",
+      "text": "Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DatabaseCleaner/database_cleaner",
+      "status": "candidate",
+      "text": "Tests"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "database-cleaner",
+  "concept_id": "database-cleaner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "DatabaseCleaner/database_cleaner"
+    }
+  ],
+  "first_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "database-cleaner",
+      "sense_id": "database-cleaner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -8861,6 +8861,42 @@
       "source_repo": "test-unit/test-unit",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erigontech/mdbx-go",
+      "status": "candidate-context",
+      "text": "Bindings for  https://gitflic.ru/project/erthink/libmdbx/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erigontech/mdbx-go",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/hc-launch",
+      "status": "candidate-context",
+      "text": "tauri based CLI to run holochain apps in development mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/hc-launch",
+      "status": "candidate-context",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travisjeffery/timecop",
+      "status": "candidate-context",
+      "text": "A gem providing \"time travel\", \"time freezing\", and \"time acceleration\" capabilities, making it simple to test time-dependent code. It provides a unified method to mock Time.now, Date.today, and DateTime.now in a single call."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travisjeffery/timecop",
+      "status": "candidate-context",
+      "text": "FROM ruby WORKDIR /timecop COPY Gemfile . COPY timecop.gemspec . COPY lib/timecop/version.rb lib/timecop/version.rb RUN bundle -j 4 COPY . . CMD [\"bin/console\"]"
     }
   ],
   "candidate_glosses": [
@@ -13345,6 +13381,24 @@
       "source_repo": "test-unit/test-unit",
       "status": "candidate",
       "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erigontech/mdbx-go",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/hc-launch",
+      "status": "candidate",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travisjeffery/timecop",
+      "status": "candidate",
+      "text": "FROM ruby WORKDIR /timecop COPY Gemfile . COPY timecop.gemspec . COPY lib/timecop/version.rb lib/timecop/version.rb RUN bundle -j 4 COPY . . CMD [\"bin/console\"]"
     }
   ],
   "candidate_related_terms": [
@@ -19609,11 +19663,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "erigontech/mdbx-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "holochain/hc-launch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dcoapp/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "travisjeffery/timecop"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

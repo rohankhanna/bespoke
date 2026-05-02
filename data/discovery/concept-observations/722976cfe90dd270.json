@@ -48,7 +48,7 @@
   "normalized_form": "github-app",
   "observation_id": "722976cfe90dd270",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
   "observed_text": "github-app",
   "source_context_snippet": "a GitHub Integration built with [probot](https://github.com/probot/probot) that enforces the [Developer Certificate of Origin](https://developercertificate.org/) (DCO) on Pull Requests. It requires all commit messages to contain the `Signed-off-by` line with an email address tha\u2026",
   "source_file": null,

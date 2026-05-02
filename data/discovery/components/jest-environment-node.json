@@ -1,7 +1,7 @@
 {
   "component": "jest-environment-node",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

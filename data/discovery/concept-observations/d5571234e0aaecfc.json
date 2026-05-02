@@ -120,7 +120,7 @@
   "normalized_form": "cache",
   "observation_id": "d5571234e0aaecfc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
   "observed_text": "cache",
   "source_context_snippet": "cache",
   "source_file": ".github/workflows/cache-cleanup.yml",

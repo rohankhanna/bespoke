@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex-acorn-baseboard",
+      "target": "enjoy-digital/litex_hw_ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex-acorn-baseboard",
+      "target": "enjoy-digital/litepcie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex-acorn-baseboard",
+      "target": "enjoy-digital/litesata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/litex-acorn-baseboard",
+      "target": "enjoy-digital/litex_m2sdr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litex-acorn-baseboard",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litex-acorn-baseboard",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:38:46.342054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10213
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LiteX development baseboards arround the SQRL Acorn. ",
+    "fork": false,
+    "full_name": "enjoy-digital/litex-acorn-baseboard",
+    "html_url": "https://github.com/enjoy-digital/litex-acorn-baseboard",
+    "language": "Python",
+    "pushed_at": "2026-04-22T16:25:55Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-24T11:46:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/litepcie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/litesata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/litex_hw_ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/litex_m2sdr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

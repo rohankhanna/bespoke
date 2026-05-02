@@ -1171,6 +1171,18 @@
       "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
       "status": "candidate-context",
       "text": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate-context",
+      "text": " Internet-Drafts that make up the base QUIC specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate-context",
+      "text": "The base-drafts repository is the historical home of the QUIC version 1"
     }
   ],
   "candidate_glosses": [
@@ -1755,6 +1767,12 @@
       "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
       "status": "candidate",
       "text": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate",
+      "text": "The base-drafts repository is the historical home of the QUIC version 1"
     }
   ],
   "candidate_related_terms": [
@@ -2616,11 +2634,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "quicwg/base-drafts"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

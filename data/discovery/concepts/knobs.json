@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "knobs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate-context",
+      "text": "\ud83e\udde0 This Storybook plugin uses @storybook/addon-knobs but creates the knobs automatically based on PropTypes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate-context",
+      "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate",
+      "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017721,
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991900,
+      "status": "candidate",
+      "text": "pommel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017901,
+      "status": "candidate",
+      "text": "boils"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017901,
+      "status": "candidate",
+      "text": "bones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017901,
+      "status": "candidate",
+      "text": "buds"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "knobs",
+  "concept_id": "knobs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
+    }
+  ],
+  "first_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knobs",
+      "sense_id": "knobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

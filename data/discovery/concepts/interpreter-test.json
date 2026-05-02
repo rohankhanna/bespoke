@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Interpreter Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crystal-lang/crystal",
+      "status": "candidate-context",
+      "text": "The Crystal Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crystal-lang/crystal",
+      "status": "candidate-context",
+      "text": "Interpreter Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crystal-lang/crystal",
+      "status": "candidate",
+      "text": "Interpreter Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12805,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "chorus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "eisegesis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "exegete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "idiom"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Interpreter Test",
+  "concept_id": "interpreter-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/interpreter.yml",
+      "source_repo": "crystal-lang/crystal"
+    }
+  ],
+  "first_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Interpreter Test",
+      "sense_id": "interpreter-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nimgen is a helper for c2nim to simplify and automate the wrapping of C libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "c2nim",
+      "sense_id": "c2nim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "c2nim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "c2nim",
+  "observation_id": "52a3ac445b5ab0f8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
+  "observed_text": "c2nim",
+  "source_context_snippet": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward.",
+  "source_file": null,
+  "source_repo": "genotrance/nimgen",
+  "source_repo_description": "Nimgen is a helper for c2nim to simplify and automate the wrapping of C libraries"
+}

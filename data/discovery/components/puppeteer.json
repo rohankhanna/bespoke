@@ -1,7 +1,7 @@
 {
   "component": "puppeteer",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -267,6 +267,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "angular/angular-cli"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jakerella/jquery-mockjax"
     }
   ]
 }

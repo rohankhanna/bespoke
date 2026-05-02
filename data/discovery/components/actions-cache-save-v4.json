@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/save@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -607,6 +607,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/haskell-ci.yml",
       "source_repo": "jtdaugherty/vty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/mvfst"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/mvfst"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/mvfst"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/workflow.yaml",
       "source_repo": "tweag/rules_haskell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crystal-lang/crystal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "crystal-lang/crystal"
     }
   ]
 }

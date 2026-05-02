@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "apernet/hysteria"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "quicwg/qlog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "quicwg/base-drafts"
     }
   ],
   "term": "quic"

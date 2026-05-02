@@ -84,7 +84,7 @@
   "normalized_form": "dependency-review",
   "observation_id": "79441d3bb38c11e6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
   "observed_text": "Dependency review",
   "source_context_snippet": "'Dependency review'",
   "source_file": ".github/workflows/dependency-review.yml",

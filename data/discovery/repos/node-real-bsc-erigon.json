@@ -1,0 +1,400 @@
+{
+  "components": [
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "al-cheb/configure-pagefile-action@v1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tags.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tags.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tags.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tags.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "bnb-chain/reth-bsc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "ledgerwatch/erigon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "geekyeggo/delete-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "Dashboards backup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "al-cheb/configure-pagefile-action@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "Unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-remove.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "Remove docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tags.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tags.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tags.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-tags.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "Docker tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "node-real/bsc-erigon",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:39:40.953521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38611
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5771
+    },
+    {
+      "path": "go.mod",
+      "size": 15728
+    },
+    {
+      "path": ".github/workflows/backups-dashboards.yml",
+      "size": 4445
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 243
+    },
+    {
+      "path": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "size": 9424
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3335
+    },
+    {
+      "path": ".github/workflows/docker-image-remove.yml",
+      "size": 1463
+    },
+    {
+      "path": ".github/workflows/docker-tags.yml",
+      "size": 940
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Ethereum implementation on the efficiency frontier",
+    "fork": true,
+    "full_name": "node-real/bsc-erigon",
+    "html_url": "https://github.com/node-real/bsc-erigon",
+    "language": "Go",
+    "pushed_at": "2025-12-08T13:05:30Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-04-23T05:58:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bnb-chain/reth-bsc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerwatch/erigon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dashboards backup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "term": "Dashboards backup"
+    },
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "Unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Unit tests"
+    },
+    {
+      "context_snippet": "Remove docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-remove.yml",
+      "term": "Remove docker image"
+    },
+    {
+      "context_snippet": "Docker tags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-tags.yml",
+      "term": "Docker tags"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    }
+  ]
+}

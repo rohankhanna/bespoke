@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "travisjeffery/timecop",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "travisjeffery/timecop",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travisjeffery/timecop",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travisjeffery/timecop",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travisjeffery/timecop",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travisjeffery/timecop",
+      "target": "time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:40:24.822107+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 166
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 777
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A gem providing \"time travel\", \"time freezing\", and \"time acceleration\" capabilities, making it simple to test time-dependent code. It provides a unified method to mock Time.now, Date.today, and DateTime.now in a single call.",
+    "fork": false,
+    "full_name": "travisjeffery/timecop",
+    "html_url": "https://github.com/travisjeffery/timecop",
+    "language": "Ruby",
+    "pushed_at": "2026-04-12T15:27:41Z",
+    "stargazers_count": 3413,
+    "topics": [
+      "rails",
+      "ruby",
+      "test",
+      "time"
+    ],
+    "updated_at": "2026-04-24T17:19:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FROM ruby WORKDIR /timecop COPY Gemfile . COPY timecop.gemspec . COPY lib/timecop/version.rb lib/timecop/version.rb RUN bundle -j 4 COPY . . CMD [\"bin/console\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "FROM ruby WORKDIR /timecop COPY Gemfile . COPY timecop.gemspec . COPY lib/timecop/version.rb lib/timecop/version.rb RUN bundle -j 4 COPY . . CMD [\"bin/console\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "FROM ruby WORKDIR /timecop COPY Gemfile . COPY timecop.gemspec . COPY lib/timecop/version.rb lib/timecop/version.rb RUN bundle -j 4 COPY . . CMD [\"bin/console\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test"
+    },
+    {
+      "context_snippet": "FROM ruby WORKDIR /timecop COPY Gemfile . COPY timecop.gemspec . COPY lib/timecop/version.rb lib/timecop/version.rb RUN bundle -j 4 COPY . . CMD [\"bin/console\"]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time"
+    }
+  ]
+}

@@ -2063,6 +2063,18 @@
       "source_repo": "weaveworks/weave-gitops",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crystal-lang/crystal",
+      "status": "candidate-context",
+      "text": "The Crystal Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crystal-lang/crystal",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -3095,6 +3107,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "weaveworks/weave-gitops",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crystal-lang/crystal",
       "status": "candidate",
       "text": "Docs"
     }
@@ -4794,11 +4812,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/panvimdoc.yaml",
       "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crystal-lang/crystal"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

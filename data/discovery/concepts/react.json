@@ -1971,6 +1971,42 @@
       "source_repo": "mui/mui-x",
       "status": "candidate-context",
       "text": "<!-- #host-reference -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remotion-dev/brand",
+      "status": "candidate-context",
+      "text": "Logo and brand elements of Remotion, created in Remotion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/brand",
+      "status": "candidate-context",
+      "text": "This repo includes the logo, logo with title, and a social preview image (when posting on social media)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate-context",
+      "text": "\ud83e\udde0 This Storybook plugin uses @storybook/addon-knobs but creates the knobs automatically based on PropTypes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate-context",
+      "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate-context",
+      "text": "Isolated React component development environment with a living style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate-context",
+      "text": "react-styleguidist \u2014 React components style guide generator"
     }
   ],
   "candidate_glosses": [
@@ -2957,6 +2993,24 @@
       "source_repo": "mui/mui-x",
       "status": "candidate",
       "text": "<!-- #host-reference -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/brand",
+      "status": "candidate",
+      "text": "This repo includes the logo, logo with title, and a social preview image (when posting on social media)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate",
+      "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate",
+      "text": "react-styleguidist \u2014 React components style guide generator"
     }
   ],
   "candidate_related_terms": [
@@ -4455,11 +4509,41 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/brand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "styleguidist/react-styleguidist"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

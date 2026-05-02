@@ -801,6 +801,18 @@
       "source_repo": "kowainik/.github",
       "status": "candidate-context",
       "text": "Default files to be used in all Kowainik projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remotion-dev/github-unwrapped",
+      "status": "candidate-context",
+      "text": "Your coding year in review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/github-unwrapped",
+      "status": "candidate-context",
+      "text": "<img width=\"1200\" alt=\"readme\" src=\"https://github.com/remotion-dev/github-unwrapped-2023/assets/73991323/0a907f4f-a591-4d98-8b38-c90581ccfb33\">"
     }
   ],
   "candidate_glosses": [
@@ -1199,6 +1211,12 @@
       "source_repo": "kowainik/.github",
       "status": "candidate",
       "text": "Default files to be used in all Kowainik projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/github-unwrapped",
+      "status": "candidate",
+      "text": "<img width=\"1200\" alt=\"readme\" src=\"https://github.com/remotion-dev/github-unwrapped-2023/assets/73991323/0a907f4f-a591-4d98-8b38-c90581ccfb33\">"
     }
   ],
   "candidate_related_terms": [
@@ -1806,11 +1824,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

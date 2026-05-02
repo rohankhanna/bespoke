@@ -1,0 +1,259 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@d6a63dab3335f427404425de0fbfed4686d93c4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@d6a63dab3335f427404425de0fbfed4686d93c4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@d6a63dab3335f427404425de0fbfed4686d93c4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@c7885c00cb7ec0b8f9f5ff3f53cddb980f7a4412",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "subosito/flutter-action@48cafc24713cca54bbe03cdc3a423187d413aafa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "subosito/flutter-action@48cafc24713cca54bbe03cdc3a423187d413aafa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/setup-java@de1bb2b0c5634f0fc4438d7aa9944e68f9bf86cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "android-actions/setup-android@7c5672355aaa8fde5f97a91aa9a99616d1ace6bc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@8c3b609ff4d54576ea420551943fd34b4d03b0dc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "subosito/flutter-action@48cafc24713cca54bbe03cdc3a423187d413aafa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart-archive/wasm",
+      "target": "dart-lang/wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "dart-lang/setup-dart@d6a63dab3335f427404425de0fbfed4686d93c4f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "coverallsapp/github-action@c7885c00cb7ec0b8f9f5ff3f53cddb980f7a4412",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "subosito/flutter-action@48cafc24713cca54bbe03cdc3a423187d413aafa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "actions/setup-java@de1bb2b0c5634f0fc4438d7aa9944e68f9bf86cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "android-actions/setup-android@7c5672355aaa8fde5f97a91aa9a99616d1ace6bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/wasm",
+      "target": "nttld/setup-ndk@8c3b609ff4d54576ea420551943fd34b4d03b0dc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm",
+      "target": "dartlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:38:38.109322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1063
+    },
+    {
+      "path": ".github/workflows/test-package.yml",
+      "size": 5632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Utilities for loading and running WASM modules from Dart code",
+    "fork": false,
+    "full_name": "dart-archive/wasm",
+    "html_url": "https://github.com/dart-archive/wasm",
+    "language": "Dart",
+    "pushed_at": "2023-07-01T23:28:19Z",
+    "stargazers_count": 309,
+    "topics": [
+      "dart",
+      "dartlang",
+      "ffi",
+      "wasm"
+    ],
+    "updated_at": "2025-12-24T02:58:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/wasm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "These packages provide utilities for loading and running WASM modules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "These packages provide utilities for loading and running WASM modules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dartlang"
+    },
+    {
+      "context_snippet": "These packages provide utilities for loading and running WASM modules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

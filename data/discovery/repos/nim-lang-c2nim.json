@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "alaviss/setup-nim@0.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nim-lang/c2nim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nim-lang/c2nim",
+      "target": "alaviss/setup-nim@0.1.1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:38:02.713180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 741
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "c2nim is a tool to translate Ansi C code to Nim. The output is human-readable Nim code that is meant to be tweaked by hand before and after the translation process.",
+    "fork": false,
+    "full_name": "nim-lang/c2nim",
+    "html_url": "https://github.com/nim-lang/c2nim",
+    "language": "Nim",
+    "pushed_at": "2025-08-28T08:16:26Z",
+    "stargazers_count": 525,
+    "topics": [],
+    "updated_at": "2026-04-20T12:16:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

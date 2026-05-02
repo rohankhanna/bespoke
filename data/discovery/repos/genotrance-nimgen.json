@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genotrance/nimgen",
+      "target": "genotrance/nim7z",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genotrance/nimgen",
+      "target": "genotrance/nimbigwig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genotrance/nimgen",
+      "target": "genotrance/nimclipboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genotrance/nimgen",
+      "target": "genotrance/nimfasttext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "genotrance/nimgen",
+      "target": "c2nim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "genotrance/nimgen",
+      "target": "nimble",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:38:01.410500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14720
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nimgen is a helper for c2nim to simplify and automate the wrapping of C libraries",
+    "fork": false,
+    "full_name": "genotrance/nimgen",
+    "html_url": "https://github.com/genotrance/nimgen",
+    "language": "C",
+    "pushed_at": "2021-09-01T13:51:12Z",
+    "stargazers_count": 115,
+    "topics": [
+      "c2nim",
+      "nim",
+      "nimble"
+    ],
+    "updated_at": "2025-12-09T21:22:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genotrance/nim7z",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genotrance/nimbigwig",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genotrance/nimclipboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genotrance/nimfasttext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c2nim"
+    },
+    {
+      "context_snippet": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nimble"
+    }
+  ]
+}

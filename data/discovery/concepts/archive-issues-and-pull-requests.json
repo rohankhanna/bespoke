@@ -49,6 +49,30 @@
       "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
       "status": "candidate-context",
       "text": "\"Archive Issues and Pull Requests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quicwg/qlog",
+      "status": "candidate-context",
+      "text": "The IETF I-D documents for the qlog format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/qlog",
+      "status": "candidate-context",
+      "text": "\"Archive Issues and Pull Requests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate-context",
+      "text": " Internet-Drafts that make up the base QUIC specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate-context",
+      "text": "\"Archive Issues and Pull Requests\""
     }
   ],
   "candidate_glosses": [
@@ -73,6 +97,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "status": "candidate",
+      "text": "\"Archive Issues and Pull Requests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/qlog",
+      "status": "candidate",
+      "text": "\"Archive Issues and Pull Requests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/base-drafts",
       "status": "candidate",
       "text": "\"Archive Issues and Pull Requests\""
     }
@@ -142,11 +178,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/archive.yml",
       "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "quicwg/qlog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "quicwg/base-drafts"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

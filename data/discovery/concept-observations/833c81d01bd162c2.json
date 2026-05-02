@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udde0 This Storybook plugin uses @storybook/addon-knobs but creates the knobs automatically based on PropTypes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017721,
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991900,
+      "status": "candidate",
+      "text": "pommel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017901,
+      "status": "candidate",
+      "text": "boils"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017901,
+      "status": "candidate",
+      "text": "bones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017901,
+      "status": "candidate",
+      "text": "buds"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knobs",
+      "sense_id": "knobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "knobs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "knobs",
+  "observation_id": "833c81d01bd162c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
+  "observed_text": "knobs",
+  "source_context_snippet": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript.",
+  "source_file": null,
+  "source_repo": "storybook-eol/addon-smart-knobs",
+  "source_repo_description": "\ud83e\udde0 This Storybook plugin uses @storybook/addon-knobs but creates the knobs automatically based on PropTypes."
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An implementation of the QUIC transport protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "mac"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "mac"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792453,
+      "status": "candidate",
+      "text": "mackintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792443,
+      "status": "candidate",
+      "text": "macintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39651063,
+      "status": "candidate",
+      "text": "mack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29739821,
+      "status": "candidate",
+      "text": "cam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29739186,
+      "status": "candidate",
+      "text": "clarence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "mac",
+      "sense_id": "mac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8028,
+      "status": "candidate",
+      "text": "mack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1033,
+      "status": "candidate",
+      "text": "mackintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "macintosh"
+    }
+  ],
+  "concept_id": "mac",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mac",
+  "observation_id": "303ee015c209451f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
+  "observed_text": "mac",
+  "source_context_snippet": "mac",
+  "source_file": ".github/workflows/getdeps_mac.yml",
+  "source_repo": "facebook/mvfst",
+  "source_repo_description": "An implementation of the QUIC transport protocol."
+}

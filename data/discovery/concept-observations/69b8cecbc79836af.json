@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Logo and brand elements of Remotion, created in Remotion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo includes the logo, logo with title, and a social preview image (when posting on social media)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo includes the logo, logo with title, and a social preview image (when posting on social media)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050110,
+      "status": "candidate",
+      "text": "logotype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050101,
+      "status": "candidate",
+      "text": "trademark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049214,
+      "status": "candidate",
+      "text": "oem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047972,
+      "status": "candidate",
+      "text": "signature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046319,
+      "status": "candidate",
+      "text": "emblem"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "logo",
+      "sense_id": "logo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4030,
+      "status": "candidate",
+      "text": "logotype"
+    }
+  ],
+  "concept_id": "logo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "logo",
+  "observation_id": "69b8cecbc79836af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
+  "observed_text": "logo",
+  "source_context_snippet": "This repo includes the logo, logo with title, and a social preview image (when posting on social media).",
+  "source_file": null,
+  "source_repo": "remotion-dev/brand",
+  "source_repo_description": "Logo and brand elements of Remotion, created in Remotion."
+}

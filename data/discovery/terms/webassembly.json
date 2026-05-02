@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -221,6 +221,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jameslittle230/stork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
     }
   ],
   "term": "webassembly"

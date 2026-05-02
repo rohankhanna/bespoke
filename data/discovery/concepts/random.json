@@ -31,6 +31,18 @@
       "source_repo": "avaneev/prvhash",
       "status": "candidate-context",
       "text": "PRVHASH is a hash function that generates a [uniform pseudo-random number"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chancejs/chancejs",
+      "status": "candidate-context",
+      "text": "Chance - Random generator helper for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chancejs/chancejs",
+      "status": "candidate-context",
+      "text": "[![Chance Logo](http://chancejs.com/logo.png)](http://chancejs.com)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "avaneev/prvhash",
       "status": "candidate",
       "text": "PRVHASH is a hash function that generates a [uniform pseudo-random number"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chancejs/chancejs",
+      "status": "candidate",
+      "text": "[![Chance Logo](http://chancejs.com/logo.png)](http://chancejs.com)"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "avaneev/prvhash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "chancejs/chancejs"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "KyleMayes/install-llvm-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vorot93/libmdbx-rs",
+      "target": "KyleMayes/install-llvm-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vorot93/libmdbx-rs",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vorot93/libmdbx-rs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vorot93/libmdbx-rs",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vorot93/libmdbx-rs",
+      "target": "mdbx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:37:56.638765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 184
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1535
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust bindings for MDBX",
+    "fork": false,
+    "full_name": "vorot93/libmdbx-rs",
+    "html_url": "https://github.com/vorot93/libmdbx-rs",
+    "language": "C",
+    "pushed_at": "2026-02-10T04:38:31Z",
+    "stargazers_count": 96,
+    "topics": [
+      "mdbx"
+    ],
+    "updated_at": "2026-04-13T17:39:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust bindings for [libmdbx](https://libmdbx.dqdkfa.ru).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdbx"
+    }
+  ]
+}

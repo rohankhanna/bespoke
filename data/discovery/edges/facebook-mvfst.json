@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebook/mvfst",
+      "target": "facebookincubator/katran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/getdeps_windows.yml",
+      "source_repo": "facebook/mvfst",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-02T00:37:06.324499+00:00",
+  "source_repo": "facebook/mvfst"
+}

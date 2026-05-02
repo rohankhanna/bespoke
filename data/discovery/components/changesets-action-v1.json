@@ -1,7 +1,7 @@
 {
   "component": "changesets/action@v1",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -337,6 +337,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/version.yml",
       "source_repo": "nksaraf/vinxi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sveltejs/dts-buddy"
     }
   ]
 }

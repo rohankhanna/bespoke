@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bblimke/webmock",
+      "target": "excon/excon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bblimke/webmock",
+      "target": "httprb/http",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bblimke/webmock",
+      "target": "cheald/manticore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bblimke/webmock",
+      "target": "chrisk/fakeweb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "bblimke/webmock",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "bblimke/webmock",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:40:21.887997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32339
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 2004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library for stubbing and setting expectations on HTTP requests in Ruby.",
+    "fork": false,
+    "full_name": "bblimke/webmock",
+    "html_url": "https://github.com/bblimke/webmock",
+    "language": "Ruby",
+    "pushed_at": "2026-03-18T04:06:41Z",
+    "stargazers_count": 4052,
+    "topics": [],
+    "updated_at": "2026-04-28T20:49:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheald/manticore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisk/fakeweb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "excon/excon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "httprb/http",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "digama0/frat",
+      "target": "marijnheule/drat-trim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "digama0/frat",
+      "target": "tanyongkiam/cake_lpr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "digama0/frat",
+      "target": "marijnheule/pr2drat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:38:48.567733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5274
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DRAT proof processor",
+    "fork": false,
+    "full_name": "digama0/frat",
+    "html_url": "https://github.com/digama0/frat",
+    "language": "Rust",
+    "pushed_at": "2023-04-08T06:55:38Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-10-31T10:47:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marijnheule/drat-trim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marijnheule/pr2drat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tanyongkiam/cake_lpr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

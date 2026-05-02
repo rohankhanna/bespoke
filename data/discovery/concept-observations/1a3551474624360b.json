@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nimgen is a helper for c2nim to simplify and automate the wrapping of C libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023228,
+      "status": "candidate",
+      "text": "agile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018671,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011502,
+      "status": "candidate",
+      "text": "spry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986129,
+      "status": "candidate",
+      "text": "intelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953966,
+      "status": "candidate",
+      "text": "active"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nimble",
+      "sense_id": "nimble#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32037,
+      "status": "candidate",
+      "text": "intelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23067,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7051,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "agile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "spry"
+    }
+  ],
+  "concept_id": "nimble",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nimble",
+  "observation_id": "1a3551474624360b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
+  "observed_text": "nimble",
+  "source_context_snippet": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward.",
+  "source_file": null,
+  "source_repo": "genotrance/nimgen",
+  "source_repo_description": "Nimgen is a helper for c2nim to simplify and automate the wrapping of C libraries"
+}

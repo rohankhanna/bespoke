@@ -1403,6 +1403,18 @@
       "source_repo": "Badisi/wdio-harness",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DatabaseCleaner/database_cleaner",
+      "status": "candidate-context",
+      "text": "Strategies for cleaning databases in Ruby.  Can be used to ensure a clean state for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DatabaseCleaner/database_cleaner",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -2101,6 +2113,12 @@
       "source_repo": "Badisi/wdio-harness",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DatabaseCleaner/database_cleaner",
+      "status": "candidate",
+      "text": "Tests"
     }
   ],
   "candidate_related_terms": [
@@ -3099,11 +3117,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "Badisi/wdio-harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "DatabaseCleaner/database_cleaner"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

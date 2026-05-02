@@ -2236,6 +2236,18 @@
       "source_repo": "Biscuit-Theme/biscuit",
       "status": "candidate-context",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/mvfst",
+      "status": "candidate-context",
+      "text": "An implementation of the QUIC transport protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/mvfst",
+      "status": "candidate-context",
+      "text": "linux"
     }
   ],
   "candidate_glosses": [
@@ -3366,6 +3378,12 @@
       "source_repo": "Biscuit-Theme/biscuit",
       "status": "candidate",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/mvfst",
+      "status": "candidate",
+      "text": "linux"
     }
   ],
   "candidate_related_terms": [
@@ -5053,11 +5071,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/mvfst"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T00:38:52.552259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 654
+    },
+    {
+      "path": "package.json",
+      "size": 3
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Share ideas for new GitHub Apps built with Probot",
+    "fork": false,
+    "full_name": "probot/ideas",
+    "html_url": "https://github.com/probot/ideas",
+    "language": null,
+    "pushed_at": "2022-09-05T21:35:49Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-04-22T23:55:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

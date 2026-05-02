@@ -334,6 +334,18 @@
       "source_repo": "libimobiledevice/libimobiledevice",
       "status": "candidate-context",
       "text": "*A library to communicate with services on iOS devices using native protocols.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate-context",
+      "text": " Internet-Drafts that make up the base QUIC specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate-context",
+      "text": "The base-drafts repository is the historical home of the QUIC version 1"
     }
   ],
   "candidate_glosses": [
@@ -498,6 +510,12 @@
       "source_repo": "libimobiledevice/libimobiledevice",
       "status": "candidate",
       "text": "*A library to communicate with services on iOS devices using native protocols.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate",
+      "text": "The base-drafts repository is the historical home of the QUIC version 1"
     }
   ],
   "candidate_related_terms": [
@@ -897,11 +915,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "quicwg/base-drafts"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

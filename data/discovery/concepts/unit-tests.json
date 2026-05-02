@@ -876,6 +876,30 @@
       "source_repo": "aws-cloudformation/rain",
       "status": "candidate-context",
       "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chancejs/chancejs",
+      "status": "candidate-context",
+      "text": "Chance - Random generator helper for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chancejs/chancejs",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "node-real/bsc-erigon",
+      "status": "candidate-context",
+      "text": "Ethereum implementation on the efficiency frontier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-real/bsc-erigon",
+      "status": "candidate-context",
+      "text": "Unit tests"
     }
   ],
   "candidate_glosses": [
@@ -1320,6 +1344,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-cloudformation/rain",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chancejs/chancejs",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-real/bsc-erigon",
       "status": "candidate",
       "text": "Unit tests"
     }
@@ -2234,11 +2270,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/unit_tests.yml",
       "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chancejs/chancejs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "node-real/bsc-erigon"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

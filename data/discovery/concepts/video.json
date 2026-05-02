@@ -535,6 +535,18 @@
       "source_repo": "HReynaud/EchoDiffusion",
       "status": "candidate-context",
       "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remotion-dev/github-unwrapped",
+      "status": "candidate-context",
+      "text": "Your coding year in review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/github-unwrapped",
+      "status": "candidate-context",
+      "text": "<img width=\"1200\" alt=\"readme\" src=\"https://github.com/remotion-dev/github-unwrapped-2023/assets/73991323/0a907f4f-a591-4d98-8b38-c90581ccfb33\">"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "HReynaud/EchoDiffusion",
       "status": "candidate",
       "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/github-unwrapped",
+      "status": "candidate",
+      "text": "<img width=\"1200\" alt=\"readme\" src=\"https://github.com/remotion-dev/github-unwrapped-2023/assets/73991323/0a907f4f-a591-4d98-8b38-c90581ccfb33\">"
     }
   ],
   "candidate_related_terms": [
@@ -1183,11 +1201,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "HReynaud/EchoDiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

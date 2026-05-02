@@ -19,6 +19,18 @@
       "source_repo": "crc-org/crc",
       "status": "candidate-context",
       "text": "CRC - Runs Containers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate-context",
+      "text": "\ud83e\udde0 This Storybook plugin uses @storybook/addon-knobs but creates the knobs automatically based on PropTypes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate-context",
+      "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "crc-org/crc",
       "status": "candidate",
       "text": "CRC - Runs Containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-eol/addon-smart-knobs",
+      "status": "candidate",
+      "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

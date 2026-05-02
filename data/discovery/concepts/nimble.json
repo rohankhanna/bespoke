@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "nimble"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "genotrance/nimgen",
+      "status": "candidate-context",
+      "text": "Nimgen is a helper for c2nim to simplify and automate the wrapping of C libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "genotrance/nimgen",
+      "status": "candidate-context",
+      "text": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "genotrance/nimgen",
+      "status": "candidate",
+      "text": "Nimgen has been superseded by [nimterop](https://github.com/nimterop/nimterop). Existing wrappers are slowly being migrated over to nimterop. No new features will be implemented going forward."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023228,
+      "status": "candidate",
+      "text": "agile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018671,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011502,
+      "status": "candidate",
+      "text": "spry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986129,
+      "status": "candidate",
+      "text": "intelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953966,
+      "status": "candidate",
+      "text": "active"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32037,
+      "status": "candidate",
+      "text": "intelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23067,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7051,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "agile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "spry"
+    }
+  ],
+  "canonical_name": "nimble",
+  "concept_id": "nimble",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "genotrance/nimgen"
+    }
+  ],
+  "first_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nimble",
+      "sense_id": "nimble#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

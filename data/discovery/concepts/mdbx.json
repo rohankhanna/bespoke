@@ -31,6 +31,18 @@
       "source_repo": "ikonopistsev/mdbxmou",
       "status": "candidate-context",
       "text": "Node.js binding for [libmdbx](https://github.com/Mithril-mine/libmdbx) \u2014 a fast, lightweight, embedded key-value database."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vorot93/libmdbx-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for MDBX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vorot93/libmdbx-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for [libmdbx](https://libmdbx.dqdkfa.ru)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ikonopistsev/mdbxmou",
       "status": "candidate",
       "text": "Node.js binding for [libmdbx](https://github.com/Mithril-mine/libmdbx) \u2014 a fast, lightweight, embedded key-value database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vorot93/libmdbx-rs",
+      "status": "candidate",
+      "text": "Rust bindings for [libmdbx](https://libmdbx.dqdkfa.ru)."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "vorot93/libmdbx-rs"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

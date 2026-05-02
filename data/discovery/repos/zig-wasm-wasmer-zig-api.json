@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "target": "afirium/wasmer-zig-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "target": "wasi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "target": "wasmer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "target": "webassembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api",
+      "target": "ziglang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:38:34.103464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1922
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Zig bindings for the Wasmer WebAssembly runtime",
+    "fork": false,
+    "full_name": "zig-wasm/wasmer-zig-api",
+    "html_url": "https://github.com/zig-wasm/wasmer-zig-api",
+    "language": "C",
+    "pushed_at": "2025-12-28T15:27:01Z",
+    "stargazers_count": 37,
+    "topics": [
+      "wasi",
+      "wasm",
+      "wasmer",
+      "webassembly",
+      "zig",
+      "ziglang"
+    ],
+    "updated_at": "2026-01-27T16:22:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afirium/wasmer-zig-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasi"
+    },
+    {
+      "context_snippet": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasmer"
+    },
+    {
+      "context_snippet": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    },
+    {
+      "context_snippet": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ziglang"
+    }
+  ]
+}

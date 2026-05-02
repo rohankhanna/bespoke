@@ -1,12 +1,17 @@
 {
   "component": "reviewdog/action-eslint@v1",
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/eslint.yml",
       "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "chancejs/chancejs"
     }
   ]
 }

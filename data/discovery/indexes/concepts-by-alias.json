@@ -308,6 +308,9 @@
   "aarch64": [
     "aarch64"
   ],
+  "aarch64 ci": [
+    "aarch64-ci"
+  ],
   "aarch64-linux-gnu": [
     "aarch64-linux-gnu"
   ],
@@ -12398,6 +12401,9 @@
   "c-sharp": [
     "c-sharp"
   ],
+  "c2nim": [
+    "c2nim"
+  ],
   "c3 e2e": [
     "c3-e2e"
   ],
@@ -13100,6 +13106,9 @@
   "cdcl-algorithm": [
     "cdcl-algorithm"
   ],
+  "cddl validation": [
+    "cddl-validation"
+  ],
   "cdk analytics metadata updater": [
     "cdk-analytics-metadata-updater"
   ],
@@ -13306,6 +13315,9 @@
   ],
   "challenge tests": [
     "challenge-tests"
+  ],
+  "chance": [
+    "chance"
   ],
   "chandra ci": [
     "chandra-ci"
@@ -21488,6 +21500,9 @@
   "crystal": [
     "crystal"
   ],
+  "crystal-language": [
+    "crystal-language"
+  ],
   "cs test suite": [
     "cs-test-suite"
   ],
@@ -22588,6 +22603,9 @@
   ],
   "database-as-a-service": [
     "database-as-a-service"
+  ],
+  "database-cleaner": [
+    "database-cleaner"
   ],
   "database-cluster": [
     "database-cluster"
@@ -25798,6 +25816,9 @@
   ],
   "docker tag monitor": [
     "docker-tag-monitor"
+  ],
+  "docker tags": [
+    "docker-tags"
   ],
   "docker test and development images": [
     "docker-test-and-development-images"
@@ -38288,6 +38309,9 @@
   "interpreter": [
     "interpreter"
   ],
+  "interpreter test": [
+    "interpreter-test"
+  ],
   "interspeech2021": [
     "interspeech2021"
   ],
@@ -40267,6 +40291,9 @@
   ],
   "knn-search": [
     "knn-search"
+  ],
+  "knobs": [
+    "knobs"
   ],
   "knockout": [
     "knockout"
@@ -43020,6 +43047,9 @@
   ],
   "llvm build": [
     "llvm-build"
+  ],
+  "llvm ci": [
+    "llvm-ci"
   ],
   "llvm-win": [
     "llvm-win"
@@ -48901,6 +48931,9 @@
   "nima": [
     "nima"
   ],
+  "nimble": [
+    "nimble"
+  ],
   "nimblepros": [
     "nimblepros"
   ],
@@ -49656,6 +49689,9 @@
   ],
   "npm publish nightly": [
     "npm-publish-nightly"
+  ],
+  "npm publish package": [
+    "npm-publish-package"
   ],
   "npm publish simulation": [
     "npm-publish-simulation"
@@ -55873,6 +55909,9 @@
   "proprietary path guard": [
     "proprietary-path-guard"
   ],
+  "proptypes": [
+    "proptypes"
+  ],
   "prose": [
     "prose"
   ],
@@ -60805,6 +60844,9 @@
   "remote-work": [
     "remote-work"
   ],
+  "remotion": [
+    "remotion"
+  ],
   "remove": [
     "remove"
   ],
@@ -60819,6 +60861,9 @@
   ],
   "remove disabled packages": [
     "remove-disabled-packages"
+  ],
+  "remove docker image": [
+    "remove-docker-image"
   ],
   "remove feedback label on comment": [
     "remove-feedback-label-on-comment"
@@ -60909,6 +60954,9 @@
   ],
   "render test": [
     "render-test"
+  ],
+  "render video": [
+    "render-video"
   ],
   "render videos": [
     "render-videos"
@@ -74649,6 +74697,9 @@
   "unusual": [
     "unusual"
   ],
+  "unwrapped": [
+    "unwrapped"
+  ],
   "unzip": [
     "unzip"
   ],
@@ -79953,6 +80004,9 @@
   ],
   "ycsb": [
     "ycsb"
+  ],
+  "year-in-review": [
+    "year-in-review"
   ],
   "yeoman": [
     "yeoman"

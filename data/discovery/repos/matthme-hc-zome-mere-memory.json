@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matthme/hc-zome-mere-memory",
+      "target": "spartan-holochain-counsel/hc-zome-mere-memory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "matthme/hc-zome-mere-memory",
+      "target": "spartan-holochain-counsel/hc-zome-mere-memory",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:38:33.187413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1885
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Holochain Zome for storing large or small byte values",
+    "fork": true,
+    "full_name": "matthme/hc-zome-mere-memory",
+    "html_url": "https://github.com/matthme/hc-zome-mere-memory",
+    "language": "Rust",
+    "pushed_at": "2023-12-13T14:42:51Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-02-14T14:59:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spartan-holochain-counsel/hc-zome-mere-memory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spartan-holochain-counsel/hc-zome-mere-memory",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

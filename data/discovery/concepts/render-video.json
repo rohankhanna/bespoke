@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Render video"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remotion-dev/brand",
+      "status": "candidate-context",
+      "text": "Logo and brand elements of Remotion, created in Remotion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/brand",
+      "status": "candidate-context",
+      "text": "Render video"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/brand",
+      "status": "candidate",
+      "text": "Render video"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11534,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11534,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11534,
+      "status": "candidate",
+      "text": "gag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11534,
+      "status": "candidate",
+      "text": "rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10671,
+      "status": "candidate",
+      "text": "blot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Render video",
+  "concept_id": "render-video",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/render-video.yml",
+      "source_repo": "remotion-dev/brand"
+    }
+  ],
+  "first_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Render video",
+      "sense_id": "render-video#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

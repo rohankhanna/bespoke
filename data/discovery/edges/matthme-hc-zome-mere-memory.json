@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matthme/hc-zome-mere-memory",
+      "target": "spartan-holochain-counsel/hc-zome-mere-memory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "matthme/hc-zome-mere-memory",
+      "target": "spartan-holochain-counsel/hc-zome-mere-memory",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-02T00:37:06.324499+00:00",
+  "source_repo": "matthme/hc-zome-mere-memory"
+}

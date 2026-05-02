@@ -1906,6 +1906,30 @@
       "source_repo": "citation-file-format/ruby-cff",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate-context",
+      "text": "Isolated React component development environment with a living style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate-context",
+      "text": "react-styleguidist \u2014 React components style guide generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chancejs/chancejs",
+      "status": "candidate-context",
+      "text": "Chance - Random generator helper for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chancejs/chancejs",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -2884,6 +2908,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "citation-file-format/ruby-cff",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate",
+      "text": "react-styleguidist \u2014 React components style guide generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chancejs/chancejs",
       "status": "candidate",
       "text": "Documentation"
     }
@@ -4302,11 +4338,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "styleguidist/react-styleguidist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "chancejs/chancejs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

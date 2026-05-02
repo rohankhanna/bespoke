@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-02T00:39:38.790087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "bsc daily snapshot",
+    "fork": false,
+    "full_name": "48Club/bsc-snapshots",
+    "html_url": "https://github.com/48Club/bsc-snapshots",
+    "language": null,
+    "pushed_at": "2026-04-30T10:41:27Z",
+    "stargazers_count": 191,
+    "topics": [],
+    "updated_at": "2026-04-30T10:41:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

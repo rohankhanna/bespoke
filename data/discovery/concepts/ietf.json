@@ -19,6 +19,30 @@
       "source_repo": "martinthomson/i-d-template",
       "status": "candidate-context",
       "text": "The contents of this repository can be used to manage the editing of an"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quicwg/qlog",
+      "status": "candidate-context",
+      "text": "The IETF I-D documents for the qlog format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/qlog",
+      "status": "candidate-context",
+      "text": "<!-- regenerate: off (set to off if you edit this file) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate-context",
+      "text": " Internet-Drafts that make up the base QUIC specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate-context",
+      "text": "The base-drafts repository is the historical home of the QUIC version 1"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "martinthomson/i-d-template",
       "status": "candidate",
       "text": "The contents of this repository can be used to manage the editing of an"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/qlog",
+      "status": "candidate",
+      "text": "<!-- regenerate: off (set to off if you edit this file) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quicwg/base-drafts",
+      "status": "candidate",
+      "text": "The base-drafts repository is the historical home of the QUIC version 1"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "martinthomson/i-d-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "quicwg/qlog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "quicwg/base-drafts"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

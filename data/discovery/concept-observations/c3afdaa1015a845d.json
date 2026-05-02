@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Internet-Drafts that make up the base QUIC specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Update Editor's Copy\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Update Editor's Copy\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35217,
+      "status": "candidate",
+      "text": "stet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34403,
+      "status": "candidate",
+      "text": "sub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34354,
+      "status": "candidate",
+      "text": "typo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34003,
+      "status": "candidate",
+      "text": "style"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33954,
+      "status": "candidate",
+      "text": "eraser"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Editor's Copy",
+      "sense_id": "update-editor-s-copy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-editor-s-copy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-editor-s-copy",
+  "observation_id": "c3afdaa1015a845d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
+  "observed_text": "Update Editor's Copy",
+  "source_context_snippet": "\"Update Editor's Copy\"",
+  "source_file": ".github/workflows/ghpages.yml",
+  "source_repo": "quicwg/base-drafts",
+  "source_repo_description": " Internet-Drafts that make up the base QUIC specification"
+}

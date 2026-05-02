@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chance - Random generator helper for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Chance Logo](http://chancejs.com/logo.png)](http://chancejs.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Chance Logo](http://chancejs.com/logo.png)](http://chancejs.com)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034288,
+      "status": "candidate",
+      "text": "hit-or-miss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032793,
+      "status": "candidate",
+      "text": "haphazard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013070,
+      "status": "candidate",
+      "text": "unselected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912692,
+      "status": "candidate",
+      "text": "stochastic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036432,
+      "status": "candidate",
+      "text": "inconsistent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "random",
+      "sense_id": "random#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "stochastic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14036,
+      "status": "candidate",
+      "text": "haphazard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2016,
+      "status": "candidate",
+      "text": "unselected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "hit-or-miss"
+    }
+  ],
+  "concept_id": "random",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "random",
+  "observation_id": "4a84f17ef702316e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
+  "observed_text": "random",
+  "source_context_snippet": "[![Chance Logo](http://chancejs.com/logo.png)](http://chancejs.com)",
+  "source_file": null,
+  "source_repo": "chancejs/chancejs",
+  "source_repo_description": "Chance - Random generator helper for JavaScript"
+}

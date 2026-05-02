@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_release.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_release.yml",
+      "source_repo": "phillbaker/capybara-mechanize",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_release.yml",
+      "source_repo": "phillbaker/capybara-mechanize",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:40:24.221388+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test_and_release.yml",
+      "size": 758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RackTest driver for Capybara with remote request support",
+    "fork": false,
+    "full_name": "phillbaker/capybara-mechanize",
+    "html_url": "https://github.com/phillbaker/capybara-mechanize",
+    "language": "Ruby",
+    "pushed_at": "2025-12-20T18:48:12Z",
+    "stargazers_count": 212,
+    "topics": [],
+    "updated_at": "2026-04-10T06:17:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

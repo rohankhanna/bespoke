@@ -48,7 +48,7 @@
   "normalized_form": "detect-bot-opt-in",
   "observation_id": "aa5777117e36016f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-05-02T00:37:06.324499+00:00",
   "observed_text": "detect-bot-opt-in",
   "source_context_snippet": "detect-bot-opt-in",
   "source_file": ".github/workflows/detect-bot-opt-in.yml",

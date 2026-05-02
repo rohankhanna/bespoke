@@ -4,17 +4,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gnet-io/gnet-benchmarks",
-      "target": "machinezone/tcpkali",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gnet-io/gnet-benchmarks",
       "target": "panjf2000/gnet_benchmarks",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-02T00:37:06.324499+00:00",
   "source_repo": "gnet-io/gnet-benchmarks"
 }

@@ -373,6 +373,18 @@
       "source_repo": "danmayer/coverband",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travisjeffery/timecop",
+      "status": "candidate-context",
+      "text": "A gem providing \"time travel\", \"time freezing\", and \"time acceleration\" capabilities, making it simple to test time-dependent code. It provides a unified method to mock Time.now, Date.today, and DateTime.now in a single call."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travisjeffery/timecop",
+      "status": "candidate-context",
+      "text": "FROM ruby WORKDIR /timecop COPY Gemfile . COPY timecop.gemspec . COPY lib/timecop/version.rb lib/timecop/version.rb RUN bundle -j 4 COPY . . CMD [\"bin/console\"]"
     }
   ],
   "candidate_glosses": [
@@ -561,6 +573,12 @@
       "source_repo": "danmayer/coverband",
       "status": "candidate",
       "text": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travisjeffery/timecop",
+      "status": "candidate",
+      "text": "FROM ruby WORKDIR /timecop COPY Gemfile . COPY timecop.gemspec . COPY lib/timecop/version.rb lib/timecop/version.rb RUN bundle -j 4 COPY . . CMD [\"bin/console\"]"
     }
   ],
   "candidate_related_terms": [
@@ -805,11 +823,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "danmayer/coverband"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "travisjeffery/timecop"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

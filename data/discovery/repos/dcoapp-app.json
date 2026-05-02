@@ -58,20 +58,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dcoapp/app",
-      "target": "probot/probot",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dcoapp/app",
-      "target": "apps/dco",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "dcoapp/app",
@@ -184,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:06:27.632524+00:00",
+  "fetched_at": "2026-05-02T00:38:50.822522+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -224,18 +210,7 @@
     ],
     "updated_at": "2026-04-23T17:22:51Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apps/dco",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "probot/probot",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release",

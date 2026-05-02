@@ -775,6 +775,18 @@
       "source_repo": "pfultz2/cget",
       "status": "candidate-context",
       "text": "cget"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nim-lang/nimble",
+      "status": "candidate-context",
+      "text": "Package manager for the Nim programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/nimble",
+      "status": "candidate-context",
+      "text": "on: push: tags: - \"v*\" # \"v1.2.3\" branches: - master paths-ignore: [\"nimble-guide/**\", \"**/*.md\"] pull_request: paths-ignore: [\"nimble-guide/**\", \"**/*.md\"] workflow_dispatch: jobs: build: strategy: fail-fast: false matrix: target: - os: linux triple: x86_64-linux-musl name: lin\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1161,6 +1173,12 @@
       "source_repo": "pfultz2/cget",
       "status": "candidate",
       "text": "cget"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/nimble",
+      "status": "candidate",
+      "text": "on: push: tags: - \"v*\" # \"v1.2.3\" branches: - master paths-ignore: [\"nimble-guide/**\", \"**/*.md\"] pull_request: paths-ignore: [\"nimble-guide/**\", \"**/*.md\"] workflow_dispatch: jobs: build: strategy: fail-fast: false matrix: target: - os: linux triple: x86_64-linux-musl name: lin\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1624,11 +1642,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "nim-lang/nimble"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

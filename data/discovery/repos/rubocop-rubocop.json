@@ -258,7 +258,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:19:26.375361+00:00",
+  "fetched_at": "2026-05-02T00:40:09.549877+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -298,8 +298,8 @@
     "full_name": "rubocop/rubocop",
     "html_url": "https://github.com/rubocop/rubocop",
     "language": "Ruby",
-    "pushed_at": "2026-04-29T15:21:17Z",
-    "stargazers_count": 12855,
+    "pushed_at": "2026-05-01T08:28:58Z",
+    "stargazers_count": 12854,
     "topics": [
       "code-formatter",
       "hacktoberfest",
@@ -308,7 +308,7 @@
       "ruby",
       "static-code-analysis"
     ],
-    "updated_at": "2026-04-29T18:44:26Z"
+    "updated_at": "2026-05-01T11:17:56Z"
   },
   "repo_links": [],
   "terms": [

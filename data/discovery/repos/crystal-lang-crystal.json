@@ -1,0 +1,650 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "docker://crystallang/crystal:1.13.2-alpine-84codes-build",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "docker://crystallang/crystal:1.13.2-alpine-84codes-build",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "docker://crystallang/crystal:1.13.2-alpine-84codes-build",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "docker://crystallang/crystal:1.13.2-ubuntu-84codes-build",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "docker://crystallang/crystal:1.13.2-ubuntu-84codes-build",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "docker://crystallang/crystal:1.13.2-ubuntu-84codes-build",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "korthout/backport-action@3c06f323a58619da1e8522229ebc8d5de2633e46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "crate-ci/typos@631208b7aac2daa8b707f55e7331f9112b0e062d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "crystal-lang/install-crystal@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "docker://crystallang/crystal:1.13.2-alpine-84codes-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "docker://crystallang/crystal:1.13.2-ubuntu-84codes-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "AArch64 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "korthout/backport-action@3c06f323a58619da1e8522229ebc8d5de2633e46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/forward-compatibility.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "Forward Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interpreter.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/interpreter.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "Interpreter Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "crate-ci/typos@631208b7aac2daa8b707f55e7331f9112b0e062d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "crystal-lang/install-crystal@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "LLVM CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "crystal-lang/crystal",
+      "target": "macOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crystal-lang/crystal",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crystal-lang/crystal",
+      "target": "crystal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crystal-lang/crystal",
+      "target": "crystal-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crystal-lang/crystal",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crystal-lang/crystal",
+      "target": "programming-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:40:14.730100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4010
+    },
+    {
+      "path": ".github/workflows/aarch64.yml",
+      "size": 4408
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 1442
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1159
+    },
+    {
+      "path": ".github/workflows/forward-compatibility.yml",
+      "size": 2216
+    },
+    {
+      "path": ".github/workflows/interpreter.yml",
+      "size": 2595
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 3827
+    },
+    {
+      "path": ".github/workflows/llvm.yml",
+      "size": 2754
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 2470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Crystal Programming Language",
+    "fork": false,
+    "full_name": "crystal-lang/crystal",
+    "html_url": "https://github.com/crystal-lang/crystal",
+    "language": "Crystal",
+    "pushed_at": "2026-05-01T10:36:52Z",
+    "stargazers_count": 20249,
+    "topics": [
+      "compiler",
+      "crystal",
+      "crystal-language",
+      "hacktoberfest",
+      "programming-language"
+    ],
+    "updated_at": "2026-05-01T15:45:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AArch64 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64.yml",
+      "term": "AArch64 CI"
+    },
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Forward Compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/forward-compatibility.yml",
+      "term": "Forward Compatibility"
+    },
+    {
+      "context_snippet": "Interpreter Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/interpreter.yml",
+      "term": "Interpreter Test"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "LLVM CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm.yml",
+      "term": "LLVM CI"
+    },
+    {
+      "context_snippet": "macOS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS CI"
+    },
+    {
+      "context_snippet": "[![Linux CI Build Status](https://github.com/crystal-lang/crystal/workflows/Linux%20CI/badge.svg)](https://github.com/crystal-lang/crystal/actions?query=workflow%3A%22Linux+CI%22+event%3Apush+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "[![Linux CI Build Status](https://github.com/crystal-lang/crystal/workflows/Linux%20CI/badge.svg)](https://github.com/crystal-lang/crystal/actions?query=workflow%3A%22Linux+CI%22+event%3Apush+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crystal"
+    },
+    {
+      "context_snippet": "[![Linux CI Build Status](https://github.com/crystal-lang/crystal/workflows/Linux%20CI/badge.svg)](https://github.com/crystal-lang/crystal/actions?query=workflow%3A%22Linux+CI%22+event%3Apush+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crystal-language"
+    },
+    {
+      "context_snippet": "[![Linux CI Build Status](https://github.com/crystal-lang/crystal/workflows/Linux%20CI/badge.svg)](https://github.com/crystal-lang/crystal/actions?query=workflow%3A%22Linux+CI%22+event%3Apush+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Linux CI Build Status](https://github.com/crystal-lang/crystal/workflows/Linux%20CI/badge.svg)](https://github.com/crystal-lang/crystal/actions?query=workflow%3A%22Linux+CI%22+event%3Apush+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    }
+  ]
+}

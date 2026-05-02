@@ -5521,6 +5521,18 @@
       "source_repo": "malewicz1337/oil-git.nvim",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DatabaseCleaner/database_cleaner",
+      "status": "candidate-context",
+      "text": "Strategies for cleaning databases in Ruby.  Can be used to ensure a clean state for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DatabaseCleaner/database_cleaner",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -8329,6 +8341,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "malewicz1337/oil-git.nvim",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DatabaseCleaner/database_cleaner",
       "status": "candidate",
       "text": "Tests"
     }
@@ -12237,11 +12255,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/ci-pr.yml",
       "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coasys/perspective-diff-sync"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clean-css/clean-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DatabaseCleaner/database_cleaner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

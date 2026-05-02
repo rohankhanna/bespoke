@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genotrance/nimarchive",
+      "target": "nim-lang/nimble",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genotrance/nimarchive",
+      "target": "kobolabs/liblzma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genotrance/nimarchive",
+      "target": "libexpat/libexpat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genotrance/nimarchive",
+      "target": "genotrance/bzip2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-02T00:37:58.092065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libarchive wrapper for Nim",
+    "fork": false,
+    "full_name": "genotrance/nimarchive",
+    "html_url": "https://github.com/genotrance/nimarchive",
+    "language": "Nim",
+    "pushed_at": "2021-10-20T21:07:22Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-02-20T09:51:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genotrance/bzip2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kobolabs/liblzma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libexpat/libexpat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nim-lang/nimble",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

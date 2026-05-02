@@ -7267,6 +7267,30 @@
       "source_repo": "jfly/shtuff",
       "status": "candidate-context",
       "text": "Shell stuff will stuff commands into a shell \u00e0 la `tmux send-keys` or `screen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate-context",
+      "text": "Isolated React component development environment with a living style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate-context",
+      "text": "react-styleguidist \u2014 React components style guide generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crystal-lang/crystal",
+      "status": "candidate-context",
+      "text": "The Crystal Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crystal-lang/crystal",
+      "status": "candidate-context",
+      "text": "[![Linux CI Build Status](https://github.com/crystal-lang/crystal/workflows/Linux%20CI/badge.svg)](https://github.com/crystal-lang/crystal/actions?query=workflow%3A%22Linux+CI%22+event%3Apush+branch%3Amaster)"
     }
   ],
   "candidate_glosses": [
@@ -10917,6 +10941,18 @@
       "source_repo": "jfly/shtuff",
       "status": "candidate",
       "text": "Shell stuff will stuff commands into a shell \u00e0 la `tmux send-keys` or `screen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-styleguidist",
+      "status": "candidate",
+      "text": "react-styleguidist \u2014 React components style guide generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crystal-lang/crystal",
+      "status": "candidate",
+      "text": "[![Linux CI Build Status](https://github.com/crystal-lang/crystal/workflows/Linux%20CI/badge.svg)](https://github.com/crystal-lang/crystal/actions?query=workflow%3A%22Linux+CI%22+event%3Apush+branch%3Amaster)"
     }
   ],
   "candidate_related_terms": [],
@@ -16348,11 +16384,47 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/nuxt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "styleguidist/react-styleguidist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "crystal-lang/crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],

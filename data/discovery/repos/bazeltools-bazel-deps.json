@@ -70,13 +70,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bazeltools/bazel-deps",
-      "target": "eclipse/aether-demo",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "bazeltools/bazel-deps",
@@ -140,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:38:44.949969+00:00",
+  "fetched_at": "2026-05-02T00:38:08.799414+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -170,11 +163,6 @@
     "updated_at": "2026-04-04T11:42:46Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eclipse/aether-demo",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "pgr0ss/bazel-deps",

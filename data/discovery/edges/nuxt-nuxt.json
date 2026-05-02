@@ -536,7 +536,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/autofix-docs.yml",
       "source_repo": "nuxt/nuxt",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -564,7 +564,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "nuxt/nuxt",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -599,7 +599,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "nuxt/nuxt",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -634,28 +634,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nuxt/nuxt",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nuxt/nuxt",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nuxt/nuxt",
-      "target": "github/codeql-action/init@b1bff81932f5cdfc8695c7752dcee935dcd061c8",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nuxt/nuxt",
-      "target": "github/codeql-action/analyze@b1bff81932f5cdfc8695c7752dcee935dcd061c8",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
@@ -669,7 +669,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nuxt/nuxt",
-      "target": "CodSpeedHQ/action@281164b0f014a4e7badd2c02cecad9b595b70537",
+      "target": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
       "target_type": "component"
     },
     {
@@ -771,6 +771,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-05-02T00:37:06.324499+00:00",
   "source_repo": "nuxt/nuxt"
 }

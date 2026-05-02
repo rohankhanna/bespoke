@@ -1,0 +1,659 @@
+{
+  "api_stop_detail": {
+    "discovered_via": "explicit-github-link",
+    "full_name": "layr-labs/rust-bls-bn254",
+    "http_status": 504,
+    "rate_limit_kind": null,
+    "rate_limit_remaining": "4131",
+    "rate_limit_reset": "1777685855",
+    "rate_limit_resource": "core",
+    "reason": "Gateway Timeout",
+    "retry_after": null,
+    "url": "https://api.github.com/repos/layr-labs/rust-bls-bn254"
+  },
+  "batch_count": 5,
+  "budget_seconds": 18000,
+  "concept_index_counts": {
+    "aliases": 26983,
+    "buckets": 15,
+    "observations_by_concept": 26295
+  },
+  "elapsed_seconds": 232.398,
+  "embedding_unit_count": 161644,
+  "explicit_repo_exists_degraded": false,
+  "explicit_repo_exists_fallbacks": [],
+  "generated_at": "2026-05-02T00:37:06.324499+00:00",
+  "processed_repositories": [
+    "erigontech/mdbx-go",
+    "vorot93/libmdbx-rs",
+    "genotrance/nimarchive",
+    "genotrance/nimgen",
+    "nim-lang/c2nim",
+    "nim-lang/nimble",
+    "holochain/hc-launch",
+    "matthme/devhub-dnas",
+    "matthme/hc-zome-mere-memory",
+    "zig-wasm/wasmer-zig-api",
+    "dart-archive/wasm",
+    "enjoy-digital/litex-acorn-baseboard",
+    "digama0/frat",
+    "probot/ideas",
+    "remotion-dev/github-unwrapped",
+    "remotion-dev/brand",
+    "wcandillon/remotion-fireship",
+    "storybook-eol/addon-smart-knobs",
+    "styleguidist/react-styleguidist",
+    "aleclarson/vite-tsconfig-paths",
+    "sveltejs/dts-buddy",
+    "jakerella/jquery-mockjax",
+    "chancejs/chancejs",
+    "48club/bsc-snapshots",
+    "node-real/bsc-erigon",
+    "facebook/mvfst",
+    "quicwg/qlog",
+    "quicwg/base-drafts",
+    "guard/guard-brakeman",
+    "crystal-lang/crystal",
+    "bblimke/webmock",
+    "databasecleaner/database_cleaner",
+    "phillbaker/capybara-mechanize",
+    "travisjeffery/timecop"
+  ],
+  "rate_limit_backoff_events": [],
+  "rate_limit_backoff_total_sleep_seconds": 0,
+  "remaining_budget_seconds": 17767.602,
+  "remaining_frontier": 2119,
+  "repo_timing_summary": {
+    "average_seconds": 1.484,
+    "count": 77,
+    "max_seconds": 10.279,
+    "total_seconds": 114.254
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 10.279,
+      "full_name": "etcd-io/bbolt",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.865,
+      "full_name": "mithril-mine/libmdbx",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.433,
+      "full_name": "erigontech/mdbx-go",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.7,
+      "full_name": "vorot93/libmdbx-rs",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.233,
+      "full_name": "genotrance/nimarchive",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.318,
+      "full_name": "genotrance/nimgen",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.726,
+      "full_name": "nim-lang/c2nim",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.928,
+      "full_name": "nim-lang/nimble",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.077,
+      "full_name": "bazel-contrib/rules_kotlin",
+      "graph_distance": 21
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.209,
+      "full_name": "bazeltools/bazel-deps",
+      "graph_distance": 21
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.918,
+      "full_name": "molotovcherry/tree-sitter-wasm",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.361,
+      "full_name": "pharmbio/sciluigi",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.247,
+      "full_name": "commonmark/commonmark-spec",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.36,
+      "full_name": "markdown-it-rust/markdown-it-plugins.rs",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.348,
+      "full_name": "graphql/graphql-playground",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.744,
+      "full_name": "graphql/graphql-playground",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.542,
+      "full_name": "graphql-hive/graphql-config",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.732,
+      "full_name": "graphql/graphql-playground",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.833,
+      "full_name": "holochain/launcher",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.167,
+      "full_name": "holochain/hc-launch",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.684,
+      "full_name": "matthme/devhub-dnas",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.95,
+      "full_name": "matthme/hc-zome-mere-memory",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.916,
+      "full_name": "zig-wasm/wasmer-zig-api",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.025,
+      "full_name": "dart-archive/wasm",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.281,
+      "full_name": "coasys/perspective-diff-sync",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.289,
+      "full_name": "hhu-stups/prolog-jupyter-kernel",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.807,
+      "full_name": "hhu-stups/jupyterlab-prolog-codemirror-extension",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.921,
+      "full_name": "jupyterlab/extension-examples",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.594,
+      "full_name": "enjoy-digital/litex-acorn-baseboard",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.107,
+      "full_name": "hwmcc/btor2tools",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.062,
+      "full_name": "digama0/frat",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.339,
+      "full_name": "dcoapp/app",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.657,
+      "full_name": "probot/ideas",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.083,
+      "full_name": "chipsalliance/python-fpga-interchange",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.068,
+      "full_name": "module-federation/core",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.369,
+      "full_name": "remotion-dev/github-unwrapped",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.866,
+      "full_name": "remotion-dev/brand",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.224,
+      "full_name": "wcandillon/remotion-fireship",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.986,
+      "full_name": "alonronin/react-tailwind-rsbuild-boilerplate",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.771,
+      "full_name": "nuxt/nuxt",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.497,
+      "full_name": "clean-css/clean-css",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.652,
+      "full_name": "storybook-eol/addon-smart-knobs",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.008,
+      "full_name": "styleguidist/react-styleguidist",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.624,
+      "full_name": "aleclarson/vite-tsconfig-paths",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.177,
+      "full_name": "sveltejs/dts-buddy",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.18,
+      "full_name": "0x7432/asm-ru",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.755,
+      "full_name": "jakerella/jquery-mockjax",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.659,
+      "full_name": "chancejs/chancejs",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.835,
+      "full_name": "billionmail/billionmail",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.559,
+      "full_name": "48club/bsc-snapshots",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.163,
+      "full_name": "node-real/bsc-erigon",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.115,
+      "full_name": "gnet-io/gnet-benchmarks",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.736,
+      "full_name": "apache/casbin-fasthttp-auth",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.709,
+      "full_name": "wamp-proto/wamp-xbr",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.708,
+      "full_name": "python-hyper/brotlicffi",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.112,
+      "full_name": "facebook/mvfst",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.291,
+      "full_name": "quicwg/qlog",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.156,
+      "full_name": "quicwg/base-drafts",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.05,
+      "full_name": "0xpolygon/pilcom",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.345,
+      "full_name": "alloy-rs/svm-rs",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.853,
+      "full_name": "guard/guard-brakeman",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.836,
+      "full_name": "rubocop/rubocop",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.842,
+      "full_name": "crystal-lang/crystal",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.296,
+      "full_name": "bblimke/webmock",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.551,
+      "full_name": "databasecleaner/database_cleaner",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.673,
+      "full_name": "phillbaker/capybara-mechanize",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.585,
+      "full_name": "travisjeffery/timecop",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.909,
+      "full_name": "consensys-archive/ganache",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.53,
+      "full_name": "consensys-archive/ganache-plugin-filecoin",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.332,
+      "full_name": "arkworks-rs/poly-commit",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.356,
+      "full_name": "arkworks-rs/std",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.211,
+      "full_name": "facebook/winterfell",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.83,
+      "full_name": "ipsilon/evmc",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.554,
+      "full_name": "ipsilon/evmone",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.668,
+      "full_name": "erigontech/silkpre",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.292,
+      "full_name": "alloy-rs/evm",
+      "graph_distance": 22
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.586,
+      "full_name": "layr-labs/incredible-squaring-avs-rs",
+      "graph_distance": 22
+    }
+  ],
+  "run_id": "20260502T003735Z",
+  "skipped_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eclipse/aether-demo",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pgr0ss/bazel-deps",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pharmbio/bioimg-sciluigi-casestudy",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jgm/peg-markdown",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "holochain/cryptographic-autonomy-license",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helje5/swiftywasmer",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chances/wasmer-d",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "my_name/jupyterlab_myextension",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "enjoy-digital/daisho",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jlguillaume/louvain",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "storyyeller/cryptominisat-rs",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "litghost/rapidyaml",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mennovanslooten/mockjson",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "machinezone/tcpkali",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aleandros/emacs-rufo",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bmulvihill/rufo-atom",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "axic/daytona",
+      "reason": "stale_repo_pruned"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "axic/eip1962-evmc",
+      "reason": "stale_repo_pruned"
+    }
+  ],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 10.279,
+      "full_name": "etcd-io/bbolt",
+      "graph_distance": 22
+    }
+  ],
+  "stale_repo_pruned_count": 15,
+  "stale_repositories_pruned": [
+    "aleandros/emacs-rufo",
+    "axic/daytona",
+    "axic/eip1962-evmc",
+    "bmulvihill/rufo-atom",
+    "chances/wasmer-d",
+    "enjoy-digital/daisho",
+    "helje5/swiftywasmer",
+    "holochain/cryptographic-autonomy-license",
+    "jgm/peg-markdown",
+    "jlguillaume/louvain",
+    "litghost/rapidyaml",
+    "mennovanslooten/mockjson",
+    "pgr0ss/bazel-deps",
+    "pharmbio/bioimg-sciluigi-casestudy",
+    "storyyeller/cryptominisat-rs"
+  ],
+  "stop_reason": "github_api_error",
+  "stopped_due_to_api": true,
+  "stopped_due_to_budget": false
+}

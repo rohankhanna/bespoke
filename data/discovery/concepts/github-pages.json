@@ -662,6 +662,18 @@
       "source_repo": "NVIDIA/multi-storage-client",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nim-lang/nimble",
+      "status": "candidate-context",
+      "text": "Package manager for the Nim programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/nimble",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -986,6 +998,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/nimble",
       "status": "candidate",
       "text": "GitHub Pages"
     }
@@ -1499,11 +1517,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/.github_pages.yml",
       "source_repo": "NVIDIA/multi-storage-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-02T00:37:06.324499+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "nim-lang/nimble"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
   "lexical_providers": [
     "datamuse"
   ],
