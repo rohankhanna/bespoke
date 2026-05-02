@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 8,
-    "terms": 51
+    "components": 83,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 9,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "bazel-contrib/rules_kotlin",
     "codiume/orbit",
     "haskell/ghcup-hs",
     "jackielii/skhd.zig",
+    "openair-project/openair",
     "pulumi/templates",
     "ROCm/rocMLIR",
     "ropensci/software-review",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 191,
-    "observations": 192,
-    "repos": 25,
-    "terms": 190
+    "components": 134,
+    "concepts": 192,
+    "observations": 193,
+    "repos": 26,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "andrewyng/aisuite",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
+    "bmaltais/kohya_ss",
     "bytedance/UI-TARS",
     "chatchat-space/Langchain-Chatchat",
     "cleanlab/cleanlab",

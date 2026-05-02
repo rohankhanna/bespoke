@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 151,
-    "observations": 152,
-    "repos": 11,
-    "terms": 147
+    "components": 126,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 13,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
+    "aden-hive/hive",
     "axolotl-ai-cloud/axolotl",
     "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
     "jax-ml/jax",
     "Lightning-AI/litgpt",
+    "Lightning-AI/pytorch-lightning",
     "mlflow/mlflow",
     "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4010,
-    "concepts": 647,
-    "observations": 650,
-    "repos": 82,
-    "terms": 708
+    "components": 3948,
+    "concepts": 631,
+    "observations": 634,
+    "repos": 81,
+    "terms": 692
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -90,7 +90,6 @@
     "tailwindlabs/prettier-plugin-tailwindcss",
     "tensorflow/tensorboard",
     "thomasloven/lovelace-card-mod",
-    "vega/vega-lite",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",
     "vuejs/router",

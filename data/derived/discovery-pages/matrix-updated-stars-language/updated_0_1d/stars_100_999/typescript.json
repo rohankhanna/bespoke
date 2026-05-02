@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 19,
-    "observations": 21,
+    "components": 110,
+    "concepts": 23,
+    "observations": 23,
     "repos": 3,
-    "terms": 19
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "electron/packager",
-    "nuxt/bridge",
-    "smithy-lang/smithy-typescript"
+    "smithy-lang/smithy-typescript",
+    "wevm/abitype"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 852,
-    "concepts": 207,
-    "observations": 207,
-    "repos": 44,
-    "terms": 232
+    "components": 811,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 43,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AbianS/docker-db-manager",
     "actions/container-toolkit-action",
@@ -33,7 +33,6 @@
     "giselles-ai/giselle",
     "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
-    "graalvm/setup-graalvm",
     "hazelcast/hazelcast-nodejs-client",
     "jgm/djot.js",
     "juliangruber/brace-expansion",

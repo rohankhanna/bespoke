@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1280,
-    "concepts": 345,
-    "observations": 345,
-    "repos": 147,
-    "terms": 377
+    "components": 1276,
+    "concepts": 344,
+    "observations": 344,
+    "repos": 146,
+    "terms": 376
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "5sControl/5s-backend",
@@ -22,7 +22,6 @@
     "andriykohut/pdm-readiness",
     "anexia/k8s-external-dns-webhook",
     "angular/dev-infra-private-ng-dev-builds",
-    "ankane/seaduck",
     "anojndr/grok-to-openai",
     "apache/netbeans-antora-ui",
     "astropy/repo_stats",

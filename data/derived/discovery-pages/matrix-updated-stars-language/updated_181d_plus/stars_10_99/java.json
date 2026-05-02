@@ -3,7 +3,7 @@
     "components": 85,
     "concepts": 125,
     "observations": 125,
-    "repos": 47,
+    "repos": 48,
     "terms": 126
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "adamharrison/lite-xl-android",
@@ -49,6 +49,7 @@
     "marbl/MHAP",
     "mikepapadim/llama2.tornadovm.java",
     "MSPaintIDE/NewOCR",
+    "Parquet/parquet-compatibility",
     "rahsheen/react-native-template-redux-typescript",
     "redis-developer/redis-om-spring-skeleton-app",
     "ruby-processing/JRubyArt",

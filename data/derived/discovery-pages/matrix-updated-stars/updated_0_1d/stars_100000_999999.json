@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 340,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 8,
-    "terms": 118
+    "components": 351,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 9,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "Comfy-Org/ComfyUI",
     "electron/electron",
     "ggml-org/llama.cpp",
     "godotengine/godot",
+    "huggingface/transformers",
     "langchain-ai/langchain",
     "langflow-ai/langflow",
     "ollama/ollama",

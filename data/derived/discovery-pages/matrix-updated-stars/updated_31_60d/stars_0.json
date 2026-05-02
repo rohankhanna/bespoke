@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 48,
-    "terms": 98
+    "components": 166,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 50,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "adammes/voyanode",
@@ -35,6 +35,7 @@
     "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/handy-wayland-autostart-fix",
     "danielrosehill/Home-Assistant-Index",
+    "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Patches-Repos-Index",
     "DataDog/opa",
@@ -53,6 +54,7 @@
     "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "Patrick-ring-motive/sval-rhino-gs",
+    "prisma/cuid-rust",
     "psmux/scoop-tmuxpanel",
     "saharmor/saharmor.github.io",
     "samsja/dion",

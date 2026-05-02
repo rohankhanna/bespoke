@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 587,
-    "concepts": 417,
-    "observations": 418,
-    "repos": 58,
-    "terms": 415
+    "components": 595,
+    "concepts": 421,
+    "observations": 422,
+    "repos": 60,
+    "terms": 419
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -20,6 +20,7 @@
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
     "blitz-js/blitz",
+    "bmaltais/kohya_ss",
     "BuilderIO/mitosis",
     "bytedance/UI-TARS",
     "camenduru/stable-diffusion-webui-colab",
@@ -59,6 +60,7 @@
     "ramda/ramda",
     "RasaHQ/rasa",
     "sczhou/CodeFormer",
+    "slatedocs/slate",
     "songquanpeng/one-api",
     "spf13/viper",
     "tachyons-css/tachyons",

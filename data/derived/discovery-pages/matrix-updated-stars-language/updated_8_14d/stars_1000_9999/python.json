@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1381,
-    "concepts": 1494,
-    "observations": 1501,
-    "repos": 182,
-    "terms": 1490
+    "components": 1388,
+    "concepts": 1501,
+    "observations": 1508,
+    "repos": 183,
+    "terms": 1497
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "a2aproject/a2a-python",
     "AgentR1/Agent-R1",
@@ -102,6 +102,7 @@
     "jcrist/msgspec",
     "jmespath/jmespath.py",
     "joerick/pyinstrument",
+    "joke2k/django-environ",
     "jupyter/docker-stacks",
     "KellerJordan/modded-nanogpt",
     "kohya-ss/musubi-tuner",

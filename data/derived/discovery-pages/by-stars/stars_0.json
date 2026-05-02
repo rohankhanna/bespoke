@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 1980,
-    "concepts": 835,
-    "observations": 837,
-    "repos": 556,
-    "terms": 867
+    "concepts": 839,
+    "observations": 841,
+    "repos": 561,
+    "terms": 871
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -254,6 +254,9 @@
     "danielrosehill/Home-Assistant-Index",
     "danielrosehill/Hypothesis-Council",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
+    "danielrosehill/Israel-Preparedness-Index",
+    "danielrosehill/Israel-Projects-Index",
+    "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Model-Scout-MCP",
     "danielrosehill/Patches-Repos-Index",
@@ -326,6 +329,7 @@
     "get-gah/setup-gah",
     "getlantern/guide",
     "getlantern/lantern-forum-en",
+    "getlantern/lantern-forum-uae",
     "girishji/ngramview-complete.vim",
     "glandium/rust-objc",
     "gokyeongryeol/diffusers",
@@ -363,6 +367,7 @@
     "ipld/js-ipld-format-to-blockcodec",
     "itroyano/ustore-operator",
     "jackielii/qmk_firmware",
+    "janwilmake/oapis.cli",
     "jbilcke-hf/finetrainers",
     "jonislutheran87/weclaw",
     "josejg/google-research",

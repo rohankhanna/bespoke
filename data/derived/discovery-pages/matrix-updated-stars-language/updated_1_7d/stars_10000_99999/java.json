@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 199,
-    "observations": 201,
-    "repos": 17,
-    "terms": 199
+    "components": 189,
+    "concepts": 191,
+    "observations": 193,
+    "repos": 16,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "apache/dubbo",
     "apache/kafka",
@@ -25,7 +25,6 @@
     "elastic/elasticsearch",
     "elastic/logstash",
     "google/gson",
-    "grpc/grpc-java",
     "jenkinsci/jenkins",
     "langchain4j/langchain4j",
     "languagetool-org/languagetool",

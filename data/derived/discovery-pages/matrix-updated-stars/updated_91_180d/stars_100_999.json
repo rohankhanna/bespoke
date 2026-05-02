@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2083,
-    "concepts": 1817,
-    "observations": 1823,
-    "repos": 450,
-    "terms": 1819
+    "components": 2087,
+    "concepts": 1822,
+    "observations": 1828,
+    "repos": 453,
+    "terms": 1824
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -30,6 +30,7 @@
     "ahmadawais/shades-of-purple-vscode",
     "ai4co/rl4co",
     "aim-uofa/Matcher",
+    "Akajiaku11/Air-Quality-Prediction-Model",
     "akshaykmr/teletype",
     "alex-petrenko/sample-factory",
     "alexheretic/ab-glyph",
@@ -195,6 +196,7 @@
     "fengari-lua/fengari-interop",
     "filecoin-project/devgrants",
     "FiloSottile/homebrew-musl-cross",
+    "firecracker-microvm/firectl",
     "FlagOpen/RoboOS",
     "flosse/sloc",
     "fonttools/fontbakery",
@@ -446,6 +448,7 @@
     "wenet-e2e/wetts",
     "WICG/layout-instability",
     "wilkerlucio/pathom3",
+    "wudongming97/TopoMLP",
     "XingangPan/SCNN",
     "xingchensong/S3Tokenizer",
     "xmlyqing00/AFB-URR",

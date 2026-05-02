@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1215,
-    "concepts": 1175,
-    "observations": 1178,
-    "repos": 515,
-    "terms": 1170
+    "concepts": 1193,
+    "observations": 1196,
+    "repos": 521,
+    "terms": 1188
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -270,6 +270,8 @@
     "google/vim-glaive",
     "gpuweb/admin",
     "grailbio/rules_r",
+    "gtolias/asmk",
+    "guyuchao/PyramidCSA",
     "habamax/vim-nod",
     "habamax/vim-select",
     "HabanaAI/Gaudi-tutorials",
@@ -305,6 +307,7 @@
     "jpbruyere/shaderc.net",
     "jpsim/swiftlint-bazel-example",
     "jrudolph/llama2.scala",
+    "js-choi/proposal-function-demethodize",
     "json5/json5-spec",
     "jspanchu/webgpu-dawn-binaries",
     "julia-vscode/DocumentFormat.jl",
@@ -327,6 +330,7 @@
     "kowainik/org",
     "kristijanhusak/vim-dirvish-git",
     "kube-libsonnet/kube-libsonnet",
+    "kwea123/MVSNet_pl",
     "LaikaStudios/OSLShaderWriting",
     "LAION-AI/LAION-SAFETY",
     "lambdalisue/vim-fern-git-status",
@@ -369,6 +373,7 @@
     "mat813/rb-kqueue",
     "matsadler/halton-rb",
     "melange-re/melange-esy-template",
+    "melizeche/AireLibre",
     "MetaGLM/zhipuai-sdk-csharp-v4",
     "mfarre/Video-LLaVA-7B-hf-CinePile",
     "mfussenegger/nvim-fzy",
@@ -484,6 +489,7 @@
     "tachyons-css/tachyons-css.github.io",
     "taikinman/langrila",
     "tc39/proposal-function-helpers",
+    "tc39/proposal-function-pipe-flow",
     "tc39/proposal-hack-pipes",
     "teacher-zhou/ComponentBuilder",
     "tensorchord/envdlib",

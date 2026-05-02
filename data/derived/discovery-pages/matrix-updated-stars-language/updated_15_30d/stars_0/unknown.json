@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 13,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 19,
-    "terms": 20
+    "concepts": 24,
+    "observations": 24,
+    "repos": 20,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
     "alexcrichton/cc-rs",
@@ -27,6 +27,7 @@
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Deployments-Index",
+    "danielrosehill/Israel-Preparedness-Index",
     "kdn36/arrow-rs-object-store",
     "piebald-ai/piebald",
     "psmux/scoop-omp-manager",

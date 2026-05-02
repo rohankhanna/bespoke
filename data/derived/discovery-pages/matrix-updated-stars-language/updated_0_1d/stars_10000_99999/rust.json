@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 7,
-    "terms": 99
+    "components": 95,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 5,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "astral-sh/ruff",
     "facebook/flow",
     "juspay/hyperswitch",
-    "pola-rs/polars",
     "rust-lang/rust-analyzer",
-    "vectordotdev/vector",
     "wasmerio/wasmer"
   ]
 }

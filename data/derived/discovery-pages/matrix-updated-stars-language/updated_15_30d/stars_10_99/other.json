@@ -3,7 +3,7 @@
     "components": 238,
     "concepts": 200,
     "observations": 200,
-    "repos": 79,
+    "repos": 80,
     "terms": 199
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AdaCore/gnatcoll-core",
     "adams85/acornima",
@@ -59,6 +59,7 @@
     "googleapis/google-cloud-php-datastore",
     "hadolint/language-docker",
     "hashicorp/hello-vault-dotnet",
+    "i18next/react-i18next-gitbook",
     "ibhagwan/ts-vimdoc.nvim",
     "IDAES/idaes-ext",
     "interstar/Patterning-Core",

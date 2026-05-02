@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3265,
-    "concepts": 812,
-    "observations": 812,
-    "repos": 255,
-    "terms": 800
+    "components": 3278,
+    "concepts": 816,
+    "observations": 816,
+    "repos": 256,
+    "terms": 805
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -231,6 +231,7 @@
     "scniro/gulp-clean-css",
     "serverless/aws-ai-stack",
     "serverless/containers",
+    "shuckster/match-iz",
     "sindresorhus/find-cache-directory",
     "sindresorhus/strip-json-comments",
     "smartscenes/sstk",

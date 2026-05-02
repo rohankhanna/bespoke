@@ -1,27 +1,25 @@
 {
   "counts": {
-    "components": 569,
-    "concepts": 294,
-    "observations": 296,
-    "repos": 42,
-    "terms": 292
+    "components": 528,
+    "concepts": 276,
+    "observations": 276,
+    "repos": 38,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AgileRL/AgileRL",
     "AI-Hypercomputer/maxdiffusion",
-    "Azure/co-op-translator",
     "Azure/karpenter-provider-azure",
     "bazel-contrib/rules_kotlin",
     "boostorg/math",
     "cloudfoundry/credhub",
     "codiume/orbit",
-    "Comfy-Org/comfy-cli",
     "conda/rattler",
     "databrickslabs/ucx",
     "Dicklesworthstone/asupersync",
@@ -31,17 +29,14 @@
     "haskell/ghcup-hs",
     "heroku/base-images",
     "huggingface/xet-core",
-    "HybridRobotics/motion_tracking_controller",
     "ipsilon/evmone",
     "jackielii/skhd.zig",
     "jawah/charset_normalizer",
     "jupyter-server/jupyter_server",
-    "Kilian/electron-to-chromium",
     "lightly-ai/lightly-studio",
     "mdn/fred",
     "microsoft/LangChain4j-for-Beginners",
-    "nuxt/bridge",
-    "palantir/javapoet",
+    "openair-project/openair",
     "pulumi/pulumi-aws",
     "pulumi/pulumi-azure",
     "pulumi/pulumi-gcp",
@@ -49,11 +44,12 @@
     "ROCm/rocMLIR",
     "ropensci/software-review",
     "rust-lang/blog.rust-lang.org",
+    "sclorg/s2i-php-container",
     "servo/stylo",
     "smithy-lang/smithy-typescript",
     "snowballstem/snowball",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",
-    "w3c/webref"
+    "wevm/abitype"
   ]
 }

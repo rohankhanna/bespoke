@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 240,
-    "concepts": 217,
-    "observations": 217,
-    "repos": 60,
-    "terms": 217
+    "components": 247,
+    "concepts": 228,
+    "observations": 228,
+    "repos": 62,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "ahyatt/emacs-websocket",
     "AndrewRadev/switch.vim",
@@ -36,6 +36,7 @@
     "cloojure/tupelo",
     "csstools/postcss-normalize",
     "CSU-Radarmet/CSU_RadarTools",
+    "DL3DV-10K/Dataset",
     "domluna/JuliaFormatter.jl",
     "elm-explorations/test",
     "emacs-lsp/lsp-dart",
@@ -50,6 +51,7 @@
     "jtdaugherty/vty",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
+    "JuliaGizmos/Blink.jl",
     "JuliaLang/JuliaSyntax.jl",
     "lite-xl/lite-xl-plugin-manager",
     "loqusion/typix",

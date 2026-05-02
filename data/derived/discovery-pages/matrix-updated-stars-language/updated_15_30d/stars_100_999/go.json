@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 233,
-    "observations": 236,
-    "repos": 43,
-    "terms": 235
+    "components": 304,
+    "concepts": 240,
+    "observations": 243,
+    "repos": 44,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AdguardTeam/AdGuardDNS",
     "adrg/xdg",
@@ -35,6 +35,7 @@
     "ekalinin/github-markdown-toc.go",
     "ethereum-optimism/op-geth",
     "foxj77/claudectx",
+    "go-openapi/swag",
     "go-viper/mapstructure",
     "google/trillian-examples",
     "hashicorp/errwrap",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2805,
-    "concepts": 465,
-    "observations": 466,
-    "repos": 120,
-    "terms": 478
+    "components": 2833,
+    "concepts": 466,
+    "observations": 467,
+    "repos": 121,
+    "terms": 480
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "1hanzla100/developer-portfolio",
     "aave/protocol-v2",
@@ -106,6 +106,7 @@
     "neoclide/coc-tabnine",
     "neoclide/coc-yaml",
     "neplexlabs/canvacord",
+    "NilsJPWerner/autoDocstring",
     "node-lightning/node-lightning",
     "notiz-dev/prisma-dbml-generator",
     "possibilities/claude-composer",

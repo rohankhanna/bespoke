@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 8045,
-    "concepts": 7893,
-    "observations": 7921,
-    "repos": 1366,
-    "terms": 7864
+    "components": 8082,
+    "concepts": 7929,
+    "observations": 7957,
+    "repos": 1372,
+    "terms": 7900
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -614,6 +614,7 @@
     "filhodanuvem/polyglot",
     "FiloSottile/hpke",
     "FiloSottile/mkcert",
+    "firecracker-microvm/firectl",
     "flannel-io/flannel",
     "flashbots/mev-boost",
     "fluxcd/flux",
@@ -748,6 +749,7 @@
     "gost-dom/shaman",
     "gost-dom/webref",
     "gotestyourself/gotestsum",
+    "gotify/server",
     "gpustack/gguf-parser-go",
     "grafana/alloy",
     "grafana/cadvisor",
@@ -1071,8 +1073,10 @@
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",
     "nsf/termbox-go",
+    "nutsdb/nutsdb",
     "NVIDIA/dcgm-exporter",
     "NVIDIA/gpu-operator",
+    "NVIDIA/k8s-device-plugin",
     "NVIDIA/nvidia-container-toolkit",
     "oapi-codegen/oapi-codegen",
     "objectbox/objectbox-generator",
@@ -1331,7 +1335,9 @@
     "usbarmory/armory-boot",
     "usbarmory/armory-drive",
     "usbarmory/armory-drive-log",
+    "usbarmory/armory-ums",
     "usbarmory/boot-transparency",
+    "usbarmory/go-boot",
     "usbarmory/GoTEE",
     "usbarmory/GoTEE-example",
     "usbarmory/tamago",

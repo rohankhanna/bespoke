@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 511,
-    "concepts": 1015,
-    "observations": 1017,
-    "repos": 567,
-    "terms": 1001
+    "concepts": 1028,
+    "observations": 1030,
+    "repos": 575,
+    "terms": 1014
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -141,6 +141,7 @@
     "breezedeus/Pix2Text-Mac",
     "brentyi/dfgo",
     "brentyi/jax-ekf",
+    "BrixIA/Brixia-score-COVID-19",
     "bwt-dev/bwt-electrum-plugin",
     "byrnereese/linkchecker-mkdocs",
     "bytedance/EchoVideo",
@@ -226,6 +227,7 @@
     "DingXiaoH/GSM-SGD",
     "djcunningham0/multielo",
     "doc-doc/NExT-OE",
+    "dogyoonlee/RSMix",
     "DolbyUUU/DeepEnlighten",
     "DolbyUUU/Logic-RL-Lite",
     "dongdong93/a2u_matting",
@@ -254,6 +256,7 @@
     "ethansmith2000/comfy-todo",
     "ethereum/ddht",
     "evuraan/mintPiper",
+    "facebookresearch/cop3d",
     "facebookresearch/text-simplification-evaluation",
     "facok/ComfyUI-TeaCacheHunyuanVideo",
     "fanqie03/char-detection",
@@ -415,7 +418,9 @@
     "Mikxox/EnCodec_Trainer",
     "MingXiangL/Teacache-xDiT",
     "ML-GSAI/Concat-ID",
+    "mlfoundations/VisIT-Bench",
     "mlox/mlox",
+    "mlvlab/PointWOLF",
     "ModelTC/Outlier_Suppression_Plus",
     "modin-project/unidist",
     "mosaicml/diffusion-benchmark",
@@ -450,6 +455,7 @@
     "OpenVisualCloud/Ad-Insertion-Sample",
     "oreobird/tf-keras-deep-head-pose",
     "oriyor/assistantbench",
+    "oskyhn/CNNs-Without-Borders",
     "oxpig/calm",
     "parazyd/obelisk",
     "Parveshiiii/Deepresearch-Agent",
@@ -520,6 +526,7 @@
     "SvenskaSpel/locust-swarm",
     "SWE-bench/sb-cli",
     "SWE-Gym/SWE-Bench-Fork",
+    "SWHL/ConvertLaTeXOCRToONNX",
     "tabnine/YouCompleteMe",
     "taichi-dev/advanced_examples",
     "takuma104/diffusers",
@@ -543,6 +550,7 @@
     "tuneflow/AudioLDM",
     "tyco986/AlphaPose_jittor",
     "umarbutler/orjsonl",
+    "UnitedHuman/UnitedHuman",
     "VisionSystemsInc/face-parsing.PyTorch",
     "VITA-Group/FreeTickets",
     "VITA-Group/GraNet",

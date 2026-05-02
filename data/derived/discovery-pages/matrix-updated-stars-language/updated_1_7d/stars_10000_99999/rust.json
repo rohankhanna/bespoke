@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 449,
-    "concepts": 282,
-    "observations": 282,
-    "repos": 25,
-    "terms": 279
+    "components": 474,
+    "concepts": 320,
+    "observations": 320,
+    "repos": 27,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "Automattic/harper",
@@ -27,6 +27,7 @@
     "iced-rs/iced",
     "jj-vcs/jj",
     "oxc-project/oxc",
+    "pola-rs/polars",
     "PyO3/pyo3",
     "quickwit-oss/quickwit",
     "quickwit-oss/tantivy",
@@ -38,6 +39,7 @@
     "surrealdb/surrealdb",
     "swc-project/swc",
     "tracel-ai/burn",
+    "vectordotdev/vector",
     "zed-industries/zed"
   ]
 }

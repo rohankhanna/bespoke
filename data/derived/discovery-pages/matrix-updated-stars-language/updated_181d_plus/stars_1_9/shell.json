@@ -3,7 +3,7 @@
     "components": 43,
     "concepts": 86,
     "observations": 87,
-    "repos": 40,
+    "repos": 41,
     "terms": 80
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -33,6 +33,7 @@
     "containerd/project-checks",
     "danielrosehill/AI-Developer-Notebook",
     "danielrosehill/bash-alias-manager-claude",
+    "danielrosehill/Claude-Code-MCP-Command-Generator",
     "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
     "dotenvx/heroku-buildpack-dotenvx",
     "electerm/electerm-resource",
@@ -51,7 +52,7 @@
     "rigellute/scoop-bucket",
     "spack/migrate-package-prs",
     "to4iki/ai-project-rules",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "unixorn/autoupdate-zgenom",
     "videojs/admin"
   ]

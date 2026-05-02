@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 956,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 35,
-    "terms": 200
+    "components": 997,
+    "concepts": 200,
+    "observations": 200,
+    "repos": 36,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -29,6 +29,7 @@
     "cztomsik/ava",
     "ethereum/staking-launchpad",
     "fannheyward/coc-sql",
+    "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
     "hyparam/hightable",

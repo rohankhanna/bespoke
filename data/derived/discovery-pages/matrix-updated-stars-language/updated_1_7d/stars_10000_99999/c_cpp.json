@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 439,
-    "observations": 440,
-    "repos": 36,
-    "terms": 435
+    "components": 358,
+    "concepts": 488,
+    "observations": 489,
+    "repos": 40,
+    "terms": 485
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/brpc",
+    "apache/thrift",
     "argotorg/solidity",
     "asmvik/yabai",
     "assimp/assimp",
@@ -25,11 +26,13 @@
     "carla-simulator/carla",
     "catchorg/Catch2",
     "colmap/colmap",
+    "coturn/coturn",
     "dcloudio/uni-app",
     "dmlc/xgboost",
     "espressif/arduino-esp32",
     "FFmpeg/FFmpeg",
     "google-ai-edge/mediapipe",
+    "google-deepmind/mujoco",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
     "iovisor/bcc",
@@ -45,6 +48,7 @@
     "opencv/opencv",
     "openframeworks/openFrameworks",
     "qmk/qmk_firmware",
+    "SerenityOS/serenity",
     "simdjson/simdjson",
     "swaywm/sway",
     "v8/v8",

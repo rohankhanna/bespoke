@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1439,
-    "concepts": 1030,
-    "observations": 1033,
-    "repos": 200,
-    "terms": 1022
+    "components": 1456,
+    "concepts": 1047,
+    "observations": 1050,
+    "repos": 203,
+    "terms": 1039
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "3rd/image.nvim",
@@ -86,6 +86,7 @@
     "eradman/entr",
     "erikw/tmux-powerline",
     "estree/estree",
+    "facebookresearch/habitat-sim",
     "facebookresearch/moco",
     "flashbots/mev-boost",
     "flashlight/flashlight",
@@ -116,6 +117,7 @@
     "JoeDog/siege",
     "jonaskello/tsconfig-paths",
     "json-c/json-c",
+    "json-path/JsonPath",
     "jtablesaw/tablesaw",
     "jtblin/kube2iam",
     "just-containers/s6-overlay",
@@ -142,6 +144,7 @@
     "mosaicml/streaming",
     "novnc/websockify",
     "nunchaku-ai/ComfyUI-nunchaku",
+    "nutsdb/nutsdb",
     "obsidianmd/obsidian-api",
     "omniauth/omniauth",
     "open-webui/mcpo",

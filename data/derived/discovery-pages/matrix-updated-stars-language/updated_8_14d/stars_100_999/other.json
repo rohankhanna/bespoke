@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1517,
-    "concepts": 1032,
-    "observations": 1035,
-    "repos": 170,
-    "terms": 1052
+    "components": 1512,
+    "concepts": 1026,
+    "observations": 1029,
+    "repos": 169,
+    "terms": 1046
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "a2aproject/a2a-dotnet",
     "abap2UI5/abap2UI5",
@@ -80,7 +80,6 @@
     "Erikvl87/docker-languagetool",
     "ethereum/ERCs",
     "ethpandaops/ethereum-package",
-    "EzequielRamis/zimdjson",
     "falcoframework/Falco",
     "filecoin-project/FIPs",
     "folke/neoconf.nvim",
@@ -106,7 +105,6 @@
     "igorlfs/nvim-dap-view",
     "intel/intel-xpu-backend-for-triton",
     "islandoftex/arara",
-    "jeremymailen/kotlinter-gradle",
     "jfmengels/elm-review",
     "jgarber/redcloth",
     "jixiuf/vterm-toggle",
@@ -158,6 +156,7 @@
     "ruby/gem_rbs_collection",
     "ruby/psych",
     "rust-lang/crates.io-index",
+    "sbt/sbt-pgp",
     "SciML/SciMLStyle",
     "shakacode/shakapacker",
     "SimonCropp/NaughtyStrings",

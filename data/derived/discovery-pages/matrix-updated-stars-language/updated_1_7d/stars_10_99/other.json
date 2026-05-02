@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 538,
-    "concepts": 268,
-    "observations": 268,
-    "repos": 65,
-    "terms": 267
+    "components": 552,
+    "concepts": 280,
+    "observations": 280,
+    "repos": 66,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "abarisani/abarisani.github.io",
     "apache/ignite-website",
@@ -38,6 +38,7 @@
     "googleapis/google-cloud-php-pubsub",
     "guoqingbao/attention.rs",
     "habamax/vim-habamax",
+    "haskell-actions/hlint-scan",
     "hermanjustnu/scoop-emulators",
     "heroku/buildpacks",
     "Humans-of-Julia/BibParser.jl",

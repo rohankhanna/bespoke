@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 175,
-    "observations": 177,
-    "repos": 17,
-    "terms": 175
+    "components": 154,
+    "concepts": 144,
+    "observations": 146,
+    "repos": 13,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "activeadmin/inherited_resources",
-    "all-contributors/allcontributors.org",
-    "dotnet/reactive",
     "dotnet/Silk.NET",
     "firebase/flutterfire",
     "haskell/cabal",
-    "JetBrains/intellij-platform-gradle-plugin",
     "JuliaAI/MLJ.jl",
     "JuliaPy/PyCall.jl",
     "JuliaSymbolics/Symbolics.jl",
     "microsoft/aspire",
-    "nvim-neotest/neotest",
     "psmux/psmux",
     "rescript-lang/rescript",
     "swiftlang/llvm-project",

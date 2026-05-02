@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 619,
-    "concepts": 558,
-    "observations": 560,
-    "repos": 90,
-    "terms": 556
+    "components": 638,
+    "concepts": 562,
+    "observations": 564,
+    "repos": 91,
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
@@ -27,6 +27,7 @@
     "Arize-ai/openinference",
     "asottile/yesqa",
     "autowarefoundation/autoware-documentation",
+    "Azure/co-op-translator",
     "Backblaze/B2_Command_Line_Tool",
     "basetenlabs/truss-examples",
     "bazelbuild/continuous-integration",
@@ -34,7 +35,7 @@
     "capitalone/datacompy",
     "casperdcl/git-fame",
     "clearml/clearml-agent",
-    "CVHub520/X-AnyLabeling-Server",
+    "Comfy-Org/comfy-cli",
     "Dao-AILab/quack",
     "Dao-AILab/sonic-moe",
     "dbfixtures/pytest-postgresql",

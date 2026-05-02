@@ -3,7 +3,7 @@
     "components": 95,
     "concepts": 61,
     "observations": 61,
-    "repos": 69,
+    "repos": 70,
     "terms": 61
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -48,6 +48,7 @@
     "flashinfer-ai/web-data",
     "get-gah/setup-gah",
     "getlantern/lantern-forum-en",
+    "getlantern/lantern-forum-uae",
     "glandium/rust-objc",
     "gokyeongryeol/diffusers",
     "Heap-Hop/if-watch",

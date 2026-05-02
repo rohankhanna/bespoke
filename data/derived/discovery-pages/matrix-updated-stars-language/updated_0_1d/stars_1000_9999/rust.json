@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 83,
-    "observations": 84,
-    "repos": 8,
-    "terms": 82
+    "components": 125,
+    "concepts": 75,
+    "observations": 76,
+    "repos": 7,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
     "boxlite-ai/boxlite",
@@ -20,7 +20,6 @@
     "dmtrKovalenko/fff",
     "facebook/sapling",
     "prefix-dev/pixi",
-    "unicode-org/icu4x",
-    "VOICEVOX/voicevox_core"
+    "unicode-org/icu4x"
   ]
 }

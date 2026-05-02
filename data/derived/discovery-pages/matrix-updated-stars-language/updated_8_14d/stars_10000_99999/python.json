@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1354,
-    "concepts": 1059,
-    "observations": 1060,
-    "repos": 100,
-    "terms": 1089
+    "components": 1337,
+    "concepts": 1049,
+    "observations": 1050,
+    "repos": 99,
+    "terms": 1079
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "3b1b/manim",
     "567-labs/instructor",
@@ -89,7 +89,6 @@
     "pandas-dev/pandas",
     "plotly/dash",
     "plotly/plotly.py",
-    "pydantic/pydantic-ai",
     "pyinstaller/pyinstaller",
     "pyodide/pyodide",
     "pypa/pip",

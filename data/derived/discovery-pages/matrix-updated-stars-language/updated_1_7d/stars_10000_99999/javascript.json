@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1329,
-    "concepts": 220,
-    "observations": 220,
-    "repos": 22,
-    "terms": 220
+    "components": 1428,
+    "concepts": 225,
+    "observations": 225,
+    "repos": 23,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
+    "acornjs/acorn",
     "ampproject/amphtml",
     "Automattic/mongoose",
     "facebook/hermes",
@@ -30,9 +31,9 @@
     "mui/material-ui",
     "nodemailer/nodemailer",
     "novnc/noVNC",
-    "nwjs/nw.js",
     "plotly/plotly.js",
     "SillyTavern/SillyTavern",
+    "stylelint/stylelint",
     "swagger-api/swagger-ui",
     "Unitech/pm2",
     "wix/Detox"

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-02T05:25:58.258401+00:00`
+Generated at: `2026-05-02T07:31:15.175647+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 372
-- components: 339
-- concepts: 372
-- observations: 372
+- repos: 27
+- terms: 362
+- components: 305
+- concepts: 362
+- observations: 362
 
 ## Static behavior
 
@@ -28,11 +28,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14234 | 2026-05-01T05:23:41Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 30084 | 2026-04-30T21:05:25Z | Go | Infrastructure/tooling | 12 | 24 | 12 | 12 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 22926 | 2026-04-30T20:26:31Z | Go | Infrastructure/tooling | 10 | 34 | 10 | 10 |
 | [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16105 | 2026-04-30T19:19:37Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
 | [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) | 14025 | 2026-04-30T16:18:34Z | Go | CLI | 6 | 2 | 6 | 6 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 56944 | 2026-04-30T15:10:01Z | Go | Infrastructure/tooling | 22 | 16 | 22 | 22 |
-| [redis/go-redis](https://github.com/redis/go-redis) | 22069 | 2026-04-30T14:08:21Z | Go | CLI | 11 | 10 | 11 | 11 |
+| [redis/go-redis](https://github.com/redis/go-redis) | 22068 | 2026-04-30T14:08:21Z | Go | CLI | 11 | 10 | 11 | 11 |
 | [navidrome/navidrome](https://github.com/navidrome/navidrome) | 20804 | 2026-04-30T12:07:23Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32108 | 2026-04-30T10:21:01Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40044 | 2026-04-30T09:29:28Z | Go | Infrastructure/tooling | 20 | 8 | 20 | 20 |
@@ -52,7 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [php/frankenphp](https://github.com/php/frankenphp) | 11026 | 2026-04-28T10:09:52Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 13137 | 2026-04-28T07:25:47Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [apernet/hysteria](https://github.com/apernet/hysteria) | 19822 | 2026-04-26T21:26:19Z | Go | Infrastructure/tooling | 16 | 14 | 16 | 16 |
-| [apache/casbin](https://github.com/apache/casbin) | 20066 | 2026-04-26T16:58:33Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [apache/casbin](https://github.com/apache/casbin) | 20069 | 2026-04-26T16:58:33Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
 | [quic-go/quic-go](https://github.com/quic-go/quic-go) | 11565 | 2026-04-26T03:11:56Z | Go | CLI | 11 | 12 | 11 | 11 |
 
 ## Repos sorted by stars
@@ -66,11 +65,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 30084 | 2026-04-30T21:05:25Z | Go | Infrastructure/tooling | 12 | 24 | 12 | 12 |
 | [helm/helm](https://github.com/helm/helm) | 29768 | 2026-04-29T13:35:53Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [goharbor/harbor](https://github.com/goharbor/harbor) | 28386 | 2026-04-29T08:21:43Z | Go | Infrastructure/tooling | 18 | 18 | 18 | 18 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 22926 | 2026-04-30T20:26:31Z | Go | Infrastructure/tooling | 10 | 34 | 10 | 10 |
-| [redis/go-redis](https://github.com/redis/go-redis) | 22069 | 2026-04-30T14:08:21Z | Go | CLI | 11 | 10 | 11 | 11 |
+| [redis/go-redis](https://github.com/redis/go-redis) | 22068 | 2026-04-30T14:08:21Z | Go | CLI | 11 | 10 | 11 | 11 |
 | [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) | 21667 | 2026-04-29T22:02:53Z | Go | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [navidrome/navidrome](https://github.com/navidrome/navidrome) | 20804 | 2026-04-30T12:07:23Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
-| [apache/casbin](https://github.com/apache/casbin) | 20066 | 2026-04-26T16:58:33Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [apache/casbin](https://github.com/apache/casbin) | 20069 | 2026-04-26T16:58:33Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 19884 | 2026-04-29T17:53:39Z | Go | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [apernet/hysteria](https://github.com/apernet/hysteria) | 19822 | 2026-04-26T21:26:19Z | Go | Infrastructure/tooling | 16 | 14 | 16 | 16 |
 | [ipfs/kubo](https://github.com/ipfs/kubo) | 17002 | 2026-04-29T22:13:03Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |

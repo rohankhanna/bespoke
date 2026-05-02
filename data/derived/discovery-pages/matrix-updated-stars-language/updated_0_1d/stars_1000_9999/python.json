@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 111,
-    "observations": 112,
-    "repos": 11,
-    "terms": 108
+    "components": 129,
+    "concepts": 130,
+    "observations": 131,
+    "repos": 13,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
     "clearml/clearml",
+    "eliben/pyelftools",
     "fla-org/flash-linear-attention",
     "meta-pytorch/captum",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
+    "NVIDIAGameWorks/kaolin",
     "omry/omegaconf",
     "pytorch/rl",
     "pytorch/tensordict",

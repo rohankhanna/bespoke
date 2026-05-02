@@ -3,7 +3,7 @@
     "components": 2527,
     "concepts": 1234,
     "observations": 1239,
-    "repos": 336,
+    "repos": 338,
     "terms": 1261
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "10up/action-wordpress-plugin-build-zip",
@@ -209,6 +209,7 @@
     "hynek/argon2-cffi-bindings",
     "hyparam/demos",
     "i18next/i18next-icu",
+    "i18next/react-i18next-gitbook",
     "iamsashank09/llm-wiki-kit",
     "ibhagwan/ts-vimdoc.nvim",
     "IcyFish332/T3RL",
@@ -334,6 +335,7 @@
     "urschrei/pypolyline",
     "usbarmory/armory-boot",
     "usbarmory/armory-drive",
+    "usbarmory/armory-ums",
     "usbarmory/GoTEE-example",
     "usbarmory/tamago-go",
     "usbarmory/usbarmory-debian-base_image",

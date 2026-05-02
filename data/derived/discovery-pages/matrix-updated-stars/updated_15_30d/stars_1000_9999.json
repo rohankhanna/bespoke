@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5838,
-    "concepts": 3531,
-    "observations": 3546,
-    "repos": 560,
-    "terms": 3598
+    "components": 5924,
+    "concepts": 3571,
+    "observations": 3586,
+    "repos": 562,
+    "terms": 3637
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "1adrianb/face-alignment",
@@ -172,6 +172,7 @@
     "esbatmop/MNBVC",
     "espeak-ng/espeak-ng",
     "ethers-io/ethers.js",
+    "eventual-inc/daft",
     "expr-lang/expr",
     "facebook/jscodeshift",
     "facebookincubator/AITemplate",
@@ -419,6 +420,7 @@
     "openai/harmony",
     "opencontainers/distribution-spec",
     "operator-framework/operator-sdk",
+    "PAIR-code/lit",
     "pditommaso/awesome-pipeline",
     "peco/peco",
     "Peterande/D-FINE",
@@ -543,6 +545,7 @@
     "usbarmory/usbarmory",
     "uuid-rs/uuid",
     "vectorclass/version2",
+    "vega/vega-lite",
     "vim-test/vim-test",
     "vishvananda/netlink",
     "vstakhov/libucl",
@@ -567,7 +570,6 @@
     "ycm-core/ycmd",
     "Yelp/dumb-init",
     "yeoman/yo",
-    "ykdojo/claude-code-tips",
     "yonaskolb/XcodeGen",
     "yuhonas/free-exercise-db",
     "zai-org/GLM-V",

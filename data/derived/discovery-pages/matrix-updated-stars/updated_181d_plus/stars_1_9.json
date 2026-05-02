@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3597,
-    "concepts": 1206,
-    "observations": 1208,
-    "repos": 853,
-    "terms": 1207
+    "components": 3601,
+    "concepts": 1216,
+    "observations": 1218,
+    "repos": 858,
+    "terms": 1217
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -55,6 +55,7 @@
     "aaronp/args4c",
     "abap-prep/abap_db_preparator",
     "abap2UI5/builder",
+    "abhijay9/attacking_perceptual_similarity_metrics",
     "abhilash1910/llm.tpc",
     "AbhiLegend/DrugDisOpenVINO",
     "AbhiLegend/DrugLiphphilicty",
@@ -253,6 +254,7 @@
     "chequer-io/phoenixsql",
     "chequer-io/PrimarSql",
     "cherylwang20/myo_sim",
+    "chi-cat/frp",
     "ChillFish8/tantivy",
     "CHNFTQ/Capricorn",
     "chriskempson/base16-templates",
@@ -314,6 +316,7 @@
     "danielrosehill/bash-alias-manager-claude",
     "danielrosehill/claude-agent-picker-pattern",
     "danielrosehill/Claude-Code-Context-Toolkit",
+    "danielrosehill/Claude-Code-MCP-Command-Generator",
     "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
     "danielrosehill/CONTEXT.md",
     "danielrosehill/Geopolitical-Analysis-System-Prompts",
@@ -422,6 +425,7 @@
     "getlantern/lantern-forum-belarus",
     "getlantern/lantern-forum-fa",
     "getlantern/lantern-forum-ru",
+    "getlantern/lantern-forum-ukraine",
     "ghchinoy/studio-scaffold",
     "girishji/fFtT.vim",
     "git-friendly/homebrew-git-friendly",
@@ -781,6 +785,7 @@
     "storybookjs/addon-design-assets",
     "sudo-suhas/lint-staged-django-react-demo",
     "surrealdb/license",
+    "SWHL/ProcessLaTeXFormulaTools",
     "swiftgen/eve",
     "tachyons-css/tachyons-display-verbose",
     "takari/m2e-discovery-catalog",
@@ -806,7 +811,7 @@
     "travis-ci/job-board",
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "UBC-NLP/Cheetah",
     "UBC-NLP/Toucan",
     "Ultraopxt/yolov10cpp",

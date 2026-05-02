@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 281,
-    "concepts": 420,
-    "observations": 422,
-    "repos": 88,
-    "terms": 422
+    "components": 282,
+    "concepts": 424,
+    "observations": 426,
+    "repos": 92,
+    "terms": 426
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "actionless/pikaur",
     "Advocate99/DiffGesture",
@@ -20,6 +20,7 @@
     "AIR-Bench/AIR-Bench",
     "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
+    "Alibaba-NLP/qqr",
     "alibaba/TinyNeuralNetwork",
     "allenai/olmes",
     "altendky/pyqt-tools",
@@ -29,6 +30,7 @@
     "BrianPugh/belay",
     "bshall/acoustic-model",
     "BusKill/buskill-app",
+    "CatharsisFonts/Ysabeau",
     "celery/py-amqp",
     "citusdata/django-multitenant",
     "clearml/clearml-server",
@@ -69,8 +71,10 @@
     "mkdocstrings/griffe",
     "mondeja/mkdocs-include-markdown-plugin",
     "mr-fatalyst/fastopenapi",
+    "nicklashansen/dreamer4",
     "nii-yamagishilab/project-NN-Pytorch-scripts",
     "NiltonVolpato/python-progressbar",
+    "NM512/dreamerv3-torch",
     "NVlabs/GatedDeltaNet",
     "objectbox/objectbox-python",
     "open-tinker/OpenTinker",

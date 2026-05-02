@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1079,
-    "concepts": 152,
-    "observations": 153,
-    "repos": 81,
-    "terms": 152
+    "components": 1083,
+    "concepts": 155,
+    "observations": 156,
+    "repos": 82,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "1000ch/atom-csso",
     "14nrv/serverless-lambda-stripe",
@@ -93,6 +93,7 @@
     "putoutjs/putout-processor-typos",
     "shanewholloway/js-cbor-codec",
     "storybookjs/addon-design-assets",
+    "SWHL/ProcessLaTeXFormulaTools",
     "therealharpaljadeja/socialconnect_rn_demo",
     "wa-lang/webgpu"
   ]

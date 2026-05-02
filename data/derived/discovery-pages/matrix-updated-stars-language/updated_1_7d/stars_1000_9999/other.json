@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1335,
-    "concepts": 1102,
-    "observations": 1112,
-    "repos": 140,
-    "terms": 1097
+    "components": 1370,
+    "concepts": 1133,
+    "observations": 1143,
+    "repos": 144,
+    "terms": 1128
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "aaubry/YamlDotNet",
     "abapGit/abapGit",
     "activeadmin/activeadmin",
     "AdguardTeam/AdguardFilters",
     "alibaba/rtp-llm",
+    "all-contributors/allcontributors.org",
     "ankane/pghero",
     "apollographql/apollo-kotlin",
     "ARM-software/abi-aa",
@@ -61,6 +62,7 @@
     "dorssel/usbipd-win",
     "dotnet/dotnet-docker",
     "dotnet/msbuild",
+    "dotnet/reactive",
     "dotnet/wpf",
     "dusty-nv/jetson-containers",
     "elixir-ecto/ecto",
@@ -85,6 +87,7 @@
     "h2oai/h2o-3",
     "HazyResearch/ThunderKittens",
     "intel/llvm",
+    "JetBrains/intellij-platform-gradle-plugin",
     "JLLeitschuh/ktlint-gradle",
     "jmhobbs/cultofthepartyparrot.com",
     "JuliaLang/PackageCompiler.jl",
@@ -116,6 +119,7 @@
     "NVIDIA/accelerated-computing-hub",
     "nvim-lualine/lualine.nvim",
     "nvim-mini/mini.nvim",
+    "nvim-neotest/neotest",
     "nvim-tree/nvim-tree.lua",
     "nvim-tree/nvim-web-devicons",
     "ocaml/dune",

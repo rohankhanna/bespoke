@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 11,
-    "terms": 117
+    "components": 55,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 10,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "cdcseacave/openMVS",
     "facebook/mvfst",
-    "facebookincubator/fizz",
     "KhronosGroup/KTX-Software",
+    "libbitcoin/libbitcoin-system",
     "luau-lang/luau",
     "RobotLocomotion/drake",
     "swiftlang/swift-llbuild",
     "TrenchBroom/TrenchBroom",
-    "uxlfoundation/oneDNN",
     "xtensor-stack/xsimd"
   ]
 }

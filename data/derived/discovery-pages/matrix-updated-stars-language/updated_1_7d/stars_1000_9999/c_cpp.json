@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 641,
-    "concepts": 747,
-    "observations": 747,
-    "repos": 88,
-    "terms": 741
+    "components": 677,
+    "concepts": 786,
+    "observations": 787,
+    "repos": 91,
+    "terms": 780
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -35,6 +35,7 @@
     "facebook/fbthrift",
     "facebook/proxygen",
     "facebook/wangle",
+    "facebookincubator/fizz",
     "Farama-Foundation/Arcade-Learning-Environment",
     "flashrom/flashrom",
     "flightlessmango/MangoHud",
@@ -55,7 +56,6 @@
     "kokkos/kokkos",
     "leejet/stable-diffusion.cpp",
     "lemonade-sdk/lemonade",
-    "libbitcoin/libbitcoin-system",
     "LibRaw/LibRaw",
     "liuliu/ccv",
     "llvm/torch-mlir",
@@ -85,6 +85,7 @@
     "qt-creator/qt-creator",
     "realsenseai/librealsense",
     "red-data-tools/pycall.rb",
+    "riscv-collab/riscv-gnu-toolchain",
     "sail-sg/envpool",
     "SchedMD/slurm",
     "sparkle-project/Sparkle",
@@ -95,8 +96,10 @@
     "tianocore/edk2",
     "ultrajson/ultrajson",
     "unitreerobotics/unitree_sdk2",
+    "uxlfoundation/oneDNN",
     "uxlfoundation/oneTBB",
     "westes/flex",
+    "xtensor-stack/xtensor",
     "YACReader/yacreader",
     "YosysHQ/nextpnr",
     "YosysHQ/yosys",

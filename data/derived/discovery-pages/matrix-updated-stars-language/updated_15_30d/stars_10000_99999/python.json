@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 438,
-    "concepts": 422,
-    "observations": 425,
-    "repos": 50,
-    "terms": 418
+    "components": 455,
+    "concepts": 432,
+    "observations": 435,
+    "repos": 51,
+    "terms": 428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -53,6 +53,7 @@
     "PaddlePaddle/PaddleSpeech",
     "pallets/flask",
     "pre-commit/pre-commit",
+    "pydantic/pydantic-ai",
     "python/mypy",
     "qubvel-org/segmentation_models.pytorch",
     "ranger/ranger",

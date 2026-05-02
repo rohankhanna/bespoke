@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 631,
-    "concepts": 667,
-    "observations": 671,
-    "repos": 68,
-    "terms": 664
+    "components": 621,
+    "concepts": 650,
+    "observations": 654,
+    "repos": 67,
+    "terms": 647
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -37,7 +37,6 @@
     "cloudwego/hertz",
     "cockroachdb/pebble",
     "Consensys/gnark",
-    "crc-org/crc",
     "dghubble/gologin",
     "Dicklesworthstone/beads_viewer",
     "DNSCrypt/dnscrypt-resolvers",

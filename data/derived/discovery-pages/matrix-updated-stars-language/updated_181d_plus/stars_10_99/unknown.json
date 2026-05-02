@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 107,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 197,
-    "terms": 191
+    "concepts": 204,
+    "observations": 204,
+    "repos": 202,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -68,7 +68,10 @@
     "collective-funds/guidelines",
     "CrazyBoyM/LLM-Chinese",
     "danielrosehill/claude-file-organiser-super-slash",
+    "dashishi/LDPolypVideo-Benchmark",
     "datasette/datasette-studio",
+    "DebeshJha/PolypDB",
+    "Des-Magmeta/PlanKai",
     "dgileadi/vscode-java-decompiler",
     "docker/model-spec",
     "domenic/proposal-arraybuffer-transfer",
@@ -159,6 +162,7 @@
     "OloOcki/tum-facade",
     "OloOcki/zaha",
     "open-gitops/.github",
+    "openaq/awesome-air-quality",
     "opencontainers/wg-reference-types",
     "OpenGVLab/Awesome-DragGAN",
     "openlanguagedata/seed",
@@ -197,6 +201,7 @@
     "TWKB/Specification",
     "ubmit/seoul256-kitty",
     "unum-cloud/UDisk",
+    "v7labs/covid-19-xray-dataset",
     "valida-xyz/valida-compiler",
     "vega/roadmap",
     "vikashplus/sawyer_sim",

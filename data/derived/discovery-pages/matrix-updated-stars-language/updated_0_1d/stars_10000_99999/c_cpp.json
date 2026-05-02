@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 9,
-    "terms": 104
+    "components": 50,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 5,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
-    "apache/thrift",
-    "coturn/coturn",
     "duckdb/duckdb",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
-    "google-deepmind/mujoco",
     "mozilla-ai/llamafile",
-    "protocolbuffers/protobuf",
-    "SerenityOS/serenity"
+    "protocolbuffers/protobuf"
   ]
 }

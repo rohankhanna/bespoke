@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 8,
-    "terms": 10
+    "components": 38,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 9,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
@@ -20,6 +20,7 @@
     "firstbatchxyz/dkn-protocol",
     "hermit-os/async-executor",
     "hermit-os/safe-mmio",
+    "prisma/cuid-rust",
     "Sovereign-Labs/reltester",
     "vaporif/rvx"
   ]

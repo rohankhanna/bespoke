@@ -3,7 +3,7 @@
     "components": 1948,
     "concepts": 457,
     "observations": 457,
-    "repos": 179,
+    "repos": 180,
     "terms": 451
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xPolygon/pilcom",
     "A11yance/axobject-query",
@@ -186,10 +186,11 @@
     "teticio/deej-ai.online-app",
     "tomchentw/imagemin-lint-staged",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",
     "vio/bundle-stats-action",
+    "weaviate/biggraph-wikidata-search-with-weaviate",
     "WebCu/gatsby-material-kit-react",
     "wylieconlon/jsonrpc-ws-proxy",
     "ymoslem/Adaptive-MT-LLM"

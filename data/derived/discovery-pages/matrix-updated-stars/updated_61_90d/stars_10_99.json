@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 939,
-    "concepts": 508,
-    "observations": 509,
-    "repos": 181,
-    "terms": 514
+    "components": 945,
+    "concepts": 513,
+    "observations": 514,
+    "repos": 182,
+    "terms": 519
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -28,6 +28,7 @@
     "adevinta/actions-lighthouseci-compare",
     "agents-x-project/PyVision-RL",
     "alexellis/fstail",
+    "AliRezaBeigy/paqetNG",
     "alloy-rs/op-alloy",
     "amerkoleci/Alimer.Bindings",
     "androidStern-personal/openclaw-mcp-adapter",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 505,
-    "observations": 505,
-    "repos": 145,
-    "terms": 501
+    "components": 254,
+    "concepts": 515,
+    "observations": 515,
+    "repos": 147,
+    "terms": 511
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
+    "adafruit/Adafruit_Sensor",
     "adamstark/AudioFile",
     "adamyaxley/Obfuscate",
     "adishavit/argh",
@@ -26,6 +27,7 @@
     "AppImage/AppImageKit",
     "aras-p/ClangBuildAnalyzer",
     "aristocratos/btop4win",
+    "ARMmbed/mbed-os",
     "asg017/sqlite-vss",
     "ashima/webgl-noise",
     "astrand/xclip",

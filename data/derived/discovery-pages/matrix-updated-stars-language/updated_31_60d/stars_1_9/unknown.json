@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 26,
+    "components": 24,
     "concepts": 17,
     "observations": 17,
-    "repos": 24,
+    "repos": 23,
     "terms": 17
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
     "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
     "addfox/skills",
-    "adonisjs/.github",
     "autowarefoundation/.github",
     "awni/picochat",
     "cncf/k8s-conformance-archive",

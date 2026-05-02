@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5969,
+    "components": 5966,
     "concepts": 595,
     "observations": 602,
-    "repos": 64,
-    "terms": 612
+    "repos": 63,
+    "terms": 611
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "apache/superset",
@@ -67,7 +67,6 @@
     "sindresorhus/got",
     "sindresorhus/ky",
     "sindresorhus/type-fest",
-    "slopus/happy",
     "tanweai/pua",
     "typescript-eslint/typescript-eslint",
     "upstash/context7",

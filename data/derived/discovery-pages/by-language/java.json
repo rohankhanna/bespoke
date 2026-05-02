@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2307,
-    "concepts": 2900,
-    "observations": 2907,
-    "repos": 479,
-    "terms": 2882
+    "components": 2317,
+    "concepts": 2913,
+    "observations": 2920,
+    "repos": 483,
+    "terms": 2895
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -47,6 +47,7 @@
     "apache/flink-connector-pulsar",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
+    "apache/iceberg",
     "apache/ignite",
     "apache/ignite-3",
     "apache/ignite-extensions",
@@ -226,6 +227,7 @@
     "filip26/titanium-rdf-n-quads",
     "filip26/tree-io",
     "fillumina/id-encryptor",
+    "filtershekanha/TLSFragmenter",
     "findbugsproject/findbugs",
     "finefuture/sentinel-dashboard-X",
     "firebase/firebase-android-sdk",
@@ -319,6 +321,7 @@
     "jpmml/jpmml-transpiler",
     "jpmml/jpmml-xgboost",
     "jruby/jruby-examples",
+    "json-path/JsonPath",
     "jtablesaw/tablesaw",
     "julienledem/redelm",
     "junit-team/junit-examples",
@@ -397,6 +400,7 @@
     "oshi/oshi",
     "padreati/rapaio",
     "palantir/javapoet",
+    "Parquet/parquet-compatibility",
     "peergos/nabu",
     "peergos/nabu-chat",
     "peergos/peergos",

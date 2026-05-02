@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 529,
-    "concepts": 352,
-    "observations": 356,
-    "repos": 59,
-    "terms": 350
+    "components": 547,
+    "concepts": 373,
+    "observations": 377,
+    "repos": 60,
+    "terms": 371
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "alexpasmantier/television",
@@ -30,6 +30,7 @@
     "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
     "EricLBuehler/mistral.rs",
+    "eventual-inc/daft",
     "ggez/ggez",
     "GuillaumeGomez/sysinfo",
     "hyperium/h2",

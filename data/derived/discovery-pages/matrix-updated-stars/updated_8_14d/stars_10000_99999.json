@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12388,
-    "concepts": 4802,
-    "observations": 4825,
-    "repos": 460,
-    "terms": 4835
+    "components": 12344,
+    "concepts": 4790,
+    "observations": 4813,
+    "repos": 457,
+    "terms": 4822
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "3b1b/manim",
@@ -296,7 +296,6 @@
     "microsoft/react-native-windows",
     "microsoft/semantic-kernel",
     "microsoft/STL",
-    "microsoft/typescript-go",
     "microsoft/vcpkg",
     "microsoft/windows-rs",
     "microsoft/winget-cli",
@@ -362,7 +361,6 @@
     "protobufjs/protobuf.js",
     "px4/px4-autopilot",
     "pybind/pybind11",
-    "pydantic/pydantic-ai",
     "pyinstaller/pyinstaller",
     "pyodide/pyodide",
     "pypa/pip",
@@ -413,7 +411,6 @@
     "sindresorhus/ky",
     "sindresorhus/type-fest",
     "slackhq/nebula",
-    "slopus/happy",
     "Solido/awesome-flutter",
     "Spotifyd/spotifyd",
     "stanfordnlp/dspy",

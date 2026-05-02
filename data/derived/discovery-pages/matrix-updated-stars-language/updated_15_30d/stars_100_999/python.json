@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 595,
-    "concepts": 619,
-    "observations": 624,
-    "repos": 128,
-    "terms": 631
+    "components": 613,
+    "concepts": 645,
+    "observations": 650,
+    "repos": 132,
+    "terms": 657
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -25,7 +25,6 @@
     "AgriciDaniel/banana-claude",
     "AgriciDaniel/claude-blog",
     "ahmedasmar/devops-claude-skills",
-    "Alibaba-NLP/qqr",
     "Alibaba-NLP/VRAG",
     "allenai/IFBench",
     "argoproj-labs/hera",
@@ -35,6 +34,7 @@
     "aws-samples/serverless-snippets",
     "aws/aws-sam-cli-app-templates",
     "Azure/WALinuxAgent",
+    "baidu-baige/LoongFlow",
     "beamuswayne/simp-skill",
     "biocypher/biocypher",
     "bmad-code-org/bmad-builder",
@@ -47,6 +47,7 @@
     "crytic/crytic-compile",
     "crytic/pyevmasm",
     "crytic/solc-select",
+    "cswry/SeeSR",
     "cubed-dev/cubed",
     "daniandtheweb/sd.cpp-webui",
     "data-apis/array-api-compat",
@@ -62,6 +63,7 @@
     "FlagOpen/Robo-Dopamine",
     "FoundationVision/InfinityStar",
     "G-Research/ahocorasick_rs",
+    "google-deepmind/distrax",
     "google-deepmind/meltingpot",
     "google-deepmind/physics-IQ-benchmark",
     "google-research/android_world",
@@ -77,6 +79,7 @@
     "inisis/OnnxSlim",
     "insitro/redun",
     "iterative/shtab",
+    "Jamorim-esss/pytest-rich",
     "Jasonzzt/ComfyUI-CacheDiT",
     "jimporter/mike",
     "joonson/syncnet_python",
@@ -102,6 +105,7 @@
     "mosaicml/diffusion",
     "mosecorg/mosec",
     "multiformats/multicodec",
+    "nanoporetech/medaka",
     "naver/kapture",
     "nuprl/MultiPL-E",
     "NVlabs/trajdata",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 565,
-    "concepts": 474,
-    "observations": 476,
-    "repos": 57,
-    "terms": 473
+    "components": 581,
+    "concepts": 477,
+    "observations": 479,
+    "repos": 58,
+    "terms": 476
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
     "AccessKit/accesskit",
     "actix/examples",
-    "apache/casbin-rs",
+    "apache/iceberg-rust",
     "askama-rs/askama",
     "aws-cloudformation/cloudformation-guard",
     "boa-dev/boa",
@@ -67,6 +67,7 @@
     "squidowl/halloy",
     "tensorchord/VectorChord",
     "time-rs/time",
+    "VOICEVOX/voicevox_core",
     "vulkano-rs/vulkano",
     "wasm-bindgen/wasm-bindgen",
     "wasm-bindgen/wasm-pack",

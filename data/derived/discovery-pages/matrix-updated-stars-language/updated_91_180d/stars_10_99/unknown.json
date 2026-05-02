@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 40,
     "observations": 40,
-    "repos": 21,
+    "repos": 23,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "airlift/codestyle",
@@ -25,8 +25,10 @@
     "eric-haibin-lin/verl-community",
     "FAIR-IMPACT/MOD",
     "getlantern/lantern-forum-cn",
+    "JaeZ1205/PS_NBI2k",
     "json-schema-org/.github",
     "Level/community",
+    "NinaWie/COVID-BLUES",
     "oak-security/resources",
     "PyCQA/bandit-action",
     "rose-pine/rose-pine-template",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 44430,
-    "concepts": 7714,
-    "observations": 7744,
-    "repos": 1323,
-    "terms": 8043
+    "components": 44563,
+    "concepts": 7733,
+    "observations": 7763,
+    "repos": 1328,
+    "terms": 8066
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -392,6 +392,8 @@
     "easyCZ/grpc-web-hacker-news",
     "eckardt/cchistory",
     "EclipseFdn/open-vsx.org",
+    "ecomfe/vue-echarts",
+    "ecomfe/zrender",
     "ecyrbe/zodios",
     "ecyrbe/zodios-express",
     "ecyrbe/zodios-plugins",
@@ -892,6 +894,7 @@
     "ngyewch/smile-js",
     "nicolo-ribaudo/engine262",
     "niieani/gpt-tokenizer",
+    "NilsJPWerner/autoDocstring",
     "nizos/tdd-guard",
     "node-gh/gh",
     "node-lightning/node-lightning",
@@ -969,6 +972,7 @@
     "ovh/grafana-akvorado",
     "owloops/claude-powerline",
     "oxc-project/eslint-plugin-oxlint",
+    "PAIR-code/lit",
     "PanAeon/vscode-tmgrammar-test",
     "panva/jose",
     "patrickkabwe/create-nitro-module",
@@ -1282,6 +1286,7 @@
     "VOICEVOX/voicevox",
     "VoltAgent/voltagent",
     "VSCodeVim/Vim",
+    "vuejs/babel-plugin-jsx",
     "vuejs/composition-api",
     "vuejs/core",
     "vuejs/devtools",

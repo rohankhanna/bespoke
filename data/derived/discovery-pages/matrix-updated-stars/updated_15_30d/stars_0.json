@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 51,
-    "terms": 85
+    "components": 190,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 52,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "aaronrsun/spec-kit-confluence",
@@ -38,10 +38,12 @@
     "danielrosehill/Claude-Calls-The-Shots",
     "danielrosehill/Deployments-Index",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
+    "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "eigenwallet/arti",
     "ethpandaops/xatu-cbt",
+    "FEniCS/spack-fenics",
     "foundry-rs/optimism",
     "fulmicoton-dd/datasketches-rust",
     "grubersjoe/react-activity-calendar-tests",
@@ -54,7 +56,6 @@
     "mitchuski/agentprivacy-skills",
     "piebald-ai/piebald",
     "PrimeIntellect-ai/router",
-    "prisma/cuid-rust",
     "psmux/scoop-omp-manager",
     "redai-infra/TransferQueue",
     "saidudz/chat-ai",

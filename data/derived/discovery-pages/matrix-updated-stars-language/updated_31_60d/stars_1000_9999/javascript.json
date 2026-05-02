@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 557,
-    "concepts": 135,
-    "observations": 135,
+    "components": 530,
+    "concepts": 130,
+    "observations": 130,
     "repos": 25,
-    "terms": 134
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "Adobe-CEP/Samples",
     "amqp-node/amqplib",
@@ -34,10 +34,10 @@
     "nksaraf/vinxi",
     "node-fetch/node-fetch",
     "paralleldrive/cuid2",
-    "pillarjs/iconv-lite",
     "pmndrs/drei",
     "rollup/plugins",
     "styled-components/polished",
-    "treosh/lighthouse-ci-action"
+    "treosh/lighthouse-ci-action",
+    "ykdojo/claude-code-tips"
   ]
 }

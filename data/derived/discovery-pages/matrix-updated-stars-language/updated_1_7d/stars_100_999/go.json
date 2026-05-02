@@ -3,7 +3,7 @@
     "components": 290,
     "concepts": 256,
     "observations": 256,
-    "repos": 35,
+    "repos": 36,
     "terms": 256
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
@@ -48,6 +48,7 @@
     "suzuki-shunsuke/pinact",
     "theupdateframework/go-tuf",
     "trzsz/tsshd",
+    "usbarmory/go-boot",
     "web-infra-dev/rslint"
   ]
 }

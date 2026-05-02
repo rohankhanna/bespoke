@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1964,
-    "concepts": 1501,
-    "observations": 1508,
-    "repos": 308,
-    "terms": 1481
+    "components": 1969,
+    "concepts": 1505,
+    "observations": 1512,
+    "repos": 311,
+    "terms": 1485
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -171,6 +171,7 @@
     "isaacs/nave",
     "jashkenas/docco",
     "jasongin/nvs",
+    "jazzband/django-configurations",
     "jedisct1/minisign",
     "jekip/naive-ui-admin",
     "jessevig/bertviz",
@@ -294,6 +295,8 @@
     "Teemu/pytest-sugar",
     "tenable/terrascan",
     "Tencent-Hunyuan/HunyuanDiT",
+    "Tencent-Hunyuan/HunyuanVideo-Avatar",
+    "Tencent/MimicMotion",
     "Tencent/TFace",
     "Tencent/tquic",
     "tensorflow/agents",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2753,
-    "concepts": 531,
-    "observations": 532,
-    "repos": 154,
-    "terms": 525
+    "components": 2789,
+    "concepts": 536,
+    "observations": 537,
+    "repos": 157,
+    "terms": 531
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -52,6 +52,7 @@
     "dwyl/learn-tdd",
     "dwyl/learn-travis",
     "ecomfe/echarts-liquidfill",
+    "ecomfe/echarts-wordcloud",
     "eigilnikolajsen/commit-mono",
     "erikras/ducks-modular-redux",
     "estools/escodegen",
@@ -129,6 +130,7 @@
     "peggyrayzis/react-native-create-bridge",
     "posthtml/posthtml",
     "preactjs/preact-cli",
+    "que-etc/resize-observer-polyfill",
     "react-native-community/releases",
     "rebassjs/rebass",
     "rehypejs/rehype",
@@ -162,6 +164,7 @@
     "vitalets/react-native-extended-stylesheet",
     "vshymanskyy/StandWithUkraine",
     "vuejs-templates/webpack",
+    "vuejs/babel-plugin-transform-vue-jsx",
     "vuejs/jsx-vue2",
     "WebDevSimplified/Zoom-Clone-With-WebRTC",
     "wenda-LLM/wenda",

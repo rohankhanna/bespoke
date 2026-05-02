@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 48,
-    "terms": 117
+    "components": 236,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 49,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
     "AdaCore/gnatcoll-bindings",
     "adelarsq/vim-emoji-icon-theme",
+    "AliRezaBeigy/paqetNG",
     "andys8/git-brunch",
     "ankane/ml-stack",
     "anmolitor/travelm-agency",

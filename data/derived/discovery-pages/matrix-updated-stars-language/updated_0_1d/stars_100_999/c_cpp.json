@@ -3,7 +3,7 @@
     "components": 22,
     "concepts": 14,
     "observations": 14,
-    "repos": 5,
+    "repos": 4,
     "terms": 14
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "boostorg/math",
     "facebook/fboss",
-    "HybridRobotics/motion_tracking_controller",
     "ipsilon/evmone",
     "snowballstem/snowball"
   ]

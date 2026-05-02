@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3407,
-    "concepts": 1506,
-    "observations": 1514,
-    "repos": 362,
-    "terms": 1545
+    "components": 3464,
+    "concepts": 1514,
+    "observations": 1522,
+    "repos": 363,
+    "terms": 1553
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "2KAbhishek/sway2k",
@@ -198,7 +198,6 @@
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
-    "i18next/react-i18next-gitbook",
     "ibmruntimes/zoslib",
     "ICRAR/crc32c",
     "ipfs/distributions",
@@ -231,6 +230,7 @@
     "KWARC/rust-libxml",
     "lewis6991/async.nvim",
     "liangshengyong/lanwan",
+    "libbitcoin/libbitcoin-database",
     "llamastack/llama-stack-client-typescript",
     "locize/i18next-locize-backend",
     "locize/locize",
@@ -273,6 +273,7 @@
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-tracy",
     "oclif/oclif.github.io",
+    "oclif/plugin-plugins",
     "octokit/app-permissions",
     "octokit/openapi",
     "octokit/openapi-types.ts",

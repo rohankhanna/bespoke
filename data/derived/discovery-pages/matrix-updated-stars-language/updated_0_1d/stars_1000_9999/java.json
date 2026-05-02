@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 27,
-    "observations": 27,
+    "components": 20,
+    "concepts": 29,
+    "observations": 29,
     "repos": 3,
-    "terms": 27
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
+    "apache/iceberg",
     "eclipse-jdtls/eclipse.jdt.ls",
-    "helidon-io/helidon",
-    "JetBrains/JetBrainsRuntime"
+    "helidon-io/helidon"
   ]
 }

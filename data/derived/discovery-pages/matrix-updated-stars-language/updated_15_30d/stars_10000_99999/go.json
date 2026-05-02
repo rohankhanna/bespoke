@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 193,
-    "observations": 193,
-    "repos": 21,
-    "terms": 192
+    "components": 186,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 22,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
@@ -31,6 +31,7 @@
     "kubernetes-sigs/kustomize",
     "kubernetes/kompose",
     "labstack/echo",
+    "microsoft/typescript-go",
     "nektos/act",
     "shadow1ng/fscan",
     "slimtoolkit/slim",

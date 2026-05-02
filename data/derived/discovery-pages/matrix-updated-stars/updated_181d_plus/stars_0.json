@@ -3,7 +3,7 @@
     "components": 768,
     "concepts": 371,
     "observations": 373,
-    "repos": 263,
+    "repos": 265,
     "terms": 371
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -148,6 +148,7 @@
     "genome21/langflow",
     "get-gah/setup-gah",
     "getlantern/lantern-forum-en",
+    "getlantern/lantern-forum-uae",
     "girishji/ngramview-complete.vim",
     "glandium/rust-objc",
     "gokyeongryeol/diffusers",
@@ -163,6 +164,7 @@
     "ipld/js-blockcodec-to-ipld-format",
     "ipld/js-ipld-format-to-blockcodec",
     "itroyano/ustore-operator",
+    "janwilmake/oapis.cli",
     "jbilcke-hf/finetrainers",
     "josejg/google-research",
     "joshmedeski/tmux-list",

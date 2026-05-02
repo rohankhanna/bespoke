@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 7,
-    "terms": 99
+    "components": 199,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 9,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "authelia/authelia",
     "containers/podman",
+    "gastownhall/beads",
     "gastownhall/gastown",
+    "gotify/server",
     "gravitational/teleport",
     "moby/moby",
     "mudler/LocalAI",

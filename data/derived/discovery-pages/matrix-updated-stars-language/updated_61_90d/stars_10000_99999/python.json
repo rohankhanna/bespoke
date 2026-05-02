@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 88,
-    "observations": 89,
-    "repos": 12,
-    "terms": 88
+    "components": 63,
+    "concepts": 87,
+    "observations": 88,
+    "repos": 11,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
-    "bmaltais/kohya_ss",
     "ComposioHQ/awesome-claude-skills",
     "FoundationAgents/OpenManus",
     "Jiayi-Pan/TinyZero",

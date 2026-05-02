@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 7353,
-    "concepts": 4129,
-    "observations": 4150,
-    "repos": 708,
-    "terms": 4186
+    "components": 7340,
+    "concepts": 4134,
+    "observations": 4155,
+    "repos": 707,
+    "terms": 4191
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "15r10nk/inline-snapshot",
@@ -203,6 +203,7 @@
     "crytic/medusa",
     "CVEProject/automation-working-group",
     "CVEProject/cve-services",
+    "CVHub520/X-AnyLabeling-Server",
     "cygwin/cygwin",
     "cyphar/libpathrs",
     "daaain/claude-code-log",
@@ -274,7 +275,6 @@
     "eudk/awesome-ai-tools",
     "evenchange4/graphql.macro",
     "executablebooks/MyST-Parser",
-    "EzequielRamis/zimdjson",
     "Ezibenroc/PyRoaringBitMap",
     "facebookresearch/recipes",
     "facil-io/cstl",
@@ -313,8 +313,6 @@
     "GitoxideLabs/cargo-smart-release",
     "gmberton/VPR-methods-evaluation",
     "GNOME/librsvg",
-    "go-openapi/swag",
-    "google-deepmind/distrax",
     "google-deepmind/xmanager",
     "google-gemini/gemini-api-quickstart",
     "google/agents-cli",
@@ -382,7 +380,6 @@
     "ipfs/rainbow",
     "ISEEKYAN/mbridge",
     "islandoftex/arara",
-    "jeremymailen/kotlinter-gradle",
     "jezweb/claude-skills",
     "jfmengels/elm-review",
     "jgarber/redcloth",
@@ -430,6 +427,7 @@
     "LaurenzV/krilla",
     "lemire/docker_programming_station",
     "lerna-lite/lerna-lite",
+    "libbitcoin/libbitcoin-node",
     "libvips/build-win64-mxe",
     "lightningd/plugins",
     "littleli/scoop-clojure",
@@ -622,6 +620,7 @@
     "SandAI-org/MagiAttention",
     "SaschaWillems/HowToVulkan",
     "sass/embedded-host-node",
+    "sbt/sbt-pgp",
     "scikit-build/scikit-build-core",
     "SciML/SciMLStyle",
     "sclorg/mysql-container",

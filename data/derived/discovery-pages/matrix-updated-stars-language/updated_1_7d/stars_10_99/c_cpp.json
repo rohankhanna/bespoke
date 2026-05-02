@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 17,
-    "terms": 81
+    "components": 85,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 18,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "Antares0982/ssrJSON",
+    "confluentinc/libserdes",
     "erigontech/mdbx-go",
     "facebook/fb303",
     "hazelcast/hazelcast-cpp-client",
@@ -23,11 +24,11 @@
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
-    "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",
     "mongodb/winkerberos",
+    "oneapi-src/unified-memory-framework",
     "ROCm/rpp",
     "walbourn/directxmathtest",
     "xjb714/xjb"

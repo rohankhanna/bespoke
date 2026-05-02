@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 673,
-    "concepts": 702,
-    "observations": 705,
-    "repos": 60,
-    "terms": 697
+    "components": 656,
+    "concepts": 676,
+    "observations": 679,
+    "repos": 58,
+    "terms": 671
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
-    "aden-hive/hive",
     "agentscope-ai/agentscope",
     "agno-agi/agno",
     "Aider-AI/aider",
@@ -39,7 +38,6 @@
     "Kludex/starlette",
     "kornia/kornia",
     "kvcache-ai/ktransformers",
-    "Lightning-AI/pytorch-lightning",
     "locustio/locust",
     "microsoft/agent-lightning",
     "modelscope/DiffSynth-Studio",

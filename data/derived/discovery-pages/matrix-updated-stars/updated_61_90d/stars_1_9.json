@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 225,
-    "observations": 225,
-    "repos": 66,
-    "terms": 222
+    "components": 265,
+    "concepts": 226,
+    "observations": 226,
+    "repos": 68,
+    "terms": 223
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -21,6 +21,7 @@
     "actions-oss/act-cli",
     "adityasugandhi/skillsync-mcp",
     "adobe/spectrum-tokens",
+    "adonisjs/.github",
     "Afnanksalal/co-op",
     "agents-x-project/PyVision-RL-Eval",
     "aifoundry-org/et-man",
@@ -61,6 +62,7 @@
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "kornia/data",
     "leaktk/gitleaks",
+    "llm-in-sandbox/llm-in-sandbox-rl",
     "mlfoundations/SkyRL",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",

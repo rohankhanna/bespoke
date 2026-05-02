@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 110,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 56,
-    "terms": 161
+    "concepts": 160,
+    "observations": 160,
+    "repos": 57,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -25,6 +25,7 @@
     "berkerpeksag/astor",
     "breezedeus/CnSTD",
     "brentyi/jaxls",
+    "bytedance/Q-Insight",
     "Chris-hughes10/pytorch-accelerated",
     "cleinc/bts",
     "DanCardin/cappa",

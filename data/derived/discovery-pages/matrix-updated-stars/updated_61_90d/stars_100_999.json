@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1598,
-    "concepts": 993,
-    "observations": 999,
-    "repos": 250,
-    "terms": 996
+    "components": 1605,
+    "concepts": 1005,
+    "observations": 1011,
+    "repos": 253,
+    "terms": 1008
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -65,6 +65,7 @@
     "blyxxyz/lexopt",
     "breezedeus/CnSTD",
     "brentyi/jaxls",
+    "bytedance/Q-Insight",
     "Calcium-Ion/neko-api-key-tool",
     "castwide/vscode-solargraph",
     "chakravala/Grassmann.jl",
@@ -89,6 +90,7 @@
     "danielward27/flowjax",
     "deepbeepmeep/mmgp",
     "devkitPro/libctru",
+    "DL3DV-10K/Dataset",
     "docker-library/buildpack-deps",
     "docker-library/faq",
     "domluna/JuliaFormatter.jl",
@@ -146,6 +148,7 @@
     "JuliaDiff/BlueStyle",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
+    "JuliaGizmos/Blink.jl",
     "JuliaLang/JuliaSyntax.jl",
     "kamranahmedse/claude-run",
     "kata-containers/cgroups-rs",

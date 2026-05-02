@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2972,
-    "concepts": 1984,
-    "observations": 1989,
-    "repos": 358,
-    "terms": 1995
+    "components": 2951,
+    "concepts": 2003,
+    "observations": 2008,
+    "repos": 359,
+    "terms": 2015
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "activerecord-hackery/ransack",
@@ -114,6 +114,7 @@
     "dtolnay/proc-macro-workshop",
     "dtolnay/quote",
     "dtolnay/thiserror",
+    "dynaconf/dynaconf",
     "ekalinin/sitemap.js",
     "emilk/eframe_template",
     "engineer-man/piston",
@@ -277,7 +278,6 @@
     "peter-evans/repository-dispatch",
     "pgpartman/pg_partman",
     "pgsty/pigsty",
-    "pillarjs/iconv-lite",
     "pisa-engine/pisa",
     "pmndrs/drei",
     "PoseLib/PoseLib",
@@ -364,6 +364,7 @@
     "xlite-dev/lite.ai.toolkit",
     "xtaci/kcp-go",
     "xtaci/smux",
+    "ykdojo/claude-code-tips",
     "yuin/goldmark",
     "z-x-yang/Segment-and-Track-Anything",
     "zarazhangrui/codebase-to-course",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3505,
-    "concepts": 710,
-    "observations": 712,
-    "repos": 78,
-    "terms": 706
+    "components": 3602,
+    "concepts": 736,
+    "observations": 738,
+    "repos": 82,
+    "terms": 732
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -29,12 +29,15 @@
     "BuilderIO/builder",
     "Chevrotain/chevrotain",
     "chhoumann/quickadd",
+    "cloudflare/workers-sdk",
     "Comcast/react-data-grid",
     "connectrpc/connect-es",
     "dbeaver/cloudbeaver",
     "dmotz/trystero",
     "dotnet/vscode-csharp",
+    "ecomfe/zrender",
     "ecyrbe/zodios",
+    "fern-api/fern",
     "ggml-org/llama.vscode",
     "graphql-hive/graphql-inspector",
     "graphql/graphql-playground",
@@ -63,6 +66,7 @@
     "r-lib/actions",
     "r5n-labs/vscode-react-javascript-snippets",
     "Redocly/redocly-cli",
+    "remotion-dev/skills",
     "retorquere/zotero-better-bibtex",
     "rolldown/tsdown",
     "rustmailer/bichon",

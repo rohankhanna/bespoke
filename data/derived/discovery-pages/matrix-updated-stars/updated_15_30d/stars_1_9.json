@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 767,
-    "concepts": 390,
-    "observations": 390,
-    "repos": 143,
-    "terms": 390
+    "components": 771,
+    "concepts": 391,
+    "observations": 391,
+    "repos": 144,
+    "terms": 391
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/stark-recurser",
@@ -48,6 +48,7 @@
     "alvistack/ansible-role-conmon",
     "analyticsinmotion/wake-word",
     "ankane/dist-c",
+    "ankane/seaduck",
     "apache/dubbo-go-extensions",
     "apache/netbeans-antora",
     "aporthq/aport-spec",

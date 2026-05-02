@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1385,
-    "concepts": 1941,
-    "observations": 1946,
-    "repos": 645,
-    "terms": 1932
+    "components": 1399,
+    "concepts": 1963,
+    "observations": 1968,
+    "repos": 650,
+    "terms": 1955
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "1runeberg/confichat",
@@ -160,6 +160,7 @@
     "citusdata/activerecord-multi-tenant",
     "CjangCjengh/MoeGoe_GUI",
     "cjohansen/dumdom",
+    "Clemapfel/Mousetrap.jl",
     "clojupyter/clojupyter",
     "clojure-emacs/clj-suitable",
     "clojure-goes-fast/clj-java-decompiler",
@@ -473,6 +474,7 @@
     "nvimdev/galaxyline.nvim",
     "ocaml-community/zed",
     "okfn/messytables",
+    "omertov/encoder4editing",
     "omniti-labs/pg_jobmon",
     "onsails/diaglist.nvim",
     "open-telemetry/oteps",
@@ -576,6 +578,7 @@
     "sylinrl/TruthfulQA",
     "Tangshitao/QuadTreeAttention",
     "tc39/proposal-async-iteration",
+    "tc39/proposal-call-this",
     "tc39/proposal-compartments",
     "tc39/proposal-import-attributes",
     "tc39/proposal-is-error",
@@ -598,6 +601,7 @@
     "tinted-theming/tinted-xfce4-terminal",
     "tmhedberg/SimpylFold",
     "TommyX12/company-tabnine",
+    "torch/distro",
     "tpope/vim-dotenv",
     "travis-ci/packer-templates",
     "travis-ci/travis-cookbooks",
@@ -610,6 +614,7 @@
     "unit-mesh/choco-builder",
     "unsplash/comment-on-pr",
     "v-iashin/SpecVQGAN",
+    "vale-cli/Microsoft",
     "vapor/redis",
     "vasgaowei/TS-CAM",
     "vcg-uvic/learned-correspondence-release",

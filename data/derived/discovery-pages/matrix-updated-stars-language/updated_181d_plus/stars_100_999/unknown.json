@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 46,
-    "concepts": 282,
-    "observations": 282,
-    "repos": 176,
-    "terms": 282
+    "concepts": 287,
+    "observations": 287,
+    "repos": 179,
+    "terms": 287
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -38,6 +38,7 @@
     "babel/proposals",
     "bevyengine/rfcs",
     "bigtreetech/CB1",
+    "Buernia/Zhudou-Sans",
     "ByteDance-Seed/Seed-Coder",
     "ByteDance-Seed/Seed-Thinking-v1.5",
     "cabani/MaskedFace-Net",
@@ -99,6 +100,7 @@
     "HzFu/COVID19_imaging_AI_paper_list",
     "ibm-granite/granite-3.0-language-models",
     "IceClear/SeedVR",
+    "imfing/ava_downloader",
     "instantX-research/InstantID-Rome",
     "ipfs/roadmap",
     "JafferWilson/Process-Data-of-CNN-DailyMail",
@@ -117,6 +119,7 @@
     "knownsec/404starlink-project",
     "libp2p/go-libp2p-examples",
     "litter-coder/midjourney-proxy-plus",
+    "logux/logux",
     "mannaandpoem/OpenManus",
     "mapbox/vector-tile-spec",
     "mayhemantt/mayhemantt",

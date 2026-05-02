@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2267,
-    "concepts": 488,
-    "observations": 489,
-    "repos": 70,
-    "terms": 537
+    "components": 2335,
+    "concepts": 507,
+    "observations": 508,
+    "repos": 72,
+    "terms": 556
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "actions/typescript-action",
     "actions/upload-artifact",
@@ -69,6 +69,7 @@
     "oclif/oclif",
     "onecli/onecli",
     "opactorai/claudable",
+    "PAIR-code/lit",
     "piebald-ai/tweakcc",
     "pixiv/three-vrm",
     "redhat-developer/vscode-java",
@@ -82,6 +83,7 @@
     "thx/resvg-js",
     "TooTallNate/proxy-agents",
     "TypeStrong/ts-loader",
+    "vega/vega-lite",
     "webgpu/webgpu-samples",
     "withastro/starlight"
   ]

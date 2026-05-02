@@ -3,7 +3,7 @@
     "components": 1225,
     "concepts": 670,
     "observations": 674,
-    "repos": 265,
+    "repos": 267,
     "terms": 673
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -147,6 +147,7 @@
     "InteractiveComputerGraphics/blender-sequence-loader",
     "ipfs/helia-http-gateway",
     "jaegertracing/docker-protobuf",
+    "JaeZ1205/PS_NBI2k",
     "JamieMair/MuJoCo.jl",
     "janwilmake/oapis",
     "jean-pierreBoth/probminhash",
@@ -192,6 +193,7 @@
     "nanostores/angular",
     "nativium/nativium",
     "nikitabobko/brew-install-path",
+    "NinaWie/COVID-BLUES",
     "nodenv/nodenv-installer",
     "nodenv/nodenv-update",
     "NorfairKing/feedback",

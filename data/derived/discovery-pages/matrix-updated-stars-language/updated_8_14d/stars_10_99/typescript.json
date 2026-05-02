@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 977,
-    "concepts": 168,
-    "observations": 170,
-    "repos": 33,
-    "terms": 174
+    "components": 1030,
+    "concepts": 175,
+    "observations": 177,
+    "repos": 34,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "almogdepaz/wolfpack",
@@ -40,6 +40,7 @@
     "Kastalien-Research/thoughtbox",
     "llamastack/llama-stack-client-typescript",
     "mcous/vitest-when",
+    "oclif/plugin-plugins",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",

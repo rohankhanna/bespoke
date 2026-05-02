@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1063,
-    "concepts": 732,
-    "observations": 735,
+    "components": 1059,
+    "concepts": 725,
+    "observations": 728,
     "repos": 95,
-    "terms": 746
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig",
     "abraxas-365/langchain-rust",
@@ -21,6 +21,7 @@
     "algesten/ureq",
     "alloy-rs/alloy",
     "apache/arrow-rs",
+    "apache/casbin-rs",
     "apache/datafusion",
     "apache/datafusion-comet",
     "apache/iggy",
@@ -44,7 +45,6 @@
     "dtolnay/cxx",
     "esp-rs/esp-hal",
     "evcxr/evcxr",
-    "eventual-inc/daft",
     "flamegraph-rs/flamegraph",
     "freenet/freenet-core",
     "gfx-rs/wgpu-native",

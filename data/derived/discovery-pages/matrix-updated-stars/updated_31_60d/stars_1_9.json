@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 575,
-    "concepts": 348,
-    "observations": 349,
-    "repos": 127,
-    "terms": 341
+    "components": 570,
+    "concepts": 347,
+    "observations": 348,
+    "repos": 125,
+    "terms": 340
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -24,7 +24,6 @@
     "Adam-Boesky/astro_SPLASH",
     "addfox/skills",
     "ADNTIO/crispy-bootloader-rp2040-rs",
-    "adonisjs/.github",
     "agent-sh/deslop",
     "agent-sh/ship",
     "agents-squads/agents-squads",
@@ -104,7 +103,6 @@
     "Level/read-stream",
     "Level/supports",
     "Level/transcoder",
-    "llm-in-sandbox/llm-in-sandbox-rl",
     "llvm/torch-mlir-release",
     "lucabubi/star-history",
     "MarcCote/TextWorld",

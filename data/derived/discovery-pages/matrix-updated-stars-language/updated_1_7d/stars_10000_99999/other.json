@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 510,
-    "concepts": 461,
-    "observations": 462,
-    "repos": 44,
-    "terms": 458
+    "components": 501,
+    "concepts": 453,
+    "observations": 454,
+    "repos": 43,
+    "terms": 450
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "actions/runner-images",
-    "anthropics/claude-cookbooks",
     "apache/apisix",
     "ardalis/CleanArchitecture",
     "autowarefoundation/autoware",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26977,
-    "concepts": 12640,
-    "observations": 12690,
-    "repos": 1431,
-    "terms": 12619
+    "components": 27026,
+    "concepts": 12655,
+    "observations": 12705,
+    "repos": 1433,
+    "terms": 12639
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -398,6 +398,7 @@
     "duckdb/duckdb",
     "dwyl/english-words",
     "earthly/earthly",
+    "ecomfe/vue-echarts",
     "egoist/tsup",
     "ekzhang/bore",
     "elastic/elasticsearch",
@@ -589,6 +590,7 @@
     "googleworkspace/cli",
     "goreleaser/goreleaser",
     "gorilla/websocket",
+    "gotify/server",
     "gradio-app/gradio",
     "gradle/gradle",
     "grafana/grafana",

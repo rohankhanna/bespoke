@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11556,
-    "concepts": 6781,
-    "observations": 6807,
-    "repos": 869,
-    "terms": 6821
+    "components": 11501,
+    "concepts": 6770,
+    "observations": 6796,
+    "repos": 870,
+    "terms": 6810
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "0xAX/asm",
@@ -70,6 +70,7 @@
     "apache/apisix-dashboard",
     "apache/arrow-rs",
     "apache/camel",
+    "apache/casbin-rs",
     "apache/cordova-android",
     "apache/cordova-ios",
     "apache/datafusion",
@@ -321,7 +322,6 @@
     "ethereumjs/ethereumjs-monorepo",
     "ethersphere/bee",
     "evcxr/evcxr",
-    "eventual-inc/daft",
     "EvolvingLMMs-Lab/lmms-eval",
     "executablebooks/markdown-it-py",
     "expressjs/body-parser",
@@ -345,6 +345,7 @@
     "flathub/flathub",
     "flatpak/flatpak",
     "florianbruniaux/claude-code-ultimate-guide",
+    "flow-typed/flow-typed",
     "fluent/fluent-bit",
     "flutter/website",
     "flyerhzm/rails_best_practices",
@@ -460,6 +461,7 @@
     "joerick/pyinstrument",
     "john-rocky/CoreML-Models",
     "johnbean393/Sidekick",
+    "joke2k/django-environ",
     "jonhoo/fantoccini",
     "joshmedeski/sesh",
     "jprichardson/node-fs-extra",
@@ -851,7 +853,6 @@
     "unum-cloud/USearch",
     "util-linux/util-linux",
     "vadimcn/codelldb",
-    "vega/vega-lite",
     "vietanhdev/anylabeling",
     "vim/vim-win32-installer",
     "vizzuhq/vizzu-lib",

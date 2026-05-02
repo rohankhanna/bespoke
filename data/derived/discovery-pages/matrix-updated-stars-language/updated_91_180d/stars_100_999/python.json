@@ -3,7 +3,7 @@
     "components": 299,
     "concepts": 531,
     "observations": 534,
-    "repos": 130,
+    "repos": 132,
     "terms": 526
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -20,6 +20,7 @@
     "agiresearch/A-mem",
     "ai4co/rl4co",
     "aim-uofa/Matcher",
+    "Akajiaku11/Air-Quality-Prediction-Model",
     "alex-petrenko/sample-factory",
     "ali-vilab/Wan-Move",
     "Alibaba-NLP/ViDoRAG",
@@ -133,6 +134,7 @@
     "w3c/trace-context",
     "walles/px",
     "wenet-e2e/wetts",
+    "wudongming97/TopoMLP",
     "xingchensong/S3Tokenizer",
     "xmlyqing00/AFB-URR",
     "yashsinghcodes/wik",

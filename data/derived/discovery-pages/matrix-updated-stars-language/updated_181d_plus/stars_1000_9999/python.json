@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 677,
-    "concepts": 2886,
-    "observations": 2888,
-    "repos": 724,
-    "terms": 2842
+    "components": 700,
+    "concepts": 2921,
+    "observations": 2923,
+    "repos": 737,
+    "terms": 2878
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "abewley/sort",
@@ -21,6 +21,7 @@
     "adbar/trafilatura",
     "adefossez/demucs",
     "adieyal/sd-dynamic-prompts",
+    "adobe/antialiased-cnns",
     "aesara-devs/aesara",
     "Agent-RL/ReCall",
     "agiresearch/OpenAGI",
@@ -28,6 +29,7 @@
     "AILab-CVC/YOLO-World",
     "aim-uofa/AdelaiDepth",
     "aim-uofa/AdelaiDet",
+    "aiortc/aioquic",
     "airaria/TextBrewer",
     "airbnb/binaryalert",
     "aiwaves-cn/agents",
@@ -106,6 +108,7 @@
     "bubbliiiing/yolo3-pytorch",
     "bubbliiiing/yolov4-pytorch",
     "bubbliiiing/yolov5-pytorch",
+    "ButTaiwan/iansui",
     "Buuntu/fastapi-react",
     "ByteDance-Seed/Bagel",
     "bytedance/byteps",
@@ -260,6 +263,7 @@
     "GaParmar/clean-fid",
     "GaParmar/img2img-turbo",
     "gemelo-ai/vocos",
+    "genforce/interfacegan",
     "GFW-knocker/gfw_resist_tls_proxy",
     "gligen/GLIGEN",
     "GOATmessi8/RFBNet",
@@ -286,6 +290,7 @@
     "guoqincode/Open-AnimateAnyone",
     "hako-mikan/sd-webui-lora-block-weight",
     "haoheliu/AudioLDM",
+    "HBNetwork/python-decouple",
     "hendrycks/math",
     "hendrycks/test",
     "henry123-boy/SpaTracker",
@@ -459,6 +464,7 @@
     "mozilla/http-observatory",
     "mps-youtube/pafy",
     "MrGemy95/Tensorflow-Project-Template",
+    "mrharicot/monodepth",
     "mseitzer/pytorch-fid",
     "msracver/Deformable-ConvNets",
     "multimodal-art-projection/YuE",
@@ -466,6 +472,7 @@
     "naoto0804/pytorch-AdaIN",
     "natanielruiz/deep-head-pose",
     "naver/dust3r",
+    "naver/mast3r",
     "ncm2/ncm2",
     "nerfstudio-project/nerfacc",
     "nlpxucan/WizardLM",
@@ -563,6 +570,7 @@
     "poloclub/diffusiondb",
     "predibase/lorax",
     "PRIME-RL/PRIME",
+    "princeton-vl/DROID-SLAM",
     "princeton-vl/RAFT",
     "project-baize/baize-chatbot",
     "Project-MONAI/research-contributions",
@@ -645,6 +653,7 @@
     "tensorflow/addons",
     "tensorflow/benchmarks",
     "tensorflow/mesh",
+    "tensorpack/tensorpack",
     "TensorSpeech/TensorFlowTTS",
     "Textualize/textual-web",
     "Theano/Theano",
@@ -694,6 +703,7 @@
     "VikParuchuri/texify",
     "visionml/pytracking",
     "WangYueFt/dgcnn",
+    "weiyithu/SurroundOcc",
     "whai362/PVT",
     "WongKinYiu/PyTorch_YOLOv4",
     "WongKinYiu/ScaledYOLOv4",
@@ -702,6 +712,8 @@
     "WXinlong/SOLO",
     "wzzheng/TPVFormer",
     "X-PLUG/mPLUG-Owl",
+    "xingyizhou/CenterNet",
+    "xingyizhou/CenterTrack",
     "xinntao/EDVR",
     "xinntao/ESRGAN",
     "XPixelGroup/BasicSR",
@@ -737,6 +749,7 @@
     "ZHO-ZHO-ZHO/ComfyUI-InstantID",
     "zhuzilin/ring-flash-attention",
     "zllrunning/face-parsing.PyTorch",
-    "znxlwm/UGATIT-pytorch"
+    "znxlwm/UGATIT-pytorch",
+    "zou-group/textgrad"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1547,
-    "concepts": 2258,
-    "observations": 2277,
-    "repos": 562,
-    "terms": 2204
+    "components": 1557,
+    "concepts": 2271,
+    "observations": 2290,
+    "repos": 566,
+    "terms": 2217
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -208,6 +208,7 @@
     "danielrosehill/Claude-Bug-Catcher",
     "danielrosehill/Claude-Calls-The-Shots",
     "danielrosehill/claude-code-linux-desktop-slash-commands",
+    "danielrosehill/Claude-Code-MCP-Command-Generator",
     "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
     "danielrosehill/OpenWebUI-Postgres-Qdrant",
     "DeepWok/mase-docker",
@@ -293,6 +294,7 @@
     "GoogleCloudPlatform/blueprints",
     "googlefonts/rubik",
     "graphql/composite-schemas-spec",
+    "gulvarol/surreact",
     "guochengqian/PointNeXt",
     "hackerb9/lsix",
     "harbor-framework/terminal-bench-2",
@@ -447,6 +449,7 @@
     "pyenv/pyenv-virtualenv",
     "pypa/manylinux",
     "pystardust/ytfzf",
+    "pyupio/safety-action",
     "quarkusio/quarkus-ecosystem-ci",
     "quicwg/base-drafts",
     "quicwg/qlog",
@@ -492,6 +495,7 @@
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
     "sclorg/s2i-perl-container",
+    "sclorg/s2i-php-container",
     "semgrep/mcp-marketplace",
     "sentriz/fish-pipenv",
     "serpro69/claude-in-docker",
@@ -547,7 +551,7 @@
     "trailofbits/claude-code-config",
     "trailofbits/claude-code-devcontainer",
     "tremby/imgur.sh",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "tzachar/sqlite_skim",
     "undeadlist/claude-code-agents",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 267,
-    "concepts": 423,
-    "observations": 423,
-    "repos": 100,
-    "terms": 419
+    "components": 272,
+    "concepts": 427,
+    "observations": 427,
+    "repos": 103,
+    "terms": 423
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -62,6 +62,7 @@
     "Instagram/LibCST",
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
+    "jazzband/django-configurations",
     "jessevig/bertviz",
     "junyanz/CatPapers",
     "KellerJordan/Muon",
@@ -104,6 +105,8 @@
     "Supervisor/supervisor",
     "Sygil-Dev/sygil-webui",
     "Teemu/pytest-sugar",
+    "Tencent-Hunyuan/HunyuanVideo-Avatar",
+    "Tencent/MimicMotion",
     "Tencent/TFace",
     "tensorflow/agents",
     "Trusted-AI/adversarial-robustness-toolbox",

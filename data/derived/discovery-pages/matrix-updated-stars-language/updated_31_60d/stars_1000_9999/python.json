@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 288,
-    "concepts": 459,
-    "observations": 459,
-    "repos": 75,
-    "terms": 457
+    "components": 294,
+    "concepts": 483,
+    "observations": 483,
+    "repos": 76,
+    "terms": 481
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "anapnoe/stable-diffusion-webui-ux",
@@ -34,6 +34,7 @@
     "django/channels",
     "docarray/docarray",
     "dolfies/discord.py-self",
+    "dynaconf/dynaconf",
     "explosion/spacy-models",
     "facebookresearch/fvcore",
     "facebookresearch/pytorch3d",

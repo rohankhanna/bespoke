@@ -3,7 +3,7 @@
     "components": 40,
     "concepts": 109,
     "observations": 109,
-    "repos": 126,
+    "repos": 128,
     "terms": 108
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -32,6 +32,7 @@
     "bxirobotics/robot_models",
     "carsakiller/LLS-Addons",
     "ChenMnZ/AutoGPTQ-bugfix",
+    "chi-cat/frp",
     "chriskempson/base16-templates",
     "connectai-e/dingtalk-claude",
     "ConnectAI-E/Dingtalk-Midjourney",
@@ -65,6 +66,7 @@
     "getlantern/lantern-forum-belarus",
     "getlantern/lantern-forum-fa",
     "getlantern/lantern-forum-ru",
+    "getlantern/lantern-forum-ukraine",
     "gnunicorn/cargo-unleash",
     "HarderThenHarder/OpenRLHF",
     "HDETR/H-Mask-Deformable-DETR",

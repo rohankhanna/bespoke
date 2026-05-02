@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 639,
-    "concepts": 163,
-    "observations": 164,
-    "repos": 32,
-    "terms": 161
+    "components": 667,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 34,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "all-contributors/app",
     "auth0/node-jwks-rsa",
@@ -30,6 +30,7 @@
     "hyparam/icebird",
     "j9t/html-minifier-next",
     "keithamus/sort-package-json",
+    "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",
     "mdn/data",
     "mdn/mdn-http-observatory",
@@ -44,6 +45,7 @@
     "rvagg/github-webhook-handler",
     "sveltejs/dts-buddy",
     "vllm-project/recipes",
+    "w3c/webref",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata"
   ]

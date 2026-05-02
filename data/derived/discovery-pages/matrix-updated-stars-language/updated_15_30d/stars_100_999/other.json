@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 903,
-    "concepts": 798,
-    "observations": 799,
-    "repos": 161,
-    "terms": 801
+    "components": 911,
+    "concepts": 805,
+    "observations": 806,
+    "repos": 163,
+    "terms": 808
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/luamake",
@@ -91,6 +91,7 @@
     "enjoy-digital/usb3_pipe",
     "ethereum/beacon-APIs",
     "ethpandaops/ethereum-helm-charts",
+    "EzequielRamis/zimdjson",
     "fanshiqing/grouped_gemm",
     "firebase/FirebaseUI-Flutter",
     "fourmolu/fourmolu",
@@ -105,6 +106,7 @@
     "HTTPArchive/almanac.httparchive.org",
     "huggingface/optimum-neuron",
     "janestreet/torch",
+    "jeremymailen/kotlinter-gradle",
     "jsdoc/jsdoc.github.io",
     "JuliaPluto/PlutoUI.jl",
     "JuliaRegistries/Registrator.jl",

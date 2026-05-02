@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2588,
-    "concepts": 1318,
-    "observations": 1325,
-    "repos": 185,
-    "terms": 1300
+    "components": 2618,
+    "concepts": 1330,
+    "observations": 1337,
+    "repos": 187,
+    "terms": 1314
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -19,7 +19,6 @@
     "666ghj/MiroFish",
     "abetlen/llama-cpp-python",
     "abiosoft/colima",
-    "acornjs/acorn",
     "adambard/learnxinyminutes-docs",
     "agarrharr/awesome-cli-apps",
     "ai/nanoid",
@@ -124,6 +123,7 @@
     "microsoft/OmniParser",
     "microsoft/playwright-mcp",
     "microsoft/pyright",
+    "microsoft/typescript-go",
     "microsoft/wslg",
     "mingrammer/diagrams",
     "mlc-ai/web-llm",
@@ -154,6 +154,7 @@
     "postcss/autoprefixer",
     "pre-commit/pre-commit",
     "preactjs/preact",
+    "pydantic/pydantic-ai",
     "pyenv/pyenv",
     "python/mypy",
     "qubvel-org/segmentation_models.pytorch",
@@ -170,6 +171,7 @@
     "simonw/datasette",
     "sindresorhus/awesome-nodejs",
     "slimtoolkit/slim",
+    "slopus/happy",
     "spotify/luigi",
     "squidfunk/mkdocs-material",
     "stretchr/testify",

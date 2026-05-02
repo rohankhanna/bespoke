@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 592,
-    "concepts": 424,
-    "observations": 428,
-    "repos": 103,
-    "terms": 424
+    "components": 602,
+    "concepts": 432,
+    "observations": 436,
+    "repos": 105,
+    "terms": 432
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "actboy168/json.lua",
     "AgentTorch/AgentTorch",
@@ -71,6 +71,7 @@
     "iftheshoefritz/solargraph-rails",
     "IST-DASLab/Quartet",
     "JuliaDebug/JuliaInterpreter.jl",
+    "JuliaImGui/CImGui.jl",
     "JuliaLogging/LoggingExtras.jl",
     "JunoLab/Weave.jl",
     "kendryte/nncase",
@@ -101,6 +102,7 @@
     "sandrohanea/whisper.net",
     "SciML/ColPrac",
     "scssphp/scssphp",
+    "sdbds/SageAttention-for-windows",
     "seancorfield/next-jdbc",
     "semver/semver.org",
     "sol/hpack",

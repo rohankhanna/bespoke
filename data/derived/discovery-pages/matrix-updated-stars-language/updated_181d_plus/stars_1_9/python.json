@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 358,
-    "concepts": 228,
-    "observations": 228,
-    "repos": 182,
-    "terms": 233
+    "concepts": 235,
+    "observations": 235,
+    "repos": 183,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-02T05:25:58.258401+00:00",
+  "generated_at": "2026-05-02T07:31:15.175647+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -25,6 +25,7 @@
     "5sControl/machine-control",
     "5sControl/min-max",
     "745165806/PaddleSpeechTask",
+    "abhijay9/attacking_perceptual_similarity_metrics",
     "AbhiLegend/DrugLiphphilicty",
     "adamb70/mdx-breakless-lists",
     "adapter-hub/adapter-transformers-legacy",
